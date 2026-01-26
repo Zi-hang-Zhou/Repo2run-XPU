@@ -108,3 +108,14 @@ venv/
 # 忽略数据库文件 (如果是本地文件版)
 *.db
 *.sqlite.build_cache/
+
+# 忽略临时补丁文件
+tmp_patches/
+
+# 忽略聚类结果和分析文件
+clustering_results/
+markdownlist/
+output_treatment/
+
+# 忽略克隆的外部仓库
+utils/repo/

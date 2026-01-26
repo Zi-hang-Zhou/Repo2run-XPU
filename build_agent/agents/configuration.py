@@ -93,11 +93,12 @@ Explanation: Clear all the items in the conflict list.''',
     return new_text
 
 class Configuration(Agent):
-    def __init__(self, sandbox, image_name, full_name, root_dir, llm="gpt-4o-2024-05-13", max_turn=70):
+    def __init__(self, sandbox, image_name, full_name, root_dir, llm="gpt-4o-2024-05-13", max_turn=70, enable_xpu=False):
         self.model = llm
         # self.model = "aws_claude35_sonnet"
         self.root_dir = root_dir
         self.max_turn = max_turn
+        self.enable_xpu = enable_xpu
         self.sandbox = sandbox
         self.sandbox_session = self.sandbox.get_session()
         self.full_name = full_name
@@ -122,8 +123,17 @@ class Configuration(Agent):
         # 假设 xpu.jsonl 位于 root_dir 目录下
         # --- [XPU INTEGRATION] ---
         # 初始化 XpuHandler (自动连接向量数据库)
-        self.xpu_handler = XpuHandler()
+        if self.enable_xpu:
+            self.xpu_handler = XpuHandler()
+            print("[XPU] XPU retrieval mechanism enabled.")
+        else:
+            self.xpu_handler = None
+            print("[XPU] XPU retrieval mechanism disabled (baseline mode).")
         # --------------------------------
+        # [XPU 逻辑] 初始化延迟评估队列
+        # 队列元素结构: { 'target_turn': int, 'candidates': List[dict], 'original_error_ids': Set[str] }
+        self.pending_hit_evals = []
+        self.hit_eval_window = 3  # 设置窗口大小 w = 3
         self.outer_commands = list()
         tools_list = ""
         for tool in self.tool_lib:
@@ -332,6 +342,35 @@ VERY IMPORTANT TIPS:
 
         while(turn < self.max_turn):
             turn += 1
+            # ================= [XPU NEW] 1. 检查窗口到期的评估项并发放奖励 =================
+            # 逻辑：如果当前轮次 >= 目标轮次，且该任务还在列表中（说明期间未复现错误），则按相似度瓜分奖励
+            active_evals = []
+            for eval_item in self.pending_hit_evals:
+                if turn >= eval_item['target_turn']:
+                    # --- 任务到期，发放奖励 ---
+                    candidates = eval_item['candidates'] # 包含 {'id':..., 'similarity':...}
+                    total_sim = sum(c['similarity'] for c in candidates)
+                    
+                    if total_sim > 0:
+                        updates = {}
+                        for c in candidates:
+                            # 按照相似度比例瓜分 1.0 分
+                            # 例如总分1.6，A占0.8 -> A得 0.5分
+                            score = c['similarity'] / total_sim
+                            updates[c['id']] = score
+                        
+                        # 调用数据库更新 (需要 xpu_vector_store 支持 update_telemetry_scores)
+                        print(f"[XPU-Reward] 延迟评估通过！第 {eval_item['start_turn']} 轮激发的 XPU 在窗口内未复现。更新分数: {updates}")
+                        try:
+                            if self.xpu_handler is not None:
+                                self.xpu_handler.vector_store.update_telemetry_scores(updates, 'hits')
+                        except AttributeError:
+                            print("[XPU-Error] vector_store 没有 update_telemetry_scores 方法，请检查 vector_store.py")
+                else:
+                    # --- 还没到期，保留继续观察 ---
+                    active_evals.append(eval_item)
+            self.pending_hit_evals = active_evals
+            # ===========================================================================
             finish = False
             GPT_start_time = time.time()
             current_messages = manage_token_usage(self.messages)
@@ -566,22 +605,51 @@ The edit format is as follows:
             reminder = f"\nENVIRONMENT REMINDER: You have {self.max_turn - turn} turns left to complete the task."
             system_res += reminder
             # =================== Experience Retrieval Integration ===================
-           # =================== [XPU INTEGRATION] 向量检索集成 ===================
+            # =================== [XPU INTEGRATION] 向量检索集成 (新版) ===================
             # 获取最近一次的观测结果 (包含报错信息)
             current_observation = locals().get('sandbox_res', '')
+
+            # 1. 调用 XpuHandler (仅当启用时)
+            # 注意：你需要确保 xpu_handler.py 的 retrieve_hints 返回三个值:
+            # (prompt_text, id_list, candidates_info_list)
+            # candidates_info 结构应该是: [{'id': 'xpu_1', 'similarity': 0.8}, ...]
+            if self.xpu_handler is not None:
+                xpu_hint_block, current_xpu_ids, candidates_info = self.xpu_handler.retrieve_hints(current_observation)
+            else:
+                xpu_hint_block, current_xpu_ids, candidates_info = "", [], []
+
+            # 2. 检查报错是否复现 (Punishment/Cancel)
+            # 如果当前检索到了 XPU 条目，说明出现了错误。我们需要检查这个错误是否对应某个正在等待评估的任务。
+            if current_xpu_ids:
+                current_id_set = set(current_xpu_ids)
+                new_pending = []
+                for eval_item in self.pending_hit_evals:
+                    # 取出该任务当时关联的所有 XPU ID
+                    original_ids = {c['id'] for c in eval_item['candidates']}
+                    
+                    # 如果当前检索到的 ID 与之前的任务 ID 有交集
+                    # 说明之前的修复失败了（或者同一个错误又发生了），取消那次评估
+                    if not current_id_set.isdisjoint(original_ids):
+                        print(f"[XPU-Punish] 评估取消！第 {eval_item['start_turn']} 轮的潜在错误在第 {turn} 轮复现 (IDs: {current_xpu_ids})。")
+                        # 丢弃该 item，不放入 new_pending
+                    else:
+                        new_pending.append(eval_item)
+                self.pending_hit_evals = new_pending
+
+                # 3. 注册新的评估任务 (Start New Eval)
+                # 只有当确实检索到东西时才注册
+                if candidates_info:
+                    self.pending_hit_evals.append({
+                        'start_turn': turn,
+                        'target_turn': turn + self.hit_eval_window,
+                        'candidates': candidates_info, 
+                    })
             
-            # 调用 XpuHandler: 自动检测错误 -> 向量搜索 -> 格式化建议
-            # (retrieve_hints 内部已经包含了去重和错误关键词检测逻辑)
-            xpu_hint_block, current_xpu_ids = self.xpu_handler.retrieve_hints(current_observation)
-            if last_round_xpu_ids:
-                self.xpu_handler.update_realtime_feedback(last_round_xpu_ids, current_xpu_ids)
-            
-            # [新增] 3. 更新缓存
+            # 4. 更新缓存并注入 Prompt
             last_round_xpu_ids = current_xpu_ids
             if xpu_hint_block:
-                # 3. 将“前人的智慧”注入给 LLM
                 system_res += "\n\n" + xpu_hint_block
-                print(f"[XPU] Injected hints based on current error.")
+                print(f"[XPU] Injected hints based on current error (Window={self.hit_eval_window}).")
             # ======================================================================
             # ========================================================================
             success_cmds = extract_cmds(self.sandbox.commands)
@@ -644,7 +712,8 @@ The edit format is as follows:
             if pip_list_return_code == 0:
                 with open(f'{self.root_dir}/output/{self.full_name}/pip_list.json', 'w') as w2:
                     w2.write(json.dumps(json.loads(pip_list), indent=4))
-        self.xpu_handler.finalize_session(task_success_flag)
+        if self.xpu_handler is not None:
+            self.xpu_handler.finalize_session(task_success_flag)
         append_trajectory(trajectory, self.messages, 'configuration')
         end_time0 = time.time()
         cost_time = end_time0 - start_time0

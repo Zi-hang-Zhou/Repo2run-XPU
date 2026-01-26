@@ -18,6 +18,8 @@ logger = logging.getLogger(__name__)
 EMBEDDING_DIM = int(os.environ.get("EMBEDDING_DIM", "1536"))
 
 
+
+
 def get_db_connection_string() -> str:
     """Get database connection string from environment."""
     dns = os.environ.get("dns")
@@ -320,5 +322,36 @@ class XpuVectorStore:
                 conn.commit()
         except Exception as e:
             logger.error(f"Failed to update telemetry ({field}): {e}")
+        finally:
+            self._put_conn(conn)
+
+    # === 支持批量更新浮点数分数 ===
+    def update_telemetry_scores(self, updates: Dict[str, float], field: str = 'hits'):
+        """
+        批量更新分数。
+        updates: { "xpu_id_1": 0.5, "xpu_id_2": 0.25 }
+        field: 'hits'
+        """
+        if not updates: return
+        conn = self._get_conn()
+        try:
+            with conn.cursor() as cur:
+                # 使用临时表或 VALUES 列表进行批量更新
+                # 这里使用简单的循环执行，因为通常 batch 只有几个，性能不是瓶颈
+                # 注意：SQL 中需要把旧值转为 float/numeric 再相加
+                for xpu_id, score in updates.items():
+                    sql = f"""
+                        UPDATE xpu_entries 
+                        SET telemetry = jsonb_set(
+                            COALESCE(telemetry, '{{}}'::jsonb), 
+                            '{{{field}}}', 
+                            to_jsonb(COALESCE((telemetry->>'{field}')::numeric, 0) + %s)
+                        )
+                        WHERE id = %s;
+                    """
+                    cur.execute(sql, (score, xpu_id))
+                conn.commit()
+        except Exception as e:
+            logger.error(f"Failed to update telemetry scores: {e}")
         finally:
             self._put_conn(conn)

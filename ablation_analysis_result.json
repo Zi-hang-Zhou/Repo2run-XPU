@@ -1,0 +1,21 @@
+{
+  "summary": {
+    "total_repos": 45,
+    "baseline_success": 0,
+    "treatment_success": 0,
+    "baseline_success_rate": 0.0,
+    "treatment_success_rate": 0.0,
+    "baseline_avg_turns": 60.3,
+    "treatment_avg_turns": 55.1
+  },
+  "comparison": {
+    "improved_by_xpu": 0,
+    "degraded_by_xpu": 0,
+    "both_success": 0,
+    "both_fail": 45,
+    "turns_reduced_in_success": 0,
+    "turns_increased_in_success": 0
+  },
+  "improved_repos": [],
+  "degraded_repos": []
+}

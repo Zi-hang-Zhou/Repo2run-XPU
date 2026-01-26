@@ -1,0 +1,246 @@
+{
+  "description": "Human-in-the-loop 顽固 Bad Case 列表",
+  "created_at": "2026-01-23",
+  "database_target": "postgresql://zihang:123456@localhost:5433/xpu_db",
+  "badcases": [
+    {
+      "id": "xpu_env_py_pkg_version_concat_001",
+      "type": "包名版本号连接问题",
+      "description": "LLM 将包名和版本号直接连接，如 'pycurl7.45.3' 而不是 'pycurl==7.45.3'",
+      "context": {
+        "lang": "python",
+        "os": ["linux"],
+        "python": ["3.8", "3.9", "3.10", "3.11", "3.12"],
+        "tools": ["pip", "waitinglist"]
+      },
+      "signals": {
+        "regex": [
+          "No matching distribution found for ([a-zA-Z][a-zA-Z0-9_-]+)(\\d+\\.\\d+[a-zA-Z0-9._-]*)",
+          "Could not find a version that satisfies the requirement ([a-zA-Z][a-zA-Z0-9_-]+)(\\d+\\.\\d+)"
+        ],
+        "keywords": [
+          "No matching distribution found",
+          "Could not find a version that satisfies"
+        ]
+      },
+      "advice_nl": [
+        "检测到包名和版本号被错误连接。正确格式应为 'package==version' 或 'package>=version'。",
+        "例如：'pycurl7.45.3' 应该写成 'pycurl==7.45.3'。",
+        "使用 waitinglist 命令时，格式应为: waitinglist add -p 包名 -v 版本号 -t pip",
+        "包名和版本号必须分开写，不能直接连接在一起。"
+      ],
+      "atoms": [
+        {
+          "name": "fix_package_version_format",
+          "args": {
+            "pattern": "将 'package1.2.3' 格式修正为 'package==1.2.3' 格式"
+          }
+        }
+      ],
+      "examples": [
+        {"wrong": "pycurl7.45.3", "correct": "pycurl==7.45.3"},
+        {"wrong": "pycparser2.21", "correct": "pycparser==2.21"},
+        {"wrong": "googletrans3.1.0a0", "correct": "googletrans==3.1.0a0"},
+        {"wrong": "parsedatetime2.1", "correct": "parsedatetime==2.1"}
+      ]
+    },
+    {
+      "id": "xpu_env_py_waitinglist_format_001",
+      "type": "Waitinglist 命令格式错误",
+      "description": "使用 waitinglist add 命令时缺少必要参数 -v 和 -t",
+      "context": {
+        "lang": "python",
+        "os": ["linux"],
+        "python": ["3.8", "3.9", "3.10", "3.11", "3.12"],
+        "tools": ["waitinglist", "pip"]
+      },
+      "signals": {
+        "regex": [
+          "waitinglist command usage error",
+          "waitinglist add -p ([a-zA-Z0-9_-]+)$"
+        ],
+        "keywords": [
+          "waitinglist command usage error",
+          "returncode: 127"
+        ]
+      },
+      "advice_nl": [
+        "waitinglist add 命令需要完整的参数格式。",
+        "正确格式: waitinglist add -p 包名 -v 版本号 -t 工具名",
+        "例如: waitinglist add -p requests -v 2.28.0 -t pip",
+        "如果不知道版本号，可以省略 -v 参数，但 -t pip 是必须的。"
+      ],
+      "atoms": [
+        {
+          "name": "fix_waitinglist_command",
+          "args": {
+            "correct_format": "waitinglist add -p PACKAGE -v VERSION -t pip"
+          }
+        }
+      ],
+      "examples": [
+        {"wrong": "waitinglist add -p requests", "correct": "waitinglist add -p requests -v 2.28.0 -t pip"},
+        {"wrong": "waitinglist add -p numpy", "correct": "waitinglist add -p numpy -t pip"}
+      ]
+    },
+    {
+      "id": "xpu_env_py_pycurl_sysdep_001",
+      "type": "pycurl 系统依赖缺失",
+      "description": "安装 pycurl 时缺少 libcurl 开发包",
+      "context": {
+        "lang": "python",
+        "os": ["linux", "debian", "ubuntu"],
+        "python": ["3.8", "3.9", "3.10", "3.11", "3.12"],
+        "tools": ["pip", "apt"]
+      },
+      "signals": {
+        "regex": [
+          "curl-config not found",
+          "Could not run curl-config",
+          "Please specify --curl-dir"
+        ],
+        "keywords": [
+          "curl-config",
+          "pycurl",
+          "libcurl"
+        ]
+      },
+      "advice_nl": [
+        "pycurl 需要 libcurl 开发包才能编译安装。",
+        "在 Debian/Ubuntu 系统上，需要先运行: apt-get install -y libcurl4-openssl-dev",
+        "安装系统依赖后再安装 pycurl: pip install pycurl"
+      ],
+      "atoms": [
+        {
+          "name": "apt_install",
+          "args": {
+            "packages": ["libcurl4-openssl-dev"]
+          }
+        },
+        {
+          "name": "pip_install",
+          "args": {
+            "packages": ["pycurl"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "xpu_env_py_psycopg2_sysdep_001",
+      "type": "psycopg2 系统依赖缺失",
+      "description": "安装 psycopg2 时缺少 PostgreSQL 开发包",
+      "context": {
+        "lang": "python",
+        "os": ["linux", "debian", "ubuntu"],
+        "python": ["3.8", "3.9", "3.10", "3.11", "3.12"],
+        "tools": ["pip", "apt"]
+      },
+      "signals": {
+        "regex": [
+          "pg_config executable not found",
+          "Error: pg_config not found"
+        ],
+        "keywords": [
+          "pg_config",
+          "psycopg2",
+          "libpq"
+        ]
+      },
+      "advice_nl": [
+        "psycopg2 需要 PostgreSQL 开发包才能编译安装。",
+        "在 Debian/Ubuntu 系统上，需要先运行: apt-get install -y libpq-dev",
+        "或者使用预编译版本: pip install psycopg2-binary"
+      ],
+      "atoms": [
+        {
+          "name": "apt_install",
+          "args": {
+            "packages": ["libpq-dev"]
+          }
+        },
+        {
+          "name": "pip_install",
+          "args": {
+            "packages": ["psycopg2"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "xpu_env_py_mysqlclient_sysdep_001",
+      "type": "mysqlclient 系统依赖缺失",
+      "description": "安装 mysqlclient 时缺少 MySQL 开发包",
+      "context": {
+        "lang": "python",
+        "os": ["linux", "debian", "ubuntu"],
+        "python": ["3.8", "3.9", "3.10", "3.11", "3.12"],
+        "tools": ["pip", "apt"]
+      },
+      "signals": {
+        "regex": [
+          "mysql_config not found",
+          "OSError: mysql_config not found"
+        ],
+        "keywords": [
+          "mysql_config",
+          "mysqlclient",
+          "MySQLdb"
+        ]
+      },
+      "advice_nl": [
+        "mysqlclient 需要 MySQL 开发包才能编译安装。",
+        "在 Debian/Ubuntu 系统上，需要先运行: apt-get install -y default-libmysqlclient-dev",
+        "然后再安装: pip install mysqlclient"
+      ],
+      "atoms": [
+        {
+          "name": "apt_install",
+          "args": {
+            "packages": ["default-libmysqlclient-dev"]
+          }
+        },
+        {
+          "name": "pip_install",
+          "args": {
+            "packages": ["mysqlclient"]
+          }
+        }
+      ]
+    },
+    {
+      "id": "xpu_env_py_python_dev_001",
+      "type": "Python 开发头文件缺失",
+      "description": "编译 Python 扩展时缺少 Python.h 头文件",
+      "context": {
+        "lang": "python",
+        "os": ["linux", "debian", "ubuntu"],
+        "python": ["3.8", "3.9", "3.10", "3.11", "3.12"],
+        "tools": ["pip", "apt", "gcc"]
+      },
+      "signals": {
+        "regex": [
+          "fatal error: Python\\.h: No such file",
+          "fatal error: Python\\.h"
+        ],
+        "keywords": [
+          "Python.h",
+          "fatal error",
+          "No such file"
+        ]
+      },
+      "advice_nl": [
+        "编译某些 Python 包需要 Python 开发头文件。",
+        "在 Debian/Ubuntu 系统上，需要运行: apt-get install -y python3-dev",
+        "对于特定 Python 版本，如 3.10，运行: apt-get install -y python3.10-dev"
+      ],
+      "atoms": [
+        {
+          "name": "apt_install",
+          "args": {
+            "packages": ["python3-dev"]
+          }
+        }
+      ]
+    }
+  ]
+}

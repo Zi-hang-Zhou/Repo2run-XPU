@@ -117,7 +117,7 @@ class XpuHandler:
         # 3. 判断是否需要查询
         # 注意：如果不查询，返回空字符串和空列表
         if not self._should_query_xpu(log_snippet, has_error):
-            return "", []
+            return "", [], []
 
         # 4. 执行查询
         try:
@@ -167,11 +167,21 @@ class XpuHandler:
             self.session_used_ids.update(candidate_ids)
 
             # 6. 渲染
-            return render_candidates_block(candidates), candidate_ids
+            candidates_info = []
+            for res, entry in zip(results, candidates):
+            # res 是 vector_store.search 返回的原始 dict，包含 similarity
+            # entry 是转换后的 XpuEntry 对象
+                candidates_info.append({
+                "id": entry.id,
+                "similarity": res.get("similarity", 0.0)
+                })
+
+        # 返回三个值：渲染文本，ID列表（旧兼容），详细信息（新逻辑用）
+            return render_candidates_block(candidates), candidate_ids, candidates_info
 
         except Exception as e:
             logger.error(f"[XPU] Error during retrieval: {e}")
-            return "", []
+            return "", [], []
     
     def update_realtime_feedback(self, last_ids: List[str], current_ids: List[str]):
         """

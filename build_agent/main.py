@@ -108,6 +108,8 @@ def main():
     parser.add_argument('--sha', type=str, help='sha')
     parser.add_argument('--root_path', type=str, help='root path')
     parser.add_argument('--llm', type=str, default='gpt-4o-2024-05-13', help='base LLM name')
+    parser.add_argument('--enable_xpu', action='store_true', default=False, help='Enable XPU retrieval mechanism')
+    parser.add_argument('--online_xpu', action='store_true', default=False, help='Enable online XPU extraction (extract and store XPU after each repo)')
 
     args = parser.parse_args()
 
@@ -122,7 +124,10 @@ def main():
     full_name = args.full_name
     sha = args.sha
     llm = args.llm
+    enable_xpu = args.enable_xpu
+    online_xpu = args.online_xpu
     print(full_name)
+    print(f"XPU Enabled: {enable_xpu}")
     # if os.path.exists(f'{root_path}/{full_name}/TIMEOUT'):
     #     sys.exit(123)
     print(sha)
@@ -153,7 +158,7 @@ def main():
 
     configuration_sandbox = Sandbox("python:3.10", full_name, root_path)
     configuration_sandbox.start_container()
-    configuration_agent = Configuration(configuration_sandbox, 'python:3.10', full_name, root_path, llm, 100)
+    configuration_agent = Configuration(configuration_sandbox, 'python:3.10', full_name, root_path, llm, 100, enable_xpu)
     msg, outer_commands = configuration_agent.run('/tmp', trajectory, waiting_list, conflict_list)
     with open(f'{root_path}/output/{full_name.split("/")[0]}/{full_name.split("/")[1]}/track.json', 'w') as w1:
         w1.write(json.dumps(msg, indent=4))
@@ -162,15 +167,36 @@ def main():
         w2.write(json.dumps(commands, indent=4))
     with open(f'{root_path}/output/{full_name.split("/")[0]}/{full_name.split("/")[1]}/outer_commands.json', 'w') as w3:
         w3.write(json.dumps(outer_commands, indent=4))
+    is_success = False
     try:
         integrate_dockerfile(f'{root_path}/output/{full_name}')
         msg = f'Generate success!'
+        is_success = True
         with open(f'{root_path}/output/{full_name}/track.txt', 'a') as a1:
             a1.write(msg + '\n')
     except Exception as e:
         msg = f'integrate_docker failed, reason:\n {e}'
         with open(f'{root_path}/output/{full_name}/track.txt', 'a') as a1:
             a1.write(msg + '\n')
+
+    # 在线 XPU 提取模式：任务完成后自动提取并存储经验
+    if online_xpu:
+        try:
+            from xpu.online_xpu_extractor import online_extract_and_store
+            print(f"🔄 [Online XPU] 开始提取经验...")
+            result = online_extract_and_store(
+                repo_name=full_name,
+                output_dir=f'{root_path}/output/{full_name}',
+                sha=sha
+            )
+            if result.get("stored"):
+                print(f"✅ [Online XPU] 经验已存入数据库: {result.get('xpu_id')}")
+            elif result.get("extracted"):
+                print(f"⚠️ [Online XPU] 提取成功但存储失败: {result.get('reason')}")
+            else:
+                print(f"ℹ️ [Online XPU] 跳过: {result.get('reason')}")
+        except Exception as e:
+            print(f"❌ [Online XPU] 提取失败: {e}")
 
 if __name__ == '__main__':
     try:
