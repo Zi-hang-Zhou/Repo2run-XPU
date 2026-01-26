@@ -5,8 +5,8 @@
 pip install -r requirements.txt
 
 # 设置必需的环境变量
-export OPENAI_API_KEY="sk-..."           # 必需：LLM API 密钥
-export OPENAI_BASE_URL="..."             # 可选：自定义 API 端点
+export OPENAI_API_KEY="sk-..."           
+export OPENAI_BASE_URL="..."             
 
 # 可选：启用 XPU 知识库
 export dns="postgresql://user:pass@host:5433/db"
