@@ -1,8 +1,0 @@
-
-/repo/setup.py
-<<<<<<< requires = [
-    'PyYAML >= 3.11, < 5.0',
-=======
-requires = [
-    'PyYAML',
->>>>>>> REPLACE
