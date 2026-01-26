@@ -25,7 +25,6 @@ MANIFEST
 venv/
 env/
 ENV/
-.env
 .venv
 env.bak/
 venv.bak/
@@ -83,7 +82,6 @@ db.sqlite3
 db.sqlite3-journal
 
 # Project specific
-*.env
 output/
 logs/
 temp/
@@ -96,8 +94,7 @@ data/
 __pycache__/
 *.pyc
 
-# 忽略环境配置和密钥 (绝对不能上传！！！)
-.env
+# 忽略虚拟环境
 .venv/
 venv/
 
