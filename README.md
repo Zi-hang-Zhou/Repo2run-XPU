@@ -1,14 +1,14 @@
 从 python329.jsonl 开始运行 Repo2Run
 1. 环境准备
 
-# 安装依赖
+安装依赖
 pip install -r requirements.txt
 
-# 设置必需的环境变量
+设置必需的环境变量
 export OPENAI_API_KEY="sk-..."           
 export OPENAI_BASE_URL="..."             
 
-# 可选：启用 XPU 知识库
+可选：启用 XPU 知识库
 export dns="postgresql://user:pass@host:5433/db"
 2. 运行方式
 方式 A：处理单个仓库
@@ -20,10 +20,11 @@ python build_agent/main.py \
   --llm "gpt-4o-2024-05-13"
 方式 B：批量处理所有仓库
 
-# 步骤 1: 生成任务列表
+步骤 1: 生成任务列表
 python generate_tasks.py
 生成 tasks.txt
-# 步骤 2: 多进程并行运行（3个进程）
+
+步骤 2: 多进程并行运行
 python build_agent/multi_main.py tasks.txt
 
 3. python329.jsonl 数据格式
@@ -51,6 +52,6 @@ python329.jsonl → generate_tasks.py → tasks.txt
                                output/{author}/{repo}/Dockerfile
 6. 可选参数
 
---enable_xpu    # 启用知识库检索（需配置数据库）
---online_xpu    # 启用在线经验提取
---max_turn 100  # 最大 LLM 交互轮次
+--enable_xpu    启用知识库检索（需配置数据库）
+--online_xpu    启用在线经验提取
+--max_turn 100  最大 LLM 交互轮次
