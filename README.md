@@ -9,7 +9,8 @@ export OPENAI_API_KEY="sk-..."
 export OPENAI_BASE_URL="..."             
 
 可选：启用 XPU 知识库
-export dns="postgresql://user:pass@host:5433/db"
+export dns=postgresql://zihang:123456@localhost:5433/xpu_db
+
 2. 运行方式
 方式 A：处理单个仓库
 
