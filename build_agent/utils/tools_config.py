@@ -95,3 +95,12 @@ class Tools(Enum):
         "command": 'clear_configuration',
         "description": "Reset all the configuration to the initial setting of python:3.10."
     }
+    reset_environment = {
+        "command": 'reset_environment',
+        "description": (
+            "Reset the Docker container to its initial state: the repository code (/repo) is intact, "
+            "but all installed packages are removed. Use this when the environment is too broken to recover "
+            "(e.g., conflicting dependencies, corrupted venv) and you want to start fresh without losing the repo files. "
+            "Prefer this over `clear_configuration` when you want to keep the repo code."
+        )
+    }

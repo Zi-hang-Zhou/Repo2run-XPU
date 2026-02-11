@@ -30,8 +30,8 @@ sys.path.append(os.path.join(os.path.dirname(__file__), '..'))
 # Add project root to path
 
 
-from build_agent.xpu.xpu_adapter import XpuEntry, load_xpu_entries
-from build_agent.xpu.xpu_vector_store import (
+from xpu.xpu_adapter import XpuEntry, load_xpu_entries
+from xpu.xpu_vector_store import (
     XpuVectorStore,
     build_xpu_text,
     text_to_embedding,
@@ -162,7 +162,7 @@ def index_xpu_file(
     failed = 0
     skipped = 0
     
-    from build_agent.xpu.xpu_dedup import dedup_and_store
+    from xpu.xpu_dedup import dedup_and_store
 
     merged = 0
 

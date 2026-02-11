@@ -209,6 +209,66 @@ RUN mkdir -p /repo && git config --global --add safe.directory /repo
             print(f"Error committing container: {e}")
             return None
 
+    def save_initial_state(self):
+        """保存容器初始状态快照（代码已复制、但尚未安装任何依赖时调用）。
+
+        用于支持 reset_environment 命令，使 Agent 能回退到干净的初始状态。
+        """
+        try:
+            delete_dangling_image()
+            repo_tag = f"{self.full_name.lower().replace('/', '_').replace('-', '_')}"
+            self.container.commit(repository=repo_tag, tag='init')
+            print(f"[Sandbox] Initial state saved as {repo_tag}:init")
+            return True
+        except Exception as e:
+            print(f"[Sandbox] Warning: Failed to save initial state: {e}")
+            return False
+
+    def reset_to_initial_state(self):
+        """重置容器到初始状态（仓库代码已存在，但无任何已安装依赖）。
+
+        与 switch_to_pre_image() 不同，此方法回退到部署开始时的快照，
+        而不是上一条命令前的快照。
+        """
+        try:
+            init_image_name = f"{self.full_name.lower().replace('/', '_').replace('-', '_')}:init"
+
+            # 停止并移除当前容器
+            if self.container:
+                self.container.stop()
+                self.container.remove()
+                delete_dangling_image()
+
+            host_path = '/tmp/patch'
+            container_path = '/tmp/patch'
+            # 从 init 镜像启动新容器
+            self.container = self.client.containers.run(
+                init_image_name,
+                detach=True,
+                tty=True,
+                stdin_open=True,
+                volumes={host_path: {'bind': container_path, 'mode': 'rw'}},
+                privileged=True,
+                mem_limit='30g',
+                network_mode='host',
+                cpuset_cpus='0-19',
+            )
+
+            # 清空命令历史（因为已回到初始状态，之前的命令不再有效）
+            self.commands = []
+
+            # 启动新的 shell 会话
+            self.start_shell()
+            print(f"[Sandbox] Environment successfully reset to initial state")
+            return True
+
+        except docker.errors.ImageNotFound as e:
+            print(f"[Sandbox] Initial state image not found ({init_image_name}): {e}")
+            return False
+        except Exception as e:
+            print(f"[Sandbox] Error resetting to initial state: {e}")
+            return False
+
     def switch_to_pre_image(self):
         try:
             # tmp_image_name = "running_env:tmp"
@@ -303,6 +363,11 @@ RUN mkdir -p /repo && git config --global --add safe.directory /repo
             cmd_repo = f"docker cp {repo_path_to_copy} {self.container.name}:/"
             subprocess.run(cmd_repo, check=True, shell=True)
             # --- 修复结束 ---
+
+            # 4. 保存初始状态快照（代码已复制，尚未安装依赖）
+            # 用于支持 reset_environment 命令（Agent 可主动回退到此状态）
+            self.save_initial_state()
+
             return 1
         except Exception as e:
             print(f"Container start faild: {e}")

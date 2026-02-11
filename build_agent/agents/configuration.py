@@ -134,6 +134,12 @@ class Configuration(Agent):
         # 队列元素结构: { 'target_turn': int, 'candidates': List[dict], 'original_error_ids': Set[str] }
         self.pending_hit_evals = []
         self.hit_eval_window = 3  # 设置窗口大小 w = 3
+
+        # [回退机制] 自动检测卡死状态的计数器
+        # 当同一错误持续出现且所有 XPU 经验批次已耗尽时，提示 Agent 考虑 reset_environment
+        self._stuck_error_hash = None       # 当前连续出现的错误哈希
+        self._stuck_turn_count = 0          # 该错误连续出现的轮次数
+        self._last_auto_hint_turn = -999    # 上次发出自动提示的轮次（防止刷屏）
         self.outer_commands = list()
         tools_list = ""
         for tool in self.tool_lib:
@@ -187,7 +193,9 @@ WORK PROCESS:
     *Note*: For modules not found in the error message, first check if the corresponding module is available in the project folder before proceeding with external downloads. For example, if you encounter an error stating ModuleNotFoundError: No module named 'my_module', check if there is a file named my_module.py in your project directory. If it is not present, then you can look for the module externally and download it if necessary.
     *Note*: Do not use external download tools like `git clone` or `wget` to download a large number of files directly in the /repo folder (or its subdirectories) to avoid causing significant changes to the original repository.
     *Note*: Flexibility: You do not need to complete all configurations in one go. If you are unsure whether the configuration is approximately complete, you can use the `runtest` or `poetryruntest`(When you configured in poetry environment) command. I will check the configured environment and return any error messages. Based on the error messages, you can make further adjustments.
-    *Note*: In special cases, if you feel that the Docker environment has become too messy to achieve your goal, you can use `clear_configuration` command to restore it to the initial Python 3.10 environment or `change_python_version` and start over.
+    *Note*: In special cases, if you feel that the Docker environment has become too messy to achieve your goal, you have two reset options:
+    - `reset_environment`: Resets the container back to the state right after the repository was copied in (repo code is intact, but all installed packages are cleared). This is the preferred option when you want to keep the repository files and start fresh with package installation.
+    - `clear_configuration`: Resets to a base Python 3.10 image (all changes, including repo files, are discarded). Use this only when you also need to change the base Python version.
 **Most Important!** You can execute `runtest` or `poetryruntest` anywhere when you decide to test the environment. You do not need to complete all the previous steps; you can directly run `runtest` or `poetryruntest` to check if the configuration is complete and get feedback from the error messages. Be flexible. Our goal is to pass the runtest or poetryruntest checks.
 If you encounter import errors such as ModuleNotFoundError or ImportError, you can consider two solutions. One solution is to use external tools like pip or apt-get to download these dependencies. The other solution is to check for local dependencies in the repository; if local dependencies are available, you can use `export PYTHONPATH=` statements to set environment variables (preferably), or modify the __init__.py file to resolve the issue.
 Please note that when manually using pip, apt-get, poetry, or other tools to download third-party libraries, try to use the `-q` (quiet) mode if available to reduce intermediate progress bar outputs. Additionally, we will help remove more obvious progress bar information to minimize interference with the analysis.
@@ -438,6 +446,36 @@ VERY IMPORTANT TIPS:
                             self.sandbox.commands[-1]["time"] = elasped_time
                         continue
                     
+                    # 回退到初始状态（代码已复制，无任何已安装依赖）
+                    if commands[i].strip() == 'reset_environment':
+                        try:
+                            success = self.sandbox.reset_to_initial_state()
+                            if success:
+                                self.sandbox_session = self.sandbox.get_session()
+                                self.sandbox.commands.append({"command": 'reset_environment', "returncode": 0, "time": -1})
+                                res = (
+                                    "Successfully reset the Docker environment to its initial state. "
+                                    "The repository code (/repo) is still present, but all previously installed packages have been removed. "
+                                    "You can start fresh from this clean state. "
+                                    "Note: the previous installation history has been cleared."
+                                )
+                            else:
+                                res = (
+                                    "Failed to reset environment: initial state snapshot not found. "
+                                    "Try `clear_configuration` to reset to Python 3.10 base instead."
+                                )
+                            print(res)
+                            system_res += res
+                        except Exception as e:
+                            res = f"Error resetting environment: {e}"
+                            print(res)
+                            self.outer_commands[-1]["returncode"] = 1
+                            system_res += res
+                        end_time = time.time()
+                        self.outer_commands[-1]["time"] = end_time - start_time
+                        self.outer_commands[-1]["returncode"] = 0
+                        continue
+
                     # 恢复最初版本
                     if commands[i].strip() == 'clear_configuration':
                         try:
@@ -650,6 +688,38 @@ The edit format is as follows:
             if xpu_hint_block:
                 system_res += "\n\n" + xpu_hint_block
                 print(f"[XPU] Injected hints based on current error (Window={self.hit_eval_window}).")
+
+            # 5. [回退机制] 自动检测卡死状态
+            # 当检测到同一错误连续出现且 XPU 无法提供新经验时，提示 Agent 考虑 reset_environment
+            if self.xpu_handler is not None and current_observation:
+                has_error_now = self.xpu_handler._check_has_error(current_observation)
+                if has_error_now and xpu_hint_block == "":
+                    # 有错误但 XPU 返回空（经验已耗尽或无匹配）
+                    import hashlib as _hashlib
+                    cur_err_hash = _hashlib.md5(current_observation[:500].encode('utf-8')).hexdigest()
+                    if cur_err_hash == self._stuck_error_hash:
+                        self._stuck_turn_count += 1
+                    else:
+                        self._stuck_error_hash = cur_err_hash
+                        self._stuck_turn_count = 1
+
+                    # 同一错误出现 3 次且无新经验，且距上次提示超过 5 轮 → 自动提示
+                    if (self._stuck_turn_count >= 3 and
+                            turn - self._last_auto_hint_turn >= 5):
+                        self._last_auto_hint_turn = turn
+                        auto_hint = (
+                            "\n\n[SYSTEM HINT - Environment Stuck Detected] "
+                            "The same error has persisted for 3+ consecutive turns and all available XPU experiences have been exhausted. "
+                            "The current Docker environment may be in an unrecoverable state. "
+                            "Consider using `reset_environment` to restore the container to its initial state "
+                            "(repository code intact, no packages installed) and try a different approach."
+                        )
+                        system_res += auto_hint
+                        print(f"[XPU-AutoHint] Turn {turn}: Same error stuck for {self._stuck_turn_count} turns. Hint injected.")
+                else:
+                    # 有新经验或无错误，重置计数器
+                    self._stuck_error_hash = None
+                    self._stuck_turn_count = 0
             # ======================================================================
             # ========================================================================
             success_cmds = extract_cmds(self.sandbox.commands)
@@ -714,6 +784,8 @@ The edit format is as follows:
                     w2.write(json.dumps(json.loads(pip_list), indent=4))
         if self.xpu_handler is not None:
             self.xpu_handler.finalize_session(task_success_flag)
+            # 注意：部署后经验提取由 main.py 的 --online_xpu 模式统一处理
+            # （调用 online_xpu_extractor.online_extract_and_store），此处不重复
         append_trajectory(trajectory, self.messages, 'configuration')
         end_time0 = time.time()
         cost_time = end_time0 - start_time0

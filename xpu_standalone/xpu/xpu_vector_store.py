@@ -10,7 +10,7 @@ import psycopg2
 from psycopg2.extras import execute_values
 from psycopg2.pool import ThreadedConnectionPool
 
-from build_agent.xpu.xpu_adapter import XpuEntry, XpuContext
+from xpu.xpu_adapter import XpuEntry, XpuContext
 
 logger = logging.getLogger(__name__)
 
