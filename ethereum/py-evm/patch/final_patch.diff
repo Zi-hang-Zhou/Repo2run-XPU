@@ -1,0 +1,12 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index 590a0317..dec9245d 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -72,6 +72,7 @@ log_date_format = "%m-%d %H:%M:%S"
+ log_format = "%(levelname)8s  %(asctime)s  %(filename)20s  %(message)s"
+ timeout = 300
+ xfail_strict = true
++norecursedirs = ["fixtures", "fixtures_eest", ".git", "dist", "build"]
+ 
+ [tool.towncrier]
+ # Read https://github.com/ethereum/py-evm/blob/main/newsfragments/README.md for instructions

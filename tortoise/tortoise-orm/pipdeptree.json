@@ -1,0 +1,451 @@
+[
+    {
+        "key": "aiomysql",
+        "package_name": "aiomysql",
+        "installed_version": "0.3.2",
+        "required_version": "0.3.2",
+        "dependencies": [
+            {
+                "key": "pymysql",
+                "package_name": "PyMySQL",
+                "installed_version": "1.1.2",
+                "required_version": ">=1.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "asyncodbc",
+        "package_name": "asyncodbc",
+        "installed_version": "0.1.1",
+        "required_version": "0.1.1",
+        "dependencies": [
+            {
+                "key": "pyodbc",
+                "package_name": "pyodbc",
+                "installed_version": "5.3.0",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "asyncpg",
+        "package_name": "asyncpg",
+        "installed_version": "0.31.0",
+        "required_version": "0.31.0",
+        "dependencies": [
+            {
+                "key": "async-timeout",
+                "package_name": "async-timeout",
+                "installed_version": "5.0.1",
+                "required_version": ">=4.0.3",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "fastapi",
+        "package_name": "fastapi",
+        "installed_version": "0.133.1",
+        "required_version": "0.133.1",
+        "dependencies": [
+            {
+                "key": "annotated-doc",
+                "package_name": "annotated-doc",
+                "installed_version": "0.0.4",
+                "required_version": ">=0.0.2",
+                "dependencies": []
+            },
+            {
+                "key": "pydantic",
+                "package_name": "pydantic",
+                "installed_version": "2.12.5",
+                "required_version": ">=2.7.0",
+                "dependencies": [
+                    {
+                        "key": "annotated-types",
+                        "package_name": "annotated-types",
+                        "installed_version": "0.7.0",
+                        "required_version": ">=0.6.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pydantic-core",
+                        "package_name": "pydantic_core",
+                        "installed_version": "2.41.5",
+                        "required_version": "==2.41.5",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.14.1",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.14.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "typing-inspection",
+                        "package_name": "typing-inspection",
+                        "installed_version": "0.4.2",
+                        "required_version": ">=0.4.2",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.12.0",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "starlette",
+                "package_name": "starlette",
+                "installed_version": "0.52.1",
+                "required_version": ">=0.40.0",
+                "dependencies": [
+                    {
+                        "key": "anyio",
+                        "package_name": "anyio",
+                        "installed_version": "4.12.1",
+                        "required_version": ">=3.6.2,<5",
+                        "dependencies": [
+                            {
+                                "key": "exceptiongroup",
+                                "package_name": "exceptiongroup",
+                                "installed_version": "1.3.1",
+                                "required_version": ">=1.0.2",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.6.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "idna",
+                                "package_name": "idna",
+                                "installed_version": "3.11",
+                                "required_version": ">=2.8",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.10.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "typing-extensions",
+                "package_name": "typing_extensions",
+                "installed_version": "4.15.0",
+                "required_version": ">=4.8.0",
+                "dependencies": []
+            },
+            {
+                "key": "typing-inspection",
+                "package_name": "typing-inspection",
+                "installed_version": "0.4.2",
+                "required_version": ">=0.4.2",
+                "dependencies": [
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.12.0",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.31.0",
+        "required_version": "2.31.0",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            },
+            {
+                "key": "pip",
+                "package_name": "pip",
+                "installed_version": "26.0.1",
+                "required_version": ">=25.2",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "psycopg",
+        "package_name": "psycopg",
+        "installed_version": "3.3.3",
+        "required_version": "3.3.3",
+        "dependencies": [
+            {
+                "key": "typing-extensions",
+                "package_name": "typing_extensions",
+                "installed_version": "4.15.0",
+                "required_version": ">=4.6",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "psycopg-pool",
+        "package_name": "psycopg-pool",
+        "installed_version": "3.3.0",
+        "required_version": "3.3.0",
+        "dependencies": [
+            {
+                "key": "typing-extensions",
+                "package_name": "typing_extensions",
+                "installed_version": "4.15.0",
+                "required_version": ">=4.6",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pytest",
+        "package_name": "pytest",
+        "installed_version": "9.0.2",
+        "required_version": "9.0.2",
+        "dependencies": [
+            {
+                "key": "exceptiongroup",
+                "package_name": "exceptiongroup",
+                "installed_version": "1.3.1",
+                "required_version": ">=1",
+                "dependencies": [
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.6.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "iniconfig",
+                "package_name": "iniconfig",
+                "installed_version": "2.3.0",
+                "required_version": ">=1.0.1",
+                "dependencies": []
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=22",
+                "dependencies": []
+            },
+            {
+                "key": "pluggy",
+                "package_name": "pluggy",
+                "installed_version": "1.6.0",
+                "required_version": ">=1.5,<2",
+                "dependencies": []
+            },
+            {
+                "key": "pygments",
+                "package_name": "Pygments",
+                "installed_version": "2.19.2",
+                "required_version": ">=2.7.2",
+                "dependencies": []
+            },
+            {
+                "key": "tomli",
+                "package_name": "tomli",
+                "installed_version": "2.4.0",
+                "required_version": ">=1",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "setuptools",
+        "package_name": "setuptools",
+        "installed_version": "79.0.1",
+        "required_version": "79.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "tortoise-orm",
+        "package_name": "tortoise-orm",
+        "installed_version": "0.25.3",
+        "required_version": "0.25.3",
+        "dependencies": [
+            {
+                "key": "aiosqlite",
+                "package_name": "aiosqlite",
+                "installed_version": "0.22.1",
+                "required_version": ">=0.16.0,<1.0.0",
+                "dependencies": []
+            },
+            {
+                "key": "anyio",
+                "package_name": "anyio",
+                "installed_version": "4.12.1",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1.0.2",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.8",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.5",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "iso8601",
+                "package_name": "iso8601",
+                "installed_version": "2.1.0",
+                "required_version": ">=2.1.0,<3.0.0",
+                "dependencies": []
+            },
+            {
+                "key": "ptpython",
+                "package_name": "ptpython",
+                "installed_version": "3.0.32",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "appdirs",
+                        "package_name": "appdirs",
+                        "installed_version": "1.4.4",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "jedi",
+                        "package_name": "jedi",
+                        "installed_version": "0.19.2",
+                        "required_version": ">=0.16.0",
+                        "dependencies": [
+                            {
+                                "key": "parso",
+                                "package_name": "parso",
+                                "installed_version": "0.8.6",
+                                "required_version": ">=0.8.4,<0.9.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "prompt-toolkit",
+                        "package_name": "prompt_toolkit",
+                        "installed_version": "3.0.52",
+                        "required_version": ">=3.0.43,<3.1.0",
+                        "dependencies": [
+                            {
+                                "key": "wcwidth",
+                                "package_name": "wcwidth",
+                                "installed_version": "0.6.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.19.2",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "pypika-tortoise",
+                "package_name": "pypika-tortoise",
+                "installed_version": "0.6.3",
+                "required_version": ">=0.6.3,<1.0.0",
+                "dependencies": []
+            },
+            {
+                "key": "pytz",
+                "package_name": "pytz",
+                "installed_version": "2025.2",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "tomlkit",
+                "package_name": "tomlkit",
+                "installed_version": "0.14.0",
+                "required_version": ">=0.11.4,<1.0.0",
+                "dependencies": []
+            },
+            {
+                "key": "typing-extensions",
+                "package_name": "typing_extensions",
+                "installed_version": "4.15.0",
+                "required_version": ">=4.1.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "wheel",
+        "package_name": "wheel",
+        "installed_version": "0.45.1",
+        "required_version": "0.45.1",
+        "dependencies": []
+    }
+]

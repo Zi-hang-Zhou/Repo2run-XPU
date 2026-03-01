@@ -1,0 +1,446 @@
+[
+    {
+        "GPT_time": 1.8433711528778076
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6713752746582031
+    },
+    {
+        "GPT_time": 4.076915979385376
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6656322479248047
+    },
+    {
+        "GPT_time": 1.915473461151123
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.6679036617279053
+    },
+    {
+        "GPT_time": 1.8641784191131592
+    },
+    {
+        "command": "ls -la /repo/requirements/",
+        "returncode": 0,
+        "time": 0.6668627262115479
+    },
+    {
+        "GPT_time": 1.898651123046875
+    },
+    {
+        "command": "cat /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.6681256294250488
+    },
+    {
+        "GPT_time": 1.7997829914093018
+    },
+    {
+        "command": "cat /repo/requirements/test-requirements.txt",
+        "returncode": 0,
+        "time": 0.6684293746948242
+    },
+    {
+        "GPT_time": 2.356123447418213
+    },
+    {
+        "command": "cat /repo/requirements/dev-requirements.txt",
+        "returncode": 0,
+        "time": 0.6667654514312744
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6642346382141113
+    },
+    {
+        "command": "ls -la /repo/requirements/extras/",
+        "returncode": 0,
+        "time": 0.6684732437133789
+    },
+    {
+        "GPT_time": 2.7494709491729736
+    },
+    {
+        "command": "cat /repo/requirements/extras/orjson.txt",
+        "returncode": 0,
+        "time": 0.6679065227508545
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6634006500244141
+    },
+    {
+        "command": "cat /repo/requirements/extras/playground.txt",
+        "returncode": 0,
+        "time": 0.6671333312988281
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6644656658172607
+    },
+    {
+        "command": "cat /repo/requirements/extras/postgres.txt",
+        "returncode": 0,
+        "time": 0.6663932800292969
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6633803844451904
+    },
+    {
+        "command": "cat /repo/requirements/extras/pytest.txt",
+        "returncode": 0,
+        "time": 0.006131649017333984
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6612186431884766
+    },
+    {
+        "command": "cat /repo/requirements/extras/sqlite.txt",
+        "returncode": 0,
+        "time": 0.665036678314209
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6627676486968994
+    },
+    {
+        "command": "cat /repo/requirements/extras/uvloop.txt",
+        "returncode": 0,
+        "time": 0.6658856868743896
+    },
+    {
+        "GPT_time": 2.2099220752716064
+    },
+    {
+        "command": "cat /repo/requirements/extras/pytest.txt",
+        "returncode": 0,
+        "time": 0.004744052886962891
+    },
+    {
+        "GPT_time": 5.483975172042847
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6638009548187256
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 13.546241521835327
+    },
+    {
+        "GPT_time": 2.241793394088745
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.029604196548461914
+    },
+    {
+        "GPT_time": 11.104271173477173
+    },
+    {
+        "command": "pwd",
+        "returncode": 0,
+        "time": 0.6640689373016357
+    },
+    {
+        "command": "ls /repo/requirements/",
+        "returncode": 0,
+        "time": 0.6666886806488037
+    },
+    {
+        "GPT_time": 2.4516077041625977
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.07634902000427246
+    },
+    {
+        "GPT_time": 2.3384950160980225
+    },
+    {
+        "command": "ls -la /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.663689136505127
+    },
+    {
+        "command": "cat /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.6661286354064941
+    },
+    {
+        "GPT_time": 4.485060453414917
+    },
+    {
+        "command": "waitinglist add -p black",
+        "returncode": 0,
+        "time": 0.3039250373840332
+    },
+    {
+        "command": "waitinglist add -p colorama -v \">=0.4.0\"",
+        "returncode": 0,
+        "time": 0.22148871421813965
+    },
+    {
+        "command": "waitinglist add -p Jinja2 -v \">=2.11.0\"",
+        "returncode": 0,
+        "time": 0.21589326858520508
+    },
+    {
+        "command": "waitinglist add -p targ -v \">=0.3.7\"",
+        "returncode": 0,
+        "time": 0.3725442886352539
+    },
+    {
+        "command": "waitinglist add -p inflection -v \">=0.5.1\"",
+        "returncode": 0,
+        "time": 1.9599025249481201
+    },
+    {
+        "command": "waitinglist add -p typing-extensions -v \">=4.3.0\"",
+        "returncode": 0,
+        "time": 0.21904420852661133
+    },
+    {
+        "command": "waitinglist add -p pydantic -v \"==2.*\"",
+        "returncode": 0,
+        "time": 0.21648716926574707
+    },
+    {
+        "GPT_time": 11.400052547454834
+    },
+    {
+        "command": "waitinglist add -p black -t pip",
+        "returncode": 0,
+        "time": 0.007604837417602539
+    },
+    {
+        "command": "waitinglist add -p colorama -v \">=0.4.0\" -t pip",
+        "returncode": 0,
+        "time": 0.005352020263671875
+    },
+    {
+        "command": "waitinglist add -p Jinja2 -v \">=2.11.0\" -t pip",
+        "returncode": 0,
+        "time": 0.003373384475708008
+    },
+    {
+        "command": "waitinglist add -p targ -v \">=0.3.7\" -t pip",
+        "returncode": 0,
+        "time": 0.00542449951171875
+    },
+    {
+        "command": "waitinglist add -p inflection -v \">=0.5.1\" -t pip",
+        "returncode": 0,
+        "time": 0.005091428756713867
+    },
+    {
+        "command": "waitinglist add -p typing-extensions -v \">=4.3.0\" -t pip",
+        "returncode": 0,
+        "time": 0.0035822391510009766
+    },
+    {
+        "command": "waitinglist add -p pydantic -v \"==2.*\" -t pip",
+        "returncode": 0,
+        "time": 0.004400014877319336
+    },
+    {
+        "GPT_time": 2.1925246715545654
+    },
+    {
+        "command": "waitinglist show",
+        "returncode": 0,
+        "time": 0.007274627685546875
+    },
+    {
+        "GPT_time": 3.6675198078155518
+    },
+    {
+        "command": "waitinglist add -p coveralls -v \"==3.3.1\" -t pip",
+        "returncode": 0,
+        "time": 0.005820274353027344
+    },
+    {
+        "command": "waitinglist add -p httpx -v \"==0.28.0\" -t pip",
+        "returncode": 0,
+        "time": 0.0059697628021240234
+    },
+    {
+        "command": "waitinglist add -p pytest-cov -v \"==3.0.0\" -t pip",
+        "returncode": 0,
+        "time": 0.005749940872192383
+    },
+    {
+        "command": "waitinglist add -p pytest -v \"==8.3.5\" -t pip",
+        "returncode": 0,
+        "time": 0.00545048713684082
+    },
+    {
+        "command": "waitinglist add -p python-dateutil -v \"==2.8.2\" -t pip",
+        "returncode": 0,
+        "time": 0.006340503692626953
+    },
+    {
+        "GPT_time": 2.4420409202575684
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 45.17064547538757
+    },
+    {
+        "GPT_time": 2.0995259284973145
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6628384590148926
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 13.261529684066772
+    },
+    {
+        "GPT_time": 2.4825665950775146
+    },
+    {
+        "command": "waitinglist add -p asyncpg -v \">=0.30.0\" -t pip",
+        "returncode": 0,
+        "time": 0.015896081924438477
+    },
+    {
+        "GPT_time": 1.9005200862884521
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 17.732273817062378
+    },
+    {
+        "GPT_time": 2.3165407180786133
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6610960960388184
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 13.386914253234863
+    },
+    {
+        "GPT_time": 5.324260234832764
+    },
+    {
+        "command": "cat /repo/tests/conftest.py",
+        "returncode": 0,
+        "time": 0.6647861003875732
+    },
+    {
+        "GPT_time": 4.091947793960571
+    },
+    {
+        "command": "cat /repo/piccolo_conf.py",
+        "returncode": 0,
+        "time": 0.66404128074646
+    },
+    {
+        "GPT_time": 3.246742010116577
+    },
+    {
+        "command": "ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.6645290851593018
+    },
+    {
+        "command": "ls -la /repo/.github/workflows/",
+        "returncode": 0,
+        "time": 0.6640102863311768
+    },
+    {
+        "GPT_time": 1.8172733783721924
+    },
+    {
+        "command": "cat /repo/.github/workflows/tests.yaml",
+        "returncode": 0,
+        "time": 0.6667695045471191
+    },
+    {
+        "GPT_time": 12.468420505523682
+    },
+    {
+        "command": "cat /repo/scripts/test-sqlite.sh",
+        "returncode": 0,
+        "time": 0.6659610271453857
+    },
+    {
+        "GPT_time": 3.954390287399292
+    },
+    {
+        "command": "ls -la /repo/tests/ | head -30",
+        "returncode": 0,
+        "time": 0.6657140254974365
+    },
+    {
+        "GPT_time": 2.575666904449463
+    },
+    {
+        "command": "cat /repo/tests/sqlite_conf.py",
+        "returncode": 0,
+        "time": 0.662583589553833
+    },
+    {
+        "GPT_time": 3.7797114849090576
+    },
+    {
+        "command": "waitinglist add -p aiosqlite -v \">=0.16.0\" -t pip",
+        "returncode": 0,
+        "time": 0.006539583206176758
+    },
+    {
+        "GPT_time": 1.8560736179351807
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 3.461827516555786
+    },
+    {
+        "GPT_time": 2.3745768070220947
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6726891994476318
+    },
+    {
+        "command": "export PICCOLO_CONF=\"tests.sqlite_conf\"",
+        "returncode": 0,
+        "time": 0.7771434783935547
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 2.8103177547454834
+    }
+]

@@ -1,0 +1,514 @@
+[
+    {
+        "key": "jsondiff",
+        "package_name": "jsondiff",
+        "installed_version": "2.2.1",
+        "required_version": "2.2.1",
+        "dependencies": [
+            {
+                "key": "pyyaml",
+                "package_name": "PyYAML",
+                "installed_version": "6.0.3",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.31.0",
+        "required_version": "2.31.0",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            },
+            {
+                "key": "pip",
+                "package_name": "pip",
+                "installed_version": "26.0.1",
+                "required_version": ">=25.2",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "platformio",
+        "package_name": "platformio",
+        "installed_version": "6.1.19b1",
+        "required_version": "6.1.19b1",
+        "dependencies": [
+            {
+                "key": "ajsonrpc",
+                "package_name": "ajsonrpc",
+                "installed_version": "1.2.0",
+                "required_version": "==1.2.*",
+                "dependencies": []
+            },
+            {
+                "key": "bottle",
+                "package_name": "bottle",
+                "installed_version": "0.13.4",
+                "required_version": "==0.13.*",
+                "dependencies": []
+            },
+            {
+                "key": "click",
+                "package_name": "click",
+                "installed_version": "8.3.1",
+                "required_version": ">=8.0.4,<8.4",
+                "dependencies": []
+            },
+            {
+                "key": "colorama",
+                "package_name": "colorama",
+                "installed_version": "0.4.6",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "marshmallow",
+                "package_name": "marshmallow",
+                "installed_version": "3.26.2",
+                "required_version": "==3.*",
+                "dependencies": [
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=17.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "pyelftools",
+                "package_name": "pyelftools",
+                "installed_version": "0.32",
+                "required_version": ">=0.27,<1",
+                "dependencies": []
+            },
+            {
+                "key": "pyserial",
+                "package_name": "pyserial",
+                "installed_version": "3.5",
+                "required_version": "==3.5.*",
+                "dependencies": []
+            },
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.32.5",
+                "required_version": "==2.*",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": ">=2017.4.17",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "3.4.4",
+                        "required_version": ">=2,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "2.6.3",
+                        "required_version": ">=1.21.1,<3",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "semantic-version",
+                "package_name": "semantic-version",
+                "installed_version": "2.10.0",
+                "required_version": "==2.10.*",
+                "dependencies": []
+            },
+            {
+                "key": "starlette",
+                "package_name": "starlette",
+                "installed_version": "0.52.1",
+                "required_version": ">=0.19,<0.53",
+                "dependencies": [
+                    {
+                        "key": "anyio",
+                        "package_name": "anyio",
+                        "installed_version": "4.12.1",
+                        "required_version": ">=3.6.2,<5",
+                        "dependencies": [
+                            {
+                                "key": "exceptiongroup",
+                                "package_name": "exceptiongroup",
+                                "installed_version": "1.3.1",
+                                "required_version": ">=1.0.2",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.6.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "idna",
+                                "package_name": "idna",
+                                "installed_version": "3.11",
+                                "required_version": ">=2.8",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.10.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "tabulate",
+                "package_name": "tabulate",
+                "installed_version": "0.9.0",
+                "required_version": "==0.*",
+                "dependencies": []
+            },
+            {
+                "key": "uvicorn",
+                "package_name": "uvicorn",
+                "installed_version": "0.40.0",
+                "required_version": ">=0.16,<0.41",
+                "dependencies": [
+                    {
+                        "key": "click",
+                        "package_name": "click",
+                        "installed_version": "8.3.1",
+                        "required_version": ">=7.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "h11",
+                        "package_name": "h11",
+                        "installed_version": "0.16.0",
+                        "required_version": ">=0.8",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "wsproto",
+                "package_name": "wsproto",
+                "installed_version": "1.3.2",
+                "required_version": "==1.*",
+                "dependencies": [
+                    {
+                        "key": "h11",
+                        "package_name": "h11",
+                        "installed_version": "0.16.0",
+                        "required_version": ">=0.16.0,<1",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pyopenssl",
+        "package_name": "pyOpenSSL",
+        "installed_version": "25.3.0",
+        "required_version": "25.3.0",
+        "dependencies": [
+            {
+                "key": "cryptography",
+                "package_name": "cryptography",
+                "installed_version": "46.0.5",
+                "required_version": ">=45.0.7,<47",
+                "dependencies": [
+                    {
+                        "key": "cffi",
+                        "package_name": "cffi",
+                        "installed_version": "2.0.0",
+                        "required_version": ">=2.0.0",
+                        "dependencies": [
+                            {
+                                "key": "pycparser",
+                                "package_name": "pycparser",
+                                "installed_version": "3.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.13.2",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "typing-extensions",
+                "package_name": "typing_extensions",
+                "installed_version": "4.15.0",
+                "required_version": ">=4.9",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pytest",
+        "package_name": "pytest",
+        "installed_version": "9.0.2",
+        "required_version": "9.0.2",
+        "dependencies": [
+            {
+                "key": "exceptiongroup",
+                "package_name": "exceptiongroup",
+                "installed_version": "1.3.1",
+                "required_version": ">=1",
+                "dependencies": [
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.6.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "iniconfig",
+                "package_name": "iniconfig",
+                "installed_version": "2.3.0",
+                "required_version": ">=1.0.1",
+                "dependencies": []
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=22",
+                "dependencies": []
+            },
+            {
+                "key": "pluggy",
+                "package_name": "pluggy",
+                "installed_version": "1.6.0",
+                "required_version": ">=1.5,<2",
+                "dependencies": []
+            },
+            {
+                "key": "pygments",
+                "package_name": "Pygments",
+                "installed_version": "2.19.2",
+                "required_version": ">=2.7.2",
+                "dependencies": []
+            },
+            {
+                "key": "tomli",
+                "package_name": "tomli",
+                "installed_version": "2.4.0",
+                "required_version": ">=1",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "service-identity",
+        "package_name": "service-identity",
+        "installed_version": "24.2.0",
+        "required_version": "24.2.0",
+        "dependencies": [
+            {
+                "key": "attrs",
+                "package_name": "attrs",
+                "installed_version": "25.4.0",
+                "required_version": ">=19.1.0",
+                "dependencies": []
+            },
+            {
+                "key": "cryptography",
+                "package_name": "cryptography",
+                "installed_version": "46.0.5",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "cffi",
+                        "package_name": "cffi",
+                        "installed_version": "2.0.0",
+                        "required_version": ">=2.0.0",
+                        "dependencies": [
+                            {
+                                "key": "pycparser",
+                                "package_name": "pycparser",
+                                "installed_version": "3.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.13.2",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "pyasn1",
+                "package_name": "pyasn1",
+                "installed_version": "0.6.2",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "pyasn1-modules",
+                "package_name": "pyasn1_modules",
+                "installed_version": "0.4.2",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "pyasn1",
+                        "package_name": "pyasn1",
+                        "installed_version": "0.6.2",
+                        "required_version": ">=0.6.1,<0.7.0",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "setuptools",
+        "package_name": "setuptools",
+        "installed_version": "79.0.1",
+        "required_version": "79.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "twisted",
+        "package_name": "Twisted",
+        "installed_version": "25.5.0",
+        "required_version": "25.5.0",
+        "dependencies": [
+            {
+                "key": "attrs",
+                "package_name": "attrs",
+                "installed_version": "25.4.0",
+                "required_version": ">=22.2.0",
+                "dependencies": []
+            },
+            {
+                "key": "automat",
+                "package_name": "Automat",
+                "installed_version": "25.4.16",
+                "required_version": ">=24.8.0",
+                "dependencies": []
+            },
+            {
+                "key": "constantly",
+                "package_name": "constantly",
+                "installed_version": "23.10.4",
+                "required_version": ">=15.1",
+                "dependencies": []
+            },
+            {
+                "key": "hyperlink",
+                "package_name": "hyperlink",
+                "installed_version": "21.0.0",
+                "required_version": ">=17.1.1",
+                "dependencies": [
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.5",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "incremental",
+                "package_name": "Incremental",
+                "installed_version": "24.11.0",
+                "required_version": ">=24.7.0",
+                "dependencies": [
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=17.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "typing-extensions",
+                "package_name": "typing_extensions",
+                "installed_version": "4.15.0",
+                "required_version": ">=4.2.0",
+                "dependencies": []
+            },
+            {
+                "key": "zope-interface",
+                "package_name": "zope.interface",
+                "installed_version": "8.2",
+                "required_version": ">=5",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "wheel",
+        "package_name": "wheel",
+        "installed_version": "0.45.1",
+        "required_version": "0.45.1",
+        "dependencies": []
+    }
+]

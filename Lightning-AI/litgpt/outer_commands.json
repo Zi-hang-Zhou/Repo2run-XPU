@@ -1,0 +1,92 @@
+[
+    {
+        "GPT_time": 2.487764358520508
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6691226959228516
+    },
+    {
+        "GPT_time": 2.8505747318267822
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6704847812652588
+    },
+    {
+        "GPT_time": 4.897925138473511
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"Pipfile*\" -o -name \"environment.yml\" 2>/dev/null",
+        "returncode": 0,
+        "time": 0.8202986717224121
+    },
+    {
+        "GPT_time": 11.342347145080566
+    },
+    {
+        "command": "ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.6683211326599121
+    },
+    {
+        "GPT_time": 2.412104606628418
+    },
+    {
+        "command": "ls -la /repo/.github/workflows/",
+        "returncode": 0,
+        "time": 0.6687173843383789
+    },
+    {
+        "GPT_time": 9.086116313934326
+    },
+    {
+        "command": "cat /repo/.github/workflows/cpu-tests.yml",
+        "returncode": 0,
+        "time": 0.6719381809234619
+    },
+    {
+        "GPT_time": 5.167424440383911
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6657238006591797
+    },
+    {
+        "command": "pip install -e .[test] -q",
+        "returncode": 0,
+        "time": 674.4459586143494
+    },
+    {
+        "GPT_time": 4.0215840339660645
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 105.5608594417572
+    },
+    {
+        "GPT_time": 5.815490961074829
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6659064292907715
+    },
+    {
+        "command": "pip install -e .[extra] -q",
+        "returncode": 0,
+        "time": 127.62706780433655
+    },
+    {
+        "GPT_time": 3.104224681854248
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 28.96011781692505
+    }
+]

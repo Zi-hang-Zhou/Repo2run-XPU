@@ -1,0 +1,574 @@
+[
+    {
+        "key": "geopandas",
+        "package_name": "geopandas",
+        "installed_version": "1.1.2",
+        "required_version": "1.1.2",
+        "dependencies": [
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": ">=1.24",
+                "dependencies": []
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "pandas",
+                "package_name": "pandas",
+                "installed_version": "2.3.3",
+                "required_version": ">=2.0.0",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22.4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "python-dateutil",
+                        "package_name": "python-dateutil",
+                        "installed_version": "2.9.0.post0",
+                        "required_version": ">=2.8.2",
+                        "dependencies": [
+                            {
+                                "key": "six",
+                                "package_name": "six",
+                                "installed_version": "1.17.0",
+                                "required_version": ">=1.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "pytz",
+                        "package_name": "pytz",
+                        "installed_version": "2025.2",
+                        "required_version": ">=2020.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tzdata",
+                        "package_name": "tzdata",
+                        "installed_version": "2025.3",
+                        "required_version": ">=2022.7",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "pyogrio",
+                "package_name": "pyogrio",
+                "installed_version": "0.12.1",
+                "required_version": ">=0.7.2",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "pyproj",
+                "package_name": "pyproj",
+                "installed_version": "3.7.1",
+                "required_version": ">=3.5.0",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "shapely",
+                "package_name": "shapely",
+                "installed_version": "2.1.2",
+                "required_version": ">=2.0.0",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.21",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.31.0",
+        "required_version": "2.31.0",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            },
+            {
+                "key": "pip",
+                "package_name": "pip",
+                "installed_version": "26.0.1",
+                "required_version": ">=25.2",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "plotnine",
+        "package_name": "plotnine",
+        "installed_version": "0.16.0a3",
+        "required_version": "0.16.0a3",
+        "dependencies": [
+            {
+                "key": "matplotlib",
+                "package_name": "matplotlib",
+                "installed_version": "3.10.8",
+                "required_version": ">=3.8.0",
+                "dependencies": [
+                    {
+                        "key": "contourpy",
+                        "package_name": "contourpy",
+                        "installed_version": "1.3.2",
+                        "required_version": ">=1.0.1",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "cycler",
+                        "package_name": "cycler",
+                        "installed_version": "0.12.1",
+                        "required_version": ">=0.10",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "fonttools",
+                        "package_name": "fonttools",
+                        "installed_version": "4.61.1",
+                        "required_version": ">=4.22.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "kiwisolver",
+                        "package_name": "kiwisolver",
+                        "installed_version": "1.4.9",
+                        "required_version": ">=1.3.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.23",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=20.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pillow",
+                        "package_name": "pillow",
+                        "installed_version": "12.1.1",
+                        "required_version": ">=8",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pyparsing",
+                        "package_name": "pyparsing",
+                        "installed_version": "3.3.2",
+                        "required_version": ">=3",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "python-dateutil",
+                        "package_name": "python-dateutil",
+                        "installed_version": "2.9.0.post0",
+                        "required_version": ">=2.7",
+                        "dependencies": [
+                            {
+                                "key": "six",
+                                "package_name": "six",
+                                "installed_version": "1.17.0",
+                                "required_version": ">=1.5",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "mizani",
+                "package_name": "mizani",
+                "installed_version": "0.14.4",
+                "required_version": "~=0.14.0",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.23.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pandas",
+                        "package_name": "pandas",
+                        "installed_version": "2.3.3",
+                        "required_version": ">=2.2.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22.4",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "python-dateutil",
+                                "package_name": "python-dateutil",
+                                "installed_version": "2.9.0.post0",
+                                "required_version": ">=2.8.2",
+                                "dependencies": [
+                                    {
+                                        "key": "six",
+                                        "package_name": "six",
+                                        "installed_version": "1.17.0",
+                                        "required_version": ">=1.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pytz",
+                                "package_name": "pytz",
+                                "installed_version": "2025.2",
+                                "required_version": ">=2020.1",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "tzdata",
+                                "package_name": "tzdata",
+                                "installed_version": "2025.3",
+                                "required_version": ">=2022.7",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": ">=1.8.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": ">=1.23.5",
+                "dependencies": []
+            },
+            {
+                "key": "pandas",
+                "package_name": "pandas",
+                "installed_version": "2.3.3",
+                "required_version": ">=2.2.0",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22.4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "python-dateutil",
+                        "package_name": "python-dateutil",
+                        "installed_version": "2.9.0.post0",
+                        "required_version": ">=2.8.2",
+                        "dependencies": [
+                            {
+                                "key": "six",
+                                "package_name": "six",
+                                "installed_version": "1.17.0",
+                                "required_version": ">=1.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "pytz",
+                        "package_name": "pytz",
+                        "installed_version": "2025.2",
+                        "required_version": ">=2020.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tzdata",
+                        "package_name": "tzdata",
+                        "installed_version": "2025.3",
+                        "required_version": ">=2022.7",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "scipy",
+                "package_name": "scipy",
+                "installed_version": "1.15.3",
+                "required_version": ">=1.8.0",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.23.5,<2.5",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "statsmodels",
+                "package_name": "statsmodels",
+                "installed_version": "0.14.6",
+                "required_version": ">=0.14.6",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22.3,<3",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=21.3",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pandas",
+                        "package_name": "pandas",
+                        "installed_version": "2.3.3",
+                        "required_version": ">=1.4,!=2.1.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22.4",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "python-dateutil",
+                                "package_name": "python-dateutil",
+                                "installed_version": "2.9.0.post0",
+                                "required_version": ">=2.8.2",
+                                "dependencies": [
+                                    {
+                                        "key": "six",
+                                        "package_name": "six",
+                                        "installed_version": "1.17.0",
+                                        "required_version": ">=1.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pytz",
+                                "package_name": "pytz",
+                                "installed_version": "2025.2",
+                                "required_version": ">=2020.1",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "tzdata",
+                                "package_name": "tzdata",
+                                "installed_version": "2025.3",
+                                "required_version": ">=2022.7",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "patsy",
+                        "package_name": "patsy",
+                        "installed_version": "1.0.2",
+                        "required_version": ">=0.5.6",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.4",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": ">=1.8,!=1.9.2",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pytest-cov",
+        "package_name": "pytest-cov",
+        "installed_version": "7.0.0",
+        "required_version": "7.0.0",
+        "dependencies": [
+            {
+                "key": "coverage",
+                "package_name": "coverage",
+                "installed_version": "7.13.4",
+                "required_version": ">=7.10.6",
+                "dependencies": []
+            },
+            {
+                "key": "pluggy",
+                "package_name": "pluggy",
+                "installed_version": "1.6.0",
+                "required_version": ">=1.2",
+                "dependencies": []
+            },
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.2",
+                "required_version": ">=7",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.19.2",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.0",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "setuptools",
+        "package_name": "setuptools",
+        "installed_version": "79.0.1",
+        "required_version": "79.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "wheel",
+        "package_name": "wheel",
+        "installed_version": "0.45.1",
+        "required_version": "0.45.1",
+        "dependencies": []
+    }
+]

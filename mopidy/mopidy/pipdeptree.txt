@@ -1,0 +1,65 @@
+Warning!!! Duplicate package metadata found:
+"/repo/src"
+  mopidy                           4.0.0a14.dev26+gb3ac21c9b (using 4.0.0a14.dev26+gb3ac21c9b, "/usr/local/lib/python3.13/site-packages")
+NOTE: This warning isn't a failure warning.
+------------------------------------------------------------------------
+dirty-equals==0.11
+mopidy==4.0.0a14.dev26+gb3ac21c9b
+├── cyclopts [required: >=3.12, installed: 4.6.0]
+│   ├── attrs [required: >=23.1.0, installed: 25.4.0]
+│   ├── docstring_parser [required: >=0.15,<4.0, installed: 0.17.0]
+│   ├── rich-rst [required: >=1.3.1,<2.0.0, installed: 1.3.2]
+│   │   ├── docutils [required: Any, installed: 0.22.4]
+│   │   └── rich [required: >=12.0.0, installed: 14.3.3]
+│   │       ├── markdown-it-py [required: >=2.2.0, installed: 4.0.0]
+│   │       │   └── mdurl [required: ~=0.1, installed: 0.1.2]
+│   │       └── Pygments [required: >=2.13.0,<3.0.0, installed: 2.19.2]
+│   └── rich [required: >=13.6.0, installed: 14.3.3]
+│       ├── markdown-it-py [required: >=2.2.0, installed: 4.0.0]
+│       │   └── mdurl [required: ~=0.1, installed: 0.1.2]
+│       └── Pygments [required: >=2.13.0,<3.0.0, installed: 2.19.2]
+├── platformdirs [required: >=4.3, installed: 4.9.2]
+├── pydantic [required: >=2.10, installed: 2.12.5]
+│   ├── annotated-types [required: >=0.6.0, installed: 0.7.0]
+│   ├── pydantic_core [required: ==2.41.5, installed: 2.41.5]
+│   │   └── typing_extensions [required: >=4.14.1, installed: 4.15.0]
+│   ├── typing_extensions [required: >=4.14.1, installed: 4.15.0]
+│   └── typing-inspection [required: >=0.4.2, installed: 0.4.2]
+│       └── typing_extensions [required: >=4.12.0, installed: 4.15.0]
+├── PyGObject [required: >=3.50, installed: 3.54.5]
+│   └── pycairo [required: >=1.16, installed: 1.29.0]
+├── pykka [required: >=4.1, installed: 4.4.1]
+├── requests [required: >=2.32, installed: 2.32.5]
+│   ├── charset-normalizer [required: >=2,<4, installed: 3.4.4]
+│   ├── idna [required: >=2.5,<4, installed: 3.11]
+│   ├── urllib3 [required: >=1.21.1,<3, installed: 2.6.3]
+│   └── certifi [required: >=2017.4.17, installed: 2026.2.25]
+└── tornado [required: >=6.4, installed: 6.5.4]
+pipdeptree==2.31.0
+├── packaging [required: >=26, installed: 26.0]
+└── pip [required: >=25.2, installed: 25.3]
+polyfactory==3.3.0
+├── Faker [required: >=5.0.0, installed: 40.5.1]
+└── typing_extensions [required: >=4.6.0, installed: 4.15.0]
+pytest-cov==7.0.0
+├── coverage [required: >=7.10.6, installed: 7.13.4]
+├── pluggy [required: >=1.2, installed: 1.6.0]
+└── pytest [required: >=7, installed: 9.0.2]
+    ├── iniconfig [required: >=1.0.1, installed: 2.3.0]
+    ├── packaging [required: >=22, installed: 26.0]
+    ├── pluggy [required: >=1.5,<2, installed: 1.6.0]
+    └── Pygments [required: >=2.7.2, installed: 2.19.2]
+pytest-mock==3.15.1
+└── pytest [required: >=6.2.5, installed: 9.0.2]
+    ├── iniconfig [required: >=1.0.1, installed: 2.3.0]
+    ├── packaging [required: >=22, installed: 26.0]
+    ├── pluggy [required: >=1.5,<2, installed: 1.6.0]
+    └── Pygments [required: >=2.7.2, installed: 2.19.2]
+responses==0.26.0
+├── requests [required: >=2.30.0,<3.0, installed: 2.32.5]
+│   ├── charset-normalizer [required: >=2,<4, installed: 3.4.4]
+│   ├── idna [required: >=2.5,<4, installed: 3.11]
+│   ├── urllib3 [required: >=1.21.1,<3, installed: 2.6.3]
+│   └── certifi [required: >=2017.4.17, installed: 2026.2.25]
+├── urllib3 [required: >=1.25.10,<3.0, installed: 2.6.3]
+└── PyYAML [required: Any, installed: 6.0.3]

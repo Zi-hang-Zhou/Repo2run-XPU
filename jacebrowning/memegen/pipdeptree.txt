@@ -1,0 +1,8 @@
+pipdeptree==2.31.0
+├── packaging [required: >=26, installed: 26.0]
+└── pip [required: >=25.2, installed: 25.3]
+pytest==9.0.2
+├── iniconfig [required: >=1.0.1, installed: 2.3.0]
+├── packaging [required: >=22, installed: 26.0]
+├── pluggy [required: >=1.5,<2, installed: 1.6.0]
+└── Pygments [required: >=2.7.2, installed: 2.19.2]

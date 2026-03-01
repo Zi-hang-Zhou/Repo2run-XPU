@@ -1,0 +1,211 @@
+[
+    {
+        "name": "anyio",
+        "version": "4.12.1"
+    },
+    {
+        "name": "arrow",
+        "version": "1.4.0"
+    },
+    {
+        "name": "binaryornot",
+        "version": "0.4.4"
+    },
+    {
+        "name": "briefcase",
+        "version": "0.3.27.dev48+g5ccb0e50e",
+        "editable_project_location": "/repo"
+    },
+    {
+        "name": "build",
+        "version": "1.4.0"
+    },
+    {
+        "name": "certifi",
+        "version": "2026.2.25"
+    },
+    {
+        "name": "chardet",
+        "version": "5.2.0"
+    },
+    {
+        "name": "charset-normalizer",
+        "version": "3.3.2"
+    },
+    {
+        "name": "click",
+        "version": "8.3.1"
+    },
+    {
+        "name": "cookiecutter",
+        "version": "2.6.0"
+    },
+    {
+        "name": "coverage",
+        "version": "7.13.4"
+    },
+    {
+        "name": "coverage-conditional-plugin",
+        "version": "0.9.0"
+    },
+    {
+        "name": "exceptiongroup",
+        "version": "1.3.1"
+    },
+    {
+        "name": "execnet",
+        "version": "2.1.2"
+    },
+    {
+        "name": "gitdb",
+        "version": "4.0.12"
+    },
+    {
+        "name": "GitPython",
+        "version": "3.1.46"
+    },
+    {
+        "name": "h11",
+        "version": "0.16.0"
+    },
+    {
+        "name": "httpcore",
+        "version": "1.0.9"
+    },
+    {
+        "name": "httpx",
+        "version": "0.28.1"
+    },
+    {
+        "name": "httpx-retries",
+        "version": "0.4.6"
+    },
+    {
+        "name": "idna",
+        "version": "3.11"
+    },
+    {
+        "name": "iniconfig",
+        "version": "2.3.0"
+    },
+    {
+        "name": "Jinja2",
+        "version": "3.1.6"
+    },
+    {
+        "name": "markdown-it-py",
+        "version": "4.0.0"
+    },
+    {
+        "name": "MarkupSafe",
+        "version": "3.0.3"
+    },
+    {
+        "name": "mdurl",
+        "version": "0.1.2"
+    },
+    {
+        "name": "packaging",
+        "version": "26.0"
+    },
+    {
+        "name": "pip",
+        "version": "26.0.1"
+    },
+    {
+        "name": "pipdeptree",
+        "version": "2.31.0"
+    },
+    {
+        "name": "platformdirs",
+        "version": "4.9.2"
+    },
+    {
+        "name": "pluggy",
+        "version": "1.6.0"
+    },
+    {
+        "name": "psutil",
+        "version": "7.2.2"
+    },
+    {
+        "name": "Pygments",
+        "version": "2.19.2"
+    },
+    {
+        "name": "pyproject_hooks",
+        "version": "1.2.0"
+    },
+    {
+        "name": "pytest",
+        "version": "9.0.2"
+    },
+    {
+        "name": "pytest-xdist",
+        "version": "3.8.0"
+    },
+    {
+        "name": "python-dateutil",
+        "version": "2.9.0.post0"
+    },
+    {
+        "name": "python-slugify",
+        "version": "8.0.4"
+    },
+    {
+        "name": "PyYAML",
+        "version": "6.0.3"
+    },
+    {
+        "name": "requests",
+        "version": "2.31.0"
+    },
+    {
+        "name": "rich",
+        "version": "14.3.3"
+    },
+    {
+        "name": "setuptools",
+        "version": "79.0.1"
+    },
+    {
+        "name": "six",
+        "version": "1.17.0"
+    },
+    {
+        "name": "smmap",
+        "version": "5.0.2"
+    },
+    {
+        "name": "text-unidecode",
+        "version": "1.3"
+    },
+    {
+        "name": "tomli",
+        "version": "2.4.0"
+    },
+    {
+        "name": "tomli_w",
+        "version": "1.2.0"
+    },
+    {
+        "name": "truststore",
+        "version": "0.10.4"
+    },
+    {
+        "name": "typing_extensions",
+        "version": "4.15.0"
+    },
+    {
+        "name": "tzdata",
+        "version": "2025.3"
+    },
+    {
+        "name": "urllib3",
+        "version": "1.26.18"
+    },
+    {
+        "name": "wheel",
+        "version": "0.45.1"
+    }
+]

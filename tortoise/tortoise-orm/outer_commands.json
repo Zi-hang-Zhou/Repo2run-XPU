@@ -1,0 +1,208 @@
+[
+    {
+        "GPT_time": 2.3296725749969482
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6728172302246094
+    },
+    {
+        "GPT_time": 4.525396823883057
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6719040870666504
+    },
+    {
+        "GPT_time": 10.267563104629517
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6640069484710693
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 14.188129901885986
+    },
+    {
+        "GPT_time": 2.9493274688720703
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6649737358093262
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 10.260873556137085
+    },
+    {
+        "GPT_time": 2.1044230461120605
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.664823055267334
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 16.23417067527771
+    },
+    {
+        "GPT_time": 5.324785232543945
+    },
+    {
+        "command": "waitinglist add -p pydantic -v \">=2.0,!=2.7.0\"",
+        "returncode": 0,
+        "time": 0.20640110969543457
+    },
+    {
+        "GPT_time": 2.0339579582214355
+    },
+    {
+        "command": "waitinglist add -p pydantic -v \">=2.0,!=2.7.0\" -t pip",
+        "returncode": 0,
+        "time": 0.009610652923583984
+    },
+    {
+        "GPT_time": 1.8904697895050049
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 4.410686492919922
+    },
+    {
+        "GPT_time": 2.1048991680145264
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.66363525390625
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 14.587372541427612
+    },
+    {
+        "GPT_time": 6.772132873535156
+    },
+    {
+        "command": "waitinglist add -p asyncpg -t pip",
+        "returncode": 0,
+        "time": 0.006696462631225586
+    },
+    {
+        "command": "waitinglist add -p psycopg -t pip",
+        "returncode": 0,
+        "time": 0.00726008415222168
+    },
+    {
+        "command": "waitinglist add -p fastapi -t pip",
+        "returncode": 0,
+        "time": 0.005593061447143555
+    },
+    {
+        "command": "waitinglist add -p pyodbc -t pip",
+        "returncode": 0,
+        "time": 0.005232572555541992
+    },
+    {
+        "GPT_time": 1.9957458972930908
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 10.590307235717773
+    },
+    {
+        "GPT_time": 2.1274406909942627
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6632680892944336
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 16.185848474502563
+    },
+    {
+        "GPT_time": 3.9428353309631348
+    },
+    {
+        "command": "waitinglist add -p psycopg_pool -t pip",
+        "returncode": 0,
+        "time": 0.008952856063842773
+    },
+    {
+        "command": "waitinglist add -p asyncodbc -t pip",
+        "returncode": 0,
+        "time": 0.005895853042602539
+    },
+    {
+        "GPT_time": 2.9983489513397217
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 6.991869926452637
+    },
+    {
+        "command": "apt-get update -qq",
+        "returncode": 0,
+        "time": 1.8340997695922852
+    },
+    {
+        "command": "apt-get install unixodbc -y -qq",
+        "returncode": 0,
+        "time": 3.33931565284729
+    },
+    {
+        "GPT_time": 3.376297950744629
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6624300479888916
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 15.126815795898438
+    },
+    {
+        "GPT_time": 2.8066725730895996
+    },
+    {
+        "command": "waitinglist add -p aiomysql -t pip",
+        "returncode": 0,
+        "time": 0.007326602935791016
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 2.648071765899658
+    },
+    {
+        "GPT_time": 2.2104332447052
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6655054092407227
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 3.9452202320098877
+    }
+]

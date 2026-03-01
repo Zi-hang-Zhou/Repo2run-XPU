@@ -1,0 +1,250 @@
+[
+    {
+        "GPT_time": 2.0738329887390137
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.671567440032959
+    },
+    {
+        "GPT_time": 3.328075885772705
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6723196506500244
+    },
+    {
+        "GPT_time": 5.1132426261901855
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -type f 2>/dev/null",
+        "returncode": 0,
+        "time": 0.9270286560058594
+    },
+    {
+        "GPT_time": 1.8210415840148926
+    },
+    {
+        "command": "cat /repo/.binder/requirements.txt",
+        "returncode": 0,
+        "time": 0.6684353351593018
+    },
+    {
+        "GPT_time": 5.386932373046875
+    },
+    {
+        "command": "cat /repo/doc/binder/requirements.txt",
+        "returncode": 0,
+        "time": 0.6678600311279297
+    },
+    {
+        "GPT_time": 2.6719253063201904
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6636171340942383
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 43.57012605667114
+    },
+    {
+        "GPT_time": 1.9031498432159424
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 437.5605869293213
+    },
+    {
+        "GPT_time": 4.3876471519470215
+    },
+    {
+        "command": "waitinglist add -p plotly",
+        "returncode": 0,
+        "time": 0.21227216720581055
+    },
+    {
+        "command": "waitinglist add -p optuna",
+        "returncode": 0,
+        "time": 0.21332073211669922
+    },
+    {
+        "command": "waitinglist add -p numpydoc",
+        "returncode": 0,
+        "time": 0.21331048011779785
+    },
+    {
+        "command": "waitinglist add -p graphviz",
+        "returncode": 0,
+        "time": 0.21073627471923828
+    },
+    {
+        "command": "waitinglist addfile /repo/.binder/requirements.txt",
+        "returncode": 0,
+        "time": 0.03126335144042969
+    },
+    {
+        "GPT_time": 2.8862738609313965
+    },
+    {
+        "command": "waitinglist add -p plotly -t pip",
+        "returncode": 0,
+        "time": 0.008826971054077148
+    },
+    {
+        "command": "waitinglist add -p optuna -t pip",
+        "returncode": 0,
+        "time": 0.0066471099853515625
+    },
+    {
+        "command": "waitinglist add -p numpydoc -t pip",
+        "returncode": 0,
+        "time": 0.00558018684387207
+    },
+    {
+        "command": "waitinglist add -p graphviz -t pip",
+        "returncode": 0,
+        "time": 0.004514932632446289
+    },
+    {
+        "command": "waitinglist addfile /repo/.binder/requirements.txt",
+        "returncode": 0,
+        "time": 0.03232169151306152
+    },
+    {
+        "GPT_time": 1.9824450016021729
+    },
+    {
+        "command": "ls -la /repo/.binder/",
+        "returncode": 0,
+        "time": 0.6677122116088867
+    },
+    {
+        "GPT_time": 2.2366232872009277
+    },
+    {
+        "command": "waitinglist addfile /repo/.binder/requirements.txt",
+        "returncode": 0,
+        "time": 0.03264045715332031
+    },
+    {
+        "command": "waitinglist show",
+        "returncode": 0,
+        "time": 0.008478641510009766
+    },
+    {
+        "GPT_time": 5.427985429763794
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 28.663774251937866
+    },
+    {
+        "GPT_time": 1.5069069862365723
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 439.4870390892029
+    },
+    {
+        "GPT_time": 4.67147970199585
+    },
+    {
+        "command": "waitinglist add -p seaborn -t pip",
+        "returncode": 0,
+        "time": 0.007348775863647461
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 2.7180047035217285
+    },
+    {
+        "GPT_time": 2.442188024520874
+    },
+    {
+        "command": "apt-get update -qq",
+        "returncode": 0,
+        "time": 2.906754970550537
+    },
+    {
+        "command": "apt-get install graphviz -y -qq",
+        "returncode": 0,
+        "time": 5.519500494003296
+    },
+    {
+        "GPT_time": 2.3415050506591797
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 577.0150697231293
+    },
+    {
+        "GPT_time": 9.890811443328857
+    },
+    {
+        "command": "waitinglist add -p statsmodels -t pip",
+        "returncode": 0,
+        "time": 0.006381511688232422
+    },
+    {
+        "command": "waitinglist add -p sentence-transformers -t pip",
+        "returncode": 0,
+        "time": 0.005912303924560547
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 452.3936700820923
+    },
+    {
+        "GPT_time": 15.83971643447876
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 644.0929675102234
+    },
+    {
+        "GPT_time": 7.6566057205200195
+    },
+    {
+        "command": "waitinglist add -p openml -t pip",
+        "returncode": 0,
+        "time": 0.008333921432495117
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 12.636579275131226
+    },
+    {
+        "GPT_time": 1.7437543869018555
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 522.9923305511475
+    },
+    {
+        "GPT_time": 6.805796146392822
+    },
+    {
+        "command": "waitinglist add -p loguru -t pip",
+        "returncode": 0,
+        "time": 0.007907390594482422
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 2.0655455589294434
+    }
+]

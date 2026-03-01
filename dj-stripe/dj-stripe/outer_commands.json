@@ -1,0 +1,99 @@
+[
+    {
+        "GPT_time": 1.946662187576294
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6709766387939453
+    },
+    {
+        "GPT_time": 3.134503126144409
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6659767627716064
+    },
+    {
+        "GPT_time": 5.421174764633179
+    },
+    {
+        "command": "ls -la /repo/poetry.lock 2>/dev/null",
+        "returncode": 0,
+        "time": 16.73815131187439
+    },
+    {
+        "command": "cat /repo/poetry.lock | head -50 || echo \"No poetry.lock found\"",
+        "returncode": 0,
+        "time": 0.6669833660125732
+    },
+    {
+        "GPT_time": 2.737668991088867
+    },
+    {
+        "command": "ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.666165828704834
+    },
+    {
+        "GPT_time": 3.724851131439209
+    },
+    {
+        "command": "ls -la /repo/.github/workflows/",
+        "returncode": 0,
+        "time": 0.6679906845092773
+    },
+    {
+        "command": "cat /repo/.github/workflows/*.yml | head -100",
+        "returncode": 0,
+        "time": 0.6685645580291748
+    },
+    {
+        "GPT_time": 11.473273277282715
+    },
+    {
+        "command": "ls -la /repo/tests/",
+        "returncode": 0,
+        "time": 0.6717638969421387
+    },
+    {
+        "GPT_time": 2.8837618827819824
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6653988361358643
+    },
+    {
+        "command": "poetry --version",
+        "returncode": 0,
+        "time": 1.1551249027252197
+    },
+    {
+        "GPT_time": 3.7157249450683594
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.66560959815979
+    },
+    {
+        "command": "poetry install --with dev,ci -q",
+        "returncode": 0,
+        "time": 29.23555326461792
+    },
+    {
+        "GPT_time": 2.113515853881836
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6648344993591309
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 7.072678327560425
+    }
+]

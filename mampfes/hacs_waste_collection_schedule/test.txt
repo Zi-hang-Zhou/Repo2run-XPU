@@ -1,0 +1,8 @@
+tests/test_source_components.py::test_source_md_exists
+tests/test_source_components.py::test_no_extra_source_mds
+tests/test_source_components.py::test_ics_md_exists
+tests/test_source_components.py::test_no_extra_ics_mds
+tests/test_source_components.py::test_source_has_necessary_parameters
+tests/test_source_components.py::test_ics_source_has_necessary_parameters
+
+6 tests collected in 0.24s

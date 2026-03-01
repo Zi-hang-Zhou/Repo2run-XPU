@@ -1,0 +1,135 @@
+[
+    {
+        "name": "certifi",
+        "version": "2026.2.25"
+    },
+    {
+        "name": "charset-normalizer",
+        "version": "3.4.4"
+    },
+    {
+        "name": "contourpy",
+        "version": "1.3.2"
+    },
+    {
+        "name": "cycler",
+        "version": "0.12.1"
+    },
+    {
+        "name": "defusedxml",
+        "version": "0.7.1"
+    },
+    {
+        "name": "exceptiongroup",
+        "version": "1.3.1"
+    },
+    {
+        "name": "fonttools",
+        "version": "4.61.1"
+    },
+    {
+        "name": "idna",
+        "version": "3.11"
+    },
+    {
+        "name": "iniconfig",
+        "version": "2.3.0"
+    },
+    {
+        "name": "kiwisolver",
+        "version": "1.4.9"
+    },
+    {
+        "name": "matplotlib",
+        "version": "3.10.8"
+    },
+    {
+        "name": "numpy",
+        "version": "2.2.6"
+    },
+    {
+        "name": "opencv-python",
+        "version": "4.13.0.92"
+    },
+    {
+        "name": "packaging",
+        "version": "26.0"
+    },
+    {
+        "name": "pillow",
+        "version": "12.1.1"
+    },
+    {
+        "name": "pip",
+        "version": "26.0.1"
+    },
+    {
+        "name": "pipdeptree",
+        "version": "2.31.0"
+    },
+    {
+        "name": "pluggy",
+        "version": "1.6.0"
+    },
+    {
+        "name": "Pygments",
+        "version": "2.19.2"
+    },
+    {
+        "name": "pyparsing",
+        "version": "3.3.2"
+    },
+    {
+        "name": "pytest",
+        "version": "9.0.2"
+    },
+    {
+        "name": "python-dateutil",
+        "version": "2.9.0.post0"
+    },
+    {
+        "name": "PyYAML",
+        "version": "6.0.3"
+    },
+    {
+        "name": "requests",
+        "version": "2.32.5"
+    },
+    {
+        "name": "scipy",
+        "version": "1.15.3"
+    },
+    {
+        "name": "setuptools",
+        "version": "79.0.1"
+    },
+    {
+        "name": "six",
+        "version": "1.17.0"
+    },
+    {
+        "name": "supervision",
+        "version": "0.28.0rc0",
+        "editable_project_location": "/repo"
+    },
+    {
+        "name": "tomli",
+        "version": "2.4.0"
+    },
+    {
+        "name": "tqdm",
+        "version": "4.67.3"
+    },
+    {
+        "name": "typing_extensions",
+        "version": "4.15.0"
+    },
+    {
+        "name": "urllib3",
+        "version": "2.6.3"
+    },
+    {
+        "name": "wheel",
+        "version": "0.45.1"
+    }
+]

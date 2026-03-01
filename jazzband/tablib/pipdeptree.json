@@ -1,0 +1,183 @@
+[
+    {
+        "key": "odfpy",
+        "package_name": "odfpy",
+        "installed_version": "1.4.1",
+        "required_version": "1.4.1",
+        "dependencies": [
+            {
+                "key": "defusedxml",
+                "package_name": "defusedxml",
+                "installed_version": "0.7.1",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "openpyxl",
+        "package_name": "openpyxl",
+        "installed_version": "3.1.5",
+        "required_version": "3.1.5",
+        "dependencies": [
+            {
+                "key": "et-xmlfile",
+                "package_name": "et_xmlfile",
+                "installed_version": "2.0.0",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.31.0",
+        "required_version": "2.31.0",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            },
+            {
+                "key": "pip",
+                "package_name": "pip",
+                "installed_version": "26.0.1",
+                "required_version": ">=25.2",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pytest-cov",
+        "package_name": "pytest-cov",
+        "installed_version": "7.0.0",
+        "required_version": "7.0.0",
+        "dependencies": [
+            {
+                "key": "coverage",
+                "package_name": "coverage",
+                "installed_version": "7.13.4",
+                "required_version": ">=7.10.6",
+                "dependencies": []
+            },
+            {
+                "key": "pluggy",
+                "package_name": "pluggy",
+                "installed_version": "1.6.0",
+                "required_version": ">=1.2",
+                "dependencies": []
+            },
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.2",
+                "required_version": ">=7",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.19.2",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.0",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pyyaml",
+        "package_name": "PyYAML",
+        "installed_version": "6.0.3",
+        "required_version": "6.0.3",
+        "dependencies": []
+    },
+    {
+        "key": "setuptools",
+        "package_name": "setuptools",
+        "installed_version": "79.0.1",
+        "required_version": "79.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "tablib",
+        "package_name": "tablib",
+        "installed_version": "3.9.1.dev1+g7d6c58a57",
+        "required_version": "3.9.1.dev1+g7d6c58a57",
+        "dependencies": []
+    },
+    {
+        "key": "tabulate",
+        "package_name": "tabulate",
+        "installed_version": "0.9.0",
+        "required_version": "0.9.0",
+        "dependencies": []
+    },
+    {
+        "key": "wheel",
+        "package_name": "wheel",
+        "installed_version": "0.45.1",
+        "required_version": "0.45.1",
+        "dependencies": []
+    },
+    {
+        "key": "xlrd",
+        "package_name": "xlrd",
+        "installed_version": "2.0.2",
+        "required_version": "2.0.2",
+        "dependencies": []
+    },
+    {
+        "key": "xlwt",
+        "package_name": "xlwt",
+        "installed_version": "1.3.0",
+        "required_version": "1.3.0",
+        "dependencies": []
+    }
+]

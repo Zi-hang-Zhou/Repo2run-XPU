@@ -1,0 +1,12 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index b97d222..c15c165 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -59,6 +59,7 @@ test = [
+ include = ["smart_open"]
+ 
+ [tool.pytest.ini_options]
++testpaths = ["tests"]
+ addopts = [
+   # extra test summary info: all except passed
+   "-r=a",

@@ -1,0 +1,649 @@
+[
+    {
+        "GPT_time": 2.3962950706481934
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6709966659545898
+    },
+    {
+        "GPT_time": 3.0800604820251465
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6711363792419434
+    },
+    {
+        "GPT_time": 4.650227785110474
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"Pipfile*\" 2>/dev/null | head -20",
+        "returncode": 0,
+        "time": 0.8489968776702881
+    },
+    {
+        "GPT_time": 2.4298386573791504
+    },
+    {
+        "command": "ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.6679229736328125
+    },
+    {
+        "GPT_time": 6.231878280639648
+    },
+    {
+        "command": "ls -la /repo/.github/workflows/",
+        "returncode": 0,
+        "time": 0.6680178642272949
+    },
+    {
+        "GPT_time": 1.8736281394958496
+    },
+    {
+        "command": "cat /repo/.github/workflows/pythonbuild.yml",
+        "returncode": 0,
+        "time": 0.6678721904754639
+    },
+    {
+        "GPT_time": 2.0621817111968994
+    },
+    {
+        "command": "cat /repo/tox.ini",
+        "returncode": 0,
+        "time": 0.670079231262207
+    },
+    {
+        "GPT_time": 3.6056406497955322
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.664870023727417
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.302363872528076
+    },
+    {
+        "GPT_time": 3.3514034748077393
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6746826171875
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 7.9091105461120605
+    },
+    {
+        "GPT_time": 2.1291329860687256
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.7011396884918213
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.480172872543335
+    },
+    {
+        "GPT_time": 2.4586405754089355
+    },
+    {
+        "command": "waitinglist add -p pytest-cov -t pip",
+        "returncode": 0,
+        "time": 0.009074687957763672
+    },
+    {
+        "GPT_time": 1.6945855617523193
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 2.776420831680298
+    },
+    {
+        "GPT_time": 1.9689159393310547
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6647160053253174
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 27.632943153381348
+    },
+    {
+        "GPT_time": 9.098473310470581
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6979646682739258
+    },
+    {
+        "command": "runpipreqs",
+        "returncode": 0,
+        "time": 10.86647343635559
+    },
+    {
+        "GPT_time": 2.399329423904419
+    },
+    {
+        "command": "pip install pipreqs -q",
+        "returncode": 0,
+        "time": 27.383766412734985
+    },
+    {
+        "GPT_time": 4.006713390350342
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6653726100921631
+    },
+    {
+        "command": "pipreqs . --savepath requirements_pipreqs.txt --force",
+        "returncode": 0,
+        "time": 56.68190121650696
+    },
+    {
+        "GPT_time": 3.099282741546631
+    },
+    {
+        "command": "cat /repo/requirements_pipreqs.txt",
+        "returncode": 0,
+        "time": 0.6665937900543213
+    },
+    {
+        "GPT_time": 9.819241285324097
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements_pipreqs.txt",
+        "returncode": 0,
+        "time": 0.032620906829833984
+    },
+    {
+        "GPT_time": 14.365551233291626
+    },
+    {
+        "command": "ls -la /repo/requirements_pipreqs.txt",
+        "returncode": 0,
+        "time": 0.6678173542022705
+    },
+    {
+        "GPT_time": 1.9570698738098145
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements_pipreqs.txt",
+        "returncode": 0,
+        "time": 0.0328521728515625
+    },
+    {
+        "GPT_time": 3.0551726818084717
+    },
+    {
+        "command": "pwd",
+        "returncode": 0,
+        "time": 0.6641788482666016
+    },
+    {
+        "command": "ls -la requirements_pipreqs.txt",
+        "returncode": 0,
+        "time": 0.6689622402191162
+    },
+    {
+        "GPT_time": 14.505852937698364
+    },
+    {
+        "command": "waitinglist add -p psutil -v \"<4.0\" -t pip",
+        "returncode": 0,
+        "time": 0.00972437858581543
+    },
+    {
+        "command": "waitinglist add -p mock -v \"<2.0\" -t pip",
+        "returncode": 0,
+        "time": 0.007815122604370117
+    },
+    {
+        "command": "waitinglist add -p hypothesis -v \">=6.7.0,<7.0.0\" -t pip",
+        "returncode": 0,
+        "time": 0.007088661193847656
+    },
+    {
+        "command": "waitinglist add -p responses -v \"<1.0.0\" -t pip",
+        "returncode": 0,
+        "time": 0.007737159729003906
+    },
+    {
+        "command": "waitinglist add -p sqlalchemy -v \"<1.4\" -t pip",
+        "returncode": 0,
+        "time": 0.0066530704498291016
+    },
+    {
+        "GPT_time": 7.8626625537872314
+    },
+    {
+        "command": "waitinglist add -p moto -v \">=1.3.10,<5.0\" -t pip",
+        "returncode": 0,
+        "time": 0.009920120239257812
+    },
+    {
+        "command": "waitinglist add -p boto -v \">=2.42,<3.0\" -t pip",
+        "returncode": 0,
+        "time": 0.006424427032470703
+    },
+    {
+        "command": "waitinglist add -p boto3 -v \">=1.11.0\" -t pip",
+        "returncode": 0,
+        "time": 0.0054950714111328125
+    },
+    {
+        "command": "waitinglist add -p s3transfer -v \">=0.3,<4.0\" -t pip",
+        "returncode": 0,
+        "time": 0.003993511199951172
+    },
+    {
+        "command": "waitinglist add -p requests -v \">=2.20.0,<=2.31.0\" -t pip",
+        "returncode": 0,
+        "time": 0.00449824333190918
+    },
+    {
+        "GPT_time": 3.014838457107544
+    },
+    {
+        "command": "waitinglist add -p docker -v \">=2.1.0\" -t pip",
+        "returncode": 0,
+        "time": 0.009273290634155273
+    },
+    {
+        "command": "waitinglist add -p elasticsearch -v \">=1.0.0,<2.0.0\" -t pip",
+        "returncode": 0,
+        "time": 0.008186101913452148
+    },
+    {
+        "command": "waitinglist add -p pymongo -v \"==3.4.0\" -t pip",
+        "returncode": 0,
+        "time": 0.007006168365478516
+    },
+    {
+        "command": "waitinglist add -p pyhive -v \"==0.6.1\" -t pip",
+        "returncode": 0,
+        "time": 0.0066738128662109375
+    },
+    {
+        "command": "waitinglist add -p psycopg2 -v \"<3.0\" -t pip",
+        "returncode": 0,
+        "time": 0.006823539733886719
+    },
+    {
+        "GPT_time": 5.870778799057007
+    },
+    {
+        "command": "waitinglist add -p pg8000 -v \">=1.23.0\" -t pip",
+        "returncode": 0,
+        "time": 0.008169174194335938
+    },
+    {
+        "command": "waitinglist add -p toml -v \"<2.0.0\" -t pip",
+        "returncode": 0,
+        "time": 0.007490396499633789
+    },
+    {
+        "command": "waitinglist add -p prometheus-client -v \">=0.5.0,<0.15\" -t pip",
+        "returncode": 0,
+        "time": 0.00575709342956543
+    },
+    {
+        "command": "waitinglist add -p jsonschema -t pip",
+        "returncode": 0,
+        "time": 0.005005359649658203
+    },
+    {
+        "command": "waitinglist add -p avro-python3 -t pip",
+        "returncode": 0,
+        "time": 0.004052400588989258
+    },
+    {
+        "GPT_time": 4.320321321487427
+    },
+    {
+        "command": "waitinglist add -p azure-storage-blob -v \"<=12.20.0\" -t pip",
+        "returncode": 0,
+        "time": 0.008965253829956055
+    },
+    {
+        "command": "waitinglist add -p google-api-python-client -v \">=1.6.6,<2.0\" -t pip",
+        "returncode": 0,
+        "time": 0.008494853973388672
+    },
+    {
+        "command": "waitinglist add -p google-auth -v \"==1.4.1\" -t pip",
+        "returncode": 0,
+        "time": 0.0058367252349853516
+    },
+    {
+        "command": "waitinglist add -p google-auth-httplib2 -v \"==0.0.3\" -t pip",
+        "returncode": 0,
+        "time": 0.005536079406738281
+    },
+    {
+        "command": "waitinglist add -p dropbox -v \">=11.0.0\" -t pip",
+        "returncode": 0,
+        "time": 0.006044149398803711
+    },
+    {
+        "GPT_time": 4.694218397140503
+    },
+    {
+        "command": "waitinglist add -p requests-unixsocket -v \"<1.0\" -t pip",
+        "returncode": 0,
+        "time": 0.009280920028686523
+    },
+    {
+        "command": "waitinglist add -p selenium -v \"==3.0.2\" -t pip",
+        "returncode": 0,
+        "time": 0.007853507995605469
+    },
+    {
+        "command": "waitinglist add -p HTTPretty -v \"==0.8.10\" -t pip",
+        "returncode": 0,
+        "time": 0.0063707828521728516
+    },
+    {
+        "command": "waitinglist add -p datadog -v \"==0.22.0\" -t pip",
+        "returncode": 0,
+        "time": 0.0057871341705322266
+    },
+    {
+        "command": "waitinglist add -p codecov -v \">=1.4.0\" -t pip",
+        "returncode": 0,
+        "time": 0.006772279739379883
+    },
+    {
+        "GPT_time": 1.984360933303833
+    },
+    {
+        "command": "waitinglist show",
+        "returncode": 0,
+        "time": 0.009614944458007812
+    },
+    {
+        "GPT_time": 2.8777272701263428
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 523.8488759994507
+    },
+    {
+        "GPT_time": 5.707459926605225
+    },
+    {
+        "command": "pip install -q \"psutil<4.0\"",
+        "returncode": 0,
+        "time": 6.479975938796997
+    },
+    {
+        "GPT_time": 3.4038636684417725
+    },
+    {
+        "command": "pip install -q \"mock<2.0\"",
+        "returncode": 0,
+        "time": 4.627074241638184
+    },
+    {
+        "GPT_time": 2.6334969997406006
+    },
+    {
+        "command": "pip install -q \"hypothesis>=6.7.0,<7.0.0\"",
+        "returncode": 0,
+        "time": 4.0122809410095215
+    },
+    {
+        "GPT_time": 12.894896030426025
+    },
+    {
+        "command": "pip install -q \"responses<1.0.0\"",
+        "returncode": 0,
+        "time": 4.751484155654907
+    },
+    {
+        "GPT_time": 6.762045860290527
+    },
+    {
+        "command": "pip install -q \"sqlalchemy<1.4\"",
+        "returncode": 0,
+        "time": 7.470374584197998
+    },
+    {
+        "GPT_time": 1.844273328781128
+    },
+    {
+        "command": "pip install -q \"moto>=1.3.10,<5.0\"",
+        "returncode": 0,
+        "time": 6.750578165054321
+    },
+    {
+        "GPT_time": 4.850749492645264
+    },
+    {
+        "command": "pip install -q \"boto>=2.42,<3.0\"",
+        "returncode": 0,
+        "time": 4.314049959182739
+    },
+    {
+        "GPT_time": 2.2663776874542236
+    },
+    {
+        "command": "pip install -q \"s3transfer>=0.3,<4.0\"",
+        "returncode": 0,
+        "time": 2.5035974979400635
+    },
+    {
+        "GPT_time": 1.877760648727417
+    },
+    {
+        "command": "pip install -q \"requests>=2.20.0,<=2.31.0\"",
+        "returncode": 0,
+        "time": 3.2957396507263184
+    },
+    {
+        "GPT_time": 6.815612554550171
+    },
+    {
+        "command": "pip install -q \"elasticsearch>=1.0.0,<2.0.0\"",
+        "returncode": 0,
+        "time": 4.683487176895142
+    },
+    {
+        "GPT_time": 2.163688898086548
+    },
+    {
+        "command": "pip install -q \"psycopg2<3.0\"",
+        "returncode": 0,
+        "time": 12.349464893341064
+    },
+    {
+        "GPT_time": 1.7487423419952393
+    },
+    {
+        "command": "pip install -q \"toml<2.0.0\"",
+        "returncode": 0,
+        "time": 3.616098165512085
+    },
+    {
+        "GPT_time": 2.190670967102051
+    },
+    {
+        "command": "pip install -q \"prometheus-client>=0.5.0,<0.15\"",
+        "returncode": 0,
+        "time": 3.8963921070098877
+    },
+    {
+        "GPT_time": 9.92988634109497
+    },
+    {
+        "command": "pip install -q \"azure-storage-blob<=12.20.0\"",
+        "returncode": 0,
+        "time": 4.434892654418945
+    },
+    {
+        "GPT_time": 1.9343342781066895
+    },
+    {
+        "command": "pip install -q \"google-api-python-client>=1.6.6,<2.0\"",
+        "returncode": 0,
+        "time": 7.06931734085083
+    },
+    {
+        "GPT_time": 4.365691423416138
+    },
+    {
+        "command": "pip install -q \"requests-unixsocket<1.0\"",
+        "returncode": 0,
+        "time": 3.7005698680877686
+    },
+    {
+        "GPT_time": 1.9610426425933838
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6653847694396973
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 63.37237787246704
+    },
+    {
+        "GPT_time": 13.971872806549072
+    },
+    {
+        "command": "pip install -q mypy",
+        "returncode": 0,
+        "time": 5.8963446617126465
+    },
+    {
+        "GPT_time": 5.350466728210449
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6646637916564941
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 61.534486055374146
+    },
+    {
+        "GPT_time": 38.22772765159607
+    },
+    {
+        "command": "export AWS_DEFAULT_REGION=us-east-1",
+        "returncode": 0,
+        "time": 0.7145843505859375
+    },
+    {
+        "command": "export AWS_ACCESS_KEY_ID=testing",
+        "returncode": 0,
+        "time": 0.7262723445892334
+    },
+    {
+        "command": "export AWS_SECRET_ACCESS_KEY=testing",
+        "returncode": 0,
+        "time": 0.7178823947906494
+    },
+    {
+        "command": "export GOOGLE_APPLICATION_CREDENTIALS=/tmp/fake_credentials.json",
+        "returncode": 0,
+        "time": 0.7116842269897461
+    },
+    {
+        "command": "echo '{\"type\": \"service_account\", \"project_id\": \"test-project\", \"private_key_id\": \"test\", \"private_key\": \"-----BEGIN RSA PRIVATE KEY-----\\nMIIEpAIBAAKCAQEA0Z3VS5JJcds3xfn/ygWyF8PbnGy0AHB7MvXB8mFvqj5Z9H2x\\n-----END RSA PRIVATE KEY-----\\n\", \"client_email\": \"test@test.iam.gserviceaccount.com\", \"client_id\": \"123\", \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\", \"token_uri\": \"https://oauth2.googleapis.com/token\"}' > /tmp/fake_credentials.json",
+        "returncode": 0,
+        "time": 0.7160921096801758
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6644089221954346
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 23.66201663017273
+    },
+    {
+        "GPT_time": 26.579319953918457
+    },
+    {
+        "command": "export DROPBOX_ACCESS_TOKEN=fake_token_for_testing",
+        "returncode": 0,
+        "time": 0.725297212600708
+    },
+    {
+        "command": "cat > /tmp/fake_credentials.json << 'EOF' {   \"type\": \"service_account\",   \"project_id\": \"test-project\",   \"private_key_id\": \"test-key-id\",   \"private_key\": \"-----BEGIN PRIVATE KEY-----\\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQC7W8fU2rXJz5K3\\nvN9Y8hF3qL2mP1xR4tS6uV7wX8yZ9aB0cD1eF2gH3iI4jJ5kK6lL7mM8nN9oO0pP\\n1qQ2rR3sS4tT5uU6vV7wW8xX9yY0zA1aB2bC3cD4dE5eF6fG7gH8hI9iJ0jK1kL2\\nlM3mN4nO5oP6pQ7qR8rS9sT0tU1uV2vW3wX4xY5yZ6zA7aB8bC9cD0dE1eF2fG3g\\nH4hI5iJ6jK7kL8lM9mN0nO1oP2pQ3qR4rS5sT6tU7uV8vW9wX0xY1yZ2zA3aB4bC\\n5cD6dE7eF8fG9gH0hI1iJ2jK3kL4lM5mN6nO7oP8pQ9qR0rS1sT2tU3uV4vW5wX6\\nxY7yZ8zA9bAgMBAAECggEABa1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u\\n1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a\\n3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3f4g\\n5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m\\n7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s\\n9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7vQKBgQD\\nm1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2\\ns3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4\\ny5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3bQKBgQ\\nC7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8\\ni9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0\\no1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8qQKBgQCx\\n2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d\\n4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j\\n6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3lQKBgFp6q\\n7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w\\n9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c\\n1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8eAoGBAMn4o\\n5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u\\n7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a\\n9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c\\n-----END PRIVATE KEY-----\",   \"client_email\": \"test@test-project.iam.gserviceaccount.com\",   \"client_id\": \"123456789\",   \"auth_uri\": \"https://accounts.google.com/o/oauth2/auth\",   \"token_uri\": \"https://oauth2.googleapis.com/token\",   \"auth_provider_x509_cert_url\": \"https://www.googleapis.com/oauth2/v1/certs\",   \"client_x509_cert_url\": \"https://www.googleapis.com/robot/v1/metadata/x509/test%40test-project.iam.gserviceaccount.com\" } EOF",
+        "returncode": 1,
+        "time": 1200.195413351059
+    },
+    {
+        "GPT_time": 36.59733486175537
+    },
+    {
+        "command": "python3 -c \"import json; creds = {'type': 'service_account', 'project_id': 'test-project', 'private_key_id': 'test', 'private_key': '-----BEGIN PRIVATE KEY-----\\\\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDJ3vS5xZ8hF3qL2mP1xR4tS6uV7wX8yZ9aB0cD1eF2gH3iI4jJ5kK6lL7mM8nN9oO0pP1qQ2rR3sS4tT5uU6vV7wW8xX9yY0zA1aB2bC3cD4dE5eF6fG7gH8hI9iJ0jK1kL2lM3mN4nO5oP6pQ7qR8rS9sT0tU1uV2vW3wX4xY5yZ6zA7aB8bC9cD0dE1eF2fG3gH4hI5iJ6jK7kL8lM9mN0nO1oP2pQ3qR4rS5sT6tU7uV8vW9wX0xY1yZ2zA3aB4bC5cD6dE7eF8fG9gH0hI1iJ2jK3kL4lM5mN6nO7oP8pQ9qR0rS1sT2tU3uV4vW5wX6xY7yZ8zA9bAgMBAAECggEABa1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7vQKBgQDm1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3bQKBgQC7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8qQKBgQCx2y3z4a5b6c7d8e9f0g1h2i3j4k5l6m7n8o9p0q1r2s3t4u5v6w7x8y9z0a1b2c3d4e5f6g7h8i9j0k1l2m3n4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3lQKBgFp6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c7d8eAoGBAMn4o5p6q7r8s9t0u1v2w3x4y5z6a7b8c9d0e1f2g3h4i5j6k7l8m9n0o1p2q3r4s5t6u7v8w9x0y1z2a3b4c5d6e7f8g9h0i1j2k3l4m5n6o7p8q9r0s1t2u3v4w5x6y7z8a9b0c1d2e3f4g5h6i7j8k9l0m1n2o3p4q5r6s7t8u9v0w1x2y3z4a5b6c\\\\n-----END PRIVATE KEY-----', 'client_email': 'test@test-project.iam.gserviceaccount.com', 'client_id': '123456789', 'auth_uri': 'https://accounts.google.com/o/oauth2/auth', 'token_uri': 'https://oauth2.googleapis.com/token', 'auth_provider_x509_cert_url': 'https://www.googleapis.com/oauth2/v1/certs', 'client_x509_cert_url': 'https://www.googleapis.com/robot/v1/metadata/x509/test@test-project.iam.gserviceaccount.com'}; open('/tmp/fake_credentials.json', 'w').write(json.dumps(creds))\"",
+        "returncode": 0,
+        "time": 0.7498641014099121
+    },
+    {
+        "GPT_time": 21.590670585632324
+    },
+    {
+        "command": "cat /repo/test/contrib/dropbox_test.py | head -50",
+        "returncode": 0,
+        "time": 0.6709554195404053
+    },
+    {
+        "GPT_time": 11.703778505325317
+    },
+    {
+        "command": "export DROPBOX_APP_TOKEN=fake_token_for_testing",
+        "returncode": 0,
+        "time": 0.717076301574707
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.66448974609375
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 71.28818202018738
+    },
+    {
+        "GPT_time": 19.770653247833252
+    },
+    {
+        "command": "pip install -q cryptography",
+        "returncode": 0,
+        "time": 1.3911490440368652
+    },
+    {
+        "command": "python3 -c \" from cryptography.hazmat.primitives import serialization from cryptography.hazmat.backends import default_backend from cryptography.hazmat.primitives.asymmetric import rsa import json  # Generate a private key private_key = rsa.generate_private_key(     public_exponent=65537,     key_size=2048,     backend=default_backend() )  # Serialize the private key pem = private_key.private_bytes(     encoding=serialization.Encoding.PEM,     format=serialization.PrivateFormat.PKCS8,     encryption_algorithm=serialization.NoEncryption() )  # Decode to string private_key_str = pem.decode('utf-8')  # Create credentials dict creds = {     'type': 'service_account',     'project_id': 'test-project',     'private_key_id': 'test-key-id',     'private_key': private_key_str,     'client_email': 'test@test-project.iam.gserviceaccount.com',     'client_id': '123456789',     'auth_uri': 'https://accounts.google.com/o/oauth2/auth',     'token_uri': 'https://oauth2.googleapis.com/token',     'auth_provider_x509_cert_url': 'https://www.googleapis.com/oauth2/v1/certs',     'client_x509_cert_url': 'https://www.googleapis.com/robot/v1/metadata/x509/test@test-project.iam.gserviceaccount.com' }  with open('/tmp/fake_credentials.json', 'w') as f:     json.dump(creds, f) print('Credentials file created successfully') \"",
+        "returncode": 0,
+        "time": 10.805582523345947
+    }
+]

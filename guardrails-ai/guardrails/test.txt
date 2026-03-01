@@ -1,0 +1,681 @@
+tests/integration_tests/applications/test_text2sql.py::test_text2sql_with_examples[sqlite://-/repo/tests/integration_tests/test_assets/text2sql/schema.sql-/repo/tests/integration_tests/test_assets/text2sql/examples.json]
+tests/integration_tests/applications/test_text2sql.py::test_text2sql_with_examples[sqlite:////repo/tests/integration_tests/test_assets/text2sql/department_management.sqlite-None-None]
+tests/integration_tests/applications/test_text2sql.py::test_text2sql_with_coro
+tests/integration_tests/integrations/langchain/test_guard_runnable.py::test_guard_as_runnable[Ice cream is frozen.-False]
+tests/integration_tests/integrations/langchain/test_guard_runnable.py::test_guard_as_runnable[Ice cream is a frozen dairy product that is consumed in many places.-True]
+tests/integration_tests/integrations/langchain/test_guard_runnable.py::test_guard_as_runnable[This response isn't relevant.-True]
+tests/integration_tests/integrations/langchain/test_guard_runnable.py::test_guard_runnable_with_callback_config
+tests/integration_tests/integrations/langchain/test_guard_runnable.py::test_guard_runnable_max_retries[1-2-1-Succeeded on attempt 1]
+tests/integration_tests/integrations/langchain/test_guard_runnable.py::test_guard_runnable_max_retries[2-2-1-Failed attempt 1]
+tests/integration_tests/integrations/langchain/test_guard_runnable.py::test_guard_runnable_max_retries[2-None-1-Failed attempt 1]
+tests/integration_tests/integrations/langchain/test_guard_runnable.py::test_guard_runnable_max_retries[2-0-1-Failed attempt 1]
+tests/integration_tests/integrations/langchain/test_validator_runnable.py::test_validator_runnable[Ice cream is frozen.-False-None]
+tests/integration_tests/integrations/langchain/test_validator_runnable.py::test_validator_runnable[Ice cream is a frozen dairy product that is consumed in many places.-True-String should be readable within 0.05 minutes.]
+tests/integration_tests/integrations/langchain/test_validator_runnable.py::test_validator_runnable[This response isn't relevant.-True-Result must match Ice cream]
+tests/integration_tests/integrations/langchain/test_validator_runnable.py::test_validator_runnable_with_callback_config
+tests/integration_tests/schema/test_generator_integration.py::test_generate_example[schema0]
+tests/integration_tests/schema/test_generator_integration.py::test_generate_example[schema1]
+tests/integration_tests/schema/test_generator_integration.py::test_generate_example[schema2]
+tests/integration_tests/schema/test_generator_integration.py::test_generate_example[schema3]
+tests/integration_tests/schema/test_generator_integration.py::test_generate_example[schema4]
+tests/integration_tests/schema/test_generator_integration.py::test_gen_string[schema0-None-\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,7}\\b]
+tests/integration_tests/schema/test_generator_integration.py::test_gen_string[schema1-None-.*]
+tests/integration_tests/schema/test_generator_integration.py::test_gen_string[schema2-email-\\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\\.[A-Z|a-z]{2,7}\\b]
+tests/integration_tests/schema/test_primitive_schema.py::TestPrimitiveSchema::test_choice_case_happy_path
+tests/integration_tests/schema/test_pydantic_schema.py::TestPydanticSchema::test_choice_case_happy_path
+tests/integration_tests/schema/test_rail_schema.py::TestRailToJsonSchema::test_choice_case_happy_path
+tests/integration_tests/schema/test_rail_schema.py::test_json_schema_to_rail_output[json_schema0-validator_map0-<output>\n  <choice name="action" discriminator="chosen_action" required="true">\n    <case name="fight">\n      <string name="weapon" format="valid-choices: ['crossbow', 'machine gun']" required="true" />\n    </case>\n    <case name="flight">\n      <string name="flight_direction" format="valid-choices: ['north', 'south', 'east', 'west']" required="false" />\n      <integer name="distance" format="valid-choices: [1, 2, 3, 4]" required="true" />\n    </case>\n  </choice>\n</output>]
+tests/integration_tests/schema/test_rail_schema.py::test_json_schema_to_rail_output[json_schema1-validator_map1-<output>\n  <choice name="action" discriminator="chosen_action" required="true">\n    <case name="fight">\n      <string name="weapon" format="valid-choices: ['crossbow', 'machine gun']" required="true" />\n    </case>\n    <case name="flight">\n      <string name="flight_direction" format="valid-choices: ['north', 'south', 'east', 'west']" required="true" />\n      <integer name="distance" format="valid-choices: [1, 2, 3, 4]" required="true" />\n    </case>\n  </choice>\n</output>]
+tests/integration_tests/schema/test_rail_schema.py::test_json_schema_to_rail_output[json_schema2-validator_map2-<output>\n  <list name="fees" description="What fees and charges are associated with my account?" required="true">\n    <object required="true" >\n      <integer name="index" format="1-indexed" required="true" />\n      <string name="name" format="lower-case; two-words" required="true" />\n      <string name="explanation" format="one-line" required="true" />\n      <float name="value" format="percentage" required="true" />\n    </object>\n  </list>\n  <object name="interest_rates" description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" required="true" />\n</output>]
+tests/integration_tests/schema/test_validator.py::TestValidatePayload::test_happy_path
+tests/integration_tests/schema/test_validator.py::TestValidatePayload::test_extra_properties_allowed
+tests/integration_tests/schema/test_validator.py::TestValidatePayload::test_failure_invalid_discriminator_value
+tests/integration_tests/schema/test_validator.py::TestValidatePayload::test_failure_invalid_type
+tests/integration_tests/schema/test_validator.py::TestValidatePayload::test_failure_invalid_structure
+tests/integration_tests/schema/test_validator.py::TestValidatePayload::test_failure_missing_required_properties
+tests/integration_tests/schema/test_validator.py::TestValidatePayload::test_subschema_validation
+tests/integration_tests/test_async.py::test_entity_extraction_with_reask
+tests/integration_tests/test_async.py::test_entity_extraction_with_noop
+tests/integration_tests/test_async.py::test_entity_extraction_with_noop_pydantic
+tests/integration_tests/test_async.py::test_entity_extraction_with_filter
+tests/integration_tests/test_async.py::test_entity_extraction_with_fix
+tests/integration_tests/test_async.py::test_entity_extraction_with_refrain
+tests/integration_tests/test_async.py::test_rail_spec_output_parse
+tests/integration_tests/test_async.py::test_string_rail_spec_output_parse
+tests/integration_tests/test_async_streaming.py::test_async_streaming_fix_behavior_two_validators
+tests/integration_tests/test_async_streaming.py::test_async_streaming_filter_behavior
+tests/integration_tests/test_cli.py::test_cli
+tests/integration_tests/test_data_validation.py::test_choice_validation[{"choice": {"action": "fight", "fight_move": "kick"}}-False-False-False]
+tests/integration_tests/test_data_validation.py::test_choice_validation[{"choice": {"action": "flight", "flight_direction": "north", "flight_speed": 1}}-False-False-False]
+tests/integration_tests/test_data_validation.py::test_choice_validation[{"choice": {"action": "flight", "fight_move": "punch"}}-False-True-False]
+tests/integration_tests/test_data_validation.py::test_choice_validation[{"choice": {"action": "fight", "flight_direction": "north", "flight_speed": 1}}-False-True-False]
+tests/integration_tests/test_data_validation.py::test_choice_validation[{"choice": {"action": "random_action"}}-False-True-False]
+tests/integration_tests/test_data_validation.py::test_choice_validation[{"choice": {"action": "fight", "fight_move": "random_move"}}-True-True-True]
+tests/integration_tests/test_data_validation.py::test_choice_validation[{"choice": {"action": "flight", "random_key": "random_value"}}-False-True-False]
+tests/integration_tests/test_data_validation.py::test_choice_validation[{"choice": {"action": "flight", "random_key": "random_value"}-False-True-True]
+tests/integration_tests/test_data_validation.py::test_choice_validation_pydantic[{"choice": {"action": "fight", "fight_move": "kick"}}-False-False-False]
+tests/integration_tests/test_data_validation.py::test_choice_validation_pydantic[{"choice": {"action": "flight", "flight_direction": "north", "flight_speed": 1}}-False-False-False]
+tests/integration_tests/test_data_validation.py::test_choice_validation_pydantic[{"choice": {"action": "flight", "fight_move": "punch"}}-False-True-False]
+tests/integration_tests/test_data_validation.py::test_choice_validation_pydantic[{"choice": {"action": "fight", "flight_direction": "north", "flight_speed": 1}}-False-True-False]
+tests/integration_tests/test_data_validation.py::test_choice_validation_pydantic[{"choice": {"action": "random_action"}}-False-True-False]
+tests/integration_tests/test_data_validation.py::test_choice_validation_pydantic[{"choice": {"action": "fight", "fight_move": "random_move"}}-True-True-True]
+tests/integration_tests/test_data_validation.py::test_choice_validation_pydantic[{"choice": {"action": "flight", "random_key": "random_value"}}-False-True-False]
+tests/integration_tests/test_data_validation.py::test_choice_validation_pydantic[{"choice": {"action": "flight", "random_key": "random_value"}-False-True-True]
+tests/integration_tests/test_datatypes.py::test_passed_date_format
+tests/integration_tests/test_datatypes.py::test_defaulted_date_parser[2021-01-01]
+tests/integration_tests/test_datatypes.py::test_defaulted_date_parser[2021-01-01T11:10:00+01:00]
+tests/integration_tests/test_datatypes.py::test_defaulted_date_parser[2023-10-03T14:18:38.476Z]
+tests/integration_tests/test_datatypes.py::test_defaulted_date_parser_unsupported_values[1696343743-ParserError]
+tests/integration_tests/test_datatypes.py::test_defaulted_date_parser_unsupported_values[1697579939213-OverflowError]
+tests/integration_tests/test_document_store.py::TestEphemeralDocumentStore::test_similarity_search
+tests/integration_tests/test_document_store.py::TestEphemeralDocumentStore::test_batched_add
+tests/integration_tests/test_document_store.py::TestEphemeralDocumentStore::test_persistence
+tests/integration_tests/test_embedding_openai.py::TestOpenAIEmbedding::test_embedding_texts
+tests/integration_tests/test_embedding_openai.py::TestOpenAIEmbedding::test_embedding_query
+tests/integration_tests/test_embedding_openai.py::TestOpenAIEmbedding::test_embed_query
+tests/integration_tests/test_embedding_openai.py::TestOpenAIEmbedding::test__get_embedding
+tests/integration_tests/test_embedding_openai.py::test_output_dim_for_text_embedding_ada_002
+tests/integration_tests/test_embedding_openai.py::test_output_dim_for_ada_model
+tests/integration_tests/test_embedding_openai.py::test_output_dim_for_babbage_model
+tests/integration_tests/test_embedding_openai.py::test_output_dim_for_curie_model
+tests/integration_tests/test_embedding_openai.py::test_output_dim_for_davinci_model
+tests/integration_tests/test_embedding_openai.py::test_output_dim_for_unknown_model
+tests/integration_tests/test_formatters.py::test_hugging_face_model_callable
+tests/integration_tests/test_formatters.py::test_hugging_face_pipeline_callable
+tests/integration_tests/test_formatters.py::test_hugging_face_pipeline_complex_schema
+tests/integration_tests/test_guard.py::test_entity_extraction_with_reask[True-<rail version="0.1">\n\n<output>\n\n    <list name="fees" description="What fees and charges are associated with my account?">\n        <object>\n            <integer name="index" format="1-indexed" />\n            <string name="name" validators="lower-case; two-words" on-fail-lower-case="noop" \non-fail-two-words="reask"/>\n            <string name="explanation" validators="one-line" on-fail-one-line="noop" />\n            <float name="value" format="percentage"/>\n        </object>\n    </list>\n    <object name="interest_rates" description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" />\n</output>\n\n\n<messages>\n    <message role="user">\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}</message>\n</messages>\n\n</rail>-None-False]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_reask[True-<rail version="0.1">\n\n<output>\n\n    <list name="fees" description="What fees and charges are associated with my account?">\n        <object>\n            <integer name="index" format="1-indexed" />\n            <string name="name" validators="lower-case; two-words" on-fail-lower-case="noop" \non-fail-two-words="reask"/>\n            <string name="explanation" validators="one-line" on-fail-one-line="noop" />\n            <float name="value" format="percentage"/>\n        </object>\n    </list>\n    <object name="interest_rates" description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" />\n</output>\n\n\n<messages>\n    <message role="user">\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}</message>\n</messages>\n\n</rail>-None-True]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_reask[True-ContractDetailsReask-\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}-False]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_reask[True-ContractDetailsReask-\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}-True]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_reask[False-<rail version="0.1">\n\n<output>\n\n    <list name="fees" description="What fees and charges are associated with my account?">\n        <object>\n            <integer name="index" format="1-indexed" />\n            <string name="name" validators="lower-case; two-words" on-fail-lower-case="noop" \non-fail-two-words="reask"/>\n            <string name="explanation" validators="one-line" on-fail-one-line="noop" />\n            <float name="value" format="percentage"/>\n        </object>\n    </list>\n    <object name="interest_rates" description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" />\n</output>\n\n\n<messages>\n    <message role="user">\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}</message>\n</messages>\n\n</rail>-None-False]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_reask[False-<rail version="0.1">\n\n<output>\n\n    <list name="fees" description="What fees and charges are associated with my account?">\n        <object>\n            <integer name="index" format="1-indexed" />\n            <string name="name" validators="lower-case; two-words" on-fail-lower-case="noop" \non-fail-two-words="reask"/>\n            <string name="explanation" validators="one-line" on-fail-one-line="noop" />\n            <float name="value" format="percentage"/>\n        </object>\n    </list>\n    <object name="interest_rates" description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" />\n</output>\n\n\n<messages>\n    <message role="user">\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}</message>\n</messages>\n\n</rail>-None-True]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_reask[False-ContractDetailsReask-\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}-False]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_reask[False-ContractDetailsReask-\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}-True]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_noop[<rail version="0.1">\n\n<output>\n\n    <list name="fees" description="What fees and charges are associated with my account?">\n        <object>\n            <integer name="index" format="1-indexed" />\n            <string name="name" validators="lower-case; two-words" on-fail-lower-case="noop" on-fail-two-words="noop"/>\n            <string name="explanation" validators="one-line" on-fail-one-line="noop" />\n            <float name="value" format="percentage"/>\n        </object>\n    </list>\n    <object name="interest_rates" description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" />\n</output>\n\n<messages>\n    <message role="user">\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}</message>\n</messages>\n\n</rail>-None]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_noop[ContractDetailsNoop-\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_filter[<rail version="0.1">\n\n<output>\n\n    <list name="fees" description="What fees and charges are associated with my account?">\n        <object>\n            <integer name="index" format="1-indexed" />\n            <string name="name" validators="lower-case; two-words" on-fail-lower-case="filter" \non-fail-two-words="filter"/>\n            <string name="explanation" validators="one-line" on-fail-one-line="filter" />\n            <float name="value" format="percentage"/>\n        </object>\n    </list>\n    <object name="interest_rates" description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" />\n</output>\n\n<messages>\n    <message role="user">\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}</message>\n</messages>\n\n</rail>-None]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_filter[ContractDetailsFilter-\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_fix[<rail version="0.1">\n\n<output>\n\n    <list name="fees" description="What fees and charges are associated with my account?">\n        <object>\n            <integer name="index" format="1-indexed" />\n            <string name="name" validators="lower-case; two-words" on-fail-lower-case="fix" on-fail-two-words="fix"/>\n            <string name="explanation" validators="one-line" on-fail-one-line="fix" />\n            <float name="value" format="percentage"/>\n        </object>\n    </list>\n    <object name="interest_rates" description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" />\n</output>\n\n<messages>\n    <message role="user">\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}</message>\n</messages>\n\n</rail>-None]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_fix[ContractDetailsFix-\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_refrain[<rail version="0.1">\n\n<output>\n\n    <list name="fees" description="What fees and charges are associated with my account?">\n        <object>\n            <integer name="index" format="1-indexed" />\n            <string name="name" validators="lower-case; two-words" on-fail-lower-case="refrain" on-fail-two-words="refrain"/>\n            <string name="explanation" validators="one-line" on-fail-one-line="refrain" />\n            <float name="value" format="percentage"/>\n        </object>\n    </list>\n    <object name="interest_rates" description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" />\n</output>\n\n\n<messages>\n    <message role="user">\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}</message>\n</messages>\n</rail>-None]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_refrain[ContractDetailsRefrain-\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n${document}\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n\n${gr.xml_suffix_prompt_v2_wo_none}]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_fix_chat_models[<rail version="0.1">\n\n<output>\n\n    <list name="fees" description="What fees and charges are associated with my account?">\n        <object>\n            <integer name="index" format="1-indexed" />\n            <string name="name" validators="lower-case; two-words" on-fail-lower-case="fix" on-fail-two-words="fix"/>\n            <string name="explanation" validators="one-line" on-fail-one-line="fix" />\n            <float name="value" format="percentage"/>\n        </object>\n    </list>\n    <object name="interest_rates" description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" />\n</output>\n\n<messages>\n    <message role="system">\nYou are a helpful assistant only capable of communicating with valid JSON, and no other text.\n\n${gr.xml_suffix_prompt_examples}\n</message>\n    <message role="user">\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter `null`.\n\n${document}\n\nExtract information from this document and return a JSON that follows the correct schema.\n\n${gr.xml_prefix_prompt}\n\n${xml_output_schema}\n</message>\n</messages>\n\n</rail>-None]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_fix_chat_models[ContractDetailsFix-messages1]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_reask_with_optional_prompts[<rail version="0.1">\n\n<output>\n\n    <list name="fees" description="What fees and charges are associated with my account?">\n        <object>\n            <integer name="index" format="1-indexed" />\n            <string name="name" validators="lower-case; two-words" on-fail-lower-case="noop" \non-fail-two-words="reask"/>\n            <string name="explanation" validators="one-line" on-fail-one-line="noop" />\n            <float name="value" format="percentage"/>\n        </object>\n    </list>\n    <object name="interest_rates" description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" />\n</output>\n\n</rail>-messages0-\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter 'None'.\n\n2/25/23, 7:59 PM about:blank\nabout:blank 1/4\nPRICING INFORMATION\nINTEREST RATES AND INTEREST CHARGES\nPurchase Annual\nPercentage Rate (APR) 0% Intro APR for the first 18 months that your Account is open.\nAfter that, 19.49%. This APR will vary with the market based on the Prime\nRate.\na\nMy Chase Loan\nSM APR 19.49%. This APR will vary with the market based on the Prime Rate.\na\nPromotional offers with fixed APRs and varying durations may be available from\ntime to time on some accounts.\nBalance Transfer APR 0% Intro APR for the first 18 months that your Account is open.\nAfter that, 19.49%. This APR will vary with the market based on the Prime\nRate.\na\nCash Advance APR 29.49%. This APR will vary with the market based on the Prime Rate.\nb\nPenalty APR and When\nIt Applies\nUp to 29.99%. This APR will vary with the market based on the Prime Rate.\nc\nWe may apply the Penalty APR to your account if you:\nfail to make a Minimum Payment by the date and time that it is due; or\nmake a payment to us that is returned unpaid.\nHow Long Will the Penalty APR Apply?: If we apply the Penalty APR for\neither of these reasons, the Penalty APR could potentially remain in effect\nindefinitely.\nHow to Avoid Paying\nInterest on Purchases\nYour due date will be a minimum of 21 days after the close of each billing cycle.\nWe will not charge you interest on new purchases if you pay your entire balance\nor Interest Saving Balance by the due date each month. We will begin charging\ninterest on balance transfers and cash advances on the transaction date.\nMinimum Interest\nCharge\nNone\nCredit Card Tips from\nthe Consumer Financial\nProtection Bureau\nTo learn more about factors to consider when applying for or using a credit card,\nvisit the website of the Consumer Financial Protection Bureau at\nhttp://www.consumerfinance.gov/learnmore.\nFEES\nAnnual Membership\nFee\nNone\nMy Chase Plan\nSM Fee\n(fixed finance charge)\nMonthly fee of 0% of the amount of each eligible purchase transaction or\namount selected to create a My Chase Plan while in the 0% Intro Purchase\nAPR period.\nAfter that, monthly fee of 1.72% of the amount of each eligible purchase\ntransaction or amount selected to create a My Chase Plan. The My Chase Plan\nFee will be determined at the time each My Chase Plan is created and will\nremain the same until the My Chase Plan is paid in full.\nd\nTransaction Fees\nBalance Transfers Intro fee of either $5 or 3% of the amount of each transfer, whichever is greater,\non transfers made within 60 days of account opening. After that: Either $5 or 5%\nof the amount of each transfer, whichever is greater.\nCash Advances Either $10 or 5% of the amount of each transaction, whichever is greater.\n2/25/23, 7:59 PM about:blank\nabout:blank 2/4\nForeign Transactions 3% of the amount of each transaction in U.S. dollars.\nPenalty Fees\nLate Payment Up to $40.\nOver-the-Credit-Limit None\nReturn Payment Up to $40.\nReturn Check None\nNote: This account may not be eligible for balance transfers.\nLoss of Intro APR: We will end your introductory APR if any required Minimum Payment is 60 days late, and\napply the Penalty APR.\nHow We Will Calculate Your Balance: We use the daily balance method (including new transactions).\nPrime Rate: Variable APRs are based on the 7.75% Prime Rate as of 2/7/2023.\naWe add 11.74% to the Prime Rate to determine the Purchase/My Chase Loan/Balance Transfer APR.\nMaximum APR 29.99%.\nbWe add 21.74% to the Prime Rate to determine the Cash Advance APR. Maximum APR 29.99%.\ncWe add up to 26.99% to the Prime Rate to determine the Penalty APR. Maximum APR 29.99%.\ndMy Chase Plan Fee: The My Chase Plan Fee is calculated at the time each plan is created and is based on\nthe amount of each purchase transaction or amount selected to create the plan, the number of billing periods\nyou choose to pay the balance in full, and other factors. The monthly and aggregate dollar amount of your My\nChase Plan Fee will be disclosed during the activation of each My Chase Plan.\nMILITARY LENDING ACT NOTICE: Federal law provides important protections to members of the Armed\nForces and their dependents relating to extensions of consumer credit. In general, the cost of consumer credit\nto a member of the Armed Forces and his or her dependent may not exceed an annual percentage rate of 36\npercent. This rate must include, as applicable to the credit transaction or account: the costs associated with\ncredit insurance premiums; fees for ancillary products sold in connection with the credit transaction; any\napplication fee charged (other than certain application fees for specified credit transactions or accounts); and\nany participation fee charged (other than certain participation fees for a credit card account). To receive this\ninformation and a description of your payment obligation verbally, please call 1-800-235-9978.\nTERMS & CONDITIONS\nAuthorization: When you respond to this credit card offer from JPMorgan Chase Bank, N.A., Member FDIC, a\nsubsidiary of JPMorgan Chase & Co. ("Chase", "we", or "us"), you agree to the following:\n1. You authorize us to obtain credit bureau reports, employment, and income information about you that we\nwill use when considering your application for credit. We may obtain and use information about your\naccounts with us and others such as Checking, Deposit, Investment, and Utility accounts from credit\nbureaus and other entities. You also authorize us to obtain credit bureau reports and any other\ninformation about you in connection with: 1) extensions of credit on your account; 2) the administration,\nreview or collection of your account; and 3) offering you enhanced or additional products and services. If\nyou ask, we will tell you the name and address of the credit bureau from which we obtained a report\nabout you.\n2. If an account is opened, you will receive a Cardmember Agreement with your card(s). You agree to the\nterms of this agreement by: using the account or any card, authorizing their use, or making any payment\non the account.\n3. By providing your mobile ph\n\n\nGiven below is XML that describes the information to extract from this document and the tags to extract it into.\n\n\n<output>\n  <list description="What fees and charges are associated with my account?" name="fees" required="true">\n    <object required="true">\n      <integer format="1-indexed" name="index" required="true"></integer>\n      <string format="lower-case; two-words" name="name" required="true"></string>\n      <string format="one-line" name="explanation" required="true"></string>\n      <float format="percentage" name="value" required="true"></float>\n    </object>\n  </list>\n  <object description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" name="interest_rates" required="true"></object>\n</output>\n\n\nONLY return a valid JSON object (no other text is necessary). The JSON MUST conform to the XML format, including any types and format requests e.g. requests for lists, objects and specific types. Be correct and concise.\n-None-\nI was given the following JSON response, which had problems due to incorrect values.\n\n{\n  "fees": [\n    {\n      "name": {\n        "incorrect_value": "my chase plan",\n        "error_messages": [\n          "must be exactly two words"\n        ]\n      }\n    },\n    {\n      "name": {\n        "incorrect_value": "over-the-credit-limit",\n        "error_messages": [\n          "must be exactly two words"\n        ]\n      }\n    }\n  ]\n}\n\nHelp me correct the incorrect values based on the given error messages.\n\nGiven below is XML that describes the information to extract from this document and the tags to extract it into.\n\n<output>\n  <list description="What fees and charges are associated with my account?" name="fees" required="true">\n    <object required="true">\n      <integer format="1-indexed" name="index" required="true"></integer>\n      <string format="lower-case; two-words" name="name" required="true"></string>\n      <string format="one-line" name="explanation" required="true"></string>\n      <float format="percentage" name="value" required="true"></float>\n    </object>\n  </list>\n  <object description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" name="interest_rates" required="true"></object>\n</output>\n\nONLY return a valid JSON object (no other text is necessary), where the key of the field in JSON is the `name` attribute of the corresponding XML, and the value is of the type specified by the corresponding XML's tag. The JSON MUST conform to the XML format, including any types and format requests e.g. requests for lists, objects and specific types. Be correct and concise. If you are unsure anywhere, enter `null`.\n-None-llm_outputs0]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_reask_with_optional_prompts[<rail version="0.1">\n\n<output>\n\n    <list name="fees" description="What fees and charges are associated with my account?">\n        <object>\n            <integer name="index" format="1-indexed" />\n            <string name="name" validators="lower-case; two-words" on-fail-lower-case="noop" \non-fail-two-words="reask"/>\n            <string name="explanation" validators="one-line" on-fail-one-line="noop" />\n            <float name="value" format="percentage"/>\n        </object>\n    </list>\n    <object name="interest_rates" description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" />\n</output>\n\n</rail>-messages1-\nGiven the following document, answer the following questions. If the answer doesn't exist in the document, enter `null`.\n\n2/25/23, 7:59 PM about:blank\nabout:blank 1/4\nPRICING INFORMATION\nINTEREST RATES AND INTEREST CHARGES\nPurchase Annual\nPercentage Rate (APR) 0% Intro APR for the first 18 months that your Account is open.\nAfter that, 19.49%. This APR will vary with the market based on the Prime\nRate.\na\nMy Chase Loan\nSM APR 19.49%. This APR will vary with the market based on the Prime Rate.\na\nPromotional offers with fixed APRs and varying durations may be available from\ntime to time on some accounts.\nBalance Transfer APR 0% Intro APR for the first 18 months that your Account is open.\nAfter that, 19.49%. This APR will vary with the market based on the Prime\nRate.\na\nCash Advance APR 29.49%. This APR will vary with the market based on the Prime Rate.\nb\nPenalty APR and When\nIt Applies\nUp to 29.99%. This APR will vary with the market based on the Prime Rate.\nc\nWe may apply the Penalty APR to your account if you:\nfail to make a Minimum Payment by the date and time that it is due; or\nmake a payment to us that is returned unpaid.\nHow Long Will the Penalty APR Apply?: If we apply the Penalty APR for\neither of these reasons, the Penalty APR could potentially remain in effect\nindefinitely.\nHow to Avoid Paying\nInterest on Purchases\nYour due date will be a minimum of 21 days after the close of each billing cycle.\nWe will not charge you interest on new purchases if you pay your entire balance\nor Interest Saving Balance by the due date each month. We will begin charging\ninterest on balance transfers and cash advances on the transaction date.\nMinimum Interest\nCharge\nNone\nCredit Card Tips from\nthe Consumer Financial\nProtection Bureau\nTo learn more about factors to consider when applying for or using a credit card,\nvisit the website of the Consumer Financial Protection Bureau at\nhttp://www.consumerfinance.gov/learnmore.\nFEES\nAnnual Membership\nFee\nNone\nMy Chase Plan\nSM Fee\n(fixed finance charge)\nMonthly fee of 0% of the amount of each eligible purchase transaction or\namount selected to create a My Chase Plan while in the 0% Intro Purchase\nAPR period.\nAfter that, monthly fee of 1.72% of the amount of each eligible purchase\ntransaction or amount selected to create a My Chase Plan. The My Chase Plan\nFee will be determined at the time each My Chase Plan is created and will\nremain the same until the My Chase Plan is paid in full.\nd\nTransaction Fees\nBalance Transfers Intro fee of either $5 or 3% of the amount of each transfer, whichever is greater,\non transfers made within 60 days of account opening. After that: Either $5 or 5%\nof the amount of each transfer, whichever is greater.\nCash Advances Either $10 or 5% of the amount of each transaction, whichever is greater.\n2/25/23, 7:59 PM about:blank\nabout:blank 2/4\nForeign Transactions 3% of the amount of each transaction in U.S. dollars.\nPenalty Fees\nLate Payment Up to $40.\nOver-the-Credit-Limit None\nReturn Payment Up to $40.\nReturn Check None\nNote: This account may not be eligible for balance transfers.\nLoss of Intro APR: We will end your introductory APR if any required Minimum Payment is 60 days late, and\napply the Penalty APR.\nHow We Will Calculate Your Balance: We use the daily balance method (including new transactions).\nPrime Rate: Variable APRs are based on the 7.75% Prime Rate as of 2/7/2023.\naWe add 11.74% to the Prime Rate to determine the Purchase/My Chase Loan/Balance Transfer APR.\nMaximum APR 29.99%.\nbWe add 21.74% to the Prime Rate to determine the Cash Advance APR. Maximum APR 29.99%.\ncWe add up to 26.99% to the Prime Rate to determine the Penalty APR. Maximum APR 29.99%.\ndMy Chase Plan Fee: The My Chase Plan Fee is calculated at the time each plan is created and is based on\nthe amount of each purchase transaction or amount selected to create the plan, the number of billing periods\nyou choose to pay the balance in full, and other factors. The monthly and aggregate dollar amount of your My\nChase Plan Fee will be disclosed during the activation of each My Chase Plan.\nMILITARY LENDING ACT NOTICE: Federal law provides important protections to members of the Armed\nForces and their dependents relating to extensions of consumer credit. In general, the cost of consumer credit\nto a member of the Armed Forces and his or her dependent may not exceed an annual percentage rate of 36\npercent. This rate must include, as applicable to the credit transaction or account: the costs associated with\ncredit insurance premiums; fees for ancillary products sold in connection with the credit transaction; any\napplication fee charged (other than certain application fees for specified credit transactions or accounts); and\nany participation fee charged (other than certain participation fees for a credit card account). To receive this\ninformation and a description of your payment obligation verbally, please call 1-800-235-9978.\nTERMS & CONDITIONS\nAuthorization: When you respond to this credit card offer from JPMorgan Chase Bank, N.A., Member FDIC, a\nsubsidiary of JPMorgan Chase & Co. ("Chase", "we", or "us"), you agree to the following:\n1. You authorize us to obtain credit bureau reports, employment, and income information about you that we\nwill use when considering your application for credit. We may obtain and use information about your\naccounts with us and others such as Checking, Deposit, Investment, and Utility accounts from credit\nbureaus and other entities. You also authorize us to obtain credit bureau reports and any other\ninformation about you in connection with: 1) extensions of credit on your account; 2) the administration,\nreview or collection of your account; and 3) offering you enhanced or additional products and services. If\nyou ask, we will tell you the name and address of the credit bureau from which we obtained a report\nabout you.\n2. If an account is opened, you will receive a Cardmember Agreement with your card(s). You agree to the\nterms of this agreement by: using the account or any card, authorizing their use, or making any payment\non the account.\n3. By providing your mobile ph\n\nExtract information from this document and return a JSON that follows the correct schema.\n\n\nGiven below is XML that describes the information to extract from this document and the tags to extract it into.\n\n\n<output>\n  <list description="What fees and charges are associated with my account?" name="fees" required="true">\n    <object required="true">\n      <integer format="1-indexed" name="index" required="true"></integer>\n      <string format="lower-case; two-words" name="name" required="true"></string>\n      <string format="one-line" name="explanation" required="true"></string>\n      <float format="percentage" name="value" required="true"></float>\n    </object>\n  </list>\n  <object description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" name="interest_rates" required="true"></object>\n</output>\n-\nYou are a helpful assistant only capable of communicating with valid JSON, and no other text.\n\n\nONLY return a valid JSON object (no other text is necessary), where the key of the field in JSON is the `name` attribute of the corresponding XML, and the value is of the type specified by the corresponding XML's tag. The JSON MUST conform to the XML format, including any types and format requests e.g. requests for lists, objects and specific types. Be correct and concise. If you are unsure anywhere, enter `null`.\n\nHere are examples of simple (XML, JSON) pairs that show the expected behavior:\n- `<string name='foo' format='two-words lower-case' />` => `{'foo': 'example one'}`\n- `<list name='bar'><string format='upper-case' /></list>` => `{"bar": ['STRING ONE', 'STRING TWO', etc.]}`\n- `<object name='baz'><string name="foo" format="capitalize two-words" /><integer name="index" format="1-indexed" /></object>` => `{'baz': {'foo': 'Some String', 'index': 1}}`\n\n-\nI was given the following JSON response, which had problems due to incorrect values.\n\n{\n  "fees": [\n    {\n      "name": {\n        "incorrect_value": "my chase plan",\n        "error_messages": [\n          "must be exactly two words"\n        ]\n      }\n    },\n    {\n      "name": {\n        "incorrect_value": "over-the-credit-limit",\n        "error_messages": [\n          "must be exactly two words"\n        ]\n      }\n    }\n  ]\n}\n\nHelp me correct the incorrect values based on the given error messages.\n\nGiven below is XML that describes the information to extract from this document and the tags to extract it into.\n\n<output>\n  <list description="What fees and charges are associated with my account?" name="fees" required="true">\n    <object required="true">\n      <integer format="1-indexed" name="index" required="true"></integer>\n      <string format="lower-case; two-words" name="name" required="true"></string>\n      <string format="one-line" name="explanation" required="true"></string>\n      <float format="percentage" name="value" required="true"></float>\n    </object>\n  </list>\n  <object description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" name="interest_rates" required="true"></object>\n</output>\n\nONLY return a valid JSON object (no other text is necessary), where the key of the field in JSON is the `name` attribute of the corresponding XML, and the value is of the type specified by the corresponding XML's tag. The JSON MUST conform to the XML format, including any types and format requests e.g. requests for lists, objects and specific types. Be correct and concise. If you are unsure anywhere, enter `null`.\n-\nYou are a helpful assistant only capable of communicating with valid JSON, and no other text.\n\nONLY return a valid JSON object (no other text is necessary), where the key of the field in JSON is the `name` attribute of the corresponding XML, and the value is of the type specified by the corresponding XML's tag. The JSON MUST conform to the XML format, including any types and format requests e.g. requests for lists, objects and specific types. Be correct and concise. If you are unsure anywhere, enter `null`.\n\nHere are examples of simple (XML, JSON) pairs that show the expected behavior:\n- `<string name='foo' format='two-words lower-case' />` => `{'foo': 'example one'}`\n- `<list name='bar'><string format='upper-case' /></list>` => `{"bar": ['STRING ONE', 'STRING TWO', etc.]}`\n- `<object name='baz'><string name="foo" format="capitalize two-words" /><integer name="index" format="1-indexed" /></object>` => `{'baz': {'foo': 'Some String', 'index': 1}}`\n-llm_outputs1]
+tests/integration_tests/test_guard.py::test_entity_extraction_with_reask_with_optional_prompts[<rail version="0.1">\n\n<output>\n\n    <list name="fees" description="What fees and charges are associated with my account?">\n        <object>\n            <integer name="index" format="1-indexed" />\n            <string name="name" validators="lower-case; two-words" on-fail-lower-case="noop" \non-fail-two-words="reask"/>\n            <string name="explanation" validators="one-line" on-fail-one-line="noop" />\n            <float name="value" format="percentage"/>\n        </object>\n    </list>\n    <object name="interest_rates" description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" />\n</output>\n\n</rail>-messages2-None-None-\nI was given the following JSON response, which had problems due to incorrect values.\n\n{\n  "fees": [\n    {\n      "name": {\n        "incorrect_value": "my chase plan",\n        "error_messages": [\n          "must be exactly two words"\n        ]\n      }\n    },\n    {\n      "name": {\n        "incorrect_value": "over-the-credit-limit",\n        "error_messages": [\n          "must be exactly two words"\n        ]\n      }\n    }\n  ]\n}\n\nHelp me correct the incorrect values based on the given error messages.\n\nGiven below is XML that describes the information to extract from this document and the tags to extract it into.\n\n<output>\n  <list description="What fees and charges are associated with my account?" name="fees" required="true">\n    <object required="true">\n      <integer format="1-indexed" name="index" required="true"></integer>\n      <string format="lower-case; two-words" name="name" required="true"></string>\n      <string format="one-line" name="explanation" required="true"></string>\n      <float format="percentage" name="value" required="true"></float>\n    </object>\n  </list>\n  <object description="What are the interest rates offered by the bank on savings and checking accounts, loans, and credit products?" name="interest_rates" required="true"></object>\n</output>\n\nONLY return a valid JSON object (no other text is necessary), where the key of the field in JSON is the `name` attribute of the corresponding XML, and the value is of the type specified by the corresponding XML's tag. The JSON MUST conform to the XML format, including any types and format requests e.g. requests for lists, objects and specific types. Be correct and concise. If you are unsure anywhere, enter `null`.\n-\nYou are a helpful assistant only capable of communicating with valid JSON, and no other text.\n\nONLY return a valid JSON object (no other text is necessary), where the key of the field in JSON is the `name` attribute of the corresponding XML, and the value is of the type specified by the corresponding XML's tag. The JSON MUST conform to the XML format, including any types and format requests e.g. requests for lists, objects and specific types. Be correct and concise. If you are unsure anywhere, enter `null`.\n\nHere are examples of simple (XML, JSON) pairs that show the expected behavior:\n- `<string name='foo' format='two-words lower-case' />` => `{'foo': 'example one'}`\n- `<list name='bar'><string format='upper-case' /></list>` => `{"bar": ['STRING ONE', 'STRING TWO', etc.]}`\n- `<object name='baz'><string name="foo" format="capitalize two-words" /><integer name="index" format="1-indexed" /></object>` => `{'baz': {'foo': 'Some String', 'index': 1}}`\n-llm_outputs2]
+tests/integration_tests/test_guard.py::test_skeleton_reask
+tests/integration_tests/test_guard.py::test_string_with_message_history_reask
+tests/integration_tests/test_guard.py::test_pydantic_with_message_history_reask
+tests/integration_tests/test_guard.py::test_sequential_validator_log_is_not_duplicated
+tests/integration_tests/test_guard.py::test_in_memory_validator_log_is_not_duplicated
+tests/integration_tests/test_guard.py::test_enum_datatype
+tests/integration_tests/test_guard.py::test_guard_with_top_level_list_return_type[List-Create a list of items that may be found in a grocery store.]
+tests/integration_tests/test_guard.py::test_guard_with_top_level_list_return_type[\n<rail version="0.1">\n  <output type="list">\n    <object>\n        <string name="name" />\n        <float name="price" />\n    </object>\n  </output>\n  <messages>\n  <message role="user">Create a list of items that may be found in a grocery store.</message>\n  </messages>\n</rail>\n-None]
+tests/integration_tests/test_guard.py::test_pydantic_with_lite_llm
+tests/integration_tests/test_guard.py::test_string_output
+tests/integration_tests/test_guard.py::test_json_function_calling_tool
+tests/integration_tests/test_guard.py::test_string_reask
+tests/integration_tests/test_guard.py::TestSerizlizationAndDeserialization::test_guard_i_guard
+tests/integration_tests/test_guard.py::TestSerizlizationAndDeserialization::test_ser_deser
+tests/integration_tests/test_guard.py::test_guard_for_pydantic_with_mock_hf_pipeline
+tests/integration_tests/test_guard.py::test_guard_for_pydantic_with_mock_hf_model
+tests/integration_tests/test_guard.py::TestValidatorInitializedOnce::test_guard_init
+tests/integration_tests/test_guard.py::TestValidatorInitializedOnce::test_for_rail
+tests/integration_tests/test_guard.py::TestValidatorInitializedOnce::test_for_pydantic_validator_instance
+tests/integration_tests/test_guard.py::TestValidatorInitializedOnce::test_for_pydantic_str
+tests/integration_tests/test_guard.py::TestValidatorInitializedOnce::test_for_pydantic_same_instance_on_two_models
+tests/integration_tests/test_guard.py::TestValidatorInitializedOnce::test_guard_use_instance
+tests/integration_tests/test_guard.py::TestValidatorInitializedOnce::test_guard_use_class
+tests/integration_tests/test_guard.py::TestValidatorInitializedOnce::test_guard_use_same_instance_on_two_guards
+tests/integration_tests/test_guard.py::TestValidatorInitializedOnce::test_guard_use_many_instance
+tests/integration_tests/test_guard.py::TestValidatorInitializedOnce::test_guard_use_many_class
+tests/integration_tests/test_guard.py::TestValidatorInitializedOnce::test_guard_use_many_same_instance_on_two_guards
+tests/integration_tests/test_guard.py::TestCustomLLMApi::test_WITH_MSG_HISTORY
+tests/integration_tests/test_litellm.py::test_litellm_tools
+tests/integration_tests/test_litellm.py::test_litellm_openai
+tests/integration_tests/test_litellm.py::test_litellm_openai_streaming
+tests/integration_tests/test_litellm.py::test_litellm_openai_async
+tests/integration_tests/test_litellm.py::test_litellm_openai_async_messages
+tests/integration_tests/test_litellm.py::test_get_llm_ask_returns_litellm_callable_without_llm_api
+tests/integration_tests/test_litellm.py::test_get_async_llm_ask_returns_async_litellm_callable_without_llm_api
+tests/integration_tests/test_multi_reask.py::test_multi_reask
+tests/integration_tests/test_parsing.py::test_parsing_reask
+tests/integration_tests/test_parsing.py::test_async_parsing_reask
+tests/integration_tests/test_parsing.py::test_reask_prompt_instructions
+tests/integration_tests/test_pydantic.py::test_pydantic_with_reask
+tests/integration_tests/test_pydantic.py::test_pydantic_with_full_schema_reask
+tests/integration_tests/test_pydantic.py::test_container_types[ContainerModel-output0]
+tests/integration_tests/test_pydantic.py::test_container_types[ContainerModel2-output1]
+tests/integration_tests/test_python_rail.py::test_python_rail
+tests/integration_tests/test_python_rail.py::test_python_string
+tests/integration_tests/test_run.py::test_sync_async_validate_equivalence
+tests/integration_tests/test_run.py::test_sync_async_step_equivalence
+tests/integration_tests/test_streaming.py::test_streaming_with_openai_callable[guard0-expected_validated_output0]
+tests/integration_tests/test_streaming.py::test_streaming_with_openai_callable[guard1-expected_validated_output1]
+tests/integration_tests/test_streaming.py::test_streaming_with_openai_callable[guard2-expected_validated_output2]
+tests/integration_tests/test_streaming.py::test_streaming_with_openai_callable[guard3-expected_validated_output3]
+tests/integration_tests/test_streaming.py::test_streaming_with_openai_chat_callable[guard0-expected_validated_output0]
+tests/integration_tests/test_streaming.py::test_streaming_with_openai_chat_callable[guard1-expected_validated_output1]
+tests/integration_tests/test_streaming.py::test_streaming_with_openai_chat_callable[guard2-expected_validated_output2]
+tests/integration_tests/test_streaming.py::test_streaming_with_openai_chat_callable[guard3-expected_validated_output3]
+tests/integration_tests/test_streaming.py::test_string_schema_streaming_with_openai_chat[guard0-expected_error_spans0]
+tests/integration_tests/test_streaming.py::test_noop_behavior_two_validators
+tests/integration_tests/test_streaming.py::test_fix_behavior_one_validator
+tests/integration_tests/test_streaming.py::test_fix_behavior_two_validators
+tests/integration_tests/test_streaming.py::test_fix_behavior_three_validators
+tests/integration_tests/test_streaming.py::test_refrain_behavior
+tests/integration_tests/test_streaming.py::test_filter_behavior
+tests/integration_tests/test_telemetry.py::TestTelemetry::test_private_traces_go_to_user_telem_sink
+tests/integration_tests/test_telemetry.py::TestTelemetry::test_hub_traces_go_to_hub_telem_sink
+tests/integration_tests/test_telemetry.py::TestTelemetry::test_no_cross_contamination
+tests/integration_tests/test_validator_base.py::test_fix
+tests/integration_tests/test_validator_base.py::test_default_noop
+tests/integration_tests/test_validator_base.py::test_multiple_validators
+tests/integration_tests/test_validator_base.py::test_filter
+tests/integration_tests/test_validator_base.py::test_refrain
+tests/integration_tests/test_validator_base.py::test_exception
+tests/integration_tests/test_validator_base.py::test_validator_instance_attr_equality[a]
+tests/integration_tests/test_validator_base.py::test_validator_instance_attr_equality[instance_attr1]
+tests/integration_tests/utils/test_parsing_utils_integration.py::test_coerce_types[schema0-3.1-3.1]
+tests/integration_tests/utils/test_parsing_utils_integration.py::test_coerce_types[schema1-3.1-3.1]
+tests/integration_tests/utils/test_parsing_utils_integration.py::test_coerce_types[schema2-3-3]
+tests/integration_tests/utils/test_parsing_utils_integration.py::test_coerce_types[schema3-3.1-3]
+tests/integration_tests/utils/test_parsing_utils_integration.py::test_coerce_types[schema4-3-3.0]
+tests/integration_tests/utils/test_parsing_utils_integration.py::test_coerce_types[schema5-given5-expected5]
+tests/integration_tests/utils/test_parsing_utils_integration.py::test_coerce_types[schema6-given6-expected6]
+tests/integration_tests/utils/test_parsing_utils_integration.py::test_coerce_types[schema7-given7-expected7]
+tests/integration_tests/validator_service/test_async_validator_service_it.py::TestValidatorConcurrency::test_async_validate_with_sync_validators
+tests/integration_tests/validator_service/test_async_validator_service_it.py::TestValidatorConcurrency::test_validate_with_sync_validators
+tests/integration_tests/validator_service/test_async_validator_service_it.py::TestValidatorConcurrency::test_async_validate_with_async_validators
+tests/integration_tests/validator_service/test_async_validator_service_it.py::TestValidatorConcurrency::test_validate_with_async_validators
+tests/integration_tests/validator_service/test_async_validator_service_it.py::TestValidatorConcurrency::test_async_validate_with_mixed_validators
+tests/integration_tests/validator_service/test_async_validator_service_it.py::TestValidatorConcurrency::test_validate_with_mixed_validators
+tests/integration_tests/validator_service/test_init.py::TestShouldRunSync::test_process_count_is_one
+tests/integration_tests/validator_service/test_init.py::TestShouldRunSync::test_process_count_is_2
+tests/integration_tests/validator_service/test_init.py::TestShouldRunSync::test_guardrails_run_sync_is_true
+tests/integration_tests/validator_service/test_init.py::TestShouldRunSync::test_guardrails_run_sync_is_false
+tests/integration_tests/validator_service/test_init.py::TestShouldRunSync::test_process_count_is_1_and_guardrails_run_sync_is_false
+tests/integration_tests/validator_service/test_init.py::TestShouldRunSync::test_process_count_is_2_and_guardrails_run_sync_is_true
+tests/integration_tests/validator_service/test_init.py::TestGetLoop::test_raises_if_loop_is_running
+tests/integration_tests/validator_service/test_init.py::TestGetLoop::test_uvloop_is_used_when_installed
+tests/integration_tests/validator_service/test_init.py::TestGetLoop::test_asyncio_default_is_used_otherwise
+tests/integration_tests/validator_service/test_init.py::TestValidate::test_forced_sync
+tests/integration_tests/validator_service/test_init.py::TestValidate::test_async
+tests/integration_tests/validator_service/test_init.py::TestValidate::test_sync_busy_loop
+tests/integration_tests/validator_service/test_init.py::test_async_validate
+tests/unit_tests/actions/test_filter.py::test_apply_filters[value0-expected0]
+tests/unit_tests/actions/test_filter.py::test_apply_filters[value1-expected1]
+tests/unit_tests/actions/test_filter.py::test_apply_filters[value2-expected2]
+tests/unit_tests/actions/test_filter.py::test_apply_filters[value3-expected3]
+tests/unit_tests/actions/test_filter.py::test_apply_filters[value4-expected4]
+tests/unit_tests/actions/test_filter.py::test_apply_filters[value5-expected5]
+tests/unit_tests/actions/test_filter.py::test_apply_filters[value6-expected6]
+tests/unit_tests/actions/test_filter.py::test_apply_filters[value7-expected7]
+tests/unit_tests/actions/test_filter.py::test_apply_filters[value8-expected8]
+tests/unit_tests/actions/test_reask.py::test_sub_reasks_with_fixed_values[input_dict0-expected_dict0]
+tests/unit_tests/actions/test_reask.py::test_sub_reasks_with_fixed_values[input_dict1-expected_dict1]
+tests/unit_tests/actions/test_reask.py::test_sub_reasks_with_fixed_values[input_dict2-expected_dict2]
+tests/unit_tests/actions/test_reask.py::test_sub_reasks_with_fixed_values[input_dict3-expected_dict3]
+tests/unit_tests/actions/test_reask.py::test_sub_reasks_with_fixed_values[input_dict4-expected_dict4]
+tests/unit_tests/actions/test_reask.py::test_sub_reasks_with_fixed_values[input_dict5-expected_dict5]
+tests/unit_tests/actions/test_reask.py::test_gather_reasks
+tests/unit_tests/actions/test_reask.py::test_prune_json_for_reasking[input_dict0-expected_dict0]
+tests/unit_tests/actions/test_reask.py::test_prune_json_for_reasking[input_dict1-expected_dict1]
+tests/unit_tests/actions/test_reask.py::test_prune_json_for_reasking[input_dict2-expected_dict2]
+tests/unit_tests/actions/test_reask.py::test_prune_json_for_reasking[input_dict3-None]
+tests/unit_tests/actions/test_reask.py::test_prune_json_for_reasking[input_dict4-expected_dict4]
+tests/unit_tests/actions/test_reask.py::test_get_reask_prompt[\n<rail version="0.1" >\n<output>\n    <string name="name" required="true"/>\n</output>\n</rail>\n-\n<output>\n  <string name="name" required="true"></string>\n</output>\n-reasks0-original_response0-validation_response0-json_example0-expected_reask_json0]
+tests/unit_tests/actions/test_reask.py::test_get_reask_prompt[\n<rail version="0.1" >\n<output>\n  <string name="name" required="true"/>\n  <integer name="age" required="true"/>\n</output>\n</rail>\n-\n<output>\n  <string name="name" required="true"></string>\n  <integer name="age" required="true"></integer>\n</output>\n-reasks1-original_response1-validation_response1-json_example1-expected_reask_json1]
+tests/unit_tests/actions/test_refrain.py::test_check_for_refrain[value0-True]
+tests/unit_tests/actions/test_refrain.py::test_check_for_refrain[value1-False]
+tests/unit_tests/actions/test_refrain.py::test_check_for_refrain[value2-True]
+tests/unit_tests/actions/test_refrain.py::test_check_for_refrain[value3-False]
+tests/unit_tests/actions/test_refrain.py::test_check_for_refrain[value4-True]
+tests/unit_tests/actions/test_refrain.py::test_check_for_refrain[value5-False]
+tests/unit_tests/actions/test_refrain.py::test_check_for_refrain[value6-False]
+tests/unit_tests/actions/test_refrain.py::test_check_for_refrain[value7-True]
+tests/unit_tests/actions/test_refrain.py::test_check_for_refrain[value8-True]
+tests/unit_tests/actions/test_refrain.py::test_check_for_refrain[value9-False]
+tests/unit_tests/actions/test_refrain.py::test_check_for_refrain[value10-True]
+tests/unit_tests/actions/test_refrain.py::test_check_for_refrain[value11-False]
+tests/unit_tests/actions/test_refrain.py::test_apply_refrain[value0-list-expected0]
+tests/unit_tests/actions/test_refrain.py::test_apply_refrain[value1-list-expected1]
+tests/unit_tests/actions/test_refrain.py::test_apply_refrain[value2-list-expected2]
+tests/unit_tests/actions/test_refrain.py::test_apply_refrain[value3-list-expected3]
+tests/unit_tests/actions/test_refrain.py::test_apply_refrain[value4-list-expected4]
+tests/unit_tests/actions/test_refrain.py::test_apply_refrain[value5-list-expected5]
+tests/unit_tests/actions/test_refrain.py::test_apply_refrain[value6-dict-expected6]
+tests/unit_tests/actions/test_refrain.py::test_apply_refrain[value7-dict-expected7]
+tests/unit_tests/actions/test_refrain.py::test_apply_refrain[value8-dict-expected8]
+tests/unit_tests/actions/test_refrain.py::test_apply_refrain[value9-dict-expected9]
+tests/unit_tests/actions/test_refrain.py::test_apply_refrain[value10-dict-expected10]
+tests/unit_tests/actions/test_refrain.py::test_apply_refrain[value11-dict-expected11]
+tests/unit_tests/classes/generic/test_stack.py::test_empty[stack0-False]
+tests/unit_tests/classes/generic/test_stack.py::test_empty[stack1-True]
+tests/unit_tests/classes/generic/test_stack.py::test_peek[stack0-3]
+tests/unit_tests/classes/generic/test_stack.py::test_peek[stack1-None]
+tests/unit_tests/classes/generic/test_stack.py::test_pop[stack0-3-expected_stack0]
+tests/unit_tests/classes/generic/test_stack.py::test_pop[stack1-None-expected_stack1]
+tests/unit_tests/classes/generic/test_stack.py::test_push
+tests/unit_tests/classes/generic/test_stack.py::test_search[1-0]
+tests/unit_tests/classes/generic/test_stack.py::test_search[2-4]
+tests/unit_tests/classes/generic/test_stack.py::test_search[3-5]
+tests/unit_tests/classes/generic/test_stack.py::test_search[5-None]
+tests/unit_tests/classes/generic/test_stack.py::test_at[1-2]
+tests/unit_tests/classes/generic/test_stack.py::test_at[3-None]
+tests/unit_tests/classes/generic/test_stack.py::test_first[stack0-1]
+tests/unit_tests/classes/generic/test_stack.py::test_first[stack1-None]
+tests/unit_tests/classes/generic/test_stack.py::test_last[stack0-3]
+tests/unit_tests/classes/generic/test_stack.py::test_last[stack1-None]
+tests/unit_tests/classes/generic/test_stack.py::test_bottom[stack0-1]
+tests/unit_tests/classes/generic/test_stack.py::test_bottom[stack1-None]
+tests/unit_tests/classes/generic/test_stack.py::test_top[stack0-3]
+tests/unit_tests/classes/generic/test_stack.py::test_top[stack1-None]
+tests/unit_tests/classes/generic/test_stack.py::test_length
+tests/unit_tests/classes/history/test_call.py::test_empty_initialization
+tests/unit_tests/classes/history/test_call.py::test_non_empty_initialization
+tests/unit_tests/classes/history/test_call_inputs.py::test_empty_initialization
+tests/unit_tests/classes/history/test_call_inputs.py::test_non_empty_initialization
+tests/unit_tests/classes/history/test_inputs.py::test_empty_initialization
+tests/unit_tests/classes/history/test_inputs.py::test_non_empty_initialization
+tests/unit_tests/classes/history/test_iteration.py::test_empty_initialization
+tests/unit_tests/classes/history/test_iteration.py::test_non_empty_initialization
+tests/unit_tests/classes/history/test_outputs.py::test_empty_initialization
+tests/unit_tests/classes/history/test_outputs.py::test_non_empty_initialization
+tests/unit_tests/classes/history/test_outputs.py::test__all_empty[outputs0-True]
+tests/unit_tests/classes/history/test_outputs.py::test__all_empty[outputs1-False]
+tests/unit_tests/classes/history/test_outputs.py::test__all_empty[outputs2-False]
+tests/unit_tests/classes/history/test_outputs.py::test__all_empty[outputs3-False]
+tests/unit_tests/classes/history/test_outputs.py::test__all_empty[outputs4-False]
+tests/unit_tests/classes/history/test_outputs.py::test__all_empty[outputs5-False]
+tests/unit_tests/classes/history/test_outputs.py::test__all_empty[outputs6-False]
+tests/unit_tests/classes/history/test_outputs.py::test__all_empty[outputs7-False]
+tests/unit_tests/classes/history/test_outputs.py::test_failed_validations
+tests/unit_tests/classes/history/test_outputs.py::test_status[outputs0-not run]
+tests/unit_tests/classes/history/test_outputs.py::test_status[outputs1-error]
+tests/unit_tests/classes/history/test_outputs.py::test_status[outputs2-fail]
+tests/unit_tests/classes/history/test_outputs.py::test_status[outputs3-pass]
+tests/unit_tests/classes/history/test_outputs.py::test_status_reask
+tests/unit_tests/classes/test_rc.py::TestRC::test_load
+tests/unit_tests/classes/test_rc.py::TestRC::test_load_backfill_no_metrics_true[True]
+tests/unit_tests/classes/test_rc.py::TestRC::test_load_backfill_no_metrics_true[False]
+tests/unit_tests/classes/test_rc.py::TestRC::test_load_backfill_no_metrics_true[None]
+tests/unit_tests/cli/hub/test_install.py::TestInstall::test_exits_early_if_uri_is_not_valid
+tests/unit_tests/cli/hub/test_install.py::TestInstall::test_install_local_models__false
+tests/unit_tests/cli/hub/test_install.py::TestInstall::test_install_local_models__true
+tests/unit_tests/cli/hub/test_install.py::TestInstall::test_install_local_models__none
+tests/unit_tests/cli/hub/test_install.py::TestInstall::test_install_quiet
+tests/unit_tests/cli/hub/test_install.py::TestInstall::test_install_multiple_validators
+tests/unit_tests/cli/hub/test_install.py::TestInstall::test_install_multiple_validators_with_quiet
+tests/unit_tests/cli/hub/test_install.py::TestPipProcess::test_no_package_string_format
+tests/unit_tests/cli/hub/test_install.py::TestPipProcess::test_json_format
+tests/unit_tests/cli/hub/test_install.py::TestPipProcess::test_called_process_error
+tests/unit_tests/cli/hub/test_install.py::TestPipProcess::test_other_exception
+tests/unit_tests/cli/hub/test_install.py::TestPipProcess::test_install_with_upgrade_flag
+tests/unit_tests/cli/hub/test_list.py::TestListCommand::test_list_no_validators_installed
+tests/unit_tests/cli/hub/test_list.py::TestListCommand::test_list_validators_installed
+tests/unit_tests/cli/hub/test_list.py::TestListCommand::test_list_handles_empty_init_file
+tests/unit_tests/cli/hub/test_submit.py::test_submit_command_success
+tests/unit_tests/cli/hub/test_submit.py::test_submit_command_failure
+tests/unit_tests/cli/hub/test_uninstall.py::test_remove_from_hub_inits
+tests/unit_tests/cli/hub/test_uninstall.py::test_uninstall_invalid_uri
+tests/unit_tests/cli/hub/test_uninstall.py::test_uninstall_valid_uri
+tests/unit_tests/cli/hub/test_uninstall.py::test_uninstall_hub_module
+tests/unit_tests/cli/server/test_auth.py::test_get_auth_token
+tests/unit_tests/cli/server/test_hub_client.py::test_fetch
+tests/unit_tests/cli/server/test_hub_client.py::test_fetch_module_manifest
+tests/unit_tests/cli/server/test_hub_client.py::test_fetch_module
+tests/unit_tests/cli/server/test_hub_client.py::test_get_validator_manifest
+tests/unit_tests/cli/server/test_hub_client.py::test_get_auth
+tests/unit_tests/cli/server/test_hub_client.py::test_get_jwt_token
+tests/unit_tests/cli/test_configure.py::test_configure[mock_token-True-False]
+tests/unit_tests/cli/test_configure.py::test_configure[mock_token-False-False]
+tests/unit_tests/cli/test_configure.py::test_configure[-True-True]
+tests/unit_tests/cli/test_configure.py::test_configure[-False-True]
+tests/unit_tests/cli/test_configure.py::test_save_configuration_file
+tests/unit_tests/cli/test_validate.py::test_validate
+tests/unit_tests/cli/test_validate.py::test_validate_llm_output
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_exits_early_if_uri_is_not_valid[False]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_exits_early_if_uri_is_not_valid[True]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_install_local_models__false[False]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_install_local_models__false[True]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_install_local_models__true[False]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_install_local_models__true[True]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_install_local_models__none[False]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_install_local_models__none[True]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_happy_path[False]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_happy_path[True]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_install_local_models_confirmation[False]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_install_local_models_confirmation[True]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_install_local_models_confirmation_raises_exception[False]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_install_local_models_confirmation_raises_exception[True]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_use_remote_endpoint[False]
+tests/unit_tests/hub/test_hub_install.py::TestInstall::test_use_remote_endpoint[True]
+tests/unit_tests/hub/test_validator_package_service.py::TestGetModulePath::test_get_module_path_package_in_sys_modules
+tests/unit_tests/hub/test_validator_package_service.py::TestGetModulePath::test_get_module_path_package_not_in_sys_modules
+tests/unit_tests/hub/test_validator_package_service.py::TestGetModulePath::test_get_module_path_failed_to_locate_module
+tests/unit_tests/hub/test_validator_package_service.py::TestAddToHubInits::test_closes_early_if_already_added
+tests/unit_tests/hub/test_validator_package_service.py::TestAddToHubInits::test_appends_import_line_if_not_present
+tests/unit_tests/hub/test_validator_package_service.py::TestAddToHubInits::test_creates_namespace_init_if_not_exists
+tests/unit_tests/hub/test_validator_package_service.py::TestReloadModule::test_reload_module__guardrails_hub_reload_if_in_sys_modules
+tests/unit_tests/hub/test_validator_package_service.py::TestReloadModule::test_reload_module__guardrails_hub_reload_if_not_in_sys_modules
+tests/unit_tests/hub/test_validator_package_service.py::TestReloadModule::test_reload_module__module_not_found
+tests/unit_tests/hub/test_validator_package_service.py::TestReloadModule::test_reload_module__unexpected_exception
+tests/unit_tests/hub/test_validator_package_service.py::TestReloadModule::test_reload_module__module_already_imported
+tests/unit_tests/hub/test_validator_package_service.py::TestReloadModule::test_reload_module__module_not_imported
+tests/unit_tests/hub/test_validator_package_service.py::TestRunPostInstall::test_does_not_run_if_no_script[manifest0]
+tests/unit_tests/hub/test_validator_package_service.py::TestRunPostInstall::test_does_not_run_if_no_script[manifest1]
+tests/unit_tests/hub/test_validator_package_service.py::TestRunPostInstall::test_runs_script_if_exists
+tests/unit_tests/hub/test_validator_package_service.py::TestValidatorPackageService::test_get_manifest_and_site_packages
+tests/unit_tests/hub/test_validator_package_service.py::TestValidatorPackageService::test_get_site_packages_location
+tests/unit_tests/hub/test_validator_package_service.py::TestValidatorPackageService::test_get_validator_from_manifest
+tests/unit_tests/hub/test_validator_package_service.py::TestValidatorPackageService::test_get_module_name_valid
+tests/unit_tests/hub/test_validator_package_service.py::TestValidatorPackageService::test_get_module_name_invalid
+tests/unit_tests/hub/test_validator_package_service.py::TestValidatorPackageService::test_install_hub_module_when_exception
+tests/unit_tests/hub/test_validator_package_service.py::TestValidatorPackageService::test_install_hub_module_when_no_validators_extras
+tests/unit_tests/hub/test_validator_package_service.py::TestValidatorPackageService::test_install_hub_module
+tests/unit_tests/integrations/databricks/test_ml_flow_instrumentor.py::TestMlFlowInstrumentor::test__init__
+tests/unit_tests/integrations/databricks/test_ml_flow_instrumentor.py::TestMlFlowInstrumentor::test_instrument
+tests/unit_tests/integrations/databricks/test_ml_flow_instrumentor.py::TestMlFlowInstrumentor::test__instrument_guard
+tests/unit_tests/integrations/databricks/test_ml_flow_instrumentor.py::TestMlFlowInstrumentor::test__instrument_guard_stream
+tests/unit_tests/integrations/databricks/test_ml_flow_instrumentor.py::TestMlFlowInstrumentor::test__instrument_async_guard
+tests/unit_tests/integrations/databricks/test_ml_flow_instrumentor.py::TestMlFlowInstrumentor::test__instrument_async_guard_stream
+tests/unit_tests/integrations/databricks/test_ml_flow_instrumentor.py::TestMlFlowInstrumentor::test__instrument_runner_step
+tests/unit_tests/integrations/databricks/test_ml_flow_instrumentor.py::TestMlFlowInstrumentor::test__instrument_stream_runner_step
+tests/unit_tests/integrations/databricks/test_ml_flow_instrumentor.py::TestMlFlowInstrumentor::test__instrument_async_runner_step
+tests/unit_tests/integrations/databricks/test_ml_flow_instrumentor.py::TestMlFlowInstrumentor::test__instrument_async_stream_runner_step
+tests/unit_tests/integrations/databricks/test_ml_flow_instrumentor.py::TestMlFlowInstrumentor::test__instrument_runner_call
+tests/unit_tests/integrations/databricks/test_ml_flow_instrumentor.py::TestMlFlowInstrumentor::test__instrument_async_runner_call
+tests/unit_tests/integrations/databricks/test_ml_flow_instrumentor.py::TestMlFlowInstrumentor::test__instrument_validator_validate
+tests/unit_tests/integrations/databricks/test_ml_flow_instrumentor.py::TestMlFlowInstrumentor::test__instrument_validator_async_validate
+tests/unit_tests/redaction/test_matching_key.py::TestIsMatchingKey::test_empty_key
+tests/unit_tests/redaction/test_matching_key.py::TestIsMatchingKey::test_empty_keys_to_match
+tests/unit_tests/redaction/test_matching_key.py::TestIsMatchingKey::test_key_matches_with_custom_keys
+tests/unit_tests/redaction/test_matching_key.py::TestIsMatchingKey::test_key_matches_with_default_keys
+tests/unit_tests/redaction/test_recursive_redaction.py::TestRecursiveKeyOperation::test_dict_kwargs
+tests/unit_tests/redaction/test_recursive_redaction.py::TestRecursiveKeyOperation::test_empty_dict
+tests/unit_tests/redaction/test_recursive_redaction.py::TestRecursiveKeyOperation::test_empty_list
+tests/unit_tests/redaction/test_recursive_redaction.py::TestRecursiveKeyOperation::test_list
+tests/unit_tests/redaction/test_recursive_redaction.py::TestRecursiveKeyOperation::test_nomatch
+tests/unit_tests/redaction/test_recursive_redaction.py::TestRecursiveKeyOperation::test_non_string_value
+tests/unit_tests/redaction/test_redaction.py::TestRedactFunction::test_open_ai_example_key
+tests/unit_tests/redaction/test_redaction.py::TestRedactFunction::test_redact_empty_string
+tests/unit_tests/redaction/test_redaction.py::TestRedactFunction::test_redact_exact_length
+tests/unit_tests/redaction/test_redaction.py::TestRedactFunction::test_redact_long_string
+tests/unit_tests/redaction/test_redaction.py::TestRedactFunction::test_redact_short_string
+tests/unit_tests/redaction/test_redaction.py::TestRedactFunction::test_redact_single_character
+tests/unit_tests/redaction/test_redaction.py::TestRedactFunction::test_redact_spaces
+tests/unit_tests/redaction/test_redaction.py::TestRedactFunction::test_redact_special_characters
+tests/unit_tests/redaction/test_redaction.py::TestRedactFunction::test_redact_very_short_string
+tests/unit_tests/schema/test_generator.py::test_gen_num[schema0-0-100-1-True]
+tests/unit_tests/schema/test_generator.py::test_gen_num[schema1-5-100-1-True]
+tests/unit_tests/schema/test_generator.py::test_gen_num[schema2-6-100-1-True]
+tests/unit_tests/schema/test_generator.py::test_gen_num[schema3-0-5-1-True]
+tests/unit_tests/schema/test_generator.py::test_gen_num[schema4-0-4-1-True]
+tests/unit_tests/schema/test_generator.py::test_gen_num[schema5-0-100-5-True]
+tests/unit_tests/schema/test_generator.py::test_gen_num[schema6-0-100-1-False]
+tests/unit_tests/schema/test_generator.py::test_gen_num[schema7-0.314-100-0.001-False]
+tests/unit_tests/schema/test_generator.py::test_gen_num[schema8-3.15-100-0.01-False]
+tests/unit_tests/schema/test_generator.py::test_gen_num[schema9-0-2.718-0.001-False]
+tests/unit_tests/schema/test_generator.py::test_gen_num[schema10-0-2.717-0.001-False]
+tests/unit_tests/schema/test_generator.py::test_gen_num[schema11-0-100-0.1-False]
+tests/unit_tests/schema/test_parser.py::test_get_value_from_path[$.a-1]
+tests/unit_tests/schema/test_parser.py::test_get_value_from_path[$.b.b2-expected_value1]
+tests/unit_tests/schema/test_parser.py::test_get_value_from_path[$.b.b2.b3-2]
+tests/unit_tests/schema/test_parser.py::test_get_value_from_path[$.c.2-expected_value3]
+tests/unit_tests/schema/test_parser.py::test_get_value_from_path[$.c.1.c2-32]
+tests/unit_tests/schema/test_parser.py::test_get_value_from_path[$.d.d2-expected_value5]
+tests/unit_tests/schema/test_parser.py::test_get_value_from_path[$.d.d2.0-1]
+tests/unit_tests/schema/test_parser.py::test_get_value_from_path[$.d.d2.4-None]
+tests/unit_tests/schema/test_parser.py::test_write_value_to_path[existing_value0-$.a-1-expected_value0]
+tests/unit_tests/schema/test_parser.py::test_write_value_to_path[existing_value1-$.b.b2-write_value1-expected_value1]
+tests/unit_tests/schema/test_parser.py::test_write_value_to_path[existing_value2-$.b.b2.b3-2-expected_value2]
+tests/unit_tests/schema/test_parser.py::test_write_value_to_path[existing_value3-$.c.2-3-expected_value3]
+tests/unit_tests/schema/test_parser.py::test_write_value_to_path[existing_value4-$.c.1.c2-32-expected_value4]
+tests/unit_tests/schema/test_parser.py::test_write_value_to_path[existing_value5-$.d.d2.0-1-expected_value5]
+tests/unit_tests/schema/test_parser.py::test_get_all_paths[schema0-expected_keys0]
+tests/unit_tests/schema/test_parser.py::test_get_all_paths[schema1-expected_keys1]
+tests/unit_tests/schema/test_parser.py::test_get_all_paths[schema2-expected_keys2]
+tests/unit_tests/schema/test_parser.py::test_get_all_paths[schema3-expected_keys3]
+tests/unit_tests/test_async_guard.py::test_required_metadata[\n<rail version="0.1">\n<output>\n    <string name="string_name" validators="myrequiringvalidator" />\n</output>\n</rail>\n        -metadata0-Missing required metadata keys: required_key]
+tests/unit_tests/test_async_guard.py::test_required_metadata[\n<rail version="0.1">\n<output>\n    <object name="temp_name">\n        <string name="string_name" validators="myrequiringvalidator" />\n    </object>\n    <list name="list_name">\n        <string name="string_name" validators="myrequiringvalidator2" />\n    </list>\n</output>\n</rail>\n        -metadata1-Missing required metadata keys: required_key, required_key2]
+tests/unit_tests/test_async_guard.py::test_required_metadata[\n<rail version="0.1">\n<output>\n    <object name="temp_name">\n    <list name="list_name">\n    <choice name="choice_name" discriminator="hi">\n    <case name="hello">\n        <string name="string_name" />\n    </case>\n    <case name="hiya">\n        <string name="string_name" validators="myrequiringvalidator" />\n    </case>\n    </choice>\n    </list>\n    </object>\n</output>\n</rail>\n-metadata2-Missing required metadata keys: required_key]
+tests/unit_tests/test_async_guard.py::test_use
+tests/unit_tests/test_async_guard.py::test_use_many_instances
+tests/unit_tests/test_async_guard.py::test_use_many_tuple
+tests/unit_tests/test_async_guard.py::TestValidate::test_output_only_success
+tests/unit_tests/test_async_guard.py::TestValidate::test_output_only_failure
+tests/unit_tests/test_async_guard.py::TestValidate::test_on_many_success
+tests/unit_tests/test_async_guard.py::TestValidate::test_on_many_failure
+tests/unit_tests/test_async_guard.py::test_use_and_use_many
+tests/unit_tests/test_datatypes.py::test_get_args[test-validator: a-expected0]
+tests/unit_tests/test_datatypes.py::test_get_args[test-validator: a b-expected1]
+tests/unit_tests/test_datatypes.py::test_get_args[test-validator: {[0,1,2,3,4]} a b-expected2]
+tests/unit_tests/test_datatypes.py::test_get_args[test-validator: {[1, 2, 3]} a b-expected3]
+tests/unit_tests/test_datatypes.py::test_get_args[test-validator: {{'a': 1, 'b': 2}} c d-expected4]
+tests/unit_tests/test_datatypes.py::test_get_args[test-validator: {3} {{'a': 1, 'b': 2}} c d-expected5]
+tests/unit_tests/test_formatters.py::test_basic_schema_conversion
+tests/unit_tests/test_formatters.py::test_nested_schema_conversion
+tests/unit_tests/test_guard.py::test_required_metadata[\n<rail version="0.1">\n<output>\n    <string name="string_name" validators="myrequiringvalidator" />\n</output>\n</rail>\n        -metadata0-Missing required metadata keys: required_key]
+tests/unit_tests/test_guard.py::test_required_metadata[\n<rail version="0.1">\n<output>\n    <object name="temp_name">\n        <string name="string_name" validators="myrequiringvalidator" />\n    </object>\n    <list name="list_name">\n        <string name="string_name" validators="myrequiringvalidator2" />\n    </list>\n</output>\n</rail>\n        -metadata1-Missing required metadata keys: required_key, required_key2]
+tests/unit_tests/test_guard.py::test_required_metadata[\n<rail version="0.1">\n<output>\n    <object name="temp_name">\n    <list name="list_name">\n    <choice name="choice_name" discriminator="hi">\n    <case name="hello">\n        <string name="string_name" />\n    </case>\n    <case name="hiya">\n        <string name="string_name" validators="myrequiringvalidator" />\n    </case>\n    </choice>\n    </list>\n    </object>\n</output>\n</rail>\n-metadata2-Missing required metadata keys: required_key]
+tests/unit_tests/test_guard.py::TestConfigure::test_num_reasks
+tests/unit_tests/test_guard.py::TestConfigure::test_tracer
+tests/unit_tests/test_guard.py::test_use
+tests/unit_tests/test_guard.py::test_use_many_instances
+tests/unit_tests/test_guard.py::test_use_many_tuple
+tests/unit_tests/test_guard.py::TestValidate::test_output_only_success
+tests/unit_tests/test_guard.py::TestValidate::test_output_only_failure
+tests/unit_tests/test_guard.py::TestValidate::test_on_many_success
+tests/unit_tests/test_guard.py::TestValidate::test_on_many_failure
+tests/unit_tests/test_guard.py::test_use_and_use_many
+tests/unit_tests/test_guard_log.py::test_multiprocessing_hoisted
+tests/unit_tests/test_guard_log.py::test_multiprocessing_acquired
+tests/unit_tests/test_guard_log.py::test_multithreading_hoisted
+tests/unit_tests/test_guard_log.py::test_multithreading_acquired
+tests/unit_tests/test_guard_log.py::test_clear_logs_while_logging
+tests/unit_tests/test_guard_log.py::test_asyncio_hoisted
+tests/unit_tests/test_guard_log.py::test_asyncio_acquired
+tests/unit_tests/test_llm_providers.py::test_openai_callable_does_not_retry_on_success
+tests/unit_tests/test_llm_providers.py::test_async_openai_callable_does_not_retry_on_success
+tests/unit_tests/test_llm_providers.py::test_manifest_callable
+tests/unit_tests/test_llm_providers.py::test_async_manifest_callable
+tests/unit_tests/test_llm_providers.py::test_hugging_face_model_callable[None-1]
+tests/unit_tests/test_llm_providers.py::test_hugging_face_model_callable[model_inputs1-0]
+tests/unit_tests/test_llm_providers.py::test_hugging_face_pipeline_callable
+tests/unit_tests/test_llm_providers.py::test_litellm_callable
+tests/unit_tests/test_llm_providers.py::test_get_llm_ask_temperature[llm_api0-args0-kwargs0-0.5]
+tests/unit_tests/test_llm_providers.py::test_get_llm_ask_temperature[llm_api1-args1-kwargs1-0]
+tests/unit_tests/test_llm_providers.py::test_get_llm_ask_manifest
+tests/unit_tests/test_llm_providers.py::test_get_llm_ask_hugging_face_model
+tests/unit_tests/test_llm_providers.py::test_get_llm_ask_hugging_face_pipeline
+tests/unit_tests/test_llm_providers.py::test_get_llm_ask_litellm
+tests/unit_tests/test_llm_providers.py::test_get_llm_ask_custom_llm
+tests/unit_tests/test_llm_providers.py::test_get_llm_ask_custom_llm_warning
+tests/unit_tests/test_llm_providers.py::test_get_llm_ask_custom_llm_must_accept_kwargs
+tests/unit_tests/test_llm_providers.py::test_get_async_llm_ask_custom_llm
+tests/unit_tests/test_llm_providers.py::test_get_async_llm_ask_custom_llm_warning
+tests/unit_tests/test_llm_providers.py::test_get_async_llm_ask_custom_llm_must_accept_kwargs
+tests/unit_tests/test_llm_providers.py::test_chat_prompt
+tests/unit_tests/test_logger.py::test_logger_empty_init
+tests/unit_tests/test_logger.py::test_logger_is_singleton
+tests/unit_tests/test_logger.py::test_set_level
+tests/unit_tests/test_logger.py::test_set_config
+tests/unit_tests/test_logger.py::test_set_scope
+tests/unit_tests/test_logger.py::test_scope_handler
+tests/unit_tests/test_merge.py::test_merge[hello world-new_values0-nick]
+tests/unit_tests/test_merge.py::test_merge[hello world-new_values1-]
+tests/unit_tests/test_merge.py::test_merge[John is a shitty person who works at Anthropic on Claude, \n             and lives in San Francisco-new_values2-<PERSON> is a ****** person who works at Anthropic on <PERSON>,\n              and lives in <LOCATION>]
+tests/unit_tests/test_merge.py::test_merge[JOE is FUNNY and LIVES in NEW york-new_values3-<PERSON> is funny and lives in <LOCATION>]
+tests/unit_tests/test_merge.py::test_merge[JOHN lives IN SAN francisco-new_values4-<PERSON> lives in <LOCATION>]
+tests/unit_tests/test_merge.py::test_merge[Parson is FUNNY and LIVES in NEW york-new_values5-<PERSON> is funny and lives in <LOCATION>]
+tests/unit_tests/test_prompt.py::test_parse_prompt
+tests/unit_tests/test_prompt.py::test_instructions_with_params
+tests/unit_tests/test_prompt.py::test_variable_names[\n<rail version="0.1">\n<output>\n    <string name="test_string" description="A string for testing." />\n</output>\n<messages>\n    <message role="system">\n\n\nYou are a helpful bot, who answers only with valid JSON\n\n\n    </message>\n    <message role="user">\n\nExtract a string from the text\n\n    </message>\n</messages>\n</rail>\n-var_names0]
+tests/unit_tests/test_prompt.py::test_variable_names[\n<rail version="0.1">\n<output>\n    <string name="test_string" description="A string for testing." />\n</output>\n<messages>\n    <message role="system">\n\n${user_instructions}\n\n    </message>\n    <message role="user">\n\n${user_prompt}\n\n    </message>\n</messages>\n</rail>\n-var_names1]
+tests/unit_tests/test_prompt.py::test_format_instructions
+tests/unit_tests/test_prompt.py::test_reask_messages_user
+tests/unit_tests/test_prompt.py::test_reask_messages_user_and_system
+tests/unit_tests/test_prompt.py::test_substitute_constants[Dummy prompt. ${gr.complete_json_suffix_v2}-Dummy prompt. \nGiven below is a JSON Schema that describes the information to extract from this document and the tags to extract it into.\n\n${output_schema}\n\nONLY return a valid JSON object (no other text is necessary). The JSON MUST conform to the JSON Schema, including any types and format requests e.g. requests for lists, objects and specific types. Be correct and concise.\n\nHere are examples of simple (JSON Schema, JSON) pairs that show the expected behavior:\n- `{"type":"object","properties":{"foo":{"type":"string","format":"two-words lower-case"}}}` => `{'foo': 'example one'}`\n- `{"type":"object","properties":{"bar":{"type":"array","items":{"type":"string","format":"upper-case"}}}}` => `{"bar": ['STRING ONE', 'STRING TWO']}`\n- `{"type":"object","properties":{"baz":{"type":"object","properties":{"foo":{"type":"string","format":"capitalize two-words"},"index":{"type":"integer","format":"1-indexed"}}}}}` => `{'baz': {'foo': 'Some String', 'index': 1}}`\n- `{"type":"object","properties":{"bar":{"type":"array","items":{"type":"string","format":"upper-case"}},"baz":{"type":"object","properties":{"foo":{"type":"string","format":"two-words lower-case"}}}}}` => `{'bar': ['STRING ONE', 'STRING TWO'], 'baz': {'foo': 'example one'}}`\n]
+tests/unit_tests/test_prompt.py::test_substitute_constants[Dummy prompt. some@email.com-Dummy prompt. some@email.com]
+tests/unit_tests/test_prompt.py::test_gr_prefixed_prompt_item_passes
+tests/unit_tests/test_prompt.py::test_gr_dot_prefixed_prompt_item_fails
+tests/unit_tests/test_prompt.py::test_escape
+tests/unit_tests/test_rail.py::test_rail_scalar_string
+tests/unit_tests/test_rail.py::test_rail_object_with_scalar
+tests/unit_tests/test_rail.py::test_rail_object_with_list
+tests/unit_tests/test_rail.py::test_rail_object_with_object
+tests/unit_tests/test_rail.py::test_rail_list_with_scalar
+tests/unit_tests/test_rail.py::test_rail_list_with_list
+tests/unit_tests/test_rail.py::test_rail_list_with_object
+tests/unit_tests/test_rail.py::test_rail_outermost_list
+tests/unit_tests/test_rail.py::test_format_not_read_as_validators
+tests/unit_tests/test_rail.py::test_rail_with_messages
+tests/unit_tests/test_skeleton.py::test_skeleton[\n<rail version="0.1"><output>\n<list name="my_list">\n    <object>\n        <string name="my_string" />\n    </object>\n</list>\n<integer name="my_integer" />\n<string name="my_string" />\n<object name="my_dict">\n    <string name="my_string" />\n</object>\n<object name="my_dict2">\n    <list name="my_list">\n        <float />\n    </list>\n</object>\n<list name="my_list2">\n    <string />\n</list>\n</output></rail>\n            -payload0-True-False]
+tests/unit_tests/test_skeleton.py::test_skeleton[\n<rail version="0.1"><output>\n<list name="my_list">\n    <object>\n        <string name="my_string" />\n    </object>\n</list>\n<integer name="my_integer" />\n<string name="my_string" />\n<object name="my_dict">\n    <string name="my_string" />\n</object>\n<object name="my_dict2">\n    <list name="my_list">\n        <float />\n    </list>\n</object>\n<list name="my_list2">\n    <string />\n</list>\n</output></rail>\n            -payload1-False-False]
+tests/unit_tests/test_skeleton.py::test_skeleton[\n<rail version="0.1"><output>\n<choice name="action" discriminator="action_type" on-fail-choice="exception">\n    <case name="fight">\n        <string\n            name="fight_move"\n            validators="valid-choices: {['punch','kick','headbutt']}"\n            on-fail-valid-choices="exception"\n        />\n    </case>\n    <case name="flight">\n        <string\n            name="flight_direction"\n            validators="valid-choices: {['north','south','east','west']}"\n            on-fail-valid-choices="exception"\n        />\n        <integer\n            name="flight_speed"\n            validators="valid-choices: {[1,2,3,4]}"\n            on-fail-valid-choices="exception"\n        />\n    </case>\n</choice>\n</output></rail>\n            -payload2-True-False]
+tests/unit_tests/test_skeleton.py::test_skeleton[\n<rail version="0.1"><output>\n<list name="my_list3">\n    <choice discriminator="action_type" on-fail-choice="exception">\n        <case name="fight">\n            <list name="fight">\n                <string\n                    validators="valid-choices: {['punch','kick','headbutt']}"\n                    on-fail-valid-choices="exception"\n                />\n            </list>\n        </case>\n        <case name="flight">\n            <string\n                name="flight_direction"\n                validators="valid-choices: {['north','south','east','west']}"\n                on-fail-valid-choices="exception"\n            />\n            <integer\n                name="flight_speed"\n                validators="valid-choices: {[1,2,3,4]}"\n                on-fail-valid-choices="exception"\n            />\n        </case>\n    </choice>\n</list>\n</output></rail>\n-payload3-True-False]
+tests/unit_tests/test_skeleton.py::test_skeleton[\n<rail version="0.1"><output>\n<object name="mychoices">\n    <string name="some random thing"/>\n    <choice name="action" discriminator="action_type" on-fail-choice="exception">\n        <case name="fight">\n            <string\n                name="fight_move"\n                validators="valid-choices: {['punch','kick','headbutt']}"\n                on-fail-valid-choices="exception"\n            />\n        </case>\n        <case name="flight">\n            <object name="flight">\n                <string\n                    name="flight_direction"\n                    validators="valid-choices: {['north','south','east','west']}"\n                    on-fail-valid-choices="exception"\n                />\n                <integer\n                    name="flight_speed"\n                    format="valid-choices: {[1,2,3,4]}"\n                    on-fail-valid-choices="exception"\n                />\n            </object>\n        </case>\n    </choice>\n</object>\n</output></rail>\n-payload4-True-False]
+tests/unit_tests/test_skeleton.py::test_skeleton[\n<rail version="0.1"><output>\n<string\n    name="my_string"\n    required="false"\n/>\n</output></rail>\n            -payload5-True-False]
+tests/unit_tests/test_skeleton.py::test_skeleton[\n<rail version="0.1"><output>\n<string\n    name="my_string"\n    required="false"\n/>\n</output></rail>\n            -payload6-True-False]
+tests/unit_tests/test_skeleton.py::test_skeleton[\n<rail version="0.1"><output>\n<string\n    name="my_string"\n>\n</string>\n</output></rail>\n            -payload7-True-True]
+tests/unit_tests/test_skeleton.py::test_skeleton[\n<rail version="0.1"><output>\n<string\n    name="my_string"\n>\n</string>\n</output></rail>\n            -payload8-False-True]
+tests/unit_tests/test_skeleton.py::test_skeleton[\n<rail version="0.1"><output>\n<string\n    name="my_string"\n>\n</string>\n</output></rail>\n            -payload9-False-True]
+tests/unit_tests/test_validator_base.py::test_validator_as_tuple
+tests/unit_tests/test_validator_base.py::test_custom_func_validator
+tests/unit_tests/test_validator_base.py::test_bad_validator
+tests/unit_tests/test_validator_base.py::test_to_xml_attrib[0-12-length: 0 12_0]
+tests/unit_tests/test_validator_base.py::test_to_xml_attrib[0-12-length: 0 12_1]
+tests/unit_tests/test_validator_base.py::test_to_xml_attrib[None-12-length: None 12]
+tests/unit_tests/test_validator_base.py::test_to_xml_attrib[1-None-length: 1 None]
+tests/unit_tests/test_validator_base.py::TestCustomOnFailHandler::test_deprecated_on_fail_handler
+tests/unit_tests/test_validator_base.py::TestCustomOnFailHandler::test_custom_fix
+tests/unit_tests/test_validator_base.py::TestCustomOnFailHandler::test_custom_reask
+tests/unit_tests/test_validator_base.py::TestCustomOnFailHandler::test_custom_exception
+tests/unit_tests/test_validator_base.py::TestCustomOnFailHandler::test_custom_filter
+tests/unit_tests/test_validator_base.py::TestCustomOnFailHandler::test_custom_refrain
+tests/unit_tests/test_validator_base.py::test_input_validation_fix
+tests/unit_tests/test_validator_base.py::test_async_messages_validation_fix
+tests/unit_tests/test_validator_base.py::test_input_validation_fail[reask-Messages validation failed: incorrect_value='What kind of pet should I get?' fail_results=[FailResult(outcome='fail', error_message='must be exactly two words', fix_value='What kind', error_spans=None, metadata=None, validated_chunk=None)] additional_properties={} path=None-Messages validation failed: incorrect_value='What kind of pet should I get?' fail_results=[FailResult(outcome='fail', error_message='must be exactly two words', fix_value='What kind', error_spans=None, metadata=None, validated_chunk=None)] additional_properties={} path=None]
+tests/unit_tests/test_validator_base.py::test_input_validation_fail[filter-Messages validation failed-Messages validation failed]
+tests/unit_tests/test_validator_base.py::test_input_validation_fail[refrain-Messages validation failed-Messages validation failed]
+tests/unit_tests/test_validator_base.py::test_input_validation_fail[exception-Validation failed for field with errors: must be exactly two words-Validation failed for field with errors: must be exactly two words]
+tests/unit_tests/test_validator_base.py::test_input_validation_fail_async[reask-Messages validation failed: incorrect_value='What kind of pet should I get?' fail_results=[FailResult(outcome='fail', error_message='must be exactly two words', fix_value='What kind', error_spans=None, metadata=None, validated_chunk=None)] additional_properties={} path=None-Messages validation failed: incorrect_value='What kind of pet should I get?' fail_results=[FailResult(outcome='fail', error_message='must be exactly two words', fix_value='What kind', error_spans=None, metadata=None, validated_chunk=None)] additional_properties={} path=None]
+tests/unit_tests/test_validator_base.py::test_input_validation_fail_async[filter-Messages validation failed-Messages validation failed]
+tests/unit_tests/test_validator_base.py::test_input_validation_fail_async[refrain-Messages validation failed-Messages validation failed]
+tests/unit_tests/test_validator_base.py::test_input_validation_fail_async[exception-Validation failed for field with errors: must be exactly two words-Validation failed for field with errors: must be exactly two words]
+tests/unit_tests/utils/test_api_utils.py::test_extract_serializeable_metadata
+tests/unit_tests/utils/test_castring_utils.py::test_to_int[1-1_0]
+tests/unit_tests/utils/test_castring_utils.py::test_to_int[1.1-1]
+tests/unit_tests/utils/test_castring_utils.py::test_to_int[1-1_1]
+tests/unit_tests/utils/test_castring_utils.py::test_to_int[1.1-None]
+tests/unit_tests/utils/test_castring_utils.py::test_to_int[abc-None]
+tests/unit_tests/utils/test_castring_utils.py::test_to_int[None-None0]
+tests/unit_tests/utils/test_castring_utils.py::test_to_int[None-None1]
+tests/unit_tests/utils/test_castring_utils.py::test_to_float[1-1.0_0]
+tests/unit_tests/utils/test_castring_utils.py::test_to_float[1.1-1.1_0]
+tests/unit_tests/utils/test_castring_utils.py::test_to_float[1-1.0_1]
+tests/unit_tests/utils/test_castring_utils.py::test_to_float[1.1-1.1_1]
+tests/unit_tests/utils/test_castring_utils.py::test_to_float[abc-None]
+tests/unit_tests/utils/test_castring_utils.py::test_to_float[None-None0]
+tests/unit_tests/utils/test_castring_utils.py::test_to_float[None-None1]
+tests/unit_tests/utils/test_castring_utils.py::test_to_string[abc-abc]
+tests/unit_tests/utils/test_castring_utils.py::test_to_string[1-1]
+tests/unit_tests/utils/test_castring_utils.py::test_to_string[1.1-1.1]
+tests/unit_tests/utils/test_castring_utils.py::test_to_string[True-True]
+tests/unit_tests/utils/test_castring_utils.py::test_to_string[input4-['a', 'b', 'c']]
+tests/unit_tests/utils/test_castring_utils.py::test_to_string[input5-{'a': 1}]
+tests/unit_tests/utils/test_castring_utils.py::test_to_string[None-None]
+tests/unit_tests/utils/test_docs_utils.py::test_text_splitter_split
+tests/unit_tests/utils/test_docs_utils.py::test_prompt_template_token_length
+tests/unit_tests/utils/test_docs_utils.py::test_text_splitter_callable
+tests/unit_tests/utils/test_docs_utils.py::test_get_chunks_from_text_char
+tests/unit_tests/utils/test_docs_utils.py::test_get_chunks_from_text_invalid_strategy
+tests/unit_tests/utils/test_json_utils.py::test_extract_json_from_ouput[\n```json\n{\n    "a": 1\n}\n```\n-expected_output0-None]
+tests/unit_tests/utils/test_json_utils.py::test_extract_json_from_ouput[\n```\n{\n    "a": 1\n}\n```\n-expected_output1-None]
+tests/unit_tests/utils/test_json_utils.py::test_extract_json_from_ouput[\n{\n    "a": 1\n}\n-expected_output2-None]
+tests/unit_tests/utils/test_json_utils.py::test_extract_json_from_ouput[\nHere is the data you requested\n\n{ "a": 1 , "b": { "c": [{"d": 2}, {"e": 3}]}}\n-expected_output3-None]
+tests/unit_tests/utils/test_json_utils.py::test_extract_json_from_ouput[\nHere is the data you requested\n\n```json\n{\n    "a": 1\n}\n```\n-expected_output4-None]
+tests/unit_tests/utils/test_json_utils.py::test_extract_json_from_ouput[{"data": "hello ```json\\n{\\"foo\\":\\"<...>\\"}\\n```"}-expected_output5-None]
+tests/unit_tests/utils/test_json_utils.py::test_extract_json_from_ouput[\n```js\n{\n    "a": 1\n}\n```\n-None-Expecting value: line 1 column 1 (char 0)]
+tests/unit_tests/utils/test_json_utils.py::test_extract_json_from_ouput[\n```json\n{\n    a: 1\n}\n```\n-None-Expecting property name enclosed in double quotes: line 2 column 5 (char 6)0]
+tests/unit_tests/utils/test_json_utils.py::test_extract_json_from_ouput[\n```json\n{"choice": {"action": "flight", "random_key": "random_value"}\n```\n-None-Expecting ',' delimiter: line 1 column 62 (char 61)0]
+tests/unit_tests/utils/test_json_utils.py::test_extract_json_from_ouput[\n{\n    a: 1\n}\n-None-Expecting property name enclosed in double quotes: line 2 column 5 (char 6)]
+tests/unit_tests/utils/test_json_utils.py::test_extract_json_from_ouput[\n{"choice": {"action": "flight", "random_key": "random_value"}\n-None-Expecting ',' delimiter: line 3 column 1 (char 63)]
+tests/unit_tests/utils/test_json_utils.py::test_extract_json_from_ouput[\n```json\n{\n    a: 1\n}\n```\n-None-Expecting property name enclosed in double quotes: line 2 column 5 (char 6)1]
+tests/unit_tests/utils/test_json_utils.py::test_extract_json_from_ouput[\n```json\n{"choice": {"action": "flight", "random_key": "random_value"}\n```\n-None-Expecting ',' delimiter: line 1 column 62 (char 61)1]
+tests/unit_tests/utils/test_json_utils.py::test_extract_json_from_ouput[This isn't even json...-None-Expecting value: line 1 column 1 (char 0)]
+tests/unit_tests/utils/test_parsing_utils.py::test_has_code_block[\n```json\n{\n    "a": 1\n}\n```\n-expected_output0]
+tests/unit_tests/utils/test_parsing_utils.py::test_has_code_block[\n```\n{\n    "a": 1\n}\n```\n-expected_output1]
+tests/unit_tests/utils/test_parsing_utils.py::test_has_code_block[\n```js\n{\n    "a": 1\n}\n```\n-expected_output2]
+tests/unit_tests/utils/test_parsing_utils.py::test_has_code_block[\n{\n    "a": 1\n}\n-expected_output3]
+tests/unit_tests/utils/test_parsing_utils.py::test_has_code_block[This isn't even json...-expected_output4]
+tests/unit_tests/utils/test_parsing_utils.py::test_get_code_block[\n```json\n{\n    "a": 1\n}\n```\n-{\n    "a": 1\n}-json]
+tests/unit_tests/utils/test_parsing_utils.py::test_get_code_block[\n```\n{\n    "a": 1\n}\n```\n-{\n    "a": 1\n}-]
+tests/unit_tests/utils/test_parsing_utils.py::test_get_code_block[\n```js\n{\n    "a": 1\n}\n```\n-js\n{\n    "a": 1\n}-]
+tests/unit_tests/utils/test_parsing_utils.py::test_prune_extra_keys[schema0-payload0-pruned_payload0]
+tests/unit_tests/utils/test_parsing_utils.py::test_prune_extra_keys[schema1-payload1-pruned_payload1]
+tests/unit_tests/utils/test_parsing_utils.py::test_prune_extra_keys[schema2-payload2-pruned_payload2]
+tests/unit_tests/utils/test_parsing_utils.py::test_prune_extra_keys[schema3-Some string...-Some string...]
+tests/unit_tests/utils/test_regex_utils.py::TestSplitOn::test_happy_path
+tests/unit_tests/utils/test_regex_utils.py::TestSplitOn::test_no_filter
+tests/unit_tests/utils/test_safe_get.py::test_safe_get[container0-1-None-2]
+tests/unit_tests/utils/test_safe_get.py::test_safe_get[container1-4-None-None]
+tests/unit_tests/utils/test_safe_get.py::test_safe_get[container2-4-42-42]
+tests/unit_tests/utils/test_safe_get.py::test_safe_get[container3-2-42-42]
+tests/unit_tests/utils/test_safe_get.py::test_safe_get[container4-b-None-2]
+tests/unit_tests/utils/test_safe_get.py::test_safe_get[container5-d-None-None]
+tests/unit_tests/utils/test_safe_get.py::test_safe_get[container6-d-42-42]
+tests/unit_tests/utils/test_safe_get.py::test_safe_get[123-1-None-2]
+tests/unit_tests/utils/test_safe_get.py::test_safe_get[123-4-None-None]
+tests/unit_tests/utils/test_safe_get.py::test_safe_get[123-4-42-42]
+tests/unit_tests/utils/test_serialization_utils.py::TestSerializeAndDeserialize::test_string
+tests/unit_tests/utils/test_serialization_utils.py::TestSerializeAndDeserialize::test_int
+tests/unit_tests/utils/test_serialization_utils.py::TestSerializeAndDeserialize::test_float
+tests/unit_tests/utils/test_serialization_utils.py::TestSerializeAndDeserialize::test_bool
+tests/unit_tests/utils/test_serialization_utils.py::TestSerializeAndDeserialize::test_datetime
+tests/unit_tests/utils/test_serialization_utils.py::TestSerializeAndDeserialize::test_dictionary
+tests/unit_tests/utils/test_serialization_utils.py::TestSerializeAndDeserialize::test_list
+tests/unit_tests/utils/test_serialization_utils.py::TestSerializeAndDeserialize::test_simple_class
+tests/unit_tests/utils/test_serialization_utils.py::TestSerializeAndDeserialize::test_nested_classes_not_supported
+tests/unit_tests/utils/test_serialization_utils.py::TestSerializeAndDeserialize::test_simple_dataclass
+tests/unit_tests/utils/test_serialization_utils.py::TestSerializeAndDeserialize::test_nested_dataclasses_not_supported
+tests/unit_tests/utils/test_serialization_utils.py::TestSerializeAndDeserialize::test_simple_pydantic_model
+tests/unit_tests/utils/test_serialization_utils.py::TestSerializeAndDeserialize::test_nested_pydantic_models
+tests/unit_tests/utils/test_structured_data_utils.py::test_pydantic_model_to_schema
+tests/unit_tests/utils/test_structured_data_utils.py::test_json_function_calling_tool
+tests/unit_tests/utils/test_structured_data_utils.py::test_output_format_json_schema
+tests/unit_tests/utils/test_templating_utils.py::test_get_template_variables
+tests/unit_tests/utils/test_xml_utils.py::test_xml_element_cast[hello-hello0]
+tests/unit_tests/utils/test_xml_utils.py::test_xml_element_cast[hello-hello1]
+tests/unit_tests/utils/test_xml_utils.py::test_xml_element_cast[xml_input2-hello]
+tests/unit_tests/utils/test_xml_utils.py::test_xml_element_cast[xml_input3-hello]
+tests/unit_tests/validator_service/test_async_validator_service.py::test_validate
+tests/unit_tests/validator_service/test_async_validator_service.py::TestAsyncValidate::test_with_dictionary
+tests/unit_tests/validator_service/test_async_validator_service.py::TestAsyncValidate::test_with_list
+tests/unit_tests/validator_service/test_async_validator_service.py::TestAsyncValidate::test_without_children
+tests/unit_tests/validator_service/test_async_validator_service.py::TestValidateChildren::test_with_list
+tests/unit_tests/validator_service/test_async_validator_service.py::TestValidateChildren::test_with_dictionary
+tests/unit_tests/validator_service/test_async_validator_service.py::TestRunValidators::test_filter_exits_early
+tests/unit_tests/validator_service/test_async_validator_service.py::TestRunValidators::test_calls_merge
+tests/unit_tests/validator_service/test_async_validator_service.py::TestRunValidators::test_returns_value_if_no_results
+tests/unit_tests/validator_service/test_async_validator_service.py::TestRunValidator::test_pass_result
+tests/unit_tests/validator_service/test_async_validator_service.py::TestRunValidator::test_pass_result_with_override
+tests/unit_tests/validator_service/test_async_validator_service.py::TestRunValidator::test_fail_result
+tests/unit_tests/validator_service/test_async_validator_service.py::TestRunValidator::test_fail_result_with_fix_reask
+tests/unit_tests/validator_service/test_async_validator_service.py::TestRunValidatorAsync::test_happy_path
+tests/unit_tests/validator_service/test_async_validator_service.py::TestRunValidatorAsync::test_result_is_none
+tests/unit_tests/validator_service/test_sync_validator_service.py::TestRunValidators::test_sends_validation_session_id_to_run_validator_sync
+tests/unit_tests/validator_service/test_validator_service.py::TestShouldRunSync::test_process_count_of_1
+tests/unit_tests/validator_service/test_validator_service.py::TestShouldRunSync::test_run_sync_set_to_true
+tests/unit_tests/validator_service/test_validator_service.py::TestShouldRunSync::test_should_run_sync_default
+tests/unit_tests/validator_service/test_validator_service.py::TestGetLoop::test_get_loop_with_running_loop
+tests/unit_tests/validator_service/test_validator_service.py::TestGetLoop::test_get_loop_without_running_loop
+tests/unit_tests/validator_service/test_validator_service.py::TestGetLoop::test_get_loop_with_uvloop
+tests/unit_tests/validator_service/test_validator_service.py::TestValidate::test_validate_with_sync
+tests/unit_tests/validator_service/test_validator_service.py::TestValidate::test_validate_with_async
+tests/unit_tests/validator_service/test_validator_service.py::TestValidate::test_validate_with_no_available_event_loop
+tests/unit_tests/validator_service/test_validator_service.py::test_async_validate
+
+679 tests collected in 4.36s

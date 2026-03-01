@@ -1,0 +1,167 @@
+[
+    {
+        "name": "aiomysql",
+        "version": "0.3.2"
+    },
+    {
+        "name": "aiosqlite",
+        "version": "0.22.1"
+    },
+    {
+        "name": "annotated-doc",
+        "version": "0.0.4"
+    },
+    {
+        "name": "annotated-types",
+        "version": "0.7.0"
+    },
+    {
+        "name": "anyio",
+        "version": "4.12.1"
+    },
+    {
+        "name": "appdirs",
+        "version": "1.4.4"
+    },
+    {
+        "name": "async-timeout",
+        "version": "5.0.1"
+    },
+    {
+        "name": "asyncodbc",
+        "version": "0.1.1"
+    },
+    {
+        "name": "asyncpg",
+        "version": "0.31.0"
+    },
+    {
+        "name": "exceptiongroup",
+        "version": "1.3.1"
+    },
+    {
+        "name": "fastapi",
+        "version": "0.133.1"
+    },
+    {
+        "name": "idna",
+        "version": "3.11"
+    },
+    {
+        "name": "iniconfig",
+        "version": "2.3.0"
+    },
+    {
+        "name": "iso8601",
+        "version": "2.1.0"
+    },
+    {
+        "name": "jedi",
+        "version": "0.19.2"
+    },
+    {
+        "name": "packaging",
+        "version": "26.0"
+    },
+    {
+        "name": "parso",
+        "version": "0.8.6"
+    },
+    {
+        "name": "pip",
+        "version": "26.0.1"
+    },
+    {
+        "name": "pipdeptree",
+        "version": "2.31.0"
+    },
+    {
+        "name": "pluggy",
+        "version": "1.6.0"
+    },
+    {
+        "name": "prompt_toolkit",
+        "version": "3.0.52"
+    },
+    {
+        "name": "psycopg",
+        "version": "3.3.3"
+    },
+    {
+        "name": "psycopg-pool",
+        "version": "3.3.0"
+    },
+    {
+        "name": "ptpython",
+        "version": "3.0.32"
+    },
+    {
+        "name": "pydantic",
+        "version": "2.12.5"
+    },
+    {
+        "name": "pydantic_core",
+        "version": "2.41.5"
+    },
+    {
+        "name": "Pygments",
+        "version": "2.19.2"
+    },
+    {
+        "name": "PyMySQL",
+        "version": "1.1.2"
+    },
+    {
+        "name": "pyodbc",
+        "version": "5.3.0"
+    },
+    {
+        "name": "pypika-tortoise",
+        "version": "0.6.3"
+    },
+    {
+        "name": "pytest",
+        "version": "9.0.2"
+    },
+    {
+        "name": "pytz",
+        "version": "2025.2"
+    },
+    {
+        "name": "setuptools",
+        "version": "79.0.1"
+    },
+    {
+        "name": "starlette",
+        "version": "0.52.1"
+    },
+    {
+        "name": "tomli",
+        "version": "2.4.0"
+    },
+    {
+        "name": "tomlkit",
+        "version": "0.14.0"
+    },
+    {
+        "name": "tortoise-orm",
+        "version": "0.25.3",
+        "editable_project_location": "/repo"
+    },
+    {
+        "name": "typing_extensions",
+        "version": "4.15.0"
+    },
+    {
+        "name": "typing-inspection",
+        "version": "0.4.2"
+    },
+    {
+        "name": "wcwidth",
+        "version": "0.6.0"
+    },
+    {
+        "name": "wheel",
+        "version": "0.45.1"
+    }
+]

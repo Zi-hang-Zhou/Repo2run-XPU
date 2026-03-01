@@ -1,0 +1,183 @@
+[
+    {
+        "name": "annotated-types",
+        "version": "0.7.0"
+    },
+    {
+        "name": "backports.asyncio.runner",
+        "version": "1.2.0"
+    },
+    {
+        "name": "blake2b-py",
+        "version": "0.3.2"
+    },
+    {
+        "name": "cached-property",
+        "version": "2.0.1"
+    },
+    {
+        "name": "ckzg",
+        "version": "2.1.6"
+    },
+    {
+        "name": "coincurve",
+        "version": "21.0.0"
+    },
+    {
+        "name": "coverage",
+        "version": "7.13.4"
+    },
+    {
+        "name": "cytoolz",
+        "version": "1.1.0"
+    },
+    {
+        "name": "eth-bloom",
+        "version": "3.1.0"
+    },
+    {
+        "name": "eth-hash",
+        "version": "0.7.1"
+    },
+    {
+        "name": "eth-keys",
+        "version": "0.7.0"
+    },
+    {
+        "name": "eth-typing",
+        "version": "5.2.1"
+    },
+    {
+        "name": "eth-utils",
+        "version": "5.3.1"
+    },
+    {
+        "name": "exceptiongroup",
+        "version": "1.3.1"
+    },
+    {
+        "name": "execnet",
+        "version": "2.1.2"
+    },
+    {
+        "name": "factory_boy",
+        "version": "3.3.3"
+    },
+    {
+        "name": "Faker",
+        "version": "40.5.1"
+    },
+    {
+        "name": "hexbytes",
+        "version": "1.3.1"
+    },
+    {
+        "name": "hypothesis",
+        "version": "6.151.9"
+    },
+    {
+        "name": "iniconfig",
+        "version": "2.3.0"
+    },
+    {
+        "name": "lru-dict",
+        "version": "1.4.1"
+    },
+    {
+        "name": "packaging",
+        "version": "26.0"
+    },
+    {
+        "name": "pip",
+        "version": "26.0.1"
+    },
+    {
+        "name": "pipdeptree",
+        "version": "2.31.0"
+    },
+    {
+        "name": "pluggy",
+        "version": "1.6.0"
+    },
+    {
+        "name": "py-ecc",
+        "version": "8.0.0"
+    },
+    {
+        "name": "py-evm",
+        "version": "0.12.1b1",
+        "editable_project_location": "/repo"
+    },
+    {
+        "name": "pycryptodome",
+        "version": "3.23.0"
+    },
+    {
+        "name": "pydantic",
+        "version": "2.12.5"
+    },
+    {
+        "name": "pydantic_core",
+        "version": "2.41.5"
+    },
+    {
+        "name": "Pygments",
+        "version": "2.19.2"
+    },
+    {
+        "name": "pytest",
+        "version": "9.0.2"
+    },
+    {
+        "name": "pytest-asyncio",
+        "version": "1.3.0"
+    },
+    {
+        "name": "pytest-cov",
+        "version": "7.0.0"
+    },
+    {
+        "name": "pytest-timeout",
+        "version": "2.4.0"
+    },
+    {
+        "name": "pytest-xdist",
+        "version": "3.8.0"
+    },
+    {
+        "name": "rlp",
+        "version": "4.1.0"
+    },
+    {
+        "name": "setuptools",
+        "version": "79.0.1"
+    },
+    {
+        "name": "sortedcontainers",
+        "version": "2.4.0"
+    },
+    {
+        "name": "tomli",
+        "version": "2.4.0"
+    },
+    {
+        "name": "toolz",
+        "version": "1.1.0"
+    },
+    {
+        "name": "trie",
+        "version": "3.1.0"
+    },
+    {
+        "name": "typing_extensions",
+        "version": "4.15.0"
+    },
+    {
+        "name": "typing-inspection",
+        "version": "0.4.2"
+    },
+    {
+        "name": "wheel",
+        "version": "0.45.1"
+    }
+]

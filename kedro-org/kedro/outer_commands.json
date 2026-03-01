@@ -1,0 +1,83 @@
+[
+    {
+        "GPT_time": 2.4522459506988525
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.672163724899292
+    },
+    {
+        "GPT_time": 3.9130332469940186
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6746029853820801
+    },
+    {
+        "GPT_time": 6.468082666397095
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6631007194519043
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 12.964713335037231
+    },
+    {
+        "GPT_time": 10.783292293548584
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6650309562683105
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 22.990952253341675
+    },
+    {
+        "GPT_time": 2.442748546600342
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.662527322769165
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.938819408416748
+    },
+    {
+        "GPT_time": 4.542729616165161
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6651396751403809
+    },
+    {
+        "command": "pip install -e \".[test]\" -q",
+        "returncode": 0,
+        "time": 182.31967639923096
+    },
+    {
+        "GPT_time": 2.5188188552856445
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6636471748352051
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 12.558019638061523
+    }
+]

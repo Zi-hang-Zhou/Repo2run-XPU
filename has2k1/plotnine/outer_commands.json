@@ -1,0 +1,141 @@
+[
+    {
+        "GPT_time": 2.2083795070648193
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6691954135894775
+    },
+    {
+        "GPT_time": 3.0415213108062744
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6751973628997803
+    },
+    {
+        "GPT_time": 3.8227763175964355
+    },
+    {
+        "command": "ls -la /repo/requirements/",
+        "returncode": 0,
+        "time": 0.6680965423583984
+    },
+    {
+        "GPT_time": 2.2542357444763184
+    },
+    {
+        "command": "cat /repo/requirements/doc.txt",
+        "returncode": 0,
+        "time": 0.6665632724761963
+    },
+    {
+        "command": "ls /repo/*.txt 2>/dev/null",
+        "returncode": 0,
+        "time": 12.346107482910156
+    },
+    {
+        "command": "ls /repo/setup.py 2>/dev/null",
+        "returncode": 0,
+        "time": 10.723406791687012
+    },
+    {
+        "GPT_time": 4.629894971847534
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6658129692077637
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.05053973197937
+    },
+    {
+        "GPT_time": 2.6560440063476562
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6648385524749756
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 37.454933404922485
+    },
+    {
+        "GPT_time": 9.740524291992188
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6631839275360107
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 16.778589487075806
+    },
+    {
+        "GPT_time": 3.030592679977417
+    },
+    {
+        "command": "waitinglist add -p pytest-cov -t pip",
+        "returncode": 0,
+        "time": 0.005754947662353516
+    },
+    {
+        "GPT_time": 2.1805803775787354
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 3.348071575164795
+    },
+    {
+        "GPT_time": 2.022446870803833
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6631748676300049
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 16.553310871124268
+    },
+    {
+        "GPT_time": 18.022368669509888
+    },
+    {
+        "command": "waitinglist add -p geopandas -t pip",
+        "returncode": 0,
+        "time": 0.009156942367553711
+    },
+    {
+        "GPT_time": 2.425962209701538
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 10.563729286193848
+    },
+    {
+        "GPT_time": 10.438145399093628
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6639752388000488
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 8.138458013534546
+    }
+]

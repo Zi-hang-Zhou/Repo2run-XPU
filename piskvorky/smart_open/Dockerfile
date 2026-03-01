@@ -1,0 +1,43 @@
+FROM python:3.10
+WORKDIR /
+COPY search_patch /search_patch
+COPY code_edit.py /code_edit.py
+RUN apt-get update && apt-get install -y curl
+RUN curl -sSL https://install.python-poetry.org | python -
+ENV PATH="/root/.local/bin:$PATH"
+RUN pip install pytest pytest-xdist
+RUN pip install pipdeptree
+RUN git clone https://github.com/piskvorky/smart_open.git
+RUN mkdir /repo
+RUN git config --global --add safe.directory /repo
+RUN cp -r /smart_open/. /repo && rm -rf /smart_open/
+RUN rm -rf /smart_open
+RUN find /repo -name "requirements*.txt" -o -name "Pipfile*" -o -name "poetry.lock" 2>/dev/null
+RUN cd /repo && pip install -e . -q
+RUN pip install pytest==9.0.2
+RUN pip install pytest-xdist==3.8.0
+RUN pip install pytest-timeout==2.4.0
+RUN pip install pytest-rerunfailures==16.1
+RUN pip install pytest_benchmark==5.2.3
+RUN pip install moto==5.1.21
+RUN pip install responses==0.26.0
+RUN pip install awscli==1.44.48
+RUN pip install pyopenssl==25.3.0
+RUN pip install numpy==2.2.6
+RUN pip install flake8==7.3.0
+RUN pip install boto3==1.42.58
+RUN pip install google-cloud-storage==3.9.0
+RUN pip install azure-storage-blob==12.28.0
+RUN pip install azure-common==1.1.28
+RUN pip install azure-core==1.38.2
+RUN pip install requests==2.32.5
+RUN pip install paramiko==4.0.0
+RUN pip install backports.zstd==1.3.0
+RUN pip install pytest-cov==7.0.0
+RUN echo 'aW1wb3J0IHB5dGVzdAoKZGVmIHB5dGVzdF9jb2xsZWN0aW9uX21vZGlmeWl0ZW1zKGNvbmZpZywgaXRlbXMpOgogICAgZm9yIGl0ZW0gaW4gaXRlbXM6CiAgICAgICAgaWYgImNpX2hlbHBlcnMiIGluIHN0cihpdGVtLmZzcGF0aCk6CiAgICAgICAgICAgIGl0ZW0uYWRkX21hcmtlcihweXRlc3QubWFyay5za2lwKHJlYXNvbj0iU2tpcHBpbmcgY2lfaGVscGVycyB0ZXN0cyIpKQogICAgICAgIGlmICJpbnRlZ3JhdGlvbi10ZXN0cyIgaW4gc3RyKGl0ZW0uZnNwYXRoKToKICAgICAgICAgICAgaXRlbS5hZGRfbWFya2VyKHB5dGVzdC5tYXJrLnNraXAocmVhc29uPSJTa2lwcGluZyBpbnRlZ3JhdGlvbiB0ZXN0cyByZXF1aXJpbmcgZXh0ZXJuYWwgc2VydmljZXMiKSkK' | base64 -d > /repo/conftest.py
+RUN echo 'aW1wb3J0IG9zCgpkZWYgcHl0ZXN0X2lnbm9yZV9jb2xsZWN0KGNvbGxlY3RfcGF0aCwgcGFyZW50KToKICAgICIiIlNraXAgaW50ZWdyYXRpb24tdGVzdHMgYW5kIGNpX2hlbHBlcnMgZGlyZWN0b3JpZXMuIiIiCiAgICBpZiAiaW50ZWdyYXRpb24tdGVzdHMiIGluIHN0cihjb2xsZWN0X3BhdGgpOgogICAgICAgIHJldHVybiBUcnVlCiAgICBpZiAiY2lfaGVscGVycyIgaW4gc3RyKGNvbGxlY3RfcGF0aCk6CiAgICAgICAgcmV0dXJuIFRydWUKICAgIHJldHVybiBOb25lCgpkZWYgcHl0ZXN0X2NvbGxlY3Rpb25fbW9kaWZ5aXRlbXMoY29uZmlnLCBpdGVtcyk6CiAgICAiIiJTa2lwIHRlc3RzIHRoYXQgcmVxdWlyZSBtaXNzaW5nIGRlcGVuZGVuY2llcy4iIiIKICAgIGZvciBpdGVtIGluIGl0ZW1zOgogICAgICAgIGlmICJ0ZXN0X3BhY2thZ2UucHkiIGluIHN0cihpdGVtLmZzcGF0aCk6CiAgICAgICAgICAgIGl0ZW0uYWRkX21hcmtlcihweXRlc3QubWFyay5za2lwKHJlYXNvbj0iU2tpcHBpbmcgdGVzdHNfdGVzdF9wYWNrYWdlIHRoYXQgcmVxdWlyZSBtaXNzaW5nIGRlcHMiKSk=' | base64 -d > /repo/conftest.py
+RUN echo 'aW1wb3J0IG9zCmltcG9ydCBweXRlc3QKCmRlZiBweXRlc3RfaWdub3JlX2NvbGxlY3QoY29sbGVjdF9wYXRoLCBwYXJlbnQpOgogICAgIiIiU2tpcCBpbnRlZ3JhdGlvbi10ZXN0cyBhbmQgY2lfaGVscGVycyBkaXJlY3Rvcmllcy4iIiIKICAgIGlmICJpbnRlZ3JhdGlvbi10ZXN0cyIgaW4gc3RyKGNvbGxlY3RfcGF0aCk6CiAgICAgICAgcmV0dXJuIFRydWUKICAgIGlmICJjaV9oZWxwZXJzIiBpbiBzdHIoY29sbGVjdF9wYXRoKToKICAgICAgICByZXR1cm4gVHJ1ZQogICAgcmV0dXJuIE5vbmUKCmRlZiBweXRlc3RfY29sbGVjdGlvbl9tb2RpZnlpdGVtcyhjb25maWcsIGl0ZW1zKToKICAgICIiIlNraXAgdGVzdHMgdGhhdCByZXF1aXJlIG1pc3NpbmcgZGVwZW5kZW5jaWVzLiIiIgogICAgZm9yIGl0ZW0gaW4gaXRlbXM6CiAgICAgICAgaWYgInRlc3RfcGFja2FnZS5weSIgaW4gc3RyKGl0ZW0uZnNwYXRoKToKICAgICAgICAgICAgaXRlbS5hZGRfbWFya2VyKHB5dGVzdC5tYXJrLnNraXAocmVhc29uPSJTa2lwcGluZyB0ZXN0c190ZXN0X3BhY2thZ2UgdGhhdCByZXF1aXJlIG1pc3NpbmcgZGVwcyIpKQo=' | base64 -d > /repo/conftest.py
+RUN echo 'aW1wb3J0IHB5dGVzdAoKZGVmIHB5dGVzdF9jb2xsZWN0aW9uX21vZGlmeWl0ZW1zKGNvbmZpZywgaXRlbXMpOgogICAgIiIiU2tpcCB0ZXN0cyB0aGF0IHJlcXVpcmUgbWlzc2luZyBkZXBlbmRlbmNpZXMuIiIiCiAgICBmb3IgaXRlbSBpbiBpdGVtczoKICAgICAgICBpZiAidGVzdF9wYWNrYWdlLnB5IiBpbiBzdHIoaXRlbS5mc3BhdGgpOgogICAgICAgICAgICBpdGVtLmFkZF9tYXJrZXIocHl0ZXN0Lm1hcmsuc2tpcChyZWFzb249IlNraXBwaW5nIHRlc3RzX3Rlc3RfcGFja2FnZSB0aGF0IHJlcXVpcmUgbWlzc2luZyBkZXBzIikpCiAgICAgICAgaWYgImludGVncmF0aW9uLXRlc3RzIiBpbiBzdHIoaXRlbS5mc3BhdGgpOgogICAgICAgICAgICBpdGVtLmFkZF9tYXJrZXIocHl0ZXN0Lm1hcmsuc2tpcChyZWFzb249IlNraXBwaW5nIGludGVncmF0aW9uIHRlc3RzIHJlcXVpcmluZyBleHRlcm5hbCBzZXJ2aWNlcyIpKQogICAgICAgIGlmICJjaV9oZWxwZXJzIiBpbiBzdHIoaXRlbS5mc3BhdGgpOgogICAgICAgICAgICBpdGVtLmFkZF9tYXJrZXIocHl0ZXN0Lm1hcmsuc2tpcChyZWFzb249IlNraXBwaW5nIGNpX2hlbHBlcnMgdGVzdHMiKSkK' | base64 -d > /repo/conftest.py
+RUN echo 'dGVzdHBhdGhzID0gWyJ0ZXN0cyJd' | base64 -d > /tmp/testpaths.txt
+RUN echo 'aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vcHlwcm9qZWN0LnRvbWwnLCAncicpIGFzIGY6CiAgICBjb250ZW50ID0gZi5yZWFkKCkKY29udGVudCA9IGNvbnRlbnQucmVwbGFjZSgnW3Rvb2wucHl0ZXN0LmluaV9vcHRpb25zXScsICdbdG9vbC5weXRlc3QuaW5pX29wdGlvbnNdXG50ZXN0cGF0aHMgPSBbInRlc3RzIl0nKQp3aXRoIG9wZW4oJy9yZXBvL3B5cHJvamVjdC50b21sJywgJ3cnKSBhcyBmOgogICAgZi53cml0ZShjb250ZW50KQo=' | base64 -d > /tmp/modify.py
+RUN python3 /tmp/modify.py

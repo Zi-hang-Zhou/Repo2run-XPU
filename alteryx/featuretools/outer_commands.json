@@ -1,0 +1,81 @@
+[
+    {
+        "GPT_time": 2.453606605529785
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6707353591918945
+    },
+    {
+        "GPT_time": 2.588087797164917
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6645276546478271
+    },
+    {
+        "GPT_time": 8.96963119506836
+    },
+    {
+        "command": "ls -la /repo/.github",
+        "returncode": 0,
+        "time": 0.6648991107940674
+    },
+    {
+        "command": "find /repo -name \"poetry.lock\" -o -name \"requirements*.txt\" 2>/dev/null | head -20",
+        "returncode": 0,
+        "time": 0.8686079978942871
+    },
+    {
+        "GPT_time": 15.553157806396484
+    },
+    {
+        "command": "ls -la /repo/.github/workflows",
+        "returncode": 0,
+        "time": 0.6760032176971436
+    },
+    {
+        "command": "cat /repo/.github/workflows/*.yml 2>/dev/null | head -100",
+        "returncode": 0,
+        "time": 0.8791229724884033
+    },
+    {
+        "GPT_time": 2.55576753616333
+    },
+    {
+        "command": "cat /repo/.github/workflows/install_test.yaml",
+        "returncode": 0,
+        "time": 0.6642873287200928
+    },
+    {
+        "GPT_time": 2.281658411026001
+    },
+    {
+        "command": "cat /repo/.github/workflows/tests_with_latest_deps.yaml",
+        "returncode": 0,
+        "time": 0.6836624145507812
+    },
+    {
+        "GPT_time": 6.190906286239624
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.664053201675415
+    },
+    {
+        "command": "pip install -e .[test,dask] -q",
+        "returncode": 0,
+        "time": 112.11193490028381
+    },
+    {
+        "GPT_time": 3.115044593811035
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 398.7187125682831
+    }
+]

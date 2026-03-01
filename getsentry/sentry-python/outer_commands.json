@@ -1,0 +1,126 @@
+[
+    {
+        "GPT_time": 1.6676678657531738
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6710937023162842
+    },
+    {
+        "GPT_time": 5.022157430648804
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6718432903289795
+    },
+    {
+        "GPT_time": 7.34581446647644
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.6718404293060303
+    },
+    {
+        "GPT_time": 6.933894634246826
+    },
+    {
+        "command": "cat /repo/requirements-testing.txt",
+        "returncode": 0,
+        "time": 0.6652991771697998
+    },
+    {
+        "GPT_time": 3.1653268337249756
+    },
+    {
+        "command": "cat /repo/requirements-devenv.txt",
+        "returncode": 0,
+        "time": 0.6667695045471191
+    },
+    {
+        "GPT_time": 2.159010171890259
+    },
+    {
+        "command": "cat /repo/requirements-linting.txt",
+        "returncode": 0,
+        "time": 0.6657955646514893
+    },
+    {
+        "GPT_time": 2.55114483833313
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6640982627868652
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.900550603866577
+    },
+    {
+        "GPT_time": 3.2433152198791504
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements-testing.txt",
+        "returncode": 0,
+        "time": 0.03394269943237305
+    },
+    {
+        "GPT_time": 2.8453941345214844
+    },
+    {
+        "command": "pwd",
+        "returncode": 0,
+        "time": 0.665576696395874
+    },
+    {
+        "command": "ls /repo/requirements*.txt",
+        "returncode": 0,
+        "time": 0.6663601398468018
+    },
+    {
+        "GPT_time": 1.72505521774292
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements-testing.txt",
+        "returncode": 0,
+        "time": 0.03354382514953613
+    },
+    {
+        "GPT_time": 12.112190008163452
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6638569831848145
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 3.890155553817749
+    },
+    {
+        "GPT_time": 3.8820669651031494
+    },
+    {
+        "command": "pip install -r /repo/requirements-testing.txt -q",
+        "returncode": 0,
+        "time": 15.634159326553345
+    },
+    {
+        "GPT_time": 1.928828239440918
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6647734642028809
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 6.959416627883911
+    }
+]

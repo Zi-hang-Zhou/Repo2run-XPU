@@ -1,0 +1,107 @@
+[
+    {
+        "GPT_time": 2.449836015701294
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6702501773834229
+    },
+    {
+        "GPT_time": 4.080677032470703
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6713807582855225
+    },
+    {
+        "GPT_time": 5.673835754394531
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"setup.py\" 2>/dev/null | head -20",
+        "returncode": 0,
+        "time": 1.451188087463379
+    },
+    {
+        "GPT_time": 3.423156261444092
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.664745569229126
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 6.1402528285980225
+    },
+    {
+        "GPT_time": 18.10437536239624
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 13.738959312438965
+    },
+    {
+        "GPT_time": 3.4911251068115234
+    },
+    {
+        "command": "pip install pytest-cov pytest-xdist coverage -q",
+        "returncode": 0,
+        "time": 8.737435579299927
+    },
+    {
+        "GPT_time": 3.4070301055908203
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 36.510981798172
+    },
+    {
+        "GPT_time": 14.031402349472046
+    },
+    {
+        "command": "waitinglist add -p polib",
+        "returncode": 0,
+        "time": 0.4134068489074707
+    },
+    {
+        "command": "waitinglist add -p numpy",
+        "returncode": 0,
+        "time": 0.4460334777832031
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 0.04315185546875
+    },
+    {
+        "GPT_time": 3.2815027236938477
+    },
+    {
+        "command": "waitinglist add -p polib -t pip",
+        "returncode": 0,
+        "time": 0.03431224822998047
+    },
+    {
+        "command": "waitinglist add -p numpy -t pip",
+        "returncode": 0,
+        "time": 0.031514883041381836
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 22.648587942123413
+    },
+    {
+        "GPT_time": 2.492788791656494
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 4.6035754680633545
+    }
+]

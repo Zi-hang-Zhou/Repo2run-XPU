@@ -1,0 +1,261 @@
+[
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.31.0",
+        "required_version": "2.31.0",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            },
+            {
+                "key": "pip",
+                "package_name": "pip",
+                "installed_version": "25.3",
+                "required_version": ">=25.2",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pytest-rerunfailures",
+        "package_name": "pytest-rerunfailures",
+        "installed_version": "16.1",
+        "required_version": "16.1",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=17.1",
+                "dependencies": []
+            },
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.2",
+                "required_version": ">=7.4,!=8.2.2",
+                "dependencies": [
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.19.2",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "sphinx",
+        "package_name": "Sphinx",
+        "installed_version": "9.1.0",
+        "required_version": "9.1.0",
+        "dependencies": [
+            {
+                "key": "alabaster",
+                "package_name": "alabaster",
+                "installed_version": "1.0.0",
+                "required_version": ">=0.7.14",
+                "dependencies": []
+            },
+            {
+                "key": "babel",
+                "package_name": "babel",
+                "installed_version": "2.18.0",
+                "required_version": ">=2.13",
+                "dependencies": []
+            },
+            {
+                "key": "docutils",
+                "package_name": "docutils",
+                "installed_version": "0.22.4",
+                "required_version": ">=0.21,<0.23",
+                "dependencies": []
+            },
+            {
+                "key": "imagesize",
+                "package_name": "imagesize",
+                "installed_version": "1.4.1",
+                "required_version": ">=1.3",
+                "dependencies": []
+            },
+            {
+                "key": "jinja2",
+                "package_name": "Jinja2",
+                "installed_version": "3.1.6",
+                "required_version": ">=3.1",
+                "dependencies": [
+                    {
+                        "key": "markupsafe",
+                        "package_name": "MarkupSafe",
+                        "installed_version": "3.0.3",
+                        "required_version": ">=2.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=23.0",
+                "dependencies": []
+            },
+            {
+                "key": "pygments",
+                "package_name": "Pygments",
+                "installed_version": "2.19.2",
+                "required_version": ">=2.17",
+                "dependencies": []
+            },
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.32.5",
+                "required_version": ">=2.30.0",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": ">=2017.4.17",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "3.4.4",
+                        "required_version": ">=2,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "2.6.3",
+                        "required_version": ">=1.21.1,<3",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "roman-numerals",
+                "package_name": "roman-numerals",
+                "installed_version": "4.1.0",
+                "required_version": ">=1.0.0",
+                "dependencies": []
+            },
+            {
+                "key": "snowballstemmer",
+                "package_name": "snowballstemmer",
+                "installed_version": "3.0.1",
+                "required_version": ">=2.2",
+                "dependencies": []
+            },
+            {
+                "key": "sphinxcontrib-applehelp",
+                "package_name": "sphinxcontrib-applehelp",
+                "installed_version": "2.0.0",
+                "required_version": ">=1.0.7",
+                "dependencies": []
+            },
+            {
+                "key": "sphinxcontrib-devhelp",
+                "package_name": "sphinxcontrib-devhelp",
+                "installed_version": "2.0.0",
+                "required_version": ">=1.0.6",
+                "dependencies": []
+            },
+            {
+                "key": "sphinxcontrib-htmlhelp",
+                "package_name": "sphinxcontrib-htmlhelp",
+                "installed_version": "2.1.0",
+                "required_version": ">=2.0.6",
+                "dependencies": []
+            },
+            {
+                "key": "sphinxcontrib-jsmath",
+                "package_name": "sphinxcontrib-jsmath",
+                "installed_version": "1.0.1",
+                "required_version": ">=1.0.1",
+                "dependencies": []
+            },
+            {
+                "key": "sphinxcontrib-qthelp",
+                "package_name": "sphinxcontrib-qthelp",
+                "installed_version": "2.0.0",
+                "required_version": ">=1.0.6",
+                "dependencies": []
+            },
+            {
+                "key": "sphinxcontrib-serializinghtml",
+                "package_name": "sphinxcontrib-serializinghtml",
+                "installed_version": "2.0.0",
+                "required_version": ">=1.1.9",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "tmuxp",
+        "package_name": "tmuxp",
+        "installed_version": "1.64.0",
+        "required_version": "1.64.0",
+        "dependencies": [
+            {
+                "key": "colorama",
+                "package_name": "colorama",
+                "installed_version": "0.4.6",
+                "required_version": ">=0.3.9",
+                "dependencies": []
+            },
+            {
+                "key": "libtmux",
+                "package_name": "libtmux",
+                "installed_version": "0.53.1",
+                "required_version": "~=0.53.0",
+                "dependencies": []
+            },
+            {
+                "key": "pyyaml",
+                "package_name": "PyYAML",
+                "installed_version": "6.0.3",
+                "required_version": ">=6.0",
+                "dependencies": []
+            }
+        ]
+    }
+]

@@ -1,0 +1,12 @@
+diff --git a/pyproject.toml b/pyproject.toml
+index 1be923f5..e4d0996f 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -190,6 +190,7 @@ ignore-words-list = "STrack,sTrack,strack"
+ addopts = [
+   "--doctest-modules",
+   "--color=yes",
++  "--ignore=examples",
+ ]
+ doctest_optionflags = "ELLIPSIS NORMALIZE_WHITESPACE"
+ 

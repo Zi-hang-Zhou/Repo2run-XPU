@@ -1,0 +1,414 @@
+[
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.31.0",
+        "required_version": "2.31.0",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            },
+            {
+                "key": "pip",
+                "package_name": "pip",
+                "installed_version": "26.0.1",
+                "required_version": ">=25.2",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pretend",
+        "package_name": "pretend",
+        "installed_version": "1.0.9",
+        "required_version": "1.0.9",
+        "dependencies": []
+    },
+    {
+        "key": "pytest-socket",
+        "package_name": "pytest-socket",
+        "installed_version": "0.7.0",
+        "required_version": "0.7.0",
+        "dependencies": [
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.2",
+                "required_version": ">=6.2.5",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.19.2",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.0",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "setuptools",
+        "package_name": "setuptools",
+        "installed_version": "79.0.1",
+        "required_version": "79.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "twine",
+        "package_name": "twine",
+        "installed_version": "6.2.1.dev20+g63a0aaf7d",
+        "required_version": "6.2.1.dev20+g63a0aaf7d",
+        "dependencies": [
+            {
+                "key": "id",
+                "package_name": "id",
+                "installed_version": "1.6.1",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "2.6.3",
+                        "required_version": ">=2,<3",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "keyring",
+                "package_name": "keyring",
+                "installed_version": "25.7.0",
+                "required_version": ">=21.2.0",
+                "dependencies": [
+                    {
+                        "key": "importlib-metadata",
+                        "package_name": "importlib_metadata",
+                        "installed_version": "8.7.1",
+                        "required_version": ">=4.11.4",
+                        "dependencies": [
+                            {
+                                "key": "zipp",
+                                "package_name": "zipp",
+                                "installed_version": "3.23.0",
+                                "required_version": ">=3.20",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jaraco-classes",
+                        "package_name": "jaraco.classes",
+                        "installed_version": "3.4.0",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "more-itertools",
+                                "package_name": "more-itertools",
+                                "installed_version": "10.8.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jaraco-context",
+                        "package_name": "jaraco.context",
+                        "installed_version": "6.1.0",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "backports-tarfile",
+                                "package_name": "backports.tarfile",
+                                "installed_version": "1.2.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jaraco-functools",
+                        "package_name": "jaraco.functools",
+                        "installed_version": "4.4.0",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "more-itertools",
+                                "package_name": "more-itertools",
+                                "installed_version": "10.8.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jeepney",
+                        "package_name": "jeepney",
+                        "installed_version": "0.9.0",
+                        "required_version": ">=0.4.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "secretstorage",
+                        "package_name": "SecretStorage",
+                        "installed_version": "3.5.0",
+                        "required_version": ">=3.2",
+                        "dependencies": [
+                            {
+                                "key": "cryptography",
+                                "package_name": "cryptography",
+                                "installed_version": "46.0.5",
+                                "required_version": ">=2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "cffi",
+                                        "package_name": "cffi",
+                                        "installed_version": "2.0.0",
+                                        "required_version": ">=2.0.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "pycparser",
+                                                "package_name": "pycparser",
+                                                "installed_version": "3.0",
+                                                "required_version": "Any",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.13.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "jeepney",
+                                "package_name": "jeepney",
+                                "installed_version": "0.9.0",
+                                "required_version": ">=0.6",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=24.0",
+                "dependencies": []
+            },
+            {
+                "key": "readme-renderer",
+                "package_name": "readme_renderer",
+                "installed_version": "44.0",
+                "required_version": ">=35.0",
+                "dependencies": [
+                    {
+                        "key": "docutils",
+                        "package_name": "docutils",
+                        "installed_version": "0.22.4",
+                        "required_version": ">=0.21.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "nh3",
+                        "package_name": "nh3",
+                        "installed_version": "0.3.3",
+                        "required_version": ">=0.2.14",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.19.2",
+                        "required_version": ">=2.5.1",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.32.5",
+                "required_version": ">=2.20",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": ">=2017.4.17",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "3.4.4",
+                        "required_version": ">=2,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "2.6.3",
+                        "required_version": ">=1.21.1,<3",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "requests-toolbelt",
+                "package_name": "requests-toolbelt",
+                "installed_version": "1.0.0",
+                "required_version": ">=0.8.0,!=0.9.0",
+                "dependencies": [
+                    {
+                        "key": "requests",
+                        "package_name": "requests",
+                        "installed_version": "2.32.5",
+                        "required_version": ">=2.0.1,<3.0.0",
+                        "dependencies": [
+                            {
+                                "key": "certifi",
+                                "package_name": "certifi",
+                                "installed_version": "2026.2.25",
+                                "required_version": ">=2017.4.17",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "charset-normalizer",
+                                "package_name": "charset-normalizer",
+                                "installed_version": "3.4.4",
+                                "required_version": ">=2,<4",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "idna",
+                                "package_name": "idna",
+                                "installed_version": "3.11",
+                                "required_version": ">=2.5,<4",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "urllib3",
+                                "package_name": "urllib3",
+                                "installed_version": "2.6.3",
+                                "required_version": ">=1.21.1,<3",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "rfc3986",
+                "package_name": "rfc3986",
+                "installed_version": "2.0.0",
+                "required_version": ">=1.4.0",
+                "dependencies": []
+            },
+            {
+                "key": "rich",
+                "package_name": "rich",
+                "installed_version": "14.3.3",
+                "required_version": ">=12.0.0",
+                "dependencies": [
+                    {
+                        "key": "markdown-it-py",
+                        "package_name": "markdown-it-py",
+                        "installed_version": "4.0.0",
+                        "required_version": ">=2.2.0",
+                        "dependencies": [
+                            {
+                                "key": "mdurl",
+                                "package_name": "mdurl",
+                                "installed_version": "0.1.2",
+                                "required_version": "~=0.1",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.19.2",
+                        "required_version": ">=2.13.0,<3.0.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "urllib3",
+                "package_name": "urllib3",
+                "installed_version": "2.6.3",
+                "required_version": ">=1.26.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "wheel",
+        "package_name": "wheel",
+        "installed_version": "0.45.1",
+        "required_version": "0.45.1",
+        "dependencies": []
+    }
+]

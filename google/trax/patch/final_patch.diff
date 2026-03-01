@@ -1,0 +1,43 @@
+diff --git a/trax/data/tf_inputs.py b/trax/data/tf_inputs.py
+index ba7d71f..3c8ba6d 100644
+--- a/trax/data/tf_inputs.py
++++ b/trax/data/tf_inputs.py
+@@ -30,7 +30,11 @@ import numpy as np
+ import scipy
+ import scipy.special
+ import tensorflow as tf
+-from tensorflow import estimator as tf_estimator
++# In TF 2.x, estimator is not available; define ModeKeys directly
++class _ModeKeys:
++    TRAIN = "train"
++    EVAL = "eval"
++tf_estimator = type("tf_estimator", (), {"ModeKeys": _ModeKeys})()
+ import tensorflow_datasets as tfds
+ import tensorflow_text as tf_text
+ from trax import data
+diff --git a/trax/tf_numpy/extensions/extensions_test.py b/trax/tf_numpy/extensions/extensions_test.py
+index ea05aa8..32f5176 100644
+--- a/trax/tf_numpy/extensions/extensions_test.py
++++ b/trax/tf_numpy/extensions/extensions_test.py
+@@ -94,12 +94,15 @@ class ExtensionsTest(tf.test.TestCase, parameterized.TestCase):
+ 
+   def __init__(self, methodName="runTest"):  # pylint: disable=invalid-name
+     super().__init__(methodName)
+-    physical_devices = tf.config.experimental.list_physical_devices("CPU")
+-    tf.config.experimental.set_virtual_device_configuration(
+-        physical_devices[0], [
+-            tf.config.experimental.VirtualDeviceConfiguration(),
+-            tf.config.experimental.VirtualDeviceConfiguration()
+-        ])
++    try:
++      physical_devices = tf.config.experimental.list_physical_devices("CPU")
++      tf.config.experimental.set_virtual_device_configuration(
++          physical_devices[0], [
++              tf.config.experimental.VirtualDeviceConfiguration(),
++              tf.config.experimental.VirtualDeviceConfiguration()
++          ])
++    except RuntimeError:
++      pass
+     if extensions.tpu_devices():
+       resolver = tf.distribute.cluster_resolver.TPUClusterResolver(tpu="local")
+       tf.tpu.experimental.initialize_tpu_system(resolver)

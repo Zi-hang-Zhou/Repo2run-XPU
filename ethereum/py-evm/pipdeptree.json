@@ -1,0 +1,1135 @@
+[
+    {
+        "key": "blake2b-py",
+        "package_name": "blake2b-py",
+        "installed_version": "0.3.2",
+        "required_version": "0.3.2",
+        "dependencies": []
+    },
+    {
+        "key": "coincurve",
+        "package_name": "coincurve",
+        "installed_version": "21.0.0",
+        "required_version": "21.0.0",
+        "dependencies": []
+    },
+    {
+        "key": "factory-boy",
+        "package_name": "factory_boy",
+        "installed_version": "3.3.3",
+        "required_version": "3.3.3",
+        "dependencies": [
+            {
+                "key": "faker",
+                "package_name": "Faker",
+                "installed_version": "40.5.1",
+                "required_version": ">=0.7.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "hypothesis",
+        "package_name": "hypothesis",
+        "installed_version": "6.151.9",
+        "required_version": "6.151.9",
+        "dependencies": [
+            {
+                "key": "exceptiongroup",
+                "package_name": "exceptiongroup",
+                "installed_version": "1.3.1",
+                "required_version": ">=1.0.0",
+                "dependencies": [
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.6.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "sortedcontainers",
+                "package_name": "sortedcontainers",
+                "installed_version": "2.4.0",
+                "required_version": ">=2.1.0,<3.0.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.31.0",
+        "required_version": "2.31.0",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            },
+            {
+                "key": "pip",
+                "package_name": "pip",
+                "installed_version": "26.0.1",
+                "required_version": ">=25.2",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "py-evm",
+        "package_name": "py-evm",
+        "installed_version": "0.12.1b1",
+        "required_version": "0.12.1b1",
+        "dependencies": [
+            {
+                "key": "cached-property",
+                "package_name": "cached-property",
+                "installed_version": "2.0.1",
+                "required_version": ">=1.5.1",
+                "dependencies": []
+            },
+            {
+                "key": "ckzg",
+                "package_name": "ckzg",
+                "installed_version": "2.1.6",
+                "required_version": ">=2.0.0",
+                "dependencies": []
+            },
+            {
+                "key": "eth-bloom",
+                "package_name": "eth-bloom",
+                "installed_version": "3.1.0",
+                "required_version": ">=1.0.3",
+                "dependencies": [
+                    {
+                        "key": "eth-hash",
+                        "package_name": "eth-hash",
+                        "installed_version": "0.7.1",
+                        "required_version": ">=0.4.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "eth-keys",
+                "package_name": "eth-keys",
+                "installed_version": "0.7.0",
+                "required_version": ">=0.4.0",
+                "dependencies": [
+                    {
+                        "key": "eth-typing",
+                        "package_name": "eth-typing",
+                        "installed_version": "5.2.1",
+                        "required_version": ">=3",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.5.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "eth-utils",
+                        "package_name": "eth-utils",
+                        "installed_version": "5.3.1",
+                        "required_version": ">=2",
+                        "dependencies": [
+                            {
+                                "key": "cytoolz",
+                                "package_name": "cytoolz",
+                                "installed_version": "1.1.0",
+                                "required_version": ">=0.10.1",
+                                "dependencies": [
+                                    {
+                                        "key": "toolz",
+                                        "package_name": "toolz",
+                                        "installed_version": "1.1.0",
+                                        "required_version": ">=0.8.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "eth-hash",
+                                "package_name": "eth-hash",
+                                "installed_version": "0.7.1",
+                                "required_version": ">=0.3.1",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "eth-typing",
+                                "package_name": "eth-typing",
+                                "installed_version": "5.2.1",
+                                "required_version": ">=5.0.0",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.5.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pydantic",
+                                "package_name": "pydantic",
+                                "installed_version": "2.12.5",
+                                "required_version": ">=2.0.0,<3",
+                                "dependencies": [
+                                    {
+                                        "key": "annotated-types",
+                                        "package_name": "annotated-types",
+                                        "installed_version": "0.7.0",
+                                        "required_version": ">=0.6.0",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "pydantic-core",
+                                        "package_name": "pydantic_core",
+                                        "installed_version": "2.41.5",
+                                        "required_version": "==2.41.5",
+                                        "dependencies": [
+                                            {
+                                                "key": "typing-extensions",
+                                                "package_name": "typing_extensions",
+                                                "installed_version": "4.15.0",
+                                                "required_version": ">=4.14.1",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.14.1",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "typing-inspection",
+                                        "package_name": "typing-inspection",
+                                        "installed_version": "0.4.2",
+                                        "required_version": ">=0.4.2",
+                                        "dependencies": [
+                                            {
+                                                "key": "typing-extensions",
+                                                "package_name": "typing_extensions",
+                                                "installed_version": "4.15.0",
+                                                "required_version": ">=4.12.0",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "eth-typing",
+                "package_name": "eth-typing",
+                "installed_version": "5.2.1",
+                "required_version": ">=5.2.0",
+                "dependencies": [
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.5.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "eth-utils",
+                "package_name": "eth-utils",
+                "installed_version": "5.3.1",
+                "required_version": ">=2.0.0",
+                "dependencies": [
+                    {
+                        "key": "cytoolz",
+                        "package_name": "cytoolz",
+                        "installed_version": "1.1.0",
+                        "required_version": ">=0.10.1",
+                        "dependencies": [
+                            {
+                                "key": "toolz",
+                                "package_name": "toolz",
+                                "installed_version": "1.1.0",
+                                "required_version": ">=0.8.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "eth-hash",
+                        "package_name": "eth-hash",
+                        "installed_version": "0.7.1",
+                        "required_version": ">=0.3.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "eth-typing",
+                        "package_name": "eth-typing",
+                        "installed_version": "5.2.1",
+                        "required_version": ">=5.0.0",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.5.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "pydantic",
+                        "package_name": "pydantic",
+                        "installed_version": "2.12.5",
+                        "required_version": ">=2.0.0,<3",
+                        "dependencies": [
+                            {
+                                "key": "annotated-types",
+                                "package_name": "annotated-types",
+                                "installed_version": "0.7.0",
+                                "required_version": ">=0.6.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "pydantic-core",
+                                "package_name": "pydantic_core",
+                                "installed_version": "2.41.5",
+                                "required_version": "==2.41.5",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.14.1",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.14.1",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "typing-inspection",
+                                "package_name": "typing-inspection",
+                                "installed_version": "0.4.2",
+                                "required_version": ">=0.4.2",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.12.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "lru-dict",
+                "package_name": "lru-dict",
+                "installed_version": "1.4.1",
+                "required_version": ">=1.1.6",
+                "dependencies": []
+            },
+            {
+                "key": "py-ecc",
+                "package_name": "py-ecc",
+                "installed_version": "8.0.0",
+                "required_version": ">=8.0.0",
+                "dependencies": [
+                    {
+                        "key": "eth-typing",
+                        "package_name": "eth-typing",
+                        "installed_version": "5.2.1",
+                        "required_version": ">=3.0.0",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.5.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "eth-utils",
+                        "package_name": "eth-utils",
+                        "installed_version": "5.3.1",
+                        "required_version": ">=2.0.0",
+                        "dependencies": [
+                            {
+                                "key": "cytoolz",
+                                "package_name": "cytoolz",
+                                "installed_version": "1.1.0",
+                                "required_version": ">=0.10.1",
+                                "dependencies": [
+                                    {
+                                        "key": "toolz",
+                                        "package_name": "toolz",
+                                        "installed_version": "1.1.0",
+                                        "required_version": ">=0.8.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "eth-hash",
+                                "package_name": "eth-hash",
+                                "installed_version": "0.7.1",
+                                "required_version": ">=0.3.1",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "eth-typing",
+                                "package_name": "eth-typing",
+                                "installed_version": "5.2.1",
+                                "required_version": ">=5.0.0",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.5.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pydantic",
+                                "package_name": "pydantic",
+                                "installed_version": "2.12.5",
+                                "required_version": ">=2.0.0,<3",
+                                "dependencies": [
+                                    {
+                                        "key": "annotated-types",
+                                        "package_name": "annotated-types",
+                                        "installed_version": "0.7.0",
+                                        "required_version": ">=0.6.0",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "pydantic-core",
+                                        "package_name": "pydantic_core",
+                                        "installed_version": "2.41.5",
+                                        "required_version": "==2.41.5",
+                                        "dependencies": [
+                                            {
+                                                "key": "typing-extensions",
+                                                "package_name": "typing_extensions",
+                                                "installed_version": "4.15.0",
+                                                "required_version": ">=4.14.1",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.14.1",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "typing-inspection",
+                                        "package_name": "typing-inspection",
+                                        "installed_version": "0.4.2",
+                                        "required_version": ">=0.4.2",
+                                        "dependencies": [
+                                            {
+                                                "key": "typing-extensions",
+                                                "package_name": "typing_extensions",
+                                                "installed_version": "4.15.0",
+                                                "required_version": ">=4.12.0",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "rlp",
+                "package_name": "rlp",
+                "installed_version": "4.1.0",
+                "required_version": ">=3.0.0",
+                "dependencies": [
+                    {
+                        "key": "eth-utils",
+                        "package_name": "eth-utils",
+                        "installed_version": "5.3.1",
+                        "required_version": ">=2",
+                        "dependencies": [
+                            {
+                                "key": "cytoolz",
+                                "package_name": "cytoolz",
+                                "installed_version": "1.1.0",
+                                "required_version": ">=0.10.1",
+                                "dependencies": [
+                                    {
+                                        "key": "toolz",
+                                        "package_name": "toolz",
+                                        "installed_version": "1.1.0",
+                                        "required_version": ">=0.8.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "eth-hash",
+                                "package_name": "eth-hash",
+                                "installed_version": "0.7.1",
+                                "required_version": ">=0.3.1",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "eth-typing",
+                                "package_name": "eth-typing",
+                                "installed_version": "5.2.1",
+                                "required_version": ">=5.0.0",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.5.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pydantic",
+                                "package_name": "pydantic",
+                                "installed_version": "2.12.5",
+                                "required_version": ">=2.0.0,<3",
+                                "dependencies": [
+                                    {
+                                        "key": "annotated-types",
+                                        "package_name": "annotated-types",
+                                        "installed_version": "0.7.0",
+                                        "required_version": ">=0.6.0",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "pydantic-core",
+                                        "package_name": "pydantic_core",
+                                        "installed_version": "2.41.5",
+                                        "required_version": "==2.41.5",
+                                        "dependencies": [
+                                            {
+                                                "key": "typing-extensions",
+                                                "package_name": "typing_extensions",
+                                                "installed_version": "4.15.0",
+                                                "required_version": ">=4.14.1",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.14.1",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "typing-inspection",
+                                        "package_name": "typing-inspection",
+                                        "installed_version": "0.4.2",
+                                        "required_version": ">=0.4.2",
+                                        "dependencies": [
+                                            {
+                                                "key": "typing-extensions",
+                                                "package_name": "typing_extensions",
+                                                "installed_version": "4.15.0",
+                                                "required_version": ">=4.12.0",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "trie",
+                "package_name": "trie",
+                "installed_version": "3.1.0",
+                "required_version": ">=2.0.0",
+                "dependencies": [
+                    {
+                        "key": "eth-hash",
+                        "package_name": "eth-hash",
+                        "installed_version": "0.7.1",
+                        "required_version": ">=0.1.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "eth-utils",
+                        "package_name": "eth-utils",
+                        "installed_version": "5.3.1",
+                        "required_version": ">=2.0.0",
+                        "dependencies": [
+                            {
+                                "key": "cytoolz",
+                                "package_name": "cytoolz",
+                                "installed_version": "1.1.0",
+                                "required_version": ">=0.10.1",
+                                "dependencies": [
+                                    {
+                                        "key": "toolz",
+                                        "package_name": "toolz",
+                                        "installed_version": "1.1.0",
+                                        "required_version": ">=0.8.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "eth-hash",
+                                "package_name": "eth-hash",
+                                "installed_version": "0.7.1",
+                                "required_version": ">=0.3.1",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "eth-typing",
+                                "package_name": "eth-typing",
+                                "installed_version": "5.2.1",
+                                "required_version": ">=5.0.0",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.5.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pydantic",
+                                "package_name": "pydantic",
+                                "installed_version": "2.12.5",
+                                "required_version": ">=2.0.0,<3",
+                                "dependencies": [
+                                    {
+                                        "key": "annotated-types",
+                                        "package_name": "annotated-types",
+                                        "installed_version": "0.7.0",
+                                        "required_version": ">=0.6.0",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "pydantic-core",
+                                        "package_name": "pydantic_core",
+                                        "installed_version": "2.41.5",
+                                        "required_version": "==2.41.5",
+                                        "dependencies": [
+                                            {
+                                                "key": "typing-extensions",
+                                                "package_name": "typing_extensions",
+                                                "installed_version": "4.15.0",
+                                                "required_version": ">=4.14.1",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.14.1",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "typing-inspection",
+                                        "package_name": "typing-inspection",
+                                        "installed_version": "0.4.2",
+                                        "required_version": ">=0.4.2",
+                                        "dependencies": [
+                                            {
+                                                "key": "typing-extensions",
+                                                "package_name": "typing_extensions",
+                                                "installed_version": "4.15.0",
+                                                "required_version": ">=4.12.0",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "hexbytes",
+                        "package_name": "hexbytes",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=0.2.3",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "rlp",
+                        "package_name": "rlp",
+                        "installed_version": "4.1.0",
+                        "required_version": ">=3",
+                        "dependencies": [
+                            {
+                                "key": "eth-utils",
+                                "package_name": "eth-utils",
+                                "installed_version": "5.3.1",
+                                "required_version": ">=2",
+                                "dependencies": [
+                                    {
+                                        "key": "cytoolz",
+                                        "package_name": "cytoolz",
+                                        "installed_version": "1.1.0",
+                                        "required_version": ">=0.10.1",
+                                        "dependencies": [
+                                            {
+                                                "key": "toolz",
+                                                "package_name": "toolz",
+                                                "installed_version": "1.1.0",
+                                                "required_version": ">=0.8.0",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "eth-hash",
+                                        "package_name": "eth-hash",
+                                        "installed_version": "0.7.1",
+                                        "required_version": ">=0.3.1",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "eth-typing",
+                                        "package_name": "eth-typing",
+                                        "installed_version": "5.2.1",
+                                        "required_version": ">=5.0.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "typing-extensions",
+                                                "package_name": "typing_extensions",
+                                                "installed_version": "4.15.0",
+                                                "required_version": ">=4.5.0",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "pydantic",
+                                        "package_name": "pydantic",
+                                        "installed_version": "2.12.5",
+                                        "required_version": ">=2.0.0,<3",
+                                        "dependencies": [
+                                            {
+                                                "key": "annotated-types",
+                                                "package_name": "annotated-types",
+                                                "installed_version": "0.7.0",
+                                                "required_version": ">=0.6.0",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "pydantic-core",
+                                                "package_name": "pydantic_core",
+                                                "installed_version": "2.41.5",
+                                                "required_version": "==2.41.5",
+                                                "dependencies": [
+                                                    {
+                                                        "key": "typing-extensions",
+                                                        "package_name": "typing_extensions",
+                                                        "installed_version": "4.15.0",
+                                                        "required_version": ">=4.14.1",
+                                                        "dependencies": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "key": "typing-extensions",
+                                                "package_name": "typing_extensions",
+                                                "installed_version": "4.15.0",
+                                                "required_version": ">=4.14.1",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "typing-inspection",
+                                                "package_name": "typing-inspection",
+                                                "installed_version": "0.4.2",
+                                                "required_version": ">=0.4.2",
+                                                "dependencies": [
+                                                    {
+                                                        "key": "typing-extensions",
+                                                        "package_name": "typing_extensions",
+                                                        "installed_version": "4.15.0",
+                                                        "required_version": ">=4.12.0",
+                                                        "dependencies": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "sortedcontainers",
+                        "package_name": "sortedcontainers",
+                        "installed_version": "2.4.0",
+                        "required_version": ">=2.1.0",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pycryptodome",
+        "package_name": "pycryptodome",
+        "installed_version": "3.23.0",
+        "required_version": "3.23.0",
+        "dependencies": []
+    },
+    {
+        "key": "pytest-asyncio",
+        "package_name": "pytest-asyncio",
+        "installed_version": "1.3.0",
+        "required_version": "1.3.0",
+        "dependencies": [
+            {
+                "key": "backports-asyncio-runner",
+                "package_name": "backports.asyncio.runner",
+                "installed_version": "1.2.0",
+                "required_version": ">=1.1,<2",
+                "dependencies": []
+            },
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.2",
+                "required_version": ">=8.2,<10",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.19.2",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.0",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "typing-extensions",
+                "package_name": "typing_extensions",
+                "installed_version": "4.15.0",
+                "required_version": ">=4.12",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pytest-cov",
+        "package_name": "pytest-cov",
+        "installed_version": "7.0.0",
+        "required_version": "7.0.0",
+        "dependencies": [
+            {
+                "key": "coverage",
+                "package_name": "coverage",
+                "installed_version": "7.13.4",
+                "required_version": ">=7.10.6",
+                "dependencies": []
+            },
+            {
+                "key": "pluggy",
+                "package_name": "pluggy",
+                "installed_version": "1.6.0",
+                "required_version": ">=1.2",
+                "dependencies": []
+            },
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.2",
+                "required_version": ">=7",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.19.2",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.0",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pytest-timeout",
+        "package_name": "pytest-timeout",
+        "installed_version": "2.4.0",
+        "required_version": "2.4.0",
+        "dependencies": [
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.2",
+                "required_version": ">=7.0.0",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.19.2",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.0",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pytest-xdist",
+        "package_name": "pytest-xdist",
+        "installed_version": "3.8.0",
+        "required_version": "3.8.0",
+        "dependencies": [
+            {
+                "key": "execnet",
+                "package_name": "execnet",
+                "installed_version": "2.1.2",
+                "required_version": ">=2.1",
+                "dependencies": []
+            },
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.2",
+                "required_version": ">=7.0.0",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.19.2",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.0",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "setuptools",
+        "package_name": "setuptools",
+        "installed_version": "79.0.1",
+        "required_version": "79.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "wheel",
+        "package_name": "wheel",
+        "installed_version": "0.45.1",
+        "required_version": "0.45.1",
+        "dependencies": []
+    }
+]

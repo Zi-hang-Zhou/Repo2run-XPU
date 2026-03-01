@@ -1,0 +1,519 @@
+[
+    {
+        "name": "absl-py",
+        "version": "1.4.0"
+    },
+    {
+        "name": "aiofiles",
+        "version": "25.1.0"
+    },
+    {
+        "name": "astunparse",
+        "version": "1.6.3"
+    },
+    {
+        "name": "attrs",
+        "version": "25.4.0"
+    },
+    {
+        "name": "bsuite",
+        "version": "0.3.5"
+    },
+    {
+        "name": "certifi",
+        "version": "2026.2.25"
+    },
+    {
+        "name": "cffi",
+        "version": "2.0.0"
+    },
+    {
+        "name": "charset-normalizer",
+        "version": "3.4.4"
+    },
+    {
+        "name": "chex",
+        "version": "0.1.90"
+    },
+    {
+        "name": "cloudpickle",
+        "version": "3.1.2"
+    },
+    {
+        "name": "contourpy",
+        "version": "1.3.2"
+    },
+    {
+        "name": "cryptography",
+        "version": "46.0.5"
+    },
+    {
+        "name": "cycler",
+        "version": "0.12.1"
+    },
+    {
+        "name": "decorator",
+        "version": "5.2.1"
+    },
+    {
+        "name": "dill",
+        "version": "0.4.1"
+    },
+    {
+        "name": "distrax",
+        "version": "0.1.5"
+    },
+    {
+        "name": "dm-acme",
+        "version": "0.4.1",
+        "editable_project_location": "/repo"
+    },
+    {
+        "name": "dm-env",
+        "version": "1.6"
+    },
+    {
+        "name": "dm-haiku",
+        "version": "0.0.10"
+    },
+    {
+        "name": "dm-launchpad",
+        "version": "0.5.2"
+    },
+    {
+        "name": "dm-reverb",
+        "version": "0.7.2"
+    },
+    {
+        "name": "dm-sonnet",
+        "version": "2.0.2"
+    },
+    {
+        "name": "dm-tree",
+        "version": "0.1.9"
+    },
+    {
+        "name": "etils",
+        "version": "1.13.0"
+    },
+    {
+        "name": "exceptiongroup",
+        "version": "1.3.1"
+    },
+    {
+        "name": "flatbuffers",
+        "version": "25.12.19"
+    },
+    {
+        "name": "flax",
+        "version": "0.10.7"
+    },
+    {
+        "name": "fonttools",
+        "version": "4.61.1"
+    },
+    {
+        "name": "frozendict",
+        "version": "2.4.7"
+    },
+    {
+        "name": "fsspec",
+        "version": "2026.2.0"
+    },
+    {
+        "name": "gast",
+        "version": "0.4.0"
+    },
+    {
+        "name": "google-auth",
+        "version": "2.48.0"
+    },
+    {
+        "name": "google-auth-oauthlib",
+        "version": "0.4.6"
+    },
+    {
+        "name": "google-pasta",
+        "version": "0.2.0"
+    },
+    {
+        "name": "googleapis-common-protos",
+        "version": "1.63.1"
+    },
+    {
+        "name": "grpcio",
+        "version": "1.48.0"
+    },
+    {
+        "name": "gym",
+        "version": "0.25.0"
+    },
+    {
+        "name": "gym-notices",
+        "version": "0.1.0"
+    },
+    {
+        "name": "h5py",
+        "version": "3.15.1"
+    },
+    {
+        "name": "humanize",
+        "version": "4.15.0"
+    },
+    {
+        "name": "idna",
+        "version": "3.11"
+    },
+    {
+        "name": "ImageIO",
+        "version": "2.37.2"
+    },
+    {
+        "name": "importlib_resources",
+        "version": "6.5.2"
+    },
+    {
+        "name": "iniconfig",
+        "version": "2.3.0"
+    },
+    {
+        "name": "jax",
+        "version": "0.6.2"
+    },
+    {
+        "name": "jaxlib",
+        "version": "0.6.2"
+    },
+    {
+        "name": "jmp",
+        "version": "0.0.4"
+    },
+    {
+        "name": "keras",
+        "version": "2.8.0"
+    },
+    {
+        "name": "Keras-Preprocessing",
+        "version": "1.1.2"
+    },
+    {
+        "name": "kiwisolver",
+        "version": "1.4.9"
+    },
+    {
+        "name": "lazy_loader",
+        "version": "0.4"
+    },
+    {
+        "name": "libclang",
+        "version": "18.1.1"
+    },
+    {
+        "name": "Markdown",
+        "version": "3.10.2"
+    },
+    {
+        "name": "markdown-it-py",
+        "version": "4.0.0"
+    },
+    {
+        "name": "MarkupSafe",
+        "version": "3.0.3"
+    },
+    {
+        "name": "matplotlib",
+        "version": "3.10.8"
+    },
+    {
+        "name": "mdurl",
+        "version": "0.1.2"
+    },
+    {
+        "name": "mizani",
+        "version": "0.14.4"
+    },
+    {
+        "name": "ml_dtypes",
+        "version": "0.5.4"
+    },
+    {
+        "name": "mock",
+        "version": "5.2.0"
+    },
+    {
+        "name": "msgpack",
+        "version": "1.1.2"
+    },
+    {
+        "name": "networkx",
+        "version": "3.4.2"
+    },
+    {
+        "name": "numpy",
+        "version": "2.2.6"
+    },
+    {
+        "name": "oauthlib",
+        "version": "3.3.1"
+    },
+    {
+        "name": "opt_einsum",
+        "version": "3.4.0"
+    },
+    {
+        "name": "optax",
+        "version": "0.1.4"
+    },
+    {
+        "name": "orbax-checkpoint",
+        "version": "0.11.33"
+    },
+    {
+        "name": "packaging",
+        "version": "26.0"
+    },
+    {
+        "name": "pandas",
+        "version": "2.3.3"
+    },
+    {
+        "name": "patsy",
+        "version": "1.0.2"
+    },
+    {
+        "name": "pillow",
+        "version": "12.1.1"
+    },
+    {
+        "name": "pip",
+        "version": "26.0.1"
+    },
+    {
+        "name": "pipdeptree",
+        "version": "2.31.0"
+    },
+    {
+        "name": "plotnine",
+        "version": "0.15.3"
+    },
+    {
+        "name": "pluggy",
+        "version": "1.6.0"
+    },
+    {
+        "name": "portpicker",
+        "version": "1.6.0"
+    },
+    {
+        "name": "promise",
+        "version": "2.3"
+    },
+    {
+        "name": "protobuf",
+        "version": "3.19.6"
+    },
+    {
+        "name": "psutil",
+        "version": "7.2.2"
+    },
+    {
+        "name": "pyasn1",
+        "version": "0.6.2"
+    },
+    {
+        "name": "pyasn1_modules",
+        "version": "0.4.2"
+    },
+    {
+        "name": "pycparser",
+        "version": "3.0"
+    },
+    {
+        "name": "pygame",
+        "version": "2.1.0"
+    },
+    {
+        "name": "Pygments",
+        "version": "2.19.2"
+    },
+    {
+        "name": "pyparsing",
+        "version": "3.3.2"
+    },
+    {
+        "name": "pytest",
+        "version": "9.0.2"
+    },
+    {
+        "name": "python-dateutil",
+        "version": "2.9.0.post0"
+    },
+    {
+        "name": "pytz",
+        "version": "2025.2"
+    },
+    {
+        "name": "PyYAML",
+        "version": "6.0.3"
+    },
+    {
+        "name": "requests",
+        "version": "2.32.5"
+    },
+    {
+        "name": "requests-oauthlib",
+        "version": "2.0.0"
+    },
+    {
+        "name": "rich",
+        "version": "14.3.3"
+    },
+    {
+        "name": "rlax",
+        "version": "0.1.7"
+    },
+    {
+        "name": "rlds",
+        "version": "0.1.8"
+    },
+    {
+        "name": "rsa",
+        "version": "4.9.1"
+    },
+    {
+        "name": "scikit-image",
+        "version": "0.25.2"
+    },
+    {
+        "name": "scipy",
+        "version": "1.15.3"
+    },
+    {
+        "name": "setuptools",
+        "version": "79.0.1"
+    },
+    {
+        "name": "simplejson",
+        "version": "3.20.2"
+    },
+    {
+        "name": "six",
+        "version": "1.17.0"
+    },
+    {
+        "name": "statsmodels",
+        "version": "0.14.6"
+    },
+    {
+        "name": "tabulate",
+        "version": "0.9.0"
+    },
+    {
+        "name": "tensorboard",
+        "version": "2.8.0"
+    },
+    {
+        "name": "tensorboard-data-server",
+        "version": "0.6.1"
+    },
+    {
+        "name": "tensorboard-plugin-wit",
+        "version": "1.8.1"
+    },
+    {
+        "name": "tensorflow",
+        "version": "2.8.0"
+    },
+    {
+        "name": "tensorflow-datasets",
+        "version": "4.6.0"
+    },
+    {
+        "name": "tensorflow-estimator",
+        "version": "2.10.0"
+    },
+    {
+        "name": "tensorflow-io-gcs-filesystem",
+        "version": "0.37.1"
+    },
+    {
+        "name": "tensorflow-metadata",
+        "version": "1.13.0"
+    },
+    {
+        "name": "tensorflow-probability",
+        "version": "0.15.0"
+    },
+    {
+        "name": "tensorstore",
+        "version": "0.1.78"
+    },
+    {
+        "name": "termcolor",
+        "version": "3.3.0"
+    },
+    {
+        "name": "tf-estimator-nightly",
+        "version": "2.8.0.dev2021122109"
+    },
+    {
+        "name": "tifffile",
+        "version": "2025.5.10"
+    },
+    {
+        "name": "toml",
+        "version": "0.10.2"
+    },
+    {
+        "name": "tomli",
+        "version": "2.4.0"
+    },
+    {
+        "name": "toolz",
+        "version": "1.1.0"
+    },
+    {
+        "name": "tqdm",
+        "version": "4.67.3"
+    },
+    {
+        "name": "treescope",
+        "version": "0.1.10"
+    },
+    {
+        "name": "trfl",
+        "version": "1.2.0"
+    },
+    {
+        "name": "typing_extensions",
+        "version": "4.15.0"
+    },
+    {
+        "name": "tzdata",
+        "version": "2025.3"
+    },
+    {
+        "name": "urllib3",
+        "version": "2.6.3"
+    },
+    {
+        "name": "uvloop",
+        "version": "0.22.1"
+    },
+    {
+        "name": "Werkzeug",
+        "version": "3.1.6"
+    },
+    {
+        "name": "wheel",
+        "version": "0.45.1"
+    },
+    {
+        "name": "wrapt",
+        "version": "1.14.2"
+    },
+    {
+        "name": "zipp",
+        "version": "3.23.0"
+    }
+]

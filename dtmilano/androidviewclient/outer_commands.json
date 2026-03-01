@@ -1,0 +1,174 @@
+[
+    {
+        "GPT_time": 2.0301690101623535
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6697423458099365
+    },
+    {
+        "GPT_time": 2.688150405883789
+    },
+    {
+        "command": "cat /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.6678011417388916
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6639227867126465
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.6666295528411865
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6627688407897949
+    },
+    {
+        "command": "cat /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.006424665451049805
+    },
+    {
+        "GPT_time": 5.310238838195801
+    },
+    {
+        "command": "cat /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.007466793060302734
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6606743335723877
+    },
+    {
+        "command": "ls -la /repo/src",
+        "returncode": 0,
+        "time": 0.6664547920227051
+    },
+    {
+        "GPT_time": 2.425898790359497
+    },
+    {
+        "command": "head -20 /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.007514238357543945
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6627764701843262
+    },
+    {
+        "command": "ls -la /repo/src/com",
+        "returncode": 0,
+        "time": 0.6646549701690674
+    },
+    {
+        "GPT_time": 2.884395122528076
+    },
+    {
+        "command": "file /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.007941007614135742
+    },
+    {
+        "command": "cat /repo/pytest.ini 2>&1 || true",
+        "returncode": 0,
+        "time": 0.006449699401855469
+    },
+    {
+        "GPT_time": 2.960029125213623
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6638932228088379
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 29.11731195449829
+    },
+    {
+        "GPT_time": 3.6974852085113525
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 49.39589762687683
+    },
+    {
+        "GPT_time": 2.944817066192627
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.026021480560302734
+    },
+    {
+        "GPT_time": 1.7739977836608887
+    },
+    {
+        "command": "ls -la /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.6683988571166992
+    },
+    {
+        "GPT_time": 1.6188335418701172
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.027753591537475586
+    },
+    {
+        "GPT_time": 3.119797706604004
+    },
+    {
+        "command": "waitinglist add -p hypothesis -v \">=6.0.0\" -t pip",
+        "returncode": 0,
+        "time": 0.0074310302734375
+    },
+    {
+        "GPT_time": 2.779534339904785
+    },
+    {
+        "command": "waitinglist add -p pytest-asyncio -v \">=0.21.0\" -t pip",
+        "returncode": 0,
+        "time": 0.00782322883605957
+    },
+    {
+        "command": "waitinglist add -p responses -v \">=0.23.0\" -t pip",
+        "returncode": 0,
+        "time": 0.0037755966186523438
+    },
+    {
+        "command": "waitinglist add -p pytest -v \">=7.0.0\" -t pip",
+        "returncode": 0,
+        "time": 0.007626771926879883
+    },
+    {
+        "GPT_time": 1.7739555835723877
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 14.10035490989685
+    },
+    {
+        "GPT_time": 1.9757604598999023
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 2.7934584617614746
+    }
+]

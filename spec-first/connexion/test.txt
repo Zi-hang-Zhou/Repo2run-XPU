@@ -1,0 +1,804 @@
+tests/api/test_bootstrap.py::test_app_with_relative_path[swagger.yaml]
+tests/api/test_bootstrap.py::test_swagger_ui[swagger.yaml]
+tests/api/test_bootstrap.py::test_swagger_ui_with_config[swagger.yaml]
+tests/api/test_bootstrap.py::test_no_swagger_ui[swagger.yaml]
+tests/api/test_bootstrap.py::test_swagger_ui_config_json[swagger.yaml]
+tests/api/test_bootstrap.py::test_no_swagger_ui_config_json[swagger.yaml]
+tests/api/test_bootstrap.py::test_swagger_json_app[swagger.yaml]
+tests/api/test_bootstrap.py::test_swagger_yaml_app[swagger.yaml]
+tests/api/test_bootstrap.py::test_no_swagger_json_app[swagger.yaml]
+tests/api/test_bootstrap.py::test_dict_as_yaml_path[swagger.yaml]
+tests/api/test_bootstrap.py::test_swagger_json_api[swagger.yaml]
+tests/api/test_bootstrap.py::test_no_swagger_json_api[swagger.yaml]
+tests/api/test_bootstrap.py::test_swagger_json_content_type[swagger.yaml-FlaskApp]
+tests/api/test_bootstrap.py::test_resolve_method[swagger.yaml-FlaskApp]
+tests/api/test_bootstrap.py::test_resolve_classmethod[swagger.yaml-FlaskApp]
+tests/api/test_bootstrap.py::test_default_query_param_does_not_match_defined_type[FlaskApp-swagger.yaml]
+tests/api/test_bootstrap.py::test_async_route[swagger.yaml-FlaskApp]
+tests/api/test_errors.py::test_errors[swagger.yaml-FlaskApp]
+tests/api/test_errors.py::test_should_raise_400_for_no_json[swagger.yaml-FlaskApp]
+tests/api/test_headers.py::test_headers_jsonifier[swagger.yaml-FlaskApp]
+tests/api/test_headers.py::test_headers_produces[swagger.yaml-FlaskApp]
+tests/api/test_headers.py::test_no_content_response_have_headers[swagger.yaml-FlaskApp]
+tests/api/test_headers.py::test_no_content_object_and_have_headers[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_parameter_validation[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_required_query_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_array_query_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_array_form_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_extra_query_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_strict_extra_query_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_strict_formdata_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_path_parameter_someint[swagger.yaml-FlaskApp-123-int 123]
+tests/api/test_parameters.py::test_path_parameter_someint[swagger.yaml-FlaskApp-0-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[swagger.yaml-FlaskApp-0000-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[swagger.yaml-FlaskApp-+123-int 123]
+tests/api/test_parameters.py::test_path_parameter_someint[swagger.yaml-FlaskApp-+0-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[swagger.yaml-FlaskApp--0-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[swagger.yaml-FlaskApp--123-int -123]
+tests/api/test_parameters.py::test_path_parameter_someint__bad[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-FlaskApp-123.45-float 123.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-FlaskApp-123.0-float 123]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-FlaskApp-0.999999999999999999-float 1]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-FlaskApp-+123.45-float 123.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-FlaskApp--123.45-float -123.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-FlaskApp-123.-float 123]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-FlaskApp-.45-float 0.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-FlaskApp-123-float 123]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-FlaskApp-0-float 0]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-FlaskApp-0000-float 0]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-FlaskApp--0.000000001-float -1e-09]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-FlaskApp-100000000000-float 1e+11]
+tests/api/test_parameters.py::test_path_parameter_doublefloat[swagger.yaml-FlaskApp--0.000000001-0.3-float -1e-09, 0.3]
+tests/api/test_parameters.py::test_path_parameter_somefloat__bad[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_default_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_falsy_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_bad_request[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_missing_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_extra_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_strict_formdata_extra_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_file_upload[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_multiple_file_upload[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_mixed_formdata[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_file_upload_bad_request[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_file_upload_missing_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_body_not_allowed_additional_properties[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_body_in_get_request[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_bool_as_default_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_bool_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_bool_array_param[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_required_param_miss_config[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_parameters_defined_in_path_level[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_array_in_path[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_nullable_parameter[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_args_kwargs[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_param_sanitization[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_no_sanitization_in_request_body[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_parameters_snake_case[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_get_unicode_request[swagger.yaml-FlaskApp]
+tests/api/test_parameters.py::test_cookie_param[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_app[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_openapi_yaml_behind_proxy[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_produce_decorator[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_returning_response_tuple[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_jsonifier[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_not_content_response[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_pass_through[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_empty[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_redirect_endpoint[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_redirect_response_endpoint[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_default_object_body[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_required_body[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_empty_object_body[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_content_type_not_json[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_maybe_blob_or_json[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_bad_operations[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_text_request[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_operation_handler_returns_flask_object[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_post_wrong_content_type[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_get_unicode_response[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_get_enum_response[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_get_httpstatus_response[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_get_bad_default_response[swagger.yaml-FlaskApp]
+tests/api/test_responses.py::test_streaming_response[swagger.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema[swagger.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_response[swagger.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_in_query[swagger.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_list[swagger.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_map[swagger.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_recursive[swagger.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_format[swagger.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_array[swagger.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_int[swagger.yaml-FlaskApp]
+tests/api/test_schema.py::test_global_response_definitions[swagger.yaml-FlaskApp]
+tests/api/test_schema.py::test_media_range[swagger.yaml-FlaskApp]
+tests/api/test_secure_api.py::test_security_over_nonexistent_endpoints[swagger.yaml-FlaskApp]
+tests/api/test_secure_api.py::test_security[swagger.yaml-FlaskApp]
+tests/api/test_secure_api.py::test_checking_that_client_token_has_all_necessary_scopes[swagger.yaml-FlaskApp]
+tests/api/test_secure_api.py::test_security_with_strict_validation[swagger.yaml-FlaskApp]
+tests/api/test_unordered_definition.py::test_app[swagger.yaml-FlaskApp]
+tests/test_flask_encoder.py::test_readonly[swagger.yaml-FlaskApp]
+tests/test_json_validation.py::test_readonly[swagger.yaml-FlaskApp]
+tests/test_json_validation.py::test_writeonly[swagger.yaml-FlaskApp]
+tests/test_middleware.py::test_routing_middleware[swagger.yaml-FlaskApp]
+tests/test_middleware.py::test_add_middleware[swagger.yaml-FlaskApp]
+tests/test_middleware.py::test_position[swagger.yaml-FlaskApp]
+tests/test_resolver_methodview.py::test_method_resolver_integration[swagger.yaml-FlaskApp]
+tests/api/test_bootstrap.py::test_swagger_json_content_type[openapi.yaml-FlaskApp]
+tests/api/test_bootstrap.py::test_resolve_method[openapi.yaml-FlaskApp]
+tests/api/test_bootstrap.py::test_resolve_classmethod[openapi.yaml-FlaskApp]
+tests/api/test_bootstrap.py::test_default_query_param_does_not_match_defined_type[FlaskApp-openapi.yaml]
+tests/api/test_bootstrap.py::test_async_route[openapi.yaml-FlaskApp]
+tests/api/test_errors.py::test_errors[openapi.yaml-FlaskApp]
+tests/api/test_errors.py::test_should_raise_400_for_no_json[openapi.yaml-FlaskApp]
+tests/api/test_headers.py::test_headers_jsonifier[openapi.yaml-FlaskApp]
+tests/api/test_headers.py::test_headers_produces[openapi.yaml-FlaskApp]
+tests/api/test_headers.py::test_no_content_response_have_headers[openapi.yaml-FlaskApp]
+tests/api/test_headers.py::test_no_content_object_and_have_headers[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_parameter_validation[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_required_query_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_array_query_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_array_form_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_extra_query_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_strict_extra_query_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_strict_formdata_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_path_parameter_someint[openapi.yaml-FlaskApp-123-int 123]
+tests/api/test_parameters.py::test_path_parameter_someint[openapi.yaml-FlaskApp-0-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[openapi.yaml-FlaskApp-0000-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[openapi.yaml-FlaskApp-+123-int 123]
+tests/api/test_parameters.py::test_path_parameter_someint[openapi.yaml-FlaskApp-+0-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[openapi.yaml-FlaskApp--0-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[openapi.yaml-FlaskApp--123-int -123]
+tests/api/test_parameters.py::test_path_parameter_someint__bad[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-FlaskApp-123.45-float 123.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-FlaskApp-123.0-float 123]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-FlaskApp-0.999999999999999999-float 1]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-FlaskApp-+123.45-float 123.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-FlaskApp--123.45-float -123.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-FlaskApp-123.-float 123]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-FlaskApp-.45-float 0.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-FlaskApp-123-float 123]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-FlaskApp-0-float 0]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-FlaskApp-0000-float 0]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-FlaskApp--0.000000001-float -1e-09]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-FlaskApp-100000000000-float 1e+11]
+tests/api/test_parameters.py::test_path_parameter_doublefloat[openapi.yaml-FlaskApp--0.000000001-0.3-float -1e-09, 0.3]
+tests/api/test_parameters.py::test_path_parameter_somefloat__bad[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_default_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_falsy_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_bad_request[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_missing_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_extra_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_strict_formdata_extra_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_file_upload[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_multiple_file_upload[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_mixed_formdata[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_file_upload_bad_request[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_formdata_file_upload_missing_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_body_not_allowed_additional_properties[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_body_in_get_request[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_bool_as_default_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_bool_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_bool_array_param[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_required_param_miss_config[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_parameters_defined_in_path_level[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_array_in_path[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_nullable_parameter[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_args_kwargs[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_param_sanitization[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_no_sanitization_in_request_body[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_parameters_snake_case[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_get_unicode_request[openapi.yaml-FlaskApp]
+tests/api/test_parameters.py::test_cookie_param[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_app[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_openapi_yaml_behind_proxy[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_produce_decorator[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_returning_response_tuple[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_jsonifier[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_not_content_response[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_pass_through[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_empty[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_redirect_endpoint[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_redirect_response_endpoint[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_default_object_body[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_required_body[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_empty_object_body[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_content_type_not_json[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_maybe_blob_or_json[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_bad_operations[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_text_request[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_operation_handler_returns_flask_object[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_post_wrong_content_type[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_get_unicode_response[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_get_enum_response[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_get_httpstatus_response[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_get_bad_default_response[openapi.yaml-FlaskApp]
+tests/api/test_responses.py::test_streaming_response[openapi.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema[openapi.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_response[openapi.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_in_query[openapi.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_list[openapi.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_map[openapi.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_recursive[openapi.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_format[openapi.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_array[openapi.yaml-FlaskApp]
+tests/api/test_schema.py::test_schema_int[openapi.yaml-FlaskApp]
+tests/api/test_schema.py::test_global_response_definitions[openapi.yaml-FlaskApp]
+tests/api/test_schema.py::test_media_range[openapi.yaml-FlaskApp]
+tests/api/test_secure_api.py::test_security_over_nonexistent_endpoints[openapi.yaml-FlaskApp]
+tests/api/test_secure_api.py::test_security[openapi.yaml-FlaskApp]
+tests/api/test_secure_api.py::test_checking_that_client_token_has_all_necessary_scopes[openapi.yaml-FlaskApp]
+tests/api/test_secure_api.py::test_security_with_strict_validation[openapi.yaml-FlaskApp]
+tests/api/test_unordered_definition.py::test_app[openapi.yaml-FlaskApp]
+tests/test_flask_encoder.py::test_readonly[openapi.yaml-FlaskApp]
+tests/test_json_validation.py::test_readonly[openapi.yaml-FlaskApp]
+tests/test_json_validation.py::test_writeonly[openapi.yaml-FlaskApp]
+tests/test_middleware.py::test_routing_middleware[openapi.yaml-FlaskApp]
+tests/test_middleware.py::test_add_middleware[openapi.yaml-FlaskApp]
+tests/test_middleware.py::test_position[openapi.yaml-FlaskApp]
+tests/test_resolver_methodview.py::test_method_resolver_integration[openapi.yaml-FlaskApp]
+tests/api/test_bootstrap.py::test_app_with_relative_path[openapi.yaml]
+tests/api/test_bootstrap.py::test_swagger_ui[openapi.yaml]
+tests/api/test_bootstrap.py::test_swagger_ui_with_config[openapi.yaml]
+tests/api/test_bootstrap.py::test_no_swagger_ui[openapi.yaml]
+tests/api/test_bootstrap.py::test_swagger_ui_config_json[openapi.yaml]
+tests/api/test_bootstrap.py::test_no_swagger_ui_config_json[openapi.yaml]
+tests/api/test_bootstrap.py::test_swagger_json_app[openapi.yaml]
+tests/api/test_bootstrap.py::test_swagger_yaml_app[openapi.yaml]
+tests/api/test_bootstrap.py::test_no_swagger_json_app[openapi.yaml]
+tests/api/test_bootstrap.py::test_dict_as_yaml_path[openapi.yaml]
+tests/api/test_bootstrap.py::test_swagger_json_api[openapi.yaml]
+tests/api/test_bootstrap.py::test_no_swagger_json_api[openapi.yaml]
+tests/api/test_bootstrap.py::test_swagger_json_content_type[openapi.yaml-AsyncApp]
+tests/api/test_bootstrap.py::test_resolve_method[openapi.yaml-AsyncApp]
+tests/api/test_bootstrap.py::test_resolve_classmethod[openapi.yaml-AsyncApp]
+tests/api/test_bootstrap.py::test_default_query_param_does_not_match_defined_type[AsyncApp-openapi.yaml]
+tests/api/test_bootstrap.py::test_async_route[openapi.yaml-AsyncApp]
+tests/api/test_errors.py::test_errors[openapi.yaml-AsyncApp]
+tests/api/test_errors.py::test_should_raise_400_for_no_json[openapi.yaml-AsyncApp]
+tests/api/test_headers.py::test_headers_jsonifier[openapi.yaml-AsyncApp]
+tests/api/test_headers.py::test_headers_produces[openapi.yaml-AsyncApp]
+tests/api/test_headers.py::test_no_content_response_have_headers[openapi.yaml-AsyncApp]
+tests/api/test_headers.py::test_no_content_object_and_have_headers[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_parameter_validation[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_required_query_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_array_query_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_array_form_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_extra_query_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_strict_extra_query_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_strict_formdata_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_path_parameter_someint[openapi.yaml-AsyncApp-123-int 123]
+tests/api/test_parameters.py::test_path_parameter_someint[openapi.yaml-AsyncApp-0-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[openapi.yaml-AsyncApp-0000-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[openapi.yaml-AsyncApp-+123-int 123]
+tests/api/test_parameters.py::test_path_parameter_someint[openapi.yaml-AsyncApp-+0-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[openapi.yaml-AsyncApp--0-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[openapi.yaml-AsyncApp--123-int -123]
+tests/api/test_parameters.py::test_path_parameter_someint__bad[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-AsyncApp-123.45-float 123.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-AsyncApp-123.0-float 123]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-AsyncApp-0.999999999999999999-float 1]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-AsyncApp-+123.45-float 123.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-AsyncApp--123.45-float -123.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-AsyncApp-123.-float 123]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-AsyncApp-.45-float 0.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-AsyncApp-123-float 123]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-AsyncApp-0-float 0]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-AsyncApp-0000-float 0]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-AsyncApp--0.000000001-float -1e-09]
+tests/api/test_parameters.py::test_path_parameter_somefloat[openapi.yaml-AsyncApp-100000000000-float 1e+11]
+tests/api/test_parameters.py::test_path_parameter_doublefloat[openapi.yaml-AsyncApp--0.000000001-0.3-float -1e-09, 0.3]
+tests/api/test_parameters.py::test_path_parameter_somefloat__bad[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_default_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_falsy_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_bad_request[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_missing_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_extra_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_strict_formdata_extra_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_file_upload[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_multiple_file_upload[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_mixed_formdata[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_file_upload_bad_request[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_file_upload_missing_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_body_not_allowed_additional_properties[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_body_in_get_request[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_bool_as_default_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_bool_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_bool_array_param[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_required_param_miss_config[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_parameters_defined_in_path_level[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_array_in_path[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_nullable_parameter[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_args_kwargs[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_param_sanitization[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_no_sanitization_in_request_body[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_parameters_snake_case[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_get_unicode_request[openapi.yaml-AsyncApp]
+tests/api/test_parameters.py::test_cookie_param[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_app[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_openapi_yaml_behind_proxy[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_produce_decorator[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_returning_response_tuple[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_jsonifier[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_not_content_response[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_pass_through[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_empty[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_redirect_endpoint[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_redirect_response_endpoint[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_default_object_body[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_required_body[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_empty_object_body[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_content_type_not_json[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_maybe_blob_or_json[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_bad_operations[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_text_request[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_operation_handler_returns_flask_object[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_post_wrong_content_type[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_get_unicode_response[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_get_enum_response[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_get_httpstatus_response[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_get_bad_default_response[openapi.yaml-AsyncApp]
+tests/api/test_responses.py::test_streaming_response[openapi.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema[openapi.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_response[openapi.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_in_query[openapi.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_list[openapi.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_map[openapi.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_recursive[openapi.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_format[openapi.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_array[openapi.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_int[openapi.yaml-AsyncApp]
+tests/api/test_schema.py::test_global_response_definitions[openapi.yaml-AsyncApp]
+tests/api/test_schema.py::test_media_range[openapi.yaml-AsyncApp]
+tests/api/test_secure_api.py::test_security_over_nonexistent_endpoints[openapi.yaml-AsyncApp]
+tests/api/test_secure_api.py::test_security[openapi.yaml-AsyncApp]
+tests/api/test_secure_api.py::test_checking_that_client_token_has_all_necessary_scopes[openapi.yaml-AsyncApp]
+tests/api/test_secure_api.py::test_security_with_strict_validation[openapi.yaml-AsyncApp]
+tests/api/test_unordered_definition.py::test_app[openapi.yaml-AsyncApp]
+tests/test_flask_encoder.py::test_readonly[openapi.yaml-AsyncApp]
+tests/test_json_validation.py::test_readonly[openapi.yaml-AsyncApp]
+tests/test_json_validation.py::test_writeonly[openapi.yaml-AsyncApp]
+tests/test_middleware.py::test_routing_middleware[openapi.yaml-AsyncApp]
+tests/test_middleware.py::test_add_middleware[openapi.yaml-AsyncApp]
+tests/test_middleware.py::test_position[openapi.yaml-AsyncApp]
+tests/test_resolver_methodview.py::test_method_resolver_integration[openapi.yaml-AsyncApp]
+tests/api/test_bootstrap.py::test_swagger_json_content_type[swagger.yaml-AsyncApp]
+tests/api/test_bootstrap.py::test_resolve_method[swagger.yaml-AsyncApp]
+tests/api/test_bootstrap.py::test_resolve_classmethod[swagger.yaml-AsyncApp]
+tests/api/test_bootstrap.py::test_default_query_param_does_not_match_defined_type[AsyncApp-swagger.yaml]
+tests/api/test_bootstrap.py::test_async_route[swagger.yaml-AsyncApp]
+tests/api/test_errors.py::test_errors[swagger.yaml-AsyncApp]
+tests/api/test_errors.py::test_should_raise_400_for_no_json[swagger.yaml-AsyncApp]
+tests/api/test_headers.py::test_headers_jsonifier[swagger.yaml-AsyncApp]
+tests/api/test_headers.py::test_headers_produces[swagger.yaml-AsyncApp]
+tests/api/test_headers.py::test_no_content_response_have_headers[swagger.yaml-AsyncApp]
+tests/api/test_headers.py::test_no_content_object_and_have_headers[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_parameter_validation[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_required_query_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_array_query_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_array_form_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_extra_query_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_strict_extra_query_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_strict_formdata_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_path_parameter_someint[swagger.yaml-AsyncApp-123-int 123]
+tests/api/test_parameters.py::test_path_parameter_someint[swagger.yaml-AsyncApp-0-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[swagger.yaml-AsyncApp-0000-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[swagger.yaml-AsyncApp-+123-int 123]
+tests/api/test_parameters.py::test_path_parameter_someint[swagger.yaml-AsyncApp-+0-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[swagger.yaml-AsyncApp--0-int 0]
+tests/api/test_parameters.py::test_path_parameter_someint[swagger.yaml-AsyncApp--123-int -123]
+tests/api/test_parameters.py::test_path_parameter_someint__bad[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-AsyncApp-123.45-float 123.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-AsyncApp-123.0-float 123]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-AsyncApp-0.999999999999999999-float 1]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-AsyncApp-+123.45-float 123.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-AsyncApp--123.45-float -123.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-AsyncApp-123.-float 123]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-AsyncApp-.45-float 0.45]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-AsyncApp-123-float 123]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-AsyncApp-0-float 0]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-AsyncApp-0000-float 0]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-AsyncApp--0.000000001-float -1e-09]
+tests/api/test_parameters.py::test_path_parameter_somefloat[swagger.yaml-AsyncApp-100000000000-float 1e+11]
+tests/api/test_parameters.py::test_path_parameter_doublefloat[swagger.yaml-AsyncApp--0.000000001-0.3-float -1e-09, 0.3]
+tests/api/test_parameters.py::test_path_parameter_somefloat__bad[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_default_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_falsy_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_bad_request[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_missing_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_extra_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_strict_formdata_extra_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_file_upload[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_multiple_file_upload[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_mixed_formdata[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_file_upload_bad_request[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_formdata_file_upload_missing_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_body_not_allowed_additional_properties[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_body_in_get_request[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_bool_as_default_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_bool_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_bool_array_param[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_required_param_miss_config[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_parameters_defined_in_path_level[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_array_in_path[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_nullable_parameter[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_args_kwargs[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_param_sanitization[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_no_sanitization_in_request_body[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_parameters_snake_case[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_get_unicode_request[swagger.yaml-AsyncApp]
+tests/api/test_parameters.py::test_cookie_param[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_app[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_openapi_yaml_behind_proxy[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_produce_decorator[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_returning_response_tuple[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_jsonifier[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_not_content_response[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_pass_through[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_empty[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_redirect_endpoint[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_redirect_response_endpoint[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_default_object_body[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_required_body[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_empty_object_body[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_content_type_not_json[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_maybe_blob_or_json[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_bad_operations[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_text_request[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_operation_handler_returns_flask_object[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_post_wrong_content_type[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_get_unicode_response[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_get_enum_response[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_get_httpstatus_response[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_get_bad_default_response[swagger.yaml-AsyncApp]
+tests/api/test_responses.py::test_streaming_response[swagger.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema[swagger.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_response[swagger.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_in_query[swagger.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_list[swagger.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_map[swagger.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_recursive[swagger.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_format[swagger.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_array[swagger.yaml-AsyncApp]
+tests/api/test_schema.py::test_schema_int[swagger.yaml-AsyncApp]
+tests/api/test_schema.py::test_global_response_definitions[swagger.yaml-AsyncApp]
+tests/api/test_schema.py::test_media_range[swagger.yaml-AsyncApp]
+tests/api/test_secure_api.py::test_security_over_nonexistent_endpoints[swagger.yaml-AsyncApp]
+tests/api/test_secure_api.py::test_security[swagger.yaml-AsyncApp]
+tests/api/test_secure_api.py::test_checking_that_client_token_has_all_necessary_scopes[swagger.yaml-AsyncApp]
+tests/api/test_secure_api.py::test_security_with_strict_validation[swagger.yaml-AsyncApp]
+tests/api/test_unordered_definition.py::test_app[swagger.yaml-AsyncApp]
+tests/test_flask_encoder.py::test_readonly[swagger.yaml-AsyncApp]
+tests/test_json_validation.py::test_readonly[swagger.yaml-AsyncApp]
+tests/test_json_validation.py::test_writeonly[swagger.yaml-AsyncApp]
+tests/test_middleware.py::test_routing_middleware[swagger.yaml-AsyncApp]
+tests/test_middleware.py::test_add_middleware[swagger.yaml-AsyncApp]
+tests/test_middleware.py::test_position[swagger.yaml-AsyncApp]
+tests/test_resolver_methodview.py::test_method_resolver_integration[swagger.yaml-AsyncApp]
+tests/api/test_bootstrap.py::test_add_error_handler[AsyncApp]
+tests/api/test_bootstrap_multiple_spec.py::test_app_with_multiple_definition[AsyncApp-swagger]
+tests/api/test_bootstrap_multiple_spec.py::test_app_with_multiple_definition[AsyncApp-openapi]
+tests/api/test_cors.py::test_cors_valid[AsyncApp]
+tests/api/test_cors.py::test_cors_invalid[AsyncApp]
+tests/api/test_cors.py::test_cors_validation_error[AsyncApp]
+tests/api/test_cors.py::test_cors_server_error[AsyncApp]
+tests/api/test_headers.py::test_header_not_returned[AsyncApp]
+tests/api/test_headers.py::test_optional_header[AsyncApp]
+tests/api/test_responses.py::test_can_use_httpstatus_enum[AsyncApp]
+tests/api/test_responses.py::test_exploded_deep_object_param_endpoint_openapi_simple[AsyncApp]
+tests/api/test_responses.py::test_exploded_deep_object_param_endpoint_openapi_multiple_data_types[AsyncApp]
+tests/api/test_responses.py::test_exploded_deep_object_param_endpoint_openapi_additional_properties[AsyncApp]
+tests/api/test_responses.py::test_exploded_deep_object_param_endpoint_openapi_additional_properties_false[AsyncApp]
+tests/api/test_responses.py::test_exploded_deep_object_param_endpoint_openapi_with_dots[AsyncApp]
+tests/api/test_responses.py::test_nested_exploded_deep_object_param_endpoint_openapi[AsyncApp]
+tests/api/test_responses.py::test_nested_additional_properties[AsyncApp]
+tests/api/test_responses.py::test_oneof[AsyncApp]
+tests/api/test_swagger_ui.py::test_simple[AsyncApp]
+tests/test_cli.py::test_run_simple_spec[AsyncApp]
+tests/test_cli.py::test_run_spec_with_host[AsyncApp]
+tests/test_cli.py::test_run_no_options_all_default[AsyncApp]
+tests/test_cli.py::test_run_using_option_console_ui_from[AsyncApp]
+tests/test_cli.py::test_run_using_option_console_ui_url[AsyncApp]
+tests/test_cli.py::test_run_using_option_auth_all_paths[AsyncApp]
+tests/test_cli.py::test_run_in_very_verbose_mode[AsyncApp]
+tests/test_cli.py::test_run_in_verbose_mode[AsyncApp]
+tests/test_cli.py::test_run_using_option_base_path[AsyncApp]
+tests/test_cli.py::test_run_unimplemented_operations[AsyncApp]
+tests/test_cli.py::test_run_unimplemented_operations_with_stub1[AsyncApp]
+tests/test_cli.py::test_run_unimplemented_operations_with_stub2[AsyncApp]
+tests/test_cli.py::test_run_unimplemented_operations_and_mock[AsyncApp]
+tests/test_json_validation.py::test_multipart_form_json[AsyncApp-openapi.yaml]
+tests/test_json_validation.py::test_multipart_form_json_array[AsyncApp-openapi.yaml]
+tests/test_lifespan.py::test_lifespan_handler[AsyncApp]
+tests/api/test_responses.py::test_custom_provider[openapi.yaml]
+tests/api/test_secure_api.py::test_security_map[openapi.yaml]
+tests/test_api.py::test_relative_refs[openapi.yaml]
+tests/test_json_validation.py::test_validator_map[openapi.yaml]
+tests/test_json_validation.py::test_nullable_default[openapi.yaml]
+tests/test_json_validation.py::test_defaults_body[openapi.yaml]
+tests/test_middleware.py::test_add_wsgi_middleware[openapi.yaml]
+tests/test_resolver_methodview.py::test_method_view_resolver_integration[openapi.yaml]
+tests/api/test_bootstrap.py::test_add_error_handler[FlaskApp]
+tests/api/test_bootstrap_multiple_spec.py::test_app_with_multiple_definition[FlaskApp-swagger]
+tests/api/test_bootstrap_multiple_spec.py::test_app_with_multiple_definition[FlaskApp-openapi]
+tests/api/test_cors.py::test_cors_valid[FlaskApp]
+tests/api/test_cors.py::test_cors_invalid[FlaskApp]
+tests/api/test_cors.py::test_cors_validation_error[FlaskApp]
+tests/api/test_cors.py::test_cors_server_error[FlaskApp]
+tests/api/test_headers.py::test_header_not_returned[FlaskApp]
+tests/api/test_headers.py::test_optional_header[FlaskApp]
+tests/api/test_responses.py::test_can_use_httpstatus_enum[FlaskApp]
+tests/api/test_responses.py::test_exploded_deep_object_param_endpoint_openapi_simple[FlaskApp]
+tests/api/test_responses.py::test_exploded_deep_object_param_endpoint_openapi_multiple_data_types[FlaskApp]
+tests/api/test_responses.py::test_exploded_deep_object_param_endpoint_openapi_additional_properties[FlaskApp]
+tests/api/test_responses.py::test_exploded_deep_object_param_endpoint_openapi_additional_properties_false[FlaskApp]
+tests/api/test_responses.py::test_exploded_deep_object_param_endpoint_openapi_with_dots[FlaskApp]
+tests/api/test_responses.py::test_nested_exploded_deep_object_param_endpoint_openapi[FlaskApp]
+tests/api/test_responses.py::test_nested_additional_properties[FlaskApp]
+tests/api/test_responses.py::test_oneof[FlaskApp]
+tests/api/test_swagger_ui.py::test_simple[FlaskApp]
+tests/test_cli.py::test_run_simple_spec[FlaskApp]
+tests/test_cli.py::test_run_spec_with_host[FlaskApp]
+tests/test_cli.py::test_run_no_options_all_default[FlaskApp]
+tests/test_cli.py::test_run_using_option_console_ui_from[FlaskApp]
+tests/test_cli.py::test_run_using_option_console_ui_url[FlaskApp]
+tests/test_cli.py::test_run_using_option_auth_all_paths[FlaskApp]
+tests/test_cli.py::test_run_in_very_verbose_mode[FlaskApp]
+tests/test_cli.py::test_run_in_verbose_mode[FlaskApp]
+tests/test_cli.py::test_run_using_option_base_path[FlaskApp]
+tests/test_cli.py::test_run_unimplemented_operations[FlaskApp]
+tests/test_cli.py::test_run_unimplemented_operations_with_stub1[FlaskApp]
+tests/test_cli.py::test_run_unimplemented_operations_with_stub2[FlaskApp]
+tests/test_cli.py::test_run_unimplemented_operations_and_mock[FlaskApp]
+tests/test_json_validation.py::test_multipart_form_json[FlaskApp-openapi.yaml]
+tests/test_json_validation.py::test_multipart_form_json_array[FlaskApp-openapi.yaml]
+tests/test_lifespan.py::test_lifespan_handler[FlaskApp]
+tests/api/test_responses.py::test_custom_provider[swagger.yaml]
+tests/api/test_secure_api.py::test_security_map[swagger.yaml]
+tests/test_api.py::test_relative_refs[swagger.yaml]
+tests/test_json_validation.py::test_validator_map[swagger.yaml]
+tests/test_json_validation.py::test_nullable_default[swagger.yaml]
+tests/test_json_validation.py::test_defaults_body[swagger.yaml]
+tests/test_middleware.py::test_add_wsgi_middleware[swagger.yaml]
+tests/test_resolver_methodview.py::test_method_view_resolver_integration[swagger.yaml]
+tests/api/test_bootstrap.py::test_app_with_different_uri_parser
+tests/api/test_bootstrap.py::test_single_route
+tests/api/test_bootstrap.py::test_handle_add_operation_error
+tests/api/test_bootstrap.py::test_using_all_fields_in_path_item
+tests/api/test_secure_api.py::test_security_map_custom_type
+tests/decorators/test_parameter.py::test_sync_injection
+tests/decorators/test_parameter.py::test_async_injection
+tests/decorators/test_parameter.py::test_sync_injection_with_context
+tests/decorators/test_parameter.py::test_async_injection_with_context
+tests/decorators/test_parameter.py::test_pythonic_params
+tests/decorators/test_security.py::test_get_tokeninfo_url
+tests/decorators/test_security.py::test_verify_oauth_missing_auth_header
+tests/decorators/test_security.py::test_verify_oauth_scopes_remote
+tests/decorators/test_security.py::test_verify_oauth_invalid_local_token_response_none
+tests/decorators/test_security.py::test_verify_oauth_scopes_local
+tests/decorators/test_security.py::test_verify_basic_missing_auth_header
+tests/decorators/test_security.py::test_verify_basic
+tests/decorators/test_security.py::test_verify_apikey_query
+tests/decorators/test_security.py::test_verify_apikey_header
+tests/decorators/test_security.py::test_verify_apikey_scopes
+tests/decorators/test_security.py::test_multiple_schemes
+tests/decorators/test_security.py::test_verify_security_oauthproblem
+tests/decorators/test_security.py::test_raise_most_specific[errors0-OAuthProblem]
+tests/decorators/test_security.py::test_raise_most_specific[errors1-OAuthScopeProblem]
+tests/decorators/test_security.py::test_raise_most_specific[errors2-OAuthScopeProblem]
+tests/decorators/test_security.py::test_raise_most_specific[errors3-OAuthScopeProblem]
+tests/decorators/test_security.py::test_raise_most_specific[errors4-BadRequestProblem]
+tests/decorators/test_security.py::test_raise_most_specific[errors5-ConnexionException]
+tests/decorators/test_security.py::test_optional_kwargs_injected
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params[Swagger2URIParser-expected0-query_in0-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params[FirstValueURIParser-expected1-query_in1-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params[AlwaysMultiURIParser-expected2-query_in2-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params[Swagger2URIParser-expected3-query_in3-multi]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params[FirstValueURIParser-expected4-query_in4-multi]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params[AlwaysMultiURIParser-expected5-query_in5-multi]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params[Swagger2URIParser-expected6-query_in6-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params[FirstValueURIParser-expected7-query_in7-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params[AlwaysMultiURIParser-expected8-query_in8-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_form_params[Swagger2URIParser-expected0-query_in0-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_form_params[FirstValueURIParser-expected1-query_in1-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_form_params[AlwaysMultiURIParser-expected2-query_in2-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_form_params[Swagger2URIParser-expected3-query_in3-multi]
+tests/decorators/test_uri_parsing.py::test_uri_parser_form_params[FirstValueURIParser-expected4-query_in4-multi]
+tests/decorators/test_uri_parsing.py::test_uri_parser_form_params[AlwaysMultiURIParser-expected5-query_in5-multi]
+tests/decorators/test_uri_parsing.py::test_uri_parser_form_params[Swagger2URIParser-expected6-query_in6-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_form_params[FirstValueURIParser-expected7-query_in7-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_form_params[AlwaysMultiURIParser-expected8-query_in8-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_path_params[Swagger2URIParser-expected0-query_in0-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_path_params[FirstValueURIParser-expected1-query_in1-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_path_params[AlwaysMultiURIParser-expected2-query_in2-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_path_params[Swagger2URIParser-expected3-query_in3-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_path_params[FirstValueURIParser-expected4-query_in4-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_path_params[AlwaysMultiURIParser-expected5-query_in5-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_square_brackets[OpenAPIURIParser-expected0-query_in0-None]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_square_brackets[Swagger2URIParser-expected1-query_in1-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_square_brackets[FirstValueURIParser-expected2-query_in2-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_square_brackets[AlwaysMultiURIParser-expected3-query_in3-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_square_brackets[Swagger2URIParser-expected4-query_in4-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_square_brackets[FirstValueURIParser-expected5-query_in5-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_square_brackets[AlwaysMultiURIParser-expected6-query_in6-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_underscores[OpenAPIURIParser-expected0-query_in0-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_underscores[Swagger2URIParser-expected1-query_in1-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_underscores[FirstValueURIParser-expected2-query_in2-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_underscores[AlwaysMultiURIParser-expected3-query_in3-csv]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_underscores[Swagger2URIParser-expected4-query_in4-multi]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_underscores[FirstValueURIParser-expected5-query_in5-multi]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_underscores[AlwaysMultiURIParser-expected6-query_in6-multi]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_underscores[Swagger2URIParser-expected7-query_in7-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_underscores[FirstValueURIParser-expected8-query_in8-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_underscores[AlwaysMultiURIParser-expected9-query_in9-pipes]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_malformed_names[OpenAPIURIParser-query_in0-None-False-expected0]
+tests/decorators/test_uri_parsing.py::test_uri_parser_query_params_with_malformed_names[OpenAPIURIParser-query_in1-csv-True-expected1]
+tests/decorators/test_uri_parsing.py::test_parameter_coercion
+tests/decorators/test_validation.py::test_get_valid_parameter
+tests/decorators/test_validation.py::test_get_valid_parameter_with_required_attr
+tests/decorators/test_validation.py::test_get_valid_path_parameter
+tests/decorators/test_validation.py::test_get_missing_required_parameter
+tests/decorators/test_validation.py::test_get_x_nullable_parameter
+tests/decorators/test_validation.py::test_get_nullable_parameter
+tests/decorators/test_validation.py::test_get_explodable_object_parameter
+tests/decorators/test_validation.py::test_get_valid_parameter_with_enum_array_header
+tests/decorators/test_validation.py::test_invalid_type
+tests/decorators/test_validation.py::test_invalid_type_value_error
+tests/decorators/test_validation.py::test_enum_error
+tests/decorators/test_validation.py::test_support_nullable_properties
+tests/decorators/test_validation.py::test_support_nullable_properties_raises_validation_error
+tests/decorators/test_validation.py::test_support_nullable_properties_not_iterable
+tests/decorators/test_validation.py::test_nullable_enum
+tests/decorators/test_validation.py::test_nullable_enum_error
+tests/decorators/test_validation.py::test_writeonly_value
+tests/decorators/test_validation.py::test_writeonly_value_error
+tests/decorators/test_validation.py::test_writeonly_required
+tests/decorators/test_validation.py::test_writeonly_required_error
+tests/test_api.py::test_canonical_base_path
+tests/test_api.py::test_api
+tests/test_api.py::test_api_base_path_slash
+tests/test_api.py::test_remote_api
+tests/test_api.py::test_template
+tests/test_api.py::test_invalid_operation_does_stop_application_to_setup
+tests/test_api.py::test_other_errors_stop_application_to_setup
+tests/test_api.py::test_invalid_schema_file_structure
+tests/test_api.py::test_invalid_encoding
+tests/test_api.py::test_use_of_safe_load_for_yaml_swagger_specs
+tests/test_api.py::test_validation_error_on_completely_invalid_swagger_spec
+tests/test_cli.py::test_print_version
+tests/test_cli.py::test_run_missing_spec
+tests/test_datastructures.py::test_media_type_dict
+tests/test_flask_encoder.py::test_json_encoder
+tests/test_flask_encoder.py::test_json_encoder_datetime_with_timezone
+tests/test_flask_utils.py::test_flaskify_path
+tests/test_flask_utils.py::test_flaskify_endpoint
+tests/test_lifespan.py::test_lifespan
+tests/test_mock.py::test_mock_resolver_default
+tests/test_mock.py::test_mock_resolver_numeric
+tests/test_mock.py::test_mock_resolver_example
+tests/test_mock.py::test_mock_resolver_example_nested_in_object
+tests/test_mock.py::test_mock_resolver_example_nested_in_list
+tests/test_mock.py::test_mock_resolver_example_nested_in_object_openapi
+tests/test_mock.py::test_mock_resolver_example_nested_in_list_openapi
+tests/test_mock.py::test_mock_resolver_no_example_nested_in_object
+tests/test_mock.py::test_mock_resolver_no_example_nested_in_list_openapi
+tests/test_mock.py::test_mock_resolver_no_content
+tests/test_mock.py::test_mock_resolver_no_examples
+tests/test_mock.py::test_mock_resolver_notimplemented
+tests/test_mock2.py::test_build_example_from_schema_string
+tests/test_mock2.py::test_build_example_from_schema_integer
+tests/test_mock2.py::test_build_example_from_schema_number
+tests/test_mock2.py::test_build_example_from_schema_boolean
+tests/test_mock2.py::test_build_example_from_schema_integer_minimum
+tests/test_mock2.py::test_build_example_from_schema_integer_maximum
+tests/test_mock2.py::test_build_example_from_schema_integer_exclusive_minimum
+tests/test_mock2.py::test_build_example_from_schema_integer_exclusive_maximum
+tests/test_mock2.py::test_build_example_from_schema_string_regular_expression
+tests/test_mock2.py::test_build_example_from_schema_string_maximum
+tests/test_mock2.py::test_build_example_from_schema_string_minimum
+tests/test_mock2.py::test_build_example_from_schema_enum
+tests/test_mock2.py::test_build_example_from_complex_schema
+tests/test_mock3.py::test_mock_resolver_default
+tests/test_mock3.py::test_mock_resolver_numeric
+tests/test_mock3.py::test_mock_resolver_inline_schema_example
+tests/test_mock3.py::test_mock_resolver_no_content
+tests/test_mock3.py::test_mock_resolver_no_examples
+tests/test_mock3.py::test_mock_resolver_notimplemented
+tests/test_operation2.py::test_operation
+tests/test_operation2.py::test_operation_remote_token_info
+tests/test_operation2.py::test_operation_array
+tests/test_operation2.py::test_operation_composed_definition
+tests/test_operation2.py::test_operation_local_security_oauth2
+tests/test_operation2.py::test_operation_local_security_duplicate_token_info
+tests/test_operation2.py::test_multi_body
+tests/test_operation2.py::test_no_token_info
+tests/test_operation2.py::test_multiple_security_schemes_and
+tests/test_operation2.py::test_multiple_oauth_in_and
+tests/test_operation2.py::test_parameter_reference
+tests/test_operation2.py::test_default
+tests/test_operation2.py::test_get_path_parameter_types
+tests/test_operation2.py::test_oauth_scopes_in_or
+tests/test_operation2.py::test_form_transformation
+tests/test_references.py::test_non_existent_reference
+tests/test_references.py::test_invalid_reference
+tests/test_references.py::test_resolve_invalid_reference
+tests/test_references.py::test_resolve_web_reference
+tests/test_references.py::test_resolve_ref_referring_to_another_ref
+tests/test_resolver.py::test_standard_get_function
+tests/test_resolver.py::test_relative_get_function
+tests/test_resolver.py::test_resty_get_function
+tests/test_resolver.py::test_missing_operation_id
+tests/test_resolver.py::test_bad_operation_id
+tests/test_resolver.py::test_standard_resolve_x_router_controller
+tests/test_resolver.py::test_relative_resolve_x_router_controller
+tests/test_resolver.py::test_relative_resolve_operation_id
+tests/test_resolver.py::test_relative_resolve_operation_id_with_module
+tests/test_resolver.py::test_resty_resolve_operation_id
+tests/test_resolver.py::test_resty_resolve_x_router_controller_with_operation_id
+tests/test_resolver.py::test_resty_resolve_x_router_controller_without_operation_id
+tests/test_resolver.py::test_resty_resolve_with_default_module_name
+tests/test_resolver.py::test_resty_resolve_with_default_module_name_nested
+tests/test_resolver.py::test_resty_resolve_with_default_module_name_lowercase_verb
+tests/test_resolver.py::test_resty_resolve_with_default_module_name_lowercase_verb_nested
+tests/test_resolver.py::test_resty_resolve_with_default_module_name_will_translate_dashes_in_resource_name
+tests/test_resolver.py::test_resty_resolve_with_default_module_name_can_resolve_api_root
+tests/test_resolver.py::test_resty_resolve_with_default_module_name_will_resolve_resource_root_get_as_search
+tests/test_resolver.py::test_resty_resolve_with_default_module_name_and_x_router_controller_will_resolve_resource_root_get_as_search
+tests/test_resolver.py::test_resty_resolve_with_default_module_name_will_resolve_resource_root_as_configured
+tests/test_resolver.py::test_resty_resolve_with_default_module_name_will_resolve_resource_root_post_as_post
+tests/test_resolver3.py::test_standard_resolve_x_router_controller
+tests/test_resolver3.py::test_relative_resolve_x_router_controller
+tests/test_resolver3.py::test_relative_resolve_operation_id
+tests/test_resolver3.py::test_relative_resolve_operation_id_with_module
+tests/test_resolver3.py::test_resty_resolve_operation_id
+tests/test_resolver3.py::test_resty_resolve_x_router_controller_with_operation_id
+tests/test_resolver3.py::test_resty_resolve_x_router_controller_without_operation_id
+tests/test_resolver3.py::test_resty_resolve_with_default_module_name
+tests/test_resolver3.py::test_resty_resolve_with_default_module_name_lowercase_verb
+tests/test_resolver3.py::test_resty_resolve_with_default_module_name_lowercase_verb_nested
+tests/test_resolver3.py::test_resty_resolve_with_default_module_name_will_translate_dashes_in_resource_name
+tests/test_resolver3.py::test_resty_resolve_with_default_module_name_can_resolve_api_root
+tests/test_resolver3.py::test_resty_resolve_with_default_module_name_will_resolve_resource_root_get_as_search
+tests/test_resolver3.py::test_resty_resolve_with_default_module_name_and_x_router_controller_will_resolve_resource_root_get_as_search
+tests/test_resolver3.py::test_resty_resolve_with_default_module_name_will_resolve_resource_root_as_configured
+tests/test_resolver3.py::test_resty_resolve_with_default_module_name_will_resolve_resource_root_post_as_post
+tests/test_resolver_methodview.py::test_standard_resolve_x_router_controller
+tests/test_resolver_methodview.py::test_methodview_resolve_operation_id[MethodResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_x_router_controller_with_operation_id[MethodResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_x_router_controller_without_operation_id[MethodResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name[MethodResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name_lowercase_verb[MethodResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name_will_translate_dashes_in_resource_name[MethodResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name_can_resolve_api_root[MethodResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name_will_resolve_resource_root_get_as_search[MethodResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name_and_x_router_controller_will_resolve_resource_root_get_as_search[MethodResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name_will_resolve_resource_root_post_as_post[MethodResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_operation_id[MethodViewResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_x_router_controller_with_operation_id[MethodViewResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_x_router_controller_without_operation_id[MethodViewResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name[MethodViewResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name_lowercase_verb[MethodViewResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name_will_translate_dashes_in_resource_name[MethodViewResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name_can_resolve_api_root[MethodViewResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name_will_resolve_resource_root_get_as_search[MethodViewResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name_and_x_router_controller_will_resolve_resource_root_get_as_search[MethodViewResolver]
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name_will_resolve_resource_root_post_as_post[MethodViewResolver]
+tests/test_resolver_methodview.py::test_method_resolve_with_default_module_name_will_resolve_resource_root_as_configured
+tests/test_resolver_methodview.py::test_methodview_resolve_with_default_module_name_will_resolve_resource_root_as_configured
+tests/test_utils.py::test_get_function_from_name
+tests/test_utils.py::test_get_function_from_name_no_module
+tests/test_utils.py::test_get_function_from_name_attr_error
+tests/test_utils.py::test_get_function_from_name_for_class_method
+tests/test_utils.py::test_boolean
+tests/test_utils.py::test_deep_get_dict
+tests/test_utils.py::test_deep_get_list
+tests/test_utils.py::test_is_json_mimetype
+tests/test_utils.py::test_sort_routes
+tests/test_utils.py::test_sort_apis_by_basepath
+tests/test_validation.py::test_parameter_validator
+tests/test_validation.py::test_stream_replay
+
+802 tests collected in 0.64s

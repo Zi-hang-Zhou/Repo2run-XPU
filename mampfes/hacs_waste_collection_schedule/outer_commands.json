@@ -1,0 +1,218 @@
+[
+    {
+        "GPT_time": 2.511364698410034
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6712653636932373
+    },
+    {
+        "GPT_time": 3.891310691833496
+    },
+    {
+        "command": "cat /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.6681263446807861
+    },
+    {
+        "command": "ls -la /repo/*.toml /repo/*.py 2>/dev/null | head -20",
+        "returncode": 0,
+        "time": 1.1130290031433105
+    },
+    {
+        "GPT_time": 3.4219157695770264
+    },
+    {
+        "command": "ls -la /repo/poetry.lock /repo/pyproject.toml 2>/dev/null; cat /repo/pytest.ini; ls -la /repo/tests/",
+        "returncode": 0,
+        "time": 0.009184122085571289
+    },
+    {
+        "GPT_time": 2.3001561164855957
+    },
+    {
+        "command": "cat /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.008730888366699219
+    },
+    {
+        "command": "ls -la /repo/tests/",
+        "returncode": 0,
+        "time": 0.6662747859954834
+    },
+    {
+        "GPT_time": 2.5696513652801514
+    },
+    {
+        "command": "cat /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.008578777313232422
+    },
+    {
+        "GPT_time": 3.316462993621826
+    },
+    {
+        "command": "ls -la /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.008858680725097656
+    },
+    {
+        "command": "head -20 /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.006474733352661133
+    },
+    {
+        "GPT_time": 11.774083852767944
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 16.37747573852539
+    },
+    {
+        "GPT_time": 2.596135139465332
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.029882192611694336
+    },
+    {
+        "GPT_time": 2.5204553604125977
+    },
+    {
+        "command": "ls -la /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.6689839363098145
+    },
+    {
+        "GPT_time": 1.6349191665649414
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.03219962120056152
+    },
+    {
+        "GPT_time": 2.31681752204895
+    },
+    {
+        "command": "cat /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.6655368804931641
+    },
+    {
+        "GPT_time": 4.6969215869903564
+    },
+    {
+        "command": "waitinglist add -p beautifulsoup4 -v \">=4.12.2\" -t pip",
+        "returncode": 0,
+        "time": 0.008761882781982422
+    },
+    {
+        "command": "waitinglist add -p cloudscraper -v \">=1.2.71\" -t pip",
+        "returncode": 0,
+        "time": 0.0036139488220214844
+    },
+    {
+        "command": "waitinglist add -p DateTime -v \">=4.9\" -t pip",
+        "returncode": 0,
+        "time": 0.004014253616333008
+    },
+    {
+        "command": "waitinglist add -p icalendar -v \">=4.0.9\" -t pip",
+        "returncode": 0,
+        "time": 0.006908893585205078
+    },
+    {
+        "command": "waitinglist add -p icalevents -v \">=0.1.29\" -t pip",
+        "returncode": 0,
+        "time": 0.005495309829711914
+    },
+    {
+        "GPT_time": 2.796088218688965
+    },
+    {
+        "command": "waitinglist add -p python-dateutil -v \">=2.8.2\" -t pip",
+        "returncode": 0,
+        "time": 0.00712132453918457
+    },
+    {
+        "command": "waitinglist add -p pytz -v \">=2021.3\" -t pip",
+        "returncode": 0,
+        "time": 0.006955146789550781
+    },
+    {
+        "command": "waitinglist add -p PyYAML -v \">=6.0.1\" -t pip",
+        "returncode": 0,
+        "time": 0.006691694259643555
+    },
+    {
+        "command": "waitinglist add -p requests -v \">=2.31.0\" -t pip",
+        "returncode": 0,
+        "time": 0.003833293914794922
+    },
+    {
+        "command": "waitinglist add -p urllib3 -v \">=2.0.7\" -t pip",
+        "returncode": 0,
+        "time": 0.0049932003021240234
+    },
+    {
+        "GPT_time": 3.0845084190368652
+    },
+    {
+        "command": "waitinglist add -p jinja2 -v \">=3.1.2\" -t pip",
+        "returncode": 0,
+        "time": 0.008857488632202148
+    },
+    {
+        "command": "waitinglist add -p lxml -v \">=4.9.4\" -t pip",
+        "returncode": 0,
+        "time": 0.0051462650299072266
+    },
+    {
+        "command": "waitinglist add -p pycryptodome -v \">=3.20.0\" -t pip",
+        "returncode": 0,
+        "time": 0.006013631820678711
+    },
+    {
+        "command": "waitinglist add -p typing_extensions -v \">=4.12.2\" -t pip",
+        "returncode": 0,
+        "time": 0.00454258918762207
+    },
+    {
+        "command": "waitinglist add -p pypdf -v \">=5.1.0\" -t pip",
+        "returncode": 0,
+        "time": 0.00429224967956543
+    },
+    {
+        "command": "waitinglist add -p homeassistant -t pip",
+        "returncode": 0,
+        "time": 0.004246950149536133
+    },
+    {
+        "GPT_time": 2.6753318309783936
+    },
+    {
+        "command": "waitinglist show",
+        "returncode": 0,
+        "time": 0.008064985275268555
+    },
+    {
+        "GPT_time": 3.722193479537964
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 88.70085954666138
+    },
+    {
+        "GPT_time": 2.2384238243103027
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 12.050683736801147
+    }
+]

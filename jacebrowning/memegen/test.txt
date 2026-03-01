@@ -1,0 +1,289 @@
+app/tests/test_views_shortcuts.py::describe_path_redirects::it_handles_sample_templates
+app/tests/test_views_templates.py::describe_detail::describe_POST::it_accepts_template_id_as_custom_background
+app/tests/test_utils_images.py::test_alternate_style
+app/tests/test_models_template.py::describe_template::describe_create::it_rejects_non_images
+app/tests/test_views_images.py::describe_detail::describe_watermark::it_accepts_custom_values_when_authenticated
+app/tests/test_views_images.py::describe_detail::describe_overlay::it_requires_image_urls[/images/fine/test.png?]
+app/tests/test_views_shortcuts.py::describe_image_redirects::it_preserves_query_params_when_redirecting[png]
+app/tests/test_utils_meta.py::describe_tokenize::it_restricts_sample_api_key_usage
+app/tests/test_models_template.py::describe_template::describe_create::it_handles_meme_urls
+app/tests/test_views_templates.py::describe_detail::describe_POST::it_returns_an_image_url[False]
+app/tests/test_views_shortcuts.py::describe_image_redirects::it_fixes_extra_trailing_characters[/]
+app/tests/test_views_images.py::describe_detail::it_returns_an_image[/images/fry.gif-image/gif]
+app/tests/test_views_images.py::describe_custom::describe_POST::it_redirects_if_requested
+app/tests/test_utils_images.py::test_images[cmm-lines9-png]
+app/tests/test_views_images.py::describe_list::describe_GET::it_can_filter_examples
+app/tests/test_views_images.py::describe_detail::describe_styles::it_rejects_invalid_styles[/images/ds/one/two.png?]
+app/tests/test_utils_images.py::test_images[oprah-lines11-webp]
+app/tests/test_utils_images.py::test_custom_style_rotated
+app/tests/test_main.py::describe_test::it_redirects_to_the_index
+app/tests/test_utils_images.py::test_watermark
+app/tests/test_views_templates.py::describe_detail::describe_POST::it_handles_unknown_template_id
+app/tests/test_utils_images.py::test_tall_padding
+app/tests/test_views_clients.py::describe_image_preview::it_handles_invalid_keys
+app/tests/test_views_templates.py::describe_list::describe_GET::it_returns_all_templates[/]
+app/tests/test_utils_images.py::test_text_align_start
+app/tests/test_views_templates.py::describe_detail::describe_POST::it_redirects_if_requested[custom]
+app/tests/test_views_shortcuts.py::describe_image_redirects::it_redirects_to_normalized_slug[jpg]
+app/tests/test_utils_images.py::test_large_padding
+app/tests/test_views_shortcuts.py::describe_path_redirects::it_redirects_to_custom_image_when_text_but_no_extension
+app/tests/test_views_clients.py::describe_image_preview::it_handles_invalid_urls
+app/tests/test_models_template.py::describe_template::describe_create::it_handles_invalid_urls[https://https://i.imgur.com/bf995.gif&width=400]
+app/tests/test_utils_text.py::test_encode[lines12-kill_--9]
+app/tests/test_views_images.py::describe_detail::it_handles_placeholder_templates
+app/tests/test_models_text.py::describe_text::describe_stylize::it_defaults_to_upper
+app/tests/test_utils_images.py::test_custom_style_animated_background
+app/tests/test_views_images.py::describe_detail::describe_font::it_rejects_unknown_fonts
+app/tests/test_views_images.py::describe_custom::describe_POST::it_supports_custom_backgrounds[False]
+app/tests/test_models_template.py::describe_template::describe_create::it_handles_missing_urls
+app/tests/test_views_templates.py::describe_detail::describe_POST::it_supports_custom_backgrounds[True]
+app/tests/test_views_images.py::describe_detail::describe_custom::it_supports_custom_templates
+app/tests/test_views_helpers.py::test_preview_images
+app/tests/test_utils_text.py::test_decode[lines1-~q~p~h~s~a~b~l~g]
+app/tests/test_utils_images.py::test_small_padding
+app/tests/test_views_clients.py::describe_image_preview::it_supports_custom_templates
+app/tests/test_views_images.py::describe_detail::describe_watermark::it_removes_redundant_watermarks[jpg]
+app/tests/test_views_templates.py::describe_detail::describe_GET::it_defaults_to_animated_example_when_available
+app/tests/test_utils_images.py::test_wide_padding
+app/tests/test_views_images.py::describe_detail::it_returns_an_image[/images/fry.jpg-image/jpeg]
+app/tests/test_utils_text.py::test_decode[lines4-variable--name]
+app/tests/test_utils_text.py::test_decode[lines3-variable__name]
+app/tests/test_views_shortcuts.py::describe_legacy_images::it_redirects_to_example_image[png]
+app/tests/test_views_images.py::describe_detail::describe_styles::it_supports_alternate_styles
+app/tests/test_views_shortcuts.py::describe_image_redirects::it_fixes_extra_trailing_characters["]
+app/tests/test_views_images.py::describe_list::describe_POST::it_lowercases_text_for_default_templates
+app/tests/test_views_images.py::describe_detail::describe_styles::it_redirects_to_gif_when_animated[ds/one/two]
+app/tests/test_utils_text.py::test_decode[lines12-kill_--9]
+app/tests/test_views_images.py::describe_detail::it_rejects_invalid_extensions
+app/tests/test_views_shortcuts.py::describe_path_redirects::it_returns_gallery_view_when_debug
+app/tests/test_utils_images.py::test_images[iw-lines0-jpg]
+app/tests/test_models_text.py::describe_text::describe_stylize::it_applies_style[capitalize-these are words-These are words]
+app/tests/test_utils_images.py::test_smaller_width
+app/tests/test_models_template.py::describe_template::describe_text::it_defaults_to_two_lines
+app/tests/test_utils_images.py::test_images[ski-lines5-png]
+app/tests/test_views_images.py::describe_custom::describe_GET::it_normalizes_the_url_with_background
+app/tests/test_views_images.py::describe_detail::it_accepts_valid_colors
+app/tests/test_views_shortcuts.py::describe_image_redirects::it_truncates_invalid_path_values
+app/tests/test_views_images.py::describe_list::describe_POST::it_requires_template_id
+app/tests/test_views_shortcuts.py::describe_path_redirects::it_handles_trailing_slashes
+app/tests/test_utils_images.py::test_images[sparta-lines4-png]
+app/tests/test_utils_text.py::test_decode[lines6-def_data()_--~g_Dict]
+app/tests/test_views_images.py::describe_detail::describe_watermark::it_rejects_invalid_authentication
+app/tests/test_views_images.py::describe_list::describe_POST::it_returns_an_image_url[False]
+app/tests/test_views_shortcuts.py::describe_image_redirects::it_preserves_query_params_when_redirecting[jpg]
+app/tests/test_views_images.py::describe_list::describe_POST::it_removes_redundant_styles
+app/tests/test_views_shortcuts.py::describe_legacy_images::it_redirects_to_custom_image[jpg]
+app/tests/test_views_images.py::describe_list::describe_POST::it_redirects_if_requested
+app/tests/test_models_template.py::describe_template::describe_create::it_handles_unreachable_urls
+app/tests/test_views_images.py::describe_detail::describe_watermark::it_is_disabled_automatically_for_small_images
+app/tests/test_views_shortcuts.py::describe_path_redirects::it_rejects_unknown_templates
+app/tests/test_models_template.py::describe_template::describe_create::it_handles_custom_templates_with_invalid_background
+app/tests/test_utils_text.py::test_decode[lines11-underscore__-dash--]
+app/tests/test_models_template.py::describe_template::describe_check::it_determines_overlay_file_extension
+app/tests/test_views_templates.py::describe_detail::describe_POST::it_supports_custom_backgrounds[False]
+app/tests/test_models_text.py::describe_text::describe_stylize::it_applies_style[default-these are words.-These are words.]
+app/tests/test_views_images.py::describe_detail::it_rejects_extremely_small_sizes
+app/tests/test_views_images.py::describe_automatic::describe_POST::it_handles_invalid_json
+app/tests/test_utils_images.py::test_images[fry-lines3-png]
+app/tests/test_views_shortcuts.py::describe_legacy_paths::it_rejects_unknown_templates[.jpg]
+app/tests/test_views_templates.py::describe_detail::describe_GET::it_returns_404_when_missing
+app/tests/test_views_examples.py::describe_examples::it_can_enable_automatic_refresh
+app/tests/test_views_images.py::describe_automatic::describe_POST::it_normalizes_the_url[True]
+app/tests/test_views_images.py::describe_custom::describe_POST::it_supports_custom_backgrounds[True]
+app/tests/test_utils_images.py::test_text_wrap_when_font_is_too_small
+app/tests/test_utils_text.py::test_encode_dashes
+app/tests/test_utils_images.py::test_long_first_word
+app/tests/test_utils_text.py::test_decode_dashes
+app/tests/test_views_examples.py::describe_examples::describe_static::it_forces_static_extension
+app/tests/test_views_images.py::describe_automatic::describe_POST::it_normalizes_the_url[False]
+app/tests/test_utils_images.py::test_text_not_cut_off_with_impact_and_watermark
+app/tests/test_utils_meta.py::describe_track::it_is_disabled_automatically_after_error
+app/tests/test_views_images.py::describe_detail::describe_overlay::it_supports_custom_styles[/images/fine/test.png?]
+app/tests/test_utils_images.py::test_images[oprah-lines10-gif]
+app/tests/test_views_shortcuts.py::describe_legacy_paths::it_rejects_unknown_templates[]
+app/tests/test_utils_images.py::test_larger_height
+app/tests/test_views_images.py::describe_automatic::describe_POST::it_requires_text
+app/tests/test_views_images.py::describe_custom::describe_GET::it_normalizes_the_url
+app/tests/test_models_template.py::describe_template::describe_create::it_handles_custom_templates
+app/tests/test_utils_images.py::test_images[mouth-lines8-png]
+app/tests/test_views_images.py::describe_detail::describe_watermark::it_rejects_unknown_watermarks[jpg]
+app/tests/test_views_images.py::describe_list::describe_POST::it_handles_unknown_template_id
+app/tests/test_models_text.py::describe_text::describe_stylize::it_applies_style[title-these are words-These Are Words]
+app/tests/test_views_images.py::describe_custom::describe_POST::it_escapes_query_parameters
+app/tests/test_views_shortcuts.py::describe_legacy_images::it_redirects_to_custom_image[png]
+app/tests/test_views_images.py::describe_detail::describe_custom::it_requires_an_image_with_custom_templates
+app/tests/test_views_examples.py::describe_examples::describe_animated::it_forces_animated_extension
+app/tests/test_views_images.py::describe_detail::it_returns_an_image[/images/fry/test.jpg-image/jpeg]
+app/tests/test_utils_images.py::test_custom_template
+app/tests/test_views_images.py::describe_list::describe_POST::it_prefers_extension_over_animated_style
+app/tests/test_views_images.py::describe_detail::describe_overlay::it_supports_custom_styles[/images/custom/test.png?background=https://www.gstatic.com/webp/gallery/3.jpg&]
+app/tests/test_models_template.py::describe_template::describe_create::it_handles_invalid_urls[httpshttps://cdn.pixabay.com/photo/2015/09/09/19/41/cat-932846_1280.jpg]
+app/tests/test_utils_text.py::test_encode[lines0-hello_world]
+app/tests/test_utils_text.py::test_decode[lines8-That's_not_how_''this''_works]
+app/tests/test_utils_text.py::test_encode[lines4-variable--name]
+app/tests/test_utils_text.py::test_encode[lines9-git_commit_----no--verify]
+app/tests/test_views_images.py::describe_detail::describe_styles::it_ignores_placeholder_values[/images/custom/test.png?background=https://www.gstatic.com/webp/gallery/3.jpg&]
+app/tests/test_utils_images.py::test_deployed_images
+app/tests/test_utils_text.py::test_encode[lines2-a~sb/c]
+app/tests/test_models_text.py::describe_text::describe_stylize::it_applies_style[upper-Hello, world!-HELLO, WORLD!]
+app/tests/test_models_text.py::describe_text::describe_stylize::it_applies_style[<unknown>-Hello, world!-Hello, world!]
+app/tests/test_views_images.py::describe_detail::describe_styles::it_ignores_placeholder_values[/images/ds/one/two.png?]
+app/tests/test_utils_images.py::test_descender_vertical_alignment
+app/tests/test_views_shortcuts.py::describe_legacy_paths::it_rejects_unknown_templates[.png]
+app/tests/test_utils_text.py::test_decode[lines7-finish_~l--_start]
+app/tests/test_utils_text.py::test_encode[lines7-finish_~l--_start]
+app/tests/test_utils_images.py::test_special_characters
+app/tests/test_views_shortcuts.py::describe_legacy_paths::it_rejects_unknown_templates_with_text[]
+app/tests/test_main.py::describe_index::it_redirects_to_the_docs
+app/tests/test_utils_images.py::test_font_override
+app/tests/test_utils_images.py::test_smaller_height
+app/tests/test_models_text.py::describe_text::describe_stylize::it_applies_style[none-Hello, world!-Hello, world!]
+app/tests/test_views_shortcuts.py::describe_path_redirects::it_redirects_to_example_image_when_no_extension
+app/tests/test_models_template.py::describe_template::describe_image::it_has_generic_extension_when_absent
+app/tests/test_utils_text.py::test_encode[lines3-variable__name]
+app/tests/test_utils_text.py::test_decode[lines0-hello_world]
+app/tests/test_views_images.py::describe_detail::it_returns_an_image[/images/fry.webp-image/webp]
+app/tests/test_views_images.py::describe_detail::describe_custom::it_handles_missing_urls
+app/tests/test_views_images.py::describe_list::describe_POST::it_handles_unknown_template_id_redirect
+app/tests/test_utils_images.py::test_images[ds-lines6-png]
+app/tests/test_views_images.py::describe_detail::it_rejects_invalid_sizes
+app/tests/test_utils_images.py::test_animated_text_on_static_background
+app/tests/test_views_images.py::describe_detail::describe_custom::it_handles_invalid_urls
+app/tests/test_main.py::describe_index::it_contains_robots
+app/tests/test_utils_images.py::test_animated_text_on_animated_background
+app/tests/test_views_shortcuts.py::describe_image_redirects::it_fixes_misplaced_query_params_on_image
+app/tests/test_views_images.py::describe_detail::describe_custom::it_ignores_placeholder_values
+app/tests/test_views_images.py::describe_detail::describe_font::it_ignores_placeholder_values
+app/tests/test_utils_images.py::test_larger_width
+app/tests/test_views_templates.py::describe_detail::describe_POST::it_returns_an_image_url[True]
+app/tests/test_models_template.py::describe_template::describe_str::it_includes_the_path
+app/tests/test_utils_images.py::test_images[spongebob-lines7-png]
+app/tests/test_views_shortcuts.py::describe_path_redirects::it_creates_new_templates_when_debug
+app/tests/test_views_images.py::describe_list::describe_POST::it_handles_missing_text_lines
+app/tests/test_utils_text.py::test_encode[lines6-def_data()_--~g_Dict]
+app/tests/test_views_images.py::describe_detail::it_returns_an_image[/images/fry.png-image/png]
+app/tests/test_models_template.py::describe_template::describe_create::it_handles_invalid_builtin_templates
+app/tests/test_views_templates.py::describe_detail::describe_GET::it_includes_metadata[]
+app/tests/test_utils_images.py::test_unknown_template
+app/tests/test_views_images.py::describe_detail::describe_overlay::it_handles_missing_urls[/images/fine/test.png?]
+app/tests/test_utils_images.py::test_custom_style_animated_text
+app/tests/test_utils_images.py::test_debug_images_with_slow_background
+app/tests/test_utils_images.py::test_layout_top
+app/tests/test_views_templates.py::describe_detail::describe_POST::it_redirects_if_requested[iw]
+app/tests/test_views_shortcuts.py::describe_image_redirects::it_fixes_misplaced_file_extension
+app/tests/test_utils_text.py::test_decode[lines2-a~sb/c]
+app/tests/test_views_shortcuts.py::describe_legacy_paths::it_rejects_unknown_templates_with_text[.jpg]
+app/tests/test_utils_images.py::test_text_wrap_on_smaller_images
+app/tests/test_views_images.py::describe_list::describe_POST::it_handles_invalid_json
+app/tests/test_views_images.py::describe_detail::it_returns_an_image[/images/fry/test.png-image/png]
+app/tests/test_views_images.py::describe_detail::it_handles_unknown_templates
+app/tests/test_views_clients.py::describe_image_preview::it_returns_an_image
+app/tests/test_utils_text.py::test_encode[lines8-That's_not_how_''this''_works]
+app/tests/test_views_templates.py::describe_list::describe_GET::it_returns_all_templates[]
+app/tests/test_utils_images.py::test_watermark_with_many_lines
+app/tests/test_models_template.py::describe_template::describe_create::it_handles_builtin_templates[staging]
+app/tests/test_utils_text.py::test_encode[lines1-~q~p~h~s~a~b~l~g]
+app/tests/test_utils_text.py::test_encode[lines5-foo~nbar]
+app/tests/test_views_images.py::describe_list::describe_POST::it_drops_trailing_blank_lines
+app/tests/test_views_examples.py::describe_examples::it_displays_images
+app/tests/test_views_images.py::describe_list::describe_POST::it_preserves_text_case_for_top_layouts
+app/tests/test_views_images.py::describe_detail::describe_overlay::it_requires_image_urls[/images/custom/test.png?background=https://www.gstatic.com/webp/gallery/3.jpg&]
+app/tests/test_utils_images.py::test_text_wrap_on_small_images
+app/tests/test_utils_images.py::test_layout_top_single_line
+app/tests/test_utils_images.py::test_images[fry-lines2-png]
+app/tests/test_views_images.py::describe_detail::describe_custom::it_supports_custom_templates_with_animation
+app/tests/test_views_fonts.py::describe_detail::describe_GET::it_includes_filename
+app/tests/test_views_images.py::describe_detail::describe_overlay::it_handles_missing_urls[/images/custom/test.png?background=https://www.gstatic.com/webp/gallery/3.jpg&]
+app/tests/test_views_images.py::describe_detail::describe_custom::it_handles_redirect_urls
+app/tests/test_views_clients.py::describe_auth::describe_POST::it_returns_401_when_unauthenticated
+app/tests/test_models_text.py::describe_text::describe_stylize::it_respects_case_when_set_in_any_line
+app/tests/test_utils_images.py::test_single_line_is_never_animated
+app/tests/test_views_templates.py::describe_list::describe_GET::it_can_filter_templates
+app/tests/test_views_helpers.py::test_preview_images_animated
+app/tests/test_models_template.py::describe_template::describe_check::it_accepts_multiple_urls
+app/tests/test_views_images.py::describe_detail::describe_styles::it_redirects_to_gif_when_animated[ds]
+app/tests/test_views_shortcuts.py::describe_legacy_images::it_redirects_to_example_image[jpg]
+app/tests/test_views_images.py::describe_detail::it_returns_an_image[/images/fry/test.gif-image/gif]
+app/tests/test_utils_images.py::test_debug_images[gif]
+app/tests/test_views_images.py::describe_list::describe_POST::it_can_force_animated_extension
+app/tests/test_utils_text.py::test_encode_quotes
+app/tests/test_utils_images.py::test_layout_top_unknown_format
+app/tests/test_views_images.py::describe_detail::it_rejects_extremely_long_urls
+app/tests/test_docs.py::describe_ui::it_contains_image_routes
+app/tests/test_views_images.py::describe_list::describe_POST::it_supports_slashes_to_indicate_blank_lines
+app/tests/test_views_shortcuts.py::describe_legacy_paths::it_rejects_unknown_templates_with_text[.png]
+app/tests/test_utils_images.py::test_images[fry-lines1-png]
+app/tests/test_docs.py::describe_ui::it_contains_redirect_routes
+app/tests/test_views_images.py::describe_detail::it_returns_an_image[/images/fry/test.webp-image/webp]
+app/tests/test_views_shortcuts.py::describe_image_redirects::it_fixes_misplaced_query_params_on_path
+app/tests/test_views_images.py::describe_detail::describe_watermark::it_returns_a_unique_image
+app/tests/test_views_shortcuts.py::describe_image_redirects::it_redirects_to_normalized_slug[png]
+app/tests/test_views_images.py::describe_custom::describe_POST::it_returns_gif_when_background_is_gif
+app/tests/test_models_template.py::describe_template::describe_image::it_creates_template_directory_automatically
+app/tests/test_models_template.py::describe_template::describe_valid::it_only_includes_default_style_with_custom_overlay
+app/tests/test_models_template.py::describe_template::describe_create::it_handles_custom_templates_lacking_background
+app/tests/test_views_fonts.py::describe_list::describe_GET::it_returns_all_fonts
+app/tests/test_utils_text.py::test_encode[lines11-underscore__-dash--]
+app/tests/test_utils_images.py::test_debug_images[png]
+app/tests/test_models_template.py::describe_template::describe_create::it_downloads_the_image
+app/tests/test_views_images.py::describe_detail::describe_styles::it_rejects_invalid_styles[/images/custom/test.png?background=https://www.gstatic.com/webp/gallery/3.jpg&]
+app/tests/test_utils_text.py::test_decode[lines10-__username_likes___charname]
+app/tests/test_utils_images.py::test_extremely_long_text
+app/tests/test_models_template.py::describe_template::describe_check::it_accepts_default_style_as_placeholder
+app/tests/test_utils_text.py::test_encode[lines10-__username_likes___charname]
+app/tests/test_utils_images.py::test_angled_animated_text_on_static_background
+app/tests/test_models_text.py::describe_text::describe_stylize::it_applies_style[lower-Hello, world!-hello, world!]
+app/tests/test_utils_meta.py::describe_tokenize::it_returns_url_from_tracker
+app/tests/test_docs.py::describe_spec::it_contains_the_version
+app/tests/test_views_images.py::describe_detail::it_rejects_invalid_colors
+app/tests/test_views_images.py::describe_detail::describe_watermark::it_rejects_unknown_watermarks[png]
+app/tests/test_main.py::describe_index::it_contains_favicon
+app/tests/test_utils_images.py::test_color
+app/tests/test_utils_text.py::test_decode[lines5-foo~nbar]
+app/tests/test_utils_images.py::test_custom_style
+app/tests/test_views_shortcuts.py::describe_image_redirects::it_handles_encoded_newlines
+app/tests/test_views_images.py::describe_list::describe_GET::it_returns_example_image_urls
+app/tests/test_main.py::describe_test::it_displays_test_images_when_debug
+app/tests/test_utils_images.py::test_watermark_with_padding
+app/tests/test_models_text.py::describe_text::describe_stylize::it_applies_style[mock-these are words-ThEsE aRe WorDs]
+app/tests/test_utils_text.py::test_decode[lines9-git_commit_----no--verify]
+app/tests/test_models_template.py::describe_template::describe_create::it_handles_builtin_templates[api]
+app/tests/test_views_helpers.py::test_preview_images_top_layout
+app/tests/test_views_templates.py::describe_detail::describe_GET::it_includes_metadata[/]
+app/tests/test_views_images.py::describe_list::describe_POST::it_returns_an_image_url[True]
+app/tests/test_models_text.py::describe_text::describe_stylize::it_applies_style[default-These ARE words.-These ARE words.]
+app/tests/test_views_images.py::describe_detail::describe_watermark::it_removes_redundant_watermarks[png]
+app/tests/test_utils_meta.py::describe_authenticate::it_returns_payload_from_tracker
+app/tests/test_utils_images.py::test_watermark_disabled_when_small
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.13.12-final-0 _______________
+
+Name                     Stmts   Miss Branch BrPart  Cover   Missing
+--------------------------------------------------------------------
+app/config.py               42      8      6      0    71%   22-35, 39-43
+app/helpers.py              43     37     22      0     9%   10-19, 25-55, 59-69
+app/main.py                 27      8      2      0    66%   16, 22-27, 33, 39
+app/models/font.py          31      9      4      0    63%   14-18, 22, 36, 39, 47
+app/models/overlay.py       19      9      2      0    48%   16-21, 26-36
+app/models/template.py     340    275    144      0    13%   36, 39, 42, 46-49, 58-61, 65-76, 80, 84, 88, 92-94, 98-99, 103-104, 108, 111-170, 173, 195, 209-218, 232-260, 264, 280-288, 292-339, 342-372, 377-408, 413-438, 441-457, 460-482, 485-509, 512-514, 517-518, 521-523
+app/models/text.py          80     46     22      0    33%   13, 37, 48, 52, 56, 59-63, 66-68, 71-81, 84-88, 91-113
+app/utils/html.py           41     32     12      0    17%   101-107, 111-129, 133-152, 156-174
+app/utils/http.py           40     31      6      0    20%   21-34, 38-64
+app/utils/images.py        401    361    136      0     7%   42-55, 70-123, 127-129, 133-150, 154-180, 184-211, 225-303, 318-439, 445-469, 473-476, 482-504, 510-546, 552-560, 565-570, 584-599, 610-630, 645-665, 669-676, 680-694, 700-710, 714-716, 726-752, 756-760, 764, 768-774
+app/utils/meta.py          119     98     50      0    12%   23-40, 45-72, 76-86, 90-106, 110-138, 144-168, 172, 176
+app/utils/text.py           52     43     22      0    12%   7-19, 23-52, 56-91, 95-97, 101-103, 107
+app/utils/urls.py           39     27     10      0    24%   18, 22, 26-30, 34-35, 39-40, 44-50, 54, 59-79
+app/views/clients.py        30     10      4      0    59%   17-18, 36-43
+app/views/examples.py       30     13      2      0    53%   16-17, 23-24, 30-31, 35-42
+app/views/fonts.py          25      9      0      0    64%   19-21, 34-40
+app/views/helpers.py       163    154     72      0     4%   17-98, 102-138, 148-251
+app/views/images.py        121     63     20      0    41%   34-36, 56, 70-97, 112, 127-141, 163-178, 200-242
+app/views/shortcuts.py     111     68     32      0    30%   21-43, 54-59, 69-70, 81-144, 156-165, 176-178
+app/views/templates.py      42     10      2      0    73%   32-37, 50-53, 66, 78
+--------------------------------------------------------------------
+TOTAL                     1882   1311    570      0    23%
+
+6 files skipped due to complete coverage.
+Coverage HTML written to dir .cache/htmlcov
+257 tests collected in 0.98s

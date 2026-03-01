@@ -1,0 +1,823 @@
+[
+    {
+        "GPT_time": 1.7503859996795654
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6661815643310547
+    },
+    {
+        "GPT_time": 2.8820948600769043
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.669865608215332
+    },
+    {
+        "GPT_time": 5.345624923706055
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6642274856567383
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 13.604558229446411
+    },
+    {
+        "GPT_time": 3.0531837940216064
+    },
+    {
+        "command": "cat /repo/conftest.py",
+        "returncode": 0,
+        "time": 0.6704733371734619
+    },
+    {
+        "GPT_time": 14.573169469833374
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"requirements*.in\" 2>/dev/null | head -20",
+        "returncode": 0,
+        "time": 0.720531702041626
+    },
+    {
+        "GPT_time": 3.8870580196380615
+    },
+    {
+        "command": "ls -la /repo/.pipreqs",
+        "returncode": 0,
+        "time": 0.6670165061950684
+    },
+    {
+        "command": "cat /repo/.github/workflows/*.yml 2>/dev/null | head -100",
+        "returncode": 0,
+        "time": 0.7224912643432617
+    },
+    {
+        "GPT_time": 3.0342605113983154
+    },
+    {
+        "command": "cat /repo/.github/workflows/*.yml 2>/dev/null | grep -A 50 \"pdm install\\|pip install\" | head -80",
+        "returncode": 0,
+        "time": 0.729844331741333
+    },
+    {
+        "GPT_time": 3.226804494857788
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.665041446685791
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 67.88157439231873
+    },
+    {
+        "GPT_time": 6.334851026535034
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6652107238769531
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 21.481480360031128
+    },
+    {
+        "GPT_time": 18.032387495040894
+    },
+    {
+        "command": "waitinglist add -p psutil",
+        "returncode": 0,
+        "time": 0.21310114860534668
+    },
+    {
+        "GPT_time": 2.1198809146881104
+    },
+    {
+        "command": "waitinglist add -p psutil -t pip",
+        "returncode": 0,
+        "time": 0.009907960891723633
+    },
+    {
+        "GPT_time": 1.946565866470337
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 2.1043641567230225
+    },
+    {
+        "GPT_time": 2.45093035697937
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6646513938903809
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 21.548848152160645
+    },
+    {
+        "GPT_time": 2.1493256092071533
+    },
+    {
+        "command": "waitinglist add -p imbalanced-learn -t pip",
+        "returncode": 0,
+        "time": 0.007331371307373047
+    },
+    {
+        "GPT_time": 1.833282232284546
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 6.602399826049805
+    },
+    {
+        "GPT_time": 8.941959381103516
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6654815673828125
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 14.782020092010498
+    },
+    {
+        "GPT_time": 3.5320444107055664
+    },
+    {
+        "command": "waitinglist add -p lightgbm -t pip",
+        "returncode": 0,
+        "time": 0.004610538482666016
+    },
+    {
+        "GPT_time": 1.419137716293335
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 2.622903823852539
+    },
+    {
+        "GPT_time": 1.739104986190796
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6641366481781006
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 17.875345706939697
+    },
+    {
+        "GPT_time": 2.7414727210998535
+    },
+    {
+        "command": "waitinglist add -p requests-mock -t pip",
+        "returncode": 0,
+        "time": 0.008478641510009766
+    },
+    {
+        "GPT_time": 2.1892096996307373
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 2.020308494567871
+    },
+    {
+        "GPT_time": 1.4628429412841797
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6629152297973633
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 15.72516131401062
+    },
+    {
+        "GPT_time": 3.2841053009033203
+    },
+    {
+        "command": "waitinglist add -p torch -t pip",
+        "returncode": 0,
+        "time": 0.007868289947509766
+    },
+    {
+        "GPT_time": 2.089649200439453
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 326.6324791908264
+    },
+    {
+        "GPT_time": 4.845096826553345
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6622896194458008
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 69.27515578269958
+    },
+    {
+        "GPT_time": 4.494992733001709
+    },
+    {
+        "command": "waitinglist add -p transformers -t pip",
+        "returncode": 0,
+        "time": 0.009019851684570312
+    },
+    {
+        "GPT_time": 5.5764689445495605
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 13.251571893692017
+    },
+    {
+        "GPT_time": 3.4064619541168213
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6645553112030029
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 20.15443778038025
+    },
+    {
+        "GPT_time": 2.7380926609039307
+    },
+    {
+        "command": "waitinglist add -p torchtext -t pip",
+        "returncode": 0,
+        "time": 0.008140087127685547
+    },
+    {
+        "GPT_time": 2.0076727867126465
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 5.032290458679199
+    },
+    {
+        "GPT_time": 1.9343881607055664
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6641409397125244
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 18.674134731292725
+    },
+    {
+        "GPT_time": 8.080152034759521
+    },
+    {
+        "command": "pip uninstall torch torchtext -y -q",
+        "returncode": 0,
+        "time": 3.999882221221924
+    },
+    {
+        "command": "waitinglist add -p \"torch>=2.0.0,<2.3.0\" -t pip",
+        "returncode": 0,
+        "time": 0.00610804557800293
+    },
+    {
+        "command": "waitinglist add -p \"torchtext>=0.15.1,<1.8\" -t pip",
+        "returncode": 0,
+        "time": 0.006505250930786133
+    },
+    {
+        "GPT_time": 1.6662354469299316
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 439.5220785140991
+    },
+    {
+        "GPT_time": 4.605609893798828
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.663212776184082
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 101.88983035087585
+    },
+    {
+        "GPT_time": 7.804218769073486
+    },
+    {
+        "command": "pip show torch torchtext | grep -E \"^(Name|Version)\"",
+        "returncode": 0,
+        "time": 1.2125186920166016
+    },
+    {
+        "GPT_time": 5.959428071975708
+    },
+    {
+        "command": "pip uninstall torch torchtext -y -q",
+        "returncode": 0,
+        "time": 5.570364713668823
+    },
+    {
+        "command": "waitinglist add -p torch==2.2.0 -t pip",
+        "returncode": 0,
+        "time": 0.007946014404296875
+    },
+    {
+        "command": "waitinglist add -p torchtext==0.17.0 -t pip",
+        "returncode": 0,
+        "time": 0.006987333297729492
+    },
+    {
+        "GPT_time": 1.67791748046875
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 143.6245527267456
+    },
+    {
+        "GPT_time": 4.292217493057251
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6644425392150879
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 45.29031491279602
+    },
+    {
+        "GPT_time": 13.121398448944092
+    },
+    {
+        "command": "waitinglist add -p xgboost -t pip",
+        "returncode": 0,
+        "time": 0.00889277458190918
+    },
+    {
+        "GPT_time": 1.7743306159973145
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 13.669012546539307
+    },
+    {
+        "GPT_time": 4.5593132972717285
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6618010997772217
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 18.965418338775635
+    },
+    {
+        "GPT_time": 10.131281852722168
+    },
+    {
+        "command": "waitinglist add -p nltk -t pip",
+        "returncode": 0,
+        "time": 0.0059909820556640625
+    },
+    {
+        "GPT_time": 6.789369106292725
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 4.095711946487427
+    },
+    {
+        "GPT_time": 5.114526271820068
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.660548210144043
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 20.986290216445923
+    },
+    {
+        "GPT_time": 8.435414552688599
+    },
+    {
+        "command": "waitinglist add -p bokeh -t pip",
+        "returncode": 0,
+        "time": 0.007444143295288086
+    },
+    {
+        "command": "waitinglist add -p langchain==0.1.0 -t pip",
+        "returncode": 0,
+        "time": 0.003549814224243164
+    },
+    {
+        "GPT_time": 4.2467920780181885
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 29.347065210342407
+    },
+    {
+        "GPT_time": 4.076515436172485
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6618988513946533
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 24.569501161575317
+    },
+    {
+        "GPT_time": 6.3246750831604
+    },
+    {
+        "command": "waitinglist add -p umap-learn -t pip",
+        "returncode": 0,
+        "time": 0.008321285247802734
+    },
+    {
+        "GPT_time": 2.357565402984619
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 9.706290006637573
+    },
+    {
+        "GPT_time": 9.6726815700531
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6641356945037842
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 49.97200798988342
+    },
+    {
+        "GPT_time": 4.14164924621582
+    },
+    {
+        "command": "waitinglist add -p matplotlib -t pip",
+        "returncode": 0,
+        "time": 0.005183696746826172
+    },
+    {
+        "GPT_time": 1.8424694538116455
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 7.248527765274048
+    },
+    {
+        "GPT_time": 13.45288872718811
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6626105308532715
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 41.847578048706055
+    },
+    {
+        "GPT_time": 4.054569721221924
+    },
+    {
+        "command": "waitinglist add -p datasets -t pip",
+        "returncode": 0,
+        "time": 0.008805513381958008
+    },
+    {
+        "GPT_time": 1.7979931831359863
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 7.80484676361084
+    },
+    {
+        "GPT_time": 1.7367191314697266
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6645898818969727
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 40.189165353775024
+    },
+    {
+        "GPT_time": 4.478058338165283
+    },
+    {
+        "command": "waitinglist add -p portalocker -t pip",
+        "returncode": 0,
+        "time": 0.008284807205200195
+    },
+    {
+        "command": "waitinglist add -p openai -t pip",
+        "returncode": 0,
+        "time": 0.00634312629699707
+    },
+    {
+        "command": "waitinglist add -p catboost -t pip",
+        "returncode": 0,
+        "time": 0.005860805511474609
+    },
+    {
+        "GPT_time": 1.9107043743133545
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 21.520995378494263
+    },
+    {
+        "GPT_time": 5.075048923492432
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6641595363616943
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 61.58467507362366
+    },
+    {
+        "GPT_time": 4.949059247970581
+    },
+    {
+        "command": "waitinglist add -p nemoguardrails -t pip",
+        "returncode": 0,
+        "time": 0.008241415023803711
+    },
+    {
+        "command": "waitinglist add -p wandb -t pip",
+        "returncode": 0,
+        "time": 0.007436037063598633
+    },
+    {
+        "command": "waitinglist add -p google-generativeai -t pip",
+        "returncode": 0,
+        "time": 0.0062100887298583984
+    },
+    {
+        "GPT_time": 3.7244696617126465
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 77.05951023101807
+    },
+    {
+        "GPT_time": 8.594137191772461
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6638598442077637
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 62.031768798828125
+    },
+    {
+        "GPT_time": 8.715495586395264
+    },
+    {
+        "command": "waitinglist add -p langchain-community -t pip",
+        "returncode": 0,
+        "time": 0.009140253067016602
+    },
+    {
+        "command": "waitinglist add -p tensorflow -t pip",
+        "returncode": 0,
+        "time": 0.007999658584594727
+    },
+    {
+        "command": "waitinglist add -p avid -t pip",
+        "returncode": 0,
+        "time": 0.005038261413574219
+    },
+    {
+        "GPT_time": 6.436452388763428
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 85.19572448730469
+    },
+    {
+        "GPT_time": 1.9313106536865234
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6645393371582031
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 65.91013288497925
+    },
+    {
+        "GPT_time": 31.62008261680603
+    },
+    {
+        "command": "waitinglist add -p langchain-core -t pip",
+        "returncode": 0,
+        "time": 0.007060050964355469
+    },
+    {
+        "command": "waitinglist add -p langchain-chains -t pip",
+        "returncode": 0,
+        "time": 0.007245063781738281
+    },
+    {
+        "GPT_time": 8.293131589889526
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 47.29539251327515
+    },
+    {
+        "GPT_time": 5.970256328582764
+    },
+    {
+        "command": "pip uninstall langchain langchain-community langchain-core -y -q",
+        "returncode": 0,
+        "time": 1.4991662502288818
+    },
+    {
+        "command": "pip install langchain==0.0.352 -q",
+        "returncode": 0,
+        "time": 6.501031875610352
+    },
+    {
+        "GPT_time": 2.694476366043091
+    },
+    {
+        "command": "pip uninstall langchain langchain-community langchain-core -y -q",
+        "returncode": 0,
+        "time": 2.268843173980713
+    },
+    {
+        "command": "pip install \"langchain>=0.2.0,<0.3.0\" \"langchain-community>=0.2.0,<0.3.0\" \"langchain-core>=0.2.0,<0.3.0\" -q",
+        "returncode": 0,
+        "time": 6.1391379833221436
+    },
+    {
+        "GPT_time": 7.867204189300537
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.662315845489502
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 55.61616802215576
+    },
+    {
+        "GPT_time": 5.213638544082642
+    },
+    {
+        "command": "waitinglist add -p avidtools -t pip",
+        "returncode": 0,
+        "time": 0.007544994354248047
+    },
+    {
+        "command": "waitinglist add -p boto3 -t pip",
+        "returncode": 0,
+        "time": 0.0043828487396240234
+    },
+    {
+        "GPT_time": 4.300636053085327
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 10.882478952407837
+    },
+    {
+        "GPT_time": 5.54513692855835
+    },
+    {
+        "command": "pip uninstall transformers -y -q",
+        "returncode": 0,
+        "time": 2.7283148765563965
+    },
+    {
+        "command": "pip install \"transformers[tensorflow]\" -q",
+        "returncode": 0,
+        "time": 9.248957872390747
+    },
+    {
+        "GPT_time": 3.014873504638672
+    },
+    {
+        "command": "pip uninstall transformers -y -q",
+        "returncode": 0,
+        "time": 4.16684627532959
+    },
+    {
+        "command": "pip install \"transformers>=4.30.0,<4.40.0\" -q",
+        "returncode": 0,
+        "time": 10.289013624191284
+    },
+    {
+        "GPT_time": 2.229379415512085
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6609256267547607
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 59.149614572525024
+    },
+    {
+        "GPT_time": 4.91895604133606
+    },
+    {
+        "command": "waitinglist add -p groq -t pip",
+        "returncode": 0,
+        "time": 0.005151510238647461
+    },
+    {
+        "GPT_time": 7.206820726394653
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 2.5002238750457764
+    }
+]

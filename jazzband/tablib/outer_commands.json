@@ -1,0 +1,118 @@
+[
+    {
+        "GPT_time": 2.6650328636169434
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6701810359954834
+    },
+    {
+        "GPT_time": 2.5542144775390625
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6678063869476318
+    },
+    {
+        "GPT_time": 4.062419652938843
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"setup.py\" 2>/dev/null",
+        "returncode": 0,
+        "time": 0.753096342086792
+    },
+    {
+        "GPT_time": 2.169241189956665
+    },
+    {
+        "command": "cat /repo/tests/requirements.txt",
+        "returncode": 0,
+        "time": 0.6671772003173828
+    },
+    {
+        "GPT_time": 1.9867987632751465
+    },
+    {
+        "command": "cat /repo/docs/requirements.txt",
+        "returncode": 0,
+        "time": 0.6677548885345459
+    },
+    {
+        "command": "ls -la /repo/src/",
+        "returncode": 0,
+        "time": 0.6689403057098389
+    },
+    {
+        "GPT_time": 3.4283089637756348
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.664238691329956
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.565608263015747
+    },
+    {
+        "GPT_time": 3.5859084129333496
+    },
+    {
+        "command": "waitinglist addfile /repo/tests/requirements.txt",
+        "returncode": 0,
+        "time": 0.02953314781188965
+    },
+    {
+        "GPT_time": 2.0963571071624756
+    },
+    {
+        "command": "ls -la /repo/tests/",
+        "returncode": 0,
+        "time": 0.6676442623138428
+    },
+    {
+        "GPT_time": 1.7088661193847656
+    },
+    {
+        "command": "waitinglist addfile /repo/tests/requirements.txt",
+        "returncode": 0,
+        "time": 0.03519105911254883
+    },
+    {
+        "GPT_time": 3.0791196823120117
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6619246006011963
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 4.212186336517334
+    },
+    {
+        "GPT_time": 2.070317506790161
+    },
+    {
+        "command": "pip install -q odfpy openpyxl>=2.6.0 pytest pytest-cov pyyaml tabulate xlrd xlwt",
+        "returncode": 0,
+        "time": 6.869396686553955
+    },
+    {
+        "GPT_time": 1.7480809688568115
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6646733283996582
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 3.15242075920105
+    }
+]

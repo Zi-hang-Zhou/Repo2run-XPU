@@ -1,0 +1,191 @@
+[
+    {
+        "GPT_time": 2.6398448944091797
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6704001426696777
+    },
+    {
+        "GPT_time": 3.0341317653656006
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6631999015808105
+    },
+    {
+        "GPT_time": 3.1464786529541016
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6645760536193848
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 12.229313135147095
+    },
+    {
+        "GPT_time": 3.2106544971466064
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6641192436218262
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 460.9499065876007
+    },
+    {
+        "GPT_time": 2.1124355792999268
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6641757488250732
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 132.11000204086304
+    },
+    {
+        "GPT_time": 16.56883144378662
+    },
+    {
+        "command": "waitinglist add -p scipy",
+        "returncode": 0,
+        "time": 0.2154231071472168
+    },
+    {
+        "GPT_time": 3.1332919597625732
+    },
+    {
+        "command": "waitinglist add -p scipy -t pip",
+        "returncode": 0,
+        "time": 0.009084224700927734
+    },
+    {
+        "GPT_time": 1.9632718563079834
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 11.797922849655151
+    },
+    {
+        "GPT_time": 1.8630344867706299
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6648931503295898
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 53.83934783935547
+    },
+    {
+        "GPT_time": 4.312412738800049
+    },
+    {
+        "command": "waitinglist add -p pytest-cov -t pip",
+        "returncode": 0,
+        "time": 0.008353233337402344
+    },
+    {
+        "GPT_time": 1.9076266288757324
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 6.781054973602295
+    },
+    {
+        "GPT_time": 1.9962680339813232
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6637485027313232
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 66.89635443687439
+    },
+    {
+        "GPT_time": 7.087318420410156
+    },
+    {
+        "command": "waitinglist add -p gitpython -t pip",
+        "returncode": 0,
+        "time": 0.00825047492980957
+    },
+    {
+        "command": "waitinglist add -p matplotlib -t pip",
+        "returncode": 0,
+        "time": 0.00570225715637207
+    },
+    {
+        "command": "waitinglist add -p polars -t pip",
+        "returncode": 0,
+        "time": 0.005826711654663086
+    },
+    {
+        "GPT_time": 1.7056365013122559
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 31.001723527908325
+    },
+    {
+        "GPT_time": 2.811162233352661
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6633012294769287
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 35.150174379348755
+    },
+    {
+        "GPT_time": 3.5468714237213135
+    },
+    {
+        "command": "waitinglist add -p s3fs -t pip",
+        "returncode": 0,
+        "time": 0.009741067886352539
+    },
+    {
+        "GPT_time": 1.5943849086761475
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 7.588428497314453
+    },
+    {
+        "GPT_time": 2.3650505542755127
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6637730598449707
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 16.91179633140564
+    }
+]

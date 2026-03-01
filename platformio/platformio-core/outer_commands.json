@@ -1,0 +1,159 @@
+[
+    {
+        "GPT_time": 1.982755422592163
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6691782474517822
+    },
+    {
+        "GPT_time": 2.8132383823394775
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.6693243980407715
+    },
+    {
+        "GPT_time": 3.1263301372528076
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"pyproject.toml\" -o -name \"poetry.lock\" 2>/dev/null",
+        "returncode": 0,
+        "time": 0.9635562896728516
+    },
+    {
+        "GPT_time": 2.229368209838867
+    },
+    {
+        "command": "cat /repo/platformio/dependencies.py",
+        "returncode": 0,
+        "time": 0.6677610874176025
+    },
+    {
+        "GPT_time": 8.796097993850708
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6655712127685547
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 10.493464231491089
+    },
+    {
+        "GPT_time": 2.480156898498535
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6659548282623291
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 15.171457052230835
+    },
+    {
+        "GPT_time": 2.8158462047576904
+    },
+    {
+        "command": "waitinglist add -p twisted",
+        "returncode": 0,
+        "time": 0.21623468399047852
+    },
+    {
+        "command": "waitinglist add -p jsondiff",
+        "returncode": 0,
+        "time": 0.2105114459991455
+    },
+    {
+        "GPT_time": 1.9781808853149414
+    },
+    {
+        "command": "waitinglist add -p twisted -t pip",
+        "returncode": 0,
+        "time": 0.008373022079467773
+    },
+    {
+        "command": "waitinglist add -p jsondiff -t pip",
+        "returncode": 0,
+        "time": 0.006703615188598633
+    },
+    {
+        "GPT_time": 1.8588390350341797
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 12.242958784103394
+    },
+    {
+        "GPT_time": 1.827089786529541
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.664405107498169
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 13.878806591033936
+    },
+    {
+        "GPT_time": 2.3159773349761963
+    },
+    {
+        "command": "waitinglist add -p pyopenssl -t pip",
+        "returncode": 0,
+        "time": 0.008279561996459961
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 3.217848539352417
+    },
+    {
+        "GPT_time": 1.7061963081359863
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6656150817871094
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 13.102123498916626
+    },
+    {
+        "GPT_time": 2.607900619506836
+    },
+    {
+        "command": "waitinglist add -p service_identity -t pip",
+        "returncode": 0,
+        "time": 0.008445501327514648
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 2.7929348945617676
+    },
+    {
+        "GPT_time": 2.223907709121704
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6645922660827637
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 2.4962124824523926
+    }
+]

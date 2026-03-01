@@ -1,0 +1,131 @@
+[
+    {
+        "name": "alabaster",
+        "version": "1.0.0"
+    },
+    {
+        "name": "babel",
+        "version": "2.18.0"
+    },
+    {
+        "name": "certifi",
+        "version": "2026.2.25"
+    },
+    {
+        "name": "charset-normalizer",
+        "version": "3.4.4"
+    },
+    {
+        "name": "colorama",
+        "version": "0.4.6"
+    },
+    {
+        "name": "docutils",
+        "version": "0.22.4"
+    },
+    {
+        "name": "idna",
+        "version": "3.11"
+    },
+    {
+        "name": "imagesize",
+        "version": "1.4.1"
+    },
+    {
+        "name": "iniconfig",
+        "version": "2.3.0"
+    },
+    {
+        "name": "Jinja2",
+        "version": "3.1.6"
+    },
+    {
+        "name": "libtmux",
+        "version": "0.53.1"
+    },
+    {
+        "name": "MarkupSafe",
+        "version": "3.0.3"
+    },
+    {
+        "name": "packaging",
+        "version": "26.0"
+    },
+    {
+        "name": "pip",
+        "version": "25.3"
+    },
+    {
+        "name": "pipdeptree",
+        "version": "2.31.0"
+    },
+    {
+        "name": "pluggy",
+        "version": "1.6.0"
+    },
+    {
+        "name": "Pygments",
+        "version": "2.19.2"
+    },
+    {
+        "name": "pytest",
+        "version": "9.0.2"
+    },
+    {
+        "name": "pytest-rerunfailures",
+        "version": "16.1"
+    },
+    {
+        "name": "PyYAML",
+        "version": "6.0.3"
+    },
+    {
+        "name": "requests",
+        "version": "2.32.5"
+    },
+    {
+        "name": "roman-numerals",
+        "version": "4.1.0"
+    },
+    {
+        "name": "snowballstemmer",
+        "version": "3.0.1"
+    },
+    {
+        "name": "Sphinx",
+        "version": "9.1.0"
+    },
+    {
+        "name": "sphinxcontrib-applehelp",
+        "version": "2.0.0"
+    },
+    {
+        "name": "sphinxcontrib-devhelp",
+        "version": "2.0.0"
+    },
+    {
+        "name": "sphinxcontrib-htmlhelp",
+        "version": "2.1.0"
+    },
+    {
+        "name": "sphinxcontrib-jsmath",
+        "version": "1.0.1"
+    },
+    {
+        "name": "sphinxcontrib-qthelp",
+        "version": "2.0.0"
+    },
+    {
+        "name": "sphinxcontrib-serializinghtml",
+        "version": "2.0.0"
+    },
+    {
+        "name": "tmuxp",
+        "version": "1.64.0",
+        "editable_project_location": "/repo"
+    },
+    {
+        "name": "urllib3",
+        "version": "2.6.3"
+    }
+]

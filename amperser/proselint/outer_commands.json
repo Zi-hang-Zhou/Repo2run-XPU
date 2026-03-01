@@ -1,0 +1,157 @@
+[
+    {
+        "GPT_time": 2.3086178302764893
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.670318603515625
+    },
+    {
+        "GPT_time": 4.3031721115112305
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.664039134979248
+    },
+    {
+        "GPT_time": 10.808013200759888
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"Pipfile*\" 2>/dev/null",
+        "returncode": 0,
+        "time": 0.8607678413391113
+    },
+    {
+        "command": "ls -la /repo/tests/",
+        "returncode": 0,
+        "time": 0.665860652923584
+    },
+    {
+        "GPT_time": 4.636621952056885
+    },
+    {
+        "command": "ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.665374755859375
+    },
+    {
+        "command": "ls -la /repo/proselint/",
+        "returncode": 0,
+        "time": 0.66400146484375
+    },
+    {
+        "GPT_time": 6.433305025100708
+    },
+    {
+        "command": "cat /repo/.github/workflows/*.yml 2>/dev/null || cat /repo/.github/workflows/*.yaml 2>/dev/null",
+        "returncode": 0,
+        "time": 0.8549230098724365
+    },
+    {
+        "GPT_time": 13.167683601379395
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6642017364501953
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.692068815231323
+    },
+    {
+        "GPT_time": 8.087130069732666
+    },
+    {
+        "command": "waitinglist add -p google-re2",
+        "returncode": 0,
+        "time": 0.22132587432861328
+    },
+    {
+        "command": "waitinglist add -p google-re2-stubs",
+        "returncode": 0,
+        "time": 0.214829683303833
+    },
+    {
+        "command": "waitinglist add -p hypothesis",
+        "returncode": 0,
+        "time": 0.21285438537597656
+    },
+    {
+        "command": "waitinglist add -p pytest",
+        "returncode": 0,
+        "time": 0.008663654327392578
+    },
+    {
+        "command": "waitinglist add -p pytest-cov",
+        "returncode": 0,
+        "time": 0.006764888763427734
+    },
+    {
+        "command": "waitinglist add -p rstr",
+        "returncode": 0,
+        "time": 0.2089986801147461
+    },
+    {
+        "GPT_time": 20.44241237640381
+    },
+    {
+        "command": "waitinglist add -p google-re2 -t pip",
+        "returncode": 0,
+        "time": 0.010111331939697266
+    },
+    {
+        "command": "waitinglist add -p google-re2-stubs -t pip",
+        "returncode": 0,
+        "time": 0.0054662227630615234
+    },
+    {
+        "command": "waitinglist add -p hypothesis -t pip",
+        "returncode": 0,
+        "time": 0.005834341049194336
+    },
+    {
+        "command": "waitinglist add -p pytest -t pip",
+        "returncode": 0,
+        "time": 0.005228519439697266
+    },
+    {
+        "command": "waitinglist add -p pytest-cov -t pip",
+        "returncode": 0,
+        "time": 0.006675004959106445
+    },
+    {
+        "command": "waitinglist add -p rstr -t pip",
+        "returncode": 0,
+        "time": 0.006234169006347656
+    },
+    {
+        "GPT_time": 2.0280442237854004
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 13.061615228652954
+    },
+    {
+        "GPT_time": 15.38203740119934
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6639597415924072
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 2.8029861450195312
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 2.077897071838379
+    }
+]

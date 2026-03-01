@@ -1,0 +1,153 @@
+[
+    {
+        "GPT_time": 2.0436456203460693
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6720123291015625
+    },
+    {
+        "GPT_time": 3.522237777709961
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6715588569641113
+    },
+    {
+        "GPT_time": 6.128947734832764
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"setup.py\" 2>/dev/null | head -20",
+        "returncode": 0,
+        "time": 0.9445593357086182
+    },
+    {
+        "GPT_time": 2.969423770904541
+    },
+    {
+        "command": "ls -la /repo/tests/",
+        "returncode": 0,
+        "time": 0.6707682609558105
+    },
+    {
+        "GPT_time": 4.443722248077393
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6645421981811523
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.375282764434814
+    },
+    {
+        "GPT_time": 3.7676963806152344
+    },
+    {
+        "command": "which uv",
+        "returncode": 0,
+        "time": 0.16358518600463867
+    },
+    {
+        "command": "uv --version",
+        "returncode": 0,
+        "time": 10.741316318511963
+    },
+    {
+        "GPT_time": 3.717499017715454
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6654276847839355
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 8.343009233474731
+    },
+    {
+        "GPT_time": 1.877584457397461
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6642515659332275
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.811355829238892
+    },
+    {
+        "GPT_time": 5.9826672077178955
+    },
+    {
+        "command": "waitinglist add -p nonebug -v \">=0.4.1,<0.5.0\" -t pip",
+        "returncode": 0,
+        "time": 0.009160757064819336
+    },
+    {
+        "command": "waitinglist add -p trio -v \">=0.27.0\" -t pip",
+        "returncode": 0,
+        "time": 0.007555723190307617
+    },
+    {
+        "command": "waitinglist add -p wsproto -v \">=1.2.0,<2.0.0\" -t pip",
+        "returncode": 0,
+        "time": 0.005742311477661133
+    },
+    {
+        "command": "waitinglist add -p werkzeug -v \">=2.3.6,<4.0.0\" -t pip",
+        "returncode": 0,
+        "time": 0.0036640167236328125
+    },
+    {
+        "command": "waitinglist add -p pytest-cov -v \">=7.0.0,<8.0.0\" -t pip",
+        "returncode": 0,
+        "time": 0.006601810455322266
+    },
+    {
+        "command": "waitinglist add -p pytest-xdist -v \">=3.0.2,<4.0.0\" -t pip",
+        "returncode": 0,
+        "time": 0.006187915802001953
+    },
+    {
+        "command": "waitinglist add -p coverage-conditional-plugin -v \">=0.9.0,<0.10.0\" -t pip",
+        "returncode": 0,
+        "time": 0.005563259124755859
+    },
+    {
+        "GPT_time": 2.138634204864502
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 173.64264607429504
+    },
+    {
+        "GPT_time": 14.132151126861572
+    },
+    {
+        "command": "pip install -q \"nonebug>=0.4.1,<0.5.0\" \"wsproto>=1.2.0,<2.0.0\" \"werkzeug>=2.3.6,<4.0.0\" \"pytest-cov>=7.0.0,<8.0.0\" \"pytest-xdist>=3.0.2,<4.0.0\" \"coverage-conditional-plugin>=0.9.0,<0.10.0\"",
+        "returncode": 0,
+        "time": 9.833259582519531
+    },
+    {
+        "GPT_time": 2.072653293609619
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6642606258392334
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 4.007671356201172
+    }
+]

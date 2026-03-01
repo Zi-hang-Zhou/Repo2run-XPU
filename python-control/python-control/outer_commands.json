@@ -1,0 +1,127 @@
+[
+    {
+        "GPT_time": 2.732741594314575
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6696608066558838
+    },
+    {
+        "GPT_time": 3.7998783588409424
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6678423881530762
+    },
+    {
+        "GPT_time": 4.900223731994629
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"Pipfile*\" -o -name \"environment.yml\" 2>/dev/null",
+        "returncode": 0,
+        "time": 0.9680418968200684
+    },
+    {
+        "GPT_time": 2.871724843978882
+    },
+    {
+        "command": "cat /repo/doc/requirements.txt",
+        "returncode": 0,
+        "time": 0.6663429737091064
+    },
+    {
+        "GPT_time": 2.8335306644439697
+    },
+    {
+        "command": "ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.6671178340911865
+    },
+    {
+        "command": "cat /repo/.github/workflows/*.yml 2>/dev/null | head -100",
+        "returncode": 0,
+        "time": 0.9676337242126465
+    },
+    {
+        "GPT_time": 12.51582670211792
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6643590927124023
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.852809429168701
+    },
+    {
+        "GPT_time": 12.852784633636475
+    },
+    {
+        "command": "waitinglist add -p numpy -v \">=1.23\" -t pip",
+        "returncode": 0,
+        "time": 0.0089263916015625
+    },
+    {
+        "command": "waitinglist add -p scipy -v \">=1.8\" -t pip",
+        "returncode": 0,
+        "time": 0.00595855712890625
+    },
+    {
+        "command": "waitinglist add -p matplotlib -v \">=3.6\" -t pip",
+        "returncode": 0,
+        "time": 0.00573420524597168
+    },
+    {
+        "command": "waitinglist add -p pytest -t pip",
+        "returncode": 0,
+        "time": 0.005290985107421875
+    },
+    {
+        "command": "waitinglist add -p pytest-timeout -t pip",
+        "returncode": 0,
+        "time": 0.007501125335693359
+    },
+    {
+        "command": "waitinglist add -p ruff -t pip",
+        "returncode": 0,
+        "time": 0.0064220428466796875
+    },
+    {
+        "command": "waitinglist add -p numpydoc -t pip",
+        "returncode": 0,
+        "time": 0.0050961971282958984
+    },
+    {
+        "GPT_time": 3.3516414165496826
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 50.50907778739929
+    },
+    {
+        "GPT_time": 7.266851425170898
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6638174057006836
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 8.693041801452637
+    },
+    {
+        "GPT_time": 2.1344716548919678
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 7.749115943908691
+    }
+]

@@ -1,0 +1,126 @@
+FROM python:3.10
+WORKDIR /
+COPY search_patch /search_patch
+COPY code_edit.py /code_edit.py
+RUN apt-get update && apt-get install -y curl
+RUN curl -sSL https://install.python-poetry.org | python -
+ENV PATH="/root/.local/bin:$PATH"
+RUN pip install pytest pytest-xdist
+RUN pip install pipdeptree
+RUN git clone https://github.com/yourlabs/django-autocomplete-light.git
+RUN mkdir /repo
+RUN git config --global --add safe.directory /repo
+RUN cp -r /django-autocomplete-light/. /repo && rm -rf /django-autocomplete-light/
+RUN rm -rf /django-autocomplete-light
+RUN find /repo -name "requirements*.txt" -o -name "requirements*.in" 2>/dev/null | head -20
+RUN cd /repo && pip install -e . -q
+RUN pip install pytest-django==4.12.0
+RUN pip install coverage==7.13.4
+RUN pip install django-extensions==4.1
+RUN pip install django-gm2m==1.3
+RUN pip install django-querysetsequence==0.18
+RUN pip install django-nested-admin==4.1.6
+RUN pip install django-taggit==6.1.0
+RUN pip install django-tagging==0.5.0
+RUN pip install mock==5.2.0
+RUN pip install selenium==4.41.0
+RUN pip install splinter==0.21.0
+RUN pip install pytest-cov==7.0.0
+RUN pip install pytest-splinter==3.3.2
+RUN pip install tenacity==9.1.4
+RUN pip install whitenoise==6.12.0
+RUN pip install django-debug-toolbar==6.2.0
+RUN pip install sqlparse==0.5.5
+RUN pip install djhacker==0.2.3
+RUN pip install setuptools==79.0.1
+RUN echo "aW5pX2ZpbGU9Jy9yZXBvL3B5dGVzdC5pbmknCmZpbGU9b3BlbihpbmlfZmlsZSkKcHJpbnQoZmlsZS5yZWFkKCkpCmZpbGUuY2xvc2UoKQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IG9zCnByaW50KG9zLmxpc3RkaXIoJy9yZXBvL3Rlc3RfcHJvamVjdC9zZXR0aW5ncycpKQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vcHl0ZXN0LmluaScsJ3InKSBhcyBmOgogICAgY29udGVudD1mLnJlYWQoKQpjb250ZW50PWNvbnRlbnQucmVwbGFjZSgnREpBTkdPX1NFVFRJTkdTX01PRFVMRT1zZXR0aW5ncy5iYXNlJywnREpBTkdPX1NFVFRJTkdTX01PRFVMRT10ZXN0X3Byb2plY3Quc2V0dGluZ3MuYmFzZScpCndpdGggb3BlbignL3JlcG8vcHl0ZXN0LmluaScsJ3cnKSBhcyBmOgogICAgZi53cml0ZShjb250ZW50KQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "ZmlsZT1vcGVuKCcvcmVwby9weXRlc3QuaW5pJykKcHJpbnQoZmlsZS5yZWFkKCkpCmZpbGUuY2xvc2UoKQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vcHl0ZXN0LmluaScsJ3InKSBhcyBmOgogICAgY29udGVudD1mLnJlYWQoKQpjb250ZW50PWNvbnRlbnQucmVwbGFjZSgnW3B5dGVzdF0nLCdbcHl0ZXN0XVxucHl0aG9ucGF0aD0vcmVwby90ZXN0X3Byb2plY3QnKQp3aXRoIG9wZW4oJy9yZXBvL3B5dGVzdC5pbmknLCd3JykgYXMgZjoKICAgIGYud3JpdGUoY29udGVudCk=" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "ZmlsZT1vcGVuKCcvcmVwby9weXRlc3QuaW5pJykKcHJpbnQoZmlsZS5yZWFkKCkpCmZpbGUuY2xvc2UoKQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IG9zCnByaW50KG9zLnBhdGguZXhpc3RzKCcvcmVwby90ZXN0X3Byb2plY3QvX19pbml0X18ucHknKSk=" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "b3BlbignL3JlcG8vdGVzdF9wcm9qZWN0L19faW5pdF9fLnB5JywndycpLndyaXRlKCcnKQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IG9zCm9zLmVudmlyb25bJ1BZVEhPTlBBVEgnXT0nL3JlcG8vdGVzdF9wcm9qZWN0Oicrb3MuZW52aXJvbi5nZXQoJ1BZVEhPTlBBVEgnLCcnKQpvcy5lbnZpcm9uWydESkFOR09fU0VUVElOR1NfTU9EVUxFJ109J3NldHRpbmdzLmJhc2UnCnByaW50KG9zLmVudmlyb24p" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vcHl0ZXN0LmluaScsJ3InKSBhcyBmOgogICAgY29udGVudD1mLnJlYWQoKQpjb250ZW50PWNvbnRlbnQucmVwbGFjZSgncHl0aG9ucGF0aD0vcmVwby90ZXN0X3Byb2plY3QnLCdweXRob25wYXRoPS9yZXBvJykKY29udGVudD1jb250ZW50LnJlcGxhY2UoJ0RKQU5HT19TRVRUSU5HU19NT0RVTEU9dGVzdF9wcm9qZWN0LnNldHRpbmdzLmJhc2UnLCdESkFOR09fU0VUVElOR1NfTU9EVUxFPXNldHRpbmdzLmJhc2UnKQp3aXRoIG9wZW4oJy9yZXBvL3B5dGVzdC5pbmknLCd3JykgYXMgZjoKICAgIGYud3JpdGUoY29udGVudCk=" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "ZmlsZT1vcGVuKCcvcmVwby9weXRlc3QuaW5pJykKcHJpbnQoZmlsZS5yZWFkKCkpCmZpbGUuY2xvc2UoKQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vcHl0ZXN0LmluaScsJ3InKSBhcyBmOgogICAgY29udGVudD1mLnJlYWQoKQpjb250ZW50PWNvbnRlbnQucmVwbGFjZSgncHl0aG9ucGF0aD0vcmVwbycsJ3B5dGhvbmxhdGg9L3JlcG8vdGVzdF9wcm9qZWN0JykKd2l0aCBvcGVuKCcvcmVwby9weXRlc3QuaW5pJywndycpIGFzIGY6CiAgICBmLndyaXRlKGNvbnRlbnQp" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "ZmlsZT1vcGVuKCcvcmVwby9weXRlc3QuaW5pJykKcHJpbnQoZmlsZS5yZWFkKCkpCmZpbGUuY2xvc2UoKQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vcHl0ZXN0LmluaScsJ3InKSBhcyBmOgogICAgY29udGVudD1mLnJlYWQoKQpjb250ZW50PWNvbnRlbnQucmVwbGFjZSgncHl0aG9ubGF0aD0vcmVwby90ZXN0X3Byb2plY3QnLCdweXRob25wYXRoPS9yZXBvL3Rlc3RfcHJvamVjdCcpCndpdGggb3BlbignL3JlcG8vcHl0ZXN0LmluaScsJ3cnKSBhcyBmOgogICAgZi53cml0ZShjb250ZW50KQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IG9zCnByaW50KG9zLmxpc3RkaXIoJy9yZXBvL3Rlc3RfcHJvamVjdC9zZXR0aW5ncycpKQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IGRqYW5nbzsgcHJpbnQoZGphbmdvLl9fdmVyc2lvbl9fKQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vc2V0dXAucHknLCdyJykgYXMgZjoKICAgIGNvbnRlbnQ9Zi5yZWFkKCkKcHJpbnQoY29udGVudCk=" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vdGVzdF9wcm9qZWN0L3NldHRpbmdzL2Jhc2UucHknLCdyJykgYXMgZjoKICAgIGNvbnRlbnQ9Zi5yZWFkKCkKcHJpbnQoY29udGVudCk=" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "ZmlsZT1vcGVuKCcvcmVwby9weXRlc3QuaW5pJykKcHJpbnQoZmlsZS5yZWFkKCkpCmZpbGUuY2xvc2UoKQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IG9zCnByaW50KG9zLnBhdGguZXhpc3RzKCcvcmVwby90ZXN0X3Byb2plY3Qvc2VsZWN0Ml9mb3JlaWduX2tleS9fX2luaXRfXy5weScpKQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vY29uZnRlc3QucHknLCdyJykgYXMgZjoKICAgIGNvbnRlbnQ9Zi5yZWFkKCkKcHJpbnQoY29udGVudCk=" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IG9zCnByaW50KG9zLnBhdGguZXhpc3RzKCcvcmVwby9weXRlc3QuaW5pJykp" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "d2l0aCBvcGVuKCcvcmVwby9weXRlc3QuaW5pJykgYXMgZjoKICAgIHByaW50KGYucmVhZCgpKQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IG9zCnByaW50KFt4IGZvciB4IGluIG9zLmxpc3RkaXIoJy9yZXBvL3Rlc3RfcHJvamVjdCcpIGlmIG9zLnBhdGguaXNkaXIob3MucGF0aC5qb2luKCcvcmVwby90ZXN0X3Byb2plY3QnLCB4KSkgYW5kIG5vdCBvcy5wYXRoLmV4aXN0cyhvcy5wYXRoLmpvaW4oJy9yZXBvL3Rlc3RfcHJvamVjdCcsIHgsICdfX2luaXRfXy5weScpKV0p" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IG9zCm9zLmVudmlyb25bJ1BZVEhPTlBBVEgnXT0nL3JlcG8vdGVzdF9wcm9qZWN0Oicrb3MuZW52aXJvbi5nZXQoJ1BZVEhPTlBBVEgnLCcnKQpvcy5lbnZpcm9uWydESkFOR09fU0VUVElOR1NfTU9EVUxFJ109J3NldHRpbmdzLmJhc2UnCnByaW50KG9zLmVudmlyb24p" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IG9zCmFwcHM9WydjdXN0b21fc2VsZWN0MicsJ2xpbmtlZF9kYXRhJywnbmFtZWRfZm9yd2FyZCcsJ3JlbmFtZV9mb3J3YXJkJywnc2VjdXJlX2RhdGEnLCdzZWxlY3QyX2RqaGFja2VyX2Zvcm1maWVsZCcsJ3NlbGVjdDJfZm9yZWlnbl9rZXknLCdzZWxlY3QyX2dlbmVyaWNfZm9yZWlnbl9rZXknLCdzZWxlY3QyX2dlbmVyaWNfbTJtJywnc2VsZWN0Ml9nbTJtJywnc2VsZWN0Ml9saXN0Jywnc2VsZWN0Ml9tYW55X3RvX21hbnknLCdzZWxlY3QyX25lc3RlZGFkbWluJywnc2VsZWN0Ml9vbmVfdG9fb25lJywnc2VsZWN0Ml90YWdnaXQnLCdzZWxlY3QyX3RhZ2dpbmcnLCdmb3J3YXJkX2RpZmZlcmVudF9maWVsZHMnLCdzZWxlY3QyX291dHNpZGVfYWRtaW4nXQpmb3IgYXBwIGluIGFwcHM6CiAgICBwYXRoPW9zLnBhdGguam9pbignL3JlcG8vdGVzdF9wcm9qZWN0JyxhcHAsJ19faW5pdF9fLnB5JykKICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhwYXRoKToKICAgICAgICBwcmludChmIkNyZWF0aW5nIHtwYXRofSIpCiAgICAgICAgb3BlbihwYXRoLCd3Jykud3JpdGUoJycpCiAgICBlbHNlOgogICAgICAgIHByaW50KGYiRXhpc3RzIHtwYXRofSIp" | base64 -d > /tmp/r.py
+RUN echo "aW1wb3J0IG9zCmFwcHM9W10KZm9yIHggaW4gb3MubGlzdGRpcignL3JlcG8vdGVzdF9wcm9qZWN0Jyk6CiAgICBwYXRoPW9zLnBhdGguam9pbignL3JlcG8vdGVzdF9wcm9qZWN0Jyx4KQogICAgaWYgb3MucGF0aC5pc2RpcihwYXRoKSBhbmQgbm90IHguc3RhcnRzd2l0aCgnXycpIGFuZCB4IG5vdCBpbiBbJ3NldHRpbmdzJywndGVtcGxhdGVzJywnZGF0YScsJ2xvZyddOgogICAgICAgIGFwcHMuYXBwZW5kKHgpCiAgICAgICAgcHJpbnQoZiJGb3VuZCBhcHA6IHt4fSIpCnByaW50KGYiVG90YWwgYXBwczoge2xlbihhcHBzKX0iKQpmb3IgYXBwIGluIGFwcHM6CiAgICBwYXRoPW9zLnBhdGguam9pbignL3JlcG8vdGVzdF9wcm9qZWN0JyxhcHAsJ19faW5pdF9fLnB5JykKICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhwYXRoKToKICAgICAgICBwcmludChmIkNyZWF0aW5nIHtwYXRofSIpCiAgICAgICAgb3BlbihwYXRoLCd3Jykud3JpdGUoJycpCiAgICBlbHNlOgogICAgICAgIHByaW50KGYiRXhpc3RzIHtwYXRofSIp" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vcHl0ZXN0LmluaScsJ3InKSBhcyBmOgogICAgY29udGVudD1mLnJlYWQoKQpwcmludChjb250ZW50KQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IGRqYW5nbzsgcHJpbnQoZGphbmdvLl9fdmVyc2lvbl9fKQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vc2V0dXAucHknLCdyJykgYXMgZjoKICAgIGNvbnRlbnQ9Zi5yZWFkKCkKcHJpbnQoY29udGVudCk=" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vdGVzdF9wcm9qZWN0L3NldHRpbmdzL2Jhc2UucHknLCdyJykgYXMgZjoKICAgIGNvbnRlbnQ9Zi5yZWFkKCkKcHJpbnQoY29udGVudCk=" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vdGVzdF9wcm9qZWN0L3NldHRpbmdzL2Jhc2UucHknLCdyJykgYXMgZjoKICAgIGNvbnRlbnQ9Zi5yZWFkKCkKbmV3X2NvbnRlbnQ9Y29udGVudC5yZXBsYWNlKCJpbnN0YWxsZWRfYXBwcyA9IFsiLCJJTlNUQUxMRURfQVBQUyA9IFsnZGFsX2N1c3RvbV9zZWxlY3QyJywiKQp3aXRoIG9wZW4oJy9yZXBvL3Rlc3RfcHJvamVjdC9zZXR0aW5ncy9iYXNlLnB5JywndycpIGFzIGY6CiAgICBmLndyaXRlKG5ld19jb250ZW50KQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vdGVzdF9wcm9qZWN0L3NldHRpbmdzL2Jhc2UucHknLCdyJykgYXMgZjoKICAgIGNvbnRlbnQ9Zi5yZWFkKCkKcHJpbnQoY29udGVudFs1MDA6MTUwMF0p" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vY29uZnRlc3QucHknLCdyJykgYXMgZjoKICAgIGNvbnRlbnQ9Zi5yZWFkKCkKcHJpbnQoY29udGVudCk=" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vdGVzdF9wcm9qZWN0L2xpbmtlZF9kYXRhL3Rlc3Rfdmlld3MucHknLCdyJykgYXMgZjoKICAgIGNvbnRlbnQ9Zi5yZWFkKCkKcHJpbnQoY29udGVudFs1MDA6MTUwMF0p" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vcHl0ZXN0LmluaScsJ3InKSBhcyBmOgogICAgY29udGVudD1mLnJlYWQoKQpwcmludChjb250ZW50KQ==" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IG9zCmFwcHM9WydjdXN0b21fc2VsZWN0MicsJ2xpbmtlZF9kYXRhJywnbmFtZWRfZm9yd2FyZCcsJ3JlbmFtZV9mb3J3YXJkJywnc2VjdXJlX2RhdGEnLCdzZWxlY3QyX2RqaGFja2VyX2Zvcm1maWVsZCcsJ3NlbGVjdDJfZm9yZWlnbl9rZXknLCdzZWxlY3QyX2dlbmVyaWNfZm9yZWlnbl9rZXknLCdzZWxlY3QyX2dlbmVyaWNfbTJtJywnc2VsZWN0Ml9nbTJtJywnc2VsZWN0Ml9saXN0Jywnc2VsZWN0Ml9tYW55X3RvX21hbnknLCdzZWxlY3QyX25lc3RlZGFkbWluJywnc2VsZWN0Ml9vbmVfdG9fb25lJywnc2VsZWN0Ml90YWdnaXQnLCdzZWxlY3QyX3RhZ2dpbmcnLCdmb3J3YXJkX2RpZmZlcmVudF9maWVsZHMnLCdzZWxlY3QyX291dHNpZGVfYWRtaW4nXQpmb3IgYXBwIGluIGFwcHM6CiAgICBwYXRoPW9zLnBhdGguam9pbignL3JlcG8vdGVzdF9wcm9qZWN0JyxhcHAsJ19faW5pdF9fLnB5JykKICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhwYXRoKToKICAgICAgICBwcmludChmIkNyZWF0aW5nIHtwYXRofSIpCiAgICAgICAgb3BlbihwYXRoLCd3Jykud3JpdGUoJycpCiAgICBlbHNlOgogICAgICAgIHByaW50KGYiRXhpc3RzIHtwYXRofSIp" | base64 -d > /tmp/r.py
+RUN echo "aW1wb3J0IG9zCmFwcHM9WydjdXN0b21fc2VsZWN0MicsJ2xpbmtlZF9kYXRhJywnbmFtZWRfZm9yd2FyZCcsJ3JlbmFtZV9mb3J3YXJkJywnc2VjdXJlX2RhdGEnLCdzZWxlY3QyX2RqaGFja2VyX2Zvcm1maWVsZCcsJ3NlbGVjdDJfZm9yZWlnbl9rZXknLCdzZWxlY3QyX2dlbmVyaWNfZm9yZWlnbl9rZXknLCdzZWxlY3QyX2dlbmVyaWNfbTJtJywnc2VsZWN0Ml9nbTJtJywnc2VsZWN0Ml9saXN0Jywnc2VsZWN0Ml9tYW55X3RvX21hbnknLCdzZWxlY3QyX25lc3RlZGFkbWluJywnc2VsZWN0Ml9vbmVfdG9fb25lJywnc2VsZWN0Ml90YWdnaXQnLCdzZWxlY3QyX3RhZ2dpbmcnLCdmb3J3YXJkX2RpZmZlcmVudF9maWVsZHMnLCdzZWxlY3QyX291dHNpZGVfYWRtaW4nXQpmb3IgYXBwIGluIGFwcHM6CiAgICBkaXI9b3MucGF0aC5qb2luKCcvcmVwby90ZXN0X3Byb2plY3QnLGFwcCkKICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhkaXIpOgogICAgICAgIG9zLm1ha2VkaXJzKGRpcikKICAgICAgICBwcmludChmIkNyZWF0ZWQgZGlyIHtkaXJ9IikKICAgIHBhdGg9b3MucGF0aC5qb2luKGRpciwgJ19faW5pdF9fLnB5JykKICAgIGlmIG5vdCBvcy5wYXRoLmV4aXN0cyhwYXRoKToKICAgICAgICBvcGVuKHBhdGgsJ3cnKS53cml0ZSgnJykKICAgICAgICBwcmludChmIkNyZWF0ZWQge3BhdGh9IikKICAgIGVsc2U6CiAgICAgICAgcHJpbnQoZiJFeGlzdHMge3BhdGh9Iik=" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vdGVzdF9wcm9qZWN0L3NldHRpbmdzL2Jhc2UucHknLCdyJykgYXMgZjoKICAgIGNvbnRlbnQ9Zi5yZWFkKCkKcHJpbnQoY29udGVudCk=" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vdGVzdF9wcm9qZWN0L3NldHRpbmdzL2Jhc2UucHknLCdyJykgYXMgZjoKICAgIGNvbnRlbnQ9Zi5yZWFkKCkKbmV3X2NvbnRlbnQ9Y29udGVudC5yZXBsYWNlKCJpZiBkamFuZ28uVkVSU0lPTiA8ICgyLCAwLCAwKToiLCIjIGFsd2F5cyBpbmNsdWRlIHRlc3QgYXBwcyIpCm5ld19jb250ZW50PW5ld19jb250ZW50LnJlcGxhY2UoIiAgICAjIHBlbmRpbmcgdXBzdHJlYW0gc3VwcG9ydCBmb3IgZGogMi4wIiwiIikKd2l0aCBvcGVuKCcvcmVwby90ZXN0X3Byb2plY3Qvc2V0dGluZ3MvYmFzZS5weScsJ3cnKSBhcyBmOgogICAgZi53cml0ZShuZXdfY29udGVudCk=" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3JlcG8vdGVzdF9wcm9qZWN0L2xpbmtlZF9kYXRhL3Rlc3Rfdmlld3MucHknLCdyJykgYXMgZjoKICAgIGNvbnRlbnQ9Zi5yZWFkKCkKbmV3X2NvbnRlbnQ9Y29udGVudC5yZXBsYWNlKCdmb3JjZV90ZXh0JywnZm9yY2Vfc3RyJykKd2l0aCBvcGVuKCcvcmVwby90ZXN0X3Byb2plY3QvbGlua2VkX2RhdGEvdGVzdF92aWV3cy5weScsJ3cnKSBhcyBmOgogICAgZi53cml0ZShuZXdfY29udGVudCk=" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN pip show django-tagging
+RUN echo "aW1wb3J0IHJlCndpdGggb3BlbignL3Vzci9sb2NhbC9saWIvcHl0aG9uMy4xMC9zaXRlLXBhY2thZ2VzL3RhZ2dpbmcvbW9kZWxzLnB5JywgJ3InKSBhcyBmOgogICAgY29udGVudD1mLnJlYWQoKQpuZXdfY29udGVudD1jb250ZW50LnJlcGxhY2UoJ3NtYXJ0X3RleHQnLCdzbWFydF9zdHInKQp3aXRoIG9wZW4oJy91c3IvbG9jYWwvbGliL3B5dGhvbjMuMTAvc2l0ZS1wYWNrYWdlcy90YWdnaW5nL21vZGVscy5weScsICd3JykgYXMgZjoKICAgIGYud3JpdGUobmV3X2NvbnRlbnQp" | base64 -d > /tmp/r.py
+RUN python /tmp/r.py
+RUN cd /repo && runtest 2>&1 | head -100
+RUN cd /repo && which runtest || find / -name "runtest" -type f 2>/dev/null | head -5
+ENV DJANGO_SETTINGS_MODULE=settings.base
+ENV PYTHONPATH=/repo/test_project
+ENV DJANGO_SETTINGS_MODULE=settings.base
+ENV PYTHONPATH=/repo/test_project
+ENV DJANGO_SETTINGS_MODULE=settings.base
+ENV PYTHONPATH=/repo/test_project

@@ -1,0 +1,81 @@
+diff --git a/pytest.ini b/pytest.ini
+index c72a58e..ee36c73 100644
+--- a/pytest.ini
++++ b/pytest.ini
+@@ -1,4 +1,5 @@
+ [pytest]
++pythonpath=/repo/test_project
+ addopts = --nomigrations --create-db --reuse-db
+ DJANGO_SETTINGS_MODULE=settings.base
+ django_debug_mode=true
+diff --git a/test_project/linked_data/test_views.py b/test_project/linked_data/test_views.py
+index 360477e..96d6640 100644
+--- a/test_project/linked_data/test_views.py
++++ b/test_project/linked_data/test_views.py
+@@ -7,7 +7,7 @@ try:
+     from django.urls import reverse
+ except ImportError:
+     from django.core.urlresolvers import reverse
+-from django.utils.encoding import force_text
++from django.utils.encoding import force_str
+ 
+ from .models import TModel
+ from .urls import LinkedDataView
+@@ -24,7 +24,7 @@ class ViewMixinTest(test.TestCase):  # noqa
+ 
+         response = LinkedDataView.as_view(model=TModel)(request)
+         self.assertEqual(response.status_code, 200)
+-        self.assertJSONEqual(force_text(response.content),
++        self.assertJSONEqual(force_str(response.content),
+                              '{"results": [], "pagination": {"more": false}}')
+ 
+     def test_not_dict(self):
+@@ -34,7 +34,7 @@ class ViewMixinTest(test.TestCase):  # noqa
+ 
+         response = LinkedDataView.as_view(model=TModel)(request)
+         self.assertEqual(response.status_code, 400)
+-        self.assertEqual(force_text(response.content), 'Not a JSON object')
++        self.assertEqual(force_str(response.content), 'Not a JSON object')
+ 
+     def test_invalid_json(self):
+         request = self.factory.get(
+@@ -43,7 +43,7 @@ class ViewMixinTest(test.TestCase):  # noqa
+ 
+         response = LinkedDataView.as_view(model=TModel)(request)
+         self.assertEqual(response.status_code, 400)
+-        self.assertEqual(force_text(response.content), 'Invalid JSON data')
++        self.assertEqual(force_str(response.content), 'Invalid JSON data')
+ 
+     def test_invalid_method(self):
+         request = self.factory.put(reverse('linked_data'))
+diff --git a/test_project/settings/base.py b/test_project/settings/base.py
+index 897d991..d4d4458 100644
+--- a/test_project/settings/base.py
++++ b/test_project/settings/base.py
+@@ -94,16 +94,16 @@ INSTALLED_APPS = [
+     'django_extensions',
+ ]
+ 
+-if django.VERSION < (2, 0, 0):
+-    # pending upstream support for dj 2.0
+-    INSTALLED_APPS += [
+-        'gm2m',
+-        'select2_gm2m',
+-        'genericm2m',
+-        'select2_generic_m2m',
+-        'select2_tagging',
+-        'tagging',
+-    ]
++# always include test apps
++
++INSTALLED_APPS += [
++    'gm2m',$
++    'select2_gm2m',$
++    'genericm2m',$
++    'select2_generic_m2m',$
++    'select2_tagging',$
++    'tagging',$
++]
+ 
+ INSTALLED_APPS = INSTALLED_APPS + ['django.contrib.admin']
+ 

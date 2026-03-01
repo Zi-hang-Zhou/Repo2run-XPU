@@ -1,0 +1,216 @@
+[
+    {
+        "GPT_time": 2.1234524250030518
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6654374599456787
+    },
+    {
+        "GPT_time": 3.9448773860931396
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6675093173980713
+    },
+    {
+        "GPT_time": 4.970571994781494
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6652419567108154
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.594904661178589
+    },
+    {
+        "GPT_time": 2.8027045726776123
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6633169651031494
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 8.597642660140991
+    },
+    {
+        "GPT_time": 2.727720022201538
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6626701354980469
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 16.13660192489624
+    },
+    {
+        "GPT_time": 2.3385303020477295
+    },
+    {
+        "command": "waitinglist add -p pytest-cov",
+        "returncode": 0,
+        "time": 0.008154153823852539
+    },
+    {
+        "GPT_time": 2.6011505126953125
+    },
+    {
+        "command": "pip install -q pytest-cov",
+        "returncode": 0,
+        "time": 2.8098232746124268
+    },
+    {
+        "GPT_time": 2.263792037963867
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6654829978942871
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 14.524397611618042
+    },
+    {
+        "GPT_time": 3.192403793334961
+    },
+    {
+        "command": "waitinglist add -p numpy",
+        "returncode": 0,
+        "time": 0.22576045989990234
+    },
+    {
+        "command": "waitinglist add -p pandas",
+        "returncode": 0,
+        "time": 0.20592141151428223
+    },
+    {
+        "command": "waitinglist add -p selenium",
+        "returncode": 0,
+        "time": 0.20815157890319824
+    },
+    {
+        "GPT_time": 2.5953996181488037
+    },
+    {
+        "command": "waitinglist add -p numpy -t pip",
+        "returncode": 0,
+        "time": 0.004721164703369141
+    },
+    {
+        "command": "waitinglist add -p pandas -t pip",
+        "returncode": 0,
+        "time": 0.0034456253051757812
+    },
+    {
+        "command": "waitinglist add -p selenium -t pip",
+        "returncode": 0,
+        "time": 0.0033919811248779297
+    },
+    {
+        "GPT_time": 3.4109089374542236
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 22.38163661956787
+    },
+    {
+        "GPT_time": 16.050106287002563
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6630003452301025
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 17.648043632507324
+    },
+    {
+        "GPT_time": 5.8294007778167725
+    },
+    {
+        "command": "waitinglist add -p polars -t pip",
+        "returncode": 0,
+        "time": 0.00954437255859375
+    },
+    {
+        "command": "waitinglist add -p requests -t pip",
+        "returncode": 0,
+        "time": 0.0074460506439208984
+    },
+    {
+        "command": "waitinglist add -p shiny -t pip",
+        "returncode": 0,
+        "time": 0.006788015365600586
+    },
+    {
+        "GPT_time": 2.0276100635528564
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 22.802654027938843
+    },
+    {
+        "GPT_time": 2.4522271156311035
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6646909713745117
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 17.96746802330017
+    },
+    {
+        "GPT_time": 2.3092784881591797
+    },
+    {
+        "command": "waitinglist add -p ipykernel -t pip",
+        "returncode": 0,
+        "time": 0.00900411605834961
+    },
+    {
+        "command": "waitinglist add -p pyarrow -t pip",
+        "returncode": 0,
+        "time": 0.007048368453979492
+    },
+    {
+        "GPT_time": 2.277614116668701
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 17.14079451560974
+    },
+    {
+        "GPT_time": 2.4313461780548096
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6651711463928223
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 7.607750415802002
+    }
+]
