@@ -107,6 +107,13 @@ class Sandbox:
         self.commands = list()
         self.full_name = repo_full_name
         self.root_path = root_path
+
+    def _get_patch_dir(self):
+        """获取该仓库专属的 patch 目录，避免多进程共享 /tmp/patch 导致冲突"""
+        repo_tag = self.full_name.lower().replace('/', '_').replace('-', '_')
+        patch_dir = f'/tmp/patch_{repo_tag}'
+        os.makedirs(patch_dir, exist_ok=True)
+        return patch_dir
     
     def generate_dockerfile(self):
         if not self.namespace.lower().strip().split(':')[0] == 'python':
@@ -160,10 +167,11 @@ RUN mkdir -p /repo && git config --global --add safe.directory /repo
     
     def build_image(self):
         dockerfile_path = self.generate_dockerfile()
-        self.namespace = 'build_env_' + self.namespace
+        # 使用仓库名作为镜像标签的一部分，避免多进程并行时镜像名冲突
+        repo_tag = self.full_name.lower().replace('/', '_').replace('-', '_')
+        self.namespace = f'build_env_{repo_tag}'
 
         try:
-            # subprocess.run(["docker", "build", ".", "--no-cache", "-t", self.namespace], cwd=dockerfile_path, check=True)
             subprocess.run(["docker", "build", "--network=host", ".", "-t", self.namespace], cwd=dockerfile_path, check=True)
             return True
         except subprocess.CalledProcessError as e:
@@ -199,8 +207,7 @@ RUN mkdir -p /repo && git config --global --add safe.directory /repo
 
     def commit_container(self):
         try:
-            delete_dangling_image()
-            # 将容器提交成固定名称的镜像
+            # 将容器提交成固定名称的镜像（不再全局清理 dangling images，避免影响并行进程）
             image = self.container.commit(repository=f"{self.full_name.lower().replace('/', '_').replace('-', '_')}", tag='tmp')
             # subprocess.run(f'docker commit {self.container.name} running_env:tmp', shell=True)
             # print(f"Container {self.container.name} committed as image running_env:tmp.")
@@ -215,7 +222,6 @@ RUN mkdir -p /repo && git config --global --add safe.directory /repo
         用于支持 reset_environment 命令，使 Agent 能回退到干净的初始状态。
         """
         try:
-            delete_dangling_image()
             repo_tag = f"{self.full_name.lower().replace('/', '_').replace('-', '_')}"
             self.container.commit(repository=repo_tag, tag='init')
             print(f"[Sandbox] Initial state saved as {repo_tag}:init")
@@ -237,9 +243,8 @@ RUN mkdir -p /repo && git config --global --add safe.directory /repo
             if self.container:
                 self.container.stop()
                 self.container.remove()
-                delete_dangling_image()
 
-            host_path = '/tmp/patch'
+            host_path = self._get_patch_dir()
             container_path = '/tmp/patch'
             # 从 init 镜像启动新容器
             self.container = self.client.containers.run(
@@ -251,7 +256,6 @@ RUN mkdir -p /repo && git config --global --add safe.directory /repo
                 privileged=True,
                 mem_limit='30g',
                 network_mode='host',
-                cpuset_cpus='0-19',
             )
 
             # 清空命令历史（因为已回到初始状态，之前的命令不再有效）
@@ -279,9 +283,8 @@ RUN mkdir -p /repo && git config --global --add safe.directory /repo
             if self.container:
                 self.container.stop()
                 self.container.remove()
-                delete_dangling_image()
-            
-            host_path = '/tmp/patch'
+
+            host_path = self._get_patch_dir()
             container_path = '/tmp/patch'
             # 创建并启动一个新的容器，使用 tmp 镜像
             self.container = self.client.containers.run(
@@ -293,7 +296,6 @@ RUN mkdir -p /repo && git config --global --add safe.directory /repo
                 privileged=True,
                 mem_limit='30g',
                 network_mode='host',
-                cpuset_cpus='0-19',
                 )
 
             # 启动新的 shell 会话
@@ -323,16 +325,17 @@ RUN mkdir -p /repo && git config --global --add safe.directory /repo
                 # sys.exit(1)
                 raise Exception('Build image error!')
         image = f"{self.namespace}"
-        host_path = '/tmp/patch'
+        host_path = self._get_patch_dir()
         container_path = '/tmp/patch'
         try:
             self.container = self.client.containers.run(
-                image, 
-                detach=True, 
-                tty=True, 
-                stdin_open=True, 
+                image,
+                detach=True,
+                tty=True,
+                stdin_open=True,
                 privileged=True,
                 volumes={host_path: {'bind': container_path, 'mode': 'rw'}},
+                mem_limit='30g',
                 network_mode="host"
                 )
 
@@ -734,7 +737,16 @@ Explanation: Clear all the items in the waiting list.'''
             self.container.remove()
             print(f"Container {self.container.short_id} stopped and removed")
             self.container = None
-            subprocess.run(f"docker rmi {self.full_name.lower().replace('/', '_').replace('-', '_')}:tmp > /dev/null 2>&1", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            repo_tag = self.full_name.lower().replace('/', '_').replace('-', '_')
+            # 清理该仓库的 Docker 镜像
+            subprocess.run(f"docker rmi {repo_tag}:tmp > /dev/null 2>&1", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            subprocess.run(f"docker rmi {repo_tag}:init > /dev/null 2>&1", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            subprocess.run(f"docker rmi build_env_{repo_tag} > /dev/null 2>&1", shell=True, stdout=subprocess.PIPE, stderr=subprocess.PIPE)
+            # 清理该仓库的 patch 目录
+            patch_dir = f'/tmp/patch_{repo_tag}'
+            if os.path.exists(patch_dir):
+                import shutil
+                shutil.rmtree(patch_dir, ignore_errors=True)
         return self.commands
 
 

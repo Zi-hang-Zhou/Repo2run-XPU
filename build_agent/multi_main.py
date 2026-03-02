@@ -77,8 +77,8 @@ def run_command(command):
         print(f"[{full_name}] Error: Unexpected exception: {e}")
 
 if __name__ == '__main__':
-    # 初始清理
-    os.system('docker rm -f $(docker ps -aq) > /dev/null 2>&1')
+    # 初始清理：只清理已停止的容器，不影响其他正在运行的任务
+    os.system('docker container prune -f > /dev/null 2>&1')
 
     if len(sys.argv) != 2:
         print('Usage: python multi_main.py <script_path>')
@@ -96,10 +96,11 @@ if __name__ == '__main__':
 
     random.shuffle(commands)
 
-    print(f"Loaded {len(commands)} tasks. Starting multiprocessing pool (3 processes)...")
+    # 根据系统资源决定并发数（默认 3，可通过环境变量 POOL_SIZE 调整）
+    pool_size = int(os.environ.get('POOL_SIZE', '3'))
+    print(f"Loaded {len(commands)} tasks. Starting multiprocessing pool ({pool_size} processes)...")
 
-    # 创建进程池，最多同时运行 1 个进程
-    with multiprocessing.Pool(processes=1) as pool:
+    with multiprocessing.Pool(processes=pool_size) as pool:
         pool.map(run_command, commands)
     
     print("All tasks completed.")

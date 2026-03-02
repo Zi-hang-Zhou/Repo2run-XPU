@@ -284,15 +284,16 @@ VERY IMPORTANT TIPS:
         openai.api_key = os.environ["OPENAI_API_KEY"]
         openai.api_base = os.environ.get("OPENAI_API_BASE", "https://api.openai.com/v1") # 它会读取您 export 的变量
         openai.verify_ssl_certs = False # <--- 在这里添加这一行
-        if "gpt" in self.model:
+        if "claude" in self.model:
+            # Claude 不支持 system message，合并到 user message
+            claude_prompt = f"{self.init_prompt} \n[Project root Path]: /repo"
+            user_message = {"role": "user", "content": claude_prompt}
+            self.messages.append(user_message)
+        else:
+            # GPT / glm / 其他模型：使用标准 system + user message
             system_message = {"role": "system", "content": self.init_prompt}
             self.messages.append(system_message)
             user_message = {"role": "user", "content": f"[Project root Path]: /repo"}
-            self.messages.append(user_message)
-        else:
-            assert "claude" in self.model
-            claude_prompt = f"{self.init_prompt} \n[Project root Path]: /repo"
-            user_message = {"role": "user", "content": claude_prompt}
             self.messages.append(user_message)
 
         turn = 0

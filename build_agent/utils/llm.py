@@ -48,7 +48,11 @@ def get_llm_response(model: str, messages, temperature = 0.0, n = 1, max_tokens 
                 print(f"API 代理返回错误: {response_json['error']}")
                 raise Exception(response_json['error'])
 
-            result_text = response_json["choices"][0]["message"]["content"]
+            msg = response_json["choices"][0]["message"]
+            result_text = msg.get("content")
+            # 兼容推理模型（如 glm-4.6）：content 为空时取 reasoning_content
+            if not result_text:
+                result_text = msg.get("reasoning_content", "")
             usage_data = response_json.get("usage", {"total_tokens": 0, "prompt_tokens": 0, "completion_tokens": 0})
 
             return [result_text], usage_data
