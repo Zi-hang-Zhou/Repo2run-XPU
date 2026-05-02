@@ -1,0 +1,379 @@
+[
+    {
+        "name": "annotated-types",
+        "version": "0.7.0"
+    },
+    {
+        "name": "antlr4-python3-runtime",
+        "version": "4.13.2"
+    },
+    {
+        "name": "attrs",
+        "version": "26.1.0"
+    },
+    {
+        "name": "aws-sam-translator",
+        "version": "1.103.0"
+    },
+    {
+        "name": "aws-xray-sdk",
+        "version": "2.15.0"
+    },
+    {
+        "name": "azure-common",
+        "version": "1.1.28"
+    },
+    {
+        "name": "azure-core",
+        "version": "1.39.0"
+    },
+    {
+        "name": "azure-storage-blob",
+        "version": "12.28.0"
+    },
+    {
+        "name": "bcrypt",
+        "version": "5.0.0"
+    },
+    {
+        "name": "blinker",
+        "version": "1.9.0"
+    },
+    {
+        "name": "boto3",
+        "version": "1.42.88"
+    },
+    {
+        "name": "botocore",
+        "version": "1.42.88"
+    },
+    {
+        "name": "certifi",
+        "version": "2026.2.25"
+    },
+    {
+        "name": "cffi",
+        "version": "2.0.0"
+    },
+    {
+        "name": "cfn-lint",
+        "version": "1.41.0"
+    },
+    {
+        "name": "charset-normalizer",
+        "version": "3.4.7"
+    },
+    {
+        "name": "click",
+        "version": "8.3.2"
+    },
+    {
+        "name": "cryptography",
+        "version": "46.0.7"
+    },
+    {
+        "name": "docker",
+        "version": "7.1.0"
+    },
+    {
+        "name": "exceptiongroup",
+        "version": "1.3.1"
+    },
+    {
+        "name": "Flask",
+        "version": "3.1.3"
+    },
+    {
+        "name": "flask-cors",
+        "version": "6.0.2"
+    },
+    {
+        "name": "google-api-core",
+        "version": "2.30.3"
+    },
+    {
+        "name": "google-auth",
+        "version": "2.49.2"
+    },
+    {
+        "name": "google-cloud-core",
+        "version": "2.5.1"
+    },
+    {
+        "name": "google-cloud-storage",
+        "version": "3.10.1"
+    },
+    {
+        "name": "google-crc32c",
+        "version": "1.8.0"
+    },
+    {
+        "name": "google-resumable-media",
+        "version": "2.8.2"
+    },
+    {
+        "name": "googleapis-common-protos",
+        "version": "1.74.0"
+    },
+    {
+        "name": "graphql-core",
+        "version": "3.2.8"
+    },
+    {
+        "name": "idna",
+        "version": "3.11"
+    },
+    {
+        "name": "iniconfig",
+        "version": "2.3.0"
+    },
+    {
+        "name": "invoke",
+        "version": "3.0.3"
+    },
+    {
+        "name": "isodate",
+        "version": "0.7.2"
+    },
+    {
+        "name": "itsdangerous",
+        "version": "2.2.0"
+    },
+    {
+        "name": "Jinja2",
+        "version": "3.1.6"
+    },
+    {
+        "name": "jmespath",
+        "version": "1.1.0"
+    },
+    {
+        "name": "joserfc",
+        "version": "1.6.3"
+    },
+    {
+        "name": "jsonpatch",
+        "version": "1.33"
+    },
+    {
+        "name": "jsonpath-ng",
+        "version": "1.8.0"
+    },
+    {
+        "name": "jsonpointer",
+        "version": "3.1.1"
+    },
+    {
+        "name": "jsonschema",
+        "version": "4.24.1"
+    },
+    {
+        "name": "jsonschema-path",
+        "version": "0.4.5"
+    },
+    {
+        "name": "jsonschema-specifications",
+        "version": "2025.9.1"
+    },
+    {
+        "name": "lazy-object-proxy",
+        "version": "1.12.0"
+    },
+    {
+        "name": "MarkupSafe",
+        "version": "3.0.3"
+    },
+    {
+        "name": "moto",
+        "version": "5.1.22"
+    },
+    {
+        "name": "mpmath",
+        "version": "1.3.0"
+    },
+    {
+        "name": "networkx",
+        "version": "3.4.2"
+    },
+    {
+        "name": "openapi-schema-validator",
+        "version": "0.8.1"
+    },
+    {
+        "name": "openapi-spec-validator",
+        "version": "0.8.4"
+    },
+    {
+        "name": "packaging",
+        "version": "26.0"
+    },
+    {
+        "name": "paramiko",
+        "version": "4.0.0"
+    },
+    {
+        "name": "pathable",
+        "version": "0.5.0"
+    },
+    {
+        "name": "pip",
+        "version": "23.0.1"
+    },
+    {
+        "name": "pipdeptree",
+        "version": "2.35.1"
+    },
+    {
+        "name": "pluggy",
+        "version": "1.6.0"
+    },
+    {
+        "name": "proto-plus",
+        "version": "1.27.2"
+    },
+    {
+        "name": "protobuf",
+        "version": "7.34.1"
+    },
+    {
+        "name": "py-partiql-parser",
+        "version": "0.6.3"
+    },
+    {
+        "name": "pyasn1",
+        "version": "0.6.3"
+    },
+    {
+        "name": "pyasn1_modules",
+        "version": "0.4.2"
+    },
+    {
+        "name": "pycparser",
+        "version": "3.0"
+    },
+    {
+        "name": "pydantic",
+        "version": "2.12.4"
+    },
+    {
+        "name": "pydantic_core",
+        "version": "2.41.5"
+    },
+    {
+        "name": "pydantic-settings",
+        "version": "2.13.1"
+    },
+    {
+        "name": "Pygments",
+        "version": "2.20.0"
+    },
+    {
+        "name": "PyNaCl",
+        "version": "1.6.2"
+    },
+    {
+        "name": "pyparsing",
+        "version": "3.3.2"
+    },
+    {
+        "name": "pytest",
+        "version": "9.0.3"
+    },
+    {
+        "name": "pytest-rerunfailures",
+        "version": "16.1"
+    },
+    {
+        "name": "python-dateutil",
+        "version": "2.9.0.post0"
+    },
+    {
+        "name": "python-dotenv",
+        "version": "1.2.2"
+    },
+    {
+        "name": "PyYAML",
+        "version": "6.0.3"
+    },
+    {
+        "name": "referencing",
+        "version": "0.37.0"
+    },
+    {
+        "name": "regex",
+        "version": "2026.4.4"
+    },
+    {
+        "name": "requests",
+        "version": "2.33.1"
+    },
+    {
+        "name": "responses",
+        "version": "0.26.0"
+    },
+    {
+        "name": "rfc3339-validator",
+        "version": "0.1.4"
+    },
+    {
+        "name": "rpds-py",
+        "version": "0.30.0"
+    },
+    {
+        "name": "s3transfer",
+        "version": "0.16.0"
+    },
+    {
+        "name": "setuptools",
+        "version": "79.0.1"
+    },
+    {
+        "name": "six",
+        "version": "1.17.0"
+    },
+    {
+        "name": "smart_open",
+        "version": "7.0.4.dev0",
+        "editable_project_location": "/repo"
+    },
+    {
+        "name": "sympy",
+        "version": "1.14.0"
+    },
+    {
+        "name": "tomli",
+        "version": "2.4.1"
+    },
+    {
+        "name": "typing_extensions",
+        "version": "4.15.0"
+    },
+    {
+        "name": "typing-inspection",
+        "version": "0.4.2"
+    },
+    {
+        "name": "urllib3",
+        "version": "2.6.3"
+    },
+    {
+        "name": "Werkzeug",
+        "version": "3.1.8"
+    },
+    {
+        "name": "wheel",
+        "version": "0.45.1"
+    },
+    {
+        "name": "wrapt",
+        "version": "2.1.2"
+    },
+    {
+        "name": "xmltodict",
+        "version": "1.0.4"
+    },
+    {
+        "name": "zstandard",
+        "version": "0.25.0"
+    }
+]

@@ -1,0 +1,194 @@
+[
+    {
+        "GPT_time": 2.733421802520752
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.670600175857544
+    },
+    {
+        "GPT_time": 6.0500922203063965
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6689040660858154
+    },
+    {
+        "GPT_time": 2.8686275482177734
+    },
+    {
+        "command": "cat /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.6689260005950928
+    },
+    {
+        "GPT_time": 3.7541019916534424
+    },
+    {
+        "command": "cat /repo/requirements-dev.txt",
+        "returncode": 0,
+        "time": 0.6683623790740967
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6648621559143066
+    },
+    {
+        "command": "cat /repo/requirements-report.txt",
+        "returncode": 0,
+        "time": 0.6676433086395264
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6613378524780273
+    },
+    {
+        "command": "cat /repo/requirements.in",
+        "returncode": 0,
+        "time": 0.6658494472503662
+    },
+    {
+        "GPT_time": 3.5238876342773438
+    },
+    {
+        "command": "cat /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.00911569595336914
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6610558032989502
+    },
+    {
+        "command": "ls -la /repo/tests/",
+        "returncode": 0,
+        "time": 0.6673550605773926
+    },
+    {
+        "GPT_time": 3.0800886154174805
+    },
+    {
+        "command": "cat /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.01008462905883789
+    },
+    {
+        "GPT_time": 2.9237873554229736
+    },
+    {
+        "command": "head -20 /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.008982181549072266
+    },
+    {
+        "GPT_time": 4.044243097305298
+    },
+    {
+        "command": "cat /repo/tests/conftest.py",
+        "returncode": 0,
+        "time": 0.6676373481750488
+    },
+    {
+        "GPT_time": 3.1650655269622803
+    },
+    {
+        "command": "ls -la /repo/tests/unit/",
+        "returncode": 0,
+        "time": 0.6685824394226074
+    },
+    {
+        "GPT_time": 2.880441665649414
+    },
+    {
+        "command": "ls -la /repo/tests/unit/amlb/",
+        "returncode": 0,
+        "time": 0.6685497760772705
+    },
+    {
+        "GPT_time": 4.050974607467651
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.033844947814941406
+    },
+    {
+        "GPT_time": 3.3315863609313965
+    },
+    {
+        "command": "ls /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.6684362888336182
+    },
+    {
+        "command": "pwd",
+        "returncode": 0,
+        "time": 0.6639368534088135
+    },
+    {
+        "GPT_time": 2.6924712657928467
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.037172794342041016
+    },
+    {
+        "GPT_time": 4.5007898807525635
+    },
+    {
+        "command": "waitinglist show",
+        "returncode": 0,
+        "time": 0.0069980621337890625
+    },
+    {
+        "GPT_time": 5.346652030944824
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 13.276215314865112
+    },
+    {
+        "GPT_time": 3.802001953125
+    },
+    {
+        "command": "ls /repo/setup.py",
+        "returncode": 0,
+        "time": 0.16524863243103027
+    },
+    {
+        "GPT_time": 2.904881715774536
+    },
+    {
+        "command": "ls -la /repo/amlb/",
+        "returncode": 0,
+        "time": 0.667792558670044
+    },
+    {
+        "GPT_time": 5.545338869094849
+    },
+    {
+        "command": "pip install -q -r /repo/requirements.txt",
+        "returncode": 0,
+        "time": 29.5927517414093
+    },
+    {
+        "GPT_time": 3.902838945388794
+    },
+    {
+        "command": "export PYTHONPATH=/repo:$PYTHONPATH",
+        "returncode": 0,
+        "time": 5.034635305404663
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 9.534526348114014
+    }
+]

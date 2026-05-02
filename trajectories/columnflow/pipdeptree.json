@@ -1,0 +1,346 @@
+[
+    {
+        "key": "awkward",
+        "package_name": "awkward",
+        "installed_version": "2.9.0",
+        "required_version": "2.9.0",
+        "dependencies": [
+            {
+                "key": "awkward-cpp",
+                "package_name": "awkward_cpp",
+                "installed_version": "52",
+                "required_version": "==52",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.21.3",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "fsspec",
+                "package_name": "fsspec",
+                "installed_version": "2026.3.0",
+                "required_version": ">=2022.11.0",
+                "dependencies": []
+            },
+            {
+                "key": "importlib-metadata",
+                "package_name": "importlib_metadata",
+                "installed_version": "9.0.0",
+                "required_version": ">=4.13.0",
+                "dependencies": [
+                    {
+                        "key": "zipp",
+                        "package_name": "zipp",
+                        "installed_version": "3.23.0",
+                        "required_version": ">=3.20",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": ">=1.21.3",
+                "dependencies": []
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "typing-extensions",
+                "package_name": "typing_extensions",
+                "installed_version": "4.8.0",
+                "required_version": ">=4.1.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "columnflow",
+        "package_name": "columnflow",
+        "installed_version": "0.2.2",
+        "required_version": "0.2.2",
+        "dependencies": [
+            {
+                "key": "luigi",
+                "package_name": "luigi",
+                "installed_version": "3.5.2",
+                "required_version": "~=3.5.1",
+                "dependencies": [
+                    {
+                        "key": "python-daemon",
+                        "package_name": "python-daemon",
+                        "installed_version": "3.1.2",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "lockfile",
+                                "package_name": "lockfile",
+                                "installed_version": "0.12.2",
+                                "required_version": ">=0.10",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "python-dateutil",
+                        "package_name": "python-dateutil",
+                        "installed_version": "2.9.0.post0",
+                        "required_version": ">=2.7.5,<3",
+                        "dependencies": [
+                            {
+                                "key": "six",
+                                "package_name": "six",
+                                "installed_version": "1.16.0",
+                                "required_version": ">=1.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "tenacity",
+                        "package_name": "tenacity",
+                        "installed_version": "8.5.0",
+                        "required_version": ">=8,<9",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tornado",
+                        "package_name": "tornado",
+                        "installed_version": "6.5.5",
+                        "required_version": ">=5.0,<7",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "pyyaml",
+                "package_name": "PyYAML",
+                "installed_version": "6.0.3",
+                "required_version": "==6.*",
+                "dependencies": []
+            },
+            {
+                "key": "scinum",
+                "package_name": "scinum",
+                "installed_version": "2.1.2",
+                "required_version": "~=2.1.1",
+                "dependencies": []
+            },
+            {
+                "key": "six",
+                "package_name": "six",
+                "installed_version": "1.16.0",
+                "required_version": "~=1.16.0",
+                "dependencies": []
+            },
+            {
+                "key": "tenacity",
+                "package_name": "tenacity",
+                "installed_version": "8.5.0",
+                "required_version": "!=8.4.0",
+                "dependencies": []
+            },
+            {
+                "key": "typing-extensions",
+                "package_name": "typing_extensions",
+                "installed_version": "4.8.0",
+                "required_version": "~=4.8.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "law",
+        "package_name": "law",
+        "installed_version": "0.1.20",
+        "required_version": "0.1.20",
+        "dependencies": [
+            {
+                "key": "luigi",
+                "package_name": "luigi",
+                "installed_version": "3.5.2",
+                "required_version": ">=2.8.2",
+                "dependencies": [
+                    {
+                        "key": "python-daemon",
+                        "package_name": "python-daemon",
+                        "installed_version": "3.1.2",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "lockfile",
+                                "package_name": "lockfile",
+                                "installed_version": "0.12.2",
+                                "required_version": ">=0.10",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "python-dateutil",
+                        "package_name": "python-dateutil",
+                        "installed_version": "2.9.0.post0",
+                        "required_version": ">=2.7.5,<3",
+                        "dependencies": [
+                            {
+                                "key": "six",
+                                "package_name": "six",
+                                "installed_version": "1.16.0",
+                                "required_version": ">=1.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "tenacity",
+                        "package_name": "tenacity",
+                        "installed_version": "8.5.0",
+                        "required_version": ">=8,<9",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tornado",
+                        "package_name": "tornado",
+                        "installed_version": "6.5.5",
+                        "required_version": ">=5.0,<7",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "six",
+                "package_name": "six",
+                "installed_version": "1.16.0",
+                "required_version": ">=1.13",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "order",
+        "package_name": "order",
+        "installed_version": "2.1.7",
+        "required_version": "2.1.7",
+        "dependencies": [
+            {
+                "key": "scinum",
+                "package_name": "scinum",
+                "installed_version": "2.1.2",
+                "required_version": ">=1.4.3",
+                "dependencies": []
+            },
+            {
+                "key": "six",
+                "package_name": "six",
+                "installed_version": "1.16.0",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pip",
+        "package_name": "pip",
+        "installed_version": "23.0.1",
+        "required_version": "23.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.35.1",
+        "required_version": "2.35.1",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pytest",
+        "package_name": "pytest",
+        "installed_version": "9.0.3",
+        "required_version": "9.0.3",
+        "dependencies": [
+            {
+                "key": "exceptiongroup",
+                "package_name": "exceptiongroup",
+                "installed_version": "1.3.1",
+                "required_version": ">=1",
+                "dependencies": [
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.8.0",
+                        "required_version": ">=4.6.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "iniconfig",
+                "package_name": "iniconfig",
+                "installed_version": "2.3.0",
+                "required_version": ">=1.0.1",
+                "dependencies": []
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=22",
+                "dependencies": []
+            },
+            {
+                "key": "pluggy",
+                "package_name": "pluggy",
+                "installed_version": "1.6.0",
+                "required_version": ">=1.5,<2",
+                "dependencies": []
+            },
+            {
+                "key": "pygments",
+                "package_name": "Pygments",
+                "installed_version": "2.20.0",
+                "required_version": ">=2.7.2",
+                "dependencies": []
+            },
+            {
+                "key": "tomli",
+                "package_name": "tomli",
+                "installed_version": "2.4.1",
+                "required_version": ">=1",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "setuptools",
+        "package_name": "setuptools",
+        "installed_version": "79.0.1",
+        "required_version": "79.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "wheel",
+        "package_name": "wheel",
+        "installed_version": "0.45.1",
+        "required_version": "0.45.1",
+        "dependencies": []
+    }
+]

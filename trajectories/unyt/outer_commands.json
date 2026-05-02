@@ -1,0 +1,195 @@
+[
+    {
+        "GPT_time": 2.6705169677734375
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6706089973449707
+    },
+    {
+        "GPT_time": 4.509833812713623
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6688032150268555
+    },
+    {
+        "GPT_time": 5.574098825454712
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"Pipfile*\" -o -name \"poetry.lock\" 2>/dev/null",
+        "returncode": 0,
+        "time": 0.7663884162902832
+    },
+    {
+        "GPT_time": 3.0757508277893066
+    },
+    {
+        "command": "cat /repo/docs/requirements.txt",
+        "returncode": 0,
+        "time": 0.6669867038726807
+    },
+    {
+        "GPT_time": 3.5542242527008057
+    },
+    {
+        "command": "cat /repo/tox.ini",
+        "returncode": 0,
+        "time": 0.6665172576904297
+    },
+    {
+        "GPT_time": 6.766297340393066
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6636888980865479
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.37335991859436
+    },
+    {
+        "GPT_time": 6.750109672546387
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6647510528564453
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 22.227742195129395
+    },
+    {
+        "GPT_time": 7.331842660903931
+    },
+    {
+        "command": "waitinglist add -p pytest",
+        "returncode": 0,
+        "time": 0.008577108383178711
+    },
+    {
+        "command": "waitinglist add -p h5py",
+        "returncode": 0,
+        "time": 1.656414270401001
+    },
+    {
+        "command": "waitinglist add -p pint",
+        "returncode": 0,
+        "time": 1.674452781677246
+    },
+    {
+        "command": "waitinglist add -p astropy",
+        "returncode": 0,
+        "time": 1.8044540882110596
+    },
+    {
+        "command": "waitinglist add -p \"coverage[toml]\" -v \">=5.0\"",
+        "returncode": 0,
+        "time": 1.7686233520507812
+    },
+    {
+        "command": "waitinglist add -p pytest-cov",
+        "returncode": 0,
+        "time": 0.007303714752197266
+    },
+    {
+        "command": "waitinglist add -p pytest-doctestplus",
+        "returncode": 0,
+        "time": 0.004644155502319336
+    },
+    {
+        "command": "waitinglist add -p matplotlib",
+        "returncode": 0,
+        "time": 1.6952409744262695
+    },
+    {
+        "command": "waitinglist add -p docutils",
+        "returncode": 0,
+        "time": 1.7332165241241455
+    },
+    {
+        "command": "waitinglist add -p \"dask[array,diagnostics]\"",
+        "returncode": 0,
+        "time": 1.7748510837554932
+    },
+    {
+        "GPT_time": 5.579715728759766
+    },
+    {
+        "command": "waitinglist add -p pytest -t pip",
+        "returncode": 0,
+        "time": 0.009062528610229492
+    },
+    {
+        "command": "waitinglist add -p h5py -t pip",
+        "returncode": 0,
+        "time": 0.007224559783935547
+    },
+    {
+        "command": "waitinglist add -p pint -t pip",
+        "returncode": 0,
+        "time": 0.00726771354675293
+    },
+    {
+        "command": "waitinglist add -p astropy -t pip",
+        "returncode": 0,
+        "time": 0.005207061767578125
+    },
+    {
+        "command": "waitinglist add -p coverage -v \">=5.0\" -t pip",
+        "returncode": 0,
+        "time": 0.006349325180053711
+    },
+    {
+        "command": "waitinglist add -p pytest-cov -t pip",
+        "returncode": 0,
+        "time": 0.006228208541870117
+    },
+    {
+        "command": "waitinglist add -p pytest-doctestplus -t pip",
+        "returncode": 0,
+        "time": 0.004611015319824219
+    },
+    {
+        "command": "waitinglist add -p matplotlib -t pip",
+        "returncode": 0,
+        "time": 0.004689693450927734
+    },
+    {
+        "command": "waitinglist add -p docutils -t pip",
+        "returncode": 0,
+        "time": 0.005841732025146484
+    },
+    {
+        "command": "waitinglist add -p dask -t pip",
+        "returncode": 0,
+        "time": 0.006184577941894531
+    },
+    {
+        "GPT_time": 4.498331069946289
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 61.340916872024536
+    },
+    {
+        "GPT_time": 3.4124367237091064
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6651723384857178
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 7.948935508728027
+    }
+]

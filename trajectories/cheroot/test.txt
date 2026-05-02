@@ -1,0 +1,249 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.20, pytest-9.0.3, pluggy-1.6.0
+rootdir: /repo
+configfile: pytest.ini
+testpaths: cheroot/test/
+plugins: rerunfailures-16.1, mock-3.15.1, cov-7.1.0, xdist-3.8.0
+collected 186 items
+
+<Dir repo>
+  <Package cheroot>
+    <Package test>
+      <Module test__compat.py>
+        <Function test_compat_functions_positive[ntob-bar-bar]>
+        <Function test_compat_functions_positive[ntou-bar-bar]>
+        <Function test_compat_functions_positive[bton-bar-bar]>
+        <Function test_compat_functions_negative_nonnative[ntob]>
+        <Function test_compat_functions_negative_nonnative[ntou]>
+        <Function test_ntou_escape>
+        <Function test_extract_bytes[qwerty-qwerty]>
+        <Function test_extract_bytes[input_argument1-asdfgh]>
+        <Function test_extract_bytes_invalid>
+      <Module test_cli.py>
+        <Function test_parse_wsgi_bind_addr[192.168.1.1:80-expected_bind_addr0]>
+        <Function test_parse_wsgi_bind_addr[[::1]:8000-expected_bind_addr1]>
+        <Function test_parse_wsgi_bind_addr[localhost:5000-expected_bind_addr2]>
+        <Function test_parse_wsgi_bind_addr[foo@bar:5000-expected_bind_addr3]>
+        <Function test_parse_wsgi_bind_addr[foo-expected_bind_addr4]>
+        <Function test_parse_wsgi_bind_addr[123456789-expected_bind_addr5]>
+        <Function test_parse_wsgi_bind_addr[/tmp/cheroot.sock-/tmp/cheroot.sock]>
+        <Function test_parse_wsgi_bind_addr[/tmp/some-random-file-name-/tmp/some-random-file-name]>
+        <Function test_parse_wsgi_bind_addr[@cheroot-\x00cheroot]>
+        <Function test_Aplication_resolve[None-application]>
+        <Function test_Aplication_resolve[application-application]>
+        <Function test_Aplication_resolve[main-main]>
+      <Module test_conn.py>
+        <Function test_HTTP11_persistent_connections>
+        <Function test_streaming_11[False]>
+        <Function test_streaming_11[True]>
+        <Function test_streaming_10[False]>
+        <Function test_streaming_10[True]>
+        <Function test_keepalive[HTTP/1.0]>
+        <Function test_keepalive[HTTP/1.1]>
+        <Function test_keepalive_conn_management>
+        <Function test_broken_connection_during_tcp_fin[socket.error(ECONNRESET)]>
+        <Function test_broken_connection_during_tcp_fin[socket.error(EPIPE)]>
+        <Function test_broken_connection_during_tcp_fin[simulated socket.error(ENOTCONN)]>
+        <Function test_broken_connection_during_tcp_fin[real socket.error(ENOTCONN)]>
+        <Function test_broken_connection_during_tcp_fin[socket.error(ESHUTDOWN)]>
+        <Function test_broken_connection_during_tcp_fin[RuntimeError(666)]>
+        <Function test_broken_connection_during_tcp_fin[socket.error(-1)]>
+        <Function test_broken_connection_during_tcp_fin[ConnectionResetError(ECONNRESET)]>
+        <Function test_broken_connection_during_tcp_fin[BrokenPipeError(EPIPE)]>
+        <Function test_broken_connection_during_tcp_fin[BrokenPipeError(ESHUTDOWN)]>
+        <Function test_broken_connection_during_http_communication_fallback>
+        <Function test_kb_int_from_http_handler>
+        <Function test_unhandled_exception_in_request_handler>
+        <Function test_remains_alive_post_unhandled_exception>
+        <Function test_HTTP11_Timeout[True]>
+        <Function test_HTTP11_Timeout[False]>
+        <Function test_HTTP11_Timeout_after_request>
+        <Function test_HTTP11_pipelining>
+        <Function test_100_Continue>
+        <Function test_readall_or_close[0]>
+        <Function test_readall_or_close[1001]>
+        <Function test_No_Message_Body>
+        <Function test_Chunked_Encoding>
+        <Function test_Content_Length_in>
+        <Function test_Content_Length_not_int>
+        <Function test_Content_Length_out[/wrong_cl_buffered-500-The requested resource returned more bytes than the declared Content-Length.]>
+        <Function test_Content_Length_out[/wrong_cl_unbuffered-200-I too]>
+        <Function test_598>
+        <Function test_No_CRLF[\n\n]>
+        <Function test_No_CRLF[\r\n\n]>
+        <Function test_invalid_selected_connection>
+      <Module test_core.py>
+        <Function test_http_connect_request>
+        <Function test_normal_request>
+        <Function test_query_string_request>
+        <Function test_parse_acceptable_uri[/hello]>
+        <Function test_parse_acceptable_uri[/query_string?test=True]>
+        <Function test_parse_acceptable_uri[/%D0%AE%D1%85%D1%85%D1%83%D1%83%D1%83?%D1%97=%D0%B9%D0%BE]>
+        <Function test_parse_uri_unsafe_uri>
+        <Function test_parse_uri_invalid_uri>
+        <Function test_parse_no_leading_slash_invalid[hello]>
+        <Function test_parse_no_leading_slash_invalid[\u043f\u0440\u0438\u0432\u0456\u0442]>
+        <Function test_parse_uri_absolute_uri>
+        <Function test_parse_uri_asterisk_uri>
+        <Function test_parse_uri_fragment_uri>
+        <Function test_no_content_length>
+        <Function test_content_length_required>
+        <Function test_large_request>
+        <Function test_malformed_request_line[GET /-400-Malformed Request-Line]>
+        <Function test_malformed_request_line[GET / HTTPS/1.1-400-Malformed Request-Line: bad protocol]>
+        <Function test_malformed_request_line[GET / HTTP/1-400-Malformed Request-Line: bad version]>
+        <Function test_malformed_request_line[GET / HTTP/2.15-505-Cannot fulfill request]>
+        <Function test_malformed_http_method>
+        <Function test_malformed_header>
+        <Function test_request_line_split_issue_1220>
+        <Function test_garbage_in>
+        <Function test_send_header_before_closing>
+      <Module test_dispatch.py>
+        <Function test_dispatch_no_script_name>
+      <Module test_errors.py>
+        <Function test_plat_specific_errors[err_names0-err_nums0]>
+        <Function test_plat_specific_errors[err_names1-err_nums1]>
+      <Module test_makefile.py>
+        <Function test_bytes_read>
+        <Function test_bytes_written>
+      <Module test_server.py>
+        <Function test_prepare_makes_server_ready>
+        <Function test_stop_interrupts_serve>
+        <Function test_server_interrupt[OSError0]>
+        <Function test_server_interrupt[KeyboardInterrupt]>
+        <Function test_server_interrupt[OSError1]>
+        <Function test_server_interrupt[RuntimeError]>
+        <Function test_serving_is_false_and_stop_returns_after_ctrlc>
+        <Function test_bind_addr_inet[0.0.0.0]>
+        <Function test_bind_addr_inet[::]>
+        <Function test_bind_addr_unix[abstract]>
+        <Function test_bind_addr_unix[file]>
+        <Function test_bind_addr_unix_abstract>
+        <Function test_peercreds_unix_sock[abstract]>
+        <Function test_peercreds_unix_sock[file]>
+        <Function test_peercreds_unix_sock_with_lookup[abstract]>
+        <Function test_peercreds_unix_sock_with_lookup[file]>
+        <Function test_high_number_of_file_descriptors[1024]>
+        <Function test_high_number_of_file_descriptors[2048]>
+        <Function test_reuse_port[0.0.0.0]>
+        <Function test_reuse_port[::]>
+        <Function test_threadpool_threadrange_set[1--2-inf]>
+        <Function test_threadpool_threadrange_set[1--1-inf]>
+        <Function test_threadpool_threadrange_set[1-1-1]>
+        <Function test_threadpool_threadrange_set[1-2-2]>
+        <Function test_threadpool_threadrange_set[1-inf-inf]>
+        <Function test_threadpool_threadrange_set[2--2-inf]>
+        <Function test_threadpool_threadrange_set[2--1-inf]>
+        <Function test_threadpool_threadrange_set[2-2-2]>
+        <Function test_threadpool_threadrange_set[2-inf-inf]>
+        <Function test_threadpool_invalid_threadrange[-1--1-min=-1 must be > 0]>
+        <Function test_threadpool_invalid_threadrange[-1-0-min=-1 must be > 0]>
+        <Function test_threadpool_invalid_threadrange[-1-1-min=-1 must be > 0]>
+        <Function test_threadpool_invalid_threadrange[-1-2-min=-1 must be > 0]>
+        <Function test_threadpool_invalid_threadrange[0--1-min=0 must be > 0]>
+        <Function test_threadpool_invalid_threadrange[0-0-min=0 must be > 0]>
+        <Function test_threadpool_invalid_threadrange[0-1-min=0 must be > 0]>
+        <Function test_threadpool_invalid_threadrange[0-2-min=0 must be > 0]>
+        <Function test_threadpool_invalid_threadrange[1-0-Expected an integer or the infinity value for the `max` argument but got 0.]>
+        <Function test_threadpool_invalid_threadrange[1-0.5-Expected an integer or the infinity value for the `max` argument but got 0.5.]>
+        <Function test_threadpool_invalid_threadrange[2-0-Expected an integer or the infinity value for the `max` argument but got 0.]>
+        <Function test_threadpool_invalid_threadrange[2-1-Expected an integer or the infinity value for the `max` argument but got '1'.]>
+        <Function test_threadpool_invalid_threadrange[2-1-max=1 must be > min=2]>
+        <Function test_threadpool_multistart_validation>
+      <Module test_ssl.py>
+        <Function test_ssl_adapters[builtin]>
+        <Function test_ssl_adapters[pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_NONE-True-localhost-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_NONE-True-localhost-pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_NONE-True-127.0.0.1-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_NONE-True-127.0.0.1-pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_NONE-True-*.localhost-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_NONE-True-*.localhost-pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_NONE-True-not_localhost-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_NONE-True-not_localhost-pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_NONE-False-localhost-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_NONE-False-localhost-pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_OPTIONAL-True-localhost-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_OPTIONAL-True-localhost-pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_OPTIONAL-True-127.0.0.1-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_OPTIONAL-True-127.0.0.1-pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_OPTIONAL-True-*.localhost-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_OPTIONAL-True-*.localhost-pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_OPTIONAL-True-not_localhost-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_OPTIONAL-True-not_localhost-pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_OPTIONAL-False-localhost-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_OPTIONAL-False-localhost-pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_REQUIRED-True-localhost-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_REQUIRED-True-localhost-pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_REQUIRED-True-127.0.0.1-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_REQUIRED-True-127.0.0.1-pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_REQUIRED-True-*.localhost-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_REQUIRED-True-*.localhost-pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_REQUIRED-True-not_localhost-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_REQUIRED-True-not_localhost-pyopenssl]>
+        <Function test_tls_client_auth[VerifyMode.CERT_REQUIRED-False-localhost-builtin]>
+        <Function test_tls_client_auth[VerifyMode.CERT_REQUIRED-False-localhost-pyopenssl]>
+        <Function test_ssl_env[VerifyMode.CERT_NONE-False-builtin]>
+        <Function test_ssl_env[VerifyMode.CERT_NONE-False-pyopenssl]>
+        <Function test_ssl_env[VerifyMode.CERT_NONE-True-builtin]>
+        <Function test_ssl_env[VerifyMode.CERT_NONE-True-pyopenssl]>
+        <Function test_ssl_env[VerifyMode.CERT_OPTIONAL-False-builtin]>
+        <Function test_ssl_env[VerifyMode.CERT_OPTIONAL-False-pyopenssl]>
+        <Function test_ssl_env[VerifyMode.CERT_OPTIONAL-True-builtin]>
+        <Function test_ssl_env[VerifyMode.CERT_OPTIONAL-True-pyopenssl]>
+        <Function test_ssl_env[VerifyMode.CERT_REQUIRED-True-builtin]>
+        <Function test_ssl_env[VerifyMode.CERT_REQUIRED-True-pyopenssl]>
+        <Function test_https_over_http_error[0.0.0.0]>
+        <Function test_https_over_http_error[::]>
+        <Function test_http_over_https_error[0.0.0.0-builtin]>
+        <Function test_http_over_https_error[0.0.0.0-pyopenssl]>
+        <Function test_http_over_https_error[::-builtin]>
+        <Function test_http_over_https_error[::-pyopenssl]>
+      <Module test_wsgi.py>
+        <Function test_connection_keepalive>
+        <Function test_gateway_start_response_called_twice>
+        <Function test_gateway_write_needs_start_response_called_before>
+      <DoctestModule webtest.py>
+        <DoctestItem cheroot.test.webtest.WebCase.getPage>
+        <DoctestItem cheroot.test.webtest.strip_netloc>
+
+----------- generated xml file: /repo/.test-results/pytest/test.xml ------------
+================================ tests coverage ================================
+___________________________________ coverage ___________________________________
+
+Name                             Stmts   Miss  Cover   Missing
+--------------------------------------------------------------
+cheroot/__init__.py                  5      5     0%   3-9
+cheroot/__main__.py                  3      3     0%   3-6
+cheroot/_compat.py                  35     14    60%   12-13, 35-37, 42-44, 49, 59-60, 76-82
+cheroot/cli.py                      70     42    40%   56, 64, 72, 81-88, 92-97, 101-107, 111, 119, 123-129, 138-154, 159, 232-243
+cheroot/connections.py             178    142    20%   17-39, 43-45, 69-70, 73-74, 79-82, 86-87, 91-92, 100, 107-108, 124-130, 141-147, 163-170, 177-179, 196-200, 216-253, 262-278, 281-375, 379-382, 392, 397-398
+cheroot/errors.py                   20      2    90%   55-56
+cheroot/makefile.py                 41     27    34%   18-25, 28-36, 44-45, 49-51, 55, 63-64, 68-70, 75-76
+cheroot/server.py                 1032    809    22%   120-127, 132-135, 139-144, 197-237, 240, 244, 251-252, 264-266, 269-270, 281-284, 295-311, 323-332, 336, 340, 344-347, 361-362, 373-382, 393-402, 414-423, 427, 431, 435-437, 456-461, 464-501, 515-536, 547-578, 590-599, 608-629, 633, 686-705, 709-739, 755-966, 977-1062, 1066-1085, 1089-1122, 1126-1128, 1132-1137, 1145-1228, 1255-1269, 1278-1322, 1327-1341, 1349-1357, 1361-1376, 1390-1419, 1424-1425, 1430-1431, 1436-1437, 1447-1461, 1466-1467, 1472-1473, 1478-1489, 1605-1620, 1624-1663, 1667-1670, 1674, 1705, 1710-1726, 1730-1741, 1749-1812, 1816-1833, 1844-1845, 1850-1857, 1862, 1866-1870, 1881-1886, 1890-1898, 1902-1981, 1985-2005, 2015-2060, 2065-2066, 2073-2088, 2092-2096, 2101, 2106, 2117-2126, 2130-2179, 2191, 2208-2231
+cheroot/ssl/__init__.py             18     18     0%   3-44
+cheroot/ssl/builtin.py             191    191     0%   10-448
+cheroot/ssl/pyopenssl.py           144    144     0%   53-378
+cheroot/test/_pytest_plugin.py       6      4    33%   7-13, 16
+cheroot/test/conftest.py            54     34    37%   26-34, 44-45, 55-56, 63, 70, 76-93, 98-108
+cheroot/test/helper.py              99     64    35%   42-70, 75-76, 81-83, 88-91, 97-105, 116, 124-126, 130-137, 145-168
+cheroot/test/test__compat.py        20     10    50%   18, 30-32, 37-39, 51, 56-61
+cheroot/test/test_cli.py            21     12    43%   41, 47-70, 84-89
+cheroot/test/test_conn.py          715    634    11%   33, 37, 41-48, 52-58, 62-63, 67-68, 72-73, 77, 81-82, 86-87, 95, 125-127, 131-135, 141-153, 165-176, 186, 191, 196, 205-242, 255-324, 336-400, 419-472, 477-576, 646-701, 711-756, 767-804, 818-873, 887-956, 973-990, 998-1084, 1092-1126, 1131-1181, 1193-1253, 1259-1294, 1309-1350, 1360-1376, 1381-1391, 1415-1432, 1447-1465, 1478-1486, 1494-1496, 1500-1504, 1512-1514, 1518-1528, 1537-1569
+cheroot/test/test_core.py          220    160    27%   25, 29-32, 36, 41-43, 72, 78-82, 88, 94-97, 103, 108-110, 115-118, 123-128, 143-145, 163-174, 182-189, 204-209, 217-221, 226-230, 235-241, 251-259, 268-276, 290-298, 327-334, 339-350, 355-368, 373-385, 392-406, 414-417, 421, 429-431, 435, 439, 445-449, 454-455
+cheroot/test/test_dispatch.py       14     11    21%   8-20, 26-45
+cheroot/test/test_errors.py          8      3    62%   29-31
+cheroot/test/test_makefile.py       30     22    27%   11, 15-20, 24-27, 31, 36-40, 45-49
+cheroot/test/test_server.py        234    164    30%   47-48, 54-59, 68-73, 78-96, 101-116, 130-161, 166-189, 201-204, 210-212, 218-220, 229-239, 242-245, 251-254, 262-287, 302-327, 357-373, 389-400, 406-407, 413-433, 442-462, 491-497, 524-525, 540-549
+cheroot/test/test_ssl.py           251    190    24%   72-89, 94-108, 114, 120, 126-127, 133-134, 140-141, 147-148, 153-156, 174-185, 204-230, 275-436, 477-575, 590-603, 632-702
+cheroot/test/test_wsgi.py           53     37    30%   22-37, 43-64, 69-75, 80-85
+cheroot/test/webtest.py            306    226    26%   42-48, 54-57, 62-64, 72-79, 94-96, 125-126, 130-134, 145-150, 159, 163, 171, 198-228, 238-247, 252-297, 302, 306-311, 319-324, 328-339, 343-352, 356-363, 367-372, 376-382, 386-393, 397-402, 406-411, 415-420, 428-457, 462-464, 474-483, 497-526, 551-554, 580-589
+cheroot/testing.py                  88     51    42%   36-64, 73-74, 83-84, 90-91, 97-98, 103-107, 110-119, 125, 134-138, 147-149, 153, 157-169, 174
+cheroot/workers/threadpool.py      176    135    23%   26, 29, 64-100, 116-144, 155-223, 252-277, 284-286, 291-292, 301, 305-310, 314-321, 324-330, 336-352, 362-395, 400-411, 416-417, 426
+cheroot/wsgi.py                    144    110    24%   67-79, 88, 92, 104-107, 136-146, 152-182, 193-195, 203-228, 240-311, 325-342, 358-370, 387-402
+--------------------------------------------------------------
+TOTAL                             4176   3264    22%
+
+2 files skipped due to complete coverage.
+Coverage XML written to file .test-results/pytest/cov.xml
+========================= 186 tests collected in 1.55s =========================

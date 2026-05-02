@@ -1,0 +1,800 @@
+[
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6077597141265869,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7420110702514648,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7209000587463379,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.7555947303771973,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/requirements",
+        "returncode": 0,
+        "time": 0.6089138984680176,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.608222484588623,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7165932655334473,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7425568103790283,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6390829086303711,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.6075513362884521,
+        "dir": "/"
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6048190593719482,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/requirements/dev.txt",
+        "returncode": 0,
+        "time": 0.6058018207550049,
+        "dir": "/"
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6045181751251221,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/apt.txt",
+        "returncode": 0,
+        "time": 0.6064248085021973,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7213828563690186,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7415025234222412,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6371593475341797,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6053605079650879,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 1.6609158515930176,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.742429256439209,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7414758205413818,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.764042854309082,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7336716651916504,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7421596050262451,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6392252445220947,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/requirements/",
+        "returncode": 0,
+        "time": 0.608208179473877,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7384860515594482,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.742274284362793,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.634101390838623,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.6063148975372314,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.738828182220459,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7420568466186523,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6331257820129395,
+        "dir": "/"
+    },
+    {
+        "command": "waitinglist add -p omegaconf -v \">=2.4.0.dev2\"",
+        "returncode": 127,
+        "time": 0.1034250259399414,
+        "dir": "/"
+    },
+    {
+        "command": "waitinglist add -p packaging",
+        "returncode": 127,
+        "time": 0.10327553749084473,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.736222505569458,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7413506507873535,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6435539722442627,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7407670021057129,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7402541637420654,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6369802951812744,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7392072677612305,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7419884204864502,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.638340950012207,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/apt_download.py -p default-jre",
+        "returncode": 0,
+        "time": 21.221094369888306,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/pip_download.py -p omegaconf -v \"\">=2.4.0.dev2\"\"",
+        "returncode": 0,
+        "time": 3.250957727432251,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/pip_download.py -p packaging",
+        "returncode": 0,
+        "time": 1.0012781620025635,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7825808525085449,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7220063209533691,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6375775337219238,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6041522026062012,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 2.1483800411224365,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7222158908843994,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7451555728912354,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6432063579559326,
+        "dir": "/"
+    },
+    {
+        "command": "pip show omegaconf",
+        "returncode": 0,
+        "time": 0.9018065929412842,
+        "dir": "/"
+    },
+    {
+        "command": "pip index versions antlr4-python3-runtime --python-version 3.10",
+        "returncode": 0,
+        "time": 1.2183499336242676,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7423703670501709,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7433261871337891,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6378686428070068,
+        "dir": "/"
+    },
+    {
+        "command": "python -c \"import omegaconf; print(omegaconf.__file__)\"",
+        "returncode": 0,
+        "time": 0.6954739093780518,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /usr/local/lib/python3.10/site-packages/omegaconf/",
+        "returncode": 0,
+        "time": 0.6063327789306641,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7399282455444336,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7457163333892822,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6382763385772705,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/hydra/core/override_parser/overrides_parser.py | head -20",
+        "returncode": 0,
+        "time": 0.6092050075531006,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7238297462463379,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7437891960144043,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6393406391143799,
+        "dir": "/"
+    },
+    {
+        "command": "pip index versions omegaconf --python-version 3.10",
+        "returncode": 0,
+        "time": 1.47529935836792,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7405345439910889,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7224068641662598,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6396775245666504,
+        "dir": "/"
+    },
+    {
+        "command": "python -c \"from antlr4.error.Errors import LexerNoViableAltException; print('antlr4 works directly')\"",
+        "returncode": 0,
+        "time": 0.647658109664917,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.741438627243042,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7307205200195312,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6337378025054932,
+        "dir": "/"
+    },
+    {
+        "command": "pip install -q \"git+https://github.com/omry/omegaconf.git\"",
+        "returncode": 1,
+        "time": 5.675511121749878,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7445321083068848,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.745002269744873,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.641331672668457,
+        "dir": "/"
+    },
+    {
+        "command": "pip install -q setuptools",
+        "returncode": 0,
+        "time": 0.980842113494873,
+        "dir": "/"
+    },
+    {
+        "command": "pip install -q \"git+https://github.com/omry/omegaconf.git\"",
+        "returncode": 1,
+        "time": 5.523800849914551,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7218225002288818,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7441539764404297,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6375422477722168,
+        "dir": "/"
+    },
+    {
+        "command": "pip install -q --no-build-isolation \"git+https://github.com/omry/omegaconf.git\"",
+        "returncode": 0,
+        "time": 5.217432498931885,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7401189804077148,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.746100902557373,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6378047466278076,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /usr/local/lib/python3.10/site-packages/omegaconf/",
+        "returncode": 0,
+        "time": 0.6066122055053711,
+        "dir": "/"
+    },
+    {
+        "command": "python -c \"from omegaconf.vendor.antlr4.error.Errors import LexerNoViableAltException; print('vendor antlr4 works')\"",
+        "returncode": 0,
+        "time": 0.6873652935028076,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7458500862121582,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7225768566131592,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6369905471801758,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6052486896514893,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 3,
+        "time": 0.8781507015228271,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7439894676208496,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7471935749053955,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6382155418395996,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6049609184265137,
+        "dir": "/"
+    },
+    {
+        "command": "python setup.py antlr",
+        "returncode": 0,
+        "time": 1.5747714042663574,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7415032386779785,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7213177680969238,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6435079574584961,
+        "dir": "/repo"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6051907539367676,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 2.04254150390625,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7441136837005615,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7445299625396729,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.638169527053833,
+        "dir": "/"
+    },
+    {
+        "command": "pip show pytest",
+        "returncode": 0,
+        "time": 0.9523012638092041,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7434422969818115,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7456798553466797,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6420032978057861,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.723442792892456,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7249648571014404,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6393277645111084,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7493984699249268,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7327156066894531,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6411788463592529,
+        "dir": "/"
+    },
+    {
+        "command": "pip index versions pytest --python-version 3.10 | head -20",
+        "returncode": 0,
+        "time": 1.272193431854248,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7400970458984375,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7424976825714111,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6380219459533691,
+        "dir": "/"
+    },
+    {
+        "command": "pip install -q pytest==7.4.4",
+        "returncode": 0,
+        "time": 1.9711494445800781,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7420291900634766,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.744680643081665,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6353721618652344,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6055514812469482,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 0,
+        "time": 2.2150981426239014,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7418415546417236,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.744863748550415,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6428253650665283,
+        "dir": "/repo"
+    }
+]

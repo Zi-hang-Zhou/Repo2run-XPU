@@ -1,0 +1,107 @@
+[
+    {
+        "GPT_time": 2.5728507041931152
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6718947887420654
+    },
+    {
+        "GPT_time": 3.538226366043091
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6687982082366943
+    },
+    {
+        "GPT_time": 5.179574251174927
+    },
+    {
+        "command": "ls -la /repo/requirements",
+        "returncode": 0,
+        "time": 0.6690998077392578
+    },
+    {
+        "GPT_time": 2.78037166595459
+    },
+    {
+        "command": "cat /repo/requirements/production.txt",
+        "returncode": 0,
+        "time": 0.6669213771820068
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6642293930053711
+    },
+    {
+        "command": "cat /repo/requirements/testing.txt",
+        "returncode": 0,
+        "time": 0.6660826206207275
+    },
+    {
+        "GPT_time": 8.452040195465088
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6619982719421387
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.395944118499756
+    },
+    {
+        "GPT_time": 4.62691855430603
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/production.txt",
+        "returncode": 0,
+        "time": 0.03933429718017578
+    },
+    {
+        "GPT_time": 2.7973740100860596
+    },
+    {
+        "command": "ls /repo/requirements/",
+        "returncode": 0,
+        "time": 0.6682000160217285
+    },
+    {
+        "GPT_time": 2.763953685760498
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/production.txt",
+        "returncode": 0,
+        "time": 0.039579153060913086
+    },
+    {
+        "GPT_time": 3.3878872394561768
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6653623580932617
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 9.027496337890625
+    },
+    {
+        "GPT_time": 3.2859017848968506
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6639454364776611
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 3.7701408863067627
+    }
+]

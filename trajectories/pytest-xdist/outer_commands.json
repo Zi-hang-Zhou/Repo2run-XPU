@@ -1,0 +1,65 @@
+[
+    {
+        "GPT_time": 2.7193214893341064
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6675643920898438
+    },
+    {
+        "GPT_time": 4.12335467338562
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6692516803741455
+    },
+    {
+        "GPT_time": 6.279154300689697
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"Pipfile*\" 2>/dev/null",
+        "returncode": 0,
+        "time": 0.7554409503936768
+    },
+    {
+        "GPT_time": 3.736368417739868
+    },
+    {
+        "command": "cat /repo/docs/requirements.txt",
+        "returncode": 0,
+        "time": 0.6673336029052734
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.66245436668396
+    },
+    {
+        "command": "cat /repo/example/loadscope/requirements.txt",
+        "returncode": 0,
+        "time": 0.6647343635559082
+    },
+    {
+        "GPT_time": 5.9089765548706055
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6648843288421631
+    },
+    {
+        "command": "pip install -e \".[testing]\" -q",
+        "returncode": 0,
+        "time": 6.966067790985107
+    },
+    {
+        "GPT_time": 3.3849949836730957
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 1.5078856945037842
+    }
+]

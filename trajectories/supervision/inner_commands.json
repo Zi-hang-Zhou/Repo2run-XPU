@@ -1,0 +1,104 @@
+[
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6085972785949707,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.1183357238769531,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7429962158203125,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.900205135345459,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6071560382843018,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7356696128845215,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7400038242340088,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6355996131896973,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6051685810089111,
+        "dir": "/"
+    },
+    {
+        "command": "poetry install",
+        "returncode": 0,
+        "time": 73.23323774337769,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7378687858581543,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7449657917022705,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6360511779785156,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/poetryruntest.py",
+        "returncode": 0,
+        "time": 3.892340660095215,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7186474800109863,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7450442314147949,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.636725902557373,
+        "dir": "/repo"
+    }
+]

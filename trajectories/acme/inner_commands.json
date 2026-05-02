@@ -1,0 +1,637 @@
+[
+    {
+        "command": "reset_environment",
+        "returncode": 0,
+        "time": -1
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7590813636779785,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7404499053955078,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6961619853973389,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7396831512451172,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7415275573730469,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6406984329223633,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.60573410987854,
+        "dir": "/"
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 15.751372575759888,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7777070999145508,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8057394027709961,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6368792057037354,
+        "dir": "/repo"
+    },
+    {
+        "command": "pip install jax jaxlib dm-haiku flax optax chex rlax -q",
+        "returncode": 0,
+        "time": 55.11320662498474,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.2128839492797852,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.3555498123168945,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6377768516540527,
+        "dir": "/repo"
+    },
+    {
+        "command": "pip install tensorflow tensorflow-probability tensorflow_datasets dm-sonnet trfl -q",
+        "returncode": 0,
+        "time": 84.84212827682495,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.331674575805664,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.4910063743591309,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6381573677062988,
+        "dir": "/repo"
+    },
+    {
+        "command": "pip install pytest-xdist pytype atari-py bsuite dm-control gym==0.25.0 pygame rlds -q",
+        "returncode": 1,
+        "time": 47.122233629226685,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.2741312980651855,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.5318231582641602,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6410477161407471,
+        "dir": "/"
+    },
+    {
+        "command": "apt-get update -qq",
+        "returncode": 0,
+        "time": 1.5858538150787354,
+        "dir": "/"
+    },
+    {
+        "command": "apt-get install cmake -y -qq",
+        "returncode": 0,
+        "time": 7.496703624725342,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.323786973953247,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.5312578678131104,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6393179893493652,
+        "dir": "/"
+    },
+    {
+        "command": "pip install pytest-xdist pytype atari-py bsuite dm-control gym==0.25.0 pygame rlds -q",
+        "returncode": 0,
+        "time": 111.40210151672363,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.5264761447906494,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.8145747184753418,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6379799842834473,
+        "dir": "/"
+    },
+    {
+        "command": "pip install dm-reverb dm-launchpad -q",
+        "returncode": 0,
+        "time": 6.625101804733276,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.6276276111602783,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 2.0751054286956787,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6375737190246582,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 6.172669887542725,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.628523826599121,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.915318250656128,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.635368824005127,
+        "dir": "/"
+    },
+    {
+        "command": "pip install tensorflow==2.11.0 tensorflow-probability==0.19.0 -q",
+        "returncode": 0,
+        "time": 93.88893032073975,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.5930061340332031,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.8476345539093018,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6367411613464355,
+        "dir": "/"
+    },
+    {
+        "command": "pip install protobuf==3.20.3 -q",
+        "returncode": 0,
+        "time": 6.12084436416626,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.6279985904693604,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.9127676486968994,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6387059688568115,
+        "dir": "/"
+    },
+    {
+        "command": "pip install tensorflow==2.12.0 tensorflow-probability==0.20.0 protobuf==3.20.3 -q",
+        "returncode": 0,
+        "time": 169.41794180870056,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.1634011268615723,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.4656343460083008,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.637744665145874,
+        "dir": "/"
+    },
+    {
+        "command": "pip install numpy==1.24.0 jax==0.4.13 jaxlib==0.4.13 flax==0.7.0 optax==0.1.7 chex==0.1.7 rlax==0.1.7 dm-haiku==0.0.10 -q",
+        "returncode": 1,
+        "time": 6.92466402053833,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.2429802417755127,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.4597148895263672,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6395094394683838,
+        "dir": "/"
+    },
+    {
+        "command": "pip install numpy==1.24.0 jax==0.4.17 jaxlib==0.4.17 flax==0.7.0 optax==0.1.7 chex==0.1.7 rlax==0.1.7 dm-haiku==0.0.10 -q",
+        "returncode": 0,
+        "time": 34.5167555809021,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.1356260776519775,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.4526352882385254,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6382577419281006,
+        "dir": "/"
+    },
+    {
+        "command": "pip install tensorflow==2.15.0 tensorflow-probability==0.23.0 -q",
+        "returncode": 0,
+        "time": 62.07797837257385,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.2076480388641357,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.4650068283081055,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6386425495147705,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 4.955005407333374,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.2196879386901855,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.4744141101837158,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6467390060424805,
+        "dir": "/"
+    },
+    {
+        "command": "pip uninstall dm-launchpad dm-reverb courier -y -q",
+        "returncode": 0,
+        "time": 1.0871922969818115,
+        "dir": "/"
+    },
+    {
+        "command": "pip install dm-launchpad dm-reverb -q",
+        "returncode": 0,
+        "time": 2.6679351329803467,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.2447779178619385,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.3290038108825684,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6384785175323486,
+        "dir": "/"
+    },
+    {
+        "command": "pip show dm-launchpad | grep -i requires",
+        "returncode": 0,
+        "time": 1.9654998779296875,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.1463005542755127,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.330381155014038,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6353511810302734,
+        "dir": "/"
+    },
+    {
+        "command": "pip index versions dm-launchpad 2>/dev/null | head -10",
+        "returncode": 0,
+        "time": 1.2807817459106445,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.2073297500610352,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.4463272094726562,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6356658935546875,
+        "dir": "/"
+    },
+    {
+        "command": "pip install tensorflow==2.8.0 tensorflow-probability==0.15.0 protobuf==3.19.6 -q",
+        "returncode": 0,
+        "time": 60.509581565856934,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.2428319454193115,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.469832420349121,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6383030414581299,
+        "dir": "/"
+    },
+    {
+        "command": "pip install dm-launchpad==0.5.2 dm-reverb==0.7.2 -q",
+        "returncode": 0,
+        "time": 4.179176330566406,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.248518466949463,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.392150640487671,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6425876617431641,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 8.2184579372406,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.1644995212554932,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.3949999809265137,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6390550136566162,
+        "dir": "/"
+    },
+    {
+        "command": "pip show scipy | grep -i version",
+        "returncode": 0,
+        "time": 1.875627040863037,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.1465508937835693,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.3298587799072266,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6362230777740479,
+        "dir": "/"
+    },
+    {
+        "command": "pip install scipy==1.11.4 -q",
+        "returncode": 0,
+        "time": 10.435334920883179,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.208634614944458,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.4601826667785645,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.638411283493042,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 0,
+        "time": 6.031586170196533,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.2440614700317383,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 1.374356985092163,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6345937252044678,
+        "dir": "/"
+    }
+]

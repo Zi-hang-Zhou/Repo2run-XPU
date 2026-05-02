@@ -1,0 +1,170 @@
+[
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6092550754547119,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7711002826690674,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7185928821563721,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6664407253265381,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6083452701568604,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7342278957366943,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7379212379455566,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6397852897644043,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6051232814788818,
+        "dir": "/"
+    },
+    {
+        "command": "poetry install",
+        "returncode": 0,
+        "time": 173.3626081943512,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7354133129119873,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7368061542510986,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6375808715820312,
+        "dir": "/repo"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6050617694854736,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/poetryruntest.py",
+        "returncode": 2,
+        "time": 7.791436433792114,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7385835647583008,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.737637996673584,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6683139801025391,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6049706935882568,
+        "dir": "/"
+    },
+    {
+        "command": "poetry install --extras experiment --with sortingExtension",
+        "returncode": 0,
+        "time": 5.975096225738525,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7330167293548584,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.738689661026001,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6388194561004639,
+        "dir": "/repo"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6052350997924805,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/poetryruntest.py",
+        "returncode": 0,
+        "time": 10.67823600769043,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7359225749969482,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7379932403564453,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6392219066619873,
+        "dir": "/repo"
+    }
+]

@@ -1,0 +1,12 @@
+diff --git a/src/setup.cfg b/src/setup.cfg
+index c306d75fa..81d0d69a4 100644
+--- a/src/setup.cfg
++++ b/src/setup.cfg
+@@ -1,6 +1,7 @@
+ [tool:pytest]
+ DJANGO_SETTINGS_MODULE=pretalx.common.settings.test_settings
+ testpaths = tests
++django_find_project = false
+ filterwarnings =
+     # Tracking in https://github.com/django-compressor/django-compressor/issues/1187
+     ignore:django.core.files.storage.get_storage_class is deprecated::compressor:115

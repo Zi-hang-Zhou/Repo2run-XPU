@@ -1,0 +1,13 @@
+diff --git a/heltour/settings_testing.py b/heltour/settings_testing.py
+index 00bb513a..003225e9 100644
+--- a/heltour/settings_testing.py
++++ b/heltour/settings_testing.py
+@@ -1,4 +1,5 @@
+ from .settings_default import *
+-
+-CACHEOPS = {}
+-STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'
++CACHEOPS = {
++    "*.*": {"ops": set(), "timeout": 0},
++}
++STATICFILES_STORAGE = "django.contrib.staticfiles.storage.StaticFilesStorage"

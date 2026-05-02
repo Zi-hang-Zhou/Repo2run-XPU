@@ -1,0 +1,1115 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.20, pytest-9.0.3, pluggy-1.6.0 -- /usr/local/bin/python3.10
+cachedir: .pytest_cache
+rootdir: /repo
+configfile: pyproject.toml
+testpaths: tests
+plugins: mock-3.15.1, cov-7.1.0, anyio-4.13.0
+collecting ... collected 382 items
+
+<Dir repo>
+  <Package tests>
+    <Dir replay>
+      <Module test_dump.py>
+        test_dump.
+        <Function test_value_error_if_key_missing_in_context>
+          Test that replay.dump raises if the context does not contain a key     named 'cookiecutter'.
+        <Function test_ioerror_if_replay_dir_creation_fails>
+          Test that replay.dump raises when the replay_dir cannot be created.
+        <Function test_run_json_dump>
+          Test that replay.dump runs json.dump under the hood and that the context     is correctly written to the expected file in the replay_dir.
+      <Module test_load.py>
+        test_load.
+        <Function test_value_error_if_key_missing_in_context>
+          Test that replay.load raises if the loaded context does not contain     'cookiecutter'.
+        <Function test_io_error_if_no_replay_file>
+          Test that replay.load raises if it cannot find a replay file.
+        <Function test_run_json_load>
+          Test that replay.load runs json.load under the hood and that the context     is correctly loaded from the file in replay_dir.
+      <Module test_replay.py>
+        test_replay.
+        <Function test_get_replay_file_name[bar]>
+          Make sure that replay.get_file_name generates a valid json file path.
+        <Function test_get_replay_file_name[bar.json]>
+          Make sure that replay.get_file_name generates a valid json file path.
+        <Function test_raise_on_invalid_mode[invalid_kwargs0]>
+          Test `cookiecutter` raise exception on unacceptable `replay` request.
+        <Function test_raise_on_invalid_mode[invalid_kwargs1]>
+          Test `cookiecutter` raise exception on unacceptable `replay` request.
+        <Function test_raise_on_invalid_mode[invalid_kwargs2]>
+          Test `cookiecutter` raise exception on unacceptable `replay` request.
+        <Function test_main_does_not_invoke_dump_but_load>
+          Test `cookiecutter` calling correct functions on `replay`.
+        <Function test_main_does_not_invoke_load_but_dump>
+          Test `cookiecutter` calling correct functions on non-replay launch.
+    <Dir repository>
+      <Module test_abbreviation_expansion.py>
+        Collection of tests around common path and url shorthands.
+        <Function test_abbreviation_expansion[Simple expansion]>
+          Verify abbreviation unpacking.
+        <Function test_abbreviation_expansion[Skip expansion (expansion not an abbreviation)]>
+          Verify abbreviation unpacking.
+        <Function test_abbreviation_expansion[Expansion prefix]>
+          Verify abbreviation unpacking.
+        <Function test_abbreviation_expansion[expansion_override_builtin]>
+          Verify abbreviation unpacking.
+        <Function test_abbreviation_expansion[expansion_prefix_ignores_suffix]>
+          Verify abbreviation unpacking.
+        <Function test_abbreviation_expansion[Correct expansion for builtin abbreviations (github)]>
+          Verify abbreviation unpacking.
+        <Function test_abbreviation_expansion[Correct expansion for builtin abbreviations (gitlab)]>
+          Verify abbreviation unpacking.
+        <Function test_abbreviation_expansion[Correct expansion for builtin abbreviations (bitbucket)]>
+          Verify abbreviation unpacking.
+        <Function test_abbreviation_expansion_prefix_not_0_in_braces>
+          Verify abbreviation unpacking raises error on incorrect index.
+      <Module test_determine_repo_dir_clones_repo.py>
+        Collection of tests around cloning cookiecutter template repositories.
+        <Function test_zipfile_unzip[/path/to/zipfile.zip-False]>
+          Verify zip files correctly handled for different source locations.
+          
+          `unzip()` should be called with correct args when `determine_repo_dir()`
+          is passed a zipfile, or a URL to a zipfile.
+        <Function test_zipfile_unzip[https://example.com/path/to/zipfile.zip-True]>
+          Verify zip files correctly handled for different source locations.
+          
+          `unzip()` should be called with correct args when `determine_repo_dir()`
+          is passed a zipfile, or a URL to a zipfile.
+        <Function test_zipfile_unzip[http://example.com/path/to/zipfile.zip-True]>
+          Verify zip files correctly handled for different source locations.
+          
+          `unzip()` should be called with correct args when `determine_repo_dir()`
+          is passed a zipfile, or a URL to a zipfile.
+        <Function test_repository_url_should_clone>
+          Verify repository url triggers clone function.
+          
+          `clone()` should be called with correct args when `determine_repo_dir()` is
+          passed a repository template url.
+        <Function test_repository_url_with_no_context_file>
+          Verify cloned repository without `cookiecutter.json` file raises error.
+      <Module test_determine_repo_dir_finds_existing_cookiecutter.py>
+        Tests around detection whether cookiecutter templates are cached locally.
+        <Function test_should_find_existing_cookiecutter>
+          Should find folder created by `cloned_cookiecutter_path` and return it.
+          
+          This folder is considered like previously cloned project directory.
+      <Module test_determine_repo_dir_finds_subdirectories.py>
+        Tests around locally cached cookiecutter template repositories.
+        <Function test_should_find_existing_cookiecutter>
+          Find `cookiecutter.json` in sub folder created by `cloned_cookiecutter_path`.
+        <Function test_local_repo_typo>
+          Wrong pointing to `cookiecutter.json` sub-directory should raise.
+      <Module test_determine_repository_should_use_local_repo.py>
+        Tests around using locally cached cookiecutter template repositories.
+        <Function test_finds_local_repo>
+          A valid local repository should be returned.
+        <Function test_local_repo_with_no_context_raises>
+          A local repository without a cookiecutter.json should raise a     `RepositoryNotFound` exception.
+        <Function test_local_repo_typo>
+          An unknown local repository should raise a `RepositoryNotFound`     exception.
+      <Module test_is_repo_url.py>
+        Tests for all supported cookiecutter template repository locations.
+        <Function test_is_zip_file[/path/to/zipfile.zip]>
+          Verify is_repo_url works.
+        <Function test_is_zip_file[https://example.com/path/to/zipfile.zip]>
+          Verify is_repo_url works.
+        <Function test_is_zip_file[http://example.com/path/to/zipfile.zip]>
+          Verify is_repo_url works.
+        <Function test_is_repo_url_for_remote_urls[gitolite@server:team/repo]>
+          Verify is_repo_url works.
+        <Function test_is_repo_url_for_remote_urls[git@github.com:audreyfeldroy/cookiecutter.git]>
+          Verify is_repo_url works.
+        <Function test_is_repo_url_for_remote_urls[https://github.com/cookiecutter/cookiecutter.git]>
+          Verify is_repo_url works.
+        <Function test_is_repo_url_for_remote_urls[git+https://private.com/gitrepo]>
+          Verify is_repo_url works.
+        <Function test_is_repo_url_for_remote_urls[hg+https://private.com/mercurialrepo]>
+          Verify is_repo_url works.
+        <Function test_is_repo_url_for_remote_urls[https://bitbucket.org/pokoli/cookiecutter.hg]>
+          Verify is_repo_url works.
+        <Function test_is_repo_url_for_remote_urls[file://server/path/to/repo.git]>
+          Verify is_repo_url works.
+        <Function test_is_repo_url_for_local_urls[/audreyr/cookiecutter.git]>
+          Verify is_repo_url works.
+        <Function test_is_repo_url_for_local_urls[/home/audreyr/cookiecutter]>
+          Verify is_repo_url works.
+        <Function test_is_repo_url_for_local_urls[c:\\users\\foo\\appdata\\local\\temp\\1\\pytest-0\\test_default_output_dir0\\template]>
+          Verify is_repo_url works.
+        <Function test_expand_abbreviations>
+          Validate `repository.expand_abbreviations` correctly translate url.
+      <Module test_repository_has_cookiecutter_json.py>
+        Tests for `repository_has_cookiecutter_json` function.
+        <Function test_valid_repository>
+          Validate correct response if `cookiecutter.json` file exist.
+        <Function test_invalid_repository[tests/fake-repo-bad]>
+          Validate correct response if `cookiecutter.json` file not exist.
+        <Function test_invalid_repository[tests/unknown-repo]>
+          Validate correct response if `cookiecutter.json` file not exist.
+    <Module test_abort_generate_on_hook_error.py>
+      test_abort_generate_on_hook_error.
+      
+      Tests to ensure cookiecutter properly exits with a non-zero exit code whenever
+      errors occur in (optional) pre- or pos-gen hooks.
+      <Function test_hooks_raises_errors[pre_gen_hook_raises_error]>
+        Verify pre- and pos-gen errors raises correct error code from script.
+        
+        This allows developers to make different error codes in their code,
+        for different errors.
+      <Function test_hooks_raises_errors[post_gen_hook_raises_error]>
+        Verify pre- and pos-gen errors raises correct error code from script.
+        
+        This allows developers to make different error codes in their code,
+        for different errors.
+    <Module test_cli.py>
+      Collection of tests around cookiecutter's command-line interface.
+      <Function test_cli_version[-V]>
+        Verify Cookiecutter version output by `cookiecutter` on cli invocation.
+      <Function test_cli_version[--version]>
+        Verify Cookiecutter version output by `cookiecutter` on cli invocation.
+      <Function test_cli_error_on_existing_output_directory>
+        Test cli invocation without `overwrite-if-exists` fail if dir exist.
+      <Function test_cli>
+        Test cli invocation work without flags if directory not exist.
+      <Function test_cli_verbose>
+        Test cli invocation display log if called with `verbose` flag.
+      <Function test_cli_replay>
+        Test cli invocation display log with `verbose` and `replay` flags.
+      <Function test_cli_replay_file>
+        Test cli invocation correctly pass --replay-file option.
+      <Function test_cli_replay_generated>
+        Test cli invocation correctly generates a project with replay.
+      <Function test_cli_exit_on_noinput_and_replay>
+        Test cli invocation fail if both `no-input` and `replay` flags passed.
+      <Function test_run_cookiecutter_on_overwrite_if_exists_and_replay[-f]>
+        Test cli invocation with `overwrite-if-exists` and `replay` flags.
+      <Function test_run_cookiecutter_on_overwrite_if_exists_and_replay[--overwrite-if-exists]>
+        Test cli invocation with `overwrite-if-exists` and `replay` flags.
+      <Function test_cli_overwrite_if_exists_when_output_dir_does_not_exist[-f]>
+        Test cli invocation with `overwrite-if-exists` and `no-input` flags.
+        
+        Case when output dir not exist.
+      <Function test_cli_overwrite_if_exists_when_output_dir_does_not_exist[--overwrite-if-exists]>
+        Test cli invocation with `overwrite-if-exists` and `no-input` flags.
+        
+        Case when output dir not exist.
+      <Function test_cli_overwrite_if_exists_when_output_dir_exists[-f]>
+        Test cli invocation with `overwrite-if-exists` and `no-input` flags.
+        
+        Case when output dir already exist.
+      <Function test_cli_overwrite_if_exists_when_output_dir_exists[--overwrite-if-exists]>
+        Test cli invocation with `overwrite-if-exists` and `no-input` flags.
+        
+        Case when output dir already exist.
+      <Function test_cli_output_dir[-o]>
+        Test cli invocation with `output-dir` flag changes output directory.
+      <Function test_cli_output_dir[--output-dir]>
+        Test cli invocation with `output-dir` flag changes output directory.
+      <Function test_cli_help[-h]>
+        Test cli invocation display help message with `help` flag.
+      <Function test_cli_help[--help]>
+        Test cli invocation display help message with `help` flag.
+      <Function test_cli_help[help]>
+        Test cli invocation display help message with `help` flag.
+      <Function test_user_config>
+        Test cli invocation works with `config-file` option.
+      <Function test_default_user_config_overwrite>
+        Test cli invocation ignores `config-file` if `default-config` passed.
+      <Function test_default_user_config>
+        Test cli invocation accepts `default-config` flag correctly.
+      <Function test_echo_undefined_variable_error>
+        Cli invocation return error if variable undefined in template.
+      <Function test_echo_unknown_extension_error>
+        Cli return error if extension incorrectly defined in template.
+      <Function test_local_extension>
+        Test to verify correct work of extension, included in template.
+      <Function test_local_extension_not_available>
+        Test handling of included but unavailable local extension.
+      <Function test_cli_extra_context>
+        Cli invocation replace content if called with replacement pairs.
+      <Function test_cli_extra_context_invalid_format>
+        Cli invocation raise error if called with unknown argument.
+      <Function test_debug_file_non_verbose>
+        Test cli invocation writes log to `debug-file` if flag enabled.
+        
+        Case for normal log output.
+      <Function test_debug_file_verbose>
+        Test cli invocation writes log to `debug-file` if flag enabled.
+        
+        Case for verbose log output.
+      <Function test_debug_list_installed_templates>
+        Verify --list-installed command correct invocation.
+      <Function test_debug_list_installed_templates_failure>
+        Verify --list-installed command error on invocation.
+      <Function test_directory_repo>
+        Test cli invocation works with `directory` option.
+      <Function test_cli_accept_hooks[-o---accept-hooks=yes-None-True]>
+        Test cli invocation works with `accept-hooks` option.
+      <Function test_cli_accept_hooks[-o---accept-hooks=no-None-False]>
+        Test cli invocation works with `accept-hooks` option.
+      <Function test_cli_accept_hooks[-o---accept-hooks=ask-yes-True]>
+        Test cli invocation works with `accept-hooks` option.
+      <Function test_cli_accept_hooks[-o---accept-hooks=ask-no-False]>
+        Test cli invocation works with `accept-hooks` option.
+      <Function test_cli_accept_hooks[--output-dir---accept-hooks=yes-None-True]>
+        Test cli invocation works with `accept-hooks` option.
+      <Function test_cli_accept_hooks[--output-dir---accept-hooks=no-None-False]>
+        Test cli invocation works with `accept-hooks` option.
+      <Function test_cli_accept_hooks[--output-dir---accept-hooks=ask-yes-True]>
+        Test cli invocation works with `accept-hooks` option.
+      <Function test_cli_accept_hooks[--output-dir---accept-hooks=ask-no-False]>
+        Test cli invocation works with `accept-hooks` option.
+      <Function test_cli_with_json_decoding_error>
+        Test cli invocation with a malformed JSON file.
+      <Function test_cli_with_pre_prompt_hook>
+        Test cli invocation in a template with pre_prompt hook.
+      <Function test_cli_with_pre_prompt_hook_fail>
+        Test cli invocation will fail when a given env var is present.
+    <Module test_cookiecutter_invocation.py>
+      test_cookiecutter_invocation.
+      
+      Tests to make sure that cookiecutter can be called from the cli without
+      using the entry point set up for the package.
+      <Function test_should_invoke_main>
+        Should create a project and exit with 0 code on cli invocation.
+    <Module test_cookiecutter_local_no_input.py>
+      Test cookiecutter for work without any input.
+      
+      Tests in this file execute `cookiecutter()` with `no_input=True` flag and
+      verify result with different settings in `cookiecutter.json`.
+      <Function test_cookiecutter_no_input_return_project_dir[tests/fake-repo-pre/]>
+        Verify `cookiecutter` create project dir on input with or without slash.
+      <Function test_cookiecutter_no_input_return_project_dir[tests/fake-repo-pre]>
+        Verify `cookiecutter` create project dir on input with or without slash.
+      <Function test_cookiecutter_no_input_extra_context>
+        Verify `cookiecutter` accept `extra_context` argument.
+      <Function test_cookiecutter_templated_context>
+        Verify Jinja2 templating correctly works in `cookiecutter.json` file.
+      <Function test_cookiecutter_no_input_return_rendered_file>
+        Verify Jinja2 templating correctly works in `cookiecutter.json` file.
+      <Function test_cookiecutter_dict_values_in_context>
+        Verify configured dictionary from `cookiecutter.json` correctly unpacked.
+      <Function test_cookiecutter_template_cleanup>
+        Verify temporary folder for zip unpacking dropped.
+    <Module test_cookiecutter_local_with_input.py>
+      Test main cookiecutter invocation with user input enabled (mocked).
+      <Function test_cookiecutter_local_with_input>
+        Verify simple cookiecutter run results, without extra_context provided.
+      <Function test_cookiecutter_input_extra_context>
+        Verify simple cookiecutter run results, with extra_context provided.
+    <Module test_cookiecutter_nested_templates.py>
+      Test cookiecutter invocation with nested configuration structure.
+      <Function test_cookiecutter_nested_templates[fake-nested-templates-fake-project]>
+        Verify cookiecutter nested configuration files mechanism.
+      <Function test_cookiecutter_nested_templates[fake-nested-templates-old-style-fake-package]>
+        Verify cookiecutter nested configuration files mechanism.
+    <Module test_custom_extensions_in_hooks.py>
+      test_custom_extension_in_hooks.
+      
+      Tests to ensure custom cookiecutter extensions are properly made available to
+      pre- and post-gen hooks.
+      <Function test_hook_with_extension[pre_gen_hook]>
+        Verify custom Jinja2 extension correctly work in hooks and file rendering.
+        
+        Each file in hooks has simple tests inside and will raise error if not
+        correctly rendered.
+      <Function test_hook_with_extension[post_gen_hook]>
+        Verify custom Jinja2 extension correctly work in hooks and file rendering.
+        
+        Each file in hooks has simple tests inside and will raise error if not
+        correctly rendered.
+    <Module test_default_extensions.py>
+      Verify Jinja2 filters/extensions are available from pre-gen/post-gen hooks.
+      <Function test_jinja2_time_extension>
+        Verify Jinja2 time extension work correctly.
+      <Function test_jinja2_slugify_extension>
+        Verify Jinja2 slugify extension work correctly.
+      <Function test_jinja2_uuid_extension>
+        Verify Jinja2 uuid extension work correctly.
+    <Module test_environment.py>
+      Collection of tests around loading extensions.
+      <Function test_env_should_raise_for_unknown_extension>
+        Test should raise if extension not installed in system.
+      <Function test_env_should_come_with_default_extensions>
+        Verify default extensions loaded with StrictEnvironment.
+    <Module test_exceptions.py>
+      Collection of tests around general exception handling.
+      <Function test_undefined_variable_to_str>
+        Verify string representation of errors formatted in expected form.
+    <Module test_find.py>
+      Tests for `cookiecutter.find` module.
+      <Function test_find_template[template with default jinja strings]>
+        Verify correctness of `find.find_template` path detection.
+      <Function test_find_template[template with custom jinja strings]>
+        Verify correctness of `find.find_template` path detection.
+      <Function test_find_template[template with custom jinja strings but folder with default jinja strings]>
+        Verify correctness of `find.find_template` path detection.
+      <Function test_find_template[template missing folder]>
+        Verify correctness of `find.find_template` path detection.
+    <Module test_generate_context.py>
+      Verify generate context behaviour and context overwrite priorities.
+      <Function test_generate_context[input_params0-expected_context0]>
+        Verify input contexts combinations result in expected content on output.
+      <Function test_generate_context[input_params1-expected_context1]>
+        Verify input contexts combinations result in expected content on output.
+      <Function test_generate_context[input_params2-expected_context2]>
+        Verify input contexts combinations result in expected content on output.
+      <Function test_generate_context[input_params3-expected_context3]>
+        Verify input contexts combinations result in expected content on output.
+      <Function test_generate_context_with_json_decoding_error>
+        Verify malformed JSON file generates expected error output.
+      <Function test_default_context_replacement_in_generate_context>
+        Verify default content settings are correctly replaced by template settings.
+        
+        Make sure that the default for list variables of `orientation` is based on
+        the user config (`choices_template.json`) and not changed to a single value
+        from `default_context`.
+      <Function test_generate_context_decodes_non_ascii_chars>
+        Verify `generate_context` correctly decodes non-ascii chars.
+      <Function test_apply_overwrites_does_include_unused_variables>
+        Verify `apply_overwrites_to_context` skips variables that are not in context.
+      <Function test_apply_overwrites_sets_non_list_value>
+        Verify `apply_overwrites_to_context` work with string variables.
+      <Function test_apply_overwrites_does_not_modify_choices_for_invalid_overwrite>
+        Verify variables overwrite for list if variable not in list ignored.
+      <Function test_apply_overwrites_invalid_overwrite>
+        Verify variables overwrite for list if variable not in list not ignored.
+      <Function test_apply_overwrites_sets_multichoice_values>
+        Verify variable overwrite for list given multiple valid values.
+      <Function test_apply_overwrites_invalid_multichoice_values>
+        Verify variable overwrite for list given invalid list entries not ignored.
+      <Function test_apply_overwrites_error_additional_values>
+        Verify variable overwrite for list given additional entries not ignored.
+      <Function test_apply_overwrites_in_dictionaries>
+        Verify variable overwrite for lists nested in dictionary variables.
+      <Function test_apply_overwrites_sets_default_for_choice_variable>
+        Verify overwritten list member became a default value.
+      <Function test_apply_overwrites_in_nested_dict>
+        Verify nested dict in default content settings are correctly replaced.
+      <Function test_apply_overwrite_context_as_in_nested_dict_with_additional_values>
+        Verify nested dict in default content settings are correctly added.
+        
+        The `apply_overwrites_to_context` function should add the extra values to the dict.
+      <Function test_apply_overwrites_in_nested_dict_additional_values>
+        Verify nested dict in default content settings are correctly added.
+      <Function test_apply_overwrites_overwrite_value_as_boolean_string[1-expected0]>
+        Verify boolean conversion for valid overwrite values.
+      <Function test_apply_overwrites_overwrite_value_as_boolean_string[true-expected1]>
+        Verify boolean conversion for valid overwrite values.
+      <Function test_apply_overwrites_overwrite_value_as_boolean_string[t-expected2]>
+        Verify boolean conversion for valid overwrite values.
+      <Function test_apply_overwrites_overwrite_value_as_boolean_string[yes-expected3]>
+        Verify boolean conversion for valid overwrite values.
+      <Function test_apply_overwrites_overwrite_value_as_boolean_string[y-expected4]>
+        Verify boolean conversion for valid overwrite values.
+      <Function test_apply_overwrites_overwrite_value_as_boolean_string[on-expected5]>
+        Verify boolean conversion for valid overwrite values.
+      <Function test_apply_overwrites_overwrite_value_as_boolean_string[0-expected6]>
+        Verify boolean conversion for valid overwrite values.
+      <Function test_apply_overwrites_overwrite_value_as_boolean_string[false-expected7]>
+        Verify boolean conversion for valid overwrite values.
+      <Function test_apply_overwrites_overwrite_value_as_boolean_string[f-expected8]>
+        Verify boolean conversion for valid overwrite values.
+      <Function test_apply_overwrites_overwrite_value_as_boolean_string[no-expected9]>
+        Verify boolean conversion for valid overwrite values.
+      <Function test_apply_overwrites_overwrite_value_as_boolean_string[n-expected10]>
+        Verify boolean conversion for valid overwrite values.
+      <Function test_apply_overwrites_overwrite_value_as_boolean_string[off-expected11]>
+        Verify boolean conversion for valid overwrite values.
+      <Function test_apply_overwrites_error_overwrite_value_as_boolean_string>
+        Verify boolean conversion for invalid overwrite values.
+    <Module test_generate_copy_without_render.py>
+      Verify correct work of `_copy_without_render` context option.
+      <Function test_generate_copy_without_render_extensions>
+        Verify correct work of `_copy_without_render` context option.
+        
+        Some files/directories should be rendered during invocation,
+        some just copied, without any modification.
+    <Module test_generate_copy_without_render_override.py>
+      Verify correct work of `_copy_without_render` context option.
+      <Function test_generate_copy_without_render_extensions>
+        Verify correct work of `_copy_without_render` context option.
+        
+        Some files/directories should be rendered during invocation,
+        some just copied, without any modification.
+    <Module test_generate_file.py>
+      Tests for `generate_file` function, part of `generate_files` function workflow.
+      <Function test_generate_file>
+        Verify simple file is generated with rendered context data.
+      <Function test_generate_file_jsonify_filter>
+        Verify jsonify filter works during files generation process.
+      <Function test_generate_file_random_ascii_string[True-10]>
+        Verify correct work of random_ascii_string extension on file generation.
+      <Function test_generate_file_random_ascii_string[True-40]>
+        Verify correct work of random_ascii_string extension on file generation.
+      <Function test_generate_file_random_ascii_string[False-10]>
+        Verify correct work of random_ascii_string extension on file generation.
+      <Function test_generate_file_random_ascii_string[False-40]>
+        Verify correct work of random_ascii_string extension on file generation.
+      <Function test_generate_file_with_true_condition>
+        Verify correct work of boolean condition in file name on file generation.
+        
+        This test has positive answer, so file should be rendered.
+      <Function test_generate_file_with_false_condition>
+        Verify correct work of boolean condition in file name on file generation.
+        
+        This test has negative answer, so file should not be rendered.
+      <Function test_generate_file_verbose_template_syntax_error>
+        Verify correct exception raised on syntax error in file before generation.
+      <Function test_generate_file_does_not_translate_lf_newlines_to_crlf>
+        Verify that file generation use same line ending, as in source file.
+      <Function test_generate_file_does_not_translate_crlf_newlines_to_lf>
+        Verify that file generation use same line ending, as in source file.
+      <Function test_generate_file_handles_mixed_line_endings>
+        Verify that file generation gracefully handles mixed line endings.
+    <Module test_generate_files.py>
+      Tests for `generate_files` function and related errors raising.
+      
+      Use the global clean_system fixture and run additional teardown code to remove
+      some special folders.
+      <Function test_generate_files_nontemplated_exception>
+        Verify `generate_files` raises when no directories to render exist.
+        
+        Note: Check `tests/test-generate-files-nontemplated` location to understand.
+      <Function test_generate_files>
+        Verify directory name correctly rendered with unicode containing context.
+      <Function test_generate_files_with_linux_newline>
+        Verify new line not removed by templating engine after folder generation.
+      <Function test_generate_files_with_jinja2_environment>
+        Extend StrictEnvironment with _jinja2_env_vars cookiecutter template option.
+      <Function test_generate_files_with_trailing_newline_forced_to_linux_by_context>
+        Verify new line not removed by templating engine after folder generation.
+      <Function test_generate_files_with_windows_newline>
+        Verify windows source line end not changed during files generation.
+      <Function test_generate_files_with_windows_newline_forced_to_linux_by_context>
+        Verify windows line end changed to linux during files generation.
+      <Function test_generate_files_binaries>
+        Verify binary files created during directory generation.
+      <Function test_generate_files_absolute_path>
+        Verify usage of absolute path does not change files generation behaviour.
+      <Function test_generate_files_output_dir>
+        Verify `output_dir` option for `generate_files` changing location correctly.
+      <Function test_generate_files_permissions>
+        Verify generates files respect source files permissions.
+        
+        simple.txt and script.sh should retain their respective 0o644 and 0o755
+        permissions.
+      <Function test_generate_files_with_overwrite_if_exists_with_skip_if_file_exists>
+        Verify `skip_if_file_exist` has priority over `overwrite_if_exists`.
+      <Function test_generate_files_with_skip_if_file_exists>
+        Verify existed files not removed if error raised with `skip_if_file_exists`.
+      <Function test_generate_files_with_overwrite_if_exists>
+        Verify overwrite_if_exists overwrites old files.
+      <Function test_raise_undefined_variable_file_name>
+        Verify correct error raised when file name cannot be rendered.
+      <Function test_raise_undefined_variable_file_name_existing_project>
+        Verify correct error raised when file name cannot be rendered.
+      <Function test_raise_undefined_variable_file_content>
+        Verify correct error raised when file content cannot be rendered.
+      <Function test_raise_undefined_variable_dir_name>
+        Verify correct error raised when directory name cannot be rendered.
+      <Function test_keep_project_dir_on_failure>
+        Verify correct error raised when directory name cannot be rendered.
+      <Function test_raise_undefined_variable_dir_name_existing_project>
+        Verify correct error raised when directory name cannot be rendered.
+      <Function test_raise_undefined_variable_project_dir>
+        Verify correct error raised when directory name cannot be rendered.
+      <Function test_raise_empty_dir_name>
+        Verify correct error raised when directory name is empty.
+    <Module test_generate_hooks.py>
+      Test work of python and shell hooks for generated projects.
+      <Function test_ignore_hooks_dirs>
+        Verify hooks directory not created in target location on files generation.
+      <Function test_run_python_hooks>
+        Verify pre and post generation python hooks executed and result in output_dir.
+        
+        Each hook should create in target directory. Test verifies that these files
+        created.
+      <Function test_run_python_hooks_cwd>
+        Verify pre and post generation python hooks executed and result in current dir.
+        
+        Each hook should create in target directory. Test verifies that these files
+        created.
+      <Function test_empty_hooks>
+        Verify error is raised on empty hook script. Ignored on windows.
+        
+        OSError.errno=8 is not thrown on Windows when the script is empty
+        because it always runs through shell instead of needing a shebang.
+      <Function test_oserror_hooks>
+        Verify script error passed correctly to cookiecutter error.
+        
+        Here subprocess.Popen function mocked, ie we do not call hook script,
+        just produce expected error.
+      <Function test_run_failing_hook_removes_output_directory>
+        Verify project directory not created or removed if hook failed.
+      <Function test_run_failing_hook_preserves_existing_output_directory>
+        Verify project directory not removed if exist before hook failed.
+      <Function test_run_shell_hooks>
+        Verify pre and post generate project shell hooks executed.
+        
+        This test for .sh files.
+      <Function test_run_shell_hooks_win>
+        Verify pre and post generate project shell hooks executed.
+        
+        This test for .bat files.
+      <Function test_ignore_shell_hooks>
+        Verify *.txt files not created, when accept_hooks=False.
+      <Function test_deprecate_run_hook_from_repo_dir>
+        Test deprecation warning in generate._run_hook_from_repo_dir.
+    <Module test_get_config.py>
+      Collection of tests around loading cookiecutter config.
+      <Function test_merge_configs>
+        Verify default and user config merged in expected way.
+      <Function test_get_config>
+        Verify valid config opened and rendered correctly.
+      <Function test_get_config_does_not_exist>
+        Check that `exceptions.ConfigDoesNotExistException` is raised when     attempting to get a non-existent config file.
+      <Function test_invalid_config>
+        An invalid config file should raise an `InvalidConfiguration`     exception.
+      <Function test_get_config_with_defaults>
+        A config file that overrides 1 of 3 defaults.
+      <Function test_get_config_empty_config_file>
+        An empty config file results in the default config.
+      <Function test_get_config_invalid_file_with_array_as_top_level_element>
+        An exception should be raised if top-level element is array.
+      <Function test_get_config_invalid_file_with_multiple_docs>
+        An exception should be raised if config file contains multiple docs.
+    <Module test_get_user_config.py>
+      Tests to verify correct work with user configs and system/user variables inside.
+      <Function test_get_user_config_valid>
+        Validate user config correctly parsed if exist and correctly formatted.
+      <Function test_get_user_config_invalid>
+        Validate `InvalidConfiguration` raised when provided user config malformed.
+      <Function test_get_user_config_nonexistent>
+        Validate default app config returned, if user does not have own config.
+      <Function test_specify_config_path>
+        Validate provided custom config path should be respected and parsed.
+      <Function test_default_config_path>
+        Validate app configuration. User config path should match default path.
+      <Function test_default_config_from_env_variable>
+        Validate app configuration. User config path should be parsed from sys env.
+      <Function test_force_default_config>
+        Validate `default_config=True` should ignore provided custom user config.
+      <Function test_expand_user_for_directories_in_config>
+        Validate user pointers expanded in user configs.
+      <Function test_expand_vars_for_directories_in_config>
+        Validate environment variables expanded in user configs.
+      <Function test_specify_config_values>
+        Validate provided custom config values should be respected.
+    <Module test_hooks.py>
+      Tests for `cookiecutter.hooks` module.
+      <Class TestFindHooks>
+        Class to unite find hooks related tests in one place.
+        <Function test_find_hook>
+          Finds the specified hook.
+        <Function test_no_hooks>
+          `find_hooks` should return None if the hook could not be found.
+        <Function test_unknown_hooks_dir>
+          `find_hooks` should return None if hook directory not found.
+        <Function test_hook_not_found>
+          `find_hooks` should return None if the hook could not be found.
+      <Class TestExternalHooks>
+        Class to unite tests for hooks with different project paths.
+        <Function test_run_script>
+          Execute a hook script, independently of project generation.
+        <Function test_run_failing_script>
+          Test correct exception raise if run_script fails.
+        <Function test_run_failing_script_enoexec>
+          Test correct exception raise if run_script fails.
+        <Function test_run_script_cwd>
+          Change directory before running hook.
+        <Function test_run_script_with_context>
+          Execute a hook script, passing a context.
+        <Function test_run_hook>
+          Execute hook from specified template in specified output         directory.
+        <Function test_run_failing_hook>
+          Test correct exception raise if hook exit code is not zero.
+      <Function test_ignore_hook_backup_files>
+        Test `find_hook` correctly use `valid_hook` verification function.
+    <Module test_log.py>
+      Collection of tests around log handling.
+      <Function test_info_stdout_logging>
+        Test that stdout logs use info format and level.
+      <Function test_debug_stdout_logging>
+        Test that stdout logs use debug format and level.
+      <Function test_debug_file_logging>
+        Test that logging to stdout uses a different format and level than     the the file handler.
+    <Module test_main.py>
+      Collection of tests around cookiecutter's replay feature.
+      <Function test_original_cookiecutter_options_preserved_in__cookiecutter>
+        Preserve original context options.
+        
+        Tests you can access the original context options via
+        `context['_cookiecutter']`.
+      <Function test_replay_dump_template_name>
+        Check that replay_dump is called with a valid template_name.
+        
+        Template name must not be a relative path.
+        
+        Otherwise files such as ``..json`` are created, which are not just cryptic
+        but also later mistaken for replay files of other templates if invoked with
+        '.' and '--replay'.
+        
+        Change the current working directory temporarily to 'tests/fake-repo-tmpl'
+        for this test and call cookiecutter with '.' for the target template.
+      <Function test_replay_load_template_name>
+        Check that replay_load is called correctly.
+        
+        Calls require valid template_name that is not a relative path.
+        
+        Change the current working directory temporarily to 'tests/fake-repo-tmpl'
+        for this test and call cookiecutter with '.' for the target template.
+      <Function test_custom_replay_file>
+        Check that reply.load is called with the custom replay_file.
+    <Module test_output_folder.py>
+      tests_output_folder.
+      
+      Test formerly known from a unittest residing in test_generate.py named
+      TestOutputFolder.test_output_folder
+      <Function test_output_folder>
+        Tests should correctly create content, as output_folder does not yet exist.
+      <Function test_exception_when_output_folder_exists>
+        Tests should raise error as output folder created before `generate_files`.
+    <Module test_pre_prompt_hooks.py>
+      Test work of python and shell hooks on repository.
+      <Function test_run_pre_prompt_python_hook>
+        Verify pre_prompt.py runs and creates a copy of cookiecutter.json.
+      <Function test_run_pre_prompt_python_hook_fail>
+        Verify pre_prompt.py will fail when a given env var is present.
+      <Function test_run_pre_prompt_shell_hook>
+        Verify pre_prompt.sh runs and creates a copy of cookiecutter.json.
+    <Module test_preferred_encoding.py>
+      Collection of tests around character encodings.
+      <Function test_not_ascii>
+        Make sure that the systems preferred encoding is not `ascii`.
+        
+        Otherwise `click` is raising a RuntimeError for Python3. For a detailed
+        description of this very problem please consult the following gist:
+        https://gist.github.com/hackebrot/937245251887197ef542
+        
+        This test also checks that `tox.ini` explicitly copies the according
+        system environment variables to the test environments.
+    <Module test_prompt.py>
+      Tests for `cookiecutter.prompt` module.
+      <Class TestRenderVariable>
+        Class to unite simple and complex tests for render_variable function.
+        <Function test_convert_to_str[1-1]>
+          Verify simple items correctly rendered to strings.
+        <Function test_convert_to_str[True-True]>
+          Verify simple items correctly rendered to strings.
+        <Function test_convert_to_str[foo-foo]>
+          Verify simple items correctly rendered to strings.
+        <Function test_convert_to_str[{{cookiecutter.project}}-foobar]>
+          Verify simple items correctly rendered to strings.
+        <Function test_convert_to_str[None-None]>
+          Verify simple items correctly rendered to strings.
+        <Function test_convert_to_str_complex_variables[raw_var0-rendered_var0]>
+          Verify tree items correctly rendered.
+        <Function test_convert_to_str_complex_variables[raw_var1-rendered_var1]>
+          Verify tree items correctly rendered.
+        <Function test_convert_to_str_complex_variables[raw_var2-rendered_var2]>
+          Verify tree items correctly rendered.
+      <Class TestPrompt>
+        Class to unite user prompt related tests.
+        <Function test_prompt_for_config[ASCII default prompt/input]>
+          Verify `prompt_for_config` call `read_user_variable` on text request.
+        <Function test_prompt_for_config[Unicode default prompt/input]>
+          Verify `prompt_for_config` call `read_user_variable` on text request.
+        <Function test_prompt_for_config_with_human_prompts[ASCII default prompt/input]>
+          Verify call `read_user_variable` on request when human-readable prompts.
+        <Function test_prompt_for_config_with_human_choices[context0]>
+          Test prompts when human-readable labels for user choices.
+        <Function test_prompt_for_config_with_human_choices[context1]>
+          Test prompts when human-readable labels for user choices.
+        <Function test_prompt_for_config_with_human_choices[context2]>
+          Test prompts when human-readable labels for user choices.
+        <Function test_prompt_for_config_dict>
+          Verify `prompt_for_config` call `read_user_variable` on dict request.
+        <Function test_should_render_dict>
+          Verify template inside dictionary variable rendered.
+        <Function test_should_render_deep_dict>
+          Verify nested structures like dict in dict, rendered correctly.
+        <Function test_should_render_deep_dict_with_human_prompts>
+          Verify dict rendered correctly when human-readable prompts.
+        <Function test_internal_use_no_human_prompts>
+          Verify dict rendered correctly when human-readable prompts empty.
+        <Function test_prompt_for_templated_config>
+          Verify Jinja2 templating works in unicode prompts.
+        <Function test_dont_prompt_for_private_context_var>
+          Verify `read_user_variable` not called for private context variables.
+        <Function test_should_render_private_variables_with_two_underscores>
+          Test rendering of private variables with two underscores.
+          
+          There are three cases:
+          1. Variables beginning with a single underscore are private and not rendered.
+          2. Variables beginning with a double underscore are private and are rendered.
+          3. Variables beginning with anything other than underscores are not private and
+             are rendered.
+        <Function test_should_not_render_private_variables>
+          Verify private(underscored) variables not rendered by `prompt_for_config`.
+          
+          Private variables designed to be raw, same as context input.
+      <Class TestReadUserChoice>
+        Class to unite choices prompt related tests.
+        <Function test_should_invoke_read_user_choice>
+          Verify correct function called for select(list) variables.
+        <Function test_should_invoke_read_user_variable>
+          Verify correct function called for string input variables.
+        <Function test_should_render_choices>
+          Verify Jinja2 templating engine works inside choices variables.
+      <Class TestPromptChoiceForConfig>
+        Class to unite choices prompt related tests with config test.
+        <Function test_should_return_first_option_if_no_input>
+          Verify prompt_choice_for_config return first list option on no_input=True.
+        <Function test_should_read_user_choice>
+          Verify prompt_choice_for_config return user selection on no_input=False.
+      <Class TestReadUserYesNo>
+        Class to unite boolean prompt related tests.
+        <Function test_should_invoke_read_user_yes_no[True]>
+          Verify correct function called for boolean variables.
+        <Function test_should_invoke_read_user_yes_no[False]>
+          Verify correct function called for boolean variables.
+        <Function test_boolean_parameter_no_input>
+          Verify boolean parameter sent to prompt for config with no input.
+      <Function test_undefined_variable[Undefined variable in cookiecutter dict]>
+        Verify `prompt.prompt_for_config` raises correct error.
+      <Function test_undefined_variable[Undefined variable in cookiecutter dict with choices]>
+        Verify `prompt.prompt_for_config` raises correct error.
+      <Function test_undefined_variable[Undefined variable in cookiecutter dict with dict_key]>
+        Verify `prompt.prompt_for_config` raises correct error.
+      <Function test_undefined_variable[Undefined variable in cookiecutter dict with key_value]>
+        Verify `prompt.prompt_for_config` raises correct error.
+      <Function test_cookiecutter_nested_templates[fake-nested-templates-fake-project]>
+        Test nested_templates generation.
+      <Function test_cookiecutter_nested_templates[fake-nested-templates-old-style-fake-package]>
+        Test nested_templates generation.
+      <Function test_cookiecutter_nested_templates_invalid_paths[]>
+        Test nested_templates generation.
+      <Function test_cookiecutter_nested_templates_invalid_paths[/tmp]>
+        Test nested_templates generation.
+      <Function test_cookiecutter_nested_templates_invalid_paths[/foo]>
+        Test nested_templates generation.
+      <Function test_cookiecutter_nested_templates_invalid_win_paths[]>
+        Test nested_templates generation.
+      <Function test_cookiecutter_nested_templates_invalid_win_paths[C:/tmp]>
+        Test nested_templates generation.
+      <Function test_cookiecutter_nested_templates_invalid_win_paths[D:/tmp]>
+        Test nested_templates generation.
+      <Function test_prompt_should_ask_and_rm_repo_dir>
+        In `prompt_and_delete()`, if the user agrees to delete/reclone the     repo, the repo should be deleted.
+      <Function test_prompt_should_ask_and_exit_on_user_no_answer>
+        In `prompt_and_delete()`, if the user decline to delete/reclone the     repo, cookiecutter should exit.
+      <Function test_prompt_should_ask_and_rm_repo_file>
+        In `prompt_and_delete()`, if the user agrees to delete/reclone a     repo file, the repo should be deleted.
+      <Function test_prompt_should_ask_and_keep_repo_on_no_reuse>
+        In `prompt_and_delete()`, if the user wants to keep their old     cloned template repo, it should not be deleted.
+      <Function test_prompt_should_ask_and_keep_repo_on_reuse>
+        In `prompt_and_delete()`, if the user wants to keep their old     cloned template repo, it should not be deleted.
+      <Function test_prompt_should_not_ask_if_no_input_and_rm_repo_dir>
+        Prompt should not ask if no input and rm dir.
+        
+        In `prompt_and_delete()`, if `no_input` is True, the call to
+        `prompt.read_user_yes_no()` should be suppressed.
+      <Function test_prompt_should_not_ask_if_no_input_and_rm_repo_file>
+        Prompt should not ask if no input and rm file.
+        
+        In `prompt_and_delete()`, if `no_input` is True, the call to
+        `prompt.read_user_yes_no()` should be suppressed.
+    <Module test_read_repo_password.py>
+      Tests around handling repositories which require authentication.
+      <Function test_click_invocation>
+        Test click function called correctly by cookiecutter.
+        
+        Test for password (hidden input) type invocation.
+    <Module test_read_user_choice.py>
+      Tests around prompting for and handling of choice variables.
+      <Function test_click_invocation[1-hello]>
+        Test click function called correctly by cookiecutter.
+        
+        Test for choice type invocation.
+      <Function test_click_invocation[2-world]>
+        Test click function called correctly by cookiecutter.
+        
+        Test for choice type invocation.
+      <Function test_click_invocation[3-foo]>
+        Test click function called correctly by cookiecutter.
+        
+        Test for choice type invocation.
+      <Function test_click_invocation[4-bar]>
+        Test click function called correctly by cookiecutter.
+        
+        Test for choice type invocation.
+      <Function test_raise_if_options_is_not_a_non_empty_list>
+        Test function called by cookiecutter raise expected errors.
+        
+        Test for choice type invocation.
+    <Module test_read_user_dict.py>
+      Test `process_json`, `read_user_dict` functions in `cookiecutter.prompt`.
+      <Function test_process_json_invalid_json>
+        Test `process_json` for correct error on malformed input.
+      <Function test_process_json_non_dict>
+        Test `process_json` for correct error on non-JSON input.
+      <Function test_process_json_valid_json>
+        Test `process_json` for correct output on JSON input.
+        
+        Test for simple dict with list.
+      <Function test_process_json_deep_dict>
+        Test `process_json` for correct output on JSON input.
+        
+        Test for dict in dict case.
+      <Function test_should_raise_type_error>
+        Test `default_value` arg verification in `read_user_dict` function.
+      <Function test_should_call_prompt_with_process_json>
+        Test to make sure that `process_json` is actually being used.
+        
+        Verifies generation of a processor for the user input.
+      <Function test_should_not_load_json_from_sentinel>
+        Make sure that `json.loads` is not called when using default value.
+      <Function test_read_user_dict_default_value[\n]>
+        Make sure that `read_user_dict` returns the default value.
+        
+        Verify return of a dict variable rather than the display value.
+      <Function test_read_user_dict_default_value[\ndefault\n]>
+        Make sure that `read_user_dict` returns the default value.
+        
+        Verify return of a dict variable rather than the display value.
+      <Function test_json_prompt_process_response>
+        Test `JsonPrompt` process_response to convert str to json.
+    <Module test_read_user_variable.py>
+      test_read_user_variable.
+      <Function test_click_invocation>
+        Test click function called correctly by cookiecutter.
+        
+        Test for string type invocation.
+      <Function test_input_loop_with_null_default_value>
+        Test `Prompt.ask` is run repeatedly until a valid answer is provided.
+        
+        Test for `default_value` parameter equal to None.
+    <Module test_read_user_yes_no.py>
+      test_read_user_yes_no.
+      <Function test_click_invocation>
+        Test click function called correctly by cookiecutter.
+        
+        Test for boolean type invocation.
+      <Function test_yesno_prompt_process_response>
+        Test `YesNoPrompt` process_response to convert str to bool.
+    <Module test_repo_not_found.py>
+      Testing invalid cookiecutter template repositories.
+      <Function test_should_raise_error_if_repo_does_not_exist>
+        Cookiecutter invocation with non-exist repository should raise error.
+    <Module test_specify_output_dir.py>
+      Tests for cookiecutter's output directory customization feature.
+      <Function test_api_invocation>
+        Verify output dir location is correctly passed.
+      <Function test_default_output_dir>
+        Verify default output dir is current working folder.
+    <Module test_templates.py>
+      test_custom_extension_in_hooks.
+      
+      Tests to ensure custom cookiecutter extensions are properly made available to
+      pre- and post-gen hooks.
+      <Function test_build_templates[include]>
+        Verify Templates Design keywords.
+        
+        no-templates is a compatibility tests for repo without `templates` directory
+      <Function test_build_templates[no-templates]>
+        Verify Templates Design keywords.
+        
+        no-templates is a compatibility tests for repo without `templates` directory
+      <Function test_build_templates[extends]>
+        Verify Templates Design keywords.
+        
+        no-templates is a compatibility tests for repo without `templates` directory
+      <Function test_build_templates[super]>
+        Verify Templates Design keywords.
+        
+        no-templates is a compatibility tests for repo without `templates` directory
+    <Module test_time_extension.py>
+      Tests for the TimeExtension Jinja2 extension.
+      <Function test_tz_is_required>
+        Verify template parsing fails without a timezone.
+      <Function test_utc_default_datetime_format>
+        Verify default datetime format can be parsed.
+      <Function test_accept_valid_timezones[utc]>
+        Verify that valid timezones are accepted.
+      <Function test_accept_valid_timezones[local]>
+        Verify that valid timezones are accepted.
+      <Function test_accept_valid_timezones[Europe/Berlin]>
+        Verify that valid timezones are accepted.
+      <Function test_environment_datetime_format>
+        Verify datetime format can be parsed from environment.
+      <Function test_add_time>
+        Verify that added time offset can be parsed.
+      <Function test_substract_time>
+        Verify that substracted time offset can be parsed.
+      <Function test_offset_with_format>
+        Verify that offset works together with datetime format.
+    <Module test_utils.py>
+      Tests for `cookiecutter.utils` module.
+      <Function test_force_delete>
+        Verify `utils.force_delete` makes files writable.
+      <Function test_rmtree>
+        Verify `utils.rmtree` remove files marked as read-only.
+      <Function test_make_sure_path_exists>
+        Verify correct True/False response from `utils.make_sure_path_exists`.
+        
+        Should return True if directory exist or created.
+        Should return False if impossible to create directory (for example protected)
+      <Function test_make_sure_path_exists_correctly_handle_os_error>
+        Verify correct True/False response from `utils.make_sure_path_exists`.
+        
+        Should return True if directory exist or created.
+        Should return False if impossible to create directory (for example protected)
+      <Function test_work_in>
+        Verify returning to original folder after `utils.work_in` use.
+      <Function test_work_in_without_path>
+        Folder is not changed if no path provided.
+      <Function test_create_tmp_repo_dir>
+        Verify `utils.create_tmp_repo_dir` creates a copy.
+    <Dir vcs>
+      <Module test_clone.py>
+        Tests around cloning repositories and detection of errors at it.
+        <Function test_clone_should_raise_if_vcs_not_installed>
+          In `clone()`, a `VCSNotInstalled` exception should be raised if no VCS     is installed.
+        <Function test_clone_should_rstrip_trailing_slash_in_repo_url>
+          In `clone()`, repo URL's trailing slash should be stripped if one is     present.
+        <Function test_clone_should_abort_if_user_does_not_want_to_reclone>
+          In `clone()`, if user doesn't want to reclone, Cookiecutter should exit     without cloning anything.
+        <Function test_clone_should_silent_exit_if_ok_to_reuse>
+          In `clone()`, if user doesn't want to reclone, Cookiecutter should exit     without cloning anything.
+        <Function test_clone_should_invoke_vcs_command[git-https://github.com/hello/world.git-world]>
+          When `clone()` is called with a git/hg repo, the corresponding VCS     command should be run via `subprocess.check_output()`.
+          
+          This should take place:
+          * In the correct dir
+          * With the correct args.
+        <Function test_clone_should_invoke_vcs_command[hg-https://bitbucket.org/foo/bar-bar]>
+          When `clone()` is called with a git/hg repo, the corresponding VCS     command should be run via `subprocess.check_output()`.
+          
+          This should take place:
+          * In the correct dir
+          * With the correct args.
+        <Function test_clone_should_invoke_vcs_command[git-git@host:gitoliterepo-gitoliterepo]>
+          When `clone()` is called with a git/hg repo, the corresponding VCS     command should be run via `subprocess.check_output()`.
+          
+          This should take place:
+          * In the correct dir
+          * With the correct args.
+        <Function test_clone_should_invoke_vcs_command[git-git@gitlab.com:cookiecutter/cookiecutter.git-cookiecutter]>
+          When `clone()` is called with a git/hg repo, the corresponding VCS     command should be run via `subprocess.check_output()`.
+          
+          This should take place:
+          * In the correct dir
+          * With the correct args.
+        <Function test_clone_should_invoke_vcs_command[git-git@github.com:cookiecutter/cookiecutter.git-cookiecutter]>
+          When `clone()` is called with a git/hg repo, the corresponding VCS     command should be run via `subprocess.check_output()`.
+          
+          This should take place:
+          * In the correct dir
+          * With the correct args.
+        <Function test_clone_handles_repo_typo[fatal: repository 'https://github.com/hackebro/cookiedozer' not found]>
+          In `clone()`, repository not found errors should raise an     appropriate exception.
+        <Function test_clone_handles_repo_typo[hg: abort: HTTP Error 404: Not Found]>
+          In `clone()`, repository not found errors should raise an     appropriate exception.
+        <Function test_clone_handles_branch_typo[error: pathspec 'unknown_branch' did not match any file(s) known to git]>
+          In `clone()`, branch not found errors should raise an     appropriate exception.
+        <Function test_clone_handles_branch_typo[hg: abort: unknown revision 'unknown_branch'!]>
+          In `clone()`, branch not found errors should raise an     appropriate exception.
+        <Function test_clone_unknown_subprocess_error>
+          In `clone()`, unknown subprocess errors should be raised.
+      <Module test_identify_repo.py>
+        Collection of tests around repository type identification.
+        <Function test_identify_known_repo[git+https://github.com/pytest-dev/cookiecutter-pytest-plugin.git-git-https://github.com/pytest-dev/cookiecutter-pytest-plugin.git]>
+          Verify different correct repositories url syntax is correctly transformed.
+        <Function test_identify_known_repo[hg+https://bitbucket.org/foo/bar.hg-hg-https://bitbucket.org/foo/bar.hg]>
+          Verify different correct repositories url syntax is correctly transformed.
+        <Function test_identify_known_repo[https://github.com/pytest-dev/cookiecutter-pytest-plugin.git-git-https://github.com/pytest-dev/cookiecutter-pytest-plugin.git]>
+          Verify different correct repositories url syntax is correctly transformed.
+        <Function test_identify_known_repo[https://bitbucket.org/foo/bar.hg-hg-https://bitbucket.org/foo/bar.hg]>
+          Verify different correct repositories url syntax is correctly transformed.
+        <Function test_identify_known_repo[https://github.com/audreyfeldroy/cookiecutter-pypackage.git-git-https://github.com/audreyfeldroy/cookiecutter-pypackage.git]>
+          Verify different correct repositories url syntax is correctly transformed.
+        <Function test_identify_known_repo[https://github.com/audreyfeldroy/cookiecutter-pypackage-git-https://github.com/audreyfeldroy/cookiecutter-pypackage]>
+          Verify different correct repositories url syntax is correctly transformed.
+        <Function test_identify_known_repo[git@gitorious.org:cookiecutter-gitorious/cookiecutter-gitorious.git-git-git@gitorious.org:cookiecutter-gitorious/cookiecutter-gitorious.git]>
+          Verify different correct repositories url syntax is correctly transformed.
+        <Function test_identify_known_repo[https://audreyr@bitbucket.org/audreyr/cookiecutter-bitbucket-hg-https://audreyr@bitbucket.org/audreyr/cookiecutter-bitbucket]>
+          Verify different correct repositories url syntax is correctly transformed.
+        <Function test_identify_raise_on_unknown_repo[foo+git]>
+          Verify different incorrect repositories url syntax trigger error raising.
+        <Function test_identify_raise_on_unknown_repo[foo+hg]>
+          Verify different incorrect repositories url syntax trigger error raising.
+        <Function test_identify_raise_on_unknown_repo[foo+bar]>
+          Verify different incorrect repositories url syntax trigger error raising.
+        <Function test_identify_raise_on_unknown_repo[foobar]>
+          Verify different incorrect repositories url syntax trigger error raising.
+        <Function test_identify_raise_on_unknown_repo[http://norepotypespecified.com]>
+          Verify different incorrect repositories url syntax trigger error raising.
+      <Module test_is_vcs_installed.py>
+        Collection of tests around VCS detection.
+        <Function test_is_vcs_installed[-False]>
+          Verify `is_vcs_installed` function correctly handles `which` answer.
+        <Function test_is_vcs_installed[None-False]>
+          Verify `is_vcs_installed` function correctly handles `which` answer.
+        <Function test_is_vcs_installed[False-False]>
+          Verify `is_vcs_installed` function correctly handles `which` answer.
+        <Function test_is_vcs_installed[/usr/local/bin/git-True]>
+          Verify `is_vcs_installed` function correctly handles `which` answer.
+    <Dir zipfile>
+      <Module test_unzip.py>
+        Tests for function unzip() from zipfile module.
+        <Function test_unzip_local_file>
+          Local file reference can be unzipped.
+        <Function test_unzip_protected_local_file_environment_password>
+          In `unzip()`, the environment can be used to provide a repo password.
+        <Function test_unzip_protected_local_file_bad_environment_password>
+          In `unzip()`, an error occurs if the environment has a bad password.
+        <Function test_unzip_protected_local_file_user_password_with_noinput>
+          Can't unpack a password-protected repo in no_input mode.
+        <Function test_unzip_protected_local_file_user_password>
+          A password-protected local file reference can be unzipped.
+        <Function test_unzip_protected_local_file_user_bad_password>
+          Error in `unzip()`, if user can't provide a valid password.
+        <Function test_empty_zip_file>
+          In `unzip()`, an empty file raises an error.
+        <Function test_non_repo_zip_file>
+          In `unzip()`, a repository must have a top level directory.
+        <Function test_bad_zip_file>
+          In `unzip()`, a corrupted zip file raises an error.
+        <Function test_unzip_url>
+          In `unzip()`, a url will be downloaded and unzipped.
+        <Function test_unzip_url_with_empty_chunks>
+          In `unzip()` empty chunk must be ignored.
+        <Function test_unzip_url_existing_cache>
+          Url should be downloaded and unzipped, old zip file will be removed.
+        <Function test_unzip_url_existing_cache_no_input>
+          If no_input is provided, the existing file should be removed.
+        <Function test_unzip_should_abort_if_no_redownload>
+          Should exit without cloning anything If no redownload.
+        <Function test_unzip_is_ok_to_reuse>
+          Already downloaded zip should not be downloaded again.
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.10.20-final-0 _______________
+
+Name                          Stmts   Miss  Cover   Missing
+-----------------------------------------------------------
+cookiecutter/__init__.py          6      0   100%
+cookiecutter/cli.py              76     37    51%   49-58, 65-83, 196-253, 257
+cookiecutter/config.py           59     43    27%   38-40, 49-59, 64-88, 114-143
+cookiecutter/environment.py      22     13    41%   28-42, 50-55, 70
+cookiecutter/exceptions.py       26      4    85%   137-139, 143
+cookiecutter/extensions.py       69     69     0%   3-174
+cookiecutter/find.py             16      8    50%   24-38
+cookiecutter/generate.py        199    172    14%   49-56, 66-120, 137-169, 199-257, 268-294, 313-319, 346-463
+cookiecutter/hooks.py            87     65    25%   44-50, 65-79, 88-108, 120-131, 142-148, 167-181, 190-204
+cookiecutter/log.py              22     16    27%   31-56
+cookiecutter/main.py             73     52    29%   72-200, 205, 208-209, 212
+cookiecutter/prompt.py          186    147    21%   31-42, 53-59, 76-81, 89, 101-136, 147-157, 170, 180-193, 220-236, 241-247, 257-259, 275-278, 289-360, 373-399, 414-437
+cookiecutter/replay.py           23     15    35%   21-23, 28-36, 41-49
+cookiecutter/repository.py       41     28    32%   30, 35, 44-53, 62-67, 101-135
+cookiecutter/utils.py            51     30    41%   30-31, 39, 47-51, 60-66, 74-75, 81-87, 92-97, 102-104
+cookiecutter/vcs.py              61     46    25%   41-54, 63, 83-140
+cookiecutter/zipfile.py          58     48    17%   38-122
+-----------------------------------------------------------
+TOTAL                          1075    793    26%
+========================= 382 tests collected in 1.04s =========================

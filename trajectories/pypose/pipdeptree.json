@@ -1,0 +1,489 @@
+[
+    {
+        "key": "nvidia-cuda-cupti",
+        "package_name": "nvidia-cuda-cupti",
+        "installed_version": "13.0.85",
+        "required_version": "13.0.85",
+        "dependencies": []
+    },
+    {
+        "key": "nvidia-cuda-nvrtc",
+        "package_name": "nvidia-cuda-nvrtc",
+        "installed_version": "13.0.88",
+        "required_version": "13.0.88",
+        "dependencies": []
+    },
+    {
+        "key": "nvidia-cuda-runtime",
+        "package_name": "nvidia-cuda-runtime",
+        "installed_version": "13.0.96",
+        "required_version": "13.0.96",
+        "dependencies": []
+    },
+    {
+        "key": "nvidia-cufft",
+        "package_name": "nvidia-cufft",
+        "installed_version": "12.0.0.61",
+        "required_version": "12.0.0.61",
+        "dependencies": [
+            {
+                "key": "nvidia-nvjitlink",
+                "package_name": "nvidia-nvjitlink",
+                "installed_version": "13.0.88",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "nvidia-cufile",
+        "package_name": "nvidia-cufile",
+        "installed_version": "1.15.1.6",
+        "required_version": "1.15.1.6",
+        "dependencies": []
+    },
+    {
+        "key": "nvidia-curand",
+        "package_name": "nvidia-curand",
+        "installed_version": "10.4.0.35",
+        "required_version": "10.4.0.35",
+        "dependencies": []
+    },
+    {
+        "key": "nvidia-cusolver",
+        "package_name": "nvidia-cusolver",
+        "installed_version": "12.0.4.66",
+        "required_version": "12.0.4.66",
+        "dependencies": [
+            {
+                "key": "nvidia-cublas",
+                "package_name": "nvidia-cublas",
+                "installed_version": "13.1.0.3",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "nvidia-cusparse",
+                "package_name": "nvidia-cusparse",
+                "installed_version": "12.6.3.3",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "nvidia-nvjitlink",
+                        "package_name": "nvidia-nvjitlink",
+                        "installed_version": "13.0.88",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "nvidia-nvjitlink",
+                "package_name": "nvidia-nvjitlink",
+                "installed_version": "13.0.88",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "nvidia-nvtx",
+        "package_name": "nvidia-nvtx",
+        "installed_version": "13.0.85",
+        "required_version": "13.0.85",
+        "dependencies": []
+    },
+    {
+        "key": "pip",
+        "package_name": "pip",
+        "installed_version": "23.0.1",
+        "required_version": "23.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.35.1",
+        "required_version": "2.35.1",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pypose",
+        "package_name": "pypose",
+        "installed_version": "0.6.8",
+        "required_version": "0.6.8",
+        "dependencies": [
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.3",
+                "required_version": ">=7",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.20.0",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.1",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "torch",
+                "package_name": "torch",
+                "installed_version": "2.11.0",
+                "required_version": "==2.*",
+                "dependencies": [
+                    {
+                        "key": "cuda-bindings",
+                        "package_name": "cuda-bindings",
+                        "installed_version": "13.2.0",
+                        "required_version": ">=13.0.3,<14",
+                        "dependencies": [
+                            {
+                                "key": "cuda-pathfinder",
+                                "package_name": "cuda-pathfinder",
+                                "installed_version": "1.5.2",
+                                "required_version": "~=1.1",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "cuda-toolkit",
+                        "package_name": "cuda-toolkit",
+                        "installed_version": "13.0.2",
+                        "required_version": "==13.0.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "filelock",
+                        "package_name": "filelock",
+                        "installed_version": "3.25.2",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "fsspec",
+                        "package_name": "fsspec",
+                        "installed_version": "2026.3.0",
+                        "required_version": ">=0.8.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "jinja2",
+                        "package_name": "Jinja2",
+                        "installed_version": "3.1.6",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "markupsafe",
+                                "package_name": "MarkupSafe",
+                                "installed_version": "3.0.3",
+                                "required_version": ">=2.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "networkx",
+                        "package_name": "networkx",
+                        "installed_version": "3.4.2",
+                        "required_version": ">=2.5.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "nvidia-cudnn-cu13",
+                        "package_name": "nvidia-cudnn-cu13",
+                        "installed_version": "9.19.0.56",
+                        "required_version": "==9.19.0.56",
+                        "dependencies": [
+                            {
+                                "key": "nvidia-cublas",
+                                "package_name": "nvidia-cublas",
+                                "installed_version": "13.1.0.3",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "nvidia-cusparselt-cu13",
+                        "package_name": "nvidia-cusparselt-cu13",
+                        "installed_version": "0.8.0",
+                        "required_version": "==0.8.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "nvidia-nccl-cu13",
+                        "package_name": "nvidia-nccl-cu13",
+                        "installed_version": "2.28.9",
+                        "required_version": "==2.28.9",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "nvidia-nvshmem-cu13",
+                        "package_name": "nvidia-nvshmem-cu13",
+                        "installed_version": "3.4.5",
+                        "required_version": "==3.4.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "setuptools",
+                        "package_name": "setuptools",
+                        "installed_version": "79.0.1",
+                        "required_version": "<82",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "sympy",
+                        "package_name": "sympy",
+                        "installed_version": "1.14.0",
+                        "required_version": ">=1.13.3",
+                        "dependencies": [
+                            {
+                                "key": "mpmath",
+                                "package_name": "mpmath",
+                                "installed_version": "1.3.0",
+                                "required_version": ">=1.1.0,<1.4",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "triton",
+                        "package_name": "triton",
+                        "installed_version": "3.6.0",
+                        "required_version": "==3.6.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.10.0",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "torchvision",
+        "package_name": "torchvision",
+        "installed_version": "0.26.0",
+        "required_version": "0.26.0",
+        "dependencies": [
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "pillow",
+                "package_name": "pillow",
+                "installed_version": "12.2.0",
+                "required_version": ">=5.3.0,!=8.3.*",
+                "dependencies": []
+            },
+            {
+                "key": "torch",
+                "package_name": "torch",
+                "installed_version": "2.11.0",
+                "required_version": "==2.11.0",
+                "dependencies": [
+                    {
+                        "key": "cuda-bindings",
+                        "package_name": "cuda-bindings",
+                        "installed_version": "13.2.0",
+                        "required_version": ">=13.0.3,<14",
+                        "dependencies": [
+                            {
+                                "key": "cuda-pathfinder",
+                                "package_name": "cuda-pathfinder",
+                                "installed_version": "1.5.2",
+                                "required_version": "~=1.1",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "cuda-toolkit",
+                        "package_name": "cuda-toolkit",
+                        "installed_version": "13.0.2",
+                        "required_version": "==13.0.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "filelock",
+                        "package_name": "filelock",
+                        "installed_version": "3.25.2",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "fsspec",
+                        "package_name": "fsspec",
+                        "installed_version": "2026.3.0",
+                        "required_version": ">=0.8.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "jinja2",
+                        "package_name": "Jinja2",
+                        "installed_version": "3.1.6",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "markupsafe",
+                                "package_name": "MarkupSafe",
+                                "installed_version": "3.0.3",
+                                "required_version": ">=2.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "networkx",
+                        "package_name": "networkx",
+                        "installed_version": "3.4.2",
+                        "required_version": ">=2.5.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "nvidia-cudnn-cu13",
+                        "package_name": "nvidia-cudnn-cu13",
+                        "installed_version": "9.19.0.56",
+                        "required_version": "==9.19.0.56",
+                        "dependencies": [
+                            {
+                                "key": "nvidia-cublas",
+                                "package_name": "nvidia-cublas",
+                                "installed_version": "13.1.0.3",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "nvidia-cusparselt-cu13",
+                        "package_name": "nvidia-cusparselt-cu13",
+                        "installed_version": "0.8.0",
+                        "required_version": "==0.8.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "nvidia-nccl-cu13",
+                        "package_name": "nvidia-nccl-cu13",
+                        "installed_version": "2.28.9",
+                        "required_version": "==2.28.9",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "nvidia-nvshmem-cu13",
+                        "package_name": "nvidia-nvshmem-cu13",
+                        "installed_version": "3.4.5",
+                        "required_version": "==3.4.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "setuptools",
+                        "package_name": "setuptools",
+                        "installed_version": "79.0.1",
+                        "required_version": "<82",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "sympy",
+                        "package_name": "sympy",
+                        "installed_version": "1.14.0",
+                        "required_version": ">=1.13.3",
+                        "dependencies": [
+                            {
+                                "key": "mpmath",
+                                "package_name": "mpmath",
+                                "installed_version": "1.3.0",
+                                "required_version": ">=1.1.0,<1.4",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "triton",
+                        "package_name": "triton",
+                        "installed_version": "3.6.0",
+                        "required_version": "==3.6.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.10.0",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "wheel",
+        "package_name": "wheel",
+        "installed_version": "0.45.1",
+        "required_version": "0.45.1",
+        "dependencies": []
+    }
+]

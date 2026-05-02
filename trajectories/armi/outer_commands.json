@@ -1,0 +1,214 @@
+[
+    {
+        "GPT_time": 2.553151845932007
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.671882152557373
+    },
+    {
+        "GPT_time": 4.135596513748169
+    },
+    {
+        "command": "ls -la /repo | grep -E \"poetry|requirements|setup\"",
+        "returncode": 0,
+        "time": 0.1650865077972412
+    },
+    {
+        "GPT_time": 3.368292808532715
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6712310314178467
+    },
+    {
+        "GPT_time": 6.062894344329834
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"setup.py\" 2>/dev/null | head -20",
+        "returncode": 0,
+        "time": 0.9767665863037109
+    },
+    {
+        "GPT_time": 6.02711820602417
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6645669937133789
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 41.4695188999176
+    },
+    {
+        "GPT_time": 3.7162461280822754
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 20.492058277130127
+    },
+    {
+        "GPT_time": 9.109444618225098
+    },
+    {
+        "command": "find /repo -name \"conftest.py\" | head -10",
+        "returncode": 0,
+        "time": 0.6701099872589111
+    },
+    {
+        "GPT_time": 2.780673027038574
+    },
+    {
+        "command": "cat /repo/armi/conftest.py",
+        "returncode": 0,
+        "time": 0.6688981056213379
+    },
+    {
+        "GPT_time": 7.8090105056762695
+    },
+    {
+        "command": "ls -la /repo/conftest.py 2>/dev/null || echo \"No conftest.py in root\"",
+        "returncode": 0,
+        "time": 0.7218053340911865
+    },
+    {
+        "GPT_time": 8.343486309051514
+    },
+    {
+        "command": "head -50 /repo/armi/tests/test_notebooks.py",
+        "returncode": 0,
+        "time": 0.6663815975189209
+    },
+    {
+        "GPT_time": 7.262889862060547
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6651148796081543
+    },
+    {
+        "command": "pip install -e \".[test]\" -q",
+        "returncode": 0,
+        "time": 31.86421799659729
+    },
+    {
+        "GPT_time": 8.291394472122192
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 16.72135066986084
+    },
+    {
+        "GPT_time": 19.47885274887085
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6658444404602051
+    },
+    {
+        "command": "python -c \"import pytest; print(pytest.__version__)\"",
+        "returncode": 0,
+        "time": 0.00965738296508789
+    },
+    {
+        "GPT_time": 13.781715154647827
+    },
+    {
+        "command": "cat /repo/armi/__init__.py | head -250 | tail -50",
+        "returncode": 0,
+        "time": 0.6681356430053711
+    },
+    {
+        "GPT_time": 17.568624258041382
+    },
+    {
+        "command": "cat > /repo/conftest.py << 'EOF' # Copyright 2019 TerraPower, LLC # # Licensed under the Apache License, Version 2.0 (the \"License\"); # you may not use this file except in compliance with the License. # You may obtain a copy of the License at # #     http://www.apache.org/licenses/LICENSE-2.0 # # Unless required by applicable law or agreed to in writing, software # distributed under the License is distributed on an \"AS IS\" BASIS, # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. # See the License for the specific language governing permissions and # limitations under the License. \"\"\" Root-level pytest configuration to ensure ARMI is configured before any tests run. \"\"\" import os import matplotlib from armi import apps, configure, context from armi.settings import caseSettings from armi.tests import TEST_ROOT  def pytest_sessionstart(session):     print(\"Initializing generic ARMI Framework application\")     configure(apps.App())     bootstrapArmiTestEnv()  def bootstrapArmiTestEnv():     \"\"\"     Perform ARMI config appropriate for running unit tests.     \"\"\"     from armi.nucDirectory import nuclideBases     cs = caseSettings.Settings()     context.Mode.setMode(context.Mode.BATCH)     # Need to init burnChain.     with open(cs[\"burnChainFileName\"]) as burnChainStream:         nuclideBases.imposeBurnChain(burnChainStream)     # turn on a non-interactive mpl backend to minimize errors related to     # initializing Tcl in parallel tests     matplotlib.use(\"agg\")     # set and create a test-specific FAST_PATH for parallel unit testing     context.activateLocalFastPath()     if not os.path.exists(context.getFastPath()):         os.makedirs(context.getFastPath())     # some tests need to find the TEST_ROOT via an env variable     os.environ[\"ARMITESTBASE\"] = TEST_ROOT EOF",
+        "returncode": 0,
+        "time": 0.0076541900634765625
+    },
+    {
+        "GPT_time": 14.996595621109009
+    },
+    {
+        "diff": "\n/repo/conftest.py\n<<<<<<< SEARCH\n=======\n# Copyright 2019 TerraPower, LLC\n#\n# Licensed under the Apache License, Version 2.0 (the \"License\");\n# you may not use this file except in compliance with the License.\n# You may obtain a copy of the License at\n#\n#     http://www.apache.org/licenses/LICENSE-2.0\n#\n# Unless required by applicable law or agreed to in writing, software\n# distributed under the License is distributed on an \"AS IS\" BASIS,\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\n# See the License for the specific language governing permissions and\n# limitations under the License.\n\"\"\"\nRoot-level pytest configuration to ensure ARMI is configured before any tests run.\n\"\"\"\nimport os\nimport matplotlib\nfrom armi import apps, configure, context\nfrom armi.settings import caseSettings\nfrom armi.tests import TEST_ROOT\n\ndef pytest_sessionstart(session):\n    print(\"Initializing generic ARMI Framework application\")\n    configure(apps.App())\n    bootstrapArmiTestEnv()\n\ndef bootstrapArmiTestEnv():\n    \"\"\"\n    Perform ARMI config appropriate for running unit tests.\n    \"\"\"\n    from armi.nucDirectory import nuclideBases\n    cs = caseSettings.Settings()\n    context.Mode.setMode(context.Mode.BATCH)\n    # Need to init burnChain.\n    with open(cs[\"burnChainFileName\"]) as burnChainStream:\n        nuclideBases.imposeBurnChain(burnChainStream)\n    # turn on a non-interactive mpl backend to minimize errors related to\n    # initializing Tcl in parallel tests\n    matplotlib.use(\"agg\")\n    # set and create a test-specific FAST_PATH for parallel unit testing\n    context.activateLocalFastPath()\n    if not os.path.exists(context.getFastPath()):\n        os.makedirs(context.getFastPath())\n    # some tests need to find the TEST_ROOT via an env variable\n    os.environ[\"ARMITESTBASE\"] = TEST_ROOT\n>>>>>>> REPLACE\n",
+        "returncode": 0,
+        "time": 0.15733718872070312
+    },
+    {
+        "GPT_time": 12.847343683242798
+    },
+    {
+        "command": "echo '# Copyright 2019 TerraPower, LLC # # Licensed under the Apache License, Version 2.0 (the \"License\"); # you may not use this file except in compliance with the License. # You may obtain a copy of the License at # #     http://www.apache.org/licenses/LICENSE-2.0 # # Unless required by applicable law or agreed to in writing, software # distributed under the License is distributed on an \"AS IS\" BASIS, # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. # See the License for the specific language governing permissions and # limitations under the License. \"\"\" Root-level pytest configuration to ensure ARMI is configured before any tests run. \"\"\" import os import matplotlib from armi import apps, configure, context from armi.settings import caseSettings from armi.tests import TEST_ROOT  def pytest_sessionstart(session):     print(\"Initializing generic ARMI Framework application\")     configure(apps.App())     bootstrapArmiTestEnv()  def bootstrapArmiTestEnv():     \"\"\"     Perform ARMI config appropriate for running unit tests.     \"\"\"     from armi.nucDirectory import nuclideBases     cs = caseSettings.Settings()     context.Mode.setMode(context.Mode.BATCH)     with open(cs[\"burnChainFileName\"]) as burnChainStream:         nuclideBases.imposeBurnChain(burnChainStream)     matplotlib.use(\"agg\")     context.activateLocalFastPath()     if not os.path.exists(context.getFastPath()):         os.makedirs(context.getFastPath())     os.environ[\"ARMITESTBASE\"] = TEST_ROOT' > /repo/conftest.py",
+        "returncode": 0,
+        "time": 0.008471965789794922
+    },
+    {
+        "GPT_time": 14.04851245880127
+    },
+    {
+        "command": "python -c \" content = '''# Copyright 2019 TerraPower, LLC # # Licensed under the Apache License, Version 2.0 (the \\\"License\\\"); # you may not use this file except in compliance with the License. # You may obtain a copy of the License at # #     http://www.apache.org/licenses/LICENSE-2.0 # # Unless required by applicable law or agreed to in writing, software # distributed under the License is distributed on an \\\"AS IS\\\" BASIS, # WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied. # See the License for the specific language governing permissions and # limitations under the License. \\\"\\\"\\\" Root-level pytest configuration to ensure ARMI is configured before any tests run. \\\"\\\"\\\" import os import matplotlib from armi import apps, configure, context from armi.settings import caseSettings from armi.tests import TEST_ROOT  def pytest_sessionstart(session):     print(\\\"Initializing generic ARMI Framework application\\\")     configure(apps.App())     bootstrapArmiTestEnv()  def bootstrapArmiTestEnv():     \\\"\\\"\\\"     Perform ARMI config appropriate for running unit tests.     \\\"\\\"\\\"     from armi.nucDirectory import nuclideBases     cs = caseSettings.Settings()     context.Mode.setMode(context.Mode.BATCH)     with open(cs[\\\"burnChainFileName\\\"]) as burnChainStream:         nuclideBases.imposeBurnChain(burnChainStream)     matplotlib.use(\\\"agg\\\")     context.activateLocalFastPath()     if not os.path.exists(context.getFastPath()):         os.makedirs(context.getFastPath())     os.environ[\\\"ARMITESTBASE\\\"] = TEST_ROOT ''' with open('/repo/conftest.py', 'w') as f:     f.write(content) \"",
+        "returncode": 0,
+        "time": 0.00869297981262207
+    },
+    {
+        "GPT_time": 12.084113597869873
+    },
+    {
+        "command": "printf '%s\\n' '# Copyright 2019 TerraPower, LLC' '#' '# Licensed under the Apache License, Version 2.0 (the \"License\");' '# you may not use this file except in compliance with the License.' '# You may obtain a copy of the License at' '#' '#     http://www.apache.org/licenses/LICENSE-2.0' '#' '# Unless required by applicable law or agreed to in writing, software' '# distributed under the License is distributed on an \"AS IS\" BASIS,' '# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.' '# See the License for the specific language governing permissions and' '# limitations under the License.' '\"\"\"' 'Root-level pytest configuration to ensure ARMI is configured before any tests run.' '\"\"\"' 'import os' 'import matplotlib' 'from armi import apps, configure, context' 'from armi.settings import caseSettings' 'from armi.tests import TEST_ROOT' '' 'def pytest_sessionstart(session):' '    print(\"Initializing generic ARMI Framework application\")' '    configure(apps.App())' '    bootstrapArmiTestEnv()' '' 'def bootstrapArmiTestEnv():' '    \"\"\"' '    Perform ARMI config appropriate for running unit tests.' '    \"\"\"' '    from armi.nucDirectory import nuclideBases' '    cs = caseSettings.Settings()' '    context.Mode.setMode(context.Mode.BATCH)' '    with open(cs[\"burnChainFileName\"]) as burnChainStream:' '        nuclideBases.imposeBurnChain(burnChainStream)' '    matplotlib.use(\"agg\")' '    context.activateLocalFastPath()' '    if not os.path.exists(context.getFastPath()):' '        os.makedirs(context.getFastPath())' '    os.environ[\"ARMITESTBASE\"] = TEST_ROOT' > /repo/conftest.py",
+        "returncode": 0,
+        "time": 0.008121490478515625
+    },
+    {
+        "GPT_time": 13.090157508850098
+    },
+    {
+        "command": "python -c \"open('/repo/conftest.py','w').write('# Copyright 2019 TerraPower, LLC\\n#\\n# Licensed under the Apache License, Version 2.0 (the \\\"License\\\");\\n# you may not use this file except in compliance with the License.\\n# You may obtain a copy of the License at\\n#\\n#     http://www.apache.org/licenses/LICENSE-2.0\\n#\\n# Unless required by applicable law or agreed to in writing, software\\n# distributed under the License is distributed on an \\\"AS IS\\\" BASIS,\\n# WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.\\n# See the License for the specific language governing permissions and\\n# limitations under the License.\\n\\\"\\\"\\\"\\nRoot-level pytest configuration to ensure ARMI is configured before any tests run.\\n\\\"\\\"\\\"\\nimport os\\nimport matplotlib\\nfrom armi import apps, configure, context\\nfrom armi.settings import caseSettings\\nfrom armi.tests import TEST_ROOT\\n\\ndef pytest_sessionstart(session):\\n    print(\\\"Initializing generic ARMI Framework application\\\")\\n    configure(apps.App())\\n    bootstrapArmiTestEnv()\\n\\ndef bootstrapArmiTestEnv():\\n    \\\"\\\"\\\"\\n    Perform ARMI config appropriate for running unit tests.\\n    \\\"\\\"\\\"\\n    from armi.nucDirectory import nuclideBases\\n    cs = caseSettings.Settings()\\n    context.Mode.setMode(context.Mode.BATCH)\\n    with open(cs[\\\"burnChainFileName\\\"]) as burnChainStream:\\n        nuclideBases.imposeBurnChain(burnChainStream)\\n    matplotlib.use(\\\"agg\\\")\\n    context.activateLocalFastPath()\\n    if not os.path.exists(context.getFastPath()):\\n        os.makedirs(context.getFastPath())\\n    os.environ[\\\"ARMITESTBASE\\\"] = TEST_ROOT\\n')\"",
+        "returncode": 0,
+        "time": 0.00769352912902832
+    },
+    {
+        "GPT_time": 8.83160948753357
+    },
+    {
+        "command": "python -c \"f=open('/repo/conftest.py','w'); f.write('import os\\nimport matplotlib\\nfrom armi import apps, configure, context\\nfrom armi.settings import caseSettings\\nfrom armi.tests import TEST_ROOT\\ndef pytest_sessionstart(session):\\n    print(\\\"Initializing generic ARMI Framework application\\\")\\n    configure(apps.App())\\n    bootstrapArmiTestEnv()\\ndef bootstrapArmiTestEnv():\\n    from armi.nucDirectory import nuclideBases\\n    cs = caseSettings.Settings()\\n    context.Mode.setMode(context.Mode.BATCH)\\n    with open(cs[\\\"burnChainFileName\\\"]) as burnChainStream:\\n        nuclideBases.imposeBurnChain(burnChainStream)\\n    matplotlib.use(\\\"agg\\\")\\n    context.activateLocalFastPath()\\n    if not os.path.exists(context.getFastPath()):\\n        os.makedirs(context.getFastPath())\\n    os.environ[\\\"ARMITESTBASE\\\"] = TEST_ROOT\\n'); f.close()\"",
+        "returncode": 0,
+        "time": 0.008814096450805664
+    },
+    {
+        "GPT_time": 18.59352970123291
+    },
+    {
+        "command": "python -c \"import base64; open('/tmp/create_conftest.py','wb').write(base64.b64decode('aW1wb3J0IG9zCmltcG9ydCBtYXRwbG90bGliCmZyb20gYXJtaSBpbXBvcnQgYXBwcywgY29uZmlndXJlLCBjb250ZXh0CmZyb20gYXJtaS5zZXR0aW5ncyBpbXBvcnQgY2FzZVNldHRpbmdzCmZyb20gYXJtaS50ZXN0cyBpbXBvcnQgVEVTVF9ST09UCgpkZWYgcHl0ZXN0X3Nlc3Npb25zdGFydChzZXNzaW9uKToKICAgIHByaW50KCJJbml0aWFsaXppbmcgZ2VuZXJpYyBBUk1JIEZyYW1ld29yayBhcHBsaWNhdGlvbiIpCiAgICBjb25maWd1cmUoYXBwcy5BcHAoKSkKICAgIGJvb3RzdHJhcEFybWlUZXN0RW52KCkKCmRlZiBib290c3RyYXBBcm1pVGVzdEVudigpOgogICAgZnJvbSBhcm1pLm51Y0RpcmVjdG9yeSBpbXBvcnQgbnVjbGlkZUJhc2VzCiAgICBjcyA9IGNhc2VTZXR0aW5ncy5TZXR0aW5ncygpCiAgICBjb250ZXh0Lk1vZGUuc2V0TW9kZShjb250ZXh0Lk1vZGUuQkFUQ0gpCiAgICB3aXRoIG9wZW4oY3NbImJ1cm5DaGFpbkZpbGVOYW1lIl0pIGFzIGJ1cm5DaGFpblN0cmVhbToKICAgICAgICBudWNsaWRlQmFzZXMuaW1wb3NlQnVybkNoYWluKGJ1cm5DaGFpblN0cmVhbSkKICAgIG1hdHBsb3RsaWIudXNlKCJhZ2ciKQogICAgY29udGV4dC5hY3RpdmF0ZUxvY2FsRmFzdFBhdGgoKQogICAgaWYgbm90IG9zLnBhdGguZXhpc3RzKGNvbnRleHQuZ2V0RmFzdFBhdGgoKSk6CiAgICAgICAgb3MubWFrZWRpcnMoY29udGV4dC5nZXRGYXN0UGF0aCgpKQogICAgb3MuZW52aXJvblsiQVJNSVRFU1RCQVNFIl0gPSBURVNUX1JPT1QK'))\"",
+        "returncode": 0,
+        "time": 0.7461369037628174
+    },
+    {
+        "GPT_time": 7.2464494705200195
+    },
+    {
+        "command": "python /tmp/create_conftest.py",
+        "returncode": 0,
+        "time": 2.545565366744995
+    },
+    {
+        "command": "cp /tmp/create_conftest.py /repo/conftest.py",
+        "returncode": 0,
+        "time": 0.7881083488464355
+    },
+    {
+        "GPT_time": 5.446665525436401
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 4.562106609344482
+    }
+]

@@ -1,0 +1,8 @@
+tests/cli/test_cli.py: 42
+tests/cohp/test_analyze.py: 23
+tests/cohp/test_describe.py: 6
+tests/featurize/test_batch.py: 16
+tests/featurize/test_core.py: 19
+tests/featurize/test_utils.py: 2
+tests/plotting/test_plotting.py: 20
+tests/structuregraph/test_graph.py: 7

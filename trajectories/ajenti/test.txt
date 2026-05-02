@@ -1,0 +1,11 @@
+tests-pytest/tests/test_base.py::TestBasicHttp::test_identity
+tests-pytest/tests/test_base.py::TestBasicHttp::test_not_found
+tests-pytest/tests/test_base.py::TestFilesystem::test_read
+tests-pytest/tests/test_base.py::TestFilesystem::test_write
+tests-pytest/tests/test_base.py::TestFilesystem::test_list
+tests-pytest/tests/test_base.py::TestFilesystem::test_stat
+tests-pytest/tests/test_base.py::TestFilesystem::test_chmod
+tests-pytest/tests/test_base.py::TestFilesystem::test_create_file
+tests-pytest/tests/test_base.py::TestFilesystem::test_create_dir
+
+9 tests collected in 1.03s

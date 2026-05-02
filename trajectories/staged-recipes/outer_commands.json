@@ -1,0 +1,114 @@
+[
+    {
+        "GPT_time": 2.729490280151367
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.674429178237915
+    },
+    {
+        "GPT_time": 7.681978225708008
+    },
+    {
+        "command": "cat /repo/setup.cfg",
+        "returncode": 0,
+        "time": 0.6669273376464844
+    },
+    {
+        "command": "ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.6699275970458984
+    },
+    {
+        "GPT_time": 3.5396173000335693
+    },
+    {
+        "command": "ls -la /repo/.github/workflows/",
+        "returncode": 0,
+        "time": 0.670339822769165
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"pyproject.toml\" -o -name \"setup.py\" 2>/dev/null",
+        "returncode": 0,
+        "time": 1.4079272747039795
+    },
+    {
+        "GPT_time": 3.3906784057617188
+    },
+    {
+        "command": "cat /repo/.ci_support/requirements.txt",
+        "returncode": 0,
+        "time": 0.6697566509246826
+    },
+    {
+        "command": "ls -la /repo/recipes/",
+        "returncode": 0,
+        "time": 0.668419599533081
+    },
+    {
+        "GPT_time": 4.820447683334351
+    },
+    {
+        "command": "ls -la /repo/recipes/example/",
+        "returncode": 0,
+        "time": 0.6683359146118164
+    },
+    {
+        "command": "find /repo -name \"test*.py\" -o -name \"*_test.py\" 2>/dev/null",
+        "returncode": 0,
+        "time": 1.8818881511688232
+    },
+    {
+        "GPT_time": 3.221750020980835
+    },
+    {
+        "command": "ls -la /repo/.scripts/",
+        "returncode": 0,
+        "time": 0.6724603176116943
+    },
+    {
+        "command": "cat /repo/README.md | head -100",
+        "returncode": 0,
+        "time": 0.6739695072174072
+    },
+    {
+        "GPT_time": 4.027097702026367
+    },
+    {
+        "command": "cat /repo/build-locally.py",
+        "returncode": 0,
+        "time": 0.6695058345794678
+    },
+    {
+        "command": "find /repo -name \"*.py\" -type f 2>/dev/null | head -20",
+        "returncode": 0,
+        "time": 1.4278953075408936
+    },
+    {
+        "GPT_time": 2.9334733486175537
+    },
+    {
+        "command": "ls -la /repo/.ci_support/",
+        "returncode": 0,
+        "time": 0.6689465045928955
+    },
+    {
+        "command": "cat /repo/.ci_support/build_all.py | head -50",
+        "returncode": 0,
+        "time": 0.6745882034301758
+    },
+    {
+        "GPT_time": 3.2564942836761475
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6656103134155273
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 1.3397655487060547
+    }
+]

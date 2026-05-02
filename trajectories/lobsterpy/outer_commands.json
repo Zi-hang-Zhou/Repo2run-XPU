@@ -1,0 +1,110 @@
+[
+    {
+        "GPT_time": 2.9083690643310547
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6723721027374268
+    },
+    {
+        "GPT_time": 4.379293441772461
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6724145412445068
+    },
+    {
+        "GPT_time": 6.587505340576172
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"Pipfile*\" 2>/dev/null",
+        "returncode": 0,
+        "time": 2.7420473098754883
+    },
+    {
+        "GPT_time": 3.7159266471862793
+    },
+    {
+        "command": "ls -la /repo/tests",
+        "returncode": 0,
+        "time": 0.6722016334533691
+    },
+    {
+        "command": "ls /repo/lobsterpy",
+        "returncode": 0,
+        "time": 0.6698744297027588
+    },
+    {
+        "GPT_time": 4.113680839538574
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6666285991668701
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 213.75940465927124
+    },
+    {
+        "GPT_time": 2.4435882568359375
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6668534278869629
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 24.341097831726074
+    },
+    {
+        "GPT_time": 4.26310920715332
+    },
+    {
+        "command": "waitinglist add -p mendeleev -v 0.17.0 -t pip",
+        "returncode": 0,
+        "time": 0.011158466339111328
+    },
+    {
+        "GPT_time": 2.0971994400024414
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 35.77086019515991
+    },
+    {
+        "GPT_time": 6.129700422286987
+    },
+    {
+        "command": "waitinglist add -p mendeleev -v ==0.17.0 -t pip",
+        "returncode": 0,
+        "time": 0.009534597396850586
+    },
+    {
+        "GPT_time": 1.7495460510253906
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 35.92425036430359
+    },
+    {
+        "GPT_time": 2.5354535579681396
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6664707660675049
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 6.462213039398193
+    }
+]

@@ -1,0 +1,236 @@
+conftest.py::mypy
+conftest.py::ruff
+conftest.py::ruff::format
+docs/__init__.py::mypy
+docs/__init__.py::ruff
+docs/__init__.py::ruff::format
+docs/conf.py::mypy
+docs/conf.py::ruff
+docs/conf.py::ruff::format
+exercises.py::mypy
+exercises.py::ruff
+exercises.py::ruff::format
+exercises.py::exercises.py:cached distribution
+exercises.py::exercises.py:discovery
+exercises.py::exercises.py:entry_points()
+exercises.py::exercises.py:entrypoint_regexp_perf
+exercises.py::exercises.py:uncached distribution
+importlib_metadata/__init__.py::mypy
+importlib_metadata/__init__.py::ruff
+importlib_metadata/__init__.py::ruff::format
+importlib_metadata/__init__.py::importlib_metadata.EntryPoint
+importlib_metadata/__init__.py::importlib_metadata.EntryPoint.matches
+importlib_metadata/__init__.py::importlib_metadata.FastPath
+importlib_metadata/__init__.py::importlib_metadata.PathDistribution._name_from_stem
+importlib_metadata/__init__.py::importlib_metadata.Prepared
+importlib_metadata/__init__.py::importlib_metadata.Sectioned
+importlib_metadata/__init__.py::importlib_metadata._get_toplevel_name
+importlib_metadata/__init__.py::importlib_metadata.packages_distributions
+importlib_metadata/_adapters.py::mypy
+importlib_metadata/_adapters.py::ruff
+importlib_metadata/_adapters.py::ruff::format
+importlib_metadata/_collections.py::mypy
+importlib_metadata/_collections.py::ruff
+importlib_metadata/_collections.py::ruff::format
+importlib_metadata/_collections.py::importlib_metadata._collections.FreezableDefaultDict
+importlib_metadata/_compat.py::mypy
+importlib_metadata/_compat.py::ruff
+importlib_metadata/_compat.py::ruff::format
+importlib_metadata/_functools.py::mypy
+importlib_metadata/_functools.py::ruff
+importlib_metadata/_functools.py::ruff::format
+importlib_metadata/_functools.py::importlib_metadata._functools.method_cache
+importlib_metadata/_functools.py::importlib_metadata._functools.pass_none
+importlib_metadata/_itertools.py::mypy
+importlib_metadata/_itertools.py::ruff
+importlib_metadata/_itertools.py::ruff::format
+importlib_metadata/_itertools.py::importlib_metadata._itertools.always_iterable
+importlib_metadata/_meta.py::mypy
+importlib_metadata/_meta.py::ruff
+importlib_metadata/_meta.py::ruff::format
+importlib_metadata/_text.py::mypy
+importlib_metadata/_text.py::ruff
+importlib_metadata/_text.py::ruff::format
+importlib_metadata/_text.py::importlib_metadata._text.FoldedCase
+importlib_metadata/compat/__init__.py::mypy
+importlib_metadata/compat/__init__.py::ruff
+importlib_metadata/compat/__init__.py::ruff::format
+importlib_metadata/compat/py311.py::mypy
+importlib_metadata/compat/py311.py::ruff
+importlib_metadata/compat/py311.py::ruff::format
+importlib_metadata/compat/py39.py::mypy
+importlib_metadata/compat/py39.py::ruff
+importlib_metadata/compat/py39.py::ruff::format
+importlib_metadata/diagnose.py::mypy
+importlib_metadata/diagnose.py::ruff
+importlib_metadata/diagnose.py::ruff::format
+.::project
+tests/__init__.py::mypy
+tests/__init__.py::ruff
+tests/__init__.py::ruff::format
+tests/_context.py::mypy
+tests/_context.py::ruff
+tests/_context.py::ruff::format
+tests/_context.py::tests._context.suppress
+tests/_path.py::mypy
+tests/_path.py::ruff
+tests/_path.py::ruff::format
+tests/_path.py::tests._path.Recording
+tests/_path.py::tests._path.build
+tests/compat/__init__.py::mypy
+tests/compat/__init__.py::ruff
+tests/compat/__init__.py::ruff::format
+tests/compat/py312.py::mypy
+tests/compat/py312.py::ruff
+tests/compat/py312.py::ruff::format
+tests/compat/py39.py::mypy
+tests/compat/py39.py::ruff
+tests/compat/py39.py::ruff::format
+tests/compat/test_py39_compat.py::mypy
+tests/compat/test_py39_compat.py::ruff
+tests/compat/test_py39_compat.py::ruff::format
+tests/compat/test_py39_compat.py::OldStdlibFinderTests::test_compatibility_with_old_stdlib_path_distribution
+tests/data/__init__.py::mypy
+tests/data/__init__.py::ruff
+tests/data/__init__.py::ruff::format
+tests/data/sources/example/example/__init__.py::mypy
+tests/data/sources/example/example/__init__.py::ruff
+tests/data/sources/example/example/__init__.py::ruff::format
+tests/data/sources/example2/example2/__init__.py::mypy
+tests/data/sources/example2/example2/__init__.py::ruff
+tests/data/sources/example2/example2/__init__.py::ruff::format
+tests/data/sources/example2::project
+tests/fixtures.py::mypy
+tests/fixtures.py::ruff
+tests/fixtures.py::ruff::format
+tests/test_api.py::mypy
+tests/test_api.py::ruff
+tests/test_api.py::ruff::format
+tests/test_api.py::APITests::test_as_json
+tests/test_api.py::APITests::test_as_json_egg_info
+tests/test_api.py::APITests::test_as_json_odd_case
+tests/test_api.py::APITests::test_entry_points
+tests/test_api.py::APITests::test_entry_points_allows_no_attributes
+tests/test_api.py::APITests::test_entry_points_distribution
+tests/test_api.py::APITests::test_entry_points_missing_group
+tests/test_api.py::APITests::test_entry_points_missing_name
+tests/test_api.py::APITests::test_entry_points_unique_packages_normalized
+tests/test_api.py::APITests::test_file_hash_repr
+tests/test_api.py::APITests::test_files_dist_info
+tests/test_api.py::APITests::test_files_egg_info
+tests/test_api.py::APITests::test_for_name_does_not_exist
+tests/test_api.py::APITests::test_for_top_level
+tests/test_api.py::APITests::test_get_key
+tests/test_api.py::APITests::test_get_missing_key
+tests/test_api.py::APITests::test_importlib_metadata_version
+tests/test_api.py::APITests::test_metadata_for_this_package
+tests/test_api.py::APITests::test_missing_key
+tests/test_api.py::APITests::test_more_complex_deps_requires_text
+tests/test_api.py::APITests::test_name_normalization
+tests/test_api.py::APITests::test_prefix_not_matched
+tests/test_api.py::APITests::test_read_text
+tests/test_api.py::APITests::test_requires_dist_info
+tests/test_api.py::APITests::test_requires_egg_info
+tests/test_api.py::APITests::test_requires_egg_info_empty
+tests/test_api.py::APITests::test_requires_egg_info_file
+tests/test_api.py::APITests::test_retrieves_version_of_distinfo_pkg
+tests/test_api.py::APITests::test_retrieves_version_of_self
+tests/test_api.py::APITests::test_version_egg_info_file
+tests/test_api.py::LegacyDots::test_name_normalization
+tests/test_api.py::LegacyDots::test_name_normalization_versionless_egg_info
+tests/test_api.py::OffSysPathTests::test_distribution_at_pathlib
+tests/test_api.py::OffSysPathTests::test_distribution_at_str
+tests/test_api.py::OffSysPathTests::test_find_distributions_specified_path
+tests/test_api.py::InvalidateCache::test_invalidate_cache
+tests/test_integration.py::mypy
+tests/test_integration.py::ruff
+tests/test_integration.py::ruff::format
+tests/test_integration.py::IntegrationTests::test_package_spec_installed
+tests/test_integration.py::FinderTests::test_finder_without_module
+tests/test_main.py::mypy
+tests/test_main.py::ruff
+tests/test_main.py::ruff::format
+tests/test_main.py::BasicTests::test_abc_enforced
+tests/test_main.py::BasicTests::test_for_name_does_not_exist
+tests/test_main.py::BasicTests::test_invalid_inputs_to_from_name
+tests/test_main.py::BasicTests::test_package_not_found_mentions_metadata
+tests/test_main.py::BasicTests::test_retrieves_version_of_self
+tests/test_main.py::ImportTests::test_entrypoint_with_colon_in_name
+tests/test_main.py::ImportTests::test_import_nonexistent_module
+tests/test_main.py::ImportTests::test_resolve
+tests/test_main.py::ImportTests::test_resolve_without_attr
+tests/test_main.py::NameNormalizationTests::test_dashes_in_dist_name_found_as_underscores
+tests/test_main.py::NameNormalizationTests::test_dist_name_found_as_any_case
+tests/test_main.py::NameNormalizationTests::test_unique_distributions
+tests/test_main.py::NonASCIITests::test_metadata_loads
+tests/test_main.py::NonASCIITests::test_metadata_loads_egg_info
+tests/test_main.py::DiscoveryTests::test_interleaved_discovery
+tests/test_main.py::DiscoveryTests::test_invalid_usage
+tests/test_main.py::DiscoveryTests::test_package_discovery
+tests/test_main.py::DirectoryTest::test_egg
+tests/test_main.py::DirectoryTest::test_egg_info
+tests/test_main.py::MissingSysPath::test_discovery
+tests/test_main.py::InaccessibleSysPath::test_discovery
+tests/test_main.py::TestEntryPoints::test_attr
+tests/test_main.py::TestEntryPoints::test_entry_point_pickleable
+tests/test_main.py::TestEntryPoints::test_hashable
+tests/test_main.py::TestEntryPoints::test_immutable
+tests/test_main.py::TestEntryPoints::test_module
+tests/test_main.py::TestEntryPoints::test_positional_args
+tests/test_main.py::TestEntryPoints::test_repr
+tests/test_main.py::TestEntryPoints::test_sortable
+tests/test_main.py::FileSystem::test_unicode_dir_on_sys_path
+tests/test_main.py::PackagesDistributionsPrebuiltTest::test_packages_distributions_example
+tests/test_main.py::PackagesDistributionsPrebuiltTest::test_packages_distributions_example2
+tests/test_main.py::PackagesDistributionsTest::test_packages_distributions_all_module_types
+tests/test_main.py::PackagesDistributionsTest::test_packages_distributions_neither_toplevel_nor_files
+tests/test_main.py::PackagesDistributionsTest::test_packages_distributions_symlinked_top_level
+tests/test_main.py::PackagesDistributionsEggTest::test_packages_distributions_on_eggs
+tests/test_main.py::EditableDistributionTest::test_origin
+tests/test_zip.py::mypy
+tests/test_zip.py::ruff
+tests/test_zip.py::ruff::format
+tests/test_zip.py::TestZip::test_case_insensitive
+tests/test_zip.py::TestZip::test_files
+tests/test_zip.py::TestZip::test_missing_metadata
+tests/test_zip.py::TestZip::test_one_distribution
+tests/test_zip.py::TestZip::test_zip_entry_points
+tests/test_zip.py::TestZip::test_zip_version
+tests/test_zip.py::TestZip::test_zip_version_does_not_match
+tests/test_zip.py::TestEgg::test_case_insensitive
+tests/test_zip.py::TestEgg::test_files
+tests/test_zip.py::TestEgg::test_missing_metadata
+tests/test_zip.py::TestEgg::test_normalized_name
+tests/test_zip.py::TestEgg::test_one_distribution
+tests/test_zip.py::TestEgg::test_zip_entry_points
+tests/test_zip.py::TestEgg::test_zip_version
+tests/test_zip.py::TestEgg::test_zip_version_does_not_match
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.10.20-final-0 _______________
+
+Name                                    Stmts   Miss  Cover   Missing
+---------------------------------------------------------------------
+conftest.py                                10      1    90%   22
+docs/__init__.py                            0      0   100%
+docs/conf.py                               13      0   100%
+importlib_metadata/__init__.py            394    201    49%   57, 61-62, 108, 116-123, 127, 182-185, 189-191, 195-197, 201-203, 206-207, 229-230, 233, 236, 239, 242, 245, 251, 265-268, 275, 282, 289, 296, 300, 304, 318, 321, 325, 330, 333, 388-393, 408-411, 422, 427-430, 444-455, 460, 465, 470, 480, 498-517, 529-530, 543-557, 571-572, 577-578, 581, 584-585, 589, 603-624, 628, 631, 686, 717, 720, 723, 726-730, 733-737, 740, 744-746, 750, 767-785, 791-801, 828-832, 839, 847, 850, 873-874, 879-880, 886, 895, 898-907, 912, 920-921, 937-941, 950, 958, 967, 977, 998-1001, 1010, 1020, 1033-1037, 1041, 1048-1049, 1070, 1078-1083
+importlib_metadata/_adapters.py            38     24    37%   31-33, 36, 40, 52-55, 58-67, 76-83
+importlib_metadata/_collections.py         10      3    70%   21, 24, 30
+importlib_metadata/_compat.py              17      2    88%   56-57
+importlib_metadata/_functools.py           17      5    71%   99-104
+importlib_metadata/_meta.py                 9      0   100%
+importlib_metadata/_text.py                25      9    64%   68, 71, 74, 77, 83, 87, 95, 98-99
+importlib_metadata/compat/__init__.py       0      0   100%
+importlib_metadata/compat/py39.py          14     10    29%   18-23, 30-36
+importlib_metadata/compat/py311.py          5      0   100%
+importlib_metadata/diagnose.py             14      9    36%   7-12, 16-17, 21
+---------------------------------------------------------------------
+TOTAL                                     566    264    53%
+===================================== perf =====================================
+exercises.py:cached distribution: None
+exercises.py:discovery: None
+exercises.py:entry_points(): None
+exercises.py:entrypoint_regexp_perf: None
+exercises.py:uncached distribution: None
+207 tests collected in 0.37s

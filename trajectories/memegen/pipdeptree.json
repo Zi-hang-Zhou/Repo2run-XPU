@@ -1,0 +1,60 @@
+[
+    {
+        "key": "pip",
+        "package_name": "pip",
+        "installed_version": "25.0.1",
+        "required_version": "25.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.35.1",
+        "required_version": "2.35.1",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pytest",
+        "package_name": "pytest",
+        "installed_version": "9.0.3",
+        "required_version": "9.0.3",
+        "dependencies": [
+            {
+                "key": "iniconfig",
+                "package_name": "iniconfig",
+                "installed_version": "2.3.0",
+                "required_version": ">=1.0.1",
+                "dependencies": []
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=22",
+                "dependencies": []
+            },
+            {
+                "key": "pluggy",
+                "package_name": "pluggy",
+                "installed_version": "1.6.0",
+                "required_version": ">=1.5,<2",
+                "dependencies": []
+            },
+            {
+                "key": "pygments",
+                "package_name": "Pygments",
+                "installed_version": "2.20.0",
+                "required_version": ">=2.7.2",
+                "dependencies": []
+            }
+        ]
+    }
+]

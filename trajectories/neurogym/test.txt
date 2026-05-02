@@ -1,0 +1,34 @@
+Warning: Gym version v0.24.1 has a number of critical issues with `gym.make` such that the `reset` and `step` functions are called before returning the environment. It is recommend to downgrading to v0.23.1 or upgrading to v0.25.1
+Additionally, Gym has been unmaintained since 2022 and does not support NumPy 2.0 amongst other critical functionality.
+Please upgrade to Gymnasium, the maintained drop-in replacement of Gym, or contact the authors of your software and request that they upgrade.
+See the migration guide at https://gymnasium.farama.org/introduction/migration_guide/ for additional information.
+neurogym/tests/test_core.py::test_one_step_mismatch
+neurogym/tests/test_core.py::test_addob_instep
+neurogym/tests/test_data.py::test_registered_env
+neurogym/tests/test_data.py::test_examples_different_registered_env
+neurogym/tests/test_data.py::test_examples_different_made_env
+neurogym/tests/test_data.py::test_examples_different_custom_env
+neurogym/tests/test_envs.py::test_run
+neurogym/tests/test_envs.py::test_run_all
+neurogym/tests/test_envs.py::test_dataset
+neurogym/tests/test_envs.py::test_dataset_all
+neurogym/tests/test_envs.py::test_print_all
+neurogym/tests/test_envs.py::test_trialenv
+neurogym/tests/test_envs.py::test_trialenv_all
+neurogym/tests/test_envs.py::test_seeding
+neurogym/tests/test_envs.py::test_seeding_all
+neurogym/tests/test_envs.py::test_plot_envs
+neurogym/tests/test_random.py::test_truncexp
+neurogym/tests/test_random.py::test_randomschedule
+neurogym/tests/test_reset_step.py::test_wrapper_new_trial
+neurogym/tests/test_reset_step.py::test_wrapper_reset
+neurogym/tests/test_reset_step.py::test_wrapper_step
+neurogym/tests/test_reset_step.py::test_reset_with_scheduler
+neurogym/tests/test_reset_step.py::test_schedule_envs
+neurogym/tests/test_speed.py::test_speed
+neurogym/tests/test_speed.py::test_speed_with_new_trial
+neurogym/tests/test_speed.py::test_speed_all
+neurogym/tests/test_speed.py::test_speed_dataset
+neurogym/tests/test_speed.py::test_speed_dataset_all
+
+28 tests collected in 0.66s

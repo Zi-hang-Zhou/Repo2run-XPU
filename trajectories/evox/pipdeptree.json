@@ -1,0 +1,4070 @@
+[
+    {
+        "key": "aiofiles",
+        "package_name": "aiofiles",
+        "installed_version": "25.1.0",
+        "required_version": "25.1.0",
+        "dependencies": []
+    },
+    {
+        "key": "einops",
+        "package_name": "einops",
+        "installed_version": "0.8.2",
+        "required_version": "0.8.2",
+        "dependencies": []
+    },
+    {
+        "key": "envpool",
+        "package_name": "envpool",
+        "installed_version": "0.8.4",
+        "required_version": "0.8.4",
+        "dependencies": [
+            {
+                "key": "dm-env",
+                "package_name": "dm-env",
+                "installed_version": "1.6",
+                "required_version": ">=1.4",
+                "dependencies": [
+                    {
+                        "key": "absl-py",
+                        "package_name": "absl-py",
+                        "installed_version": "2.4.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "dm-tree",
+                        "package_name": "dm-tree",
+                        "installed_version": "0.1.10",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "absl-py",
+                                "package_name": "absl-py",
+                                "installed_version": "2.4.0",
+                                "required_version": ">=0.6.1",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "attrs",
+                                "package_name": "attrs",
+                                "installed_version": "26.1.0",
+                                "required_version": ">=18.2.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21.2",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "wrapt",
+                                "package_name": "wrapt",
+                                "installed_version": "2.1.2",
+                                "required_version": ">=1.11.2",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "gym",
+                "package_name": "gym",
+                "installed_version": "0.26.2",
+                "required_version": ">=0.18",
+                "dependencies": [
+                    {
+                        "key": "cloudpickle",
+                        "package_name": "cloudpickle",
+                        "installed_version": "3.1.2",
+                        "required_version": ">=1.2.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "gym-notices",
+                        "package_name": "gym-notices",
+                        "installed_version": "0.1.0",
+                        "required_version": ">=0.0.4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.18.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "gymnasium",
+                "package_name": "gymnasium",
+                "installed_version": "1.2.3",
+                "required_version": ">=0.26",
+                "dependencies": [
+                    {
+                        "key": "cloudpickle",
+                        "package_name": "cloudpickle",
+                        "installed_version": "3.1.2",
+                        "required_version": ">=1.2.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "farama-notifications",
+                        "package_name": "Farama-Notifications",
+                        "installed_version": "0.0.4",
+                        "required_version": ">=0.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.21.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.3.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": ">=1.19",
+                "dependencies": []
+            },
+            {
+                "key": "optree",
+                "package_name": "optree",
+                "installed_version": "0.19.0",
+                "required_version": ">=0.6.0",
+                "dependencies": [
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.6.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "types-protobuf",
+                "package_name": "types-protobuf",
+                "installed_version": "7.34.1.20260408",
+                "required_version": ">=3.17.3",
+                "dependencies": []
+            },
+            {
+                "key": "typing-extensions",
+                "package_name": "typing_extensions",
+                "installed_version": "4.15.0",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "evox",
+        "package_name": "evox",
+        "installed_version": "0.8.1",
+        "required_version": "0.8.1",
+        "dependencies": [
+            {
+                "key": "jax",
+                "package_name": "jax",
+                "installed_version": "0.4.30",
+                "required_version": ">=0.4.16",
+                "dependencies": [
+                    {
+                        "key": "jaxlib",
+                        "package_name": "jaxlib",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.4.27,<=0.4.30",
+                        "dependencies": [
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "ml-dtypes",
+                        "package_name": "ml_dtypes",
+                        "installed_version": "0.5.4",
+                        "required_version": ">=0.2.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21.2",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "opt-einsum",
+                        "package_name": "opt_einsum",
+                        "installed_version": "3.4.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": ">=1.9",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "jax-dataclasses",
+                "package_name": "jax_dataclasses",
+                "installed_version": "1.6.3",
+                "required_version": ">=1.6.0",
+                "dependencies": [
+                    {
+                        "key": "jax",
+                        "package_name": "jax",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.4.25",
+                        "dependencies": [
+                            {
+                                "key": "jaxlib",
+                                "package_name": "jaxlib",
+                                "installed_version": "0.4.30",
+                                "required_version": ">=0.4.27,<=0.4.30",
+                                "dependencies": [
+                                    {
+                                        "key": "ml-dtypes",
+                                        "package_name": "ml_dtypes",
+                                        "installed_version": "0.5.4",
+                                        "required_version": ">=0.2.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21.2",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.22",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "scipy",
+                                        "package_name": "scipy",
+                                        "installed_version": "1.15.3",
+                                        "required_version": ">=1.9",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.23.5,<2.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "opt-einsum",
+                                "package_name": "opt_einsum",
+                                "installed_version": "3.4.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jaxlib",
+                        "package_name": "jaxlib",
+                        "installed_version": "0.4.30",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "jaxlib",
+                "package_name": "jaxlib",
+                "installed_version": "0.4.30",
+                "required_version": ">=0.3.0",
+                "dependencies": [
+                    {
+                        "key": "ml-dtypes",
+                        "package_name": "ml_dtypes",
+                        "installed_version": "0.5.4",
+                        "required_version": ">=0.2.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21.2",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": ">=1.9",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "optax",
+                "package_name": "optax",
+                "installed_version": "0.1.9",
+                "required_version": ">=0.1.0",
+                "dependencies": [
+                    {
+                        "key": "absl-py",
+                        "package_name": "absl-py",
+                        "installed_version": "2.4.0",
+                        "required_version": ">=0.7.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "chex",
+                        "package_name": "chex",
+                        "installed_version": "0.1.90",
+                        "required_version": ">=0.1.7",
+                        "dependencies": [
+                            {
+                                "key": "absl-py",
+                                "package_name": "absl-py",
+                                "installed_version": "2.4.0",
+                                "required_version": ">=0.9.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "jax",
+                                "package_name": "jax",
+                                "installed_version": "0.4.30",
+                                "required_version": ">=0.4.27",
+                                "dependencies": [
+                                    {
+                                        "key": "jaxlib",
+                                        "package_name": "jaxlib",
+                                        "installed_version": "0.4.30",
+                                        "required_version": ">=0.4.27,<=0.4.30",
+                                        "dependencies": [
+                                            {
+                                                "key": "ml-dtypes",
+                                                "package_name": "ml_dtypes",
+                                                "installed_version": "0.5.4",
+                                                "required_version": ">=0.2.0",
+                                                "dependencies": [
+                                                    {
+                                                        "key": "numpy",
+                                                        "package_name": "numpy",
+                                                        "installed_version": "2.2.6",
+                                                        "required_version": ">=1.21",
+                                                        "dependencies": []
+                                                    },
+                                                    {
+                                                        "key": "numpy",
+                                                        "package_name": "numpy",
+                                                        "installed_version": "2.2.6",
+                                                        "required_version": ">=1.21.2",
+                                                        "dependencies": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.22",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "scipy",
+                                                "package_name": "scipy",
+                                                "installed_version": "1.15.3",
+                                                "required_version": ">=1.9",
+                                                "dependencies": [
+                                                    {
+                                                        "key": "numpy",
+                                                        "package_name": "numpy",
+                                                        "installed_version": "2.2.6",
+                                                        "required_version": ">=1.23.5,<2.5",
+                                                        "dependencies": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "ml-dtypes",
+                                        "package_name": "ml_dtypes",
+                                        "installed_version": "0.5.4",
+                                        "required_version": ">=0.2.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21.2",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.22",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "opt-einsum",
+                                        "package_name": "opt_einsum",
+                                        "installed_version": "3.4.0",
+                                        "required_version": "Any",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "scipy",
+                                        "package_name": "scipy",
+                                        "installed_version": "1.15.3",
+                                        "required_version": ">=1.9",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.23.5,<2.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "jaxlib",
+                                "package_name": "jaxlib",
+                                "installed_version": "0.4.30",
+                                "required_version": ">=0.4.27",
+                                "dependencies": [
+                                    {
+                                        "key": "ml-dtypes",
+                                        "package_name": "ml_dtypes",
+                                        "installed_version": "0.5.4",
+                                        "required_version": ">=0.2.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21.2",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.22",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "scipy",
+                                        "package_name": "scipy",
+                                        "installed_version": "1.15.3",
+                                        "required_version": ">=1.9",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.23.5,<2.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.24.1",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "toolz",
+                                "package_name": "toolz",
+                                "installed_version": "1.1.0",
+                                "required_version": ">=0.9.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.2.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jax",
+                        "package_name": "jax",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.1.55",
+                        "dependencies": [
+                            {
+                                "key": "jaxlib",
+                                "package_name": "jaxlib",
+                                "installed_version": "0.4.30",
+                                "required_version": ">=0.4.27,<=0.4.30",
+                                "dependencies": [
+                                    {
+                                        "key": "ml-dtypes",
+                                        "package_name": "ml_dtypes",
+                                        "installed_version": "0.5.4",
+                                        "required_version": ">=0.2.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21.2",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.22",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "scipy",
+                                        "package_name": "scipy",
+                                        "installed_version": "1.15.3",
+                                        "required_version": ">=1.9",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.23.5,<2.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "opt-einsum",
+                                "package_name": "opt_einsum",
+                                "installed_version": "3.4.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jaxlib",
+                        "package_name": "jaxlib",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.1.37",
+                        "dependencies": [
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.18.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "pyarrow",
+                "package_name": "pyarrow",
+                "installed_version": "23.0.1",
+                "required_version": ">=10.0.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "flax",
+        "package_name": "flax",
+        "installed_version": "0.8.5",
+        "required_version": "0.8.5",
+        "dependencies": [
+            {
+                "key": "jax",
+                "package_name": "jax",
+                "installed_version": "0.4.30",
+                "required_version": ">=0.4.27",
+                "dependencies": [
+                    {
+                        "key": "jaxlib",
+                        "package_name": "jaxlib",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.4.27,<=0.4.30",
+                        "dependencies": [
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "ml-dtypes",
+                        "package_name": "ml_dtypes",
+                        "installed_version": "0.5.4",
+                        "required_version": ">=0.2.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21.2",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "opt-einsum",
+                        "package_name": "opt_einsum",
+                        "installed_version": "3.4.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": ">=1.9",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "msgpack",
+                "package_name": "msgpack",
+                "installed_version": "1.1.2",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": ">=1.22",
+                "dependencies": []
+            },
+            {
+                "key": "optax",
+                "package_name": "optax",
+                "installed_version": "0.1.9",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "absl-py",
+                        "package_name": "absl-py",
+                        "installed_version": "2.4.0",
+                        "required_version": ">=0.7.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "chex",
+                        "package_name": "chex",
+                        "installed_version": "0.1.90",
+                        "required_version": ">=0.1.7",
+                        "dependencies": [
+                            {
+                                "key": "absl-py",
+                                "package_name": "absl-py",
+                                "installed_version": "2.4.0",
+                                "required_version": ">=0.9.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "jax",
+                                "package_name": "jax",
+                                "installed_version": "0.4.30",
+                                "required_version": ">=0.4.27",
+                                "dependencies": [
+                                    {
+                                        "key": "jaxlib",
+                                        "package_name": "jaxlib",
+                                        "installed_version": "0.4.30",
+                                        "required_version": ">=0.4.27,<=0.4.30",
+                                        "dependencies": [
+                                            {
+                                                "key": "ml-dtypes",
+                                                "package_name": "ml_dtypes",
+                                                "installed_version": "0.5.4",
+                                                "required_version": ">=0.2.0",
+                                                "dependencies": [
+                                                    {
+                                                        "key": "numpy",
+                                                        "package_name": "numpy",
+                                                        "installed_version": "2.2.6",
+                                                        "required_version": ">=1.21",
+                                                        "dependencies": []
+                                                    },
+                                                    {
+                                                        "key": "numpy",
+                                                        "package_name": "numpy",
+                                                        "installed_version": "2.2.6",
+                                                        "required_version": ">=1.21.2",
+                                                        "dependencies": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.22",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "scipy",
+                                                "package_name": "scipy",
+                                                "installed_version": "1.15.3",
+                                                "required_version": ">=1.9",
+                                                "dependencies": [
+                                                    {
+                                                        "key": "numpy",
+                                                        "package_name": "numpy",
+                                                        "installed_version": "2.2.6",
+                                                        "required_version": ">=1.23.5,<2.5",
+                                                        "dependencies": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "ml-dtypes",
+                                        "package_name": "ml_dtypes",
+                                        "installed_version": "0.5.4",
+                                        "required_version": ">=0.2.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21.2",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.22",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "opt-einsum",
+                                        "package_name": "opt_einsum",
+                                        "installed_version": "3.4.0",
+                                        "required_version": "Any",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "scipy",
+                                        "package_name": "scipy",
+                                        "installed_version": "1.15.3",
+                                        "required_version": ">=1.9",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.23.5,<2.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "jaxlib",
+                                "package_name": "jaxlib",
+                                "installed_version": "0.4.30",
+                                "required_version": ">=0.4.27",
+                                "dependencies": [
+                                    {
+                                        "key": "ml-dtypes",
+                                        "package_name": "ml_dtypes",
+                                        "installed_version": "0.5.4",
+                                        "required_version": ">=0.2.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21.2",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.22",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "scipy",
+                                        "package_name": "scipy",
+                                        "installed_version": "1.15.3",
+                                        "required_version": ">=1.9",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.23.5,<2.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.24.1",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "toolz",
+                                "package_name": "toolz",
+                                "installed_version": "1.1.0",
+                                "required_version": ">=0.9.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.2.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jax",
+                        "package_name": "jax",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.1.55",
+                        "dependencies": [
+                            {
+                                "key": "jaxlib",
+                                "package_name": "jaxlib",
+                                "installed_version": "0.4.30",
+                                "required_version": ">=0.4.27,<=0.4.30",
+                                "dependencies": [
+                                    {
+                                        "key": "ml-dtypes",
+                                        "package_name": "ml_dtypes",
+                                        "installed_version": "0.5.4",
+                                        "required_version": ">=0.2.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21.2",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.22",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "scipy",
+                                        "package_name": "scipy",
+                                        "installed_version": "1.15.3",
+                                        "required_version": ">=1.9",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.23.5,<2.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "opt-einsum",
+                                "package_name": "opt_einsum",
+                                "installed_version": "3.4.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jaxlib",
+                        "package_name": "jaxlib",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.1.37",
+                        "dependencies": [
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.18.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "orbax-checkpoint",
+                "package_name": "orbax-checkpoint",
+                "installed_version": "0.6.4",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "absl-py",
+                        "package_name": "absl-py",
+                        "installed_version": "2.4.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "etils",
+                        "package_name": "etils",
+                        "installed_version": "1.13.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "humanize",
+                        "package_name": "humanize",
+                        "installed_version": "4.15.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "jax",
+                        "package_name": "jax",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.4.26",
+                        "dependencies": [
+                            {
+                                "key": "jaxlib",
+                                "package_name": "jaxlib",
+                                "installed_version": "0.4.30",
+                                "required_version": ">=0.4.27,<=0.4.30",
+                                "dependencies": [
+                                    {
+                                        "key": "ml-dtypes",
+                                        "package_name": "ml_dtypes",
+                                        "installed_version": "0.5.4",
+                                        "required_version": ">=0.2.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21.2",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.22",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "scipy",
+                                        "package_name": "scipy",
+                                        "installed_version": "1.15.3",
+                                        "required_version": ">=1.9",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.23.5,<2.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "opt-einsum",
+                                "package_name": "opt_einsum",
+                                "installed_version": "3.4.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jaxlib",
+                        "package_name": "jaxlib",
+                        "installed_version": "0.4.30",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "msgpack",
+                        "package_name": "msgpack",
+                        "installed_version": "1.1.2",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "nest-asyncio",
+                        "package_name": "nest-asyncio",
+                        "installed_version": "1.6.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "protobuf",
+                        "package_name": "protobuf",
+                        "installed_version": "6.32.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pyyaml",
+                        "package_name": "PyYAML",
+                        "installed_version": "6.0.3",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tensorstore",
+                        "package_name": "tensorstore",
+                        "installed_version": "0.1.78",
+                        "required_version": ">=0.1.60",
+                        "dependencies": [
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.5.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "pyyaml",
+                "package_name": "PyYAML",
+                "installed_version": "6.0.3",
+                "required_version": ">=5.4.1",
+                "dependencies": []
+            },
+            {
+                "key": "rich",
+                "package_name": "rich",
+                "installed_version": "14.3.4",
+                "required_version": ">=11.1",
+                "dependencies": [
+                    {
+                        "key": "markdown-it-py",
+                        "package_name": "markdown-it-py",
+                        "installed_version": "4.0.0",
+                        "required_version": ">=2.2.0",
+                        "dependencies": [
+                            {
+                                "key": "mdurl",
+                                "package_name": "mdurl",
+                                "installed_version": "0.1.2",
+                                "required_version": "~=0.1",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.20.0",
+                        "required_version": ">=2.13.0,<3.0.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "tensorstore",
+                "package_name": "tensorstore",
+                "installed_version": "0.1.78",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "ml-dtypes",
+                        "package_name": "ml_dtypes",
+                        "installed_version": "0.5.4",
+                        "required_version": ">=0.5.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21.2",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "typing-extensions",
+                "package_name": "typing_extensions",
+                "installed_version": "4.15.0",
+                "required_version": ">=4.2",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "fsspec",
+        "package_name": "fsspec",
+        "installed_version": "2026.3.0",
+        "required_version": "2026.3.0",
+        "dependencies": []
+    },
+    {
+        "key": "gpjax",
+        "package_name": "gpjax",
+        "installed_version": "0.8.2",
+        "required_version": "0.8.2",
+        "dependencies": [
+            {
+                "key": "beartype",
+                "package_name": "beartype",
+                "installed_version": "0.16.4",
+                "required_version": ">=0.16.2,<0.17.0",
+                "dependencies": []
+            },
+            {
+                "key": "cola-ml",
+                "package_name": "cola-ml",
+                "installed_version": "0.0.5",
+                "required_version": ">=0.0.5,<0.0.6",
+                "dependencies": [
+                    {
+                        "key": "cola-plum-dispatch",
+                        "package_name": "cola-plum-dispatch",
+                        "installed_version": "0.1.4",
+                        "required_version": "==0.1.4",
+                        "dependencies": [
+                            {
+                                "key": "beartype",
+                                "package_name": "beartype",
+                                "installed_version": "0.16.4",
+                                "required_version": ">=0.16.2",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "optree",
+                        "package_name": "optree",
+                        "installed_version": "0.19.0",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "pytreeclass",
+                        "package_name": "pytreeclass",
+                        "installed_version": "0.11.0",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "tqdm",
+                        "package_name": "tqdm",
+                        "installed_version": "4.67.3",
+                        "required_version": ">=4.38",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "jax",
+                "package_name": "jax",
+                "installed_version": "0.4.30",
+                "required_version": ">=0.4.16",
+                "dependencies": [
+                    {
+                        "key": "jaxlib",
+                        "package_name": "jaxlib",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.4.27,<=0.4.30",
+                        "dependencies": [
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "ml-dtypes",
+                        "package_name": "ml_dtypes",
+                        "installed_version": "0.5.4",
+                        "required_version": ">=0.2.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21.2",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "opt-einsum",
+                        "package_name": "opt_einsum",
+                        "installed_version": "3.4.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": ">=1.9",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "jaxlib",
+                "package_name": "jaxlib",
+                "installed_version": "0.4.30",
+                "required_version": ">=0.4.16",
+                "dependencies": [
+                    {
+                        "key": "ml-dtypes",
+                        "package_name": "ml_dtypes",
+                        "installed_version": "0.5.4",
+                        "required_version": ">=0.2.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21.2",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": ">=1.9",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "jaxopt",
+                "package_name": "jaxopt",
+                "installed_version": "0.8.5",
+                "required_version": ">=0.8.3,<0.9.0",
+                "dependencies": [
+                    {
+                        "key": "jax",
+                        "package_name": "jax",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.2.18",
+                        "dependencies": [
+                            {
+                                "key": "jaxlib",
+                                "package_name": "jaxlib",
+                                "installed_version": "0.4.30",
+                                "required_version": ">=0.4.27,<=0.4.30",
+                                "dependencies": [
+                                    {
+                                        "key": "ml-dtypes",
+                                        "package_name": "ml_dtypes",
+                                        "installed_version": "0.5.4",
+                                        "required_version": ">=0.2.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21.2",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.22",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "scipy",
+                                        "package_name": "scipy",
+                                        "installed_version": "1.15.3",
+                                        "required_version": ">=1.9",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.23.5,<2.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "opt-einsum",
+                                "package_name": "opt_einsum",
+                                "installed_version": "3.4.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jaxlib",
+                        "package_name": "jaxlib",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.1.69",
+                        "dependencies": [
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.18.4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": ">=1.0.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "jaxtyping",
+                "package_name": "jaxtyping",
+                "installed_version": "0.2.38",
+                "required_version": ">=0.2.15,<0.3.0",
+                "dependencies": [
+                    {
+                        "key": "wadler-lindig",
+                        "package_name": "wadler_lindig",
+                        "installed_version": "0.1.7",
+                        "required_version": ">=0.1.3",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "optax",
+                "package_name": "optax",
+                "installed_version": "0.1.9",
+                "required_version": ">=0.1.4,<0.2.0",
+                "dependencies": [
+                    {
+                        "key": "absl-py",
+                        "package_name": "absl-py",
+                        "installed_version": "2.4.0",
+                        "required_version": ">=0.7.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "chex",
+                        "package_name": "chex",
+                        "installed_version": "0.1.90",
+                        "required_version": ">=0.1.7",
+                        "dependencies": [
+                            {
+                                "key": "absl-py",
+                                "package_name": "absl-py",
+                                "installed_version": "2.4.0",
+                                "required_version": ">=0.9.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "jax",
+                                "package_name": "jax",
+                                "installed_version": "0.4.30",
+                                "required_version": ">=0.4.27",
+                                "dependencies": [
+                                    {
+                                        "key": "jaxlib",
+                                        "package_name": "jaxlib",
+                                        "installed_version": "0.4.30",
+                                        "required_version": ">=0.4.27,<=0.4.30",
+                                        "dependencies": [
+                                            {
+                                                "key": "ml-dtypes",
+                                                "package_name": "ml_dtypes",
+                                                "installed_version": "0.5.4",
+                                                "required_version": ">=0.2.0",
+                                                "dependencies": [
+                                                    {
+                                                        "key": "numpy",
+                                                        "package_name": "numpy",
+                                                        "installed_version": "2.2.6",
+                                                        "required_version": ">=1.21",
+                                                        "dependencies": []
+                                                    },
+                                                    {
+                                                        "key": "numpy",
+                                                        "package_name": "numpy",
+                                                        "installed_version": "2.2.6",
+                                                        "required_version": ">=1.21.2",
+                                                        "dependencies": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.22",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "scipy",
+                                                "package_name": "scipy",
+                                                "installed_version": "1.15.3",
+                                                "required_version": ">=1.9",
+                                                "dependencies": [
+                                                    {
+                                                        "key": "numpy",
+                                                        "package_name": "numpy",
+                                                        "installed_version": "2.2.6",
+                                                        "required_version": ">=1.23.5,<2.5",
+                                                        "dependencies": []
+                                                    }
+                                                ]
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "ml-dtypes",
+                                        "package_name": "ml_dtypes",
+                                        "installed_version": "0.5.4",
+                                        "required_version": ">=0.2.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21.2",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.22",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "opt-einsum",
+                                        "package_name": "opt_einsum",
+                                        "installed_version": "3.4.0",
+                                        "required_version": "Any",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "scipy",
+                                        "package_name": "scipy",
+                                        "installed_version": "1.15.3",
+                                        "required_version": ">=1.9",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.23.5,<2.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "jaxlib",
+                                "package_name": "jaxlib",
+                                "installed_version": "0.4.30",
+                                "required_version": ">=0.4.27",
+                                "dependencies": [
+                                    {
+                                        "key": "ml-dtypes",
+                                        "package_name": "ml_dtypes",
+                                        "installed_version": "0.5.4",
+                                        "required_version": ">=0.2.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21.2",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.22",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "scipy",
+                                        "package_name": "scipy",
+                                        "installed_version": "1.15.3",
+                                        "required_version": ">=1.9",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.23.5,<2.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.24.1",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "toolz",
+                                "package_name": "toolz",
+                                "installed_version": "1.1.0",
+                                "required_version": ">=0.9.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.2.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jax",
+                        "package_name": "jax",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.1.55",
+                        "dependencies": [
+                            {
+                                "key": "jaxlib",
+                                "package_name": "jaxlib",
+                                "installed_version": "0.4.30",
+                                "required_version": ">=0.4.27,<=0.4.30",
+                                "dependencies": [
+                                    {
+                                        "key": "ml-dtypes",
+                                        "package_name": "ml_dtypes",
+                                        "installed_version": "0.5.4",
+                                        "required_version": ">=0.2.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21.2",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.22",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "scipy",
+                                        "package_name": "scipy",
+                                        "installed_version": "1.15.3",
+                                        "required_version": ">=1.9",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.23.5,<2.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "opt-einsum",
+                                "package_name": "opt_einsum",
+                                "installed_version": "3.4.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jaxlib",
+                        "package_name": "jaxlib",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.1.37",
+                        "dependencies": [
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.18.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "orbax-checkpoint",
+                "package_name": "orbax-checkpoint",
+                "installed_version": "0.6.4",
+                "required_version": ">=0.2.3",
+                "dependencies": [
+                    {
+                        "key": "absl-py",
+                        "package_name": "absl-py",
+                        "installed_version": "2.4.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "etils",
+                        "package_name": "etils",
+                        "installed_version": "1.13.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "humanize",
+                        "package_name": "humanize",
+                        "installed_version": "4.15.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "jax",
+                        "package_name": "jax",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.4.26",
+                        "dependencies": [
+                            {
+                                "key": "jaxlib",
+                                "package_name": "jaxlib",
+                                "installed_version": "0.4.30",
+                                "required_version": ">=0.4.27,<=0.4.30",
+                                "dependencies": [
+                                    {
+                                        "key": "ml-dtypes",
+                                        "package_name": "ml_dtypes",
+                                        "installed_version": "0.5.4",
+                                        "required_version": ">=0.2.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21.2",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.22",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "scipy",
+                                        "package_name": "scipy",
+                                        "installed_version": "1.15.3",
+                                        "required_version": ">=1.9",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.23.5,<2.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "opt-einsum",
+                                "package_name": "opt_einsum",
+                                "installed_version": "3.4.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jaxlib",
+                        "package_name": "jaxlib",
+                        "installed_version": "0.4.30",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "msgpack",
+                        "package_name": "msgpack",
+                        "installed_version": "1.1.2",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "nest-asyncio",
+                        "package_name": "nest-asyncio",
+                        "installed_version": "1.6.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "protobuf",
+                        "package_name": "protobuf",
+                        "installed_version": "6.32.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pyyaml",
+                        "package_name": "PyYAML",
+                        "installed_version": "6.0.3",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tensorstore",
+                        "package_name": "tensorstore",
+                        "installed_version": "0.1.78",
+                        "required_version": ">=0.1.60",
+                        "dependencies": [
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.5.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "simple-pytree",
+                "package_name": "simple-pytree",
+                "installed_version": "0.1.7",
+                "required_version": ">=0.1.7,<0.2.0",
+                "dependencies": [
+                    {
+                        "key": "jax",
+                        "package_name": "jax",
+                        "installed_version": "0.4.30",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "jaxlib",
+                                "package_name": "jaxlib",
+                                "installed_version": "0.4.30",
+                                "required_version": ">=0.4.27,<=0.4.30",
+                                "dependencies": [
+                                    {
+                                        "key": "ml-dtypes",
+                                        "package_name": "ml_dtypes",
+                                        "installed_version": "0.5.4",
+                                        "required_version": ">=0.2.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21",
+                                                "dependencies": []
+                                            },
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.21.2",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.22",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "scipy",
+                                        "package_name": "scipy",
+                                        "installed_version": "1.15.3",
+                                        "required_version": ">=1.9",
+                                        "dependencies": [
+                                            {
+                                                "key": "numpy",
+                                                "package_name": "numpy",
+                                                "installed_version": "2.2.6",
+                                                "required_version": ">=1.23.5,<2.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "opt-einsum",
+                                "package_name": "opt_einsum",
+                                "installed_version": "3.4.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jaxlib",
+                        "package_name": "jaxlib",
+                        "installed_version": "0.4.30",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "tensorflow-probability",
+                "package_name": "tensorflow-probability",
+                "installed_version": "0.22.1",
+                "required_version": ">=0.22.0,<0.23.0",
+                "dependencies": [
+                    {
+                        "key": "absl-py",
+                        "package_name": "absl-py",
+                        "installed_version": "2.4.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "cloudpickle",
+                        "package_name": "cloudpickle",
+                        "installed_version": "3.1.2",
+                        "required_version": ">=1.3",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "decorator",
+                        "package_name": "decorator",
+                        "installed_version": "5.2.1",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "dm-tree",
+                        "package_name": "dm-tree",
+                        "installed_version": "0.1.10",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "absl-py",
+                                "package_name": "absl-py",
+                                "installed_version": "2.4.0",
+                                "required_version": ">=0.6.1",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "attrs",
+                                "package_name": "attrs",
+                                "installed_version": "26.1.0",
+                                "required_version": ">=18.2.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21.2",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "wrapt",
+                                "package_name": "wrapt",
+                                "installed_version": "2.1.2",
+                                "required_version": ">=1.11.2",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "gast",
+                        "package_name": "gast",
+                        "installed_version": "0.7.0",
+                        "required_version": ">=0.3.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.13.3",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.17.0",
+                        "required_version": ">=1.10.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "tqdm",
+                "package_name": "tqdm",
+                "installed_version": "4.67.3",
+                "required_version": ">=4.65.0,<5.0.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "grain",
+        "package_name": "grain",
+        "installed_version": "0.2.13",
+        "required_version": "0.2.13",
+        "dependencies": [
+            {
+                "key": "absl-py",
+                "package_name": "absl-py",
+                "installed_version": "2.4.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "array-record",
+                "package_name": "array_record",
+                "installed_version": "0.8.1",
+                "required_version": ">=0.8.0a1",
+                "dependencies": [
+                    {
+                        "key": "absl-py",
+                        "package_name": "absl-py",
+                        "installed_version": "2.4.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "etils",
+                        "package_name": "etils",
+                        "installed_version": "1.13.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "cloudpickle",
+                "package_name": "cloudpickle",
+                "installed_version": "3.1.2",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "dm-tree",
+                "package_name": "dm-tree",
+                "installed_version": "0.1.10",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "absl-py",
+                        "package_name": "absl-py",
+                        "installed_version": "2.4.0",
+                        "required_version": ">=0.6.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "attrs",
+                        "package_name": "attrs",
+                        "installed_version": "26.1.0",
+                        "required_version": ">=18.2.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.21",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.21.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "wrapt",
+                        "package_name": "wrapt",
+                        "installed_version": "2.1.2",
+                        "required_version": ">=1.11.2",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "etils",
+                "package_name": "etils",
+                "installed_version": "1.13.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "more-itertools",
+                "package_name": "more-itertools",
+                "installed_version": "11.0.2",
+                "required_version": ">=9.1.0",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "protobuf",
+                "package_name": "protobuf",
+                "installed_version": "6.32.0",
+                "required_version": ">=5.28.3",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "importlib-resources",
+        "package_name": "importlib_resources",
+        "installed_version": "6.5.2",
+        "required_version": "6.5.2",
+        "dependencies": []
+    },
+    {
+        "key": "numpyro",
+        "package_name": "numpyro",
+        "installed_version": "0.19.0",
+        "required_version": "0.19.0",
+        "dependencies": [
+            {
+                "key": "jax",
+                "package_name": "jax",
+                "installed_version": "0.4.30",
+                "required_version": ">=0.4.25",
+                "dependencies": [
+                    {
+                        "key": "jaxlib",
+                        "package_name": "jaxlib",
+                        "installed_version": "0.4.30",
+                        "required_version": ">=0.4.27,<=0.4.30",
+                        "dependencies": [
+                            {
+                                "key": "ml-dtypes",
+                                "package_name": "ml_dtypes",
+                                "installed_version": "0.5.4",
+                                "required_version": ">=0.2.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.21.2",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.9",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "ml-dtypes",
+                        "package_name": "ml_dtypes",
+                        "installed_version": "0.5.4",
+                        "required_version": ">=0.2.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21.2",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "opt-einsum",
+                        "package_name": "opt_einsum",
+                        "installed_version": "3.4.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": ">=1.9",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "jaxlib",
+                "package_name": "jaxlib",
+                "installed_version": "0.4.30",
+                "required_version": ">=0.4.25",
+                "dependencies": [
+                    {
+                        "key": "ml-dtypes",
+                        "package_name": "ml_dtypes",
+                        "installed_version": "0.5.4",
+                        "required_version": ">=0.2.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.21.2",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": ">=1.9",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "multipledispatch",
+                "package_name": "multipledispatch",
+                "installed_version": "1.0.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "tqdm",
+                "package_name": "tqdm",
+                "installed_version": "4.67.3",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pip",
+        "package_name": "pip",
+        "installed_version": "23.0.1",
+        "required_version": "23.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.35.1",
+        "required_version": "2.35.1",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pytest",
+        "package_name": "pytest",
+        "installed_version": "9.0.3",
+        "required_version": "9.0.3",
+        "dependencies": [
+            {
+                "key": "exceptiongroup",
+                "package_name": "exceptiongroup",
+                "installed_version": "1.3.1",
+                "required_version": ">=1",
+                "dependencies": [
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.6.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "iniconfig",
+                "package_name": "iniconfig",
+                "installed_version": "2.3.0",
+                "required_version": ">=1.0.1",
+                "dependencies": []
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=22",
+                "dependencies": []
+            },
+            {
+                "key": "pluggy",
+                "package_name": "pluggy",
+                "installed_version": "1.6.0",
+                "required_version": ">=1.5,<2",
+                "dependencies": []
+            },
+            {
+                "key": "pygments",
+                "package_name": "Pygments",
+                "installed_version": "2.20.0",
+                "required_version": ">=2.7.2",
+                "dependencies": []
+            },
+            {
+                "key": "tomli",
+                "package_name": "tomli",
+                "installed_version": "2.4.1",
+                "required_version": ">=1",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "ray",
+        "package_name": "ray",
+        "installed_version": "2.54.1",
+        "required_version": "2.54.1",
+        "dependencies": [
+            {
+                "key": "click",
+                "package_name": "click",
+                "installed_version": "8.3.2",
+                "required_version": ">=7.0",
+                "dependencies": []
+            },
+            {
+                "key": "filelock",
+                "package_name": "filelock",
+                "installed_version": "3.25.2",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "jsonschema",
+                "package_name": "jsonschema",
+                "installed_version": "4.26.0",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "attrs",
+                        "package_name": "attrs",
+                        "installed_version": "26.1.0",
+                        "required_version": ">=22.2.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "jsonschema-specifications",
+                        "package_name": "jsonschema-specifications",
+                        "installed_version": "2025.9.1",
+                        "required_version": ">=2023.03.6",
+                        "dependencies": [
+                            {
+                                "key": "referencing",
+                                "package_name": "referencing",
+                                "installed_version": "0.37.0",
+                                "required_version": ">=0.31.0",
+                                "dependencies": [
+                                    {
+                                        "key": "attrs",
+                                        "package_name": "attrs",
+                                        "installed_version": "26.1.0",
+                                        "required_version": ">=22.2.0",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "rpds-py",
+                                        "package_name": "rpds-py",
+                                        "installed_version": "0.30.0",
+                                        "required_version": ">=0.7.0",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.4.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "referencing",
+                        "package_name": "referencing",
+                        "installed_version": "0.37.0",
+                        "required_version": ">=0.28.4",
+                        "dependencies": [
+                            {
+                                "key": "attrs",
+                                "package_name": "attrs",
+                                "installed_version": "26.1.0",
+                                "required_version": ">=22.2.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "rpds-py",
+                                "package_name": "rpds-py",
+                                "installed_version": "0.30.0",
+                                "required_version": ">=0.7.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.4.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "rpds-py",
+                        "package_name": "rpds-py",
+                        "installed_version": "0.30.0",
+                        "required_version": ">=0.25.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "msgpack",
+                "package_name": "msgpack",
+                "installed_version": "1.1.2",
+                "required_version": ">=1.0.0,<2.0.0",
+                "dependencies": []
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=24.2",
+                "dependencies": []
+            },
+            {
+                "key": "protobuf",
+                "package_name": "protobuf",
+                "installed_version": "6.32.0",
+                "required_version": ">=3.20.3",
+                "dependencies": []
+            },
+            {
+                "key": "pyyaml",
+                "package_name": "PyYAML",
+                "installed_version": "6.0.3",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.33.1",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": ">=2023.5.7",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "3.4.7",
+                        "required_version": ">=2,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "2.6.3",
+                        "required_version": ">=1.26,<3",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "setuptools",
+        "package_name": "setuptools",
+        "installed_version": "79.0.1",
+        "required_version": "79.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "simplejson",
+        "package_name": "simplejson",
+        "installed_version": "3.20.2",
+        "required_version": "3.20.2",
+        "dependencies": []
+    },
+    {
+        "key": "tensorflow-datasets",
+        "package_name": "tensorflow-datasets",
+        "installed_version": "4.9.9",
+        "required_version": "4.9.9",
+        "dependencies": [
+            {
+                "key": "absl-py",
+                "package_name": "absl-py",
+                "installed_version": "2.4.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "array-record",
+                "package_name": "array_record",
+                "installed_version": "0.8.1",
+                "required_version": ">=0.5.0",
+                "dependencies": [
+                    {
+                        "key": "absl-py",
+                        "package_name": "absl-py",
+                        "installed_version": "2.4.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "etils",
+                        "package_name": "etils",
+                        "installed_version": "1.13.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "dm-tree",
+                "package_name": "dm-tree",
+                "installed_version": "0.1.10",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "absl-py",
+                        "package_name": "absl-py",
+                        "installed_version": "2.4.0",
+                        "required_version": ">=0.6.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "attrs",
+                        "package_name": "attrs",
+                        "installed_version": "26.1.0",
+                        "required_version": ">=18.2.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.21",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.21.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "wrapt",
+                        "package_name": "wrapt",
+                        "installed_version": "2.1.2",
+                        "required_version": ">=1.11.2",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "etils",
+                "package_name": "etils",
+                "installed_version": "1.13.0",
+                "required_version": ">=1.6.0",
+                "dependencies": []
+            },
+            {
+                "key": "immutabledict",
+                "package_name": "immutabledict",
+                "installed_version": "4.3.1",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "promise",
+                "package_name": "promise",
+                "installed_version": "2.3",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.17.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "protobuf",
+                "package_name": "protobuf",
+                "installed_version": "6.32.0",
+                "required_version": ">=3.20",
+                "dependencies": []
+            },
+            {
+                "key": "psutil",
+                "package_name": "psutil",
+                "installed_version": "7.2.2",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "pyarrow",
+                "package_name": "pyarrow",
+                "installed_version": "23.0.1",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.33.1",
+                "required_version": ">=2.19.0",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": ">=2023.5.7",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "3.4.7",
+                        "required_version": ">=2,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "2.6.3",
+                        "required_version": ">=1.26,<3",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "simple-parsing",
+                "package_name": "simple-parsing",
+                "installed_version": "0.1.8",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "docstring-parser",
+                        "package_name": "docstring_parser",
+                        "installed_version": "0.17.0",
+                        "required_version": "~=0.15",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.5.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "tensorflow-metadata",
+                "package_name": "tensorflow-metadata",
+                "installed_version": "1.17.3",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "absl-py",
+                        "package_name": "absl-py",
+                        "installed_version": "2.4.0",
+                        "required_version": ">=0.9,<3.0.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "protobuf",
+                        "package_name": "protobuf",
+                        "installed_version": "6.32.0",
+                        "required_version": ">=4.21.6,<=6.32",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "termcolor",
+                "package_name": "termcolor",
+                "installed_version": "3.3.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "toml",
+                "package_name": "toml",
+                "installed_version": "0.10.2",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "tqdm",
+                "package_name": "tqdm",
+                "installed_version": "4.67.3",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "wrapt",
+                "package_name": "wrapt",
+                "installed_version": "2.1.2",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "treescope",
+        "package_name": "treescope",
+        "installed_version": "0.1.10",
+        "required_version": "0.1.10",
+        "dependencies": [
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": ">=1.25.2",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "uvloop",
+        "package_name": "uvloop",
+        "installed_version": "0.22.1",
+        "required_version": "0.22.1",
+        "dependencies": []
+    },
+    {
+        "key": "wheel",
+        "package_name": "wheel",
+        "installed_version": "0.45.1",
+        "required_version": "0.45.1",
+        "dependencies": []
+    },
+    {
+        "key": "zipp",
+        "package_name": "zipp",
+        "installed_version": "3.23.0",
+        "required_version": "3.23.0",
+        "dependencies": []
+    }
+]

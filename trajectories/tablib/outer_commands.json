@@ -1,0 +1,284 @@
+[
+    {
+        "GPT_time": 2.6299870014190674
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6719691753387451
+    },
+    {
+        "GPT_time": 3.7418925762176514
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6721863746643066
+    },
+    {
+        "GPT_time": 5.786642074584961
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"setup.py\" 2>/dev/null",
+        "returncode": 0,
+        "time": 0.7903492450714111
+    },
+    {
+        "GPT_time": 3.3872053623199463
+    },
+    {
+        "command": "cat /repo/docs/requirements.txt",
+        "returncode": 0,
+        "time": 0.6678521633148193
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6643633842468262
+    },
+    {
+        "command": "cat /repo/tests/requirements.txt",
+        "returncode": 0,
+        "time": 0.6679263114929199
+    },
+    {
+        "GPT_time": 3.8782284259796143
+    },
+    {
+        "command": "ls -la /repo/src",
+        "returncode": 0,
+        "time": 0.6693871021270752
+    },
+    {
+        "GPT_time": 2.6615607738494873
+    },
+    {
+        "command": "ls -la /repo/src/tablib",
+        "returncode": 0,
+        "time": 0.6689283847808838
+    },
+    {
+        "GPT_time": 2.819807529449463
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6653041839599609
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.308951377868652
+    },
+    {
+        "GPT_time": 4.457514047622681
+    },
+    {
+        "command": "waitinglist addfile /repo/tests/requirements.txt",
+        "returncode": 0,
+        "time": 0.047393083572387695
+    },
+    {
+        "GPT_time": 2.6303656101226807
+    },
+    {
+        "command": "ls -la /repo/tests/",
+        "returncode": 0,
+        "time": 0.6702518463134766
+    },
+    {
+        "GPT_time": 2.5400938987731934
+    },
+    {
+        "command": "waitinglist addfile /repo/tests/requirements.txt",
+        "returncode": 0,
+        "time": 0.04773116111755371
+    },
+    {
+        "GPT_time": 3.7816269397735596
+    },
+    {
+        "command": "pwd",
+        "returncode": 0,
+        "time": 0.6659541130065918
+    },
+    {
+        "command": "cat /repo/tests/requirements.txt",
+        "returncode": 0,
+        "time": 0.6671998500823975
+    },
+    {
+        "GPT_time": 4.30422306060791
+    },
+    {
+        "command": "waitinglist add -p pytest",
+        "returncode": 0,
+        "time": 0.011065244674682617
+    },
+    {
+        "command": "waitinglist add -p pytest-cov",
+        "returncode": 0,
+        "time": 0.00848245620727539
+    },
+    {
+        "command": "waitinglist add -p odfpy",
+        "returncode": 0,
+        "time": 0.2347121238708496
+    },
+    {
+        "command": "waitinglist add -p openpyxl -v \">=2.6.0\"",
+        "returncode": 0,
+        "time": 0.23342227935791016
+    },
+    {
+        "command": "waitinglist add -p pyyaml",
+        "returncode": 0,
+        "time": 0.2305309772491455
+    },
+    {
+        "command": "waitinglist add -p tabulate",
+        "returncode": 0,
+        "time": 0.22832822799682617
+    },
+    {
+        "command": "waitinglist add -p xlrd",
+        "returncode": 0,
+        "time": 0.22286272048950195
+    },
+    {
+        "command": "waitinglist add -p xlwt",
+        "returncode": 0,
+        "time": 0.2252340316772461
+    },
+    {
+        "GPT_time": 5.213001012802124
+    },
+    {
+        "command": "waitinglist add -p pytest -t pip",
+        "returncode": 0,
+        "time": 0.012408733367919922
+    },
+    {
+        "command": "waitinglist add -p pytest-cov -t pip",
+        "returncode": 0,
+        "time": 0.008441686630249023
+    },
+    {
+        "command": "waitinglist add -p odfpy -t pip",
+        "returncode": 0,
+        "time": 0.0067293643951416016
+    },
+    {
+        "command": "waitinglist add -p openpyxl -v \">=2.6.0\" -t pip",
+        "returncode": 0,
+        "time": 0.006165981292724609
+    },
+    {
+        "command": "waitinglist add -p pyyaml -t pip",
+        "returncode": 0,
+        "time": 0.007123708724975586
+    },
+    {
+        "command": "waitinglist add -p tabulate -t pip",
+        "returncode": 0,
+        "time": 0.006834745407104492
+    },
+    {
+        "command": "waitinglist add -p xlrd -t pip",
+        "returncode": 0,
+        "time": 0.007417201995849609
+    },
+    {
+        "command": "waitinglist add -p xlwt -t pip",
+        "returncode": 0,
+        "time": 0.0068509578704833984
+    },
+    {
+        "GPT_time": 3.220543622970581
+    },
+    {
+        "command": "waitinglist show",
+        "returncode": 0,
+        "time": 0.010476827621459961
+    },
+    {
+        "GPT_time": 3.3638601303100586
+    },
+    {
+        "command": "waitinglist clear",
+        "returncode": 0,
+        "time": 0.008786916732788086
+    },
+    {
+        "GPT_time": 3.658059597015381
+    },
+    {
+        "command": "waitinglist add -p pytest -t pip",
+        "returncode": 0,
+        "time": 0.007614612579345703
+    },
+    {
+        "command": "waitinglist add -p pytest-cov -t pip",
+        "returncode": 0,
+        "time": 0.006521463394165039
+    },
+    {
+        "command": "waitinglist add -p odfpy -t pip",
+        "returncode": 0,
+        "time": 0.007657527923583984
+    },
+    {
+        "command": "waitinglist add -p openpyxl -v >=2.6.0 -t pip",
+        "returncode": 0,
+        "time": 0.00455784797668457
+    },
+    {
+        "command": "waitinglist add -p pyyaml -t pip",
+        "returncode": 0,
+        "time": 0.0053348541259765625
+    },
+    {
+        "command": "waitinglist add -p tabulate -t pip",
+        "returncode": 0,
+        "time": 0.0045773983001708984
+    },
+    {
+        "command": "waitinglist add -p xlrd -t pip",
+        "returncode": 0,
+        "time": 0.003885984420776367
+    },
+    {
+        "command": "waitinglist add -p xlwt -t pip",
+        "returncode": 0,
+        "time": 0.005028724670410156
+    },
+    {
+        "GPT_time": 3.7650680541992188
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 17.804022789001465
+    },
+    {
+        "GPT_time": 3.9321794509887695
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6645901203155518
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 5.479968547821045
+    },
+    {
+        "GPT_time": 2.440878391265869
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 3.087318181991577
+    }
+]

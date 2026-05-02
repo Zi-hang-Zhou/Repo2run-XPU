@@ -1,0 +1,13 @@
+diff --git a/tox.ini b/tox.ini
+index 02b96152..2dfefb97 100644
+--- a/tox.ini
++++ b/tox.ini
+@@ -21,6 +21,8 @@ filterwarnings =
+     error
+     # Bottle
+     ignore:.*'cgi' is deprecated and slated for removal
++    # Twisted constants deprecation
++    ignore:.*twisted.python.constants was deprecated.*:DeprecationWarning
+ 
+ [testenv]
+ passenv = *

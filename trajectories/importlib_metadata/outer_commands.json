@@ -1,0 +1,209 @@
+[
+    {
+        "GPT_time": 2.808840036392212
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6699678897857666
+    },
+    {
+        "GPT_time": 4.442139387130737
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6683416366577148
+    },
+    {
+        "GPT_time": 7.282960414886475
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"Pipfile*\" -o -name \"poetry.lock\" 2>/dev/null",
+        "returncode": 0,
+        "time": 0.7592220306396484
+    },
+    {
+        "GPT_time": 3.9301271438598633
+    },
+    {
+        "command": "ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.6681802272796631
+    },
+    {
+        "command": "ls -la /repo/tests/",
+        "returncode": 0,
+        "time": 0.6671891212463379
+    },
+    {
+        "GPT_time": 2.9910035133361816
+    },
+    {
+        "command": "cat /repo/.github/workflows/*.yml 2>/dev/null | head -100",
+        "returncode": 0,
+        "time": 0.750328779220581
+    },
+    {
+        "GPT_time": 2.5723206996917725
+    },
+    {
+        "command": "cat /repo/tox.ini",
+        "returncode": 0,
+        "time": 0.6691093444824219
+    },
+    {
+        "GPT_time": 4.386750936508179
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6642124652862549
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.33803677558899
+    },
+    {
+        "GPT_time": 4.717066287994385
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6658895015716553
+    },
+    {
+        "command": "pip install -e .[test] -q",
+        "returncode": 0,
+        "time": 59.74768924713135
+    },
+    {
+        "GPT_time": 3.1170551776885986
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.665541410446167
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 16.117762327194214
+    },
+    {
+        "GPT_time": 6.354029893875122
+    },
+    {
+        "command": "cat /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.008924007415771484
+    },
+    {
+        "GPT_time": 5.83576512336731
+    },
+    {
+        "command": "apt-get update -qq",
+        "returncode": 0,
+        "time": 1.8461427688598633
+    },
+    {
+        "command": "apt-get install python3-testresources -y -qq",
+        "returncode": 0,
+        "time": 5.767316102981567
+    },
+    {
+        "GPT_time": 6.128397464752197
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6631150245666504
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 12.640193939208984
+    },
+    {
+        "GPT_time": 7.943944454193115
+    },
+    {
+        "command": "python --version",
+        "returncode": 0,
+        "time": 0.7194418907165527
+    },
+    {
+        "command": "which python",
+        "returncode": 0,
+        "time": 0.6657633781433105
+    },
+    {
+        "command": "ls /usr/local/lib/python3.10/",
+        "returncode": 0,
+        "time": 0.6695578098297119
+    },
+    {
+        "GPT_time": 6.359377145767212
+    },
+    {
+        "command": "pip install testresources -q 2>&1 || pip search test 2>&1 | head -20",
+        "returncode": 0,
+        "time": 4.417860746383667
+    },
+    {
+        "GPT_time": 4.831446170806885
+    },
+    {
+        "command": "apt-get install python3.10-full -y -qq 2>&1 | tail -20 || apt-cache search python3.10 | head -20",
+        "returncode": 0,
+        "time": 1.502676248550415
+    },
+    {
+        "GPT_time": 9.2301926612854
+    },
+    {
+        "command": "python -c \"import sys; print(sys.version)\"",
+        "returncode": 0,
+        "time": 0.8101720809936523
+    },
+    {
+        "command": "pip install pytest --upgrade -q",
+        "returncode": 0,
+        "time": 2.0156948566436768
+    },
+    {
+        "GPT_time": 6.276616096496582
+    },
+    {
+        "command": "cd /tmp",
+        "returncode": 0,
+        "time": 0.6642305850982666
+    },
+    {
+        "command": "git clone --depth 1 --branch v3.10.20 https://github.com/python/cpython.git cpython_test 2>&1 | tail -5",
+        "returncode": 0,
+        "time": 18.79414200782776
+    },
+    {
+        "GPT_time": 4.831992149353027
+    },
+    {
+        "command": "cp -r /tmp/cpython_test/Lib/test /usr/local/lib/python3.10/",
+        "returncode": 0,
+        "time": 2.090984582901001
+    },
+    {
+        "GPT_time": 4.481433868408203
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.664546012878418
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 4.268154859542847
+    }
+]

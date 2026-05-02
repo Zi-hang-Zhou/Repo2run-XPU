@@ -1,0 +1,908 @@
+[
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6097447872161865,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7555246353149414,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7385907173156738,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6707870960235596,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.6080281734466553,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/*.py /repo/*.toml /repo/*.lock 2>/dev/null || echo \"No py/toml/lock files found\"",
+        "returncode": 0,
+        "time": 0.6077022552490234,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7157878875732422,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7399561405181885,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6357827186584473,
+        "dir": "/"
+    },
+    {
+        "command": "find /repo -name \"setup.py\" -o -name \"pyproject.toml\" -o -name \"poetry.lock\" -o -name \"requirements*.txt\" 2>/dev/null | head -20",
+        "returncode": 0,
+        "time": 0.609980583190918,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7379815578460693,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7383983135223389,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6362028121948242,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/source/",
+        "returncode": 0,
+        "time": 0.608086347579956,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.736016035079956,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7394883632659912,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6346533298492432,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/source/openqasm/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6069023609161377,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7350356578826904,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.738945484161377,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.638700008392334,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/source/grammar/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6076245307922363,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7361280918121338,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7402632236480713,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6373486518859863,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/source/openqasm/requirements.txt",
+        "returncode": 0,
+        "time": 0.6064784526824951,
+        "dir": "/"
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6042511463165283,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/source/openqasm/requirements-dev.txt",
+        "returncode": 0,
+        "time": 0.6074120998382568,
+        "dir": "/"
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6045401096343994,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/source/grammar/requirements.txt",
+        "returncode": 0,
+        "time": 0.6071593761444092,
+        "dir": "/"
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6052885055541992,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/source/grammar/requirements-dev.txt",
+        "returncode": 0,
+        "time": 0.6071531772613525,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7355837821960449,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.737354040145874,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6329426765441895,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.6076817512512207,
+        "dir": "/"
+    },
+    {
+        "command": "find /repo/source -name \"setup.py\"",
+        "returncode": 0,
+        "time": 0.6074240207672119,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7373039722442627,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.738318681716919,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6349740028381348,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/.github/workflows/",
+        "returncode": 0,
+        "time": 0.6084158420562744,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/.github/workflows/*.yml 2>/dev/null | head -100",
+        "returncode": 0,
+        "time": 0.6094992160797119,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7381575107574463,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7387599945068359,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.637657642364502,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/.github/workflows/tests-ast.yml",
+        "returncode": 0,
+        "time": 0.6072230339050293,
+        "dir": "/"
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6042237281799316,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/source/openqasm/",
+        "returncode": 0,
+        "time": 0.6074357032775879,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7351710796356201,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7358686923980713,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.634770393371582,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/source/openqasm/setup.cfg",
+        "returncode": 0,
+        "time": 0.6082510948181152,
+        "dir": "/"
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6040859222412109,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/source/openqasm/openqasm3/",
+        "returncode": 0,
+        "time": 0.6068160533905029,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7346949577331543,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7377626895904541,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6353251934051514,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/source/grammar/",
+        "returncode": 0,
+        "time": 0.6091456413269043,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/source/grammar/setup.cfg 2>/dev/null || echo \"No setup.cfg in grammar\"",
+        "returncode": 0,
+        "time": 0.606787919998169,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7434995174407959,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7393302917480469,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.637476921081543,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 0.795384407043457,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7192292213439941,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7402799129486084,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6632277965545654,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7174181938171387,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.718285322189331,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.635612964630127,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/source/openqasm/requirements.txt",
+        "returncode": 0,
+        "time": 0.6059324741363525,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/source/grammar/requirements.txt",
+        "returncode": 0,
+        "time": 0.6075022220611572,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7378189563751221,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7406578063964844,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6359903812408447,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo/source/openqasm",
+        "returncode": 0,
+        "time": 0.6048581600189209,
+        "dir": "/"
+    },
+    {
+        "command": "pip install -q -e \".[all]\"",
+        "returncode": 0,
+        "time": 5.3384153842926025,
+        "dir": "/repo/source/openqasm"
+    },
+    {
+        "command": "cd /repo/source/grammar",
+        "returncode": 0,
+        "time": 0.6046969890594482,
+        "dir": "/repo/source/openqasm"
+    },
+    {
+        "command": "pip install -q -e \".[all]\"",
+        "returncode": 0,
+        "time": 3.433612823486328,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7180600166320801,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7430930137634277,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6436939239501953,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 0.7701320648193359,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7417540550231934,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7454986572265625,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6471140384674072,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/source/openqasm/ANTLR_VERSIONS.txt",
+        "returncode": 0,
+        "time": 0.608025074005127,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/source/openqasm/openqasm3/_antlr/",
+        "returncode": 0,
+        "time": 0.6075093746185303,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7404046058654785,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7411720752716064,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6416671276092529,
+        "dir": "/"
+    },
+    {
+        "command": "java -version 2>&1",
+        "returncode": 127,
+        "time": 0.10327863693237305,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/source/grammar/*.g4",
+        "returncode": 0,
+        "time": 0.6076352596282959,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7430357933044434,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7420196533203125,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6491219997406006,
+        "dir": "/"
+    },
+    {
+        "command": "apt-get update -qq",
+        "returncode": 0,
+        "time": 1.713780403137207,
+        "dir": "/"
+    },
+    {
+        "command": "apt-get install -y -qq openjdk-15-jdk",
+        "returncode": 100,
+        "time": 0.7463879585266113,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7422006130218506,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7422451972961426,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6446692943572998,
+        "dir": "/"
+    },
+    {
+        "command": "apt-cache search openjdk | grep -E \"openjdk-[0-9]+-jdk\" | head -5",
+        "returncode": 0,
+        "time": 1.3507378101348877,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7395870685577393,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7431488037109375,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6430091857910156,
+        "dir": "/"
+    },
+    {
+        "command": "apt-get install -y -qq openjdk-21-jdk-headless",
+        "returncode": 0,
+        "time": 13.23508071899414,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7410619258880615,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7460184097290039,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6425232887268066,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/source/openqasm/tools/",
+        "returncode": 0,
+        "time": 0.6082792282104492,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/source/openqasm/tools/*.py 2>/dev/null | head -50",
+        "returncode": 0,
+        "time": 0.6082918643951416,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7407176494598389,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7434303760528564,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6427857875823975,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6049032211303711,
+        "dir": "/"
+    },
+    {
+        "command": "mkdir -p .antlr_jars",
+        "returncode": 0,
+        "time": 0.6070961952209473,
+        "dir": "/repo"
+    },
+    {
+        "command": "mkdir -p source/openqasm/openqasm3/_antlr",
+        "returncode": 0,
+        "time": 0.6077978610992432,
+        "dir": "/repo"
+    },
+    {
+        "command": "cd source/grammar",
+        "returncode": 0,
+        "time": 0.6046380996704102,
+        "dir": "/repo"
+    },
+    {
+        "command": "for version in 4.7.2 4.8 4.9.2 4.10.1 4.11.1 4.12.0 4.13.0; do curl -sLO \"https://www.antlr.org/download/antlr-${version}-complete.jar\" -o \"../.antlr_jars/antlr-${version}-complete.jar\"; done",
+        "returncode": 0,
+        "time": 8.964875221252441,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "ls -la ../.antlr_jars/",
+        "returncode": 2,
+        "time": 0.10450029373168945,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7201910018920898,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7449536323547363,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6380589008331299,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "ls -la /repo/source/grammar/*.jar",
+        "returncode": 0,
+        "time": 0.6088125705718994,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "mv /repo/source/grammar/*.jar /repo/.antlr_jars/ 2>/dev/null; ls -la /repo/.antlr_jars/",
+        "returncode": 0,
+        "time": 0.6102731227874756,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7429425716400146,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7451505661010742,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6426692008972168,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "cd /repo/source/grammar",
+        "returncode": 0,
+        "time": 0.6051793098449707,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "for version_string in 4.7.2 4.8 4.9.2 4.10.1 4.11.1 4.12.0 4.13.0; do IFS=. read -ra version <<< \"${version_string}\"; out_dir=\"/repo/source/openqasm/openqasm3/_antlr/_${version[0]}_${version[1]}\"; mkdir -p \"$out_dir\"; java -Xmx500M -jar \"/repo/.antlr_jars/antlr-${version_string}-complete.jar\" -o \"$out_dir\" -Dlanguage=Python3 -visitor qasm3Lexer.g4 qasm3Parser.g4; done",
+        "returncode": 0,
+        "time": 5.581750154495239,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "ls -la /repo/source/openqasm/openqasm3/_antlr/",
+        "returncode": 0,
+        "time": 0.609978199005127,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7223975658416748,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7913825511932373,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.644890546798706,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "ls -la /repo/source/grammar/openqasm_reference_parser/",
+        "returncode": 0,
+        "time": 0.6081724166870117,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7414336204528809,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7463521957397461,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6430225372314453,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "cat /repo/source/grammar/openqasm_reference_parser/tools.py",
+        "returncode": 0,
+        "time": 0.6081299781799316,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7391376495361328,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7441182136535645,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.643291711807251,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "cd /repo/source/grammar",
+        "returncode": 0,
+        "time": 0.6056456565856934,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "java -Xmx500M -jar \"/repo/.antlr_jars/antlr-4.13.0-complete.jar\" -o \"openqasm_reference_parser\" -Dlanguage=Python3 -visitor qasm3Lexer.g4 qasm3Parser.g4",
+        "returncode": 0,
+        "time": 1.3011627197265625,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "ls -la /repo/source/grammar/openqasm_reference_parser/",
+        "returncode": 0,
+        "time": 0.6074221134185791,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7418999671936035,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7456283569335938,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6416409015655518,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 0,
+        "time": 1.549595832824707,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7422208786010742,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7432205677032471,
+        "dir": "/repo/source/grammar"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6477062702178955,
+        "dir": "/repo/source/grammar"
+    }
+]

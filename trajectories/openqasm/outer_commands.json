@@ -1,0 +1,422 @@
+[
+    {
+        "GPT_time": 2.7081706523895264
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6689505577087402
+    },
+    {
+        "GPT_time": 5.053846836090088
+    },
+    {
+        "command": "cat /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.6679754257202148
+    },
+    {
+        "command": "ls -la /repo/*.py /repo/*.toml /repo/*.lock 2>/dev/null || echo \"No py/toml/lock files found\"",
+        "returncode": 0,
+        "time": 0.8469216823577881
+    },
+    {
+        "GPT_time": 5.993741035461426
+    },
+    {
+        "command": "find /repo -name \"setup.py\" -o -name \"pyproject.toml\" -o -name \"poetry.lock\" -o -name \"requirements*.txt\" 2>/dev/null | head -20",
+        "returncode": 0,
+        "time": 0.8346853256225586
+    },
+    {
+        "GPT_time": 4.907660484313965
+    },
+    {
+        "command": "ls -la /repo/source/",
+        "returncode": 0,
+        "time": 0.6693956851959229
+    },
+    {
+        "GPT_time": 3.324704647064209
+    },
+    {
+        "command": "cat /repo/source/openqasm/pyproject.toml",
+        "returncode": 0,
+        "time": 0.666252851486206
+    },
+    {
+        "GPT_time": 2.7514476776123047
+    },
+    {
+        "command": "cat /repo/source/grammar/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6671087741851807
+    },
+    {
+        "GPT_time": 3.4754436016082764
+    },
+    {
+        "command": "cat /repo/source/openqasm/requirements.txt",
+        "returncode": 0,
+        "time": 0.6661663055419922
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6637182235717773
+    },
+    {
+        "command": "cat /repo/source/openqasm/requirements-dev.txt",
+        "returncode": 0,
+        "time": 0.6667509078979492
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6638839244842529
+    },
+    {
+        "command": "cat /repo/source/grammar/requirements.txt",
+        "returncode": 0,
+        "time": 0.6661460399627686
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6636312007904053
+    },
+    {
+        "command": "cat /repo/source/grammar/requirements-dev.txt",
+        "returncode": 0,
+        "time": 0.6663832664489746
+    },
+    {
+        "GPT_time": 3.43076753616333
+    },
+    {
+        "command": "ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.6677417755126953
+    },
+    {
+        "command": "find /repo/source -name \"setup.py\"",
+        "returncode": 0,
+        "time": 0.6661243438720703
+    },
+    {
+        "GPT_time": 2.8903262615203857
+    },
+    {
+        "command": "ls -la /repo/.github/workflows/",
+        "returncode": 0,
+        "time": 0.66790771484375
+    },
+    {
+        "command": "cat /repo/.github/workflows/*.yml 2>/dev/null | head -100",
+        "returncode": 0,
+        "time": 0.8518128395080566
+    },
+    {
+        "GPT_time": 3.7237777709960938
+    },
+    {
+        "command": "cat /repo/.github/workflows/tests-ast.yml",
+        "returncode": 0,
+        "time": 0.6687514781951904
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.662611722946167
+    },
+    {
+        "command": "ls -la /repo/source/openqasm/",
+        "returncode": 0,
+        "time": 0.6676175594329834
+    },
+    {
+        "GPT_time": 4.048722267150879
+    },
+    {
+        "command": "cat /repo/source/openqasm/setup.cfg",
+        "returncode": 0,
+        "time": 0.6688776016235352
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6630687713623047
+    },
+    {
+        "command": "ls -la /repo/source/openqasm/openqasm3/",
+        "returncode": 0,
+        "time": 0.6652650833129883
+    },
+    {
+        "GPT_time": 5.172910690307617
+    },
+    {
+        "command": "ls -la /repo/source/grammar/",
+        "returncode": 0,
+        "time": 0.6686255931854248
+    },
+    {
+        "command": "cat /repo/source/grammar/setup.cfg 2>/dev/null || echo \"No setup.cfg in grammar\"",
+        "returncode": 0,
+        "time": 0.8409349918365479
+    },
+    {
+        "GPT_time": 5.20726203918457
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.49299669265747
+    },
+    {
+        "GPT_time": 7.051618814468384
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.03567242622375488
+    },
+    {
+        "command": "waitinglist addfile /repo/source/openqasm/requirements.txt",
+        "returncode": 0,
+        "time": 0.030041217803955078
+    },
+    {
+        "command": "waitinglist addfile /repo/source/openqasm/requirements-dev.txt",
+        "returncode": 0,
+        "time": 0.030989646911621094
+    },
+    {
+        "command": "waitinglist addfile /repo/source/grammar/requirements.txt",
+        "returncode": 0,
+        "time": 0.03237414360046387
+    },
+    {
+        "command": "waitinglist addfile /repo/source/grammar/requirements-dev.txt",
+        "returncode": 0,
+        "time": 0.02959585189819336
+    },
+    {
+        "GPT_time": 3.989499807357788
+    },
+    {
+        "command": "ls -la /repo/source/openqasm/requirements.txt",
+        "returncode": 0,
+        "time": 0.663318395614624
+    },
+    {
+        "command": "ls -la /repo/source/grammar/requirements.txt",
+        "returncode": 0,
+        "time": 0.6657750606536865
+    },
+    {
+        "GPT_time": 5.0069780349731445
+    },
+    {
+        "command": "cd /repo/source/openqasm",
+        "returncode": 0,
+        "time": 0.663306713104248
+    },
+    {
+        "command": "pip install -q -e \".[all]\"",
+        "returncode": 0,
+        "time": 5.446006536483765
+    },
+    {
+        "command": "cd /repo/source/grammar",
+        "returncode": 0,
+        "time": 0.6652898788452148
+    },
+    {
+        "command": "pip install -q -e \".[all]\"",
+        "returncode": 0,
+        "time": 3.602125883102417
+    },
+    {
+        "GPT_time": 3.946016788482666
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.44137716293335
+    },
+    {
+        "GPT_time": 7.321665048599243
+    },
+    {
+        "command": "cat /repo/source/openqasm/ANTLR_VERSIONS.txt",
+        "returncode": 0,
+        "time": 0.6669120788574219
+    },
+    {
+        "command": "ls -la /repo/source/openqasm/openqasm3/_antlr/",
+        "returncode": 0,
+        "time": 0.6664185523986816
+    },
+    {
+        "GPT_time": 5.638973712921143
+    },
+    {
+        "command": "java -version 2>&1",
+        "returncode": 0,
+        "time": 10.675503969192505
+    },
+    {
+        "command": "ls -la /repo/source/grammar/*.g4",
+        "returncode": 0,
+        "time": 0.6656122207641602
+    },
+    {
+        "GPT_time": 7.041836977005005
+    },
+    {
+        "command": "apt-get update -qq",
+        "returncode": 0,
+        "time": 1.825028657913208
+    },
+    {
+        "command": "apt-get install -y -qq openjdk-15-jdk",
+        "returncode": 0,
+        "time": 11.334379196166992
+    },
+    {
+        "GPT_time": 4.18947434425354
+    },
+    {
+        "command": "apt-cache search openjdk | grep -E \"openjdk-[0-9]+-jdk\" | head -5",
+        "returncode": 0,
+        "time": 1.4594264030456543
+    },
+    {
+        "GPT_time": 4.999348878860474
+    },
+    {
+        "command": "apt-get install -y -qq openjdk-21-jdk-headless",
+        "returncode": 0,
+        "time": 13.350872278213501
+    },
+    {
+        "GPT_time": 6.424680709838867
+    },
+    {
+        "command": "ls -la /repo/source/openqasm/tools/",
+        "returncode": 0,
+        "time": 0.6656038761138916
+    },
+    {
+        "command": "cat /repo/source/openqasm/tools/*.py 2>/dev/null | head -50",
+        "returncode": 0,
+        "time": 2.123452663421631
+    },
+    {
+        "GPT_time": 8.246969223022461
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6635823249816895
+    },
+    {
+        "command": "mkdir -p .antlr_jars",
+        "returncode": 0,
+        "time": 2.1340103149414062
+    },
+    {
+        "command": "mkdir -p source/openqasm/openqasm3/_antlr",
+        "returncode": 0,
+        "time": 2.0194053649902344
+    },
+    {
+        "command": "cd source/grammar",
+        "returncode": 0,
+        "time": 0.6629354953765869
+    },
+    {
+        "command": "for version in 4.7.2 4.8 4.9.2 4.10.1 4.11.1 4.12.0 4.13.0; do curl -sLO \"https://www.antlr.org/download/antlr-${version}-complete.jar\" -o \"../.antlr_jars/antlr-${version}-complete.jar\"; done",
+        "returncode": 0,
+        "time": 10.558481216430664
+    },
+    {
+        "command": "ls -la ../.antlr_jars/",
+        "returncode": 0,
+        "time": 0.16364288330078125
+    },
+    {
+        "GPT_time": 6.159978866577148
+    },
+    {
+        "command": "ls -la /repo/source/grammar/*.jar",
+        "returncode": 0,
+        "time": 0.6670737266540527
+    },
+    {
+        "command": "mv /repo/source/grammar/*.jar /repo/.antlr_jars/ 2>/dev/null; ls -la /repo/.antlr_jars/",
+        "returncode": 0,
+        "time": 2.1883246898651123
+    },
+    {
+        "GPT_time": 7.291083097457886
+    },
+    {
+        "command": "cd /repo/source/grammar",
+        "returncode": 0,
+        "time": 0.6641910076141357
+    },
+    {
+        "command": "for version_string in 4.7.2 4.8 4.9.2 4.10.1 4.11.1 4.12.0 4.13.0; do IFS=. read -ra version <<< \"${version_string}\"; out_dir=\"/repo/source/openqasm/openqasm3/_antlr/_${version[0]}_${version[1]}\"; mkdir -p \"$out_dir\"; java -Xmx500M -jar \"/repo/.antlr_jars/antlr-${version_string}-complete.jar\" -o \"$out_dir\" -Dlanguage=Python3 -visitor qasm3Lexer.g4 qasm3Parser.g4; done",
+        "returncode": 0,
+        "time": 7.136567115783691
+    },
+    {
+        "command": "ls -la /repo/source/openqasm/openqasm3/_antlr/",
+        "returncode": 0,
+        "time": 0.6695520877838135
+    },
+    {
+        "GPT_time": 5.295536756515503
+    },
+    {
+        "command": "ls -la /repo/source/grammar/openqasm_reference_parser/",
+        "returncode": 0,
+        "time": 0.6663405895233154
+    },
+    {
+        "GPT_time": 3.3781161308288574
+    },
+    {
+        "command": "cat /repo/source/grammar/openqasm_reference_parser/tools.py",
+        "returncode": 0,
+        "time": 0.667424201965332
+    },
+    {
+        "GPT_time": 4.521888256072998
+    },
+    {
+        "command": "cd /repo/source/grammar",
+        "returncode": 0,
+        "time": 0.6647915840148926
+    },
+    {
+        "command": "java -Xmx500M -jar \"/repo/.antlr_jars/antlr-4.13.0-complete.jar\" -o \"openqasm_reference_parser\" -Dlanguage=Python3 -visitor qasm3Lexer.g4 qasm3Parser.g4",
+        "returncode": 0,
+        "time": 2.882110357284546
+    },
+    {
+        "command": "ls -la /repo/source/grammar/openqasm_reference_parser/",
+        "returncode": 0,
+        "time": 0.6677274703979492
+    },
+    {
+        "GPT_time": 3.0508081912994385
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 3.21205997467041
+    }
+]

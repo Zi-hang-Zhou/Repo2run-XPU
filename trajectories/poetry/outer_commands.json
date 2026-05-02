@@ -1,0 +1,44 @@
+[
+    {
+        "GPT_time": 2.8120532035827637
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6709723472595215
+    },
+    {
+        "GPT_time": 4.4763195514678955
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6698739528656006
+    },
+    {
+        "GPT_time": 5.81063437461853
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6638853549957275
+    },
+    {
+        "command": "poetry install",
+        "returncode": 0,
+        "time": 11.661806106567383
+    },
+    {
+        "GPT_time": 3.683297634124756
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6648383140563965
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 7.1406166553497314
+    }
+]

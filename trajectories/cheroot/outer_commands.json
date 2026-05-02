@@ -1,0 +1,217 @@
+[
+    {
+        "GPT_time": 2.593750476837158
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6697707176208496
+    },
+    {
+        "GPT_time": 3.8853366374969482
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6689212322235107
+    },
+    {
+        "GPT_time": 4.012840747833252
+    },
+    {
+        "command": "ls -la /repo/requirements",
+        "returncode": 0,
+        "time": 0.6734559535980225
+    },
+    {
+        "GPT_time": 4.162396669387817
+    },
+    {
+        "command": "cat /repo/requirements/tests.in",
+        "returncode": 0,
+        "time": 0.6671459674835205
+    },
+    {
+        "GPT_time": 6.44659948348999
+    },
+    {
+        "command": "cat /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.008039712905883789
+    },
+    {
+        "GPT_time": 3.759683847427368
+    },
+    {
+        "command": "cat /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.007779598236083984
+    },
+    {
+        "GPT_time": 4.190275430679321
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6643390655517578
+    },
+    {
+        "command": "cat pytest.ini",
+        "returncode": 0,
+        "time": 0.009363174438476562
+    },
+    {
+        "GPT_time": 3.537652015686035
+    },
+    {
+        "command": "head -50 /repo/pytest.ini",
+        "returncode": 0,
+        "time": 0.00895071029663086
+    },
+    {
+        "GPT_time": 4.235419750213623
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6648366451263428
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 6.067377805709839
+    },
+    {
+        "GPT_time": 3.3682141304016113
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.276286363601685
+    },
+    {
+        "GPT_time": 7.879176139831543
+    },
+    {
+        "command": "head -30 /repo/requirements/tox-py310-cp310-linux-x86_64.txt",
+        "returncode": 0,
+        "time": 0.6664571762084961
+    },
+    {
+        "GPT_time": 5.236880779266357
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/tox-py310-cp310-linux-x86_64.txt",
+        "returncode": 0,
+        "time": 0.04020190238952637
+    },
+    {
+        "GPT_time": 3.7797021865844727
+    },
+    {
+        "command": "ls /repo/requirements/tox-py310-cp310-linux-x86_64.txt",
+        "returncode": 0,
+        "time": 0.6688194274902344
+    },
+    {
+        "GPT_time": 5.507853269577026
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/tox-py310-cp310-linux-x86_64.txt",
+        "returncode": 0,
+        "time": 0.03808140754699707
+    },
+    {
+        "GPT_time": 5.57195258140564
+    },
+    {
+        "command": "file /repo/requirements/tox-py310-cp310-linux-x86_64.txt",
+        "returncode": 0,
+        "time": 0.6737070083618164
+    },
+    {
+        "command": "cat /repo/requirements/tox-py310-cp310-linux-x86_64.txt | head -5",
+        "returncode": 0,
+        "time": 0.6673061847686768
+    },
+    {
+        "GPT_time": 4.1181230545043945
+    },
+    {
+        "command": "pip install pytest pytest-xdist pytest-cov pytest-mock coverage -q",
+        "returncode": 0,
+        "time": 3.9083590507507324
+    },
+    {
+        "GPT_time": 3.7835817337036133
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 12.103009939193726
+    },
+    {
+        "GPT_time": 4.886031150817871
+    },
+    {
+        "command": "pip install jaraco.text requests pyopenssl portend -q",
+        "returncode": 0,
+        "time": 8.55774998664856
+    },
+    {
+        "GPT_time": 3.235349178314209
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 12.869260549545288
+    },
+    {
+        "GPT_time": 7.273947715759277
+    },
+    {
+        "command": "pip install requests-unixsocket trustme requests-toolbelt -q",
+        "returncode": 0,
+        "time": 2.365211009979248
+    },
+    {
+        "GPT_time": 5.3993003368377686
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 12.272975444793701
+    },
+    {
+        "GPT_time": 5.830515146255493
+    },
+    {
+        "command": "pip install pytest-rerunfailures -q",
+        "returncode": 0,
+        "time": 1.9374816417694092
+    },
+    {
+        "GPT_time": 4.579031229019165
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 12.327854871749878
+    },
+    {
+        "GPT_time": 5.204507112503052
+    },
+    {
+        "command": "pip install pypytools -q",
+        "returncode": 0,
+        "time": 2.9467103481292725
+    },
+    {
+        "GPT_time": 2.6310579776763916
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 3.107374668121338
+    }
+]

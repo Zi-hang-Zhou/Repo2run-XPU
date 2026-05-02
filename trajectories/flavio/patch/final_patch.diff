@@ -1,0 +1,16 @@
+diff --git a/flavio/math/integrate.py b/flavio/math/integrate.py
+index 5a3ad21..ff365bf 100644
+--- a/flavio/math/integrate.py
++++ b/flavio/math/integrate.py
+@@ -4,7 +4,10 @@ import warnings
+ try:
+     from scipy.integrate import AccuracyWarning # scipy >= 1.5.0
+ except ImportError:
+-    from scipy.integrate.quadrature import AccuracyWarning # scipy <= 1.4.1
++    try:
++        from scipy.integrate.quadrature import AccuracyWarning # scipy <= 1.4.1
++    except ImportError:
++        from scipy.integrate import IntegrationWarning as AccuracyWarning # scipy >= 1.14
+ 
+ def nintegrate_quadrature(f, a, b, epsrel=0.005, **kwargs):
+     with warnings.catch_warnings():

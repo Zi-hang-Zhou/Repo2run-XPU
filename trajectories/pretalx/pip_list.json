@@ -1,0 +1,391 @@
+[
+    {
+        "name": "amqp",
+        "version": "5.3.1"
+    },
+    {
+        "name": "argon2-cffi",
+        "version": "25.1.0"
+    },
+    {
+        "name": "argon2-cffi-bindings",
+        "version": "25.1.0"
+    },
+    {
+        "name": "asgiref",
+        "version": "3.11.1"
+    },
+    {
+        "name": "attrs",
+        "version": "26.1.0"
+    },
+    {
+        "name": "beautifulsoup4",
+        "version": "4.12.3"
+    },
+    {
+        "name": "billiard",
+        "version": "4.2.4"
+    },
+    {
+        "name": "bleach",
+        "version": "6.1.0"
+    },
+    {
+        "name": "celery",
+        "version": "5.4.0"
+    },
+    {
+        "name": "certifi",
+        "version": "2026.2.25"
+    },
+    {
+        "name": "cffi",
+        "version": "2.0.0"
+    },
+    {
+        "name": "chardet",
+        "version": "7.4.1"
+    },
+    {
+        "name": "charset-normalizer",
+        "version": "3.4.7"
+    },
+    {
+        "name": "click",
+        "version": "8.3.2"
+    },
+    {
+        "name": "click-didyoumean",
+        "version": "0.3.1"
+    },
+    {
+        "name": "click-plugins",
+        "version": "1.1.1.2"
+    },
+    {
+        "name": "click-repl",
+        "version": "0.3.0"
+    },
+    {
+        "name": "coverage",
+        "version": "7.13.5"
+    },
+    {
+        "name": "css-inline",
+        "version": "0.14.6"
+    },
+    {
+        "name": "csscompressor",
+        "version": "0.9.5"
+    },
+    {
+        "name": "cssutils",
+        "version": "2.10.3"
+    },
+    {
+        "name": "defusedcsv",
+        "version": "2.0.0"
+    },
+    {
+        "name": "Django",
+        "version": "4.2.30"
+    },
+    {
+        "name": "django-appconf",
+        "version": "1.2.0"
+    },
+    {
+        "name": "django-bootstrap4",
+        "version": "3.0.1"
+    },
+    {
+        "name": "django-compressor",
+        "version": "4.4"
+    },
+    {
+        "name": "django_context_decorator",
+        "version": "1.6.1"
+    },
+    {
+        "name": "django-countries",
+        "version": "7.6.1"
+    },
+    {
+        "name": "django_csp",
+        "version": "3.8"
+    },
+    {
+        "name": "django-filter",
+        "version": "24.2"
+    },
+    {
+        "name": "django-formset-js-improved",
+        "version": "0.5.0.3"
+    },
+    {
+        "name": "django-formtools",
+        "version": "2.5.1"
+    },
+    {
+        "name": "django-hierarkey",
+        "version": "1.1.0"
+    },
+    {
+        "name": "django-i18nfield",
+        "version": "1.9.5"
+    },
+    {
+        "name": "django-jquery-js",
+        "version": "3.1.1"
+    },
+    {
+        "name": "django-libsass",
+        "version": "0.9"
+    },
+    {
+        "name": "django-scopes",
+        "version": "2.0.0"
+    },
+    {
+        "name": "djangorestframework",
+        "version": "3.15.2"
+    },
+    {
+        "name": "exceptiongroup",
+        "version": "1.3.1"
+    },
+    {
+        "name": "execnet",
+        "version": "2.1.2"
+    },
+    {
+        "name": "Faker",
+        "version": "40.13.0"
+    },
+    {
+        "name": "freezegun",
+        "version": "1.5.5"
+    },
+    {
+        "name": "idna",
+        "version": "3.11"
+    },
+    {
+        "name": "iniconfig",
+        "version": "2.3.0"
+    },
+    {
+        "name": "jsonschema",
+        "version": "4.26.0"
+    },
+    {
+        "name": "jsonschema-specifications",
+        "version": "2025.9.1"
+    },
+    {
+        "name": "kombu",
+        "version": "5.6.2"
+    },
+    {
+        "name": "libsass",
+        "version": "0.23.0"
+    },
+    {
+        "name": "lxml",
+        "version": "6.0.3"
+    },
+    {
+        "name": "Markdown",
+        "version": "3.6"
+    },
+    {
+        "name": "packaging",
+        "version": "26.0"
+    },
+    {
+        "name": "pillow",
+        "version": "10.3.0"
+    },
+    {
+        "name": "pip",
+        "version": "23.0.1"
+    },
+    {
+        "name": "pipdeptree",
+        "version": "2.35.1"
+    },
+    {
+        "name": "pluggy",
+        "version": "1.6.0"
+    },
+    {
+        "name": "pretalx",
+        "version": "2024.2.0.dev0",
+        "editable_project_location": "/repo"
+    },
+    {
+        "name": "prompt_toolkit",
+        "version": "3.0.52"
+    },
+    {
+        "name": "publicsuffixlist",
+        "version": "0.10.1.20240618"
+    },
+    {
+        "name": "pycparser",
+        "version": "3.0"
+    },
+    {
+        "name": "Pygments",
+        "version": "2.20.0"
+    },
+    {
+        "name": "pypng",
+        "version": "0.20220715.0"
+    },
+    {
+        "name": "pytest",
+        "version": "9.0.3"
+    },
+    {
+        "name": "pytest-cov",
+        "version": "7.1.0"
+    },
+    {
+        "name": "pytest-django",
+        "version": "4.12.0"
+    },
+    {
+        "name": "pytest-mock",
+        "version": "3.15.1"
+    },
+    {
+        "name": "pytest-rerunfailures",
+        "version": "16.1"
+    },
+    {
+        "name": "pytest-sugar",
+        "version": "1.1.1"
+    },
+    {
+        "name": "pytest-xdist",
+        "version": "3.8.0"
+    },
+    {
+        "name": "python-dateutil",
+        "version": "2.9.0.post0"
+    },
+    {
+        "name": "pytz",
+        "version": "2026.1.post1"
+    },
+    {
+        "name": "PyYAML",
+        "version": "6.0.3"
+    },
+    {
+        "name": "qrcode",
+        "version": "7.4.2"
+    },
+    {
+        "name": "rcssmin",
+        "version": "1.1.1"
+    },
+    {
+        "name": "referencing",
+        "version": "0.37.0"
+    },
+    {
+        "name": "reportlab",
+        "version": "4.2.5"
+    },
+    {
+        "name": "requests",
+        "version": "2.31.0"
+    },
+    {
+        "name": "responses",
+        "version": "0.26.0"
+    },
+    {
+        "name": "rjsmin",
+        "version": "1.2.1"
+    },
+    {
+        "name": "rpds-py",
+        "version": "0.30.0"
+    },
+    {
+        "name": "rules",
+        "version": "3.3"
+    },
+    {
+        "name": "setuptools",
+        "version": "79.0.1"
+    },
+    {
+        "name": "six",
+        "version": "1.17.0"
+    },
+    {
+        "name": "soupsieve",
+        "version": "2.8.3"
+    },
+    {
+        "name": "sqlparse",
+        "version": "0.5.5"
+    },
+    {
+        "name": "termcolor",
+        "version": "3.3.0"
+    },
+    {
+        "name": "tomli",
+        "version": "2.4.1"
+    },
+    {
+        "name": "typing_extensions",
+        "version": "4.15.0"
+    },
+    {
+        "name": "tzdata",
+        "version": "2026.1"
+    },
+    {
+        "name": "urllib3",
+        "version": "2.6.3"
+    },
+    {
+        "name": "urlman",
+        "version": "2.0.3"
+    },
+    {
+        "name": "vine",
+        "version": "5.1.0"
+    },
+    {
+        "name": "vobject",
+        "version": "0.9.9"
+    },
+    {
+        "name": "wcwidth",
+        "version": "0.6.0"
+    },
+    {
+        "name": "webencodings",
+        "version": "0.5.1"
+    },
+    {
+        "name": "wheel",
+        "version": "0.45.1"
+    },
+    {
+        "name": "whitenoise",
+        "version": "6.6.0"
+    },
+    {
+        "name": "zxcvbn",
+        "version": "4.4.28"
+    }
+]

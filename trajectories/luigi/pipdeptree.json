@@ -1,0 +1,1028 @@
+[
+    {
+        "key": "avro-python3",
+        "package_name": "avro-python3",
+        "installed_version": "1.10.2",
+        "required_version": "1.10.2",
+        "dependencies": []
+    },
+    {
+        "key": "azure-storage",
+        "package_name": "azure-storage",
+        "installed_version": "0.36.0",
+        "required_version": "0.36.0",
+        "dependencies": [
+            {
+                "key": "azure-common",
+                "package_name": "azure-common",
+                "installed_version": "1.1.28",
+                "required_version": ">=1.1.5",
+                "dependencies": []
+            },
+            {
+                "key": "azure-nspkg",
+                "package_name": "azure-nspkg",
+                "installed_version": "3.0.2",
+                "required_version": ">=2.0.0",
+                "dependencies": []
+            },
+            {
+                "key": "cryptography",
+                "package_name": "cryptography",
+                "installed_version": "46.0.7",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "cffi",
+                        "package_name": "cffi",
+                        "installed_version": "2.0.0",
+                        "required_version": ">=2.0.0",
+                        "dependencies": [
+                            {
+                                "key": "pycparser",
+                                "package_name": "pycparser",
+                                "installed_version": "3.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.13.2",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "python-dateutil",
+                "package_name": "python-dateutil",
+                "installed_version": "2.9.0.post0",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.17.0",
+                        "required_version": ">=1.5",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.33.1",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": ">=2023.5.7",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "3.4.7",
+                        "required_version": ">=2,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "1.26.20",
+                        "required_version": ">=1.26,<3",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "codecov",
+        "package_name": "codecov",
+        "installed_version": "2.1.13",
+        "required_version": "2.1.13",
+        "dependencies": [
+            {
+                "key": "coverage",
+                "package_name": "coverage",
+                "installed_version": "5.5",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.33.1",
+                "required_version": ">=2.7.9",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": ">=2023.5.7",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "3.4.7",
+                        "required_version": ">=2,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "1.26.20",
+                        "required_version": ">=1.26,<3",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "datadog",
+        "package_name": "datadog",
+        "installed_version": "0.22.0",
+        "required_version": "0.22.0",
+        "dependencies": [
+            {
+                "key": "decorator",
+                "package_name": "decorator",
+                "installed_version": "5.2.1",
+                "required_version": ">=3.3.2",
+                "dependencies": []
+            },
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.33.1",
+                "required_version": ">=2.6.0",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": ">=2023.5.7",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "3.4.7",
+                        "required_version": ">=2,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "1.26.20",
+                        "required_version": ">=1.26,<3",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "simplejson",
+                "package_name": "simplejson",
+                "installed_version": "3.20.2",
+                "required_version": ">=3.0.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "docker",
+        "package_name": "docker",
+        "installed_version": "7.1.0",
+        "required_version": "7.1.0",
+        "dependencies": [
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.33.1",
+                "required_version": ">=2.26.0",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": ">=2023.5.7",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "3.4.7",
+                        "required_version": ">=2,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "1.26.20",
+                        "required_version": ">=1.26,<3",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "urllib3",
+                "package_name": "urllib3",
+                "installed_version": "1.26.20",
+                "required_version": ">=1.26.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "elasticsearch",
+        "package_name": "elasticsearch",
+        "installed_version": "1.9.0",
+        "required_version": "1.9.0",
+        "dependencies": [
+            {
+                "key": "urllib3",
+                "package_name": "urllib3",
+                "installed_version": "1.26.20",
+                "required_version": ">=1.8,<2.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "google-compute-engine",
+        "package_name": "google-compute-engine",
+        "installed_version": "2.8.13",
+        "required_version": "2.8.13",
+        "dependencies": [
+            {
+                "key": "boto",
+                "package_name": "boto",
+                "installed_version": "2.49.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "distro",
+                "package_name": "distro",
+                "installed_version": "1.9.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "setuptools",
+                "package_name": "setuptools",
+                "installed_version": "79.0.1",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "httpretty",
+        "package_name": "httpretty",
+        "installed_version": "0.8.10",
+        "required_version": "0.8.10",
+        "dependencies": []
+    },
+    {
+        "key": "hypothesis",
+        "package_name": "hypothesis",
+        "installed_version": "6.151.12",
+        "required_version": "6.151.12",
+        "dependencies": [
+            {
+                "key": "exceptiongroup",
+                "package_name": "exceptiongroup",
+                "installed_version": "1.3.1",
+                "required_version": ">=1.0.0",
+                "dependencies": [
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.6.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "sortedcontainers",
+                "package_name": "sortedcontainers",
+                "installed_version": "2.4.0",
+                "required_version": ">=2.1.0,<3.0.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "jsonschema",
+        "package_name": "jsonschema",
+        "installed_version": "4.26.0",
+        "required_version": "4.26.0",
+        "dependencies": [
+            {
+                "key": "attrs",
+                "package_name": "attrs",
+                "installed_version": "26.1.0",
+                "required_version": ">=22.2.0",
+                "dependencies": []
+            },
+            {
+                "key": "jsonschema-specifications",
+                "package_name": "jsonschema-specifications",
+                "installed_version": "2025.9.1",
+                "required_version": ">=2023.03.6",
+                "dependencies": [
+                    {
+                        "key": "referencing",
+                        "package_name": "referencing",
+                        "installed_version": "0.37.0",
+                        "required_version": ">=0.31.0",
+                        "dependencies": [
+                            {
+                                "key": "attrs",
+                                "package_name": "attrs",
+                                "installed_version": "26.1.0",
+                                "required_version": ">=22.2.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "rpds-py",
+                                "package_name": "rpds-py",
+                                "installed_version": "0.30.0",
+                                "required_version": ">=0.7.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.4.0",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "referencing",
+                "package_name": "referencing",
+                "installed_version": "0.37.0",
+                "required_version": ">=0.28.4",
+                "dependencies": [
+                    {
+                        "key": "attrs",
+                        "package_name": "attrs",
+                        "installed_version": "26.1.0",
+                        "required_version": ">=22.2.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "rpds-py",
+                        "package_name": "rpds-py",
+                        "installed_version": "0.30.0",
+                        "required_version": ">=0.7.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.4.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "rpds-py",
+                "package_name": "rpds-py",
+                "installed_version": "0.30.0",
+                "required_version": ">=0.25.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "luigi",
+        "package_name": "luigi",
+        "installed_version": "3.5.1",
+        "required_version": "3.5.1",
+        "dependencies": [
+            {
+                "key": "python-daemon",
+                "package_name": "python-daemon",
+                "installed_version": "3.1.2",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "lockfile",
+                        "package_name": "lockfile",
+                        "installed_version": "0.12.2",
+                        "required_version": ">=0.10",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "python-dateutil",
+                "package_name": "python-dateutil",
+                "installed_version": "2.9.0.post0",
+                "required_version": ">=2.7.5,<3",
+                "dependencies": [
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.17.0",
+                        "required_version": ">=1.5",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "tenacity",
+                "package_name": "tenacity",
+                "installed_version": "8.5.0",
+                "required_version": ">=8,<9",
+                "dependencies": []
+            },
+            {
+                "key": "tornado",
+                "package_name": "tornado",
+                "installed_version": "6.5.5",
+                "required_version": ">=5.0,<7",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "mock",
+        "package_name": "mock",
+        "installed_version": "1.3.0",
+        "required_version": "1.3.0",
+        "dependencies": [
+            {
+                "key": "pbr",
+                "package_name": "pbr",
+                "installed_version": "7.0.3",
+                "required_version": ">=0.11",
+                "dependencies": [
+                    {
+                        "key": "setuptools",
+                        "package_name": "setuptools",
+                        "installed_version": "79.0.1",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "six",
+                "package_name": "six",
+                "installed_version": "1.17.0",
+                "required_version": ">=1.7",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "moto",
+        "package_name": "moto",
+        "installed_version": "4.2.14",
+        "required_version": "4.2.14",
+        "dependencies": [
+            {
+                "key": "boto3",
+                "package_name": "boto3",
+                "installed_version": "1.42.88",
+                "required_version": ">=1.9.201",
+                "dependencies": [
+                    {
+                        "key": "botocore",
+                        "package_name": "botocore",
+                        "installed_version": "1.42.88",
+                        "required_version": ">=1.42.88,<1.43.0",
+                        "dependencies": [
+                            {
+                                "key": "jmespath",
+                                "package_name": "jmespath",
+                                "installed_version": "1.1.0",
+                                "required_version": ">=0.7.1,<2.0.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "python-dateutil",
+                                "package_name": "python-dateutil",
+                                "installed_version": "2.9.0.post0",
+                                "required_version": ">=2.1,<3.0.0",
+                                "dependencies": [
+                                    {
+                                        "key": "six",
+                                        "package_name": "six",
+                                        "installed_version": "1.17.0",
+                                        "required_version": ">=1.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "urllib3",
+                                "package_name": "urllib3",
+                                "installed_version": "1.26.20",
+                                "required_version": ">=1.25.4,<3,!=2.2.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "jmespath",
+                        "package_name": "jmespath",
+                        "installed_version": "1.1.0",
+                        "required_version": ">=0.7.1,<2.0.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "s3transfer",
+                        "package_name": "s3transfer",
+                        "installed_version": "0.16.0",
+                        "required_version": ">=0.16.0,<0.17.0",
+                        "dependencies": [
+                            {
+                                "key": "botocore",
+                                "package_name": "botocore",
+                                "installed_version": "1.42.88",
+                                "required_version": ">=1.37.4,<2.0a.0",
+                                "dependencies": [
+                                    {
+                                        "key": "jmespath",
+                                        "package_name": "jmespath",
+                                        "installed_version": "1.1.0",
+                                        "required_version": ">=0.7.1,<2.0.0",
+                                        "dependencies": []
+                                    },
+                                    {
+                                        "key": "python-dateutil",
+                                        "package_name": "python-dateutil",
+                                        "installed_version": "2.9.0.post0",
+                                        "required_version": ">=2.1,<3.0.0",
+                                        "dependencies": [
+                                            {
+                                                "key": "six",
+                                                "package_name": "six",
+                                                "installed_version": "1.17.0",
+                                                "required_version": ">=1.5",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "urllib3",
+                                        "package_name": "urllib3",
+                                        "installed_version": "1.26.20",
+                                        "required_version": ">=1.25.4,<3,!=2.2.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "botocore",
+                "package_name": "botocore",
+                "installed_version": "1.42.88",
+                "required_version": ">=1.12.201",
+                "dependencies": [
+                    {
+                        "key": "jmespath",
+                        "package_name": "jmespath",
+                        "installed_version": "1.1.0",
+                        "required_version": ">=0.7.1,<2.0.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "python-dateutil",
+                        "package_name": "python-dateutil",
+                        "installed_version": "2.9.0.post0",
+                        "required_version": ">=2.1,<3.0.0",
+                        "dependencies": [
+                            {
+                                "key": "six",
+                                "package_name": "six",
+                                "installed_version": "1.17.0",
+                                "required_version": ">=1.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "1.26.20",
+                        "required_version": ">=1.25.4,<3,!=2.2.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "cryptography",
+                "package_name": "cryptography",
+                "installed_version": "46.0.7",
+                "required_version": ">=3.3.1",
+                "dependencies": [
+                    {
+                        "key": "cffi",
+                        "package_name": "cffi",
+                        "installed_version": "2.0.0",
+                        "required_version": ">=2.0.0",
+                        "dependencies": [
+                            {
+                                "key": "pycparser",
+                                "package_name": "pycparser",
+                                "installed_version": "3.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.13.2",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "jinja2",
+                "package_name": "Jinja2",
+                "installed_version": "3.1.6",
+                "required_version": ">=2.10.1",
+                "dependencies": [
+                    {
+                        "key": "markupsafe",
+                        "package_name": "MarkupSafe",
+                        "installed_version": "3.0.3",
+                        "required_version": ">=2.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "python-dateutil",
+                "package_name": "python-dateutil",
+                "installed_version": "2.9.0.post0",
+                "required_version": ">=2.1,<3.0.0",
+                "dependencies": [
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.17.0",
+                        "required_version": ">=1.5",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.33.1",
+                "required_version": ">=2.5",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": ">=2023.5.7",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "3.4.7",
+                        "required_version": ">=2,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "1.26.20",
+                        "required_version": ">=1.26,<3",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "responses",
+                "package_name": "responses",
+                "installed_version": "0.26.0",
+                "required_version": ">=0.13.0",
+                "dependencies": [
+                    {
+                        "key": "pyyaml",
+                        "package_name": "PyYAML",
+                        "installed_version": "6.0.3",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "requests",
+                        "package_name": "requests",
+                        "installed_version": "2.33.1",
+                        "required_version": ">=2.30.0,<3.0",
+                        "dependencies": [
+                            {
+                                "key": "certifi",
+                                "package_name": "certifi",
+                                "installed_version": "2026.2.25",
+                                "required_version": ">=2023.5.7",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "charset-normalizer",
+                                "package_name": "charset-normalizer",
+                                "installed_version": "3.4.7",
+                                "required_version": ">=2,<4",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "idna",
+                                "package_name": "idna",
+                                "installed_version": "3.11",
+                                "required_version": ">=2.5,<4",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "urllib3",
+                                "package_name": "urllib3",
+                                "installed_version": "1.26.20",
+                                "required_version": ">=1.26,<3",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "1.26.20",
+                        "required_version": ">=1.25.10,<3.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "werkzeug",
+                "package_name": "Werkzeug",
+                "installed_version": "3.1.8",
+                "required_version": ">=0.5,!=2.2.1,!=2.2.0",
+                "dependencies": [
+                    {
+                        "key": "markupsafe",
+                        "package_name": "MarkupSafe",
+                        "installed_version": "3.0.3",
+                        "required_version": ">=2.1.1",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "xmltodict",
+                "package_name": "xmltodict",
+                "installed_version": "1.0.4",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "mysql-connector-python",
+        "package_name": "mysql-connector-python",
+        "installed_version": "9.6.0",
+        "required_version": "9.6.0",
+        "dependencies": []
+    },
+    {
+        "key": "pip",
+        "package_name": "pip",
+        "installed_version": "23.0.1",
+        "required_version": "23.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.35.1",
+        "required_version": "2.35.1",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "prometheus-client",
+        "package_name": "prometheus-client",
+        "installed_version": "0.14.1",
+        "required_version": "0.14.1",
+        "dependencies": []
+    },
+    {
+        "key": "psutil",
+        "package_name": "psutil",
+        "installed_version": "3.4.2",
+        "required_version": "3.4.2",
+        "dependencies": []
+    },
+    {
+        "key": "pygments",
+        "package_name": "Pygments",
+        "installed_version": "2.20.0",
+        "required_version": "2.20.0",
+        "dependencies": []
+    },
+    {
+        "key": "pyhive",
+        "package_name": "PyHive",
+        "installed_version": "0.6.1",
+        "required_version": "0.6.1",
+        "dependencies": [
+            {
+                "key": "future",
+                "package_name": "future",
+                "installed_version": "1.0.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "python-dateutil",
+                "package_name": "python-dateutil",
+                "installed_version": "2.9.0.post0",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.17.0",
+                        "required_version": ">=1.5",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pymongo",
+        "package_name": "pymongo",
+        "installed_version": "3.4.0",
+        "required_version": "3.4.0",
+        "dependencies": []
+    },
+    {
+        "key": "pytest-cov",
+        "package_name": "pytest-cov",
+        "installed_version": "2.12.1",
+        "required_version": "2.12.1",
+        "dependencies": [
+            {
+                "key": "coverage",
+                "package_name": "coverage",
+                "installed_version": "5.5",
+                "required_version": ">=5.2.1",
+                "dependencies": []
+            },
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "6.2.5",
+                "required_version": ">=4.6",
+                "dependencies": [
+                    {
+                        "key": "attrs",
+                        "package_name": "attrs",
+                        "installed_version": "26.1.0",
+                        "required_version": ">=19.2.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=0.12,<2.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "py",
+                        "package_name": "py",
+                        "installed_version": "1.11.0",
+                        "required_version": ">=1.8.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "toml",
+                        "package_name": "toml",
+                        "installed_version": "0.10.2",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "toml",
+                "package_name": "toml",
+                "installed_version": "0.10.2",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "selenium",
+        "package_name": "selenium",
+        "installed_version": "3.0.2",
+        "required_version": "3.0.2",
+        "dependencies": []
+    },
+    {
+        "key": "sqlalchemy",
+        "package_name": "SQLAlchemy",
+        "installed_version": "1.3.24",
+        "required_version": "1.3.24",
+        "dependencies": []
+    },
+    {
+        "key": "tomli",
+        "package_name": "tomli",
+        "installed_version": "2.4.1",
+        "required_version": "2.4.1",
+        "dependencies": []
+    },
+    {
+        "key": "wheel",
+        "package_name": "wheel",
+        "installed_version": "0.45.1",
+        "required_version": "0.45.1",
+        "dependencies": []
+    }
+]

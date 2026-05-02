@@ -1,0 +1,1240 @@
+[
+    {
+        "key": "bayesian-optimization",
+        "package_name": "bayesian-optimization",
+        "installed_version": "1.2.0",
+        "required_version": "1.2.0",
+        "dependencies": [
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": ">=1.9.0",
+                "dependencies": []
+            },
+            {
+                "key": "scikit-learn",
+                "package_name": "scikit-learn",
+                "installed_version": "1.7.2",
+                "required_version": ">=0.18.0",
+                "dependencies": [
+                    {
+                        "key": "joblib",
+                        "package_name": "joblib",
+                        "installed_version": "1.5.3",
+                        "required_version": ">=1.2.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": ">=1.8.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "threadpoolctl",
+                        "package_name": "threadpoolctl",
+                        "installed_version": "3.6.0",
+                        "required_version": ">=3.1.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "scipy",
+                "package_name": "scipy",
+                "installed_version": "1.15.3",
+                "required_version": ">=0.14.0",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.23.5,<2.5",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "black",
+        "package_name": "black",
+        "installed_version": "24.3.0",
+        "required_version": "24.3.0",
+        "dependencies": [
+            {
+                "key": "click",
+                "package_name": "click",
+                "installed_version": "8.3.2",
+                "required_version": ">=8.0.0",
+                "dependencies": []
+            },
+            {
+                "key": "mypy-extensions",
+                "package_name": "mypy_extensions",
+                "installed_version": "1.1.0",
+                "required_version": ">=0.4.3",
+                "dependencies": []
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=22.0",
+                "dependencies": []
+            },
+            {
+                "key": "pathspec",
+                "package_name": "pathspec",
+                "installed_version": "1.0.4",
+                "required_version": ">=0.9.0",
+                "dependencies": []
+            },
+            {
+                "key": "platformdirs",
+                "package_name": "platformdirs",
+                "installed_version": "4.9.6",
+                "required_version": ">=2",
+                "dependencies": []
+            },
+            {
+                "key": "tomli",
+                "package_name": "tomli",
+                "installed_version": "2.4.1",
+                "required_version": ">=1.1.0",
+                "dependencies": []
+            },
+            {
+                "key": "typing-extensions",
+                "package_name": "typing_extensions",
+                "installed_version": "4.15.0",
+                "required_version": ">=4.0.1",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "cdt",
+        "package_name": "cdt",
+        "installed_version": "0.6.0",
+        "required_version": "0.6.0",
+        "dependencies": [
+            {
+                "key": "gputil",
+                "package_name": "GPUtil",
+                "installed_version": "1.4.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "joblib",
+                "package_name": "joblib",
+                "installed_version": "1.5.3",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "networkx",
+                "package_name": "networkx",
+                "installed_version": "3.4.2",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "pandas",
+                "package_name": "pandas",
+                "installed_version": "2.3.3",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22.4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "python-dateutil",
+                        "package_name": "python-dateutil",
+                        "installed_version": "2.9.0.post0",
+                        "required_version": ">=2.8.2",
+                        "dependencies": [
+                            {
+                                "key": "six",
+                                "package_name": "six",
+                                "installed_version": "1.17.0",
+                                "required_version": ">=1.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "pytz",
+                        "package_name": "pytz",
+                        "installed_version": "2026.1.post1",
+                        "required_version": ">=2020.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tzdata",
+                        "package_name": "tzdata",
+                        "installed_version": "2026.1",
+                        "required_version": ">=2022.7",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.33.1",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": ">=2023.5.7",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "3.4.7",
+                        "required_version": ">=2,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "2.6.3",
+                        "required_version": ">=1.26,<3",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "scikit-learn",
+                "package_name": "scikit-learn",
+                "installed_version": "1.7.2",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "joblib",
+                        "package_name": "joblib",
+                        "installed_version": "1.5.3",
+                        "required_version": ">=1.2.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": ">=1.8.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "threadpoolctl",
+                        "package_name": "threadpoolctl",
+                        "installed_version": "3.6.0",
+                        "required_version": ">=3.1.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "scipy",
+                "package_name": "scipy",
+                "installed_version": "1.15.3",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.23.5,<2.5",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "skrebate",
+                "package_name": "skrebate",
+                "installed_version": "0.62",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "scikit-learn",
+                        "package_name": "scikit-learn",
+                        "installed_version": "1.7.2",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "joblib",
+                                "package_name": "joblib",
+                                "installed_version": "1.5.3",
+                                "required_version": ">=1.2.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "scipy",
+                                "package_name": "scipy",
+                                "installed_version": "1.15.3",
+                                "required_version": ">=1.8.0",
+                                "dependencies": [
+                                    {
+                                        "key": "numpy",
+                                        "package_name": "numpy",
+                                        "installed_version": "2.2.6",
+                                        "required_version": ">=1.23.5,<2.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "threadpoolctl",
+                                "package_name": "threadpoolctl",
+                                "installed_version": "3.6.0",
+                                "required_version": ">=3.1.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "statsmodels",
+                "package_name": "statsmodels",
+                "installed_version": "0.14.6",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.22.3,<3",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=21.3",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pandas",
+                        "package_name": "pandas",
+                        "installed_version": "2.3.3",
+                        "required_version": ">=1.4,!=2.1.0",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.22.4",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "python-dateutil",
+                                "package_name": "python-dateutil",
+                                "installed_version": "2.9.0.post0",
+                                "required_version": ">=2.8.2",
+                                "dependencies": [
+                                    {
+                                        "key": "six",
+                                        "package_name": "six",
+                                        "installed_version": "1.17.0",
+                                        "required_version": ">=1.5",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "pytz",
+                                "package_name": "pytz",
+                                "installed_version": "2026.1.post1",
+                                "required_version": ">=2020.1",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "tzdata",
+                                "package_name": "tzdata",
+                                "installed_version": "2026.1",
+                                "required_version": ">=2022.7",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "patsy",
+                        "package_name": "patsy",
+                        "installed_version": "1.0.2",
+                        "required_version": ">=0.5.6",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.4",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "scipy",
+                        "package_name": "scipy",
+                        "installed_version": "1.15.3",
+                        "required_version": ">=1.8,!=1.9.2",
+                        "dependencies": [
+                            {
+                                "key": "numpy",
+                                "package_name": "numpy",
+                                "installed_version": "2.2.6",
+                                "required_version": ">=1.23.5,<2.5",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "tqdm",
+                "package_name": "tqdm",
+                "installed_version": "4.67.3",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "cma",
+        "package_name": "cma",
+        "installed_version": "4.4.4",
+        "required_version": "4.4.4",
+        "dependencies": [
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "colorama",
+        "package_name": "colorama",
+        "installed_version": "0.4.6",
+        "required_version": "0.4.6",
+        "dependencies": []
+    },
+    {
+        "key": "gym",
+        "package_name": "gym",
+        "installed_version": "0.24.1",
+        "required_version": "0.24.1",
+        "dependencies": [
+            {
+                "key": "cloudpickle",
+                "package_name": "cloudpickle",
+                "installed_version": "3.1.2",
+                "required_version": ">=1.2.0",
+                "dependencies": []
+            },
+            {
+                "key": "gym-notices",
+                "package_name": "gym-notices",
+                "installed_version": "0.1.0",
+                "required_version": ">=0.0.4",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": ">=1.18.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "hyperopt",
+        "package_name": "hyperopt",
+        "installed_version": "0.2.7",
+        "required_version": "0.2.7",
+        "dependencies": [
+            {
+                "key": "cloudpickle",
+                "package_name": "cloudpickle",
+                "installed_version": "3.1.2",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "future",
+                "package_name": "future",
+                "installed_version": "1.0.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "networkx",
+                "package_name": "networkx",
+                "installed_version": "3.4.2",
+                "required_version": ">=2.2",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "py4j",
+                "package_name": "py4j",
+                "installed_version": "0.10.9.9",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "scipy",
+                "package_name": "scipy",
+                "installed_version": "1.15.3",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.23.5,<2.5",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "six",
+                "package_name": "six",
+                "installed_version": "1.17.0",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "tqdm",
+                "package_name": "tqdm",
+                "installed_version": "4.67.3",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "matplotlib",
+        "package_name": "matplotlib",
+        "installed_version": "3.10.8",
+        "required_version": "3.10.8",
+        "dependencies": [
+            {
+                "key": "contourpy",
+                "package_name": "contourpy",
+                "installed_version": "1.3.2",
+                "required_version": ">=1.0.1",
+                "dependencies": [
+                    {
+                        "key": "numpy",
+                        "package_name": "numpy",
+                        "installed_version": "2.2.6",
+                        "required_version": ">=1.23",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "cycler",
+                "package_name": "cycler",
+                "installed_version": "0.12.1",
+                "required_version": ">=0.10",
+                "dependencies": []
+            },
+            {
+                "key": "fonttools",
+                "package_name": "fonttools",
+                "installed_version": "4.62.1",
+                "required_version": ">=4.22.0",
+                "dependencies": []
+            },
+            {
+                "key": "kiwisolver",
+                "package_name": "kiwisolver",
+                "installed_version": "1.5.0",
+                "required_version": ">=1.3.1",
+                "dependencies": []
+            },
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": ">=1.23",
+                "dependencies": []
+            },
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=20.0",
+                "dependencies": []
+            },
+            {
+                "key": "pillow",
+                "package_name": "pillow",
+                "installed_version": "12.2.0",
+                "required_version": ">=8",
+                "dependencies": []
+            },
+            {
+                "key": "pyparsing",
+                "package_name": "pyparsing",
+                "installed_version": "3.3.2",
+                "required_version": ">=3",
+                "dependencies": []
+            },
+            {
+                "key": "python-dateutil",
+                "package_name": "python-dateutil",
+                "installed_version": "2.9.0.post0",
+                "required_version": ">=2.7",
+                "dependencies": [
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.17.0",
+                        "required_version": ">=1.5",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "mypy",
+        "package_name": "mypy",
+        "installed_version": "1.20.0",
+        "required_version": "1.20.0",
+        "dependencies": [
+            {
+                "key": "librt",
+                "package_name": "librt",
+                "installed_version": "0.9.0",
+                "required_version": ">=0.8.0",
+                "dependencies": []
+            },
+            {
+                "key": "mypy-extensions",
+                "package_name": "mypy_extensions",
+                "installed_version": "1.1.0",
+                "required_version": ">=1.0.0",
+                "dependencies": []
+            },
+            {
+                "key": "pathspec",
+                "package_name": "pathspec",
+                "installed_version": "1.0.4",
+                "required_version": ">=1.0.0",
+                "dependencies": []
+            },
+            {
+                "key": "tomli",
+                "package_name": "tomli",
+                "installed_version": "2.4.1",
+                "required_version": ">=1.1.0",
+                "dependencies": []
+            },
+            {
+                "key": "typing-extensions",
+                "package_name": "typing_extensions",
+                "installed_version": "4.15.0",
+                "required_version": ">=4.6.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "nvidia-cuda-cupti",
+        "package_name": "nvidia-cuda-cupti",
+        "installed_version": "13.0.85",
+        "required_version": "13.0.85",
+        "dependencies": []
+    },
+    {
+        "key": "nvidia-cuda-nvrtc",
+        "package_name": "nvidia-cuda-nvrtc",
+        "installed_version": "13.0.88",
+        "required_version": "13.0.88",
+        "dependencies": []
+    },
+    {
+        "key": "nvidia-cuda-runtime",
+        "package_name": "nvidia-cuda-runtime",
+        "installed_version": "13.0.96",
+        "required_version": "13.0.96",
+        "dependencies": []
+    },
+    {
+        "key": "nvidia-cufft",
+        "package_name": "nvidia-cufft",
+        "installed_version": "12.0.0.61",
+        "required_version": "12.0.0.61",
+        "dependencies": [
+            {
+                "key": "nvidia-nvjitlink",
+                "package_name": "nvidia-nvjitlink",
+                "installed_version": "13.0.88",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "nvidia-cufile",
+        "package_name": "nvidia-cufile",
+        "installed_version": "1.15.1.6",
+        "required_version": "1.15.1.6",
+        "dependencies": []
+    },
+    {
+        "key": "nvidia-curand",
+        "package_name": "nvidia-curand",
+        "installed_version": "10.4.0.35",
+        "required_version": "10.4.0.35",
+        "dependencies": []
+    },
+    {
+        "key": "nvidia-cusolver",
+        "package_name": "nvidia-cusolver",
+        "installed_version": "12.0.4.66",
+        "required_version": "12.0.4.66",
+        "dependencies": [
+            {
+                "key": "nvidia-cublas",
+                "package_name": "nvidia-cublas",
+                "installed_version": "13.1.0.3",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "nvidia-cusparse",
+                "package_name": "nvidia-cusparse",
+                "installed_version": "12.6.3.3",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "nvidia-nvjitlink",
+                        "package_name": "nvidia-nvjitlink",
+                        "installed_version": "13.0.88",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "nvidia-nvjitlink",
+                "package_name": "nvidia-nvjitlink",
+                "installed_version": "13.0.88",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "nvidia-nvtx",
+        "package_name": "nvidia-nvtx",
+        "installed_version": "13.0.85",
+        "required_version": "13.0.85",
+        "dependencies": []
+    },
+    {
+        "key": "opencv-python",
+        "package_name": "opencv-python",
+        "installed_version": "4.13.0.92",
+        "required_version": "4.13.0.92",
+        "dependencies": [
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": ">=2",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pip",
+        "package_name": "pip",
+        "installed_version": "23.0.1",
+        "required_version": "23.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.35.1",
+        "required_version": "2.35.1",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pylint",
+        "package_name": "pylint",
+        "installed_version": "4.0.5",
+        "required_version": "4.0.5",
+        "dependencies": [
+            {
+                "key": "astroid",
+                "package_name": "astroid",
+                "installed_version": "4.0.4",
+                "required_version": ">=4.0.2,<=4.1.dev0",
+                "dependencies": [
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "dill",
+                "package_name": "dill",
+                "installed_version": "0.4.1",
+                "required_version": ">=0.2",
+                "dependencies": []
+            },
+            {
+                "key": "isort",
+                "package_name": "isort",
+                "installed_version": "8.0.1",
+                "required_version": ">=5,<9,!=5.13",
+                "dependencies": []
+            },
+            {
+                "key": "mccabe",
+                "package_name": "mccabe",
+                "installed_version": "0.7.0",
+                "required_version": ">=0.6,<0.8",
+                "dependencies": []
+            },
+            {
+                "key": "platformdirs",
+                "package_name": "platformdirs",
+                "installed_version": "4.9.6",
+                "required_version": ">=2.2",
+                "dependencies": []
+            },
+            {
+                "key": "tomli",
+                "package_name": "tomli",
+                "installed_version": "2.4.1",
+                "required_version": ">=1.1",
+                "dependencies": []
+            },
+            {
+                "key": "tomlkit",
+                "package_name": "tomlkit",
+                "installed_version": "0.14.0",
+                "required_version": ">=0.10.1",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pyomo",
+        "package_name": "Pyomo",
+        "installed_version": "5.7.1",
+        "required_version": "5.7.1",
+        "dependencies": [
+            {
+                "key": "ply",
+                "package_name": "ply",
+                "installed_version": "3.11",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "pyutilib",
+                "package_name": "PyUtilib",
+                "installed_version": "6.0.0",
+                "required_version": ">=6.0",
+                "dependencies": [
+                    {
+                        "key": "nose",
+                        "package_name": "nose",
+                        "installed_version": "1.3.7",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.17.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "six",
+                "package_name": "six",
+                "installed_version": "1.17.0",
+                "required_version": ">=1.4",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pyproj",
+        "package_name": "pyproj",
+        "installed_version": "3.7.1",
+        "required_version": "3.7.1",
+        "dependencies": [
+            {
+                "key": "certifi",
+                "package_name": "certifi",
+                "installed_version": "2026.2.25",
+                "required_version": "Any",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pytest-cov",
+        "package_name": "pytest-cov",
+        "installed_version": "7.1.0",
+        "required_version": "7.1.0",
+        "dependencies": [
+            {
+                "key": "coverage",
+                "package_name": "coverage",
+                "installed_version": "7.13.5",
+                "required_version": ">=7.10.6",
+                "dependencies": []
+            },
+            {
+                "key": "pluggy",
+                "package_name": "pluggy",
+                "installed_version": "1.6.0",
+                "required_version": ">=1.2",
+                "dependencies": []
+            },
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.3",
+                "required_version": ">=7",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.20.0",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.1",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "torchvision",
+        "package_name": "torchvision",
+        "installed_version": "0.26.0",
+        "required_version": "0.26.0",
+        "dependencies": [
+            {
+                "key": "numpy",
+                "package_name": "numpy",
+                "installed_version": "2.2.6",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "pillow",
+                "package_name": "pillow",
+                "installed_version": "12.2.0",
+                "required_version": ">=5.3.0,!=8.3.*",
+                "dependencies": []
+            },
+            {
+                "key": "torch",
+                "package_name": "torch",
+                "installed_version": "2.11.0",
+                "required_version": "==2.11.0",
+                "dependencies": [
+                    {
+                        "key": "cuda-bindings",
+                        "package_name": "cuda-bindings",
+                        "installed_version": "13.2.0",
+                        "required_version": ">=13.0.3,<14",
+                        "dependencies": [
+                            {
+                                "key": "cuda-pathfinder",
+                                "package_name": "cuda-pathfinder",
+                                "installed_version": "1.5.2",
+                                "required_version": "~=1.1",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "cuda-toolkit",
+                        "package_name": "cuda-toolkit",
+                        "installed_version": "13.0.2",
+                        "required_version": "==13.0.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "filelock",
+                        "package_name": "filelock",
+                        "installed_version": "3.25.2",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "fsspec",
+                        "package_name": "fsspec",
+                        "installed_version": "2026.3.0",
+                        "required_version": ">=0.8.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "jinja2",
+                        "package_name": "Jinja2",
+                        "installed_version": "3.1.6",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "markupsafe",
+                                "package_name": "MarkupSafe",
+                                "installed_version": "3.0.3",
+                                "required_version": ">=2.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "networkx",
+                        "package_name": "networkx",
+                        "installed_version": "3.4.2",
+                        "required_version": ">=2.5.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "nvidia-cudnn-cu13",
+                        "package_name": "nvidia-cudnn-cu13",
+                        "installed_version": "9.19.0.56",
+                        "required_version": "==9.19.0.56",
+                        "dependencies": [
+                            {
+                                "key": "nvidia-cublas",
+                                "package_name": "nvidia-cublas",
+                                "installed_version": "13.1.0.3",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "nvidia-cusparselt-cu13",
+                        "package_name": "nvidia-cusparselt-cu13",
+                        "installed_version": "0.8.0",
+                        "required_version": "==0.8.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "nvidia-nccl-cu13",
+                        "package_name": "nvidia-nccl-cu13",
+                        "installed_version": "2.28.9",
+                        "required_version": "==2.28.9",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "nvidia-nvshmem-cu13",
+                        "package_name": "nvidia-nvshmem-cu13",
+                        "installed_version": "3.4.5",
+                        "required_version": "==3.4.5",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "setuptools",
+                        "package_name": "setuptools",
+                        "installed_version": "79.0.1",
+                        "required_version": "<82",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "sympy",
+                        "package_name": "sympy",
+                        "installed_version": "1.14.0",
+                        "required_version": ">=1.13.3",
+                        "dependencies": [
+                            {
+                                "key": "mpmath",
+                                "package_name": "mpmath",
+                                "installed_version": "1.3.0",
+                                "required_version": ">=1.1.0,<1.4",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "triton",
+                        "package_name": "triton",
+                        "installed_version": "3.6.0",
+                        "required_version": "==3.6.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.10.0",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "wheel",
+        "package_name": "wheel",
+        "installed_version": "0.45.1",
+        "required_version": "0.45.1",
+        "dependencies": []
+    }
+]

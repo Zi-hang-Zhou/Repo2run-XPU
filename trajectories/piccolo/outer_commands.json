@@ -1,0 +1,279 @@
+[
+    {
+        "GPT_time": 3.1488394737243652
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6693344116210938
+    },
+    {
+        "GPT_time": 3.9410109519958496
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6688697338104248
+    },
+    {
+        "GPT_time": 3.4208576679229736
+    },
+    {
+        "command": "ls -la /repo/requirements",
+        "returncode": 0,
+        "time": 0.6672964096069336
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.6684131622314453
+    },
+    {
+        "GPT_time": 3.6937355995178223
+    },
+    {
+        "command": "cat /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.6665678024291992
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6628024578094482
+    },
+    {
+        "command": "cat /repo/requirements/test-requirements.txt",
+        "returncode": 0,
+        "time": 0.6661186218261719
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6632192134857178
+    },
+    {
+        "command": "cat /repo/requirements/dev-requirements.txt",
+        "returncode": 0,
+        "time": 0.6677875518798828
+    },
+    {
+        "GPT_time": 3.928882360458374
+    },
+    {
+        "command": "ls /repo/requirements/extras",
+        "returncode": 0,
+        "time": 0.666273832321167
+    },
+    {
+        "command": "cat /repo/requirements/extras/*.txt",
+        "returncode": 0,
+        "time": 0.6671581268310547
+    },
+    {
+        "GPT_time": 4.349193334579468
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6640310287475586
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.276524543762207
+    },
+    {
+        "GPT_time": 4.860414266586304
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.03580617904663086
+    },
+    {
+        "GPT_time": 3.7128329277038574
+    },
+    {
+        "command": "ls -la /repo/requirements/",
+        "returncode": 0,
+        "time": 0.6691806316375732
+    },
+    {
+        "GPT_time": 2.5037436485290527
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.03699779510498047
+    },
+    {
+        "GPT_time": 3.5545341968536377
+    },
+    {
+        "command": "pwd",
+        "returncode": 0,
+        "time": 0.6652076244354248
+    },
+    {
+        "command": "ls /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.6677930355072021
+    },
+    {
+        "GPT_time": 2.6055593490600586
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.03696417808532715
+    },
+    {
+        "GPT_time": 5.464242219924927
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.663029670715332
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 11.613980054855347
+    },
+    {
+        "GPT_time": 3.1311960220336914
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6656136512756348
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.807228565216064
+    },
+    {
+        "GPT_time": 3.7915918827056885
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.664578914642334
+    },
+    {
+        "command": "pip install 'piccolo[postgres]' -q",
+        "returncode": 0,
+        "time": 2.5034942626953125
+    },
+    {
+        "GPT_time": 2.027545213699341
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.663804292678833
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.570231914520264
+    },
+    {
+        "GPT_time": 6.075948476791382
+    },
+    {
+        "command": "cat /repo/piccolo_conf.py",
+        "returncode": 0,
+        "time": 0.6644091606140137
+    },
+    {
+        "GPT_time": 2.8622329235076904
+    },
+    {
+        "command": "cat /repo/tests/conftest.py",
+        "returncode": 0,
+        "time": 0.6676018238067627
+    },
+    {
+        "GPT_time": 8.688352823257446
+    },
+    {
+        "command": "ls /repo/.github/workflows/",
+        "returncode": 0,
+        "time": 0.6659977436065674
+    },
+    {
+        "command": "cat /repo/.github/workflows/*.yml | head -200",
+        "returncode": 0,
+        "time": 0.6671013832092285
+    },
+    {
+        "GPT_time": 2.834078073501587
+    },
+    {
+        "command": "cat /repo/.github/workflows/tests.yaml",
+        "returncode": 0,
+        "time": 0.6679227352142334
+    },
+    {
+        "GPT_time": 5.567647218704224
+    },
+    {
+        "command": "cat /repo/scripts/test-sqlite.sh",
+        "returncode": 0,
+        "time": 0.6681959629058838
+    },
+    {
+        "GPT_time": 3.7402396202087402
+    },
+    {
+        "command": "cat /repo/tests/sqlite_conf.py",
+        "returncode": 0,
+        "time": 0.666757345199585
+    },
+    {
+        "GPT_time": 5.347227573394775
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6648547649383545
+    },
+    {
+        "command": "pip install -r requirements/extras/sqlite.txt -q",
+        "returncode": 0,
+        "time": 1.7907700538635254
+    },
+    {
+        "GPT_time": 3.1519620418548584
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6639859676361084
+    },
+    {
+        "command": "pip install -r requirements/test-requirements.txt -q",
+        "returncode": 0,
+        "time": 13.509166240692139
+    },
+    {
+        "GPT_time": 3.603445291519165
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6641998291015625
+    },
+    {
+        "command": "export PICCOLO_CONF=\"tests.sqlite_conf\"",
+        "returncode": 0,
+        "time": 1.028625249862671
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 4.490056276321411
+    }
+]

@@ -1,0 +1,141 @@
+[
+    {
+        "GPT_time": 2.808473825454712
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6703569889068604
+    },
+    {
+        "GPT_time": 5.693051815032959
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.666917085647583
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6627647876739502
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.6681201457977295
+    },
+    {
+        "GPT_time": 2.5966007709503174
+    },
+    {
+        "command": "cat /repo/settings.ini",
+        "returncode": 0,
+        "time": 0.6664752960205078
+    },
+    {
+        "GPT_time": 5.626011371612549
+    },
+    {
+        "command": "ls -la /repo/*.lock /repo/requirements*.txt 2>/dev/null; echo \"---\"; ls -la /repo/test/",
+        "returncode": 0,
+        "time": 3.0129549503326416
+    },
+    {
+        "GPT_time": 4.042865037918091
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6663100719451904
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 14.062533617019653
+    },
+    {
+        "GPT_time": 3.6264562606811523
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6677324771881104
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 14.298664808273315
+    },
+    {
+        "GPT_time": 3.2276124954223633
+    },
+    {
+        "command": "pip install setuptools -q",
+        "returncode": 0,
+        "time": 1.140570878982544
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6661877632141113
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 13.792980909347534
+    },
+    {
+        "GPT_time": 6.953067302703857
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6654679775238037
+    },
+    {
+        "command": "pip install -e . --no-build-isolation -q",
+        "returncode": 0,
+        "time": 290.8405804634094
+    },
+    {
+        "GPT_time": 2.9247777462005615
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 64.67694664001465
+    },
+    {
+        "GPT_time": 3.537461519241333
+    },
+    {
+        "command": "waitinglist add -p matplotlib",
+        "returncode": 0,
+        "time": 0.21605181694030762
+    },
+    {
+        "GPT_time": 2.4133243560791016
+    },
+    {
+        "command": "waitinglist add -p matplotlib -t pip",
+        "returncode": 0,
+        "time": 0.009139776229858398
+    },
+    {
+        "GPT_time": 2.7913856506347656
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 9.083146333694458
+    },
+    {
+        "GPT_time": 2.6859183311462402
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 446.14394879341125
+    }
+]

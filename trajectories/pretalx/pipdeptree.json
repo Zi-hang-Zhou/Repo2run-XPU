@@ -1,0 +1,1650 @@
+[
+    {
+        "key": "argon2-cffi",
+        "package_name": "argon2-cffi",
+        "installed_version": "25.1.0",
+        "required_version": "25.1.0",
+        "dependencies": [
+            {
+                "key": "argon2-cffi-bindings",
+                "package_name": "argon2-cffi-bindings",
+                "installed_version": "25.1.0",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "cffi",
+                        "package_name": "cffi",
+                        "installed_version": "2.0.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": [
+                            {
+                                "key": "pycparser",
+                                "package_name": "pycparser",
+                                "installed_version": "3.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "faker",
+        "package_name": "Faker",
+        "installed_version": "40.13.0",
+        "required_version": "40.13.0",
+        "dependencies": []
+    },
+    {
+        "key": "freezegun",
+        "package_name": "freezegun",
+        "installed_version": "1.5.5",
+        "required_version": "1.5.5",
+        "dependencies": [
+            {
+                "key": "python-dateutil",
+                "package_name": "python-dateutil",
+                "installed_version": "2.9.0.post0",
+                "required_version": ">=2.7",
+                "dependencies": [
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.17.0",
+                        "required_version": ">=1.5",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "jsonschema",
+        "package_name": "jsonschema",
+        "installed_version": "4.26.0",
+        "required_version": "4.26.0",
+        "dependencies": [
+            {
+                "key": "attrs",
+                "package_name": "attrs",
+                "installed_version": "26.1.0",
+                "required_version": ">=22.2.0",
+                "dependencies": []
+            },
+            {
+                "key": "jsonschema-specifications",
+                "package_name": "jsonschema-specifications",
+                "installed_version": "2025.9.1",
+                "required_version": ">=2023.03.6",
+                "dependencies": [
+                    {
+                        "key": "referencing",
+                        "package_name": "referencing",
+                        "installed_version": "0.37.0",
+                        "required_version": ">=0.31.0",
+                        "dependencies": [
+                            {
+                                "key": "attrs",
+                                "package_name": "attrs",
+                                "installed_version": "26.1.0",
+                                "required_version": ">=22.2.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "rpds-py",
+                                "package_name": "rpds-py",
+                                "installed_version": "0.30.0",
+                                "required_version": ">=0.7.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.4.0",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "referencing",
+                "package_name": "referencing",
+                "installed_version": "0.37.0",
+                "required_version": ">=0.28.4",
+                "dependencies": [
+                    {
+                        "key": "attrs",
+                        "package_name": "attrs",
+                        "installed_version": "26.1.0",
+                        "required_version": ">=22.2.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "rpds-py",
+                        "package_name": "rpds-py",
+                        "installed_version": "0.30.0",
+                        "required_version": ">=0.7.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.4.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "rpds-py",
+                "package_name": "rpds-py",
+                "installed_version": "0.30.0",
+                "required_version": ">=0.25.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "lxml",
+        "package_name": "lxml",
+        "installed_version": "6.0.3",
+        "required_version": "6.0.3",
+        "dependencies": []
+    },
+    {
+        "key": "pip",
+        "package_name": "pip",
+        "installed_version": "23.0.1",
+        "required_version": "23.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.35.1",
+        "required_version": "2.35.1",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pretalx",
+        "package_name": "pretalx",
+        "installed_version": "2024.2.0.dev0",
+        "required_version": "2024.2.0.dev0",
+        "dependencies": [
+            {
+                "key": "beautifulsoup4",
+                "package_name": "beautifulsoup4",
+                "installed_version": "4.12.3",
+                "required_version": "~=4.12.0",
+                "dependencies": [
+                    {
+                        "key": "soupsieve",
+                        "package_name": "soupsieve",
+                        "installed_version": "2.8.3",
+                        "required_version": ">1.2",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "bleach",
+                "package_name": "bleach",
+                "installed_version": "6.1.0",
+                "required_version": "~=6.1.0",
+                "dependencies": [
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.17.0",
+                        "required_version": ">=1.9.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "webencodings",
+                        "package_name": "webencodings",
+                        "installed_version": "0.5.1",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "celery",
+                "package_name": "celery",
+                "installed_version": "5.4.0",
+                "required_version": "~=5.4.0",
+                "dependencies": [
+                    {
+                        "key": "billiard",
+                        "package_name": "billiard",
+                        "installed_version": "4.2.4",
+                        "required_version": ">=4.2.0,<5.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "click",
+                        "package_name": "click",
+                        "installed_version": "8.3.2",
+                        "required_version": ">=8.1.2,<9.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "click-didyoumean",
+                        "package_name": "click-didyoumean",
+                        "installed_version": "0.3.1",
+                        "required_version": ">=0.3.0",
+                        "dependencies": [
+                            {
+                                "key": "click",
+                                "package_name": "click",
+                                "installed_version": "8.3.2",
+                                "required_version": ">=7",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "click-plugins",
+                        "package_name": "click-plugins",
+                        "installed_version": "1.1.1.2",
+                        "required_version": ">=1.1.1",
+                        "dependencies": [
+                            {
+                                "key": "click",
+                                "package_name": "click",
+                                "installed_version": "8.3.2",
+                                "required_version": ">=4.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "click-repl",
+                        "package_name": "click-repl",
+                        "installed_version": "0.3.0",
+                        "required_version": ">=0.2.0",
+                        "dependencies": [
+                            {
+                                "key": "click",
+                                "package_name": "click",
+                                "installed_version": "8.3.2",
+                                "required_version": ">=7.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "prompt-toolkit",
+                                "package_name": "prompt_toolkit",
+                                "installed_version": "3.0.52",
+                                "required_version": ">=3.0.36",
+                                "dependencies": [
+                                    {
+                                        "key": "wcwidth",
+                                        "package_name": "wcwidth",
+                                        "installed_version": "0.6.0",
+                                        "required_version": "Any",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "kombu",
+                        "package_name": "kombu",
+                        "installed_version": "5.6.2",
+                        "required_version": ">=5.3.4,<6.0",
+                        "dependencies": [
+                            {
+                                "key": "amqp",
+                                "package_name": "amqp",
+                                "installed_version": "5.3.1",
+                                "required_version": ">=5.1.1,<6.0.0",
+                                "dependencies": [
+                                    {
+                                        "key": "vine",
+                                        "package_name": "vine",
+                                        "installed_version": "5.1.0",
+                                        "required_version": ">=5.0.0,<6.0.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "packaging",
+                                "package_name": "packaging",
+                                "installed_version": "26.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "tzdata",
+                                "package_name": "tzdata",
+                                "installed_version": "2026.1",
+                                "required_version": ">=2025.2",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "vine",
+                                "package_name": "vine",
+                                "installed_version": "5.1.0",
+                                "required_version": "==5.1.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "python-dateutil",
+                        "package_name": "python-dateutil",
+                        "installed_version": "2.9.0.post0",
+                        "required_version": ">=2.8.2",
+                        "dependencies": [
+                            {
+                                "key": "six",
+                                "package_name": "six",
+                                "installed_version": "1.17.0",
+                                "required_version": ">=1.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "tzdata",
+                        "package_name": "tzdata",
+                        "installed_version": "2026.1",
+                        "required_version": ">=2022.7",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "vine",
+                        "package_name": "vine",
+                        "installed_version": "5.1.0",
+                        "required_version": ">=5.1.0,<6.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "css-inline",
+                "package_name": "css-inline",
+                "installed_version": "0.14.6",
+                "required_version": "~=0.14.0",
+                "dependencies": []
+            },
+            {
+                "key": "csscompressor",
+                "package_name": "csscompressor",
+                "installed_version": "0.9.5",
+                "required_version": "~=0.9.0",
+                "dependencies": []
+            },
+            {
+                "key": "cssutils",
+                "package_name": "cssutils",
+                "installed_version": "2.10.3",
+                "required_version": "~=2.10.0",
+                "dependencies": []
+            },
+            {
+                "key": "defusedcsv",
+                "package_name": "defusedcsv",
+                "installed_version": "2.0.0",
+                "required_version": "~=2.0.0",
+                "dependencies": []
+            },
+            {
+                "key": "django",
+                "package_name": "Django",
+                "installed_version": "4.2.30",
+                "required_version": "~=4.2.0",
+                "dependencies": [
+                    {
+                        "key": "asgiref",
+                        "package_name": "asgiref",
+                        "installed_version": "3.11.1",
+                        "required_version": ">=3.6.0,<4",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "sqlparse",
+                        "package_name": "sqlparse",
+                        "installed_version": "0.5.5",
+                        "required_version": ">=0.3.1",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "django-bootstrap4",
+                "package_name": "django-bootstrap4",
+                "installed_version": "3.0.1",
+                "required_version": "~=3.0.0",
+                "dependencies": [
+                    {
+                        "key": "beautifulsoup4",
+                        "package_name": "beautifulsoup4",
+                        "installed_version": "4.12.3",
+                        "required_version": ">=4.8.0",
+                        "dependencies": [
+                            {
+                                "key": "soupsieve",
+                                "package_name": "soupsieve",
+                                "installed_version": "2.8.3",
+                                "required_version": ">1.2",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "django",
+                        "package_name": "Django",
+                        "installed_version": "4.2.30",
+                        "required_version": ">=2.2",
+                        "dependencies": [
+                            {
+                                "key": "asgiref",
+                                "package_name": "asgiref",
+                                "installed_version": "3.11.1",
+                                "required_version": ">=3.6.0,<4",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "sqlparse",
+                                "package_name": "sqlparse",
+                                "installed_version": "0.5.5",
+                                "required_version": ">=0.3.1",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "django-compressor",
+                "package_name": "django-compressor",
+                "installed_version": "4.4",
+                "required_version": "~=4.4.0",
+                "dependencies": [
+                    {
+                        "key": "django-appconf",
+                        "package_name": "django-appconf",
+                        "installed_version": "1.2.0",
+                        "required_version": ">=1.0.3",
+                        "dependencies": [
+                            {
+                                "key": "django",
+                                "package_name": "Django",
+                                "installed_version": "4.2.30",
+                                "required_version": "Any",
+                                "dependencies": [
+                                    {
+                                        "key": "asgiref",
+                                        "package_name": "asgiref",
+                                        "installed_version": "3.11.1",
+                                        "required_version": ">=3.6.0,<4",
+                                        "dependencies": [
+                                            {
+                                                "key": "typing-extensions",
+                                                "package_name": "typing_extensions",
+                                                "installed_version": "4.15.0",
+                                                "required_version": ">=4",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "sqlparse",
+                                        "package_name": "sqlparse",
+                                        "installed_version": "0.5.5",
+                                        "required_version": ">=0.3.1",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "key": "rcssmin",
+                        "package_name": "rcssmin",
+                        "installed_version": "1.1.1",
+                        "required_version": "==1.1.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "rjsmin",
+                        "package_name": "rjsmin",
+                        "installed_version": "1.2.1",
+                        "required_version": "==1.2.1",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "django-context-decorator",
+                "package_name": "django_context_decorator",
+                "installed_version": "1.6.1",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "django-countries",
+                "package_name": "django-countries",
+                "installed_version": "7.6.1",
+                "required_version": "~=7.0",
+                "dependencies": [
+                    {
+                        "key": "asgiref",
+                        "package_name": "asgiref",
+                        "installed_version": "3.11.1",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "django-csp",
+                "package_name": "django_csp",
+                "installed_version": "3.8",
+                "required_version": "~=3.8.0",
+                "dependencies": [
+                    {
+                        "key": "django",
+                        "package_name": "Django",
+                        "installed_version": "4.2.30",
+                        "required_version": ">=3.2",
+                        "dependencies": [
+                            {
+                                "key": "asgiref",
+                                "package_name": "asgiref",
+                                "installed_version": "3.11.1",
+                                "required_version": ">=3.6.0,<4",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "sqlparse",
+                                "package_name": "sqlparse",
+                                "installed_version": "0.5.5",
+                                "required_version": ">=0.3.1",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "django-filter",
+                "package_name": "django-filter",
+                "installed_version": "24.2",
+                "required_version": "==24.2",
+                "dependencies": [
+                    {
+                        "key": "django",
+                        "package_name": "Django",
+                        "installed_version": "4.2.30",
+                        "required_version": ">=4.2",
+                        "dependencies": [
+                            {
+                                "key": "asgiref",
+                                "package_name": "asgiref",
+                                "installed_version": "3.11.1",
+                                "required_version": ">=3.6.0,<4",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "sqlparse",
+                                "package_name": "sqlparse",
+                                "installed_version": "0.5.5",
+                                "required_version": ">=0.3.1",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "django-formset-js-improved",
+                "package_name": "django-formset-js-improved",
+                "installed_version": "0.5.0.3",
+                "required_version": "==0.5.0.3",
+                "dependencies": [
+                    {
+                        "key": "django",
+                        "package_name": "Django",
+                        "installed_version": "4.2.30",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "asgiref",
+                                "package_name": "asgiref",
+                                "installed_version": "3.11.1",
+                                "required_version": ">=3.6.0,<4",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "sqlparse",
+                                "package_name": "sqlparse",
+                                "installed_version": "0.5.5",
+                                "required_version": ">=0.3.1",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "django-jquery-js",
+                        "package_name": "django-jquery-js",
+                        "installed_version": "3.1.1",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "django",
+                                "package_name": "Django",
+                                "installed_version": "4.2.30",
+                                "required_version": ">=1.4",
+                                "dependencies": [
+                                    {
+                                        "key": "asgiref",
+                                        "package_name": "asgiref",
+                                        "installed_version": "3.11.1",
+                                        "required_version": ">=3.6.0,<4",
+                                        "dependencies": [
+                                            {
+                                                "key": "typing-extensions",
+                                                "package_name": "typing_extensions",
+                                                "installed_version": "4.15.0",
+                                                "required_version": ">=4",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    },
+                                    {
+                                        "key": "sqlparse",
+                                        "package_name": "sqlparse",
+                                        "installed_version": "0.5.5",
+                                        "required_version": ">=0.3.1",
+                                        "dependencies": []
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "django-formtools",
+                "package_name": "django-formtools",
+                "installed_version": "2.5.1",
+                "required_version": "~=2.5.1",
+                "dependencies": [
+                    {
+                        "key": "django",
+                        "package_name": "Django",
+                        "installed_version": "4.2.30",
+                        "required_version": ">=3.2",
+                        "dependencies": [
+                            {
+                                "key": "asgiref",
+                                "package_name": "asgiref",
+                                "installed_version": "3.11.1",
+                                "required_version": ">=3.6.0,<4",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "sqlparse",
+                                "package_name": "sqlparse",
+                                "installed_version": "0.5.5",
+                                "required_version": ">=0.3.1",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "django-hierarkey",
+                "package_name": "django-hierarkey",
+                "installed_version": "1.1.0",
+                "required_version": "~=1.1.0",
+                "dependencies": [
+                    {
+                        "key": "python-dateutil",
+                        "package_name": "python-dateutil",
+                        "installed_version": "2.9.0.post0",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "six",
+                                "package_name": "six",
+                                "installed_version": "1.17.0",
+                                "required_version": ">=1.5",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "django-i18nfield",
+                "package_name": "django-i18nfield",
+                "installed_version": "1.9.5",
+                "required_version": "~=1.9.0",
+                "dependencies": []
+            },
+            {
+                "key": "django-libsass",
+                "package_name": "django-libsass",
+                "installed_version": "0.9",
+                "required_version": "~=0.8",
+                "dependencies": [
+                    {
+                        "key": "django-compressor",
+                        "package_name": "django-compressor",
+                        "installed_version": "4.4",
+                        "required_version": ">=1.3",
+                        "dependencies": [
+                            {
+                                "key": "django-appconf",
+                                "package_name": "django-appconf",
+                                "installed_version": "1.2.0",
+                                "required_version": ">=1.0.3",
+                                "dependencies": [
+                                    {
+                                        "key": "django",
+                                        "package_name": "Django",
+                                        "installed_version": "4.2.30",
+                                        "required_version": "Any",
+                                        "dependencies": [
+                                            {
+                                                "key": "asgiref",
+                                                "package_name": "asgiref",
+                                                "installed_version": "3.11.1",
+                                                "required_version": ">=3.6.0,<4",
+                                                "dependencies": [
+                                                    {
+                                                        "key": "typing-extensions",
+                                                        "package_name": "typing_extensions",
+                                                        "installed_version": "4.15.0",
+                                                        "required_version": ">=4",
+                                                        "dependencies": []
+                                                    }
+                                                ]
+                                            },
+                                            {
+                                                "key": "sqlparse",
+                                                "package_name": "sqlparse",
+                                                "installed_version": "0.5.5",
+                                                "required_version": ">=0.3.1",
+                                                "dependencies": []
+                                            }
+                                        ]
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "rcssmin",
+                                "package_name": "rcssmin",
+                                "installed_version": "1.1.1",
+                                "required_version": "==1.1.1",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "rjsmin",
+                                "package_name": "rjsmin",
+                                "installed_version": "1.2.1",
+                                "required_version": "==1.2.1",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "libsass",
+                        "package_name": "libsass",
+                        "installed_version": "0.23.0",
+                        "required_version": ">=0.7.0,<1",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "django-scopes",
+                "package_name": "django-scopes",
+                "installed_version": "2.0.0",
+                "required_version": "~=2.0.0",
+                "dependencies": [
+                    {
+                        "key": "django",
+                        "package_name": "Django",
+                        "installed_version": "4.2.30",
+                        "required_version": ">=3.2",
+                        "dependencies": [
+                            {
+                                "key": "asgiref",
+                                "package_name": "asgiref",
+                                "installed_version": "3.11.1",
+                                "required_version": ">=3.6.0,<4",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "sqlparse",
+                                "package_name": "sqlparse",
+                                "installed_version": "0.5.5",
+                                "required_version": ">=0.3.1",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "djangorestframework",
+                "package_name": "djangorestframework",
+                "installed_version": "3.15.2",
+                "required_version": "~=3.15.0",
+                "dependencies": [
+                    {
+                        "key": "django",
+                        "package_name": "Django",
+                        "installed_version": "4.2.30",
+                        "required_version": ">=4.2",
+                        "dependencies": [
+                            {
+                                "key": "asgiref",
+                                "package_name": "asgiref",
+                                "installed_version": "3.11.1",
+                                "required_version": ">=3.6.0,<4",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "sqlparse",
+                                "package_name": "sqlparse",
+                                "installed_version": "0.5.5",
+                                "required_version": ">=0.3.1",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "libsass",
+                "package_name": "libsass",
+                "installed_version": "0.23.0",
+                "required_version": "~=0.23.0",
+                "dependencies": []
+            },
+            {
+                "key": "markdown",
+                "package_name": "Markdown",
+                "installed_version": "3.6",
+                "required_version": "~=3.6.0",
+                "dependencies": []
+            },
+            {
+                "key": "pillow",
+                "package_name": "pillow",
+                "installed_version": "10.3.0",
+                "required_version": "~=10.3.0",
+                "dependencies": []
+            },
+            {
+                "key": "publicsuffixlist",
+                "package_name": "publicsuffixlist",
+                "installed_version": "0.10.1.20240618",
+                "required_version": "~=0.10.0",
+                "dependencies": []
+            },
+            {
+                "key": "python-dateutil",
+                "package_name": "python-dateutil",
+                "installed_version": "2.9.0.post0",
+                "required_version": "~=2.9.0",
+                "dependencies": [
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.17.0",
+                        "required_version": ">=1.5",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "qrcode",
+                "package_name": "qrcode",
+                "installed_version": "7.4.2",
+                "required_version": "~=7.0",
+                "dependencies": [
+                    {
+                        "key": "pypng",
+                        "package_name": "pypng",
+                        "installed_version": "0.20220715.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "reportlab",
+                "package_name": "reportlab",
+                "installed_version": "4.2.5",
+                "required_version": "~=4.2.0",
+                "dependencies": [
+                    {
+                        "key": "chardet",
+                        "package_name": "chardet",
+                        "installed_version": "7.4.1",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pillow",
+                        "package_name": "pillow",
+                        "installed_version": "10.3.0",
+                        "required_version": ">=9.0.0",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.31.0",
+                "required_version": "~=2.31.0",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": ">=2017.4.17",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "3.4.7",
+                        "required_version": ">=2,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "2.6.3",
+                        "required_version": ">=1.21.1,<3",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "rules",
+                "package_name": "rules",
+                "installed_version": "3.3",
+                "required_version": "~=3.3.0",
+                "dependencies": []
+            },
+            {
+                "key": "urlman",
+                "package_name": "urlman",
+                "installed_version": "2.0.3",
+                "required_version": "~=2.0.1",
+                "dependencies": []
+            },
+            {
+                "key": "vobject",
+                "package_name": "vobject",
+                "installed_version": "0.9.9",
+                "required_version": "~=0.9.0",
+                "dependencies": [
+                    {
+                        "key": "python-dateutil",
+                        "package_name": "python-dateutil",
+                        "installed_version": "2.9.0.post0",
+                        "required_version": ">=2.7.0",
+                        "dependencies": [
+                            {
+                                "key": "six",
+                                "package_name": "six",
+                                "installed_version": "1.17.0",
+                                "required_version": ">=1.5",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "pytz",
+                        "package_name": "pytz",
+                        "installed_version": "2026.1.post1",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.17.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "whitenoise",
+                "package_name": "whitenoise",
+                "installed_version": "6.6.0",
+                "required_version": "~=6.6.0",
+                "dependencies": []
+            },
+            {
+                "key": "zxcvbn",
+                "package_name": "zxcvbn",
+                "installed_version": "4.4.28",
+                "required_version": "~=4.4.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pytest-cov",
+        "package_name": "pytest-cov",
+        "installed_version": "7.1.0",
+        "required_version": "7.1.0",
+        "dependencies": [
+            {
+                "key": "coverage",
+                "package_name": "coverage",
+                "installed_version": "7.13.5",
+                "required_version": ">=7.10.6",
+                "dependencies": []
+            },
+            {
+                "key": "pluggy",
+                "package_name": "pluggy",
+                "installed_version": "1.6.0",
+                "required_version": ">=1.2",
+                "dependencies": []
+            },
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.3",
+                "required_version": ">=7",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.20.0",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.1",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pytest-django",
+        "package_name": "pytest-django",
+        "installed_version": "4.12.0",
+        "required_version": "4.12.0",
+        "dependencies": [
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.3",
+                "required_version": ">=7.0.0",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.20.0",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.1",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pytest-mock",
+        "package_name": "pytest-mock",
+        "installed_version": "3.15.1",
+        "required_version": "3.15.1",
+        "dependencies": [
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.3",
+                "required_version": ">=6.2.5",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.20.0",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.1",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pytest-rerunfailures",
+        "package_name": "pytest-rerunfailures",
+        "installed_version": "16.1",
+        "required_version": "16.1",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=17.1",
+                "dependencies": []
+            },
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.3",
+                "required_version": ">=7.4,!=8.2.2",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.20.0",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.1",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pytest-sugar",
+        "package_name": "pytest-sugar",
+        "installed_version": "1.1.1",
+        "required_version": "1.1.1",
+        "dependencies": [
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.3",
+                "required_version": ">=6.2.0",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.20.0",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.1",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "termcolor",
+                "package_name": "termcolor",
+                "installed_version": "3.3.0",
+                "required_version": ">=2.1.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pytest-xdist",
+        "package_name": "pytest-xdist",
+        "installed_version": "3.8.0",
+        "required_version": "3.8.0",
+        "dependencies": [
+            {
+                "key": "execnet",
+                "package_name": "execnet",
+                "installed_version": "2.1.2",
+                "required_version": ">=2.1",
+                "dependencies": []
+            },
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.3",
+                "required_version": ">=7.0.0",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.20.0",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.1",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "responses",
+        "package_name": "responses",
+        "installed_version": "0.26.0",
+        "required_version": "0.26.0",
+        "dependencies": [
+            {
+                "key": "pyyaml",
+                "package_name": "PyYAML",
+                "installed_version": "6.0.3",
+                "required_version": "Any",
+                "dependencies": []
+            },
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.31.0",
+                "required_version": ">=2.30.0,<3.0",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": ">=2017.4.17",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "3.4.7",
+                        "required_version": ">=2,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.11",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "2.6.3",
+                        "required_version": ">=1.21.1,<3",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "urllib3",
+                "package_name": "urllib3",
+                "installed_version": "2.6.3",
+                "required_version": ">=1.25.10,<3.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "setuptools",
+        "package_name": "setuptools",
+        "installed_version": "79.0.1",
+        "required_version": "79.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "wheel",
+        "package_name": "wheel",
+        "installed_version": "0.45.1",
+        "required_version": "0.45.1",
+        "dependencies": []
+    }
+]

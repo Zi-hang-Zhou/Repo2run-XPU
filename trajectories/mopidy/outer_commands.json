@@ -1,0 +1,150 @@
+[
+    {
+        "GPT_time": 2.651285409927368
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6706058979034424
+    },
+    {
+        "GPT_time": 4.3941450119018555
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6682586669921875
+    },
+    {
+        "GPT_time": 7.223969221115112
+    },
+    {
+        "command": "change_python_version 3.11",
+        "returncode": 0,
+        "time": 51.4456045627594
+    },
+    {
+        "GPT_time": 4.42608904838562
+    },
+    {
+        "command": "ls -la /repo | grep -E \"poetry|requirements\"",
+        "returncode": 0,
+        "time": 0.16587162017822266
+    },
+    {
+        "GPT_time": 3.553776502609253
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6644763946533203
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 26.11584782600403
+    },
+    {
+        "GPT_time": 4.243415117263794
+    },
+    {
+        "command": "apt-get update -qq",
+        "returncode": 0,
+        "time": 1.8645620346069336
+    },
+    {
+        "command": "apt-get install -y -qq libgirepository1.0-dev python3-gi python3-gi-cairo gir1.2-glib-2.0",
+        "returncode": 0,
+        "time": 7.831959247589111
+    },
+    {
+        "GPT_time": 3.546657085418701
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6648683547973633
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 28.499260663986206
+    },
+    {
+        "GPT_time": 5.805219888687134
+    },
+    {
+        "command": "apt-cache search girepository",
+        "returncode": 0,
+        "time": 1.5217070579528809
+    },
+    {
+        "GPT_time": 4.013293743133545
+    },
+    {
+        "command": "apt-get install -y -qq libgirepository-2.0-dev",
+        "returncode": 0,
+        "time": 2.962474822998047
+    },
+    {
+        "GPT_time": 4.202810049057007
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6644585132598877
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 22.1108877658844
+    },
+    {
+        "GPT_time": 3.523406982421875
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 13.177838325500488
+    },
+    {
+        "GPT_time": 6.513443946838379
+    },
+    {
+        "command": "apt-get install -y -qq gstreamer1.0-plugins-base gstreamer1.0-plugins-good gstreamer1.0-plugins-bad gstreamer1.0-plugins-ugly gstreamer1.0-tools gir1.2-gst-1.0",
+        "returncode": 0,
+        "time": 40.7508180141449
+    },
+    {
+        "GPT_time": 5.359632730484009
+    },
+    {
+        "command": "pip install -q pytest pytest-cov responses",
+        "returncode": 0,
+        "time": 7.898179531097412
+    },
+    {
+        "GPT_time": 6.5755956172943115
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 22.216613054275513
+    },
+    {
+        "GPT_time": 5.942296028137207
+    },
+    {
+        "command": "apt-get install -y -qq libgstreamer1.0-dev libgstreamer-plugins-base1.0-dev",
+        "returncode": 0,
+        "time": 6.386364221572876
+    },
+    {
+        "GPT_time": 6.567115306854248
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 3.2351577281951904
+    }
+]

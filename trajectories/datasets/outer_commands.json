@@ -1,0 +1,142 @@
+[
+    {
+        "GPT_time": 2.5842933654785156
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6737842559814453
+    },
+    {
+        "GPT_time": 4.953616619110107
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6662745475769043
+    },
+    {
+        "GPT_time": 3.1882283687591553
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.671844482421875
+    },
+    {
+        "GPT_time": 6.021291255950928
+    },
+    {
+        "command": "cat /repo/additional-tests-requirements.txt",
+        "returncode": 0,
+        "time": 0.6650838851928711
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -type f 2>/dev/null",
+        "returncode": 0,
+        "time": 1.4141321182250977
+    },
+    {
+        "GPT_time": 4.048442125320435
+    },
+    {
+        "command": "ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.6661512851715088
+    },
+    {
+        "command": "ls -la /repo/.pipreqs/",
+        "returncode": 0,
+        "time": 0.6654372215270996
+    },
+    {
+        "GPT_time": 2.946812629699707
+    },
+    {
+        "command": "ls -la /repo/.github/workflows/",
+        "returncode": 0,
+        "time": 0.6674070358276367
+    },
+    {
+        "GPT_time": 2.733903169631958
+    },
+    {
+        "command": "cat /repo/.github/workflows/ci.yml",
+        "returncode": 0,
+        "time": 0.6684572696685791
+    },
+    {
+        "GPT_time": 6.022763013839722
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6649906635284424
+    },
+    {
+        "command": "pip install -e .[tests] -q",
+        "returncode": 0,
+        "time": 534.960955619812
+    },
+    {
+        "GPT_time": 3.3354439735412598
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 96.36122059822083
+    },
+    {
+        "GPT_time": 5.417113304138184
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.664170503616333
+    },
+    {
+        "command": "pip install -e .[metrics-tests] -q",
+        "returncode": 0,
+        "time": 37.359060764312744
+    },
+    {
+        "GPT_time": 3.6620328426361084
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 21.381766319274902
+    },
+    {
+        "GPT_time": 6.032674074172974
+    },
+    {
+        "command": "pip show typer",
+        "returncode": 0,
+        "time": 2.4583702087402344
+    },
+    {
+        "GPT_time": 7.813165187835693
+    },
+    {
+        "command": "pip show spacy",
+        "returncode": 0,
+        "time": 2.3626503944396973
+    },
+    {
+        "GPT_time": 7.962517976760864
+    },
+    {
+        "command": "pip install spacy==3.4.3 -q",
+        "returncode": 0,
+        "time": 9.451815605163574
+    },
+    {
+        "GPT_time": 5.488959074020386
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 13.759752988815308
+    }
+]

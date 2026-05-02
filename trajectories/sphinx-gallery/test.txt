@@ -1,0 +1,225 @@
+sphinx_gallery/tests/test_backreferences.py::test_thumbnail_div[<"test">-&lt;&quot;test&quot;&gt;-False]
+sphinx_gallery/tests/test_backreferences.py::test_thumbnail_div[test formatting-test formatting-True]
+sphinx_gallery/tests/test_backreferences.py::test_thumbnail_div[1 :class:`~a.b`. 2 :class:`a.b` 3 :ref:`whatever <better name>`-1 b. 2 a.b 3 better name-False]
+sphinx_gallery/tests/test_backreferences.py::test_thumbnail_div[use :meth:`mne.io.Raw.plot_psd` to-use mne.io.Raw.plot_psd to-False]
+sphinx_gallery/tests/test_backreferences.py::test_thumbnail_div[`this` and ``that``; and `these things` and ``those things``-this and that; and these things and those things-False]
+sphinx_gallery/tests/test_backreferences.py::test_identify_names
+sphinx_gallery/tests/test_backreferences.py::test_get_short_module_name[same-A]
+sphinx_gallery/tests/test_backreferences.py::test_get_short_module_name[diff-A.B]
+sphinx_gallery/tests/test_backreferences.py::test_identify_names_implicit
+sphinx_gallery/tests/test_backreferences.py::test_identify_names_explicit[regular]
+sphinx_gallery/tests/test_backreferences.py::test_identify_names_explicit[show only last component]
+sphinx_gallery/tests/test_backreferences.py::test_identify_names_explicit[with title]
+sphinx_gallery/tests/test_backreferences.py::test_identify_names_explicit[no link for !]
+sphinx_gallery/tests/test_backreferences.py::test_identify_names_explicit[default_role obj]
+sphinx_gallery/tests/test_backreferences.py::test_identify_names_explicit[no default_role]
+sphinx_gallery/tests/test_backreferences.py::test_identify_names_explicit[non-python role]
+sphinx_gallery/tests/test_backreferences.py::test_identify_names_explicit[non-python default_role]
+sphinx_gallery/tests/test_backreferences.py::test_identify_names_explicit[literal]
+sphinx_gallery/tests/test_block_parser.py::test_cxx_titles[single-line style]
+sphinx_gallery/tests/test_block_parser.py::test_cxx_titles[simple multiline]
+sphinx_gallery/tests/test_block_parser.py::test_cxx_titles[decorated-multiline]
+sphinx_gallery/tests/test_block_parser.py::test_cxx_titles[early-multiline]
+sphinx_gallery/tests/test_block_parser.py::test_rst_blocks[simple]
+sphinx_gallery/tests/test_block_parser.py::test_rst_blocks[single-line-indented]
+sphinx_gallery/tests/test_block_parser.py::test_rst_blocks[indented-separate-sentinel]
+sphinx_gallery/tests/test_block_parser.py::test_rst_blocks[block-two-paragraphs]
+sphinx_gallery/tests/test_block_parser.py::test_rst_blocks[multiline-block-comment]
+sphinx_gallery/tests/test_block_parser.py::test_rst_blocks[multiline-comment-short-form]
+sphinx_gallery/tests/test_block_parser.py::test_rst_blocks[julia-multiline]
+sphinx_gallery/tests/test_block_parser.py::test_rst_blocks[matlab-autoheading]
+sphinx_gallery/tests/test_block_parser.py::test_cpp_file_to_rst
+sphinx_gallery/tests/test_docs_resolv.py::test_embed_code_links_get_data
+sphinx_gallery/tests/test_docs_resolv.py::test_shelve
+sphinx_gallery/tests/test_docs_resolv.py::test_parse_sphinx_docopts
+sphinx_gallery/tests/test_full_noexec.py::test_dummy_image
+sphinx_gallery/tests/test_gen_gallery.py::test_bad_config
+sphinx_gallery/tests/test_gen_gallery.py::test_default_config
+sphinx_gallery/tests/test_gen_gallery.py::test_serializable
+sphinx_gallery/tests/test_gen_gallery.py::test_no_warning_simple_config
+sphinx_gallery/tests/test_gen_gallery.py::test_bad_reset[Resetter unknown]
+sphinx_gallery/tests/test_gen_gallery.py::test_bad_reset[Resetter not callable]
+sphinx_gallery/tests/test_gen_gallery.py::test_bad_reset_modules_order[Resetter unknown]
+sphinx_gallery/tests/test_gen_gallery.py::test_bad_reset_modules_order[reset_modules_order not valid]
+sphinx_gallery/tests/test_gen_gallery.py::test_bad_css[CSS str error]
+sphinx_gallery/tests/test_gen_gallery.py::test_bad_css[CSS type error]
+sphinx_gallery/tests/test_gen_gallery.py::test_bad_api
+sphinx_gallery/tests/test_gen_gallery.py::test_config_backreferences
+sphinx_gallery/tests/test_gen_gallery.py::test_duplicate_files_warn
+sphinx_gallery/tests/test_gen_gallery.py::test_spaces_in_files_warn
+sphinx_gallery/tests/test_gen_gallery.py::test_example_sorting_default
+sphinx_gallery/tests/test_gen_gallery.py::test_example_sorting_filesize
+sphinx_gallery/tests/test_gen_gallery.py::test_example_sorting_filename
+sphinx_gallery/tests/test_gen_gallery.py::test_example_sorting_title
+sphinx_gallery/tests/test_gen_gallery.py::test_collect_gallery_files
+sphinx_gallery/tests/test_gen_gallery.py::test_collect_gallery_files_ignore_pattern
+sphinx_gallery/tests/test_gen_gallery.py::test_binder_copy_files
+sphinx_gallery/tests/test_gen_gallery.py::test_failing_examples_raise_exception
+sphinx_gallery/tests/test_gen_gallery.py::test_expected_failing_examples_were_executed
+sphinx_gallery/tests/test_gen_gallery.py::test_only_warn_on_example_error
+sphinx_gallery/tests/test_gen_gallery.py::test_only_warn_on_example_error_sphinx_warning
+sphinx_gallery/tests/test_gen_gallery.py::test_examples_not_expected_to_pass
+sphinx_gallery/tests/test_gen_gallery.py::test_show_memory_callable
+sphinx_gallery/tests/test_gen_gallery.py::test_notebook_cell_config[first notebook cell]
+sphinx_gallery/tests/test_gen_gallery.py::test_notebook_cell_config[last notebook cell]
+sphinx_gallery/tests/test_gen_gallery.py::test_backreferences_dir_config
+sphinx_gallery/tests/test_gen_gallery.py::test_backreferences_dir_pathlib_config
+sphinx_gallery/tests/test_gen_gallery.py::test_write_computation_times_noop
+sphinx_gallery/tests/test_gen_gallery.py::test_write_api_usage_noop
+sphinx_gallery/tests/test_gen_gallery.py::test_pypandoc_config_list
+sphinx_gallery/tests/test_gen_gallery.py::test_pypandoc_config_keys
+sphinx_gallery/tests/test_gen_gallery.py::test_create_jupyterlite_contents
+sphinx_gallery/tests/test_gen_gallery.py::test_create_jupyterlite_contents_non_default_contents
+sphinx_gallery/tests/test_gen_gallery.py::test_create_jupyterlite_contents_without_jupyterlite_sphinx_loaded
+sphinx_gallery/tests/test_gen_gallery.py::test_create_jupyterlite_contents_with_jupyterlite_disabled_via_config
+sphinx_gallery/tests/test_gen_gallery.py::test_create_jupyterlite_contents_with_modification
+sphinx_gallery/tests/test_gen_rst.py::test_split_code_and_text_blocks
+sphinx_gallery/tests/test_gen_rst.py::test_bug_cases_of_notebook_syntax
+sphinx_gallery/tests/test_gen_rst.py::test_direct_comment_after_docstring
+sphinx_gallery/tests/test_gen_rst.py::test_final_rst_last_word
+sphinx_gallery/tests/test_gen_rst.py::test_rst_block_after_docstring
+sphinx_gallery/tests/test_gen_rst.py::test_rst_empty_code_block
+sphinx_gallery/tests/test_gen_rst.py::test_script_vars_globals
+sphinx_gallery/tests/test_gen_rst.py::test_codestr2rst
+sphinx_gallery/tests/test_gen_rst.py::test_extract_intro_and_title
+sphinx_gallery/tests/test_gen_rst.py::test_md5sums[b-a546be453c8f436e744838a4801bd3a0]
+sphinx_gallery/tests/test_gen_rst.py::test_md5sums[t-ea8a570e9f3afc0a7c3f2a17a48b8047]
+sphinx_gallery/tests/test_gen_rst.py::test_fail_example[failing_code0-not defined]
+sphinx_gallery/tests/test_gen_rst.py::test_fail_example[failing_code1-Cannot use input]
+sphinx_gallery/tests/test_gen_rst.py::test_fail_example[failing_code2-invalid syntax]
+sphinx_gallery/tests/test_gen_rst.py::test_custom_scraper_thumbnail_alpha
+sphinx_gallery/tests/test_gen_rst.py::test_remove_config_comments
+sphinx_gallery/tests/test_gen_rst.py::test_remove_ignore_blocks[True]
+sphinx_gallery/tests/test_gen_rst.py::test_remove_ignore_blocks[False]
+sphinx_gallery/tests/test_gen_rst.py::test_dummy_image_error
+sphinx_gallery/tests/test_gen_rst.py::test_final_empty_block
+sphinx_gallery/tests/test_gen_rst.py::test_download_link_note_only_html
+sphinx_gallery/tests/test_gen_rst.py::test_download_link_classes
+sphinx_gallery/tests/test_gen_rst.py::test_exclude_implicit[exclude nothing (default)]
+sphinx_gallery/tests/test_gen_rst.py::test_exclude_implicit[exclude anything (explicit backreferences only)]
+sphinx_gallery/tests/test_gen_rst.py::test_exclude_implicit[explicit backref not shadowed by implicit one]
+sphinx_gallery/tests/test_gen_rst.py::test_exclude_implicit[exclude implicit backref]
+sphinx_gallery/tests/test_gen_rst.py::test_gen_dir_rst[GALLERY_HEADER.rst]
+sphinx_gallery/tests/test_gen_rst.py::test_gen_dir_rst[README.txt]
+sphinx_gallery/tests/test_gen_rst.py::test_gen_dir_rst[README.rst]
+sphinx_gallery/tests/test_gen_rst.py::test_gen_dir_rst_invalid_header[GALLERY_HEADER.bad]
+sphinx_gallery/tests/test_gen_rst.py::test_gen_dir_rst_invalid_header[README.bad]
+sphinx_gallery/tests/test_gen_rst.py::test_pattern_matching
+sphinx_gallery/tests/test_gen_rst.py::test_thumbnail_number[# sphinx_gallery_thumbnail_number= 2]
+sphinx_gallery/tests/test_gen_rst.py::test_thumbnail_number[# sphinx_gallery_thumbnail_number=2]
+sphinx_gallery/tests/test_gen_rst.py::test_thumbnail_number[#sphinx_gallery_thumbnail_number = 2]
+sphinx_gallery/tests/test_gen_rst.py::test_thumbnail_number[    # sphinx_gallery_thumbnail_number=2]
+sphinx_gallery/tests/test_gen_rst.py::test_thumbnail_path[# sphinx_gallery_thumbnail_path= '_static/demo.png']
+sphinx_gallery/tests/test_gen_rst.py::test_thumbnail_path[# sphinx_gallery_thumbnail_path='_static/demo.png']
+sphinx_gallery/tests/test_gen_rst.py::test_thumbnail_path[#sphinx_gallery_thumbnail_path = '_static/demo.png']
+sphinx_gallery/tests/test_gen_rst.py::test_thumbnail_path[    # sphinx_gallery_thumbnail_path='_static/demo.png']
+sphinx_gallery/tests/test_gen_rst.py::test_zip_python
+sphinx_gallery/tests/test_gen_rst.py::test_zip_mixed_source
+sphinx_gallery/tests/test_gen_rst.py::test_rst_example
+sphinx_gallery/tests/test_gen_rst.py::test_output_indentation
+sphinx_gallery/tests/test_gen_rst.py::test_output_no_ansi
+sphinx_gallery/tests/test_gen_rst.py::test_absl_logging
+sphinx_gallery/tests/test_gen_rst.py::test_empty_output_box
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[assign,()]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[var,()]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[print(var),()]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[print+var,()]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[assign,(repr)]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[var,(repr)]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[print(var),(repr)]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[print+var,(repr)]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[repr_and_html,(repr)]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[print and repr_and_html,(repr)]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[repr_only,(html)]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[repr_and_html,(html)]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[print and repr_and_html,(html)]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[repr_and_html,(html,repr)]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[repr_and_html,(repr,html)]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[repr_only,(html,repr)]
+sphinx_gallery/tests/test_gen_rst.py::test_capture_repr[html_none]
+sphinx_gallery/tests/test_gen_rst.py::test_per_file_capture_repr[() --> repr]
+sphinx_gallery/tests/test_gen_rst.py::test_per_file_capture_repr[repr --> ()]
+sphinx_gallery/tests/test_gen_rst.py::test_ignore_repr_types
+sphinx_gallery/tests/test_gen_rst.py::test_reset_module_order_2_param[before-1]
+sphinx_gallery/tests/test_gen_rst.py::test_reset_module_order_2_param[after-1]
+sphinx_gallery/tests/test_gen_rst.py::test_reset_module_order_2_param[both-2]
+sphinx_gallery/tests/test_gen_rst.py::test_reset_module_order_3_param[before-1-expected_call_order0]
+sphinx_gallery/tests/test_gen_rst.py::test_reset_module_order_3_param[after-1-expected_call_order1]
+sphinx_gallery/tests/test_gen_rst.py::test_reset_module_order_3_param[both-2-expected_call_order2]
+sphinx_gallery/tests/test_gen_rst.py::test_reset_module_order_3_param_invalid_when
+sphinx_gallery/tests/test_gen_rst.py::test_full_line
+sphinx_gallery/tests/test_gen_rst.py::test_incomplete_line_with_flush
+sphinx_gallery/tests/test_gen_rst.py::test_incomplete_line_with_more_output
+sphinx_gallery/tests/test_gen_rst.py::test_multi_line
+sphinx_gallery/tests/test_gen_rst.py::test_textio_compat
+sphinx_gallery/tests/test_gen_rst.py::test_fileno
+sphinx_gallery/tests/test_gen_rst.py::test_isatty
+sphinx_gallery/tests/test_gen_rst.py::test_tell
+sphinx_gallery/tests/test_gen_rst.py::test_errors
+sphinx_gallery/tests/test_gen_rst.py::test_newlines
+sphinx_gallery/tests/test_interactive_example.py::test_binder
+sphinx_gallery/tests/test_interactive_example.py::test_gen_binder_rst
+sphinx_gallery/tests/test_interactive_example.py::test_gen_jupyterlite_rst[example_dir/myfile.py-True]
+sphinx_gallery/tests/test_interactive_example.py::test_gen_jupyterlite_rst[example_dir/myfile.py-False]
+sphinx_gallery/tests/test_interactive_example.py::test_gen_jupyterlite_rst[example_dir/subdir/myfile.py-True]
+sphinx_gallery/tests/test_interactive_example.py::test_gen_jupyterlite_rst[example_dir/subdir/myfile.py-False]
+sphinx_gallery/tests/test_interactive_example.py::test_check_jupyterlite_conf
+sphinx_gallery/tests/test_load_style.py::test_load_style
+sphinx_gallery/tests/test_notebook.py::test_latex_conversion
+sphinx_gallery/tests/test_notebook.py::test_code_conversion
+sphinx_gallery/tests/test_notebook.py::test_convert
+sphinx_gallery/tests/test_notebook.py::test_headings
+sphinx_gallery/tests/test_notebook.py::test_cell_magic_promotion
+sphinx_gallery/tests/test_notebook.py::test_notebook_images_prefix[rel_no_prefix]
+sphinx_gallery/tests/test_notebook.py::test_notebook_images_prefix[abs_no_prefix]
+sphinx_gallery/tests/test_notebook.py::test_notebook_images_prefix[rel_prefix]
+sphinx_gallery/tests/test_notebook.py::test_notebook_images_prefix[abs_prefix]
+sphinx_gallery/tests/test_notebook.py::test_notebook_images_prefix[url_no_prefix]
+sphinx_gallery/tests/test_notebook.py::test_notebook_images_prefix[url_prefix]
+sphinx_gallery/tests/test_notebook.py::test_notebook_images_data_uri
+sphinx_gallery/tests/test_notebook.py::test_jupyter_notebook
+sphinx_gallery/tests/test_notebook.py::test_with_empty_args
+sphinx_gallery/tests/test_notebook.py::test_missing_file
+sphinx_gallery/tests/test_notebook.py::test_file_is_generated
+sphinx_gallery/tests/test_py_source_parser.py::test_get_docstring_and_rest
+sphinx_gallery/tests/test_py_source_parser.py::test_extract_file_config[No config\nin here.-file_conf0]
+sphinx_gallery/tests/test_py_source_parser.py::test_extract_file_config[# sphinx_gallery_line_numbers = True-file_conf1]
+sphinx_gallery/tests/test_py_source_parser.py::test_extract_file_config[  #   sphinx_gallery_line_numbers   =   True   -file_conf2]
+sphinx_gallery/tests/test_py_source_parser.py::test_extract_file_config[#sphinx_gallery_line_numbers=True-file_conf3]
+sphinx_gallery/tests/test_py_source_parser.py::test_extract_file_config[#sphinx_gallery_thumbnail_number\n=\n5-file_conf4]
+sphinx_gallery/tests/test_py_source_parser.py::test_extract_file_config[#sphinx_gallery_thumbnail_number=1foo-None]
+sphinx_gallery/tests/test_py_source_parser.py::test_extract_file_config[# sphinx_gallery_defer_figures-file_conf6]
+sphinx_gallery/tests/test_py_source_parser.py::test_remove_config_comments[No config\nin here.-No config\nin here.]
+sphinx_gallery/tests/test_py_source_parser.py::test_remove_config_comments[# sphinx_gallery_line_numbers = True-]
+sphinx_gallery/tests/test_py_source_parser.py::test_remove_config_comments[  #   sphinx_gallery_line_numbers   =   True   -]
+sphinx_gallery/tests/test_py_source_parser.py::test_remove_config_comments[#sphinx_gallery_line_numbers=True-]
+sphinx_gallery/tests/test_py_source_parser.py::test_remove_config_comments[#sphinx_gallery_thumbnail_number\n=\n5-]
+sphinx_gallery/tests/test_py_source_parser.py::test_remove_config_comments[a = 1\n# sphinx_gallery_line_numbers = True\nb = 1-a = 1\nb = 1]
+sphinx_gallery/tests/test_py_source_parser.py::test_remove_config_comments[a = 1\n\n# sphinx_gallery_line_numbers = True\n\nb = 1-a = 1\n\n\nb = 1]
+sphinx_gallery/tests/test_py_source_parser.py::test_remove_config_comments[# comment\n# sphinx_gallery_line_numbers = True\n# comment 2-# comment\n# comment 2]
+sphinx_gallery/tests/test_py_source_parser.py::test_remove_config_comments[# sphinx_gallery_defer_figures-]
+sphinx_gallery/tests/test_py_source_parser.py::test_remove_ignore_comments
+sphinx_gallery/tests/test_recommender.py::test_example_recommender_methods
+sphinx_gallery/tests/test_recommender.py::test_recommendation_files
+sphinx_gallery/tests/test_scrapers.py::test_save_matplotlib_figures[png]
+sphinx_gallery/tests/test_scrapers.py::test_save_matplotlib_figures[svg]
+sphinx_gallery/tests/test_scrapers.py::test_image_srcset_config
+sphinx_gallery/tests/test_scrapers.py::test_save_matplotlib_figures_hidpi
+sphinx_gallery/tests/test_scrapers.py::test_custom_scraper
+sphinx_gallery/tests/test_scrapers.py::test_figure_rst[png]
+sphinx_gallery/tests/test_scrapers.py::test_figure_rst[svg]
+sphinx_gallery/tests/test_scrapers.py::test_figure_rst[jpg]
+sphinx_gallery/tests/test_scrapers.py::test_figure_rst[gif]
+sphinx_gallery/tests/test_scrapers.py::test_figure_rst[webp]
+sphinx_gallery/tests/test_scrapers.py::test_figure_rst_path
+sphinx_gallery/tests/test_scrapers.py::test_figure_rst_srcset
+sphinx_gallery/tests/test_scrapers.py::test_iterator
+sphinx_gallery/tests/test_scrapers.py::test_reset_matplotlib
+sphinx_gallery/tests/test_sorting.py::test_ExplicitOrder_sorting_key
+sphinx_gallery/tests/test_sorting.py::test_ExplicitOrder_sorting_wildcard
+sphinx_gallery/tests/test_sorting.py::test_ExplicitOrder_sorting_errors
+sphinx_gallery/tests/test_sorting.py::test_Function_sorting_key
+
+[36m[1m=========================== short test summary info ============================[0m
+[33mSKIPPED[0m [1] sphinx_gallery/tests/test_full.py:60: could not import 'jupyterlite_sphinx': No module named 'jupyterlite_sphinx'
+[32m[32m221 tests collected[0m[32m in 0.95s[0m[0m

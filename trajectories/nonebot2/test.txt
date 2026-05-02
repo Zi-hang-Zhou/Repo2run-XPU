@@ -1,0 +1,310 @@
+tests/test_adapters/test_adapter.py::test_adapter_connect
+tests/test_adapters/test_adapter.py::test_adapter_server[fastapi]
+tests/test_adapters/test_adapter.py::test_adapter_server[quart]
+tests/test_adapters/test_adapter.py::test_adapter_server[httpx]
+tests/test_adapters/test_adapter.py::test_adapter_server[websockets]
+tests/test_adapters/test_adapter.py::test_adapter_server[aiohttp]
+tests/test_adapters/test_adapter.py::test_adapter_http_client[fastapi]
+tests/test_adapters/test_adapter.py::test_adapter_http_client[quart]
+tests/test_adapters/test_adapter.py::test_adapter_http_client[httpx]
+tests/test_adapters/test_adapter.py::test_adapter_http_client[websockets]
+tests/test_adapters/test_adapter.py::test_adapter_http_client[aiohttp]
+tests/test_adapters/test_adapter.py::test_adapter_websocket_client[fastapi]
+tests/test_adapters/test_adapter.py::test_adapter_websocket_client[quart]
+tests/test_adapters/test_adapter.py::test_adapter_websocket_client[httpx]
+tests/test_adapters/test_adapter.py::test_adapter_websocket_client[websockets]
+tests/test_adapters/test_adapter.py::test_adapter_websocket_client[aiohttp]
+tests/test_adapters/test_bot.py::test_bot_call_api
+tests/test_adapters/test_bot.py::test_bot_calling_api_hook_simple
+tests/test_adapters/test_bot.py::test_bot_calling_api_hook_mock
+tests/test_adapters/test_bot.py::test_bot_called_api_hook_simple
+tests/test_adapters/test_bot.py::test_bot_called_api_hook_mock
+tests/test_adapters/test_message.py::test_segment_data
+tests/test_adapters/test_message.py::test_segment_equal
+tests/test_adapters/test_message.py::test_segment_add
+tests/test_adapters/test_message.py::test_segment_validate
+tests/test_adapters/test_message.py::test_segment_join
+tests/test_adapters/test_message.py::test_segment_copy
+tests/test_adapters/test_message.py::test_message_add
+tests/test_adapters/test_message.py::test_message_getitem
+tests/test_adapters/test_message.py::test_message_validate
+tests/test_adapters/test_message.py::test_message_contains
+tests/test_adapters/test_message.py::test_message_only
+tests/test_adapters/test_message.py::test_message_join
+tests/test_adapters/test_message.py::test_message_include
+tests/test_adapters/test_message.py::test_message_exclude
+tests/test_adapters/test_template.py::test_template_basis
+tests/test_adapters/test_template.py::test_template_message
+tests/test_adapters/test_template.py::test_rich_template_message
+tests/test_adapters/test_template.py::test_message_injection
+tests/test_adapters/test_template.py::test_malformed_template
+tests/test_broadcast.py::test_event_preprocessor
+tests/test_broadcast.py::test_event_preprocessor_ignore
+tests/test_broadcast.py::test_event_preprocessor_exception
+tests/test_broadcast.py::test_event_postprocessor
+tests/test_broadcast.py::test_event_postprocessor_exception
+tests/test_broadcast.py::test_run_preprocessor
+tests/test_broadcast.py::test_run_preprocessor_ignore
+tests/test_broadcast.py::test_run_preprocessor_exception
+tests/test_broadcast.py::test_run_postprocessor
+tests/test_broadcast.py::test_run_postprocessor_exception
+tests/test_compat.py::test_default_config
+tests/test_compat.py::test_field_info
+tests/test_compat.py::test_model_dump
+tests/test_compat.py::test_custom_validation
+tests/test_compat.py::test_validate_json
+tests/test_config.py::test_config_no_env
+tests/test_config.py::test_config_with_env
+tests/test_config.py::test_config_error_env
+tests/test_config.py::test_config_without_delimiter
+tests/test_driver.py::test_lifespan[none]
+tests/test_driver.py::test_http_server[fastapi]
+tests/test_driver.py::test_http_server[quart]
+tests/test_driver.py::test_websocket_server[fastapi]
+tests/test_driver.py::test_websocket_server[quart]
+tests/test_driver.py::test_cross_context[fastapi]
+tests/test_driver.py::test_cross_context[quart]
+tests/test_driver.py::test_http_client[httpx]
+tests/test_driver.py::test_http_client[aiohttp]
+tests/test_driver.py::test_http_client_session[httpx]
+tests/test_driver.py::test_http_client_session[aiohttp]
+tests/test_driver.py::test_websocket_client[websockets]
+tests/test_driver.py::test_websocket_client[aiohttp]
+tests/test_driver.py::test_combine_driver[fastapi+aiohttp]
+tests/test_driver.py::test_combine_driver[httpx+websockets]
+tests/test_driver.py::test_bot_connect_hook
+tests/test_echo.py::test_echo
+tests/test_init.py::test_init
+tests/test_init.py::test_get_driver
+tests/test_init.py::test_get_asgi
+tests/test_init.py::test_get_app
+tests/test_init.py::test_get_adapter
+tests/test_init.py::test_run
+tests/test_init.py::test_get_bot
+tests/test_matcher/test_matcher.py::test_matcher_info
+tests/test_matcher/test_matcher.py::test_matcher_check
+tests/test_matcher/test_matcher.py::test_matcher_handle
+tests/test_matcher/test_matcher.py::test_matcher_got
+tests/test_matcher/test_matcher.py::test_matcher_receive
+tests/test_matcher/test_matcher.py::test_matcher_combine
+tests/test_matcher/test_matcher.py::test_matcher_preset
+tests/test_matcher/test_matcher.py::test_matcher_overload
+tests/test_matcher/test_matcher.py::test_matcher_destroy
+tests/test_matcher/test_matcher.py::test_type_updater
+tests/test_matcher/test_matcher.py::test_default_permission_updater
+tests/test_matcher/test_matcher.py::test_user_permission_updater
+tests/test_matcher/test_matcher.py::test_custom_permission_updater
+tests/test_matcher/test_matcher.py::test_run
+tests/test_matcher/test_matcher.py::test_temp
+tests/test_matcher/test_matcher.py::test_datetime_expire
+tests/test_matcher/test_matcher.py::test_timedelta_expire
+tests/test_matcher/test_provider.py::test_manager
+tests/test_param.py::test_depend
+tests/test_param.py::test_bot
+tests/test_param.py::test_event
+tests/test_param.py::test_state
+tests/test_param.py::test_matcher
+tests/test_param.py::test_arg
+tests/test_param.py::test_exception
+tests/test_param.py::test_default
+tests/test_param.py::test_priority
+tests/test_permission.py::test_permission
+tests/test_permission.py::test_message[message-True]
+tests/test_permission.py::test_message[notice-False]
+tests/test_permission.py::test_notice[message-False]
+tests/test_permission.py::test_notice[notice-True]
+tests/test_permission.py::test_request[message-False]
+tests/test_permission.py::test_request[request-True]
+tests/test_permission.py::test_metaevent[message-False]
+tests/test_permission.py::test_metaevent[meta_event-True]
+tests/test_permission.py::test_superuser[message-test-True]
+tests/test_permission.py::test_superuser[message-foo-False]
+tests/test_permission.py::test_superuser[message-faketest-True]
+tests/test_permission.py::test_superuser[message-None-False]
+tests/test_permission.py::test_superuser[notice-test-True]
+tests/test_permission.py::test_user[session_ids0-user-True]
+tests/test_permission.py::test_user[session_ids1-bar-False]
+tests/test_permission.py::test_user[session_ids2-None-False]
+tests/test_plugin/test_get.py::test_get_plugin
+tests/test_plugin/test_get.py::test_get_plugin_by_module_name
+tests/test_plugin/test_get.py::test_get_available_plugin
+tests/test_plugin/test_get.py::test_get_plugin_config
+tests/test_plugin/test_load.py::test_load_plugin
+tests/test_plugin/test_load.py::test_load_plugins
+tests/test_plugin/test_load.py::test_load_nested_plugin
+tests/test_plugin/test_load.py::test_load_json
+tests/test_plugin/test_load.py::test_load_toml
+tests/test_plugin/test_load.py::test_bad_plugin
+tests/test_plugin/test_load.py::test_require_loaded
+tests/test_plugin/test_load.py::test_require_not_loaded
+tests/test_plugin/test_load.py::test_require_not_declared
+tests/test_plugin/test_load.py::test_require_not_found
+tests/test_plugin/test_load.py::test_plugin_metadata
+tests/test_plugin/test_load.py::test_inherit_supported_adapters_not_found
+tests/test_plugin/test_load.py::test_inherit_supported_adapters_combine[inherit_plugins0-None]
+tests/test_plugin/test_load.py::test_inherit_supported_adapters_combine[inherit_plugins1-expected1]
+tests/test_plugin/test_load.py::test_inherit_supported_adapters_combine[inherit_plugins2-expected2]
+tests/test_plugin/test_load.py::test_inherit_supported_adapters_combine[inherit_plugins3-expected3]
+tests/test_plugin/test_load.py::test_inherit_supported_adapters_combine[inherit_plugins4-expected4]
+tests/test_plugin/test_load.py::test_inherit_supported_adapters_combine[inherit_plugins5-expected5]
+tests/test_plugin/test_load.py::test_inherit_supported_adapters_combine[inherit_plugins6-expected6]
+tests/test_plugin/test_load.py::test_inherit_supported_adapters_combine[inherit_plugins7-expected7]
+tests/test_plugin/test_load.py::test_inherit_supported_adapters_combine[inherit_plugins8-expected8]
+tests/test_plugin/test_load.py::test_inherit_supported_adapters_combine[inherit_plugins9-expected9]
+tests/test_plugin/test_manager.py::test_load_plugin_name
+tests/test_plugin/test_on.py::test_on[matcher_on-None-True]
+tests/test_plugin/test_on.py::test_on[matcher_on_metaevent-None-False]
+tests/test_plugin/test_on.py::test_on[matcher_on_message-None-True]
+tests/test_plugin/test_on.py::test_on[matcher_on_notice-None-False]
+tests/test_plugin/test_on.py::test_on[matcher_on_request-None-False]
+tests/test_plugin/test_on.py::test_on[matcher_on_startswith-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_on_endswith-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_on_fullmatch-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_on_keyword-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_on_command-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_on_shell_command-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_on_regex-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_on_type-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_prefix_cmd-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_prefix_shell_cmd-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_prefix_aliases_cmd-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_prefix_aliases_shell_cmd-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_group_on-None-True]
+tests/test_plugin/test_on.py::test_on[matcher_group_on_metaevent-None-False]
+tests/test_plugin/test_on.py::test_on[matcher_group_on_message-None-True]
+tests/test_plugin/test_on.py::test_on[matcher_group_on_notice-None-False]
+tests/test_plugin/test_on.py::test_on[matcher_group_on_request-None-False]
+tests/test_plugin/test_on.py::test_on[matcher_group_on_startswith-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_group_on_endswith-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_group_on_fullmatch-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_group_on_keyword-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_group_on_command-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_group_on_shell_command-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_group_on_regex-<lambda>-True]
+tests/test_plugin/test_on.py::test_on[matcher_group_on_type-<lambda>-True]
+tests/test_plugin/test_on.py::test_runtime_on
+tests/test_rule.py::test_rule
+tests/test_rule.py::test_trie
+tests/test_rule.py::test_startswith[prefix-False-message-prefix_-True]
+tests/test_rule.py::test_startswith[prefix-False-message-Prefix_-False]
+tests/test_rule.py::test_startswith[prefix-True-message-prefix_-True]
+tests/test_rule.py::test_startswith[prefix-True-message-Prefix_-True]
+tests/test_rule.py::test_startswith[prefix-False-message-prefoo-False]
+tests/test_rule.py::test_startswith[prefix-False-message-fooprefix-False]
+tests/test_rule.py::test_startswith[prefix-False-message-None-False]
+tests/test_rule.py::test_startswith[msg7-False-message-fooprefix-True]
+tests/test_rule.py::test_startswith[prefix-False-notice-prefix-True]
+tests/test_rule.py::test_startswith[prefix-False-notice-foo-False]
+tests/test_rule.py::test_endswith[suffix-False-message-_suffix-True]
+tests/test_rule.py::test_endswith[suffix-False-message-_Suffix-False]
+tests/test_rule.py::test_endswith[suffix-True-message-_suffix-True]
+tests/test_rule.py::test_endswith[suffix-True-message-_Suffix-True]
+tests/test_rule.py::test_endswith[suffix-False-message-suffoo-False]
+tests/test_rule.py::test_endswith[suffix-False-message-suffixfoo-False]
+tests/test_rule.py::test_endswith[suffix-False-message-None-False]
+tests/test_rule.py::test_endswith[msg7-False-message-suffixfoo-True]
+tests/test_rule.py::test_endswith[suffix-False-notice-suffix-True]
+tests/test_rule.py::test_endswith[suffix-False-notice-foo-False]
+tests/test_rule.py::test_fullmatch[fullmatch-False-message-fullmatch-True]
+tests/test_rule.py::test_fullmatch[fullmatch-False-message-Fullmatch-False]
+tests/test_rule.py::test_fullmatch[fullmatch-True-message-fullmatch-True]
+tests/test_rule.py::test_fullmatch[fullmatch-True-message-Fullmatch-True]
+tests/test_rule.py::test_fullmatch[fullmatch-False-message-fullfoo-False]
+tests/test_rule.py::test_fullmatch[fullmatch-False-message-_fullmatch_-False]
+tests/test_rule.py::test_fullmatch[fullmatch-False-message-None-False]
+tests/test_rule.py::test_fullmatch[msg7-False-message-fullmatchfoo-False]
+tests/test_rule.py::test_fullmatch[fullmatch-False-notice-fullmatch-True]
+tests/test_rule.py::test_fullmatch[fullmatch-False-notice-foo-False]
+tests/test_rule.py::test_keyword[kws0-message-_key_-True]
+tests/test_rule.py::test_keyword[kws1-message-_foo_-True]
+tests/test_rule.py::test_keyword[kws2-message-None-False]
+tests/test_rule.py::test_keyword[kws3-message-foo-False]
+tests/test_rule.py::test_keyword[kws4-notice-_key_-True]
+tests/test_rule.py::test_keyword[kws5-notice-foo-False]
+tests/test_rule.py::test_command[cmds0-None-cmd0-None-None-True]
+tests/test_rule.py::test_command[cmds1-None-cmd1-None-None-False]
+tests/test_rule.py::test_command[cmds2-None-cmd2-None-None-True]
+tests/test_rule.py::test_command[cmds3-None-cmd3-None-None-False]
+tests/test_rule.py::test_command[cmds4-None-cmd4-None-None-True]
+tests/test_rule.py::test_command[cmds5-None-cmd5-None-None-False]
+tests/test_rule.py::test_command[cmds6-True-cmd6- -arg-True]
+tests/test_rule.py::test_command[cmds7-True-cmd7-None-arg-False]
+tests/test_rule.py::test_command[cmds8-True-cmd8-None-None-True]
+tests/test_rule.py::test_command[cmds9-False-cmd9- -arg-False]
+tests/test_rule.py::test_command[cmds10-False-cmd10-None-arg-True]
+tests/test_rule.py::test_command[cmds11-False-cmd11-None-None-True]
+tests/test_rule.py::test_command[cmds12- -cmd12- -arg-True]
+tests/test_rule.py::test_command[cmds13- -cmd13-\n-arg-False]
+tests/test_rule.py::test_command[cmds14- -cmd14-None-arg-False]
+tests/test_rule.py::test_command[cmds15- -cmd15-None-None-True]
+tests/test_rule.py::test_shell_command
+tests/test_rule.py::test_regex[(?P<key>key\\d)-message-_key1_-True-matched0]
+tests/test_rule.py::test_regex[foo-message-None-False-None]
+tests/test_rule.py::test_regex[foo-notice-foo-True-matched2]
+tests/test_rule.py::test_regex[foo-notice-bar-False-None]
+tests/test_rule.py::test_to_me[True]
+tests/test_rule.py::test_to_me[False]
+tests/test_rule.py::test_is_type
+tests/test_single_session.py::test_matcher_mutex
+tests/test_utils.py::test_loguru_escape_tag
+tests/test_utils.py::test_generic_check_issubclass
+tests/test_utils.py::test_is_coroutine_callable
+tests/test_utils.py::test_is_gen_callable
+tests/test_utils.py::test_is_async_gen_callable
+tests/test_utils.py::test_dataclass_encoder
+
+
+---------- coverage: platform linux, python 3.10.20-final-0 ----------
+Name                                   Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------
+nonebot/__init__.py                      100     43    57%   86-88, 127-131, 149, 168-170, 190-194, 223-230, 249, 253-265, 270, 295-319, 334-335
+nonebot/adapters/__init__.py               7      0   100%
+nonebot/compat.py                        139     81    42%   34-38, 103-104, 134-145, 149, 153, 163-165, 171-172, 179, 190, 201, 212, 216, 223-226, 241-380
+nonebot/config.py                        209    129    38%   53, 57, 61, 70-71, 74, 77, 89-105, 112, 115-121, 126, 131-132, 135-147, 152-158, 166-200, 205-283, 296-300, 319-324, 333, 349-356, 382, 470-473
+nonebot/consts.py                         40      0   100%
+nonebot/dependencies/__init__.py          97     39    60%   41, 47, 51, 54, 74-78, 85-99, 110, 116, 137-145, 167-168, 173-178, 182-189
+nonebot/dependencies/utils.py             26     10    62%   39-46, 53-56
+nonebot/drivers/__init__.py               20      0   100%
+nonebot/drivers/aiohttp.py               133    133     0%   18-277
+nonebot/drivers/fastapi.py               151    151     0%   18-308
+nonebot/drivers/httpx.py                  55     55     0%   18-158
+nonebot/drivers/none.py                   86     86     0%   12-143
+nonebot/drivers/quart.py                 141    141     0%   18-287
+nonebot/drivers/websockets.py             81     81     0%   18-138
+nonebot/exception.py                      49     16    67%   41, 49-50, 53, 73, 76, 100-101, 104, 119, 122, 200-201, 234-235, 238
+nonebot/internal/__init__.py               0      0   100%
+nonebot/internal/adapter/__init__.py       6      0   100%
+nonebot/internal/adapter/adapter.py       54     27    50%   34-37, 40, 46, 51, 61-62, 72-74, 78-80, 84-86, 90-92, 97-100, 103, 113
+nonebot/internal/adapter/bot.py           79     51    35%   12-17, 36-39, 42, 45-49, 54, 59, 75-123, 139, 151-152, 166-167
+nonebot/internal/adapter/event.py         46     18    61%   21-23, 27-31, 36, 41, 46, 49, 60, 65, 72, 77, 84, 89
+nonebot/internal/adapter/message.py      197    116    41%   39, 44, 47, 52, 55, 58, 62, 66-76, 79, 82, 85, 88, 91, 94, 99, 114-122, 140, 146, 149, 153, 157-171, 177, 182-184, 187-188, 191-199, 266-276, 290-292, 296, 311-316, 328-339, 350, 361-363, 373-379, 389-391, 402-410, 414, 425, 436, 441
+nonebot/internal/adapter/template.py      95     68    28%   20-22, 65-68, 71, 76-80, 86, 90, 93-115, 123, 133-180, 185-193, 196-202, 209-212
+nonebot/internal/driver/__init__.py       31      0   100%
+nonebot/internal/driver/_lifespan.py      39     21    46%   14-16, 19-20, 23-24, 27-28, 34-38, 41-45, 48-49, 52, 55
+nonebot/internal/driver/abstract.py      159     71    55%   35, 59-65, 68, 76, 85-92, 100, 106, 111-115, 119, 123, 133-136, 146-149, 153-179, 183-208, 212-216, 226, 250, 255, 260, 265, 268-269, 277, 286, 299, 309, 323, 329, 334, 339
+nonebot/internal/driver/combine.py        19     10    47%   9, 27-42
+nonebot/internal/driver/model.py         177     96    46%   71-120, 123, 136-146, 149, 154, 157, 163, 168, 173, 178, 183, 188, 192-197, 202, 207, 212-224, 227-246, 255-267, 272-284, 287, 292-294, 297-299, 302, 305-308, 311, 314, 317, 320-324, 328-334, 339-340
+nonebot/internal/matcher/__init__.py      10      0   100%
+nonebot/internal/matcher/manager.py       49     19    61%   7, 22, 25, 28, 31, 34, 37, 40, 43, 46, 49, 52, 63, 68, 71, 74, 79, 84, 92
+nonebot/internal/matcher/matcher.py      313    163    48%   72, 96-99, 104, 108-109, 113-114, 119-121, 124, 177-178, 181, 235-323, 328, 333, 338, 343, 348, 353, 374-375, 400-401, 412-415, 424-427, 433-439, 451-455, 468-496, 516-544, 559-566, 581-583, 598-600, 616-618, 636-640, 658-662, 670, 685, 689-690, 705, 720, 724, 727-730, 739, 743, 752-753, 773-782, 785-788, 792-800, 810-838, 849-894
+nonebot/internal/matcher/provider.py      15      2    87%   7, 19
+nonebot/internal/params.py               239    106    56%   39-40, 56-59, 112, 123, 139-140, 155-158, 176-181, 190-225, 230, 248, 265, 271, 277, 283-284, 302, 319, 324-325, 331, 337-338, 350, 358-364, 370, 384-385, 388, 399-411, 417, 423-424, 431-432, 435, 440, 445, 450, 469-471, 474, 481-486, 491-499, 511, 519-523, 527, 539, 546-547, 551
+nonebot/internal/permission.py            63     30    52%   54, 71-88, 91, 96-101, 106-111, 127-128, 131, 138-142, 148-152, 164, 176, 189
+nonebot/internal/rule.py                  38     19    50%   53, 72-89, 92-97, 100-105, 108
+nonebot/log.py                            19      4    79%   25, 71-73
+nonebot/matcher.py                        11      0   100%
+nonebot/message.py                       156    123    21%   47, 87-90, 98-101, 109-112, 120-123, 147-181, 202-225, 251-283, 304-327, 355-380, 406-445, 466-476, 499-560
+nonebot/params.py                        111     41    63%   44, 53, 58, 62, 67, 71, 80, 89, 94, 98, 107, 112, 116, 125, 130, 134, 139, 143, 148, 154-159, 178, 182, 187, 191, 196, 200, 205, 209, 214, 218, 223, 227, 232, 238-241, 247-250
+nonebot/permission.py                     50     14    72%   25, 28, 37, 40, 49, 52, 61, 64, 95, 98-102
+nonebot/plugin/__init__.py                89     40    55%   59, 63, 73-81, 87-90, 96-121, 125-129, 142, 153-158, 163, 168, 173
+nonebot/plugin/load.py                    82     59    28%   33-40, 49-51, 63-65, 88-96, 119-131, 140, 149, 153-158, 170-189, 204-228
+nonebot/plugin/manager.py                120     82    32%   48-54, 57, 62, 67, 72, 77, 85-90, 99-153, 164-196, 203, 216-226, 232-234, 237-241, 244-267
+nonebot/plugin/model.py                   56     10    82%   19-21, 52-61, 87
+nonebot/plugin/on.py                     172    119    31%   45-46, 85-105, 138-151, 167, 183-184, 200, 216, 240, 264, 288, 310, 339-341, 377-378, 408, 431-432, 438-441, 452-458, 481-484, 487, 505-514, 534-543, 550, 566-568, 583-586, 601-604, 619-622, 637-640, 659-662, 679-682, 699-702, 718-721, 747-752, 781-784, 805-808, 826-829
+nonebot/rule.py                          325    204    37%   83-86, 90-136, 150-151, 154, 157, 164, 167-178, 188-191, 205-206, 209, 212, 219, 222-233, 243-246, 260-261, 264, 267, 274, 277-287, 297-300, 313, 316, 319, 324, 327-336, 346, 364-365, 368, 371, 376, 384-390, 421-440, 455-472, 498-502, 507, 512-515, 518-520, 534-535, 538, 541, 548, 556-577, 623-645, 659-660, 663, 666, 673, 676-684, 708, 717, 720, 723, 726, 732, 741, 744, 747, 750, 753, 763
+nonebot/typing.py                         82     21    74%   23-26, 37-43, 48-50, 60-62, 67, 72, 76, 81-84, 89-91, 101, 111, 118
+nonebot/utils.py                         144     90    38%   50, 57-68, 75-78, 100-126, 131-132, 136-139, 146-151, 156-159, 164-167, 177-185, 193-200, 235-238, 243-245, 250-254, 261-270, 280, 288-290, 309-314
+--------------------------------------------------------------------
+TOTAL                                   4380   2589    41%
+
+254 tests collected in 1.14s

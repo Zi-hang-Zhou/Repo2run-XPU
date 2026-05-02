@@ -1,0 +1,83 @@
+diff --git a/src/evox/operators/gaussian_process/classification.py b/src/evox/operators/gaussian_process/classification.py
+index ed401278..8fd02fa8 100644
+--- a/src/evox/operators/gaussian_process/classification.py
++++ b/src/evox/operators/gaussian_process/classification.py
+@@ -4,10 +4,10 @@ import jax
+ import jax.random as jr
+ import jax.numpy as jnp
+ import optax as ox
+-import gpjax as gpx
+-from gpjax.mean_functions import Zero
+-from gpjax.kernels import RBF
+-from gpjax.objectives import LogPosteriorDensity
++
++
++
++
+ 
+ 
+ # jax.config.update('jax_enable_x64', True)
+@@ -46,6 +46,10 @@ class GPClassification:
+         self.key = key
+         self.likelihood = likelihood
+         self.object = object
++        import gpjax as gpx
++        from gpjax.mean_functions import Zero
++        from gpjax.kernels import RBF
++        from gpjax.objectives import LogPosteriorDensity
+         if kernel is None:
+             self.kernel = RBF()
+         if mean_fun is None:
+diff --git a/src/evox/operators/gaussian_process/regression.py b/src/evox/operators/gaussian_process/regression.py
+index 09f680a9..8b58b724 100644
+--- a/src/evox/operators/gaussian_process/regression.py
++++ b/src/evox/operators/gaussian_process/regression.py
+@@ -5,11 +5,11 @@ import jax.numpy as jnp
+ import jax.random as jr
+ from jax import jit
+ import optax as ox
+-import gpjax as gpx
+-from gpjax.objectives import ConjugateMLL
+-from gpjax.mean_functions import Zero
+-from gpjax.kernels import RBF
+-from gpjax.fit import fit
++
++
++
++
++
+ 
+ 
+ # jax.config.update('jax_enable_x64', True)
+@@ -48,6 +48,11 @@ class GPRegression:
+         self.key = key
+         self.likelihood = likelihood
+         self.object = object
++        import gpjax as gpx
++        from gpjax.objectives import ConjugateMLL
++        from gpjax.mean_functions import Zero
++        from gpjax.kernels import RBF
++        from gpjax.fit import fit
+         if kernel is None:
+             self.kernel = RBF()
+         if mean_fun is None:
+diff --git a/src/evox/problems/neuroevolution/reinforcement_learning/env_pool.py b/src/evox/problems/neuroevolution/reinforcement_learning/env_pool.py
+index 99d220f7..d787dcdc 100644
+--- a/src/evox/problems/neuroevolution/reinforcement_learning/env_pool.py
++++ b/src/evox/problems/neuroevolution/reinforcement_learning/env_pool.py
+@@ -1,6 +1,6 @@
+ from typing import Callable, Optional
+ 
+-import envpool
++
+ import jax
+ import jax.numpy as jnp
+ import numpy as np
+@@ -23,6 +23,7 @@ class EnvPool(Problem):
+     ):
+         self.batch_policy = jit(vmap(policy))
+         self.num_envs = num_envs
++        import envpool
+         self.env = envpool.make(
+             env_name,
+             num_envs=num_envs,

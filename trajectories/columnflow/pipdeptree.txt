@@ -1,0 +1,47 @@
+awkward==2.9.0
+├── awkward_cpp [required: ==52, installed: 52]
+│   └── numpy [required: >=1.21.3, installed: 2.2.6]
+├── fsspec [required: >=2022.11.0, installed: 2026.3.0]
+├── importlib_metadata [required: >=4.13.0, installed: 9.0.0]
+│   └── zipp [required: >=3.20, installed: 3.23.0]
+├── numpy [required: >=1.21.3, installed: 2.2.6]
+├── packaging [required: Any, installed: 26.0]
+└── typing_extensions [required: >=4.1.0, installed: 4.8.0]
+columnflow==0.2.2
+├── tenacity [required: !=8.4.0, installed: 8.5.0]
+├── luigi [required: ~=3.5.1, installed: 3.5.2]
+│   ├── python-dateutil [required: >=2.7.5,<3, installed: 2.9.0.post0]
+│   │   └── six [required: >=1.5, installed: 1.16.0]
+│   ├── tenacity [required: >=8,<9, installed: 8.5.0]
+│   ├── python-daemon [required: Any, installed: 3.1.2]
+│   │   └── lockfile [required: >=0.10, installed: 0.12.2]
+│   └── tornado [required: >=5.0,<7, installed: 6.5.5]
+├── scinum [required: ~=2.1.1, installed: 2.1.2]
+├── six [required: ~=1.16.0, installed: 1.16.0]
+├── PyYAML [required: ==6.*, installed: 6.0.3]
+└── typing_extensions [required: ~=4.8.0, installed: 4.8.0]
+law==0.1.20
+├── six [required: >=1.13, installed: 1.16.0]
+└── luigi [required: >=2.8.2, installed: 3.5.2]
+    ├── python-dateutil [required: >=2.7.5,<3, installed: 2.9.0.post0]
+    │   └── six [required: >=1.5, installed: 1.16.0]
+    ├── tenacity [required: >=8,<9, installed: 8.5.0]
+    ├── python-daemon [required: Any, installed: 3.1.2]
+    │   └── lockfile [required: >=0.10, installed: 0.12.2]
+    └── tornado [required: >=5.0,<7, installed: 6.5.5]
+order==2.1.7
+├── scinum [required: >=1.4.3, installed: 2.1.2]
+└── six [required: Any, installed: 1.16.0]
+pip==23.0.1
+pipdeptree==2.35.1
+└── packaging [required: >=26, installed: 26.0]
+pytest==9.0.3
+├── exceptiongroup [required: >=1, installed: 1.3.1]
+│   └── typing_extensions [required: >=4.6.0, installed: 4.8.0]
+├── iniconfig [required: >=1.0.1, installed: 2.3.0]
+├── packaging [required: >=22, installed: 26.0]
+├── pluggy [required: >=1.5,<2, installed: 1.6.0]
+├── Pygments [required: >=2.7.2, installed: 2.20.0]
+└── tomli [required: >=1, installed: 2.4.1]
+setuptools==79.0.1
+wheel==0.45.1

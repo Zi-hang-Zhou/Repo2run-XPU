@@ -1,0 +1,379 @@
+============================= test session starts ==============================
+platform linux -- Python 3.10.20, pytest-9.0.3, pluggy-1.6.0
+rootdir: /repo
+configfile: pyproject.toml
+testpaths: tests
+plugins: cov-7.1.0, xdist-3.8.0
+collected 282 items
+
+<Dir repo>
+  <Dir tests>
+    <Module test_align.py>
+      <Function test_template_align>
+      <Function test_auto_align_many>
+    <Module test_cluster.py>
+      <Function test_cluster_mols>
+      <Function test_pick_diverse>
+      <Function test_pick_centroids>
+      <Function test_assign_to_centroids>
+    <Module test_conformers.py>
+      <Function test_generate>
+      <Function test_generate_fail>
+      <Function test_generate_2>
+      <Function test_generate_3>
+      <Function test_generate_4>
+      <Function test_sasa>
+      <Function test_rmsd>
+      <Function test_cluster>
+      <Function test_get_coords>
+      <Function test_center_of_mass>
+      <Function test_translate>
+      <Function test_align_conformers>
+      <Function test_align_conformers_O3A>
+      <Function test_align_conformers_without_conformer>
+      <Function test_align_conformers_wrong_backend>
+      <Function test_conformers_minimized_sorted>
+      <Function test_conformers_non_minimized_sorted>
+      <Function test_keep_conformers_from_indice>
+      <Function test_keep_conformers_from_indice_default_conf>
+      <Function test_keep_conformers_from_indices>
+      <Function test_keep_conformers_from_indices_keep_ids>
+      <Function test_conformer_energy>
+      <Function test_conformer_no_rotatable_bonds>
+    <Module test_convert.py>
+      <Function test_to_smiles>
+      <Function test_to_selfies>
+      <Function test_from_selfies>
+      <Function test_smiles_as_smarts>
+      <Function test_to_smarts>
+      <Function test_from_smarts>
+      <Function test_inchi>
+      <Function test_to_df>
+      <Function test_to_df_parallel>
+      <Function test_from_df>
+      <Function test_from_df_conserve_smiles>
+      <Function test_to_df_smiles_warning>
+      <Function test_to_cxsmiles>
+      <Function test_to_smiles_fail>
+      <Function test_from_df_pop_mol_column>
+      <Function test_non_standard_inchi>
+      <Function test_non_standard_inchi_with_options>
+      <Function test_non_standard_inchi_edge_cases>
+      <Function test_to_smiles_with_indices>
+    <Module test_data.py>
+      <Function test_freesolv>
+      <Function test_cdk2>
+      <Function test_solubility>
+      <Function test_chembl_drugs>
+      <Function test_chembl_samples>
+    <Module test_descriptors.py>
+      <Function test_descriptors>
+      <Function test_compute_many_descriptors>
+      <Function test_compute_many_descriptors_with_function_as_string>
+      <Function test_batch_compute_many_descriptors>
+      <Function test_any_rdkit_descriptor>
+      <Function test_n_aromatic_atoms>
+      <Function test_formal_charge>
+      <Function test_refractivity>
+      <Function test_n_rigid_bonds>
+      <Function test_n_stereocenters>
+      <Function test_n_charged_atoms>
+    <Module test_fp.py>
+      <Function test_to_fp>
+      <Function test_list_fp>
+      <Function test_all_fps>
+      <Function test_fp_invalid_input>
+    <Module test_fragment.py>
+      <Function test_brics>
+      <Function test_frag>
+      <Function test_recap>
+      <Function test_anybreak>
+      <Function test_mmpa>
+      <Function test_assemble>
+      <Function test_break_mol>
+      <Function test_assemble_build>
+    <Module test_graph.py>
+      <Function test_to_mol>
+      <Function test_get_all_path_between>
+      <UnitTestCase Test_match_molecular_graphs>
+        <TestCaseFunction test_mol>
+        <TestCaseFunction test_ring>
+      <UnitTestCase Test_reorder_mol_from_template>
+        <TestCaseFunction test_reorder_mol_from_template>
+    <Module test_import.py>
+      <Function test_datamol_import_fails>
+    <Module test_io.py>
+      <Function test_read_csv>
+      <Function test_read_csv_with_mol_col>
+      <Function test_read_excel>
+      <Function test_read_excel_with_mol_col>
+      <Function test_read_sdf>
+      <Function test_read_sdf_gz>
+      <Function test_read_sdf_as_df>
+      <Function test_read_sdf_as_df_parallel>
+      <Function test_read_sdf_as_df_mol_col>
+      <Function test_read_sdf_gz_as_df>
+      <Function test_to_sdf>
+      <Function test_to_sdf_mols>
+      <Function test_to_from_text>
+      <Function test_to_sdf_single_mol>
+      <Function test_sdf_props_and_conformer_preserved>
+      <Function test_read_mol2>
+      <Function test_read_save_molblock>
+      <Function test_read_molblock_invalid>
+      <Function test_to_xlsx>
+      <Function test_to_xlsx_empty>
+      <Function test_read_pdbblock>
+      <Function test_to_pdbblock>
+      <Function test_read_pdbfile>
+      <Function test_to_pdbfile>
+      <Function test_dataframe_csv>
+      <Function test_dataframe_excel>
+      <Function test_dataframe_parquet>
+      <Function test_dataframe_json>
+      <Function test_dataframe_sdf>
+      <Function test_dataframe_sdf_gz>
+      <Function test_save_dataframe_invalid>
+      <Function test_load_dataframe_invalid>
+      <Function test_file_with_kwargs>
+    <Module test_isomers.py>
+      <Function test_enumerate_tautomers>
+      <Function test_enumerate_stereo>
+      <Function test_enumerate_stereo_undefined_failure>
+      <Function test_enumerate_stereo_timeout>
+      <Function test_count_stereoisomers>
+      <Function test_enumerate_structural>
+      <Function test_enumerate_structural_timeout>
+      <Function test_canonical_tautomer>
+      <Function test_remove_stereochemistry>
+    <Module test_log.py>
+      <Function test_rdkit_log>
+      <Function test_rdkit_log_enable>
+    <Module test_mcs.py>
+      <Function test_find_mcs>
+    <Module test_mol.py>
+      <Function test_to_mol>
+      <Function test_reorder_atoms>
+      <Function test_randomize_atoms>
+      <Function test_to_neutral>
+      <Function test_sanitize>
+      <Function test_sanitize_first>
+      <Function test_standardize_mol>
+      <Function test_fix_valence>
+      <Function test_adjust_singleton>
+      <Function test_fixmol>
+      <Function test_dative_bond>
+      <Function test_copy_mol>
+      <Function test_set_mol_props>
+      <Function test_set_mol_props_overflow>
+      <Function test_copy_mol_props>
+      <Function test_atom_indices_to_mol>
+      <Function test_to_mol_bad_input>
+      <Function test_to_mol_input_mol>
+      <Function test_to_mol_ordered>
+      <Function test_to_mol_kekulize>
+      <Function test_reorder_atoms_without_atoms>
+      <Function test_randomize_atoms_without_atoms>
+      <Function test_to_neutral_without_atoms>
+      <Function test_sanitize_smiles_none>
+      <Function test_standardize_smiles_tautomer>
+      <Function test_decrease_bond>
+      <Function test_replace_dummies_atoms>
+      <Function test_keep_largest_frag>
+      <Function test_sanitize_mol_keep_props_and_conformers>
+      <Function test_sanitize_mol_multiple_conformers_warning>
+      <Function test_sanitize_mol_multiple_conformers_no_warning>
+      <Function test_same_mol>
+      <Function test_atom_list_to_bond>
+      <Function test_protect_atoms>
+      <Function test_add_remove_hs>
+      <Function test_unique_id>
+      <Function test_clear_mol_props>
+      <Function test_strip_mol_to_core>
+      <Function test_make_scaffold_generic>
+      <Function test_to_scaffold>
+      <Function test_compute_ring_systems>
+      <Function test_hash_mol>
+      <Function test_to_mol_keep_hs>
+      <Function test_clear_atom_props>
+      <Function test_clear_atom_map_number>
+      <Function test_get_atom_positions>
+      <Function test_get_atom_positions_fails>
+      <Function test_set_atom_positions>
+      <Function test_set_atom_positions_fails>
+      <Function test_remove_salt>
+      <Function test_remove_solvent>
+    <Module test_molar.py>
+      <Function test_molar_to_log>
+      <Function test_log_to_molar>
+      <Function test_log_to_molar_with_integer>
+    <Module test_notebooks.py>
+      <Function test_notebook[Aligning.ipynb]>
+      <Function test_notebook[Clustering.ipynb]>
+      <Function test_notebook[Conformers.ipynb]>
+      <Function test_notebook[Descriptors.ipynb]>
+      <Function test_notebook[Fragment.ipynb]>
+      <Function test_notebook[Fuzzy_Scaffolds.ipynb]>
+      <Function test_notebook[Preprocessing.ipynb]>
+      <Function test_notebook[Reactions.ipynb]>
+      <Function test_notebook[Scaffolds.ipynb]>
+      <Function test_notebook[The_Basics.ipynb]>
+      <Function test_notebook[Visualization.ipynb]>
+    <Module test_predictors.py>
+      <Function test_esol>
+      <Function test_esol_from_data>
+    <Module test_reactions.py>
+      <Function test_convert_attach_to_isotope>
+      <Function test_num_attachment_points>
+      <Function test_open_attach_points>
+      <Function test_rxn_from_smarts>
+      <Function test_rxn_to_smarts>
+      <Function test_rxn_from_block>
+      <Function test_rxn_from_block_file>
+      <Function test_rxn_to_block>
+      <Function test_rxn_to_block_file>
+      <Function test_is_reaction_ok>
+      <Function test_is_reaction_ok_with_logs>
+      <Function test_apply_reaction>
+      <Function test_apply_reaction_invalid>
+      <Function test_can_react>
+      <Function test_inverse_reaction>
+      <Function test_select_reaction_output>
+      <Function test_select_reaction_output_invalid>
+    <Module test_scaffold.py>
+      <Function test_fuzzy_scaffolding>
+    <Module test_similarity.py>
+      <Function test_pdist>
+      <Function test_pdist_condensed>
+      <Function test_cdist>
+      <Function test_cdist_chunked>
+      <Function test_cdist_pdist_consistent>
+      <Function test_cdist_pdist_invalid_input>
+      <Function test_datamol_pdist_same_as_rdkit>
+      <Function test_datamol_cdist_same_as_rdkit>
+    <Module test_utils_fs.py>
+      <Function test_copy_files>
+      <Function test_copy_dir>
+      <Function test_mkdir>
+      <Function test_cache_dir>
+      <Function test_get_mapper>
+      <Function test_get_basename>
+      <Function test_get_extension>
+      <Function test_exists>
+      <Function test_get_protocol>
+      <Function test_is_local_path>
+      <Function test_join>
+      <Function test_get_size>
+      <Function test_md5>
+      <Function test_glob>
+      <Function test_copy_file>
+    <Module test_utils_jobs.py>
+      <UnitTestCase TestJobs>
+        <TestCaseFunction test_job_kwargs>
+        <TestCaseFunction test_parallel>
+        <TestCaseFunction test_parallelized>
+        <TestCaseFunction test_seq_vs_parallel>
+        <TestCaseFunction test_sequential>
+        <TestCaseFunction test_tqdm_kwargs>
+        <TestCaseFunction test_with_batch_size>
+        <TestCaseFunction test_with_total>
+      <Function test_parallelized_with_batches>
+    <Module test_utils_perf.py>
+      <Function test_watch_duration>
+    <Module test_viz.py>
+      <Function test_to_image>
+      <Function test_to_image_incorrect_aromaticity>
+      <Function test_to_image_save_file>
+      <Function test_conformers>
+      <Function test_circle_grid>
+      <Function test_circle_grid_with_hex_color>
+      <Function test_circle_grid_with_angle_start>
+      <Function test_to_image_align>
+      <Function test_to_image_align_template>
+    <Module test_viz_lasso_highlight.py>
+      <Function test_original_working_solution_str>
+      <Function test_from_mol>
+      <Function test_with_highlight>
+      <Function test_original_working_solution_list_single_str>
+      <Function test_original_working_solution_list_str>
+      <Function test_original_working_solution_mol>
+      <Function test_original_working_solution_list_single_mol>
+      <Function test_original_working_solution_List_mol>
+      <Function test_wokring_solution_with_more_structures_than_colors>
+      <Function test_drawing_options>
+      <Function test_wrong_drawing_options>
+      <Function test_input_mol_is_none>
+      <Function test_search_input_error_empty_list>
+      <Function test_target_input_error_empty_str>
+      <Function test_target_input_error_None>
+      <Function test_search_input_error_smarts_no_substructure>
+      <Function test_SVG_is_returned_explicit>
+      <Function test_SVG_is_returned_implict>
+      <Function test_PNG_is_returned>
+      <Function test_aromatic_query_work>
+      <Function test_smarts_query>
+      <Function test_query_and_atom_indices_list>
+      <Function test_multiple_mol_lasso>
+      <Function test_multiple_mol_lasso_different_scale_legends>
+      <Function test_atom_indices_list_of_list>
+      <Function test_atom_indices_list>
+      <Function test_with_hex_color>
+    <Module test_viz_substrcture.py>
+      <Function test_match_substructure>
+
+================================ tests coverage ================================
+___________________________________ coverage ___________________________________
+
+Name                                 Stmts   Miss  Cover
+--------------------------------------------------------
+datamol/_sanifix4.py                   103    103     0%
+datamol/align.py                       100    100     0%
+datamol/cluster.py                      94     94     0%
+datamol/conformers/__init__.py          10     10     0%
+datamol/conformers/_conformers.py      161    161     0%
+datamol/conformers/_features.py         56     56     0%
+datamol/convert.py                     187    187     0%
+datamol/data/__init__.py                75     75     0%
+datamol/descriptors/__init__.py         38     38     0%
+datamol/descriptors/compute.py          56     56     0%
+datamol/descriptors/descriptors.py      79     79     0%
+datamol/fp.py                           78     78     0%
+datamol/fragment/__init__.py             9      9     0%
+datamol/fragment/_assemble.py          250    250     0%
+datamol/fragment/_fragment.py           87     87     0%
+datamol/graph.py                       115    115     0%
+datamol/io.py                          186    186     0%
+datamol/isomers/__init__.py              7      7     0%
+datamol/isomers/_enumerate.py           74     74     0%
+datamol/isomers/_structural.py         101    101     0%
+datamol/log.py                          44     28    36%
+datamol/mcs.py                          35     35     0%
+datamol/mol.py                         465    465     0%
+datamol/molar.py                        12     12     0%
+datamol/predictors/__init__.py           2      2     0%
+datamol/predictors/esol.py              15     15     0%
+datamol/reactions/__init__.py           17     17     0%
+datamol/reactions/_attachments.py       46     46     0%
+datamol/reactions/_reactions.py         94     94     0%
+datamol/scaffold/__init__.py             2      2     0%
+datamol/scaffold/_fuzzy.py             157    157     0%
+datamol/similarity.py                   26     26     0%
+datamol/types.py                        12     12     0%
+datamol/utils/__init__.py                6      0   100%
+datamol/utils/decorators.py             26     20    23%
+datamol/utils/fs.py                    160    132    18%
+datamol/utils/jobs.py                  116     87    25%
+datamol/utils/perf.py                   32     24    25%
+datamol/utils/testing.py                31     19    39%
+datamol/viz/__init__.py                  7      7     0%
+datamol/viz/_circle_grid.py            161    161     0%
+datamol/viz/_conformers.py              53     53     0%
+datamol/viz/_lasso_highlight.py        310    310     0%
+datamol/viz/_substructure.py            31     31     0%
+datamol/viz/_viz.py                     60     60     0%
+datamol/viz/utils.py                    63     63     0%
+--------------------------------------------------------
+TOTAL                                 3849   3744     3%
+Coverage XML written to file coverage.xml
+FAIL Required test coverage of 85% not reached. Total coverage: 2.73%
+========================= 282 tests collected in 3.12s =========================

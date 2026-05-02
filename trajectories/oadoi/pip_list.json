@@ -1,0 +1,258 @@
+[
+    {
+        "name": "async-timeout",
+        "version": "5.0.1"
+    },
+    {
+        "name": "attrs",
+        "version": "26.1.0"
+    },
+    {
+        "name": "backports.zstd",
+        "version": "1.3.0"
+    },
+    {
+        "name": "beautifulsoup4",
+        "version": "4.14.3"
+    },
+    {
+        "name": "blinker",
+        "version": "1.9.0"
+    },
+    {
+        "name": "boto3",
+        "version": "1.43.1"
+    },
+    {
+        "name": "botocore",
+        "version": "1.43.1"
+    },
+    {
+        "name": "brotli",
+        "version": "1.2.0"
+    },
+    {
+        "name": "cachetools",
+        "version": "7.0.6"
+    },
+    {
+        "name": "cattrs",
+        "version": "26.1.0"
+    },
+    {
+        "name": "certifi",
+        "version": "2026.4.22"
+    },
+    {
+        "name": "cffi",
+        "version": "2.0.0"
+    },
+    {
+        "name": "charset-normalizer",
+        "version": "3.4.7"
+    },
+    {
+        "name": "click",
+        "version": "8.3.3"
+    },
+    {
+        "name": "cryptography",
+        "version": "47.0.0"
+    },
+    {
+        "name": "ddt",
+        "version": "1.7.2"
+    },
+    {
+        "name": "exceptiongroup",
+        "version": "1.3.1"
+    },
+    {
+        "name": "Flask",
+        "version": "3.1.3"
+    },
+    {
+        "name": "Flask-Compress",
+        "version": "1.24"
+    },
+    {
+        "name": "Flask-DebugToolbar",
+        "version": "0.16.0"
+    },
+    {
+        "name": "Flask-SQLAlchemy",
+        "version": "3.1.1"
+    },
+    {
+        "name": "greenlet",
+        "version": "3.5.0"
+    },
+    {
+        "name": "heroku3",
+        "version": "5.2.1"
+    },
+    {
+        "name": "idna",
+        "version": "3.13"
+    },
+    {
+        "name": "iniconfig",
+        "version": "2.3.0"
+    },
+    {
+        "name": "itsdangerous",
+        "version": "2.2.0"
+    },
+    {
+        "name": "Jinja2",
+        "version": "3.1.6"
+    },
+    {
+        "name": "jmespath",
+        "version": "1.1.0"
+    },
+    {
+        "name": "kids.cache",
+        "version": "0.0.7"
+    },
+    {
+        "name": "lxml",
+        "version": "6.1.0"
+    },
+    {
+        "name": "MarkupSafe",
+        "version": "3.0.3"
+    },
+    {
+        "name": "mock",
+        "version": "5.2.0"
+    },
+    {
+        "name": "nose",
+        "version": "1.3.7"
+    },
+    {
+        "name": "packaging",
+        "version": "26.2"
+    },
+    {
+        "name": "pdftotext",
+        "version": "3.0.0"
+    },
+    {
+        "name": "pip",
+        "version": "23.0.1"
+    },
+    {
+        "name": "pipdeptree",
+        "version": "2.35.2"
+    },
+    {
+        "name": "platformdirs",
+        "version": "4.9.6"
+    },
+    {
+        "name": "pluggy",
+        "version": "1.6.0"
+    },
+    {
+        "name": "psycopg2-binary",
+        "version": "2.9.12"
+    },
+    {
+        "name": "pycparser",
+        "version": "3.0"
+    },
+    {
+        "name": "Pygments",
+        "version": "2.20.0"
+    },
+    {
+        "name": "pytest",
+        "version": "9.0.3"
+    },
+    {
+        "name": "python-dateutil",
+        "version": "2.9.0.post0"
+    },
+    {
+        "name": "python-http-client",
+        "version": "3.3.7"
+    },
+    {
+        "name": "redis",
+        "version": "7.4.0"
+    },
+    {
+        "name": "requests",
+        "version": "2.33.1"
+    },
+    {
+        "name": "requests-cache",
+        "version": "1.3.1"
+    },
+    {
+        "name": "s3transfer",
+        "version": "0.17.0"
+    },
+    {
+        "name": "sendgrid",
+        "version": "6.12.5"
+    },
+    {
+        "name": "setuptools",
+        "version": "79.0.1"
+    },
+    {
+        "name": "shortuuid",
+        "version": "1.0.13"
+    },
+    {
+        "name": "Sickle",
+        "version": "0.7.0"
+    },
+    {
+        "name": "six",
+        "version": "1.17.0"
+    },
+    {
+        "name": "soupsieve",
+        "version": "2.8.3"
+    },
+    {
+        "name": "SQLAlchemy",
+        "version": "2.0.49"
+    },
+    {
+        "name": "tenacity",
+        "version": "9.1.4"
+    },
+    {
+        "name": "tomli",
+        "version": "2.4.1"
+    },
+    {
+        "name": "typing_extensions",
+        "version": "4.15.0"
+    },
+    {
+        "name": "Unidecode",
+        "version": "1.4.0"
+    },
+    {
+        "name": "url-normalize",
+        "version": "3.0.0"
+    },
+    {
+        "name": "urllib3",
+        "version": "2.6.3"
+    },
+    {
+        "name": "Werkzeug",
+        "version": "3.1.8"
+    },
+    {
+        "name": "wheel",
+        "version": "0.45.1"
+    }
+]

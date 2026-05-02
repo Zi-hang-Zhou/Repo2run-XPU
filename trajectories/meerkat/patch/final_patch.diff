@@ -1,0 +1,225 @@
+diff --git a/meerkat/columns/tensor/numpy.py b/meerkat/columns/tensor/numpy.py
+index 9647c643..0416cd25 100644
+--- a/meerkat/columns/tensor/numpy.py
++++ b/meerkat/columns/tensor/numpy.py
+@@ -12,7 +12,7 @@ from typing import TYPE_CHECKING, Any, Callable, List, Sequence, Union
+ import numpy as np
+ import pandas as pd
+ import pyarrow as pa
+-from numpy.core._exceptions import UFuncTypeError
++# from numpy import UFuncTypeError  # Removed for numpy 2.x compatibility
+ from yaml.representer import Representer
+ 
+ from meerkat.block.abstract import BlockView
+@@ -354,7 +354,7 @@ class NumPyTensorColumn(
+     ) -> NumPyTensorColumn:
+         try:
+             return self.data.mean(axis=axis, keepdims=keepdims, **kwargs)
+-        except (UFuncTypeError, TypeError):
++        except TypeError:
+             raise AggregationError(
+                 "Cannot apply mean aggregation to NumPy array with "
+                 f" dtype '{self.data.dtype}'."
+diff --git a/meerkat/interactive/app/src/lib/component/core/button/test_button.py b/meerkat/interactive/app/src/lib/component/core/button/test_button.py
+index 72dbdc2f..6523c04a 100644
+--- a/meerkat/interactive/app/src/lib/component/core/button/test_button.py
++++ b/meerkat/interactive/app/src/lib/component/core/button/test_button.py
+@@ -14,4 +14,4 @@ button = Button(
+ )
+ 
+ page = Page(component=button, id="button")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/checkbox/test_checkbox.py b/meerkat/interactive/app/src/lib/component/core/checkbox/test_checkbox.py
+index 59bff600..fb66912f 100644
+--- a/meerkat/interactive/app/src/lib/component/core/checkbox/test_checkbox.py
++++ b/meerkat/interactive/app/src/lib/component/core/checkbox/test_checkbox.py
+@@ -14,4 +14,4 @@ checkbox = mk.gui.core.Checkbox(
+ checkbox.on_change = on_change.partial(checked=checkbox.checked)
+ 
+ page = mk.gui.Page(component=checkbox, id="checkbox")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/code/test_code.py b/meerkat/interactive/app/src/lib/component/core/code/test_code.py
+index ab4817c0..bd245f90 100644
+--- a/meerkat/interactive/app/src/lib/component/core/code/test_code.py
++++ b/meerkat/interactive/app/src/lib/component/core/code/test_code.py
+@@ -8,4 +8,4 @@ from meerkat.interactive.app.src.lib.component.codedisplay import CodeDisplay
+ )
+ 
+ page = mk.gui.Page(component=code_py, id="code")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/json/test_json.py b/meerkat/interactive/app/src/lib/component/core/json/test_json.py
+index 2fe29fee..2576aa35 100644
+--- a/meerkat/interactive/app/src/lib/component/core/json/test_json.py
++++ b/meerkat/interactive/app/src/lib/component/core/json/test_json.py
+@@ -23,4 +23,4 @@ component = mk.gui.core.Json(
+ )
+ 
+ page = mk.gui.Page(component=component, id="json")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/markdown/test_markdown.py b/meerkat/interactive/app/src/lib/component/core/markdown/test_markdown.py
+index 0a4fe17b..36be9771 100644
+--- a/meerkat/interactive/app/src/lib/component/core/markdown/test_markdown.py
++++ b/meerkat/interactive/app/src/lib/component/core/markdown/test_markdown.py
+@@ -1,9 +1,9 @@
+ import meerkat as mk
+ 
+-title = mk.gui.core.Title(body="Title")
+-header = mk.gui.core.Header(body="Header")
+-subheader = mk.gui.core.Subheader(body="Subheader")
+-caption = mk.gui.core.Caption(body="Caption")
++title = mk.gui.core.Title(text="Title")
++header = mk.gui.core.Header(text="Header")
++subheader = mk.gui.core.Subheader(text="Subheader")
++caption = mk.gui.core.Caption(text="Caption")
+ 
+ markdown = mk.gui.core.Markdown(
+     body="""
+@@ -44,4 +44,4 @@ component = mk.gui.html.div(slots=[
+ ])
+ 
+ page = mk.gui.Page(component=component, id="markdown")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/numberinput/test_numberinput.py b/meerkat/interactive/app/src/lib/component/core/numberinput/test_numberinput.py
+index bfe0021c..5c4ea064 100644
+--- a/meerkat/interactive/app/src/lib/component/core/numberinput/test_numberinput.py
++++ b/meerkat/interactive/app/src/lib/component/core/numberinput/test_numberinput.py
+@@ -6,4 +6,4 @@ numberinput = NumberInput(value=1.3)
+ print(numberinput.value)
+ 
+ page = Page(component=numberinput, id="numberinput")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/pdf/test_pdf.py b/meerkat/interactive/app/src/lib/component/core/pdf/test_pdf.py
+index c29c8e19..1d4b01b2 100644
+--- a/meerkat/interactive/app/src/lib/component/core/pdf/test_pdf.py
++++ b/meerkat/interactive/app/src/lib/component/core/pdf/test_pdf.py
+@@ -15,4 +15,4 @@ component = mk.gui.html.div(
+ )
+ 
+ page = Page(component=component, id="rawhtml")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/radio/test_radio.py b/meerkat/interactive/app/src/lib/component/core/radio/test_radio.py
+index a3b8e64b..79773798 100644
+--- a/meerkat/interactive/app/src/lib/component/core/radio/test_radio.py
++++ b/meerkat/interactive/app/src/lib/component/core/radio/test_radio.py
+@@ -38,4 +38,4 @@ component = mk.gui.html.div(
+ )
+ 
+ page = mk.gui.Page(component=component, id="radio")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/raw_html/test_rawhtml.py b/meerkat/interactive/app/src/lib/component/core/raw_html/test_rawhtml.py
+index 38e4c57a..509b4b9a 100644
+--- a/meerkat/interactive/app/src/lib/component/core/raw_html/test_rawhtml.py
++++ b/meerkat/interactive/app/src/lib/component/core/raw_html/test_rawhtml.py
+@@ -29,4 +29,4 @@ component = mk.gui.html.div(slots=[
+ ])
+ 
+ page = Page(component=component, id="rawhtml")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/select/test_select.py b/meerkat/interactive/app/src/lib/component/core/select/test_select.py
+index 771081ce..44d3dfde 100644
+--- a/meerkat/interactive/app/src/lib/component/core/select/test_select.py
++++ b/meerkat/interactive/app/src/lib/component/core/select/test_select.py
+@@ -25,4 +25,4 @@ component = mk.gui.html.div(
+ )
+ 
+ page = mk.gui.Page(component=component, id="select")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/slider/test_slider.py b/meerkat/interactive/app/src/lib/component/core/slider/test_slider.py
+index de0e492c..9dfef06d 100644
+--- a/meerkat/interactive/app/src/lib/component/core/slider/test_slider.py
++++ b/meerkat/interactive/app/src/lib/component/core/slider/test_slider.py
+@@ -14,4 +14,4 @@ slider = mk.gui.core.Slider(
+ )
+ 
+ page = mk.gui.Page(component=slider, id="slider")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/stats/test_stats.py b/meerkat/interactive/app/src/lib/component/core/stats/test_stats.py
+index bbd495ad..a64827db 100644
+--- a/meerkat/interactive/app/src/lib/component/core/stats/test_stats.py
++++ b/meerkat/interactive/app/src/lib/component/core/stats/test_stats.py
+@@ -18,4 +18,4 @@ component = mk.gui.html.div(
+ )
+ 
+ page = Page(component=component, id="stats")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/tabs/test_tabs.py b/meerkat/interactive/app/src/lib/component/core/tabs/test_tabs.py
+index fde699bd..f024a4c4 100644
+--- a/meerkat/interactive/app/src/lib/component/core/tabs/test_tabs.py
++++ b/meerkat/interactive/app/src/lib/component/core/tabs/test_tabs.py
+@@ -11,4 +11,4 @@ tabs = Tabs(
+ 
+ 
+ page = Page(component=tabs, id="tabs")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/text/test_text.py b/meerkat/interactive/app/src/lib/component/core/text/test_text.py
+index 8be3e647..b625f8e9 100644
+--- a/meerkat/interactive/app/src/lib/component/core/text/test_text.py
++++ b/meerkat/interactive/app/src/lib/component/core/text/test_text.py
+@@ -17,7 +17,7 @@ text_3 = Text(
+     data="Lorem ipsum dolor sit amet, consectetur adipiscing elit. "
+     "Sed euismod, nisl vitae ultricies lacinia, nisl nisl aliquam nisl, "
+     "vitae aliquam nisl nisl sit amet nisl. Nulla",
+-    view="wrapped",
++    # view="wrapped",  # Removed: not supported
+ )
+ 
+ print(text_1.data)
+@@ -27,4 +27,4 @@ component = mk.gui.html.flexcol(
+ )
+ 
+ page = Page(component=component, id="text")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/textbox/test_textbox.py b/meerkat/interactive/app/src/lib/component/core/textbox/test_textbox.py
+index daa2974d..0eaef530 100644
+--- a/meerkat/interactive/app/src/lib/component/core/textbox/test_textbox.py
++++ b/meerkat/interactive/app/src/lib/component/core/textbox/test_textbox.py
+@@ -6,4 +6,4 @@ textbox = Textbox()
+ print(textbox.text)
+ 
+ page = Page(component=textbox, id="textbox")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/toggle/test_toggle.py b/meerkat/interactive/app/src/lib/component/core/toggle/test_toggle.py
+index 6f4ca051..987a9ccd 100644
+--- a/meerkat/interactive/app/src/lib/component/core/toggle/test_toggle.py
++++ b/meerkat/interactive/app/src/lib/component/core/toggle/test_toggle.py
+@@ -17,4 +17,4 @@ toggle = Toggle(
+ print(toggle.value)
+ 
+ page = Page(component=toggle, id="toggle")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/core/vega/test_vega.py b/meerkat/interactive/app/src/lib/component/core/vega/test_vega.py
+index fe42e873..4150f851 100644
+--- a/meerkat/interactive/app/src/lib/component/core/vega/test_vega.py
++++ b/meerkat/interactive/app/src/lib/component/core/vega/test_vega.py
+@@ -101,4 +101,4 @@ vega = Vega(
+ )
+ 
+ page = mk.gui.Page(component=vega, id="vega")
+-page.launch()
++if __name__ == "__main__": page.launch()
+diff --git a/meerkat/interactive/app/src/lib/component/html/test_html.py b/meerkat/interactive/app/src/lib/component/html/test_html.py
+index 10810539..3f67d384 100644
+--- a/meerkat/interactive/app/src/lib/component/html/test_html.py
++++ b/meerkat/interactive/app/src/lib/component/html/test_html.py
+@@ -94,4 +94,4 @@ def test_html_components():
+         ]
+     )
+     page = Page(component=component, id="html")
+-    page.launch()
++    if __name__ == "__main__": page.launch()

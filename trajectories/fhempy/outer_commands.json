@@ -1,0 +1,110 @@
+[
+    {
+        "GPT_time": 2.833940029144287
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.669487476348877
+    },
+    {
+        "GPT_time": 4.717482805252075
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6687536239624023
+    },
+    {
+        "GPT_time": 3.8998026847839355
+    },
+    {
+        "command": "ls -la /repo/t",
+        "returncode": 0,
+        "time": 0.6687569618225098
+    },
+    {
+        "GPT_time": 2.486455202102661
+    },
+    {
+        "command": "find /repo/t -type f -name \"*.py\" | head -20",
+        "returncode": 0,
+        "time": 0.6686005592346191
+    },
+    {
+        "GPT_time": 2.8236043453216553
+    },
+    {
+        "command": "ls -laR /repo/t",
+        "returncode": 0,
+        "time": 0.6679542064666748
+    },
+    {
+        "GPT_time": 3.252495765686035
+    },
+    {
+        "command": "ls -la /repo/FHEM",
+        "returncode": 0,
+        "time": 0.6690185070037842
+    },
+    {
+        "GPT_time": 2.681990385055542
+    },
+    {
+        "command": "ls -laR /repo/FHEM/bindings",
+        "returncode": 0,
+        "time": 0.6797809600830078
+    },
+    {
+        "GPT_time": 4.459085941314697
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6637759208679199
+    },
+    {
+        "command": "poetry install",
+        "returncode": 0,
+        "time": 13.358702421188354
+    },
+    {
+        "GPT_time": 4.529780149459839
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6649270057678223
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 16.124951362609863
+    },
+    {
+        "GPT_time": 6.5180504322052
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.664952278137207
+    },
+    {
+        "command": "poetry install --with all",
+        "returncode": 0,
+        "time": 59.24482345581055
+    },
+    {
+        "GPT_time": 5.077943325042725
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6644821166992188
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 9.136156797409058
+    }
+]

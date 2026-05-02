@@ -1,0 +1,1094 @@
+[
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6093266010284424,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7572557926177979,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7387576103210449,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.7094120979309082,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6076920032501221,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7360210418701172,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7387523651123047,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6420807838439941,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6048660278320312,
+        "dir": "/"
+    },
+    {
+        "command": "poetry install",
+        "returncode": 0,
+        "time": 198.10882019996643,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7355861663818359,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7383441925048828,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6372847557067871,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/poetryruntest.py",
+        "returncode": 2,
+        "time": 1.2852604389190674,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.738213300704956,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7382044792175293,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.7116882801055908,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6052596569061279,
+        "dir": "/"
+    },
+    {
+        "command": "poetry env info",
+        "returncode": 0,
+        "time": 1.2097609043121338,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7347731590270996,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7398254871368408,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6369965076446533,
+        "dir": "/repo"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6049919128417969,
+        "dir": "/repo"
+    },
+    {
+        "command": "poetry run pip list | grep -i celery",
+        "returncode": 0,
+        "time": 1.8403534889221191,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7353155612945557,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.737576961517334,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6392612457275391,
+        "dir": "/repo"
+    },
+    {
+        "command": "cat /home/tools/poetryruntest.py",
+        "returncode": 0,
+        "time": 0.6086692810058594,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.734311580657959,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7383320331573486,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6387474536895752,
+        "dir": "/repo"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6053009033203125,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7343142032623291,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7392988204956055,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6395730972290039,
+        "dir": "/repo"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6052358150482178,
+        "dir": "/repo"
+    },
+    {
+        "command": "poetry run pip list",
+        "returncode": 0,
+        "time": 1.4781522750854492,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7389492988586426,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7397263050079346,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6304435729980469,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/poetryruntest.py",
+        "returncode": 2,
+        "time": 1.1033103466033936,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7219557762145996,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7179086208343506,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.639723539352417,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6051182746887207,
+        "dir": "/"
+    },
+    {
+        "command": "poetry run pip list | grep -i pytest",
+        "returncode": 1,
+        "time": 0.7635643482208252,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7391214370727539,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7377128601074219,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6543028354644775,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.60546875,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7360434532165527,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7368359565734863,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6403694152832031,
+        "dir": "/repo"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6045289039611816,
+        "dir": "/repo"
+    },
+    {
+        "command": "poetry run pip install pytest",
+        "returncode": 0,
+        "time": 9.343614339828491,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7414703369140625,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7429728507995605,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6412787437438965,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/poetryruntest.py",
+        "returncode": 2,
+        "time": 2.573808193206787,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7471437454223633,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7468676567077637,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6426148414611816,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/heltour/",
+        "returncode": 0,
+        "time": 0.6094050407409668,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7339475154876709,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7311246395111084,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6772758960723877,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/heltour/settings_testing.py",
+        "returncode": 0,
+        "time": 0.6086533069610596,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.715238094329834,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7171940803527832,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6347382068634033,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7154490947723389,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7185113430023193,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6347553730010986,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/heltour/tournament/tests/",
+        "returncode": 0,
+        "time": 0.6071515083312988,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7354772090911865,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7375030517578125,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6377151012420654,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/*.ini /repo/*.cfg 2>/dev/null || echo \"No ini or cfg files found\"",
+        "returncode": 0,
+        "time": 0.6086788177490234,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7327351570129395,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7353758811950684,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6352906227111816,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/heltour/tournament/tests/test_api.py",
+        "returncode": 0,
+        "time": 0.6082305908203125,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7353308200836182,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7370352745056152,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6354997158050537,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/heltour/__init__.py",
+        "returncode": 0,
+        "time": 0.6076929569244385,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7340013980865479,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7361774444580078,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6368463039398193,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/code_edit.py -t '/home/zihang/Repo2Run/tmp_patches/tmpdm6jha7w' -p '/tmp'",
+        "returncode": 1,
+        "time": 0.05010867118835449,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7339828014373779,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7355325222015381,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6364734172821045,
+        "dir": "/"
+    },
+    {
+        "command": "cat > /repo/conftest.py << 'EOF' import os import django  os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'heltour.settings_testing') django.setup() EOF",
+        "returncode": -1,
+        "time": -1,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7379486560821533,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7383041381835938,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6416196823120117,
+        "dir": "/"
+    },
+    {
+        "command": "echo -e \"import os\\nimport django\\n\\nos.environ.setdefault('DJANGO_SETTINGS_MODULE', 'heltour.settings_testing')\\ndjango.setup()\" > /repo/conftest.py",
+        "returncode": 0,
+        "time": 0.6063158512115479,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.735914945602417,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7375316619873047,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6355953216552734,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/conftest.py",
+        "returncode": 0,
+        "time": 0.6081736087799072,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7348628044128418,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7372689247131348,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6411702632904053,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/poetryruntest.py",
+        "returncode": 4,
+        "time": 2.628922462463379,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.737647294998169,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7372629642486572,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6435527801513672,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/heltour/settings_testing.py",
+        "returncode": 0,
+        "time": 0.6082589626312256,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7351846694946289,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7359397411346436,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6381015777587891,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/heltour/settings_default.py | grep -A 20 CACHEOPS",
+        "returncode": 0,
+        "time": 0.6079661846160889,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7193412780761719,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.738133430480957,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.638272762298584,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/code_edit.py -t '/home/zihang/Repo2Run/tmp_patches/tmpavukzwck' -p '/tmp'",
+        "returncode": 1,
+        "time": 0.050100088119506836,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7350621223449707,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7365176677703857,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6374220848083496,
+        "dir": "/"
+    },
+    {
+        "command": "echo -e \"from .settings_default import *\\nCACHEOPS = {\\n    '*.*': {'ops': None},\\n}\\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\" > /repo/heltour/settings_testing.py",
+        "returncode": 0,
+        "time": 0.6077446937561035,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7179059982299805,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.735933780670166,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6378676891326904,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/poetryruntest.py",
+        "returncode": 4,
+        "time": 2.4987730979919434,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.73779296875,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7380509376525879,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.642542839050293,
+        "dir": "/"
+    },
+    {
+        "command": "echo -e \"from .settings_default import *\\nCACHEOPS = {\\n    '*.*': {'ops': set()},\\n}\\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\" > /repo/heltour/settings_testing.py",
+        "returncode": 0,
+        "time": 0.6082122325897217,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7347457408905029,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.738231897354126,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6368837356567383,
+        "dir": "/"
+    },
+    {
+        "command": "echo -e \"from .settings_default import *\\nCACHEOPS_ENABLED = False\\nCACHEOPS = {}\\nSTATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage'\" > /repo/heltour/settings_testing.py",
+        "returncode": 0,
+        "time": 0.6054356098175049,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7369511127471924,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7382867336273193,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6358780860900879,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/poetryruntest.py",
+        "returncode": 4,
+        "time": 3.1149909496307373,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7362699508666992,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7395391464233398,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6423418521881104,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6052353382110596,
+        "dir": "/"
+    },
+    {
+        "command": "poetry run python -c \" content = '''from .settings_default import * CACHEOPS = {     '*.*': {'ops': set()}, } STATICFILES_STORAGE = 'django.contrib.staticfiles.storage.StaticFilesStorage' ''' with open('heltour/settings_testing.py', 'w') as f:     f.write(content) \"",
+        "returncode": 1,
+        "time": 0.6363909244537354,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7385597229003906,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7395145893096924,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6426422595977783,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6055612564086914,
+        "dir": "/"
+    },
+    {
+        "command": "poetry run python -c \"f=open('heltour/settings_testing.py','w'); f.write('from .settings_default import *\\nCACHEOPS = {\\n    \\\"*.*\\\": {\\\"ops\\\": set()},\\n}\\nSTATICFILES_STORAGE = \\\"django.contrib.staticfiles.storage.StaticFilesStorage\\\"\\n'); f.close()\"",
+        "returncode": 0,
+        "time": 1.1030776500701904,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7358982563018799,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7381808757781982,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.63338303565979,
+        "dir": "/repo"
+    },
+    {
+        "command": "cat /repo/heltour/settings_testing.py",
+        "returncode": 0,
+        "time": 0.6069343090057373,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7339670658111572,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7399811744689941,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6419248580932617,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/poetryruntest.py",
+        "returncode": 4,
+        "time": 14.937578201293945,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7368741035461426,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7377920150756836,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6404757499694824,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6045560836791992,
+        "dir": "/"
+    },
+    {
+        "command": "poetry run python -c \"f=open('heltour/settings_testing.py','w'); f.write('from .settings_default import *\\nCACHEOPS = {\\n    \\\"*.*\\\": {\\\"ops\\\": set(), \\\"timeout\\\": 0},\\n}\\nSTATICFILES_STORAGE = \\\"django.contrib.staticfiles.storage.StaticFilesStorage\\\"\\n'); f.close()\"",
+        "returncode": 0,
+        "time": 1.0884199142456055,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7153604030609131,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7363958358764648,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.636124849319458,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/poetryruntest.py",
+        "returncode": 4,
+        "time": 6.551937580108643,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7415814399719238,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7364366054534912,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.7083859443664551,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6049556732177734,
+        "dir": "/"
+    },
+    {
+        "command": "poetry run pip list | grep -i openssl",
+        "returncode": 0,
+        "time": 5.169416427612305,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7347772121429443,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7364850044250488,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6414663791656494,
+        "dir": "/repo"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6052641868591309,
+        "dir": "/repo"
+    },
+    {
+        "command": "poetry run pip install -q pyOpenSSL==23.0.0",
+        "returncode": 0,
+        "time": 22.582280158996582,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.737473726272583,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7398333549499512,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6412389278411865,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/poetryruntest.py",
+        "returncode": 0,
+        "time": 23.83712339401245,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.740558385848999,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7379481792449951,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.659146785736084,
+        "dir": "/repo"
+    }
+]

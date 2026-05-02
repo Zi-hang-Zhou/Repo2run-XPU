@@ -1,0 +1,68 @@
+[
+    {
+        "GPT_time": 2.4781250953674316
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6706459522247314
+    },
+    {
+        "GPT_time": 3.5775198936462402
+    },
+    {
+        "command": "cat /repo/.python-version",
+        "returncode": 0,
+        "time": 0.6674509048461914
+    },
+    {
+        "GPT_time": 4.549924612045288
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6721968650817871
+    },
+    {
+        "GPT_time": 5.387909889221191
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6683104038238525
+    },
+    {
+        "command": "poetry install",
+        "returncode": 0,
+        "time": 10.382871389389038
+    },
+    {
+        "GPT_time": 3.57737135887146
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 19.468945741653442
+    },
+    {
+        "GPT_time": 3.925764799118042
+    },
+    {
+        "command": "apt-get update -qq",
+        "returncode": 0,
+        "time": 1.8242859840393066
+    },
+    {
+        "command": "apt-get install tmux -y -qq",
+        "returncode": 0,
+        "time": 3.159771680831909
+    },
+    {
+        "GPT_time": 3.200143337249756
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 3.7098262310028076
+    }
+]

@@ -1,0 +1,131 @@
+[
+    {
+        "GPT_time": 2.7453742027282715
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6725649833679199
+    },
+    {
+        "GPT_time": 4.747263431549072
+    },
+    {
+        "command": "cat /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.6703388690948486
+    },
+    {
+        "command": "ls -la /repo/test",
+        "returncode": 0,
+        "time": 0.668081521987915
+    },
+    {
+        "GPT_time": 5.201735258102417
+    },
+    {
+        "command": "ls /repo/*.py /repo/*.toml 2>/dev/null; cat /repo/test/lit.cfg.py",
+        "returncode": 0,
+        "time": 0.9830431938171387
+    },
+    {
+        "GPT_time": 4.011686563491821
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.03929328918457031
+    },
+    {
+        "GPT_time": 2.714266300201416
+    },
+    {
+        "command": "ls -la /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.6691243648529053
+    },
+    {
+        "GPT_time": 2.4688403606414795
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.045021772384643555
+    },
+    {
+        "GPT_time": 3.590179681777954
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6645257472991943
+    },
+    {
+        "command": "pwd",
+        "returncode": 0,
+        "time": 0.6654367446899414
+    },
+    {
+        "command": "cat requirements.txt",
+        "returncode": 0,
+        "time": 0.6678283214569092
+    },
+    {
+        "GPT_time": 3.2578318119049072
+    },
+    {
+        "command": "waitinglist addfile requirements.txt",
+        "returncode": 0,
+        "time": 0.044196128845214844
+    },
+    {
+        "GPT_time": 2.8677618503570557
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.04564642906188965
+    },
+    {
+        "GPT_time": 4.229215621948242
+    },
+    {
+        "command": "waitinglist add -p future -v \">=0.17.1\"",
+        "returncode": 0,
+        "time": 0.46472859382629395
+    },
+    {
+        "command": "waitinglist add -p pyparsing -v \">=2.2.0\"",
+        "returncode": 0,
+        "time": 0.4689047336578369
+    },
+    {
+        "GPT_time": 2.968672275543213
+    },
+    {
+        "command": "waitinglist add -p future -v >=0.17.1 -t pip",
+        "returncode": 0,
+        "time": 0.011620521545410156
+    },
+    {
+        "command": "waitinglist add -p pyparsing -v >=2.2.0 -t pip",
+        "returncode": 0,
+        "time": 0.007355213165283203
+    },
+    {
+        "GPT_time": 2.3835742473602295
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 5.435127258300781
+    },
+    {
+        "GPT_time": 2.333892822265625
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 1.0329344272613525
+    }
+]

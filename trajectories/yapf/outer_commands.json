@@ -1,0 +1,65 @@
+[
+    {
+        "GPT_time": 2.673860788345337
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6713247299194336
+    },
+    {
+        "GPT_time": 4.648729562759399
+    },
+    {
+        "command": "cat /repo/.python-version",
+        "returncode": 0,
+        "time": 0.6669571399688721
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6680037975311279
+    },
+    {
+        "GPT_time": 5.977533578872681
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"setup.py\" 2>/dev/null | head -20",
+        "returncode": 0,
+        "time": 0.7673027515411377
+    },
+    {
+        "GPT_time": 4.167340517044067
+    },
+    {
+        "command": "cat /repo/tox.ini",
+        "returncode": 0,
+        "time": 0.6661195755004883
+    },
+    {
+        "command": "ls -la /repo/yapftests/",
+        "returncode": 0,
+        "time": 0.664689302444458
+    },
+    {
+        "GPT_time": 5.741295576095581
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6636502742767334
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 4.866340160369873
+    },
+    {
+        "GPT_time": 3.0343549251556396
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 1.5203075408935547
+    }
+]

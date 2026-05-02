@@ -1,0 +1,13 @@
+diff --git a/civet/apps.py b/civet/apps.py
+index 135ecab..212ff5f 100644
+--- a/civet/apps.py
++++ b/civet/apps.py
+@@ -10,7 +10,7 @@ import pytz
+ logger = logging.getLogger('ci')
+ 
+ class scheduleConfig(AppConfig):
+-    name = "test"
++    name = "civet"
+ 
+     def schedulePinger():
+         logger.debug("SCHEDULER: Starting")

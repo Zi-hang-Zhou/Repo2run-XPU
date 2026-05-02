@@ -1,0 +1,119 @@
+[
+    {
+        "GPT_time": 2.808839797973633
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6692569255828857
+    },
+    {
+        "GPT_time": 4.690469264984131
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6689150333404541
+    },
+    {
+        "GPT_time": 4.335148811340332
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.6700165271759033
+    },
+    {
+        "GPT_time": 5.190617561340332
+    },
+    {
+        "command": "ls -la /repo/.pipreqs",
+        "returncode": 0,
+        "time": 0.6666679382324219
+    },
+    {
+        "command": "cat /repo/.pipreqs/*",
+        "returncode": 0,
+        "time": 0.1631309986114502
+    },
+    {
+        "GPT_time": 3.8724749088287354
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"Pipfile*\" -o -name \"poetry.lock\" 2>/dev/null",
+        "returncode": 0,
+        "time": 0.7623255252838135
+    },
+    {
+        "GPT_time": 3.4940028190612793
+    },
+    {
+        "command": "cat /repo/docs/requirements.txt",
+        "returncode": 0,
+        "time": 0.6632676124572754
+    },
+    {
+        "GPT_time": 3.966942548751831
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.27076768875122
+    },
+    {
+        "GPT_time": 5.103877067565918
+    },
+    {
+        "command": "grep -r \"^import\\|^from\" /repo/pyftpdlib/*.py | grep -v \"__pycache__\" | head -50",
+        "returncode": 0,
+        "time": 0.6708076000213623
+    },
+    {
+        "GPT_time": 4.960106372833252
+    },
+    {
+        "command": "grep -r \"^import\\|^from\" /repo/pyftpdlib/test/*.py | grep -v \"__pycache__\" | grep -v \"import os\\|import sys\\|import socket\\|import time\\|import tempfile\\|import unittest\\|import logging\\|import threading\\|import functools\\|import warnings\\|import errno\\|import stat\\|import shutil\\|import contextlib\\|import random\\|import re\\|import gc\\|import atexit\\|import socketserver\\|from unittest\\|from .\\|import pyftpdlib\"",
+        "returncode": 0,
+        "time": 0.6681575775146484
+    },
+    {
+        "GPT_time": 4.539339542388916
+    },
+    {
+        "command": "waitinglist add -p psutil",
+        "returncode": 0,
+        "time": 0.2105855941772461
+    },
+    {
+        "GPT_time": 3.1880316734313965
+    },
+    {
+        "command": "waitinglist add -p psutil -t pip",
+        "returncode": 0,
+        "time": 0.009778022766113281
+    },
+    {
+        "GPT_time": 3.4947452545166016
+    },
+    {
+        "command": "waitinglist add -p pyopenssl -t pip",
+        "returncode": 0,
+        "time": 0.0074310302734375
+    },
+    {
+        "GPT_time": 2.682771921157837
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 6.520465135574341
+    },
+    {
+        "GPT_time": 3.322038412094116
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 1.7044544219970703
+    }
+]

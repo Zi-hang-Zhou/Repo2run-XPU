@@ -1,0 +1,172 @@
+[
+    {
+        "GPT_time": 2.7853965759277344
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6684777736663818
+    },
+    {
+        "GPT_time": 4.306904554367065
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6688833236694336
+    },
+    {
+        "GPT_time": 7.200608968734741
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"poetry.lock\" 2>/dev/null",
+        "returncode": 0,
+        "time": 1.343484878540039
+    },
+    {
+        "GPT_time": 3.4459660053253174
+    },
+    {
+        "command": "cat /repo/doc/binder/requirements.txt",
+        "returncode": 0,
+        "time": 0.6668128967285156
+    },
+    {
+        "GPT_time": 3.002228021621704
+    },
+    {
+        "command": "cat /repo/sphinx_gallery/tests/tinybuild/doc/binder/requirements.txt",
+        "returncode": 0,
+        "time": 0.6657559871673584
+    },
+    {
+        "GPT_time": 4.3301403522491455
+    },
+    {
+        "command": "ls -la /repo/sphinx_gallery/tests/",
+        "returncode": 0,
+        "time": 0.6692087650299072
+    },
+    {
+        "GPT_time": 3.459402084350586
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6651041507720947
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.119860649108887
+    },
+    {
+        "GPT_time": 4.822826385498047
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6636767387390137
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 29.133748054504395
+    },
+    {
+        "GPT_time": 4.090054035186768
+    },
+    {
+        "command": "waitinglist add -p pytest-cov -t pip",
+        "returncode": 0,
+        "time": 0.009202957153320312
+    },
+    {
+        "GPT_time": 4.330981016159058
+    },
+    {
+        "command": "waitinglist add -p pytest -t pip",
+        "returncode": 0,
+        "time": 0.009509563446044922
+    },
+    {
+        "command": "waitinglist add -p numpy -t pip",
+        "returncode": 0,
+        "time": 0.005613803863525391
+    },
+    {
+        "command": "waitinglist add -p matplotlib -t pip",
+        "returncode": 0,
+        "time": 0.004207134246826172
+    },
+    {
+        "command": "waitinglist add -p pillow -t pip",
+        "returncode": 0,
+        "time": 0.00491642951965332
+    },
+    {
+        "command": "waitinglist add -p seaborn -t pip",
+        "returncode": 0,
+        "time": 0.0072689056396484375
+    },
+    {
+        "command": "waitinglist add -p joblib -t pip",
+        "returncode": 0,
+        "time": 0.006700754165649414
+    },
+    {
+        "GPT_time": 2.4636294841766357
+    },
+    {
+        "command": "waitinglist show",
+        "returncode": 0,
+        "time": 0.008791685104370117
+    },
+    {
+        "GPT_time": 2.8006715774536133
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 80.60658621788025
+    },
+    {
+        "GPT_time": 3.16170597076416
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6658658981323242
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 17.8785982131958
+    },
+    {
+        "GPT_time": 3.4448533058166504
+    },
+    {
+        "command": "waitinglist add -p lxml -t pip",
+        "returncode": 0,
+        "time": 0.008816957473754883
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 4.72159743309021
+    },
+    {
+        "GPT_time": 3.5834226608276367
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6630837917327881
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 2.3219141960144043
+    }
+]

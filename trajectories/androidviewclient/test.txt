@@ -1,0 +1,24 @@
+tst/connected/test_uiautomatorhelper_ui_device.py::test_click
+tst/connected/test_uiautomatorhelper_ui_device.py::test_dump_window_hierarchy__json
+tst/connected/test_uiautomatorhelper_ui_device.py::test_dump_window_hierarchy__xml
+tst/connected/test_uiautomatorhelper_ui_device.py::test_find_object
+tst/connected/test_uiautomatorhelper_ui_device.py::test_find_objects
+tst/connected/test_uiautomatorhelper_ui_device.py::test_has_object
+tst/connected/test_uiautomatorhelper_ui_device.py::test_press_back
+tst/connected/test_uiautomatorhelper_ui_device.py::test_press_enter
+tst/connected/test_uiautomatorhelper_ui_device.py::test_press_home
+tst/connected/test_uiautomatorhelper_ui_device.py::test_press_recent_apps
+tst/connected/test_uiautomatorhelper_ui_device.py::test_press_key_code
+tst/connected/test_uiautomatorhelper_ui_device.py::test_swipe
+tst/connected/test_uiautomatorhelper_ui_device.py::test_take_screenshot__filename
+tst/connected/test_uiautomatorhelper_ui_device.py::test_wait
+tst/connected/test_uiautomatorhelper_ui_device.py::test_wait_for_idle
+tst/connected/test_uiautomatorhelper_ui_device.py::test_wait_for_window_update
+tst/connected/test_uiautomatorhelper_ui_object.py::test_exists
+tst/connected/test_uiautomatorhelper_ui_object.py::test_get_child_count
+tst/connected/test_uiautomatorhelper_ui_object.py::test_perform_two_pointer_gesture
+tst/connected/test_uiautomatorhelper_ui_object.py::test_pinch_in
+tst/connected/test_uiautomatorhelper_ui_object.py::test_pinch_out
+tst/test_levenshtein_distance.py::test_levenshtein_distance
+
+22 tests collected in 0.21s

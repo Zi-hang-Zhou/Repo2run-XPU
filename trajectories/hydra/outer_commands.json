@@ -1,0 +1,342 @@
+[
+    {
+        "GPT_time": 2.786619186401367
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6713318824768066
+    },
+    {
+        "GPT_time": 6.465252637863159
+    },
+    {
+        "command": "ls -la /repo/requirements",
+        "returncode": 0,
+        "time": 0.6676881313323975
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.6673252582550049
+    },
+    {
+        "GPT_time": 4.633598327636719
+    },
+    {
+        "command": "cat /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.6666569709777832
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6631522178649902
+    },
+    {
+        "command": "cat /repo/requirements/dev.txt",
+        "returncode": 0,
+        "time": 0.6634659767150879
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6619565486907959
+    },
+    {
+        "command": "cat /repo/apt.txt",
+        "returncode": 0,
+        "time": 0.6641831398010254
+    },
+    {
+        "GPT_time": 6.273556232452393
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6626389026641846
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 16.704457759857178
+    },
+    {
+        "GPT_time": 6.244214057922363
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.03400135040283203
+    },
+    {
+        "command": "waitinglist add -p default-jre -t apt",
+        "returncode": 0,
+        "time": 0.005142688751220703
+    },
+    {
+        "GPT_time": 3.5274829864501953
+    },
+    {
+        "command": "ls -la /repo/requirements/",
+        "returncode": 0,
+        "time": 0.663867712020874
+    },
+    {
+        "GPT_time": 3.555359363555908
+    },
+    {
+        "command": "cat /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.6650853157043457
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/requirements.txt",
+        "returncode": 0,
+        "time": 0.030181169509887695
+    },
+    {
+        "GPT_time": 4.096935987472534
+    },
+    {
+        "command": "waitinglist add -p omegaconf -v \">=2.4.0.dev2\"",
+        "returncode": 0,
+        "time": 0.21614861488342285
+    },
+    {
+        "command": "waitinglist add -p packaging",
+        "returncode": 0,
+        "time": 0.21392202377319336
+    },
+    {
+        "GPT_time": 3.580982208251953
+    },
+    {
+        "command": "waitinglist add -p omegaconf -v \">=2.4.0.dev2\" -t pip",
+        "returncode": 0,
+        "time": 0.008224964141845703
+    },
+    {
+        "command": "waitinglist add -p packaging -t pip",
+        "returncode": 0,
+        "time": 0.006680965423583984
+    },
+    {
+        "GPT_time": 3.0111701488494873
+    },
+    {
+        "command": "waitinglist show",
+        "returncode": 0,
+        "time": 0.008197784423828125
+    },
+    {
+        "GPT_time": 3.79502534866333
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 32.3357880115509
+    },
+    {
+        "GPT_time": 3.167839765548706
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6636457443237305
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 19.437973022460938
+    },
+    {
+        "GPT_time": 6.9505414962768555
+    },
+    {
+        "command": "pip show omegaconf",
+        "returncode": 0,
+        "time": 1.013230323791504
+    },
+    {
+        "command": "pip index versions antlr4-python3-runtime --python-version 3.10",
+        "returncode": 0,
+        "time": 1.3321657180786133
+    },
+    {
+        "GPT_time": 6.338964939117432
+    },
+    {
+        "command": "python -c \"import omegaconf; print(omegaconf.__file__)\"",
+        "returncode": 0,
+        "time": 0.8116340637207031
+    },
+    {
+        "command": "ls -la /usr/local/lib/python3.10/site-packages/omegaconf/",
+        "returncode": 0,
+        "time": 0.6645872592926025
+    },
+    {
+        "GPT_time": 4.884637832641602
+    },
+    {
+        "command": "cat /repo/hydra/core/override_parser/overrides_parser.py | head -20",
+        "returncode": 0,
+        "time": 0.6691689491271973
+    },
+    {
+        "GPT_time": 6.914769887924194
+    },
+    {
+        "command": "pip index versions omegaconf --python-version 3.10",
+        "returncode": 0,
+        "time": 1.5889859199523926
+    },
+    {
+        "GPT_time": 7.174253225326538
+    },
+    {
+        "command": "python -c \"from antlr4.error.Errors import LexerNoViableAltException; print('antlr4 works directly')\"",
+        "returncode": 0,
+        "time": 0.7577419281005859
+    },
+    {
+        "GPT_time": 7.227121829986572
+    },
+    {
+        "command": "pip install -q \"git+https://github.com/omry/omegaconf.git\"",
+        "returncode": 0,
+        "time": 16.25092101097107
+    },
+    {
+        "GPT_time": 7.967665195465088
+    },
+    {
+        "command": "pip install -q setuptools",
+        "returncode": 0,
+        "time": 1.092954397201538
+    },
+    {
+        "command": "pip install -q \"git+https://github.com/omry/omegaconf.git\"",
+        "returncode": 0,
+        "time": 16.11605215072632
+    },
+    {
+        "GPT_time": 10.260959386825562
+    },
+    {
+        "command": "pip install -q --no-build-isolation \"git+https://github.com/omry/omegaconf.git\"",
+        "returncode": 0,
+        "time": 5.328932046890259
+    },
+    {
+        "GPT_time": 5.112267255783081
+    },
+    {
+        "command": "ls -la /usr/local/lib/python3.10/site-packages/omegaconf/",
+        "returncode": 0,
+        "time": 0.6688556671142578
+    },
+    {
+        "command": "python -c \"from omegaconf.vendor.antlr4.error.Errors import LexerNoViableAltException; print('vendor antlr4 works')\"",
+        "returncode": 0,
+        "time": 0.8393988609313965
+    },
+    {
+        "GPT_time": 4.543491840362549
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6636288166046143
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.51349425315857
+    },
+    {
+        "GPT_time": 5.2519614696502686
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6630163192749023
+    },
+    {
+        "command": "python setup.py antlr",
+        "returncode": 0,
+        "time": 1.6821064949035645
+    },
+    {
+        "GPT_time": 3.022562026977539
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6656014919281006
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 12.601887702941895
+    },
+    {
+        "GPT_time": 5.346255302429199
+    },
+    {
+        "command": "pip show pytest",
+        "returncode": 0,
+        "time": 1.0636425018310547
+    },
+    {
+        "command": "python -c \"from _pytest.python_api import raises; print('raises works')\"",
+        "returncode": 0,
+        "time": 0.0077707767486572266
+    },
+    {
+        "GPT_time": 3.9405148029327393
+    },
+    {
+        "command": "python -c \"import _pytest.python_api; print(dir(_pytest.python_api))\"",
+        "returncode": 0,
+        "time": 0.009297609329223633
+    },
+    {
+        "GPT_time": 2.4754765033721924
+    },
+    {
+        "command": "python -c \"import _pytest.python_api as api; print([x for x in dir(api) if not x.startswith('_')])\"",
+        "returncode": 0,
+        "time": 0.0075414180755615234
+    },
+    {
+        "GPT_time": 4.8016204833984375
+    },
+    {
+        "command": "pip index versions pytest --python-version 3.10 | head -20",
+        "returncode": 0,
+        "time": 1.3803627490997314
+    },
+    {
+        "GPT_time": 5.138643980026245
+    },
+    {
+        "command": "pip install -q pytest==7.4.4",
+        "returncode": 0,
+        "time": 2.085160493850708
+    },
+    {
+        "GPT_time": 4.015583038330078
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6654951572418213
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 2.4334609508514404
+    }
+]

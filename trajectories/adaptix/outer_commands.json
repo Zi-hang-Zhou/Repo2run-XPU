@@ -1,0 +1,175 @@
+[
+    {
+        "GPT_time": 2.729593515396118
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6701507568359375
+    },
+    {
+        "GPT_time": 3.8517370223999023
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6671528816223145
+    },
+    {
+        "GPT_time": 4.506376028060913
+    },
+    {
+        "command": "ls -la /repo/requirements",
+        "returncode": 0,
+        "time": 0.6683201789855957
+    },
+    {
+        "GPT_time": 3.5603885650634766
+    },
+    {
+        "command": "cat /repo/requirements/dev.txt",
+        "returncode": 0,
+        "time": 0.67323899269104
+    },
+    {
+        "GPT_time": 6.716015815734863
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6638433933258057
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 5.20606255531311
+    },
+    {
+        "GPT_time": 3.407022714614868
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 11.386353492736816
+    },
+    {
+        "GPT_time": 4.258775472640991
+    },
+    {
+        "command": "ls -la /repo/tests",
+        "returncode": 0,
+        "time": 0.668891191482544
+    },
+    {
+        "GPT_time": 2.7283036708831787
+    },
+    {
+        "command": "ls -la /repo/tests/tests_helpers",
+        "returncode": 0,
+        "time": 0.6683275699615479
+    },
+    {
+        "GPT_time": 3.2791924476623535
+    },
+    {
+        "command": "cd /repo/tests/tests_helpers",
+        "returncode": 0,
+        "time": 0.6647076606750488
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 1.6761143207550049
+    },
+    {
+        "GPT_time": 3.3614609241485596
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 12.42371940612793
+    },
+    {
+        "GPT_time": 7.144076585769653
+    },
+    {
+        "command": "waitinglist add -p dirty-equals -v 0.7.1.post0",
+        "returncode": 0,
+        "time": 0.21517157554626465
+    },
+    {
+        "command": "waitinglist add -p phonenumberslite -v 8.13.26",
+        "returncode": 0,
+        "time": 0.21686100959777832
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 0.0077059268951416016
+    },
+    {
+        "GPT_time": 3.6988584995269775
+    },
+    {
+        "command": "waitinglist add -p dirty-equals -v 0.7.1.post0 -t pip",
+        "returncode": 0,
+        "time": 0.008142471313476562
+    },
+    {
+        "command": "waitinglist add -p phonenumberslite -v 8.13.26 -t pip",
+        "returncode": 0,
+        "time": 0.008005619049072266
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 57.1133828163147
+    },
+    {
+        "GPT_time": 5.281221389770508
+    },
+    {
+        "command": "waitinglist add -p dirty-equals -v ==0.7.1.post0 -t pip",
+        "returncode": 0,
+        "time": 0.007443904876708984
+    },
+    {
+        "command": "waitinglist add -p phonenumberslite -v ==8.13.26 -t pip",
+        "returncode": 0,
+        "time": 0.007168292999267578
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 0.006927013397216797
+    },
+    {
+        "GPT_time": 5.438897609710693
+    },
+    {
+        "command": "conflictlist solve -u",
+        "returncode": 0,
+        "time": 0.008824825286865234
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 12.657394886016846
+    },
+    {
+        "GPT_time": 5.3547093868255615
+    },
+    {
+        "command": "pip install -q dirty-equals==0.7.1.post0 phonenumberslite==8.13.26",
+        "returncode": 0,
+        "time": 2.720494031906128
+    },
+    {
+        "GPT_time": 2.792382001876831
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 2.865914821624756
+    }
+]

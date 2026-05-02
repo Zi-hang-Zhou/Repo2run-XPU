@@ -1,0 +1,67 @@
+nvidia-cuda-cupti==13.0.85
+nvidia-cuda-nvrtc==13.0.88
+nvidia-cuda-runtime==13.0.96
+nvidia-cufft==12.0.0.61
+└── nvidia-nvjitlink [required: Any, installed: 13.0.88]
+nvidia-cufile==1.15.1.6
+nvidia-curand==10.4.0.35
+nvidia-cusolver==12.0.4.66
+├── nvidia-cublas [required: Any, installed: 13.1.0.3]
+├── nvidia-nvjitlink [required: Any, installed: 13.0.88]
+└── nvidia-cusparse [required: Any, installed: 12.6.3.3]
+    └── nvidia-nvjitlink [required: Any, installed: 13.0.88]
+nvidia-nvtx==13.0.85
+pip==23.0.1
+pipdeptree==2.35.1
+└── packaging [required: >=26, installed: 26.0]
+pypose==0.6.8
+├── pytest [required: >=7, installed: 9.0.3]
+│   ├── exceptiongroup [required: >=1, installed: 1.3.1]
+│   │   └── typing_extensions [required: >=4.6.0, installed: 4.15.0]
+│   ├── iniconfig [required: >=1.0.1, installed: 2.3.0]
+│   ├── packaging [required: >=22, installed: 26.0]
+│   ├── pluggy [required: >=1.5,<2, installed: 1.6.0]
+│   ├── Pygments [required: >=2.7.2, installed: 2.20.0]
+│   └── tomli [required: >=1, installed: 2.4.1]
+└── torch [required: ==2.*, installed: 2.11.0]
+    ├── filelock [required: Any, installed: 3.25.2]
+    ├── typing_extensions [required: >=4.10.0, installed: 4.15.0]
+    ├── setuptools [required: <82, installed: 79.0.1]
+    ├── sympy [required: >=1.13.3, installed: 1.14.0]
+    │   └── mpmath [required: >=1.1.0,<1.4, installed: 1.3.0]
+    ├── networkx [required: >=2.5.1, installed: 3.4.2]
+    ├── Jinja2 [required: Any, installed: 3.1.6]
+    │   └── MarkupSafe [required: >=2.0, installed: 3.0.3]
+    ├── fsspec [required: >=0.8.5, installed: 2026.3.0]
+    ├── cuda-toolkit [required: ==13.0.2, installed: 13.0.2]
+    ├── cuda-bindings [required: >=13.0.3,<14, installed: 13.2.0]
+    │   └── cuda-pathfinder [required: ~=1.1, installed: 1.5.2]
+    ├── nvidia-cudnn-cu13 [required: ==9.19.0.56, installed: 9.19.0.56]
+    │   └── nvidia-cublas [required: Any, installed: 13.1.0.3]
+    ├── nvidia-cusparselt-cu13 [required: ==0.8.0, installed: 0.8.0]
+    ├── nvidia-nccl-cu13 [required: ==2.28.9, installed: 2.28.9]
+    ├── nvidia-nvshmem-cu13 [required: ==3.4.5, installed: 3.4.5]
+    └── triton [required: ==3.6.0, installed: 3.6.0]
+torchvision==0.26.0
+├── numpy [required: Any, installed: 2.2.6]
+├── torch [required: ==2.11.0, installed: 2.11.0]
+│   ├── filelock [required: Any, installed: 3.25.2]
+│   ├── typing_extensions [required: >=4.10.0, installed: 4.15.0]
+│   ├── setuptools [required: <82, installed: 79.0.1]
+│   ├── sympy [required: >=1.13.3, installed: 1.14.0]
+│   │   └── mpmath [required: >=1.1.0,<1.4, installed: 1.3.0]
+│   ├── networkx [required: >=2.5.1, installed: 3.4.2]
+│   ├── Jinja2 [required: Any, installed: 3.1.6]
+│   │   └── MarkupSafe [required: >=2.0, installed: 3.0.3]
+│   ├── fsspec [required: >=0.8.5, installed: 2026.3.0]
+│   ├── cuda-toolkit [required: ==13.0.2, installed: 13.0.2]
+│   ├── cuda-bindings [required: >=13.0.3,<14, installed: 13.2.0]
+│   │   └── cuda-pathfinder [required: ~=1.1, installed: 1.5.2]
+│   ├── nvidia-cudnn-cu13 [required: ==9.19.0.56, installed: 9.19.0.56]
+│   │   └── nvidia-cublas [required: Any, installed: 13.1.0.3]
+│   ├── nvidia-cusparselt-cu13 [required: ==0.8.0, installed: 0.8.0]
+│   ├── nvidia-nccl-cu13 [required: ==2.28.9, installed: 2.28.9]
+│   ├── nvidia-nvshmem-cu13 [required: ==3.4.5, installed: 3.4.5]
+│   └── triton [required: ==3.6.0, installed: 3.6.0]
+└── pillow [required: >=5.3.0,!=8.3.*, installed: 12.2.0]
+wheel==0.45.1

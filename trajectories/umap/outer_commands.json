@@ -1,0 +1,73 @@
+[
+    {
+        "GPT_time": 2.529677629470825
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6703376770019531
+    },
+    {
+        "GPT_time": 3.9941565990448
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.6681764125823975
+    },
+    {
+        "GPT_time": 6.173955917358398
+    },
+    {
+        "command": "cat /repo/docs_requirements.txt",
+        "returncode": 0,
+        "time": 0.6654989719390869
+    },
+    {
+        "command": "ls -la /repo/umap",
+        "returncode": 0,
+        "time": 0.6650116443634033
+    },
+    {
+        "GPT_time": 3.5561280250549316
+    },
+    {
+        "command": "ls -la /repo/umap/tests",
+        "returncode": 0,
+        "time": 0.6685121059417725
+    },
+    {
+        "command": "ls -la /repo/.pipreqs",
+        "returncode": 0,
+        "time": 0.666588306427002
+    },
+    {
+        "GPT_time": 3.18074893951416
+    },
+    {
+        "command": "cat /repo/umap/tests/conftest.py",
+        "returncode": 0,
+        "time": 0.6690306663513184
+    },
+    {
+        "GPT_time": 5.028751373291016
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6629016399383545
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 22.492765426635742
+    },
+    {
+        "GPT_time": 2.9937870502471924
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 18.99602699279785
+    }
+]

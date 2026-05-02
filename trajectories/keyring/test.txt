@@ -1,0 +1,294 @@
+conftest.py::mypy
+conftest.py::ruff
+conftest.py::ruff::format
+docs/conf.py::mypy
+docs/conf.py::ruff
+docs/conf.py::ruff::format
+keyring/__init__.py::mypy
+keyring/__init__.py::ruff
+keyring/__init__.py::ruff::format
+keyring/__main__.py::mypy
+keyring/__main__.py::ruff
+keyring/__main__.py::ruff::format
+keyring/backend.py::mypy
+keyring/backend.py::ruff
+keyring/backend.py::ruff::format
+keyring/backend.py::keyring.backend.SchemeSelectable
+keyring/backends/__init__.py::mypy
+keyring/backends/__init__.py::ruff
+keyring/backends/__init__.py::ruff::format
+keyring/backends/SecretService.py::mypy
+keyring/backends/SecretService.py::ruff
+keyring/backends/SecretService.py::ruff::format
+keyring/backends/Windows.py::mypy
+keyring/backends/Windows.py::ruff
+keyring/backends/Windows.py::ruff::format
+keyring/backends/chainer.py::mypy
+keyring/backends/chainer.py::ruff
+keyring/backends/chainer.py::ruff::format
+keyring/backends/chainer.py::keyring.backends.chainer.ChainerBackend
+keyring/backends/fail.py::mypy
+keyring/backends/fail.py::ruff
+keyring/backends/fail.py::ruff::format
+keyring/backends/fail.py::keyring.backends.fail.Keyring
+keyring/backends/kwallet.py::mypy
+keyring/backends/kwallet.py::ruff
+keyring/backends/kwallet.py::ruff::format
+keyring/backends/libsecret.py::mypy
+keyring/backends/libsecret.py::ruff
+keyring/backends/libsecret.py::ruff::format
+keyring/backends/macOS/__init__.py::mypy
+keyring/backends/macOS/__init__.py::ruff
+keyring/backends/macOS/__init__.py::ruff::format
+keyring/backends/null.py::mypy
+keyring/backends/null.py::ruff
+keyring/backends/null.py::ruff::format
+keyring/backends/null.py::keyring.backends.null.Keyring
+keyring/cli.py::mypy
+keyring/cli.py::ruff
+keyring/cli.py::ruff::format
+keyring/cli.py::keyring.cli.CommandLineTool.strip_last_newline
+keyring/compat/__init__.py::mypy
+keyring/compat/__init__.py::ruff
+keyring/compat/__init__.py::ruff::format
+keyring/compat/properties.py::mypy
+keyring/compat/properties.py::ruff
+keyring/compat/properties.py::ruff::format
+keyring/compat/properties.py::keyring.compat.properties.NonDataProperty
+keyring/compat/properties.py::keyring.compat.properties.classproperty
+keyring/compat/py312.py::mypy
+keyring/compat/py312.py::ruff
+keyring/compat/py312.py::ruff::format
+keyring/compat/py38.py::mypy
+keyring/compat/py38.py::ruff
+keyring/compat/py38.py::ruff::format
+keyring/completion.py::mypy
+keyring/completion.py::ruff
+keyring/completion.py::ruff::format
+keyring/core.py::mypy
+keyring/core.py::ruff
+keyring/core.py::ruff::format
+keyring/core.py::keyring.core._load_keyring_class
+keyring/credentials.py::mypy
+keyring/credentials.py::ruff
+keyring/credentials.py::ruff::format
+keyring/credentials.py::keyring.credentials.EnvironCredential
+keyring/devpi_client.py::mypy
+keyring/devpi_client.py::ruff
+keyring/devpi_client.py::ruff::format
+keyring/devpi_client.py::keyring.devpi_client.devpiclient_get_password
+keyring/errors.py::mypy
+keyring/errors.py::ruff
+keyring/errors.py::ruff::format
+keyring/http.py::mypy
+keyring/http.py::ruff
+keyring/http.py::ruff::format
+keyring/testing/__init__.py::mypy
+keyring/testing/__init__.py::ruff
+keyring/testing/__init__.py::ruff::format
+keyring/testing/backend.py::mypy
+keyring/testing/backend.py::ruff
+keyring/testing/backend.py::ruff::format
+keyring/testing/util.py::mypy
+keyring/testing/util.py::ruff
+keyring/testing/util.py::ruff::format
+keyring/util/__init__.py::mypy
+keyring/util/__init__.py::ruff
+keyring/util/__init__.py::ruff::format
+keyring/util/platform_.py::mypy
+keyring/util/platform_.py::ruff
+keyring/util/platform_.py::ruff::format
+.::project
+tests/backends/test_SecretService.py::mypy
+tests/backends/test_SecretService.py::ruff
+tests/backends/test_SecretService.py::ruff::format
+tests/backends/test_SecretService.py::TestSecretServiceKeyring::test_password_set_get
+tests/backends/test_SecretService.py::TestSecretServiceKeyring::test_set_after_set_blank
+tests/backends/test_SecretService.py::TestSecretServiceKeyring::test_difficult_chars
+tests/backends/test_SecretService.py::TestSecretServiceKeyring::test_delete_present
+tests/backends/test_SecretService.py::TestSecretServiceKeyring::test_delete_not_present
+tests/backends/test_SecretService.py::TestSecretServiceKeyring::test_delete_one_in_group
+tests/backends/test_SecretService.py::TestSecretServiceKeyring::test_name_property
+tests/backends/test_SecretService.py::TestSecretServiceKeyring::test_unicode_chars
+tests/backends/test_SecretService.py::TestSecretServiceKeyring::test_unicode_and_ascii_chars
+tests/backends/test_SecretService.py::TestSecretServiceKeyring::test_different_user
+tests/backends/test_SecretService.py::TestSecretServiceKeyring::test_credential
+tests/backends/test_SecretService.py::TestSecretServiceKeyring::test_set_properties
+tests/backends/test_SecretService.py::TestSecretServiceKeyring::test_new_with_properties
+tests/backends/test_SecretService.py::TestUnits::test_supported_no_secretstorage
+tests/backends/test_Windows.py::mypy
+tests/backends/test_Windows.py::ruff
+tests/backends/test_Windows.py::ruff::format
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_password_set_get
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_set_after_set_blank
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_difficult_chars
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_delete_present
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_delete_not_present
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_delete_one_in_group
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_name_property
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_unicode_chars
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_unicode_and_ascii_chars
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_different_user
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_credential
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_set_properties
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_new_with_properties
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_long_password_nice_error
+tests/backends/test_Windows.py::TestWinVaultKeyring::test_read_utf8_password
+tests/backends/test_Windows.py::test_winvault_always_viable
+tests/backends/test_chainer.py::mypy
+tests/backends/test_chainer.py::ruff
+tests/backends/test_chainer.py::ruff::format
+tests/backends/test_chainer.py::TestChainer::test_chainer_gets_from_highest_priority
+tests/backends/test_chainer.py::TestChainer::test_chainer_defers_to_fail
+tests/backends/test_kwallet.py::mypy
+tests/backends/test_kwallet.py::ruff
+tests/backends/test_kwallet.py::ruff::format
+tests/backends/test_kwallet.py::TestDBusKWallet::test_password_set_get
+tests/backends/test_kwallet.py::TestDBusKWallet::test_set_after_set_blank
+tests/backends/test_kwallet.py::TestDBusKWallet::test_difficult_chars
+tests/backends/test_kwallet.py::TestDBusKWallet::test_delete_present
+tests/backends/test_kwallet.py::TestDBusKWallet::test_delete_not_present
+tests/backends/test_kwallet.py::TestDBusKWallet::test_delete_one_in_group
+tests/backends/test_kwallet.py::TestDBusKWallet::test_name_property
+tests/backends/test_kwallet.py::TestDBusKWallet::test_unicode_chars
+tests/backends/test_kwallet.py::TestDBusKWallet::test_unicode_and_ascii_chars
+tests/backends/test_kwallet.py::TestDBusKWallet::test_different_user
+tests/backends/test_kwallet.py::TestDBusKWallet::test_credential
+tests/backends/test_kwallet.py::TestDBusKWallet::test_set_properties
+tests/backends/test_kwallet.py::TestDBusKWallet::test_new_with_properties
+tests/backends/test_kwallet.py::TestDBusKWallet4::test_password_set_get
+tests/backends/test_kwallet.py::TestDBusKWallet4::test_set_after_set_blank
+tests/backends/test_kwallet.py::TestDBusKWallet4::test_difficult_chars
+tests/backends/test_kwallet.py::TestDBusKWallet4::test_delete_present
+tests/backends/test_kwallet.py::TestDBusKWallet4::test_delete_not_present
+tests/backends/test_kwallet.py::TestDBusKWallet4::test_delete_one_in_group
+tests/backends/test_kwallet.py::TestDBusKWallet4::test_name_property
+tests/backends/test_kwallet.py::TestDBusKWallet4::test_unicode_chars
+tests/backends/test_kwallet.py::TestDBusKWallet4::test_unicode_and_ascii_chars
+tests/backends/test_kwallet.py::TestDBusKWallet4::test_different_user
+tests/backends/test_kwallet.py::TestDBusKWallet4::test_credential
+tests/backends/test_kwallet.py::TestDBusKWallet4::test_set_properties
+tests/backends/test_kwallet.py::TestDBusKWallet4::test_new_with_properties
+tests/backends/test_libsecret.py::mypy
+tests/backends/test_libsecret.py::ruff
+tests/backends/test_libsecret.py::ruff::format
+tests/backends/test_libsecret.py::TestLibSecretKeyring::test_password_set_get
+tests/backends/test_libsecret.py::TestLibSecretKeyring::test_set_after_set_blank
+tests/backends/test_libsecret.py::TestLibSecretKeyring::test_difficult_chars
+tests/backends/test_libsecret.py::TestLibSecretKeyring::test_delete_present
+tests/backends/test_libsecret.py::TestLibSecretKeyring::test_delete_not_present
+tests/backends/test_libsecret.py::TestLibSecretKeyring::test_delete_one_in_group
+tests/backends/test_libsecret.py::TestLibSecretKeyring::test_name_property
+tests/backends/test_libsecret.py::TestLibSecretKeyring::test_unicode_chars
+tests/backends/test_libsecret.py::TestLibSecretKeyring::test_unicode_and_ascii_chars
+tests/backends/test_libsecret.py::TestLibSecretKeyring::test_different_user
+tests/backends/test_libsecret.py::TestLibSecretKeyring::test_credential
+tests/backends/test_libsecret.py::TestLibSecretKeyring::test_set_properties
+tests/backends/test_libsecret.py::TestLibSecretKeyring::test_new_with_properties
+tests/backends/test_libsecret.py::TestUnits::test_supported_no_libsecret
+tests/backends/test_macOS.py::mypy
+tests/backends/test_macOS.py::ruff
+tests/backends/test_macOS.py::ruff::format
+tests/backends/test_macOS.py::Test_macOSKeychain::test_password_set_get
+tests/backends/test_macOS.py::Test_macOSKeychain::test_set_after_set_blank
+tests/backends/test_macOS.py::Test_macOSKeychain::test_difficult_chars
+tests/backends/test_macOS.py::Test_macOSKeychain::test_delete_present
+tests/backends/test_macOS.py::Test_macOSKeychain::test_delete_not_present
+tests/backends/test_macOS.py::Test_macOSKeychain::test_delete_one_in_group
+tests/backends/test_macOS.py::Test_macOSKeychain::test_name_property
+tests/backends/test_macOS.py::Test_macOSKeychain::test_unicode_chars
+tests/backends/test_macOS.py::Test_macOSKeychain::test_unicode_and_ascii_chars
+tests/backends/test_macOS.py::Test_macOSKeychain::test_different_user
+tests/backends/test_macOS.py::Test_macOSKeychain::test_credential
+tests/backends/test_macOS.py::Test_macOSKeychain::test_set_properties
+tests/backends/test_macOS.py::Test_macOSKeychain::test_new_with_properties
+tests/test_cli.py::mypy
+tests/test_cli.py::ruff
+tests/test_cli.py::ruff::format
+tests/test_cli.py::tests.test_cli.PasswordEmitter
+tests/test_cli.py::test_set_interactive
+tests/test_cli.py::test_set_pipe
+tests/test_cli.py::test_set_pipe_newline
+tests/test_core.py::mypy
+tests/test_core.py::ruff
+tests/test_core.py::ruff::format
+tests/test_core.py::test_init_recommended
+tests/test_core.py::test_load_config_missing
+tests/test_core.py::test_load_config_extant
+tests/test_errors.py::mypy
+tests/test_errors.py::ruff
+tests/test_errors.py::ruff::format
+tests/test_errors.py::TestExceptionInfo::test_traceback_not_referenced
+tests/test_integration.py::mypy
+tests/test_integration.py::ruff
+tests/test_integration.py::ruff::format
+tests/test_integration.py::test_argv[del sys.argv]
+tests/test_integration.py::test_argv[sys.argv = []]
+tests/test_integration.py::test_argv[sys.argv = None]
+tests/test_multiprocess.py::mypy
+tests/test_multiprocess.py::ruff
+tests/test_multiprocess.py::ruff::format
+tests/test_multiprocess.py::test_multiprocess_get
+tests/test_multiprocess.py::test_multiprocess_get_after_native_get
+tests/test_packaging.py::mypy
+tests/test_packaging.py::ruff
+tests/test_packaging.py::ruff::format
+tests/test_packaging.py::test_entry_point
+tests/test_packaging.py::test_missing_metadata
+tests/util/test_platform.py::mypy
+tests/util/test_platform.py::ruff
+tests/util/test_platform.py::ruff::format
+tests/util/test_platform.py::test_platform_Linux
+tests/util/test_platform.py::test_platform_Windows
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.10.20-final-0 _______________
+
+Name                                   Stmts   Miss  Cover   Missing
+--------------------------------------------------------------------
+conftest.py                                3      0   100%
+docs/conf.py                              10      0   100%
+keyring/__init__.py                        2      0   100%
+keyring/backend.py                       104     44    58%   49, 67, 84, 93-95, 98-99, 104, 113, 124, 142-146, 151-158, 161-163, 172, 177, 184, 187, 206-213, 222-225, 254-255
+keyring/backends/SecretService.py         81     51    37%   19-23, 38, 40, 43-44, 50, 57-69, 72-75, 79-84, 88-92, 96-101, 111-120
+keyring/backends/Windows.py               94     61    35%   16, 20-23, 30, 39-42, 51-60, 90, 94, 98-104, 107-115, 118-128, 131-139, 142-150, 153-158, 161-170
+keyring/backends/__init__.py               0      0   100%
+keyring/backends/chainer.py               37     24    35%   28, 36-45, 48-51, 54-58, 61-65, 68-71
+keyring/backends/fail.py                  11      3    73%   19, 22-28
+keyring/backends/kwallet.py              101     64    37%   12, 15-17, 43-56, 59-60, 63-85, 88-104, 108-114, 124-135, 139-142, 146-151
+keyring/backends/libsecret.py            102     76    25%   16-21, 35, 47, 55-60, 64-81, 85-100, 104-125, 135-155
+keyring/backends/macOS/__init__.py        61     32    48%   19-21, 39-41, 45-53, 57-67, 71-77, 80-85
+keyring/backends/macOS/api.py             96     79    18%   30-184
+keyring/backends/null.py                   9      2    78%   15, 18
+keyring/cli.py                           100     72    28%   26-89, 92-111, 114-117, 120-123, 126, 131-133, 136, 139-140, 147-150, 153, 156-161, 164, 167-180, 184, 189-190, 201-202, 208-212, 216
+keyring/compat/__init__.py                 3      0   100%
+keyring/compat/properties.py              35     23    34%   24-26, 29-31, 139-142, 145-147, 150, 153-157, 160-161, 168-169
+keyring/compat/py38.py                     5      1    80%   7
+keyring/compat/py312.py                    5      1    80%   7
+keyring/completion.py                     28     15    46%   14-15, 20-26, 30-31, 35-49, 53-56
+keyring/core.py                           88     60    32%   25-27, 32-34, 41-51, 56, 61, 66, 73, 77, 84, 96-97, 124-127, 135-138, 143-146, 150, 154-156, 162-184, 189-193
+keyring/credentials.py                    36     15    58%   10, 14, 21-22, 26, 30, 51-52, 55, 59-62, 66, 70
+keyring/devpi_client.py                   15      2    87%   15, 29
+keyring/errors.py                         27     11    59%   36-42, 45-46, 49-50, 57-59, 65
+keyring/http.py                           19     12    37%   22, 25-26, 29-35, 38-39
+keyring/testing/__init__.py                0      0   100%
+keyring/testing/backend.py               108     80    26%   29, 39-41, 44-45, 50-51, 54-65, 68-71, 74-77, 80-83, 86-91, 94-97, 100-107, 110, 113-116, 119-127, 136-142, 145-161, 167-170, 173-177
+keyring/testing/util.py                   44     28    36%   12, 15-16, 19-20, 23-26, 29-32, 41-55, 60, 68
+keyring/util/__init__.py                   5      3    40%   9-11
+keyring/util/platform_.py                 19     10    47%   7-11, 19-21, 32-35
+tests/backends/test_SecretService.py      16      6    62%   16-22, 30-31
+tests/backends/test_Windows.py            37     24    35%   15-19, 22, 28-49, 52, 58-63, 71
+tests/backends/test_chainer.py            28     20    29%   9-30, 35-37, 44-45
+tests/backends/test_kwallet.py            37     24    35%   14, 17-23, 30-36, 39-61, 69
+tests/backends/test_libsecret.py          16      6    62%   16-22, 30-31
+tests/backends/test_macOS.py               8      1    88%   14
+tests/test_cli.py                         40     25    38%   27, 30, 35-36, 40-46, 50-56, 60-66
+tests/test_core.py                        19     10    47%   10-12, 19-20, 24-25, 37-39
+tests/test_errors.py                      16      6    62%   11-12, 15, 29-31
+tests/test_integration.py                  9      3    67%   19-21
+tests/test_multiprocess.py                18      8    56%   16, 20, 32-35, 39-40
+tests/test_packaging.py                    9      5    44%   10-12, 19-20
+tests/util/test_platform.py               10      4    60%   8-9, 14-15
+--------------------------------------------------------------------
+TOTAL                                   1511    911    40%
+242 tests collected in 0.80s

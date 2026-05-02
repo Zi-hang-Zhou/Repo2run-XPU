@@ -1,0 +1,178 @@
+[
+    {
+        "GPT_time": 2.5677108764648438
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6688802242279053
+    },
+    {
+        "GPT_time": 3.329953670501709
+    },
+    {
+        "command": "ls -la /repo/requirements",
+        "returncode": 0,
+        "time": 0.6662395000457764
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.6690828800201416
+    },
+    {
+        "GPT_time": 3.055075168609619
+    },
+    {
+        "command": "cat /repo/requirements/runtime.txt",
+        "returncode": 0,
+        "time": 0.6646208763122559
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6626029014587402
+    },
+    {
+        "command": "cat /repo/requirements/docs.txt",
+        "returncode": 0,
+        "time": 0.6637008190155029
+    },
+    {
+        "GPT_time": 4.741737365722656
+    },
+    {
+        "command": "ls -la /repo/*.toml /repo/*.lock 2>/dev/null; ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.7995200157165527
+    },
+    {
+        "GPT_time": 3.619774580001831
+    },
+    {
+        "command": "cat /repo/.github/workflows/*.yml 2>/dev/null | head -100",
+        "returncode": 0,
+        "time": 0.817338228225708
+    },
+    {
+        "GPT_time": 3.2001466751098633
+    },
+    {
+        "command": "ls -la /repo/pypose/",
+        "returncode": 0,
+        "time": 0.6665453910827637
+    },
+    {
+        "command": "ls -la /repo/tests/",
+        "returncode": 0,
+        "time": 0.6670513153076172
+    },
+    {
+        "GPT_time": 3.207040786743164
+    },
+    {
+        "command": "cat /repo/pypose/__init__.py",
+        "returncode": 0,
+        "time": 0.6671736240386963
+    },
+    {
+        "GPT_time": 4.570453405380249
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/runtime.txt",
+        "returncode": 0,
+        "time": 0.033324241638183594
+    },
+    {
+        "GPT_time": 2.7058053016662598
+    },
+    {
+        "command": "ls -la /repo/requirements/",
+        "returncode": 0,
+        "time": 0.6653015613555908
+    },
+    {
+        "GPT_time": 2.9326515197753906
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/runtime.txt",
+        "returncode": 0,
+        "time": 0.030662059783935547
+    },
+    {
+        "GPT_time": 3.5208113193511963
+    },
+    {
+        "command": "waitinglist add -p pytest -v \">=7\"",
+        "returncode": 0,
+        "time": 0.007067441940307617
+    },
+    {
+        "command": "waitinglist add -p torch -v \"==2.*\"",
+        "returncode": 0,
+        "time": 0.30974888801574707
+    },
+    {
+        "GPT_time": 3.08819842338562
+    },
+    {
+        "command": "waitinglist add -p pytest -v \">=7\" -t pip",
+        "returncode": 0,
+        "time": 0.006699800491333008
+    },
+    {
+        "command": "waitinglist add -p torch -v \"==2.*\" -t pip",
+        "returncode": 0,
+        "time": 0.005579710006713867
+    },
+    {
+        "GPT_time": 2.6286370754241943
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 204.24472570419312
+    },
+    {
+        "GPT_time": 3.9424102306365967
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6633090972900391
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 37.6719765663147
+    },
+    {
+        "GPT_time": 3.0794506072998047
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 55.569549322128296
+    },
+    {
+        "GPT_time": 3.250121831893921
+    },
+    {
+        "command": "waitinglist add -p torchvision -t pip",
+        "returncode": 0,
+        "time": 0.010306119918823242
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 7.604497909545898
+    },
+    {
+        "GPT_time": 3.249565601348877
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 5.1677775382995605
+    }
+]

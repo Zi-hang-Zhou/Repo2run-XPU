@@ -1,0 +1,70 @@
+[
+    {
+        "GPT_time": 2.665347099304199
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6726198196411133
+    },
+    {
+        "GPT_time": 4.416767120361328
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6769285202026367
+    },
+    {
+        "GPT_time": 5.4843504428863525
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6671228408813477
+    },
+    {
+        "command": "poetry install",
+        "returncode": 0,
+        "time": 175.90688300132751
+    },
+    {
+        "GPT_time": 3.375699043273926
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6663484573364258
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 29.235268592834473
+    },
+    {
+        "GPT_time": 6.443584680557251
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6656458377838135
+    },
+    {
+        "command": "poetry install --extras experiment --with sortingExtension",
+        "returncode": 0,
+        "time": 6.104467153549194
+    },
+    {
+        "GPT_time": 3.3436195850372314
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6667110919952393
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 10.95233416557312
+    }
+]

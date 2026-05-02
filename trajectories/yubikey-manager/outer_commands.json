@@ -1,0 +1,70 @@
+[
+    {
+        "GPT_time": 2.6789822578430176
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.67488694190979
+    },
+    {
+        "GPT_time": 4.1965553760528564
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6701686382293701
+    },
+    {
+        "GPT_time": 5.278808355331421
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6665236949920654
+    },
+    {
+        "command": "poetry install",
+        "returncode": 0,
+        "time": 37.44821214675903
+    },
+    {
+        "GPT_time": 4.16132378578186
+    },
+    {
+        "command": "apt-get update -qq",
+        "returncode": 0,
+        "time": 1.7607944011688232
+    },
+    {
+        "command": "apt-get install -y -qq libpcsclite-dev swig",
+        "returncode": 0,
+        "time": 5.31615686416626
+    },
+    {
+        "GPT_time": 2.486881971359253
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6649582386016846
+    },
+    {
+        "command": "poetry install",
+        "returncode": 0,
+        "time": 22.7136492729187
+    },
+    {
+        "GPT_time": 3.2235283851623535
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6658599376678467
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 5.296026945114136
+    }
+]

@@ -1,0 +1,36 @@
+diff --git a/libs/langgraph/tests/conftest.py b/libs/langgraph/tests/conftest.py
+index 42278f79..6dd9e042 100644
+--- a/libs/langgraph/tests/conftest.py
++++ b/libs/langgraph/tests/conftest.py
+@@ -1,15 +1,5 @@
+-from uuid import UUID
+-
+-import pytest
+-from pytest_mock import MockerFixture
+-
+-
+-@pytest.fixture()
+-def deterministic_uuids(mocker: MockerFixture) -> MockerFixture:
+-    side_effect = (
+-        UUID(f"00000000-0000-4000-8000-{i:012}", version=4) for i in range(10000)
+-    )
+-    return mocker.patch("uuid.uuid4", side_effect=side_effect)
+-
+-
+-pytest.register_assert_rewrite("tests.memory_assert")
++import sys
++import os
++langgraph_path = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
++if langgraph_path not in sys.path:
++    sys.path.insert(0, langgraph_path)
+diff --git a/pyproject.toml b/pyproject.toml
+index 5636aa1e..ade4d9a2 100644
+--- a/pyproject.toml
++++ b/pyproject.toml
+@@ -27,3 +27,6 @@ markdown-callouts = "^0.4.0"
+ [build-system]
+ requires = ["poetry-core"]
+ build-backend = "poetry.core.masonry.api"
++
++[tool.pytest.ini_options]
++pythonpath = ["libs/langgraph"]

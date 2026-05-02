@@ -1,0 +1,78 @@
+tests/data_color/test_data_color.py: 41
+tests/data_color/test_data_color_utils.py: 44
+tests/test__boxhead.py: 10
+tests/test__formats_vals.py: 5
+tests/test__stubhead.py: 1
+tests/test__utils_nanoplots.py: 286
+tests/test_boxhead.py: 1
+tests/test_datasets.py: 16
+tests/test_export.py: 8
+tests/test_formats.py: 291
+tests/test_formats_nanoplots.py: 22
+tests/test_gt.py: 4
+tests/test_gt_data.py: 5
+tests/test_heading.py: 1
+tests/test_helpers.py: 8
+tests/test_locations.py: 28
+tests/test_modify_rows.py: 12
+tests/test_options.py: 5
+tests/test_repr.py: 5
+tests/test_scss.py: 15
+tests/test_spanners.py: 37
+tests/test_styles.py: 5
+tests/test_substitutions.py: 15
+tests/test_tab_create_modify.py: 2
+tests/test_tbl_data.py: 49
+tests/test_utils.py: 32
+tests/test_utils_render_common.py: 2
+tests/test_utils_render_html.py: 16
+
+================================ tests coverage ================================
+_______________ coverage: platform linux, python 3.10.20-final-0 _______________
+
+Name                                    Stmts   Miss  Cover
+-----------------------------------------------------------
+great_tables/__init__.py                   18      2    89%
+great_tables/_body.py                       5      1    80%
+great_tables/_boxhead.py                   24     17    29%
+great_tables/_data_color/__init__.py        2      0   100%
+great_tables/_data_color/base.py          171    141    18%
+great_tables/_data_color/constants.py       6      0   100%
+great_tables/_data_color/palettes.py       81     50    38%
+great_tables/_databackend.py               25      5    80%
+great_tables/_export.py                   128    105    18%
+great_tables/_footnotes.py                  1      1     0%
+great_tables/_formats.py                  799    690    14%
+great_tables/_formats_vals.py              66     47    29%
+great_tables/_gt_data.py                  617    269    56%
+great_tables/_heading.py                    6      1    83%
+great_tables/_helpers.py                  206    156    24%
+great_tables/_locale.py                    80     11    86%
+great_tables/_locations.py                183     98    46%
+great_tables/_modify_rows.py               30     21    30%
+great_tables/_options.py                  103     74    28%
+great_tables/_render.py                    24     18    25%
+great_tables/_row_groups.py                 1      1     0%
+great_tables/_scss.py                      60     45    25%
+great_tables/_source_notes.py               5      1    80%
+great_tables/_spanners.py                 130    114    12%
+great_tables/_stub.py                       5      1    80%
+great_tables/_stubhead.py                   5      1    80%
+great_tables/_styles.py                   115     68    41%
+great_tables/_substitution.py              36     15    58%
+great_tables/_tab_create_modify.py         23     17    26%
+great_tables/_tbl_data.py                 312    159    49%
+great_tables/_text.py                      48     27    44%
+great_tables/_types.py                      2      2     0%
+great_tables/_utils.py                    117     88    25%
+great_tables/_utils_nanoplots.py          642    605     6%
+great_tables/_utils_render_html.py        207    190     8%
+great_tables/data/__init__.py              77      2    97%
+great_tables/gt.py                        137     59    57%
+great_tables/loc.py                         3      0   100%
+great_tables/shiny.py                      22     10    55%
+great_tables/style.py                       3      0   100%
+great_tables/utils_render_common.py        17     12    29%
+great_tables/vals.py                        2      0   100%
+-----------------------------------------------------------
+TOTAL                                    4544   3124    31%

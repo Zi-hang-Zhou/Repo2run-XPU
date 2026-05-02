@@ -1,0 +1,137 @@
+[
+    {
+        "GPT_time": 3.0138866901397705
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6725609302520752
+    },
+    {
+        "GPT_time": 4.3709471225738525
+    },
+    {
+        "command": "ls -la /repo | grep -E \"poetry|requirements\"",
+        "returncode": 0,
+        "time": 0.16634917259216309
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6713042259216309
+    },
+    {
+        "GPT_time": 4.994797706604004
+    },
+    {
+        "command": "ls -la /repo/.config/",
+        "returncode": 0,
+        "time": 0.6685214042663574
+    },
+    {
+        "command": "cat /repo/.config/requirements.in",
+        "returncode": 0,
+        "time": 0.6673810482025146
+    },
+    {
+        "GPT_time": 3.1684789657592773
+    },
+    {
+        "command": "cat /repo/.config/requirements-test.txt",
+        "returncode": 0,
+        "time": 0.6677865982055664
+    },
+    {
+        "GPT_time": 5.350397825241089
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6625452041625977
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 14.80867624282837
+    },
+    {
+        "GPT_time": 4.432801961898804
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 13.56743574142456
+    },
+    {
+        "GPT_time": 4.630228281021118
+    },
+    {
+        "command": "waitinglist addfile /repo/.config/requirements-test.txt",
+        "returncode": 0,
+        "time": 0.03798937797546387
+    },
+    {
+        "GPT_time": 2.9657042026519775
+    },
+    {
+        "command": "ls -la /repo/.config/requirements-test.txt",
+        "returncode": 0,
+        "time": 0.6680612564086914
+    },
+    {
+        "GPT_time": 3.2072174549102783
+    },
+    {
+        "command": "waitinglist addfile /repo/.config/requirements-test.txt",
+        "returncode": 0,
+        "time": 0.03585672378540039
+    },
+    {
+        "GPT_time": 3.5362167358398438
+    },
+    {
+        "command": "cat /repo/.config/requirements-test.txt",
+        "returncode": 0,
+        "time": 0.6674399375915527
+    },
+    {
+        "GPT_time": 5.082910060882568
+    },
+    {
+        "command": "waitinglist add -p pytest-mock -v \">=3.10.0\"",
+        "returncode": 0,
+        "time": 0.007508754730224609
+    },
+    {
+        "GPT_time": 4.248831510543823
+    },
+    {
+        "command": "waitinglist show",
+        "returncode": 0,
+        "time": 0.009478569030761719
+    },
+    {
+        "GPT_time": 3.5277416706085205
+    },
+    {
+        "command": "waitinglist add -p pytest-mock",
+        "returncode": 0,
+        "time": 0.010202169418334961
+    },
+    {
+        "GPT_time": 4.666086196899414
+    },
+    {
+        "command": "pip install -q pytest-mock",
+        "returncode": 0,
+        "time": 2.112544059753418
+    },
+    {
+        "GPT_time": 3.014171600341797
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 2.241873025894165
+    }
+]

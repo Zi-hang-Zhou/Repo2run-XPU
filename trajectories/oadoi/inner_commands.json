@@ -1,0 +1,1796 @@
+[
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6083815097808838,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 1.6360106468200684,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7480213642120361,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.8620097637176514,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.6082062721252441,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7357091903686523,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7384979724884033,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6345782279968262,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/runtime.txt",
+        "returncode": 0,
+        "time": 0.6058042049407959,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/test/",
+        "returncode": 0,
+        "time": 0.6073193550109863,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7347259521484375,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7422704696655273,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6358621120452881,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7383129596710205,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7396872043609619,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.8684635162353516,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7369582653045654,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7356584072113037,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6388816833496094,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.733729362487793,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7358307838439941,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6370222568511963,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/requirements.txt",
+        "returncode": 0,
+        "time": 0.6092557907104492,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7354660034179688,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7362985610961914,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6389634609222412,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7343235015869141,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7377336025238037,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6379978656768799,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6052899360656738,
+        "dir": "/"
+    },
+    {
+        "command": "pwd",
+        "returncode": 0,
+        "time": 0.604856014251709,
+        "dir": "/repo"
+    },
+    {
+        "command": "ls requirements.txt",
+        "returncode": 0,
+        "time": 0.6074361801147461,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7346687316894531,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.737804651260376,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6353349685668945,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7345609664916992,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7413909435272217,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6349008083343506,
+        "dir": "/repo"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.605332612991333,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 0.6727440357208252,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7378389835357666,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7377898693084717,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.640751838684082,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6053440570831299,
+        "dir": "/"
+    },
+    {
+        "command": "pip install -r requirements.txt -q",
+        "returncode": 1,
+        "time": 44.312161922454834,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7223794460296631,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7378127574920654,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6403608322143555,
+        "dir": "/"
+    },
+    {
+        "command": "pip install mock sendgrid -q",
+        "returncode": 0,
+        "time": 11.321995735168457,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7473752498626709,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7503924369812012,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6384339332580566,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6042616367340088,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 0.691455602645874,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7473821640014648,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7506709098815918,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.644906759262085,
+        "dir": "/"
+    },
+    {
+        "command": "pip install sqlalchemy requests_cache -q",
+        "returncode": 0,
+        "time": 14.409784317016602,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7691168785095215,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7812495231628418,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6373109817504883,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6055421829223633,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 1.1136562824249268,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7708609104156494,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7821705341339111,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6411631107330322,
+        "dir": "/"
+    },
+    {
+        "command": "pip install boto3 ddt -q",
+        "returncode": 0,
+        "time": 23.043466567993164,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7760050296783447,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.79681396484375,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6359612941741943,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6052052974700928,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 2.686028003692627,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.780249834060669,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7958824634552002,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6401679515838623,
+        "dir": "/"
+    },
+    {
+        "command": "pip install flask nose -q",
+        "returncode": 0,
+        "time": 3.7858939170837402,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7830832004547119,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8014719486236572,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6371736526489258,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6051630973815918,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 1.5218331813812256,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7944197654724121,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8018615245819092,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6396968364715576,
+        "dir": "/"
+    },
+    {
+        "command": "pip install flask-compress lxml -q",
+        "returncode": 0,
+        "time": 13.268018007278442,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7872741222381592,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8087472915649414,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6383209228515625,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6051456928253174,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 1.5022671222686768,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.792198657989502,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8078551292419434,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6459825038909912,
+        "dir": "/"
+    },
+    {
+        "command": "pip install flask-debugtoolbar psycopg2-binary -q",
+        "returncode": 0,
+        "time": 5.91126275062561,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7965230941772461,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8139066696166992,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6356282234191895,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6053409576416016,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 1.7796931266784668,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7961223125457764,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8155689239501953,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6419944763183594,
+        "dir": "/"
+    },
+    {
+        "command": "pip install flask-sqlalchemy -q",
+        "returncode": 0,
+        "time": 4.927515029907227,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7984201908111572,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8157708644866943,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6356728076934814,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6046276092529297,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 2.092895984649658,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7993462085723877,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8176202774047852,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6617200374603271,
+        "dir": "/"
+    },
+    {
+        "command": "export OPENALEX_DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6053285598754883,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6037116050720215,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 1.6739072799682617,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7984354496002197,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.819664716720581,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6442294120788574,
+        "dir": "/"
+    },
+    {
+        "command": "export OPENALEX_DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6054441928863525,
+        "dir": "/"
+    },
+    {
+        "command": "export DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.605658769607544,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6047487258911133,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 3.9526262283325195,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7947568893432617,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8130707740783691,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.642632246017456,
+        "dir": "/"
+    },
+    {
+        "command": "pip install shortuuid heroku3 -q",
+        "returncode": 0,
+        "time": 2.591639757156372,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8007519245147705,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7903351783752441,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6378927230834961,
+        "dir": "/"
+    },
+    {
+        "command": "export OPENALEX_DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6058964729309082,
+        "dir": "/"
+    },
+    {
+        "command": "export DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6056015491485596,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.604736328125,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 3.9245212078094482,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8027844429016113,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8211531639099121,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6427483558654785,
+        "dir": "/"
+    },
+    {
+        "command": "pip install tenacity beautifulsoup4 -q",
+        "returncode": 0,
+        "time": 2.6036791801452637,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8006887435913086,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8265132904052734,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6366133689880371,
+        "dir": "/"
+    },
+    {
+        "command": "export OPENALEX_DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6047394275665283,
+        "dir": "/"
+    },
+    {
+        "command": "export DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6054058074951172,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6052072048187256,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 4.217816114425659,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8067073822021484,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8262143135070801,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6405649185180664,
+        "dir": "/"
+    },
+    {
+        "command": "pip install redis -q",
+        "returncode": 0,
+        "time": 3.1261792182922363,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8103113174438477,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8326873779296875,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6366114616394043,
+        "dir": "/"
+    },
+    {
+        "command": "export OPENALEX_DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6055183410644531,
+        "dir": "/"
+    },
+    {
+        "command": "export DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6058361530303955,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6053202152252197,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 4.129898548126221,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8110270500183105,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8271348476409912,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6419432163238525,
+        "dir": "/"
+    },
+    {
+        "command": "pip install unidecode -q",
+        "returncode": 0,
+        "time": 2.3727834224700928,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.809276819229126,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8275673389434814,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6361701488494873,
+        "dir": "/"
+    },
+    {
+        "command": "export OPENALEX_DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6051149368286133,
+        "dir": "/"
+    },
+    {
+        "command": "export DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6049954891204834,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6041133403778076,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 7.846604585647583,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8136529922485352,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8027384281158447,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.7035441398620605,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/test/",
+        "returncode": 0,
+        "time": 0.6079514026641846,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/test/__init__.py",
+        "returncode": 0,
+        "time": 0.6070554256439209,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8081443309783936,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8325486183166504,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.638446569442749,
+        "dir": "/"
+    },
+    {
+        "command": "head -100 /repo/app.py",
+        "returncode": 0,
+        "time": 0.6080124378204346,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8068373203277588,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.795262336730957,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6360764503479004,
+        "dir": "/"
+    },
+    {
+        "command": "head -50 /repo/test/test_publication.py",
+        "returncode": 0,
+        "time": 0.6081395149230957,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8091421127319336,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.833357572555542,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6355946063995361,
+        "dir": "/"
+    },
+    {
+        "command": "head -100 /repo/zyte_session.py",
+        "returncode": 0,
+        "time": 0.6077985763549805,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8147895336151123,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8307232856750488,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6441650390625,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/*.cfg /repo/*.ini /repo/pyproject.toml 2>/dev/null || echo \"No config files found\"",
+        "returncode": 0,
+        "time": 0.6091594696044922,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8071825504302979,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8364715576171875,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6377789974212646,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8061215877532959,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7973089218139648,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6382012367248535,
+        "dir": "/"
+    },
+    {
+        "command": "echo 'import os' > /repo/test/conftest.py",
+        "returncode": 0,
+        "time": 0.6066417694091797,
+        "dir": "/"
+    },
+    {
+        "command": "echo 'from app import app, db' >> /repo/test/conftest.py",
+        "returncode": 0,
+        "time": 0.6052587032318115,
+        "dir": "/"
+    },
+    {
+        "command": "echo '' >> /repo/test/conftest.py",
+        "returncode": 0,
+        "time": 0.6058447360992432,
+        "dir": "/"
+    },
+    {
+        "command": "echo 'os.environ.setdefault(\"OPENALEX_DATABASE_URL\", \"postgresql://user:password@localhost:5432/testdb\")' >> /repo/test/conftest.py",
+        "returncode": 0,
+        "time": 0.6056125164031982,
+        "dir": "/"
+    },
+    {
+        "command": "echo 'os.environ.setdefault(\"DATABASE_URL\", \"postgresql://user:password@localhost:5432/testdb\")' >> /repo/test/conftest.py",
+        "returncode": 0,
+        "time": 0.6062061786651611,
+        "dir": "/"
+    },
+    {
+        "command": "echo '' >> /repo/test/conftest.py",
+        "returncode": 0,
+        "time": 0.6055548191070557,
+        "dir": "/"
+    },
+    {
+        "command": "echo 'def app_context():' >> /repo/test/conftest.py",
+        "returncode": 0,
+        "time": 0.6057474613189697,
+        "dir": "/"
+    },
+    {
+        "command": "echo '    with app.app_context():' >> /repo/test/conftest.py",
+        "returncode": 0,
+        "time": 0.6051726341247559,
+        "dir": "/"
+    },
+    {
+        "command": "echo '        yield' >> /repo/test/conftest.py",
+        "returncode": 0,
+        "time": 0.6052923202514648,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8118319511413574,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8402159214019775,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6369836330413818,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/test/conftest.py",
+        "returncode": 0,
+        "time": 0.6076974868774414,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.805335521697998,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8330166339874268,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6397840976715088,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8082237243652344,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8330919742584229,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6390900611877441,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/code_edit.py -t '/home/zihang/Repo2Run/tmp_patches/tmpta_1ie_h' -p '/tmp'",
+        "returncode": 1,
+        "time": 0.050087690353393555,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8249516487121582,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8343925476074219,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.639582633972168,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8299295902252197,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8703808784484863,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6325676441192627,
+        "dir": "/"
+    },
+    {
+        "command": "echo 'import os' > /tmp/write_conftest.py",
+        "returncode": 0,
+        "time": 0.6084282398223877,
+        "dir": "/"
+    },
+    {
+        "command": "echo 'content = \"\"\"import os' >> /tmp/write_conftest.py",
+        "returncode": 0,
+        "time": 0.609349250793457,
+        "dir": "/"
+    },
+    {
+        "command": "echo 'from app import app, db' >> /tmp/write_conftest.py",
+        "returncode": 0,
+        "time": 0.6076602935791016,
+        "dir": "/"
+    },
+    {
+        "command": "echo '' >> /tmp/write_conftest.py",
+        "returncode": 0,
+        "time": 0.6073009967803955,
+        "dir": "/"
+    },
+    {
+        "command": "echo 'os.environ.setdefault(\"OPENALEX_DATABASE_URL\", \"postgresql://user:password@localhost:5432/testdb\")' >> /tmp/write_conftest.py",
+        "returncode": 0,
+        "time": 0.6049611568450928,
+        "dir": "/"
+    },
+    {
+        "command": "echo 'os.environ.setdefault(\"DATABASE_URL\", \"postgresql://user:password@localhost:5432/testdb\")' >> /tmp/write_conftest.py",
+        "returncode": 0,
+        "time": 0.6165406703948975,
+        "dir": "/"
+    },
+    {
+        "command": "echo '' >> /tmp/write_conftest.py",
+        "returncode": 0,
+        "time": 0.6063776016235352,
+        "dir": "/"
+    },
+    {
+        "command": "echo 'def app_context():' >> /tmp/write_conftest.py",
+        "returncode": 0,
+        "time": 0.6042919158935547,
+        "dir": "/"
+    },
+    {
+        "command": "echo '    with app.app_context():' >> /tmp/write_conftest.py",
+        "returncode": 0,
+        "time": 0.605104923248291,
+        "dir": "/"
+    },
+    {
+        "command": "echo '        yield' >> /tmp/write_conftest.py",
+        "returncode": 0,
+        "time": 0.605811595916748,
+        "dir": "/"
+    },
+    {
+        "command": "echo '\"\"\"' >> /tmp/write_conftest.py",
+        "returncode": 0,
+        "time": 0.6054086685180664,
+        "dir": "/"
+    },
+    {
+        "command": "echo 'open(\"/repo/test/conftest.py\", \"w\").write(content)' >> /tmp/write_conftest.py",
+        "returncode": 0,
+        "time": 0.6058623790740967,
+        "dir": "/"
+    },
+    {
+        "command": "python /tmp/write_conftest.py",
+        "returncode": 0,
+        "time": 0.6181268692016602,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7804756164550781,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7949061393737793,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6342918872833252,
+        "dir": "/"
+    },
+    {
+        "command": "head -90 /repo/zyte_session.py | tail -20",
+        "returncode": 0,
+        "time": 0.6087403297424316,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8103752136230469,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8343324661254883,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6385378837585449,
+        "dir": "/"
+    },
+    {
+        "command": "sed -i \"s/_ALL_POLICIES: List\\[ZytePolicy\\] = ZytePolicy.query.all()/_ALL_POLICIES: List[ZytePolicy] = []  # Will be initialized lazily/\" /repo/zyte_session.py",
+        "returncode": 0,
+        "time": 0.609346866607666,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8068602085113525,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8310778141021729,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6399328708648682,
+        "dir": "/"
+    },
+    {
+        "command": "export OPENALEX_DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6060442924499512,
+        "dir": "/"
+    },
+    {
+        "command": "export DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.60502028465271,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6047487258911133,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 6.177449941635132,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7836272716522217,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8316521644592285,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6420505046844482,
+        "dir": "/"
+    },
+    {
+        "command": "pip install cachetools -q",
+        "returncode": 0,
+        "time": 2.237229585647583,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8093845844268799,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8331077098846436,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6444368362426758,
+        "dir": "/"
+    },
+    {
+        "command": "export OPENALEX_DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6082596778869629,
+        "dir": "/"
+    },
+    {
+        "command": "export DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6054446697235107,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6030182838439941,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 6.1136181354522705,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8168611526489258,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7999780178070068,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6455979347229004,
+        "dir": "/"
+    },
+    {
+        "command": "pip install kids.cache -q",
+        "returncode": 0,
+        "time": 2.203336000442505,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8128147125244141,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8397793769836426,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6374607086181641,
+        "dir": "/"
+    },
+    {
+        "command": "export OPENALEX_DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6055984497070312,
+        "dir": "/"
+    },
+    {
+        "command": "export DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6055459976196289,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6040291786193848,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 5.9254150390625,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8144052028656006,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8385176658630371,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6451518535614014,
+        "dir": "/"
+    },
+    {
+        "command": "pip install python-pdftotext -q",
+        "returncode": 1,
+        "time": 1.1290490627288818,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8148407936096191,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8378322124481201,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6445355415344238,
+        "dir": "/"
+    },
+    {
+        "command": "apt-get update -qq",
+        "returncode": 0,
+        "time": 2.6837477684020996,
+        "dir": "/"
+    },
+    {
+        "command": "apt-get install -y -qq libpoppler-cpp-dev",
+        "returncode": 0,
+        "time": 10.95145297050476,
+        "dir": "/"
+    },
+    {
+        "command": "pip install pdftotext -q",
+        "returncode": 0,
+        "time": 8.15968656539917,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8160831928253174,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8351888656616211,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6400032043457031,
+        "dir": "/"
+    },
+    {
+        "command": "export OPENALEX_DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6060960292816162,
+        "dir": "/"
+    },
+    {
+        "command": "export DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6056017875671387,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6050000190734863,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 8.304837703704834,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8167641162872314,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8349926471710205,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6433515548706055,
+        "dir": "/"
+    },
+    {
+        "command": "pip install sickle -q",
+        "returncode": 0,
+        "time": 4.365521430969238,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8166673183441162,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8421585559844971,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6373097896575928,
+        "dir": "/"
+    },
+    {
+        "command": "export OPENALEX_DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6047272682189941,
+        "dir": "/"
+    },
+    {
+        "command": "export DATABASE_URL=\"postgresql://user:password@localhost:5432/testdb\"",
+        "returncode": 0,
+        "time": 0.6055822372436523,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6048967838287354,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 0,
+        "time": 8.502357006072998,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.8140726089477539,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8374795913696289,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6472747325897217,
+        "dir": "/repo"
+    }
+]

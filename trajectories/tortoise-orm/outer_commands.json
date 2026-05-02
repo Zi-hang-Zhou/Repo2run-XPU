@@ -1,0 +1,257 @@
+[
+    {
+        "GPT_time": 2.77278995513916
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6666855812072754
+    },
+    {
+        "GPT_time": 4.6504294872283936
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6706833839416504
+    },
+    {
+        "GPT_time": 5.183006286621094
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6641895771026611
+    },
+    {
+        "command": "poetry install",
+        "returncode": 0,
+        "time": 27.74788498878479
+    },
+    {
+        "GPT_time": 3.827659845352173
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6641061305999756
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 23.08359670639038
+    },
+    {
+        "GPT_time": 8.345968246459961
+    },
+    {
+        "command": "waitinglist add -p asyncpg",
+        "returncode": 0,
+        "time": 0.21402573585510254
+    },
+    {
+        "command": "waitinglist add -p pyodbc",
+        "returncode": 0,
+        "time": 0.21344804763793945
+    },
+    {
+        "GPT_time": 3.363295078277588
+    },
+    {
+        "command": "waitinglist add -p asyncpg -t pip",
+        "returncode": 0,
+        "time": 0.010393619537353516
+    },
+    {
+        "command": "waitinglist add -p pyodbc -t pip",
+        "returncode": 0,
+        "time": 0.005296468734741211
+    },
+    {
+        "GPT_time": 3.211827039718628
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 6.10768723487854
+    },
+    {
+        "GPT_time": 3.224698305130005
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6657600402832031
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 14.188477993011475
+    },
+    {
+        "GPT_time": 5.55146861076355
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6648635864257812
+    },
+    {
+        "command": "poetry add asyncpg pyodbc",
+        "returncode": 0,
+        "time": 12.843125581741333
+    },
+    {
+        "GPT_time": 9.544803142547607
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6664445400238037
+    },
+    {
+        "command": "poetry add pyodbc==5.1.0",
+        "returncode": 0,
+        "time": 20.908137321472168
+    },
+    {
+        "GPT_time": 5.479599475860596
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6660201549530029
+    },
+    {
+        "command": "poetry add asyncpg",
+        "returncode": 0,
+        "time": 1.7616076469421387
+    },
+    {
+        "GPT_time": 6.858454704284668
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6659202575683594
+    },
+    {
+        "command": "poetry install --extras asyncpg",
+        "returncode": 0,
+        "time": 3.250561237335205
+    },
+    {
+        "GPT_time": 4.058643579483032
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6652519702911377
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 14.399595737457275
+    },
+    {
+        "GPT_time": 8.211036682128906
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6662049293518066
+    },
+    {
+        "command": "poetry add asyncodbc",
+        "returncode": 0,
+        "time": 1.6033575534820557
+    },
+    {
+        "command": "apt-get update -qq",
+        "returncode": 0,
+        "time": 1.6992266178131104
+    },
+    {
+        "command": "apt-get install unixodbc -y -qq",
+        "returncode": 0,
+        "time": 3.0000829696655273
+    },
+    {
+        "GPT_time": 5.463242769241333
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6640889644622803
+    },
+    {
+        "command": "poetry install --extras asyncodbc",
+        "returncode": 0,
+        "time": 2.2069473266601562
+    },
+    {
+        "GPT_time": 4.837722301483154
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6647665500640869
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 13.840140104293823
+    },
+    {
+        "GPT_time": 5.972841739654541
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.665276288986206
+    },
+    {
+        "command": "poetry install --extras aiomysql",
+        "returncode": 0,
+        "time": 2.251776695251465
+    },
+    {
+        "GPT_time": 4.236635446548462
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6652998924255371
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 14.128539800643921
+    },
+    {
+        "GPT_time": 2.8450636863708496
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6658573150634766
+    },
+    {
+        "command": "poetry install --extras psycopg",
+        "returncode": 0,
+        "time": 4.345205068588257
+    },
+    {
+        "GPT_time": 2.437182664871216
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6641058921813965
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 3.8675377368927
+    }
+]

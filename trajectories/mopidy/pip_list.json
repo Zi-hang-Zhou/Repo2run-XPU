@@ -1,0 +1,95 @@
+[
+    {
+        "name": "certifi",
+        "version": "2026.2.25"
+    },
+    {
+        "name": "charset-normalizer",
+        "version": "3.4.7"
+    },
+    {
+        "name": "coverage",
+        "version": "7.13.5"
+    },
+    {
+        "name": "idna",
+        "version": "3.11"
+    },
+    {
+        "name": "iniconfig",
+        "version": "2.3.0"
+    },
+    {
+        "name": "Mopidy",
+        "version": "4.0.0a2.dev24+g158e94ed0",
+        "editable_project_location": "/repo"
+    },
+    {
+        "name": "packaging",
+        "version": "26.0"
+    },
+    {
+        "name": "pip",
+        "version": "24.0"
+    },
+    {
+        "name": "pipdeptree",
+        "version": "2.35.1"
+    },
+    {
+        "name": "pluggy",
+        "version": "1.6.0"
+    },
+    {
+        "name": "pycairo",
+        "version": "1.29.0"
+    },
+    {
+        "name": "Pygments",
+        "version": "2.20.0"
+    },
+    {
+        "name": "PyGObject",
+        "version": "3.56.2"
+    },
+    {
+        "name": "pykka",
+        "version": "4.4.2"
+    },
+    {
+        "name": "pytest",
+        "version": "9.0.3"
+    },
+    {
+        "name": "pytest-cov",
+        "version": "7.1.0"
+    },
+    {
+        "name": "PyYAML",
+        "version": "6.0.3"
+    },
+    {
+        "name": "requests",
+        "version": "2.33.1"
+    },
+    {
+        "name": "responses",
+        "version": "0.26.0"
+    },
+    {
+        "name": "setuptools",
+        "version": "79.0.1"
+    },
+    {
+        "name": "tornado",
+        "version": "6.5.5"
+    },
+    {
+        "name": "urllib3",
+        "version": "2.6.3"
+    },
+    {
+        "name": "wheel",
+        "version": "0.45.1"
+    }
+]

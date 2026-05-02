@@ -1,0 +1,169 @@
+[
+    {
+        "GPT_time": 2.4431676864624023
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6688563823699951
+    },
+    {
+        "GPT_time": 4.369019985198975
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.668201208114624
+    },
+    {
+        "GPT_time": 2.8315982818603516
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.6680495738983154
+    },
+    {
+        "GPT_time": 2.914433240890503
+    },
+    {
+        "command": "cat /repo/test_requirements.txt",
+        "returncode": 0,
+        "time": 0.6661107540130615
+    },
+    {
+        "GPT_time": 8.314594745635986
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6630065441131592
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 11.64172649383545
+    },
+    {
+        "GPT_time": 3.182126998901367
+    },
+    {
+        "command": "waitinglist addfile /repo/test_requirements.txt",
+        "returncode": 0,
+        "time": 0.03987693786621094
+    },
+    {
+        "GPT_time": 2.858950614929199
+    },
+    {
+        "command": "ls -la /repo/test_requirements.txt",
+        "returncode": 0,
+        "time": 0.6684978008270264
+    },
+    {
+        "GPT_time": 2.4203224182128906
+    },
+    {
+        "command": "waitinglist addfile /repo/test_requirements.txt",
+        "returncode": 0,
+        "time": 0.035486698150634766
+    },
+    {
+        "GPT_time": 3.3810012340545654
+    },
+    {
+        "command": "cat /repo/test_requirements.txt",
+        "returncode": 0,
+        "time": 0.667088508605957
+    },
+    {
+        "GPT_time": 2.7021334171295166
+    },
+    {
+        "command": "waitinglist add -p pytest",
+        "returncode": 0,
+        "time": 0.008876800537109375
+    },
+    {
+        "GPT_time": 3.9271435737609863
+    },
+    {
+        "command": "waitinglist add -p pytest-cov",
+        "returncode": 0,
+        "time": 0.008309125900268555
+    },
+    {
+        "GPT_time": 3.9527525901794434
+    },
+    {
+        "command": "waitinglist add -p freezegun",
+        "returncode": 0,
+        "time": 0.6528193950653076
+    },
+    {
+        "GPT_time": 3.1627893447875977
+    },
+    {
+        "command": "waitinglist add -p freezegun -t pip",
+        "returncode": 0,
+        "time": 0.00833582878112793
+    },
+    {
+        "GPT_time": 3.7800838947296143
+    },
+    {
+        "command": "waitinglist add -p safety -t pip",
+        "returncode": 0,
+        "time": 0.008322954177856445
+    },
+    {
+        "command": "waitinglist add -p pre-commit -t pip",
+        "returncode": 0,
+        "time": 0.007275819778442383
+    },
+    {
+        "command": "waitinglist add -p tox -t pip",
+        "returncode": 0,
+        "time": 0.007299900054931641
+    },
+    {
+        "GPT_time": 2.9154586791992188
+    },
+    {
+        "command": "waitinglist show",
+        "returncode": 0,
+        "time": 0.008445978164672852
+    },
+    {
+        "GPT_time": 2.7707791328430176
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 35.13975548744202
+    },
+    {
+        "GPT_time": 3.2622292041778564
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 13.608057498931885
+    },
+    {
+        "GPT_time": 4.441590785980225
+    },
+    {
+        "command": "pip install pytest-cov pytest-mock -q",
+        "returncode": 0,
+        "time": 3.4377951622009277
+    },
+    {
+        "GPT_time": 3.528660535812378
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 2.717416763305664
+    }
+]

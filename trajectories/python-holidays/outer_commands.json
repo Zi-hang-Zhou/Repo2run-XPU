@@ -1,0 +1,195 @@
+[
+    {
+        "GPT_time": 2.3938164710998535
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6681826114654541
+    },
+    {
+        "GPT_time": 4.901344537734985
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6670706272125244
+    },
+    {
+        "GPT_time": 4.620935678482056
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.6671161651611328
+    },
+    {
+        "command": "ls -la /repo/requirements/",
+        "returncode": 0,
+        "time": 0.6671013832092285
+    },
+    {
+        "GPT_time": 2.860570192337036
+    },
+    {
+        "command": "cat /repo/requirements/runtime.txt",
+        "returncode": 0,
+        "time": 0.665053129196167
+    },
+    {
+        "command": "cat /repo/requirements/tests.txt",
+        "returncode": 0,
+        "time": 0.6652922630310059
+    },
+    {
+        "command": "cat /repo/requirements/dev.txt",
+        "returncode": 0,
+        "time": 0.664726734161377
+    },
+    {
+        "command": "cat /repo/requirements/docs.txt",
+        "returncode": 0,
+        "time": 0.6644530296325684
+    },
+    {
+        "GPT_time": 4.539789438247681
+    },
+    {
+        "command": "ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.664222240447998
+    },
+    {
+        "command": "find /repo -name \"poetry.lock\" -o -name \"Pipfile\"",
+        "returncode": 0,
+        "time": 0.6707146167755127
+    },
+    {
+        "GPT_time": 3.7242698669433594
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6636755466461182
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 15.266767263412476
+    },
+    {
+        "GPT_time": 6.523467779159546
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/runtime.txt",
+        "returncode": 0,
+        "time": 0.03727221488952637
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/tests.txt",
+        "returncode": 0,
+        "time": 0.02570343017578125
+    },
+    {
+        "GPT_time": 3.16782283782959
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/runtime.txt",
+        "returncode": 0,
+        "time": 0.03175234794616699
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/tests.txt",
+        "returncode": 0,
+        "time": 0.028682947158813477
+    },
+    {
+        "GPT_time": 3.0671885013580322
+    },
+    {
+        "command": "ls -la /repo/requirements/",
+        "returncode": 0,
+        "time": 0.668372631072998
+    },
+    {
+        "GPT_time": 3.3302271366119385
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/runtime.txt",
+        "returncode": 0,
+        "time": 0.03096485137939453
+    },
+    {
+        "GPT_time": 3.388669490814209
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6657068729400635
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 5.258052349090576
+    },
+    {
+        "GPT_time": 3.190139055252075
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6632335186004639
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 12.525623798370361
+    },
+    {
+        "GPT_time": 5.2787744998931885
+    },
+    {
+        "command": "waitinglist add -p polib",
+        "returncode": 0,
+        "time": 0.21243691444396973
+    },
+    {
+        "command": "waitinglist add -p importlib-metadata",
+        "returncode": 0,
+        "time": 0.21517729759216309
+    },
+    {
+        "GPT_time": 2.96036434173584
+    },
+    {
+        "command": "waitinglist add -p polib -t pip",
+        "returncode": 0,
+        "time": 0.009830236434936523
+    },
+    {
+        "command": "waitinglist add -p importlib-metadata -t pip",
+        "returncode": 0,
+        "time": 0.007075071334838867
+    },
+    {
+        "GPT_time": 2.9961602687835693
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 3.8143534660339355
+    },
+    {
+        "GPT_time": 2.4469974040985107
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6620912551879883
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 2.6740074157714844
+    }
+]

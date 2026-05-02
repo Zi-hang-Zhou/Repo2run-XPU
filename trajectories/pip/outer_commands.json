@@ -1,0 +1,381 @@
+[
+    {
+        "GPT_time": 2.6878435611724854
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6712794303894043
+    },
+    {
+        "GPT_time": 4.284872055053711
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6723780632019043
+    },
+    {
+        "GPT_time": 5.551284074783325
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"requirements*.in\" 2>/dev/null | head -20",
+        "returncode": 0,
+        "time": 1.225468397140503
+    },
+    {
+        "GPT_time": 3.2062301635742188
+    },
+    {
+        "command": "cat /repo/tests/requirements.txt",
+        "returncode": 0,
+        "time": 0.6657493114471436
+    },
+    {
+        "GPT_time": 4.138304233551025
+    },
+    {
+        "command": "ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.6658618450164795
+    },
+    {
+        "GPT_time": 3.049933433532715
+    },
+    {
+        "command": "ls /repo/.github/workflows/",
+        "returncode": 0,
+        "time": 0.6679801940917969
+    },
+    {
+        "GPT_time": 2.23915958404541
+    },
+    {
+        "command": "cat /repo/.github/workflows/ci.yml",
+        "returncode": 0,
+        "time": 0.6729679107666016
+    },
+    {
+        "GPT_time": 5.582618236541748
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6663239002227783
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 5.819324970245361
+    },
+    {
+        "GPT_time": 3.587794303894043
+    },
+    {
+        "command": "waitinglist addfile /repo/tests/requirements.txt",
+        "returncode": 0,
+        "time": 0.03200411796569824
+    },
+    {
+        "GPT_time": 3.181878089904785
+    },
+    {
+        "command": "ls -la /repo/tests/requirements.txt",
+        "returncode": 0,
+        "time": 0.6667599678039551
+    },
+    {
+        "GPT_time": 3.1375749111175537
+    },
+    {
+        "command": "waitinglist addfile /repo/tests/requirements.txt",
+        "returncode": 0,
+        "time": 0.038127899169921875
+    },
+    {
+        "GPT_time": 4.074903964996338
+    },
+    {
+        "command": "cat /repo/tests/requirements.txt",
+        "returncode": 0,
+        "time": 0.6664893627166748
+    },
+    {
+        "GPT_time": 5.93351149559021
+    },
+    {
+        "command": "waitinglist add -p cryptography",
+        "returncode": 0,
+        "time": 0.826693058013916
+    },
+    {
+        "command": "waitinglist add -p freezegun",
+        "returncode": 0,
+        "time": 0.8622756004333496
+    },
+    {
+        "command": "waitinglist add -p installer",
+        "returncode": 0,
+        "time": 0.8400099277496338
+    },
+    {
+        "command": "waitinglist add -p pytest",
+        "returncode": 0,
+        "time": 0.0076503753662109375
+    },
+    {
+        "command": "waitinglist add -p pytest-cov",
+        "returncode": 0,
+        "time": 0.006806850433349609
+    },
+    {
+        "command": "waitinglist add -p pytest-rerunfailures",
+        "returncode": 0,
+        "time": 0.0054132938385009766
+    },
+    {
+        "command": "waitinglist add -p pytest-xdist",
+        "returncode": 0,
+        "time": 0.005629777908325195
+    },
+    {
+        "command": "waitinglist add -p scripttest",
+        "returncode": 0,
+        "time": 0.8541524410247803
+    },
+    {
+        "command": "waitinglist add -p setuptools",
+        "returncode": 0,
+        "time": 0.9313356876373291
+    },
+    {
+        "command": "waitinglist add -p virtualenv -v \">=20.0\"",
+        "returncode": 0,
+        "time": 0.8072457313537598
+    },
+    {
+        "command": "waitinglist add -p werkzeug",
+        "returncode": 0,
+        "time": 0.8285725116729736
+    },
+    {
+        "command": "waitinglist add -p wheel",
+        "returncode": 0,
+        "time": 0.8456716537475586
+    },
+    {
+        "command": "waitinglist add -p tomli-w",
+        "returncode": 0,
+        "time": 0.8334178924560547
+    },
+    {
+        "command": "waitinglist add -p proxy.py",
+        "returncode": 0,
+        "time": 0.8557078838348389
+    },
+    {
+        "GPT_time": 5.4882166385650635
+    },
+    {
+        "command": "waitinglist add -p cryptography -t pip",
+        "returncode": 0,
+        "time": 0.008807659149169922
+    },
+    {
+        "GPT_time": 5.702913284301758
+    },
+    {
+        "command": "waitinglist add -p freezegun -t pip",
+        "returncode": 0,
+        "time": 0.006676673889160156
+    },
+    {
+        "command": "waitinglist add -p installer -t pip",
+        "returncode": 0,
+        "time": 0.00763702392578125
+    },
+    {
+        "command": "waitinglist add -p scripttest -t pip",
+        "returncode": 0,
+        "time": 0.0040051937103271484
+    },
+    {
+        "command": "waitinglist add -p setuptools -t pip",
+        "returncode": 0,
+        "time": 0.006786346435546875
+    },
+    {
+        "command": "waitinglist add -p virtualenv -v \">=20.0\" -t pip",
+        "returncode": 0,
+        "time": 0.005648612976074219
+    },
+    {
+        "command": "waitinglist add -p werkzeug -t pip",
+        "returncode": 0,
+        "time": 0.006304025650024414
+    },
+    {
+        "command": "waitinglist add -p wheel -t pip",
+        "returncode": 0,
+        "time": 0.0071871280670166016
+    },
+    {
+        "command": "waitinglist add -p tomli-w -t pip",
+        "returncode": 0,
+        "time": 0.005494594573974609
+    },
+    {
+        "command": "waitinglist add -p proxy.py -t pip",
+        "returncode": 0,
+        "time": 0.00420379638671875
+    },
+    {
+        "GPT_time": 2.452322006225586
+    },
+    {
+        "command": "waitinglist show",
+        "returncode": 0,
+        "time": 0.010158300399780273
+    },
+    {
+        "GPT_time": 4.6993842124938965
+    },
+    {
+        "command": "waitinglist clear",
+        "returncode": 0,
+        "time": 0.00821232795715332
+    },
+    {
+        "GPT_time": 5.7081382274627686
+    },
+    {
+        "command": "waitinglist add -p cryptography -t pip",
+        "returncode": 0,
+        "time": 0.008722782135009766
+    },
+    {
+        "command": "waitinglist add -p freezegun -t pip",
+        "returncode": 0,
+        "time": 0.0072782039642333984
+    },
+    {
+        "command": "waitinglist add -p installer -t pip",
+        "returncode": 0,
+        "time": 0.007048606872558594
+    },
+    {
+        "command": "waitinglist add -p scripttest -t pip",
+        "returncode": 0,
+        "time": 0.00586390495300293
+    },
+    {
+        "command": "waitinglist add -p setuptools -t pip",
+        "returncode": 0,
+        "time": 0.0053288936614990234
+    },
+    {
+        "command": "waitinglist add -p virtualenv -v \">=20.0\" -t pip",
+        "returncode": 0,
+        "time": 0.005549430847167969
+    },
+    {
+        "command": "waitinglist add -p werkzeug -t pip",
+        "returncode": 0,
+        "time": 0.006189107894897461
+    },
+    {
+        "command": "waitinglist add -p wheel -t pip",
+        "returncode": 0,
+        "time": 0.005421876907348633
+    },
+    {
+        "command": "waitinglist add -p tomli-w -t pip",
+        "returncode": 0,
+        "time": 0.006748676300048828
+    },
+    {
+        "command": "waitinglist add -p proxy.py -t pip",
+        "returncode": 0,
+        "time": 0.0077571868896484375
+    },
+    {
+        "GPT_time": 4.059995174407959
+    },
+    {
+        "command": "waitinglist clear",
+        "returncode": 0,
+        "time": 0.00843667984008789
+    },
+    {
+        "GPT_time": 5.158736228942871
+    },
+    {
+        "command": "waitinglist add -p virtualenv -v >=20.0 -t pip",
+        "returncode": 0,
+        "time": 0.008188724517822266
+    },
+    {
+        "GPT_time": 6.250076055526733
+    },
+    {
+        "command": "waitinglist add -p cryptography -t pip",
+        "returncode": 0,
+        "time": 0.008451461791992188
+    },
+    {
+        "command": "waitinglist add -p freezegun -t pip",
+        "returncode": 0,
+        "time": 0.00719904899597168
+    },
+    {
+        "command": "waitinglist add -p installer -t pip",
+        "returncode": 0,
+        "time": 0.005248546600341797
+    },
+    {
+        "command": "waitinglist add -p scripttest -t pip",
+        "returncode": 0,
+        "time": 0.0044558048248291016
+    },
+    {
+        "command": "waitinglist add -p setuptools -t pip",
+        "returncode": 0,
+        "time": 0.004333972930908203
+    },
+    {
+        "command": "waitinglist add -p werkzeug -t pip",
+        "returncode": 0,
+        "time": 0.004960298538208008
+    },
+    {
+        "command": "waitinglist add -p wheel -t pip",
+        "returncode": 0,
+        "time": 0.004378557205200195
+    },
+    {
+        "command": "waitinglist add -p tomli-w -t pip",
+        "returncode": 0,
+        "time": 0.004381418228149414
+    },
+    {
+        "command": "waitinglist add -p proxy.py -t pip",
+        "returncode": 0,
+        "time": 0.005095481872558594
+    },
+    {
+        "GPT_time": 4.828216791152954
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 31.0754451751709
+    },
+    {
+        "GPT_time": 5.426875829696655
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 6.695077657699585
+    }
+]

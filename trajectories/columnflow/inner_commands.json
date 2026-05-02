@@ -1,0 +1,974 @@
+[
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6096911430358887,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7570860385894775,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7386496067047119,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6766495704650879,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.6076095104217529,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7413671016693115,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7400975227355957,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6491918563842773,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/sandboxes/cf.txt",
+        "returncode": 0,
+        "time": 0.606407642364502,
+        "dir": "/"
+    },
+    {
+        "command": "ls /repo/sandboxes/",
+        "returncode": 0,
+        "time": 0.6062490940093994,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7371559143066406,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7397170066833496,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6461057662963867,
+        "dir": "/"
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"pyproject.toml\" -o -name \"poetry.lock\" 2>/dev/null | head -20",
+        "returncode": 0,
+        "time": 0.6101136207580566,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7358100414276123,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7402775287628174,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6455545425415039,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/docs/requirements.txt",
+        "returncode": 0,
+        "time": 0.6067376136779785,
+        "dir": "/"
+    },
+    {
+        "command": "ls -la /repo/tests/",
+        "returncode": 0,
+        "time": 0.6063659191131592,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7394123077392578,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.739326000213623,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6429476737976074,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/sandboxes/columnar.txt",
+        "returncode": 0,
+        "time": 0.6054930686950684,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7364213466644287,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7375595569610596,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6423966884613037,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 0.6250760555267334,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7388768196105957,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7390251159667969,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6784610748291016,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/sandboxes/dev.txt",
+        "returncode": 0,
+        "time": 0.6077408790588379,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7375695705413818,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7427115440368652,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6496860980987549,
+        "dir": "/"
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6051077842712402,
+        "dir": "/"
+    },
+    {
+        "command": "pip install -e . -q",
+        "returncode": 0,
+        "time": 7.711857318878174,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7540204524993896,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7618563175201416,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6476802825927734,
+        "dir": "/repo"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 0.6228222846984863,
+        "dir": "/repo"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7568857669830322,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7624530792236328,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6500918865203857,
+        "dir": "/"
+    },
+    {
+        "command": "pip list | grep -i law",
+        "returncode": 1,
+        "time": 0.451566219329834,
+        "dir": "/"
+    },
+    {
+        "command": "pip show luigi",
+        "returncode": 0,
+        "time": 0.9927525520324707,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7296426296234131,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7362766265869141,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6456661224365234,
+        "dir": "/"
+    },
+    {
+        "command": "pip index versions law --python-version 3.10 2>&1 | head -10",
+        "returncode": 0,
+        "time": 1.4006588459014893,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7281527519226074,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.732621431350708,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6460964679718018,
+        "dir": "/"
+    },
+    {
+        "command": "waitinglist add -p law",
+        "returncode": 127,
+        "time": 0.1031036376953125,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7500700950622559,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7580053806304932,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6499621868133545,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7536978721618652,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7597851753234863,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6461160182952881,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/pip_download.py -p law",
+        "returncode": 0,
+        "time": 2.5381641387939453,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7595639228820801,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7647264003753662,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6464135646820068,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 1.1497204303741455,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7579147815704346,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7667660713195801,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6502699851989746,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/law.cfg | head -50",
+        "returncode": 0,
+        "time": 0.6066536903381348,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7352895736694336,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7429351806640625,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6470375061035156,
+        "dir": "/"
+    },
+    {
+        "command": "cat /repo/columnflow/__init__.py | head -100",
+        "returncode": 0,
+        "time": 0.6093037128448486,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7359328269958496,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7432279586791992,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6447560787200928,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_WLCG_USE_CACHE=False",
+        "returncode": 0,
+        "time": 0.6053404808044434,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 1.180006742477417,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7369580268859863,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7652587890625,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6497211456298828,
+        "dir": "/"
+    },
+    {
+        "command": "grep -E '\\$CF_' /repo/law.cfg",
+        "returncode": 0,
+        "time": 0.608025312423706,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7565770149230957,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7641613483428955,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6468350887298584,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_WLCG_USE_CACHE=False",
+        "returncode": 0,
+        "time": 0.6046380996704102,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_WLCG_CACHE_CLEANUP=False",
+        "returncode": 0,
+        "time": 0.60433030128479,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_WLCG_CACHE_ROOT=/tmp",
+        "returncode": 0,
+        "time": 0.6047890186309814,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_BASE=/repo",
+        "returncode": 0,
+        "time": 0.6045370101928711,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_HTCONDOR_FLAVOR=default",
+        "returncode": 0,
+        "time": 0.6045713424682617,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_SLURM_FLAVOR=default",
+        "returncode": 0,
+        "time": 0.6041438579559326,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_SLURM_PARTITION=default",
+        "returncode": 0,
+        "time": 0.6046037673950195,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_JOB_BASE=/tmp",
+        "returncode": 0,
+        "time": 0.6049454212188721,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_CRAB_STORAGE_ELEMENT=default",
+        "returncode": 0,
+        "time": 0.6049022674560547,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_CRAB_BASE_DIRECTORY=/tmp",
+        "returncode": 0,
+        "time": 0.6042313575744629,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_CERN_USER=test",
+        "returncode": 0,
+        "time": 0.6044533252716064,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_STORE_NAME=test",
+        "returncode": 0,
+        "time": 0.6044187545776367,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_LOCAL_SCHEDULER=False",
+        "returncode": 0,
+        "time": 0.6048686504364014,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_SCHEDULER_HOST=localhost",
+        "returncode": 0,
+        "time": 0.6045734882354736,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_SCHEDULER_PORT=8080",
+        "returncode": 0,
+        "time": 0.6043469905853271,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_WORKER_KEEP_ALIVE=False",
+        "returncode": 0,
+        "time": 0.6042580604553223,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 1.2935676574707031,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7592277526855469,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7658681869506836,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6482508182525635,
+        "dir": "/"
+    },
+    {
+        "command": "pip index versions order --python-version 3.10 2>&1 | head -10",
+        "returncode": 0,
+        "time": 1.9169299602508545,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7605593204498291,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7641890048980713,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6450090408325195,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/pip_download.py -p order",
+        "returncode": 0,
+        "time": 2.059765100479126,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7551600933074951,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.7681741714477539,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6429009437561035,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 1.0676047801971436,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7603216171264648,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.764960765838623,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6461889743804932,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_WLCG_USE_CACHE=False",
+        "returncode": 0,
+        "time": 0.6048169136047363,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_WLCG_CACHE_CLEANUP=False",
+        "returncode": 0,
+        "time": 0.6043565273284912,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_WLCG_CACHE_ROOT=/tmp",
+        "returncode": 0,
+        "time": 0.6042890548706055,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_BASE=/repo",
+        "returncode": 0,
+        "time": 0.6045064926147461,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_HTCONDOR_FLAVOR=default",
+        "returncode": 0,
+        "time": 0.6045448780059814,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_SLURM_FLAVOR=default",
+        "returncode": 0,
+        "time": 0.604543924331665,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_SLURM_PARTITION=default",
+        "returncode": 0,
+        "time": 0.604116678237915,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_JOB_BASE=/tmp",
+        "returncode": 0,
+        "time": 0.6048176288604736,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_CRAB_STORAGE_ELEMENT=default",
+        "returncode": 0,
+        "time": 0.6048331260681152,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_CRAB_BASE_DIRECTORY=/tmp",
+        "returncode": 0,
+        "time": 0.6044561862945557,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_CERN_USER=test",
+        "returncode": 0,
+        "time": 0.6050114631652832,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_STORE_NAME=test",
+        "returncode": 0,
+        "time": 0.6050369739532471,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_LOCAL_SCHEDULER=False",
+        "returncode": 0,
+        "time": 0.6056063175201416,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_SCHEDULER_HOST=localhost",
+        "returncode": 0,
+        "time": 0.6046903133392334,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_SCHEDULER_PORT=8080",
+        "returncode": 0,
+        "time": 0.604637622833252,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_WORKER_KEEP_ALIVE=False",
+        "returncode": 0,
+        "time": 0.6043345928192139,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_DEV=1",
+        "returncode": 0,
+        "time": 0.6047725677490234,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 2,
+        "time": 1.3044071197509766,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7607636451721191,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.76662278175354,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6452720165252686,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/pip_download.py -p awkward",
+        "returncode": 0,
+        "time": 10.135196208953857,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7897706031799316,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.8248612880706787,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6436305046081543,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_WLCG_USE_CACHE=False",
+        "returncode": 0,
+        "time": 0.6045098304748535,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_WLCG_CACHE_CLEANUP=False",
+        "returncode": 0,
+        "time": 0.6051204204559326,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_WLCG_CACHE_ROOT=/tmp",
+        "returncode": 0,
+        "time": 0.6051857471466064,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_BASE=/repo",
+        "returncode": 0,
+        "time": 0.607846736907959,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_HTCONDOR_FLAVOR=default",
+        "returncode": 0,
+        "time": 0.604719877243042,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_SLURM_FLAVOR=default",
+        "returncode": 0,
+        "time": 0.6050448417663574,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_SLURM_PARTITION=default",
+        "returncode": 0,
+        "time": 0.604792594909668,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_JOB_BASE=/tmp",
+        "returncode": 0,
+        "time": 0.6048519611358643,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_CRAB_STORAGE_ELEMENT=default",
+        "returncode": 0,
+        "time": 0.6052083969116211,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_CRAB_BASE_DIRECTORY=/tmp",
+        "returncode": 0,
+        "time": 0.6051905155181885,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_CERN_USER=test",
+        "returncode": 0,
+        "time": 0.605224609375,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_STORE_NAME=test",
+        "returncode": 0,
+        "time": 0.6049506664276123,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_LOCAL_SCHEDULER=False",
+        "returncode": 0,
+        "time": 0.6043624877929688,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_SCHEDULER_HOST=localhost",
+        "returncode": 0,
+        "time": 0.6056778430938721,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_SCHEDULER_PORT=8080",
+        "returncode": 0,
+        "time": 0.6052601337432861,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_WORKER_KEEP_ALIVE=False",
+        "returncode": 0,
+        "time": 0.604985237121582,
+        "dir": "/"
+    },
+    {
+        "command": "export CF_DEV=1",
+        "returncode": 0,
+        "time": 0.6053667068481445,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/runtest.py",
+        "returncode": 0,
+        "time": 2.275049924850464,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree --json-tree",
+        "returncode": 0,
+        "time": 0.7634363174438477,
+        "dir": "/"
+    },
+    {
+        "command": "pipdeptree",
+        "returncode": 0,
+        "time": 0.783344030380249,
+        "dir": "/"
+    },
+    {
+        "command": "python /home/tools/generate_diff.py",
+        "returncode": 0,
+        "time": 0.6473257541656494,
+        "dir": "/"
+    }
+]

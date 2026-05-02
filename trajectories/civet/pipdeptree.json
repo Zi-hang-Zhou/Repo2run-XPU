@@ -1,0 +1,680 @@
+[
+    {
+        "key": "ansi2html",
+        "package_name": "ansi2html",
+        "installed_version": "1.7.0",
+        "required_version": "1.7.0",
+        "dependencies": []
+    },
+    {
+        "key": "chardet",
+        "package_name": "chardet",
+        "installed_version": "4.0.0",
+        "required_version": "4.0.0",
+        "dependencies": []
+    },
+    {
+        "key": "coverage",
+        "package_name": "coverage",
+        "installed_version": "6.4.1",
+        "required_version": "6.4.1",
+        "dependencies": []
+    },
+    {
+        "key": "croniter",
+        "package_name": "croniter",
+        "installed_version": "6.2.2",
+        "required_version": "6.2.2",
+        "dependencies": [
+            {
+                "key": "python-dateutil",
+                "package_name": "python-dateutil",
+                "installed_version": "2.9.0.post0",
+                "required_version": "Any",
+                "dependencies": [
+                    {
+                        "key": "six",
+                        "package_name": "six",
+                        "installed_version": "1.16.0",
+                        "required_version": ">=1.5",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "daemonlite",
+        "package_name": "DaemonLite",
+        "installed_version": "0.0.2",
+        "required_version": "0.0.2",
+        "dependencies": []
+    },
+    {
+        "key": "django-cors-headers",
+        "package_name": "django-cors-headers",
+        "installed_version": "3.12.0",
+        "required_version": "3.12.0",
+        "dependencies": [
+            {
+                "key": "django",
+                "package_name": "Django",
+                "installed_version": "4.1.13",
+                "required_version": ">=3.2",
+                "dependencies": [
+                    {
+                        "key": "asgiref",
+                        "package_name": "asgiref",
+                        "installed_version": "3.11.1",
+                        "required_version": ">=3.5.2,<4",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "sqlparse",
+                        "package_name": "sqlparse",
+                        "installed_version": "0.5.0",
+                        "required_version": ">=0.2.2",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "django-debug-toolbar",
+        "package_name": "django-debug-toolbar",
+        "installed_version": "3.4.0",
+        "required_version": "3.4.0",
+        "dependencies": [
+            {
+                "key": "django",
+                "package_name": "Django",
+                "installed_version": "4.1.13",
+                "required_version": ">=3.2",
+                "dependencies": [
+                    {
+                        "key": "asgiref",
+                        "package_name": "asgiref",
+                        "installed_version": "3.11.1",
+                        "required_version": ">=3.5.2,<4",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "sqlparse",
+                        "package_name": "sqlparse",
+                        "installed_version": "0.5.0",
+                        "required_version": ">=0.2.2",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "sqlparse",
+                "package_name": "sqlparse",
+                "installed_version": "0.5.0",
+                "required_version": ">=0.2.0",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "django-extensions",
+        "package_name": "django-extensions",
+        "installed_version": "3.1.5",
+        "required_version": "3.1.5",
+        "dependencies": [
+            {
+                "key": "django",
+                "package_name": "Django",
+                "installed_version": "4.1.13",
+                "required_version": ">=2.2",
+                "dependencies": [
+                    {
+                        "key": "asgiref",
+                        "package_name": "asgiref",
+                        "installed_version": "3.11.1",
+                        "required_version": ">=3.5.2,<4",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "sqlparse",
+                        "package_name": "sqlparse",
+                        "installed_version": "0.5.0",
+                        "required_version": ">=0.2.2",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "django-sslserver",
+        "package_name": "django-sslserver",
+        "installed_version": "0.22",
+        "required_version": "0.22",
+        "dependencies": [
+            {
+                "key": "django",
+                "package_name": "Django",
+                "installed_version": "4.1.13",
+                "required_version": ">=1.8",
+                "dependencies": [
+                    {
+                        "key": "asgiref",
+                        "package_name": "asgiref",
+                        "installed_version": "3.11.1",
+                        "required_version": ">=3.5.2,<4",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "sqlparse",
+                        "package_name": "sqlparse",
+                        "installed_version": "0.5.0",
+                        "required_version": ">=0.2.2",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "funcsigs",
+        "package_name": "funcsigs",
+        "installed_version": "1.0.2",
+        "required_version": "1.0.2",
+        "dependencies": []
+    },
+    {
+        "key": "mock",
+        "package_name": "mock",
+        "installed_version": "4.0.3",
+        "required_version": "4.0.3",
+        "dependencies": []
+    },
+    {
+        "key": "pbr",
+        "package_name": "pbr",
+        "installed_version": "5.9.0",
+        "required_version": "5.9.0",
+        "dependencies": []
+    },
+    {
+        "key": "pip",
+        "package_name": "pip",
+        "installed_version": "23.0.1",
+        "required_version": "23.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "pipdeptree",
+        "package_name": "pipdeptree",
+        "installed_version": "2.35.1",
+        "required_version": "2.35.1",
+        "dependencies": [
+            {
+                "key": "packaging",
+                "package_name": "packaging",
+                "installed_version": "26.0",
+                "required_version": ">=26",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "py-w3c",
+        "package_name": "py_w3c",
+        "installed_version": "0.3.1",
+        "required_version": "0.3.1",
+        "dependencies": []
+    },
+    {
+        "key": "pyflakes",
+        "package_name": "pyflakes",
+        "installed_version": "2.4.0",
+        "required_version": "2.4.0",
+        "dependencies": []
+    },
+    {
+        "key": "pyopenssl",
+        "package_name": "pyOpenSSL",
+        "installed_version": "26.0.0",
+        "required_version": "26.0.0",
+        "dependencies": [
+            {
+                "key": "cryptography",
+                "package_name": "cryptography",
+                "installed_version": "46.0.7",
+                "required_version": ">=46.0.0,<47",
+                "dependencies": [
+                    {
+                        "key": "cffi",
+                        "package_name": "cffi",
+                        "installed_version": "2.0.0",
+                        "required_version": ">=2.0.0",
+                        "dependencies": [
+                            {
+                                "key": "pycparser",
+                                "package_name": "pycparser",
+                                "installed_version": "3.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "typing-extensions",
+                        "package_name": "typing_extensions",
+                        "installed_version": "4.15.0",
+                        "required_version": ">=4.13.2",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "typing-extensions",
+                "package_name": "typing_extensions",
+                "installed_version": "4.15.0",
+                "required_version": ">=4.9",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "pysocks",
+        "package_name": "PySocks",
+        "installed_version": "1.7.1",
+        "required_version": "1.7.1",
+        "dependencies": []
+    },
+    {
+        "key": "pytest-django",
+        "package_name": "pytest-django",
+        "installed_version": "4.12.0",
+        "required_version": "4.12.0",
+        "dependencies": [
+            {
+                "key": "pytest",
+                "package_name": "pytest",
+                "installed_version": "9.0.3",
+                "required_version": ">=7.0.0",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "iniconfig",
+                        "package_name": "iniconfig",
+                        "installed_version": "2.3.0",
+                        "required_version": ">=1.0.1",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "packaging",
+                        "package_name": "packaging",
+                        "installed_version": "26.0",
+                        "required_version": ">=22",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pluggy",
+                        "package_name": "pluggy",
+                        "installed_version": "1.6.0",
+                        "required_version": ">=1.5,<2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "pygments",
+                        "package_name": "Pygments",
+                        "installed_version": "2.20.0",
+                        "required_version": ">=2.7.2",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "tomli",
+                        "package_name": "tomli",
+                        "installed_version": "2.4.1",
+                        "required_version": ">=1",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "pytz",
+        "package_name": "pytz",
+        "installed_version": "2022.1",
+        "required_version": "2022.1",
+        "dependencies": []
+    },
+    {
+        "key": "requests-oauthlib",
+        "package_name": "requests-oauthlib",
+        "installed_version": "1.3.1",
+        "required_version": "1.3.1",
+        "dependencies": [
+            {
+                "key": "oauthlib",
+                "package_name": "oauthlib",
+                "installed_version": "3.2.2",
+                "required_version": ">=3.0.0",
+                "dependencies": []
+            },
+            {
+                "key": "requests",
+                "package_name": "requests",
+                "installed_version": "2.31.0",
+                "required_version": ">=2.0.0",
+                "dependencies": [
+                    {
+                        "key": "certifi",
+                        "package_name": "certifi",
+                        "installed_version": "2026.2.25",
+                        "required_version": ">=2017.4.17",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "charset-normalizer",
+                        "package_name": "charset-normalizer",
+                        "installed_version": "3.4.7",
+                        "required_version": ">=2,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.7",
+                        "required_version": ">=2.5,<4",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "urllib3",
+                        "package_name": "urllib3",
+                        "installed_version": "1.26.18",
+                        "required_version": ">=1.21.1,<3",
+                        "dependencies": []
+                    }
+                ]
+            }
+        ]
+    },
+    {
+        "key": "selenium",
+        "package_name": "selenium",
+        "installed_version": "4.2.0",
+        "required_version": "4.2.0",
+        "dependencies": [
+            {
+                "key": "trio",
+                "package_name": "trio",
+                "installed_version": "0.33.0",
+                "required_version": "~=0.17",
+                "dependencies": [
+                    {
+                        "key": "attrs",
+                        "package_name": "attrs",
+                        "installed_version": "26.1.0",
+                        "required_version": ">=23.2.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "idna",
+                        "package_name": "idna",
+                        "installed_version": "3.7",
+                        "required_version": "Any",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "outcome",
+                        "package_name": "outcome",
+                        "installed_version": "1.3.0.post0",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "attrs",
+                                "package_name": "attrs",
+                                "installed_version": "26.1.0",
+                                "required_version": ">=19.2.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "sniffio",
+                        "package_name": "sniffio",
+                        "installed_version": "1.3.1",
+                        "required_version": ">=1.3.0",
+                        "dependencies": []
+                    },
+                    {
+                        "key": "sortedcontainers",
+                        "package_name": "sortedcontainers",
+                        "installed_version": "2.4.0",
+                        "required_version": "Any",
+                        "dependencies": []
+                    }
+                ]
+            },
+            {
+                "key": "trio-websocket",
+                "package_name": "trio-websocket",
+                "installed_version": "0.12.2",
+                "required_version": "~=0.9",
+                "dependencies": [
+                    {
+                        "key": "exceptiongroup",
+                        "package_name": "exceptiongroup",
+                        "installed_version": "1.3.1",
+                        "required_version": "Any",
+                        "dependencies": [
+                            {
+                                "key": "typing-extensions",
+                                "package_name": "typing_extensions",
+                                "installed_version": "4.15.0",
+                                "required_version": ">=4.6.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "outcome",
+                        "package_name": "outcome",
+                        "installed_version": "1.3.0.post0",
+                        "required_version": ">=1.2.0",
+                        "dependencies": [
+                            {
+                                "key": "attrs",
+                                "package_name": "attrs",
+                                "installed_version": "26.1.0",
+                                "required_version": ">=19.2.0",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "trio",
+                        "package_name": "trio",
+                        "installed_version": "0.33.0",
+                        "required_version": ">=0.11",
+                        "dependencies": [
+                            {
+                                "key": "attrs",
+                                "package_name": "attrs",
+                                "installed_version": "26.1.0",
+                                "required_version": ">=23.2.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "exceptiongroup",
+                                "package_name": "exceptiongroup",
+                                "installed_version": "1.3.1",
+                                "required_version": "Any",
+                                "dependencies": [
+                                    {
+                                        "key": "typing-extensions",
+                                        "package_name": "typing_extensions",
+                                        "installed_version": "4.15.0",
+                                        "required_version": ">=4.6.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "idna",
+                                "package_name": "idna",
+                                "installed_version": "3.7",
+                                "required_version": "Any",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "outcome",
+                                "package_name": "outcome",
+                                "installed_version": "1.3.0.post0",
+                                "required_version": "Any",
+                                "dependencies": [
+                                    {
+                                        "key": "attrs",
+                                        "package_name": "attrs",
+                                        "installed_version": "26.1.0",
+                                        "required_version": ">=19.2.0",
+                                        "dependencies": []
+                                    }
+                                ]
+                            },
+                            {
+                                "key": "sniffio",
+                                "package_name": "sniffio",
+                                "installed_version": "1.3.1",
+                                "required_version": ">=1.3.0",
+                                "dependencies": []
+                            },
+                            {
+                                "key": "sortedcontainers",
+                                "package_name": "sortedcontainers",
+                                "installed_version": "2.4.0",
+                                "required_version": "Any",
+                                "dependencies": []
+                            }
+                        ]
+                    },
+                    {
+                        "key": "wsproto",
+                        "package_name": "wsproto",
+                        "installed_version": "1.3.2",
+                        "required_version": ">=0.14",
+                        "dependencies": [
+                            {
+                                "key": "h11",
+                                "package_name": "h11",
+                                "installed_version": "0.16.0",
+                                "required_version": ">=0.16.0,<1",
+                                "dependencies": []
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "key": "urllib3",
+                "package_name": "urllib3",
+                "installed_version": "1.26.18",
+                "required_version": "~=1.26",
+                "dependencies": []
+            }
+        ]
+    },
+    {
+        "key": "setuptools",
+        "package_name": "setuptools",
+        "installed_version": "79.0.1",
+        "required_version": "79.0.1",
+        "dependencies": []
+    },
+    {
+        "key": "tblib",
+        "package_name": "tblib",
+        "installed_version": "1.7.0",
+        "required_version": "1.7.0",
+        "dependencies": []
+    },
+    {
+        "key": "typing",
+        "package_name": "typing",
+        "installed_version": "3.7.4.3",
+        "required_version": "3.7.4.3",
+        "dependencies": []
+    },
+    {
+        "key": "urllib3-secure-extra",
+        "package_name": "urllib3-secure-extra",
+        "installed_version": "0.1.0",
+        "required_version": "0.1.0",
+        "dependencies": []
+    },
+    {
+        "key": "wheel",
+        "package_name": "wheel",
+        "installed_version": "0.45.1",
+        "required_version": "0.45.1",
+        "dependencies": []
+    }
+]

@@ -1,0 +1,405 @@
+[
+    {
+        "GPT_time": 2.940941333770752
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6699569225311279
+    },
+    {
+        "GPT_time": 5.383663654327393
+    },
+    {
+        "command": "cat /repo/setup.py",
+        "returncode": 0,
+        "time": 0.6689789295196533
+    },
+    {
+        "GPT_time": 3.3480746746063232
+    },
+    {
+        "command": "ls -la /repo/requirements",
+        "returncode": 0,
+        "time": 0.6682033538818359
+    },
+    {
+        "command": "cat /repo/requirements/main.txt",
+        "returncode": 0,
+        "time": 0.6645379066467285
+    },
+    {
+        "GPT_time": 3.5638487339019775
+    },
+    {
+        "command": "cat /repo/requirements/dev.txt",
+        "returncode": 0,
+        "time": 0.6650655269622803
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6635246276855469
+    },
+    {
+        "command": "cat /repo/requirements/bench.txt",
+        "returncode": 0,
+        "time": 0.666388988494873
+    },
+    {
+        "command": "echo \"---\"",
+        "returncode": 0,
+        "time": 0.6635339260101318
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6662755012512207
+    },
+    {
+        "GPT_time": 6.386650562286377
+    },
+    {
+        "command": "find /repo -name \"test*.py\" -o -name \"*_test.py\" | head -20",
+        "returncode": 0,
+        "time": 0.6693329811096191
+    },
+    {
+        "GPT_time": 2.99813175201416
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6646711826324463
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 13.759227991104126
+    },
+    {
+        "GPT_time": 5.173501491546631
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/main.txt",
+        "returncode": 0,
+        "time": 0.03593564033508301
+    },
+    {
+        "GPT_time": 2.6781728267669678
+    },
+    {
+        "command": "pwd",
+        "returncode": 0,
+        "time": 0.6632888317108154
+    },
+    {
+        "command": "ls /repo/requirements/",
+        "returncode": 0,
+        "time": 0.6676414012908936
+    },
+    {
+        "GPT_time": 2.966020345687866
+    },
+    {
+        "command": "waitinglist addfile /repo/requirements/main.txt",
+        "returncode": 0,
+        "time": 0.04086804389953613
+    },
+    {
+        "GPT_time": 2.665553569793701
+    },
+    {
+        "command": "cat /repo/requirements/main.txt",
+        "returncode": 0,
+        "time": 0.6661100387573242
+    },
+    {
+        "GPT_time": 5.24072790145874
+    },
+    {
+        "command": "waitinglist add -p numpy -v \">=1.24.0\" -t pip",
+        "returncode": 0,
+        "time": 0.010692119598388672
+    },
+    {
+        "command": "waitinglist add -p cma -v \">=2.6.0\" -t pip",
+        "returncode": 0,
+        "time": 0.007233142852783203
+    },
+    {
+        "command": "waitinglist add -p bayesian-optimization -v \">=1.2.0\" -t pip",
+        "returncode": 0,
+        "time": 0.005666494369506836
+    },
+    {
+        "command": "waitinglist add -p typing_extensions -v \">=3.6.6\" -t pip",
+        "returncode": 0,
+        "time": 0.00543212890625
+    },
+    {
+        "command": "waitinglist add -p pandas -t pip",
+        "returncode": 0,
+        "time": 0.006276607513427734
+    },
+    {
+        "GPT_time": 5.711254596710205
+    },
+    {
+        "command": "waitinglist add -p black -v \"==24.3.0\" -t pip",
+        "returncode": 0,
+        "time": 0.008597612380981445
+    },
+    {
+        "command": "waitinglist add -p mypy -v \">=0.800\" -t pip",
+        "returncode": 0,
+        "time": 0.00779271125793457
+    },
+    {
+        "command": "waitinglist add -p pytest -v \">=4.3.0\" -t pip",
+        "returncode": 0,
+        "time": 0.0055675506591796875
+    },
+    {
+        "command": "waitinglist add -p pytest-cov -v \">=2.6.1\" -t pip",
+        "returncode": 0,
+        "time": 0.0058383941650390625
+    },
+    {
+        "command": "waitinglist add -p pylint -v \">=2.4.4\" -t pip",
+        "returncode": 0,
+        "time": 0.0046427249908447266
+    },
+    {
+        "command": "waitinglist add -p wheel -v \">=0.33.6\" -t pip",
+        "returncode": 0,
+        "time": 0.00464630126953125
+    },
+    {
+        "command": "waitinglist add -p setuptools -v \">=41.2.0\" -t pip",
+        "returncode": 0,
+        "time": 0.0048792362213134766
+    },
+    {
+        "GPT_time": 2.6013224124908447
+    },
+    {
+        "command": "waitinglist show",
+        "returncode": 0,
+        "time": 0.009798526763916016
+    },
+    {
+        "GPT_time": 2.1338658332824707
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 81.66583395004272
+    },
+    {
+        "GPT_time": 3.1129746437072754
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6633245944976807
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 28.152987718582153
+    },
+    {
+        "GPT_time": 6.247800588607788
+    },
+    {
+        "command": "pip show bayesian-optimization",
+        "returncode": 0,
+        "time": 1.193424940109253
+    },
+    {
+        "GPT_time": 5.239840745925903
+    },
+    {
+        "command": "pip index versions bayesian-optimization --python-version 3.10",
+        "returncode": 0,
+        "time": 1.3607268333435059
+    },
+    {
+        "GPT_time": 3.976778030395508
+    },
+    {
+        "command": "pip install -q bayesian-optimization==1.2.0",
+        "returncode": 0,
+        "time": 2.3922972679138184
+    },
+    {
+        "GPT_time": 3.9073355197906494
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6644773483276367
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 14.541216611862183
+    },
+    {
+        "GPT_time": 6.662042856216431
+    },
+    {
+        "command": "waitinglist add -p pyomo -v \"==5.7.1\" -t pip",
+        "returncode": 0,
+        "time": 0.009784460067749023
+    },
+    {
+        "command": "waitinglist add -p gym -v \"==0.24.1\" -t pip",
+        "returncode": 0,
+        "time": 0.006827831268310547
+    },
+    {
+        "command": "waitinglist add -p pyproj -t pip",
+        "returncode": 0,
+        "time": 0.007022380828857422
+    },
+    {
+        "command": "waitinglist add -p matplotlib -t pip",
+        "returncode": 0,
+        "time": 0.005011796951293945
+    },
+    {
+        "command": "waitinglist add -p hyperopt -t pip",
+        "returncode": 0,
+        "time": 0.006685972213745117
+    },
+    {
+        "command": "waitinglist add -p requests -t pip",
+        "returncode": 0,
+        "time": 0.005879640579223633
+    },
+    {
+        "GPT_time": 2.392869472503662
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 40.48383665084839
+    },
+    {
+        "GPT_time": 3.777540683746338
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6653928756713867
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 20.987635374069214
+    },
+    {
+        "GPT_time": 5.31946325302124
+    },
+    {
+        "command": "waitinglist add -p opencv-python -t pip",
+        "returncode": 0,
+        "time": 0.008051395416259766
+    },
+    {
+        "command": "waitinglist add -p cdt -t pip",
+        "returncode": 0,
+        "time": 0.007153987884521484
+    },
+    {
+        "command": "waitinglist add -p torch -t pip",
+        "returncode": 0,
+        "time": 0.004484891891479492
+    },
+    {
+        "GPT_time": 4.2957189083099365
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 244.5317986011505
+    },
+    {
+        "GPT_time": 6.65582799911499
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6643695831298828
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 61.50143480300903
+    },
+    {
+        "GPT_time": 5.327406167984009
+    },
+    {
+        "command": "apt-get update -qq",
+        "returncode": 0,
+        "time": 1.8025097846984863
+    },
+    {
+        "command": "apt-get install -y -qq libgl1-mesa-glx libglib2.0-0",
+        "returncode": 0,
+        "time": 11.377500295639038
+    },
+    {
+        "GPT_time": 2.5639147758483887
+    },
+    {
+        "command": "apt-get install -y -qq libgl1 libglib2.0-0",
+        "returncode": 0,
+        "time": 8.876823425292969
+    },
+    {
+        "GPT_time": 7.50938606262207
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6646671295166016
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 18.805524110794067
+    },
+    {
+        "GPT_time": 3.9274582862854004
+    },
+    {
+        "command": "waitinglist add -p torchvision -t pip",
+        "returncode": 0,
+        "time": 0.008945465087890625
+    },
+    {
+        "GPT_time": 2.352515935897827
+    },
+    {
+        "command": "download",
+        "returncode": 0,
+        "time": 3.654949426651001
+    },
+    {
+        "GPT_time": 2.1608505249023438
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6643702983856201
+    },
+    {
+        "command": "runtest",
+        "returncode": 0,
+        "time": 8.416532516479492
+    }
+]

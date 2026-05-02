@@ -1,0 +1,31 @@
+docutils==0.22.4
+jsonschema==4.26.0
+├── attrs [required: >=22.2.0, installed: 26.1.0]
+├── jsonschema-specifications [required: >=2023.03.6, installed: 2025.9.1]
+│   └── referencing [required: >=0.31.0, installed: 0.37.0]
+│       ├── attrs [required: >=22.2.0, installed: 26.1.0]
+│       ├── rpds-py [required: >=0.7.0, installed: 0.30.0]
+│       └── typing_extensions [required: >=4.4.0, installed: 4.15.0]
+├── referencing [required: >=0.28.4, installed: 0.37.0]
+│   ├── attrs [required: >=22.2.0, installed: 26.1.0]
+│   ├── rpds-py [required: >=0.7.0, installed: 0.30.0]
+│   └── typing_extensions [required: >=4.4.0, installed: 4.15.0]
+└── rpds-py [required: >=0.25.0, installed: 0.30.0]
+lxml==6.0.3
+pip==23.0.1
+pipdeptree==2.35.1
+└── packaging [required: >=26, installed: 26.0]
+pytest==9.0.3
+├── exceptiongroup [required: >=1, installed: 1.3.1]
+│   └── typing_extensions [required: >=4.6.0, installed: 4.15.0]
+├── iniconfig [required: >=1.0.1, installed: 2.3.0]
+├── packaging [required: >=22, installed: 26.0]
+├── pluggy [required: >=1.5,<2, installed: 1.6.0]
+├── Pygments [required: >=2.7.2, installed: 2.20.0]
+└── tomli [required: >=1, installed: 2.4.1]
+PyYAML==6.0.3
+robotframework==7.1.dev1
+setuptools==79.0.1
+wheel==0.45.1
+xmlschema==4.3.1
+└── elementpath [required: >=5.1.0,<6.0.0, installed: 5.1.1]

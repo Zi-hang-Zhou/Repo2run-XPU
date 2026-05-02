@@ -1,0 +1,228 @@
+[
+    {
+        "GPT_time": 2.6397008895874023
+    },
+    {
+        "command": "ls -la /repo",
+        "returncode": 0,
+        "time": 0.6697866916656494
+    },
+    {
+        "GPT_time": 4.083102464675903
+    },
+    {
+        "command": "cat /repo/pyproject.toml",
+        "returncode": 0,
+        "time": 0.6714260578155518
+    },
+    {
+        "GPT_time": 6.040613174438477
+    },
+    {
+        "command": "ls -la /repo/poetry.lock",
+        "returncode": 0,
+        "time": 0.16495728492736816
+    },
+    {
+        "GPT_time": 4.404254913330078
+    },
+    {
+        "command": "find /repo -name \"requirements*.txt\" -o -name \"setup.py\" -o -name \"setup.cfg\" 2>/dev/null",
+        "returncode": 0,
+        "time": 0.8801712989807129
+    },
+    {
+        "GPT_time": 3.2500813007354736
+    },
+    {
+        "command": "ls -la /repo/.github/",
+        "returncode": 0,
+        "time": 0.6653842926025391
+    },
+    {
+        "GPT_time": 2.9169294834136963
+    },
+    {
+        "command": "cat /repo/.github/workflows/*.yml",
+        "returncode": 0,
+        "time": 0.6715421676635742
+    },
+    {
+        "GPT_time": 4.889245510101318
+    },
+    {
+        "command": "cat /repo/tox.ini",
+        "returncode": 0,
+        "time": 0.6698412895202637
+    },
+    {
+        "GPT_time": 4.753652095794678
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6641483306884766
+    },
+    {
+        "command": "poetry install --with ci",
+        "returncode": 0,
+        "time": 50.23897361755371
+    },
+    {
+        "GPT_time": 4.497821569442749
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 15.610400438308716
+    },
+    {
+        "GPT_time": 5.240821123123169
+    },
+    {
+        "command": "cat /home/tools/poetryruntest.py",
+        "returncode": 0,
+        "time": 0.6682491302490234
+    },
+    {
+        "GPT_time": 5.167149066925049
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6651914119720459
+    },
+    {
+        "command": "poetry run python -c \"import django; print(django.__version__)\"",
+        "returncode": 0,
+        "time": 1.2576823234558105
+    },
+    {
+        "GPT_time": 3.9210550785064697
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6643407344818115
+    },
+    {
+        "command": "poetry run pytest --collect-only -q --disable-warnings",
+        "returncode": 0,
+        "time": 0.008874893188476562
+    },
+    {
+        "GPT_time": 3.3232803344726562
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 11.614302396774292
+    },
+    {
+        "GPT_time": 6.4241392612457275
+    },
+    {
+        "command": "ls -la /repo/poetry.lock",
+        "returncode": 0,
+        "time": 0.6682336330413818
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.664116382598877
+    },
+    {
+        "command": "poetry env info",
+        "returncode": 0,
+        "time": 1.3016705513000488
+    },
+    {
+        "GPT_time": 6.905079126358032
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6646637916564941
+    },
+    {
+        "command": "poetry run pip list | head -30",
+        "returncode": 0,
+        "time": 1.6636121273040771
+    },
+    {
+        "GPT_time": 5.542078256607056
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6642858982086182
+    },
+    {
+        "command": "poetry install --with ci,dev",
+        "returncode": 0,
+        "time": 4.033237457275391
+    },
+    {
+        "GPT_time": 4.083650588989258
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 14.754621028900146
+    },
+    {
+        "GPT_time": 5.5996129512786865
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6656146049499512
+    },
+    {
+        "command": "poetry install --with ci,dev -E postgres",
+        "returncode": 0,
+        "time": 10.63692831993103
+    },
+    {
+        "GPT_time": 5.399673700332642
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 12.836621761322021
+    },
+    {
+        "GPT_time": 11.234303951263428
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.663447380065918
+    },
+    {
+        "command": "poetry run pip index versions stripe --python-version 3.10 2>&1 | head -20",
+        "returncode": 0,
+        "time": 2.428311347961426
+    },
+    {
+        "GPT_time": 6.6317713260650635
+    },
+    {
+        "command": "cd /repo",
+        "returncode": 0,
+        "time": 0.6645793914794922
+    },
+    {
+        "command": "poetry run pip install -q stripe==8.0.0",
+        "returncode": 0,
+        "time": 3.0645389556884766
+    },
+    {
+        "GPT_time": 2.339412212371826
+    },
+    {
+        "command": "poetryruntest",
+        "returncode": 0,
+        "time": 4.600037574768066
+    }
+]
